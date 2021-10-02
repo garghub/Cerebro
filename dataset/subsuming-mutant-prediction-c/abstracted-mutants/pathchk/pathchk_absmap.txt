@@ -1,0 +1,97 @@
+usage	,	fn_1
+_POSIX_NAME_MAX	,	vl_25
+"\(NL)Diagnose invalid or unportable file names.\n\(NL)\n\(NL)  -p                  check for most POSIX systems\n\(NL)  -P                  check for empty names and leading \"-\"\n\(NL)      --portability   check for all POSIX systems (equivalent to -p -P)\n\(NL)"	,	lr_2
+name_max	,	vr_27
+filelen	,	vr_10
+quote	,	fn_12
+len	,	vr_16
+_GL_ATTRIBUTE_PURE	,	tp_3
+errno	,	vl_18
+optc	,	vr_7
+textdomain	,	fn_7
+VERSION_OPTION_DESCRIPTION	,	vl_4
+known_name_max	,	vr_28
+"of file name component %s"	,	lr_18
+MIN	,	fn_20
+SIZE_MAX	,	vl_27
+set_program_name	,	fn_5
+size	,	vr_23
+LC_ALL	,	vl_5
+EXIT_FAILURE	,	vl_14
+EXIT_SUCCESS	,	vl_1
+invalid	,	vr_12
+"limit %lu exceeded by length %lu of file name %s"	,	lr_16
+maxsize	,	vr_22
+SSIZE_MAX	,	vl_23
+status	,	vr_1
+""	,	lr_3
+bindtextdomain	,	fn_6
+PROGRAM_NAME	,	vl_12
+PATH_MAX_MINIMUM	,	vl_20
+"abcdefghijklmnopqrstuvwxyz"	,	lr_9
+_POSIX_PATH_MAX	,	vl_21
+"%s: unable to determine maximum file name length"	,	lr_15
+file	,	vr_8
+mbstate_t	,	tp_2
+pathconf	,	fn_19
+"empty file name"	,	lr_12
+"."	,	lr_14
+component_start	,	fn_16
+"Usage: %s [OPTION]... NAME...\n"	,	lr_1
+HELP_OPTION_DESCRIPTION	,	vl_3
+st	,	vr_21
+stat	,	vr_20
+c	,	vr_29
+getopt_long	,	fn_8
+f	,	vr_15
+component_len	,	fn_17
+AUTHORS	,	vl_13
+validate_file_name	,	fn_10
+ENOENT	,	vl_19
+p	,	vr_9
+emit_try_help	,	fn_2
+"ABCDEFGHIJKLMNOPQRSTUVWXYZ"	,	lr_8
+"/"	,	lr_7
+"leading '-' in a component of file name %s"	,	lr_6
+_PC_PATH_MAX	,	vl_22
+"%s"	,	lr_13
+optind	,	vl_15
+program_name	,	vl_2
+"0123456789._-"	,	lr_10
+MB_LEN_MAX	,	vl_17
+size_t	,	tp_1
+dir	,	vr_24
+check_basic_portability	,	vr_5
+quotearg_n_style_mem	,	fn_14
+PACKAGE	,	vl_6
+"missing operand"	,	lr_5
+LOCALEDIR	,	vl_7
+close_stdout	,	vl_8
+check_extra_portability	,	vr_6
+"+pP"	,	lr_4
+portable_chars_only	,	fn_13
+case_GETOPT_VERSION_CHAR	,	fn_9
+maxlen	,	vr_25
+no_leading_hyphen	,	fn_11
+argv	,	vr_3
+validlen	,	vr_11
+mbstate	,	vr_13
+PORTABILITY_OPTION	,	vl_10
+emit_ancillary_info	,	fn_3
+ok	,	vr_4
+argc	,	vr_2
+NAME_MAX_MINIMUM	,	vl_24
+"limit %lu exceeded by length %lu "	,	lr_17
+"nonportable character %s in file name %s"	,	lr_11
+lstat	,	fn_18
+start	,	vr_17
+length	,	vr_26
+initialize_main	,	fn_4
+locale_quoting_style	,	vl_16
+_PC_NAME_MAX	,	vl_26
+charlen	,	vr_14
+quote_n	,	fn_15
+file_exists	,	vr_19
+longopts	,	vl_9
+check_component_lengths	,	vr_18
+case_GETOPT_HELP_CHAR	,	vl_11

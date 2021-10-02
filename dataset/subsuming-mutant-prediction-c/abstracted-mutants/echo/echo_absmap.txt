@@ -1,0 +1,51 @@
+do_v9	,	vr_7
+usage	,	fn_1
+program_name	,	vl_2
+size_t	,	tp_1
+just_echo	,	lb_1
+Version	,	vl_13
+PACKAGE	,	vl_9
+LOCALEDIR	,	vl_10
+display_return	,	vr_5
+"\(NL)  -e             enable interpretation of backslash escapes (default)\n\(NL)  -E             disable interpretation of backslash escapes\n"	,	lr_3
+close_stdout	,	vl_11
+textdomain	,	fn_10
+VERSION_OPTION_DESCRIPTION	,	vl_5
+"\(NL)\n\(NL)If -e is in effect, the following sequences are recognized:\n\(NL)\n\(NL)"	,	lr_5
+"\(NL)Usage: %s [SHORT-OPTION]... [STRING]...\n\(NL)  or:  %s LONG-OPTION\n\(NL)"	,	lr_1
+set_program_name	,	fn_8
+LC_ALL	,	vl_8
+EXIT_SUCCESS	,	vl_1
+version_etc	,	fn_11
+"\(NL)  \\\\      backslash\n\(NL)  \\a      alert (BEL)\n\(NL)  \\b      backspace\n\(NL)  \\c      produce no further output\n\(NL)  \\e      escape\n\(NL)  \\f      form feed\n\(NL)  \\n      new line\n\(NL)  \\r      carriage return\n\(NL)  \\t      horizontal tab\n\(NL)  \\v      vertical tab\n\(NL)"	,	lr_6
+status	,	vr_1
+""	,	lr_10
+STREQ	,	fn_6
+bindtextdomain	,	fn_9
+PROGRAM_NAME	,	vl_7
+argv	,	vr_4
+N_	,	fn_3
+"\(NL)  \\0NNN   byte with octal value NNN (1 to 3 digits)\n\(NL)  \\xHH    byte with hexadecimal value HH (1 to 2 digits)\n\(NL)"	,	lr_7
+emit_ancillary_info	,	fn_4
+DEFAULT_ECHO_TO_XPG	,	vl_3
+not_an_escape	,	lb_2
+hextobin	,	fn_5
+"\(NL)Echo the STRING(s) to standard output.\n\(NL)\n\(NL)  -n             do not output the trailing newline\n\(NL)"	,	lr_2
+HELP_OPTION_DESCRIPTION	,	vl_4
+argc	,	vr_3
+temp	,	vr_8
+c	,	vr_2
+ch	,	vr_11
+"POSIXLY_CORRECT"	,	lr_8
+USAGE_BUILTIN_WARNING	,	vl_6
+i	,	vr_9
+initialize_main	,	fn_7
+AUTHORS	,	vl_14
+"--help"	,	lr_11
+"-n"	,	lr_9
+emit_try_help	,	fn_2
+"--version"	,	lr_12
+s	,	vr_10
+allow_options	,	vr_6
+PACKAGE_NAME	,	vl_12
+"\(NL)  -e             enable interpretation of backslash escapes\n\(NL)  -E             disable interpretation of backslash escapes (default)\n"	,	lr_4

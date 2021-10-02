@@ -1,0 +1,118 @@
+opt_fileno	,	vr_24
+usage	,	fn_3
+optarg	,	vl_19
+X_OK	,	vl_11
+file_name_concat	,	fn_11
+PKGLIBEXECDIR	,	vl_15
+path	,	vr_8
+quote	,	fn_17
+LONGINT_OVERFLOW	,	vl_3
+set_LD_PRELOAD	,	fn_14
+"_STDBUF_"	,	lr_19
+libstdbuf	,	vr_16
+errno	,	vl_4
+optc	,	vl_20
+env_set	,	vr_19
+var	,	vr_21
+execvp	,	fn_29
+textdomain	,	fn_23
+VERSION_OPTION_DESCRIPTION	,	vl_9
+"\n\(NL)NOTE: If COMMAND adjusts the buffering of its standard streams ('tee' does\n\(NL)for e.g.) then that will override corresponding settings changed by 'stdbuf'.\n\(NL)Also some filters (like 'dd' and 'cat' etc.) don't use streams for I/O,\n\(NL)and are thus unaffected by 'stdbuf' settings.\n\(NL)"	,	lr_8
+str	,	vr_1
+"PATH"	,	lr_10
+SIZE_MAX	,	vl_2
+size	,	vr_2
+set_program_name	,	fn_21
+LC_ALL	,	vl_22
+EXIT_SUCCESS	,	vl_6
+xstrtoumax	,	fn_2
+status	,	vr_6
+strtol_error	,	vr_4
+""	,	lr_21
+access	,	fn_12
+bindtextdomain	,	fn_22
+PROGRAM_NAME	,	vl_28
+"\n\(NL)If MODE is '0' the corresponding stream will be unbuffered.\n\(NL)"	,	lr_6
+"LD_PRELOAD"	,	lr_12
+sb	,	vr_18
+EXIT_CANNOT_INVOKE	,	vl_34
+arg	,	vr_7
+LIB_NAME	,	vl_16
+"invalid mode %s"	,	lr_25
+asprintf	,	fn_15
+HELP_OPTION_DESCRIPTION	,	vl_8
+xreadlink	,	fn_9
+EXIT_ENOENT	,	vl_33
+stat	,	vr_17
+c	,	vr_11
+STDOUT_FILENO	,	vl_14
+e	,	vr_5
+getopt_long	,	fn_25
+xstrdup	,	fn_10
+i	,	vr_20
+AUTHORS	,	vl_29
+"\(NL)Run COMMAND, with modified buffering operations for its standard streams.\n\(NL)"	,	lr_3
+ENOENT	,	vl_32
+emit_try_help	,	fn_4
+old_libs	,	vr_13
+"failed to run command %s"	,	lr_28
+LD_PRELOAD	,	vr_14
+xalloc_die	,	fn_16
+c_isspace	,	fn_26
+"+i:o:e:"	,	lr_22
+parse_size	,	fn_1
+"you must specify a buffering mode option"	,	lr_27
+search_path	,	vr_15
+"%s%c=L"	,	lr_18
+optind	,	vl_30
+program_name	,	vl_7
+"failed to find %s"	,	lr_14
+"LD_PRELOAD=%s"	,	lr_16
+size_t	,	tp_1
+dir	,	vr_9
+uintmax_t	,	tp_2
+PACKAGE	,	vl_23
+"missing operand"	,	lr_26
+LOCALEDIR	,	vl_24
+PKGLIBDIR	,	vl_31
+"failed to update the environment with %s"	,	lr_17
+ret	,	vr_12
+"Usage: %s OPTION... COMMAND\n"	,	lr_2
+STDIN_FILENO	,	vl_13
+set_program_path	,	fn_7
+dir_name	,	fn_8
+close_stdout	,	vl_25
+PRIuMAX	,	vl_21
+LONGINT_OK	,	vl_1
+tmp_size	,	vr_3
+set_libstdbuf_options	,	fn_18
+case_GETOPT_VERSION_CHAR	,	fn_28
+stdbuf	,	vl_18
+"/proc/self/exe"	,	lr_9
+STREQ	,	fn_27
+"line buffering stdin is meaningless"	,	lr_23
+ARRAY_CARDINALITY	,	fn_19
+":"	,	lr_11
+exit_status	,	vr_25
+argv	,	vr_23
+"%s%c=%"	,	lr_20
+emit_ancillary_info	,	fn_6
+candidate	,	vr_10
+"%s/%s"	,	lr_13
+initialize_exit_failure	,	fn_24
+optc_to_fileno	,	fn_13
+"EGkKMPTYZ0"	,	lr_1
+emit_mandatory_arg_note	,	fn_5
+STDERR_FILENO	,	vl_12
+argc	,	vr_22
+"\n\(NL)If MODE is 'L' the corresponding stream will be line buffered.\n\(NL)This option is invalid with standard input.\n"	,	lr_5
+program_path	,	vl_10
+"\(NL)  -i, --input=MODE   adjust standard input stream buffering\n\(NL)  -o, --output=MODE  adjust standard output stream buffering\n\(NL)  -e, --error=MODE   adjust standard error stream buffering\n\(NL)"	,	lr_4
+initialize_main	,	fn_20
+EOVERFLOW	,	vl_5
+"LD_PRELOAD=%s:%s"	,	lr_15
+"L"	,	lr_24
+longopts	,	vl_26
+"\n\(NL)Otherwise MODE is a number which may be followed by one of the following:\n\(NL)KB 1000, K 1024, MB 1000*1000, M 1024*1024, and so on for G, T, P, E, Z, Y.\n\(NL)In this case the corresponding stream will be fully buffered with the buffer\n\(NL)size set to MODE bytes.\n\(NL)"	,	lr_7
+case_GETOPT_HELP_CHAR	,	vl_27
+EXIT_CANCELED	,	vl_17

@@ -1,0 +1,129 @@
+"Usage: %s OPTION... FILE...\n"	,	lr_2
+usage	,	fn_3
+optarg	,	vl_26
+"EgGkKmMPtTYZ0"	,	lr_1
+rsize	,	vr_10
+to_uchar	,	fn_22
+quote	,	fn_10
+LONGINT_OVERFLOW	,	vl_4
+"\n\(NL)SIZE may also be prefixed by one of the following modifying characters:\n\(NL)'+' extend by, '-' reduce by, '&lt;' at most, '&gt;' at least,\n\(NL)'/' round down to multiple of, '%' round up to multiple of.\n"	,	lr_7
+"cannot stat %s"	,	lr_30
+got_size	,	vr_22
+" bytes"	,	lr_17
+rm_rel	,	vl_28
+"\(NL)  -c, --no-create        do not create any files\n\(NL)"	,	lr_4
+fname	,	vr_8
+errno	,	vl_5
+textdomain	,	fn_20
+"\(NL)  -r, --reference=RFILE  base size on RFILE\n\(NL)  -s, --size=SIZE        set or adjust the file size by SIZE bytes\n"	,	lr_6
+VERSION_OPTION_DESCRIPTION	,	vl_10
+nsize	,	vr_14
+str	,	vr_1
+"overflow rounding up size of file %s"	,	lr_14
+MIN	,	fn_15
+size	,	vr_2
+set_program_name	,	fn_18
+LC_ALL	,	vl_19
+EXIT_FAILURE	,	vl_27
+EXIT_SUCCESS	,	vl_7
+"cor:s:"	,	lr_19
+rm_rup	,	vl_17
+ref_file	,	vl_25
+status	,	vr_6
+strtol_error	,	vr_3
+""	,	lr_18
+oflags	,	vr_26
+bindtextdomain	,	fn_19
+"you must specify either %s or %s"	,	lr_23
+MAX	,	fn_14
+PROGRAM_NAME	,	vl_30
+O_NONBLOCK	,	vl_36
+" * %"	,	lr_10
+parse_len	,	fn_1
+sb	,	vr_13
+rel_mode_t	,	tp_3
+OFF_T_MIN	,	vl_2
+"overflow extending size of file %s"	,	lr_15
+rel_mode	,	vr_11
+close	,	fn_26
+HELP_OPTION_DESCRIPTION	,	vl_9
+stat	,	vr_12
+c	,	vr_25
+OFF_T_MAX	,	vl_3
+e	,	vr_4
+blksize	,	vr_15
+getopt_long	,	fn_21
+"failed to close %s"	,	lr_32
+fstat	,	fn_9
+AUTHORS	,	vl_31
+ENOENT	,	vl_38
+file_size	,	vr_17
+"missing file operand"	,	lr_29
+SEEK_END	,	vl_13
+emit_try_help	,	fn_4
+O_RDONLY	,	vl_33
+PRIdMAX	,	vl_12
+"multiple relative modifiers specified"	,	lr_20
+ftruncate	,	fn_16
+"overflow in %"	,	lr_9
+ssize	,	vr_9
+open	,	fn_25
+"cannot open %s for writing"	,	lr_31
+optind	,	vl_32
+O_CREAT	,	vl_35
+program_name	,	vl_8
+"division by zero"	,	lr_22
+"--size"	,	lr_24
+uintmax_t	,	tp_4
+"cannot fstat %s"	,	lr_8
+overflow	,	vr_19
+PACKAGE	,	vl_20
+"--reference"	,	lr_25
+LOCALEDIR	,	vl_21
+"--io-blocks"	,	lr_28
+do_ftruncate	,	fn_8
+IF_LINT	,	vr_24
+"you must specify a relative %s with %s"	,	lr_26
+intmax_t	,	tp_2
+"%s was specified but %s was not"	,	lr_27
+emit_size_note	,	fn_6
+close_stdout	,	vl_22
+"\(NL)Shrink or extend the size of each FILE to the specified size\n\(NL)\n\(NL)A FILE argument that does not exist is created.\n\(NL)\n\(NL)If a FILE is larger than the specified size, the extra data is lost.\n\(NL)If a FILE is shorter, it is extended and the extended part (hole)\n\(NL)reads as zero bytes.\n\(NL)"	,	lr_3
+" byte blocks for file %s"	,	lr_11
+"invalid number %s"	,	lr_21
+"failed to truncate %s at %"	,	lr_16
+ref_fd	,	vr_27
+LONGINT_OK	,	vl_1
+"cannot get the size of %s"	,	lr_13
+fsize	,	vr_16
+file_end	,	vr_28
+xstrtoimax	,	fn_2
+tmp_size	,	vr_5
+usable_st_size	,	fn_12
+case_GETOPT_VERSION_CHAR	,	fn_23
+MODE_RW_UGO	,	vl_37
+fd	,	vr_7
+block_mode	,	vl_11
+errors	,	vr_23
+ST_BLKSIZE	,	fn_11
+lseek	,	fn_13
+rm_rdn	,	vl_16
+argv	,	vr_21
+st_size	,	vr_18
+emit_ancillary_info	,	fn_7
+rm_max	,	vl_15
+emit_mandatory_arg_note	,	fn_5
+rm_abs	,	vl_18
+"\(NL)  -o, --io-blocks        treat SIZE as number of IO blocks instead of bytes\n\(NL)"	,	lr_5
+argc	,	vr_20
+no_create	,	vl_24
+"%s has unusable, apparently negative size"	,	lr_12
+off_t	,	tp_1
+initialize_main	,	fn_17
+saved_errno	,	vr_29
+EOVERFLOW	,	vl_6
+quote_n	,	fn_24
+rm_min	,	vl_14
+longopts	,	vl_23
+O_WRONLY	,	vl_34
+case_GETOPT_HELP_CHAR	,	vl_29

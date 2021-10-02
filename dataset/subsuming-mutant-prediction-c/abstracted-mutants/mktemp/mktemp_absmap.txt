@@ -1,0 +1,97 @@
+tmpl	,	vr_5
+GT_FILE	,	vl_6
+usage	,	fn_1
+x_len	,	vr_7
+optarg	,	vl_15
+file_name_concat	,	fn_23
+"invalid template, %s; with --tmpdir,"	,	lr_18
+gen_tempname_len	,	fn_6
+n_args	,	vr_15
+quote	,	fn_18
+len	,	vr_3
+errno	,	vl_22
+x_count	,	vr_21
+textdomain	,	fn_15
+VERSION_OPTION_DESCRIPTION	,	vl_4
+lint	,	vr_28
+create_directory	,	vr_20
+set_program_name	,	fn_13
+EXIT_FAILURE	,	vl_10
+LC_ALL	,	vl_11
+"TMPDIR"	,	lr_15
+EXIT_SUCCESS	,	vl_1
+status	,	vr_1
+template	,	vr_16
+""	,	lr_9
+bindtextdomain	,	fn_14
+PROGRAM_NAME	,	vl_18
+"\(NL)  -p DIR, --tmpdir[=DIR]  interpret TEMPLATE relative to DIR; if DIR is not\n\(NL)                        specified, use $TMPDIR if set, else /tmp.  With\n\(NL)                        this option, TEMPLATE must not be an absolute name;\n\(NL)                        unlike with -t, TEMPLATE may contain slashes, but\n\(NL)                        mktemp creates only the final component\n\(NL)"	,	lr_7
+close_stream	,	fn_10
+"\(NL)Create a temporary file or directory, safely, and print its name.\n\(NL)TEMPLATE must contain at least 3 consecutive 'X's in last component.\n\(NL)If TEMPLATE is not specified, use tmp.XXXXXXXXXX, and --tmpdir is implied.\n\(NL)"	,	lr_2
+dest_name	,	vr_23
+"invalid template, %s, contains directory separator"	,	lr_17
+"dp:qtuV"	,	lr_10
+close	,	fn_24
+HELP_OPTION_DESCRIPTION	,	vl_3
+c	,	vr_14
+"too few X's in template %s"	,	lr_14
+err	,	vr_25
+getopt_long	,	fn_16
+xstrdup	,	fn_20
+"/tmp"	,	lr_16
+AUTHORS	,	vl_19
+n	,	vr_4
+emit_try_help	,	fn_2
+s	,	vr_2
+"\n"	,	lr_4
+"with --suffix, template %s must end in X"	,	lr_12
+GT_NOCREATE	,	vl_5
+optind	,	vl_20
+program_name	,	vl_2
+count_consecutive_X_s	,	fn_4
+size_t	,	tp_1
+suffix_len	,	vr_22
+xcharalloc	,	fn_19
+suffix	,	vr_17
+maybe_close_stdout	,	fn_8
+PACKAGE	,	vl_12
+_exit	,	fn_11
+LOCALEDIR	,	vl_13
+default_template	,	vl_21
+"\(NL)  -t                  interpret TEMPLATE as a single file name component,\n\(NL)                        relative to a directory: $TMPDIR, if set; else the\n\(NL)                        directory specified via -p; else /tmp [deprecated]\n\(NL)"	,	lr_8
+"Usage: %s [OPTION]... [TEMPLATE]\n"	,	lr_1
+"failed to create directory via template %s"	,	lr_20
+"\(NL)      --suffix=SUFF   append SUFF to TEMPLATE; SUFF must not contain a slash.\n\(NL)                        This option is implied if TEMPLATE does not end in X\n\(NL)"	,	lr_6
+close_stdout	,	fn_9
+stderr	,	vl_9
+mkdtemp_len	,	fn_7
+case_GETOPT_VERSION_CHAR	,	fn_17
+dest_dir_arg	,	vr_12
+mkstemp_len	,	fn_5
+dry_run	,	vr_8
+"\(NL)Files are created u+rw, and directories u+rwx, minus umask restrictions.\n\(NL)"	,	lr_3
+stdout_closed	,	vl_8
+fd	,	vr_26
+suff_len	,	vr_6
+" it may not be absolute"	,	lr_19
+deprecated_t_option	,	vr_19
+IS_ABSOLUTE_FILE_NAME	,	fn_22
+"\(NL)  -d, --directory     create a directory, not a file\n\(NL)  -u, --dry-run       do not create anything; merely print a name (unsafe)\n\(NL)  -q, --quiet         suppress diagnostics about file/dir-creation failure\n\(NL)"	,	lr_5
+use_dest_dir	,	vr_18
+argv	,	vr_10
+emit_ancillary_info	,	fn_3
+suppress_file_err	,	vr_13
+"too many templates"	,	lr_11
+argc	,	vr_9
+last_component	,	fn_21
+"failed to create file via template %s"	,	lr_21
+dest_dir	,	vr_11
+initialize_main	,	fn_12
+env	,	vr_24
+saved_errno	,	vr_27
+SUFFIX_OPTION	,	vl_16
+GT_DIR	,	vl_7
+"invalid suffix %s, contains directory separator"	,	lr_13
+"write error"	,	lr_22
+longopts	,	vl_14
+case_GETOPT_HELP_CHAR	,	vl_17

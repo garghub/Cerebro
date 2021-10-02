@@ -1,0 +1,45 @@
+"\(NL)Usage: %s NUMBER[SUFFIX]...\n\(NL)  or:  %s OPTION\n\(NL)Pause for NUMBER seconds.  SUFFIX may be 's' for seconds (the default),\n\(NL)'m' for minutes, 'h' for hours or 'd' for days.  Unlike most implementations\n\(NL)that require NUMBER be an integer, here NUMBER may be an arbitrary floating\n\(NL)point number.  Given two or more arguments, pause for the amount of time\n\(NL)specified by the sum of their values.\n\(NL)\n\(NL)"	,	lr_1
+""	,	lr_2
+"invalid time interval %s"	,	lr_4
+bindtextdomain	,	fn_7
+PROGRAM_NAME	,	vl_9
+optind	,	vl_14
+usage	,	fn_1
+program_name	,	vl_2
+argv	,	vr_6
+c_strtod	,	vl_15
+emit_ancillary_info	,	fn_3
+seconds	,	vr_8
+quote	,	fn_12
+Version	,	vl_11
+PACKAGE	,	vl_6
+apply_suffix	,	fn_4
+"missing operand"	,	lr_3
+LOCALEDIR	,	vl_7
+ok	,	vr_9
+HELP_OPTION_DESCRIPTION	,	vl_3
+"cannot read realtime clock"	,	lr_5
+argc	,	vr_5
+suffix_char	,	vr_3
+errno	,	vl_16
+getopt_long	,	fn_10
+multiplier	,	vr_4
+close_stdout	,	vl_8
+i	,	vr_7
+initialize_main	,	fn_5
+AUTHORS	,	vl_12
+textdomain	,	fn_8
+VERSION_OPTION_DESCRIPTION	,	vl_4
+xnanosleep	,	fn_13
+p	,	vr_11
+xstrtod	,	fn_11
+emit_try_help	,	fn_2
+s	,	vr_10
+set_program_name	,	fn_6
+LC_ALL	,	vl_5
+EXIT_FAILURE	,	vl_13
+EXIT_SUCCESS	,	vl_1
+x	,	vr_2
+parse_long_options	,	fn_9
+PACKAGE_NAME	,	vl_10
+status	,	vr_1

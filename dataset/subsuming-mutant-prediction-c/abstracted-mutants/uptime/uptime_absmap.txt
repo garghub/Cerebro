@@ -1,0 +1,109 @@
+ngettext	,	fn_10
+usage	,	fn_15
+HAVE_PROC_UPTIME	,	vr_14
+IS_USER_PROCESS	,	fn_6
+uphours	,	vr_8
+quote	,	fn_24
+tmn	,	vr_11
+"%lu users"	,	lr_11
+options	,	vr_27
+result_len	,	vr_23
+TYPE_MAXIMUM	,	fn_3
+defined	,	vl_3
+HAVE_SYSCTL	,	vl_2
+errno	,	vl_10
+read_utmp	,	fn_13
+textdomain	,	fn_21
+print_uptime	,	fn_1
+VERSION_OPTION_DESCRIPTION	,	vl_16
+sysctl	,	fn_4
+KERN_BOOTTIME	,	vl_5
+filename	,	vr_26
+set_program_name	,	fn_19
+EXIT_FAILURE	,	vl_9
+LC_ALL	,	vl_17
+"couldn't get boot time"	,	lr_3
+EXIT_SUCCESS	,	vl_11
+UT_TIME_MEMBER	,	fn_8
+status	,	vr_30
+""	,	lr_20
+fprintftime	,	fn_9
+bindtextdomain	,	fn_20
+STRUCT_UTMP	,	tp_2
+PROGRAM_NAME	,	vl_21
+n_users	,	vr_28
+READ_UTMP_CHECK_PIDS	,	vl_26
+"\(NL)Print the current time, the length of time the system has been up,\n\(NL)the number of users on the system, and the average number of jobs\n\(NL)in the run queue over the last 1, 5 and 15 minutes."	,	lr_16
+result	,	vr_22
+CTL_KERN	,	vl_4
+time_now	,	vr_5
+si	,	vr_25
+WTMP_FILE	,	vl_14
+upsecs	,	vr_19
+FILE	,	tp_4
+" ??:????  "	,	lr_5
+" %H:%M%P  "	,	lr_4
+HELP_OPTION_DESCRIPTION	,	vl_15
+b	,	vr_17
+HAVE_UTMP_H	,	vl_8
+getopt_long	,	fn_23
+loads	,	vr_13
+HAVE_UTMPX_H	,	vl_7
+AUTHORS	,	vl_24
+n	,	vr_1
+time_t	,	tp_3
+updays	,	vr_7
+buf	,	vr_16
+emit_try_help	,	fn_16
+__linux__	,	vr_31
+",  load average: %.2f"	,	lr_12
+upmins	,	vr_9
+tm	,	vr_10
+"\n"	,	lr_18
+"%s"	,	lr_14
+UT_TYPE_BOOT_TIME	,	fn_7
+optind	,	vl_25
+program_name	,	vl_12
+tv_sec	,	vr_24
+size_t	,	tp_1
+c_strtod	,	fn_2
+"r"	,	lr_2
+Version	,	vl_23
+PACKAGE	,	vl_18
+LOCALEDIR	,	vl_19
+timeval	,	vr_21
+IF_LINT	,	fn_14
+UTMP_FILE	,	vl_13
+utmp_buf	,	vr_29
+this	,	vr_2
+close_stdout	,	vl_20
+"up %ld days %2d:%02d,  "	,	lr_8
+entries	,	vr_3
+end_ptr	,	vr_18
+getloadavg	,	fn_12
+select_plural	,	fn_11
+", %.2f"	,	lr_13
+"\(NL)If FILE is not specified, use %s.  %s as FILE is common.\n\(NL)\n"	,	lr_19
+"%lu user"	,	lr_10
+"Usage: %s [OPTION]... [FILE]\n"	,	lr_15
+"  \(NL)Processes in\n\(NL)an uninterruptible sleep state also contribute to the load average.\n"	,	lr_17
+request	,	vr_20
+system_info	,	tp_5
+HAVE_OS_H	,	vl_6
+fp	,	vr_15
+"extra operand %s"	,	lr_21
+argv	,	vr_33
+emit_ancillary_info	,	fn_17
+avg	,	vr_12
+"up ???? days ??:??,  "	,	lr_6
+get_system_info	,	fn_5
+argc	,	vr_32
+"up  %2d:%02d,  "	,	lr_9
+initialize_main	,	fn_18
+"/proc/uptime"	,	lr_1
+uptime	,	vr_6
+boot_time	,	vr_4
+"up %ld day %2d:%02d,  "	,	lr_7
+parse_long_options	,	fn_22
+PACKAGE_NAME	,	vl_22
+BUFSIZ	,	vl_1

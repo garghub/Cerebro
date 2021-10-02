@@ -1,0 +1,155 @@
+setfileconat	,	fn_11
+FTS_DNR	,	vl_16
+usage	,	fn_26
+fts_path	,	vr_16
+optarg	,	vl_35
+"fts_close failed"	,	lr_10
+lgetfileconat	,	fn_7
+quote	,	fn_8
+FTS_PHYSICAL	,	vl_23
+fts_errno	,	vr_24
+"fts_read failed"	,	lr_9
+context	,	vr_1
+FTS_SKIP	,	vl_11
+bit_flags	,	vr_27
+"invalid context: %s"	,	lr_26
+"-R --dereference requires either -H or -L"	,	lr_22
+getfileconat	,	fn_6
+"\(NL)  -v, --verbose          output a diagnostic for every file processed\n\(NL)"	,	lr_18
+preserve_root	,	vr_32
+comp	,	tp_4
+errno	,	vl_1
+fts_statp	,	vr_20
+context_t	,	tp_2
+optc	,	vr_35
+DEREFERENCE_OPTION	,	vl_31
+"-R -h requires -P"	,	lr_23
+compute_context_from_mask	,	fn_1
+REFERENCE_FILE_OPTION	,	vl_34
+textdomain	,	fn_33
+VERSION_OPTION_DESCRIPTION	,	vl_22
+fail	,	vr_12
+"\(NL)\n\(NL)The following options modify how a hierarchy is traversed when the -R\n\(NL)option is also specified.  If more than one is specified, only the final\n\(NL)one takes effect.\n\(NL)\n\(NL)  -H                     if a command line argument is a symbolic link\n\(NL)                         to a directory, traverse it\n\(NL)  -L                     traverse every symbolic link to a directory\n\(NL)                         encountered\n\(NL)  -P                     do not traverse any symbolic links (default)\n\(NL)\n\(NL)"	,	lr_19
+set_program_name	,	fn_31
+dev_ino	,	vr_36
+LC_ALL	,	vl_24
+EXIT_FAILURE	,	vl_43
+"cannot access %s"	,	lr_5
+EXIT_SUCCESS	,	vl_19
+quotearg_colon	,	fn_3
+file_context	,	vr_8
+ignore_value	,	fn_19
+NO_PRESERVE_ROOT	,	vl_32
+status	,	vr_11
+""	,	lr_20
+"failed to get security context of %s"	,	lr_2
+context_str	,	fn_9
+FTS_ERR	,	vl_15
+C	,	tp_3
+role	,	vl_4
+new_context	,	vr_4
+FTS	,	tp_5
+bindtextdomain	,	fn_32
+PROGRAM_NAME	,	vl_41
+context_string	,	vr_9
+range	,	vl_3
+reference_file	,	vr_34
+specified_type	,	vl_38
+file	,	vr_7
+fts_number	,	vr_23
+FTS_NOSTAT	,	vl_45
+FTSENT	,	tp_6
+HELP_OPTION_DESCRIPTION	,	vl_21
+ref_context	,	vr_30
+stat	,	vr_18
+fts	,	vr_13
+"\(NL)  -u, --user=USER        set user USER in the target security context\n\(NL)  -r, --role=ROLE        set role ROLE in the target security context\n\(NL)  -t, --type=TYPE        set type TYPE in the target security context\n\(NL)  -l, --range=RANGE      set range RANGE in the target security context\n\(NL)"	,	lr_14
+getopt_long	,	fn_34
+change_file_context	,	fn_5
+AUTHORS	,	vl_42
+affect_symlink_referent	,	vl_6
+"failed to get attributes of %s"	,	lr_28
+SET_COMPONENT	,	mc_1
+verbose	,	vl_18
+context_free	,	fn_4
+component_specified	,	vr_33
+emit_try_help	,	fn_27
+"/"	,	lr_29
+FTS_LOGICAL	,	vl_30
+"failed to create security context: %s"	,	lr_1
+"\(NL)      --reference=RFILE  use RFILE's security context rather than specifying\n\(NL)                         a CONTEXT value\n\(NL)"	,	lr_16
+specified_role	,	vl_37
+"%s"	,	lr_6
+FTS_DC	,	vl_17
+process_file	,	fn_15
+optind	,	vl_44
+program_name	,	vl_20
+fts_read	,	fn_20
+fts_cwd_fd	,	vr_25
+"changing security context of %s\n"	,	lr_8
+"missing operand after %s"	,	lr_25
+long_options	,	vl_28
+freecon	,	fn_14
+xfts_open	,	fn_24
+PACKAGE	,	vl_25
+ROOT_DEV_INO_CHECK	,	fn_16
+"missing operand"	,	lr_24
+LOCALEDIR	,	vl_26
+specified_range	,	vl_39
+ret	,	vr_2
+dev_ino_buf	,	vr_37
+cycle_warning_required	,	fn_21
+PRESERVE_ROOT	,	vl_33
+fts_set	,	fn_18
+close_stdout	,	vl_27
+file_full_name	,	vr_15
+get_root_dev_ino	,	fn_37
+recurse	,	vl_9
+case_GETOPT_VERSION_CHAR	,	fn_35
+files	,	vr_26
+fd	,	vr_6
+errors	,	vr_10
+root_dev_ino	,	vl_10
+dereference	,	vr_31
+FTS_COMFOLLOW	,	vl_29
+emit_cycle_warning	,	fn_22
+STREQ	,	fn_10
+"\(NL)Usage: %s [OPTION]... CONTEXT FILE...\n\(NL)  or:  %s [OPTION]... [-u USER] [-r ROLE] [-l RANGE] [-t TYPE] FILE...\n\(NL)  or:  %s [OPTION]... --reference=RFILE FILE...\n\(NL)"	,	lr_11
+FTS_NS	,	vl_13
+FTS_AGAIN	,	vl_14
+"\(NL)Change the SELinux security context of each FILE to CONTEXT.\n\(NL)With --reference, change the security context of each FILE to that of RFILE.\n\(NL)"	,	lr_12
+fts_accpath	,	vr_17
+FTS_D	,	vl_8
+file_stats	,	vr_19
+argv	,	vr_29
+ENODATA	,	vl_7
+"\(NL)  -R, --recursive        operate on files and directories recursively\n\(NL)"	,	lr_17
+emit_ancillary_info	,	fn_29
+lsetfileconat	,	fn_12
+ROOT_DEV_INO_WARN	,	fn_17
+process_files	,	fn_23
+emit_mandatory_arg_note	,	fn_28
+"HLPRhvu:r:t:l:"	,	lr_21
+ok	,	vr_3
+"can't apply partial context to unlabeled file %s"	,	lr_3
+specified_user	,	vl_36
+fts_level	,	vr_22
+argc	,	vr_28
+specified_context	,	vl_5
+fts_close	,	fn_25
+"cannot read directory %s"	,	lr_7
+"\(NL)      --dereference      affect the referent of each symbolic link (this is\n\(NL)                         the default), rather than the symbolic link itself\n\(NL)  -h, --no-dereference   affect symbolic links instead of any referenced file\n\(NL)"	,	lr_13
+ent	,	vr_14
+initialize_main	,	fn_30
+saved_errno	,	vr_5
+getfilecon	,	fn_36
+"conflicting security context specifiers given"	,	lr_27
+"failed to change context of %s to %s"	,	lr_4
+security_context_t	,	tp_1
+quote_n	,	fn_13
+"\(NL)      --no-preserve-root  do not treat '/' specially (the default)\n\(NL)      --preserve-root    fail to operate recursively on '/'\n\(NL)"	,	lr_15
+context_new	,	fn_2
+fts_info	,	vr_21
+FTS_DP	,	vl_12
+user	,	vl_2
+case_GETOPT_HELP_CHAR	,	vl_40

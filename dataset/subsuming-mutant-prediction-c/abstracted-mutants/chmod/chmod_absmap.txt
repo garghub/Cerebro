@@ -1,0 +1,162 @@
+FTS_DNR	,	vl_15
+usage	,	fn_21
+Change_status	,	vr_8
+fts_path	,	vr_16
+optarg	,	vl_40
+"fts_close failed"	,	lr_13
+st_mode	,	vr_6
+mode_changed	,	fn_1
+quote	,	fn_2
+new_mode_len	,	vr_45
+FTS_PHYSICAL	,	vl_47
+fts_errno	,	vr_26
+"fts_read failed"	,	lr_12
+FTS_SKIP	,	vl_19
+bit_flags	,	vr_33
+X2REALLOC	,	fn_29
+preserve_root	,	vr_39
+errno	,	vl_5
+fts_statp	,	vr_19
+ch_status	,	vr_28
+mode_compile	,	fn_32
+REFERENCE_FILE_OPTION	,	vl_39
+textdomain	,	fn_27
+VERSION_OPTION_DESCRIPTION	,	vl_30
+"\(NL)Usage: %s [OPTION]... MODE[,MODE]... FILE...\n\(NL)  or:  %s [OPTION]... OCTAL-MODE FILE...\n\(NL)  or:  %s [OPTION]... --reference=RFILE FILE...\n\(NL)"	,	lr_14
+arg_len	,	vr_43
+set_program_name	,	fn_25
+dev_ino	,	vr_46
+LC_ALL	,	vl_31
+EXIT_FAILURE	,	vl_45
+S_ISUID	,	vl_1
+"neither symbolic link %s nor referent has been changed\n"	,	lr_2
+"cannot access %s"	,	lr_6
+diagnose_surprises	,	vl_25
+EXIT_SUCCESS	,	vl_27
+quotearg_colon	,	fn_17
+ignore_value	,	fn_11
+NO_PRESERVE_ROOT	,	vl_37
+"cannot combine mode and --reference options"	,	lr_24
+status	,	vr_34
+""	,	lr_21
+"mode of %s retained as %04lo (%s)\n"	,	lr_5
+FTS_ERR	,	vl_14
+"Rcfvr::w::x::X::s::t::u::g::o::a::,::+::=::"	,	lr_22
+umask	,	fn_33
+"mode of %s changed from %04lo (%s) to %04lo (%s)\n"	,	lr_3
+"changing permissions of %s"	,	lr_10
+FTS	,	tp_2
+bindtextdomain	,	fn_26
+CH_NOT_APPLIED	,	vl_7
+PROGRAM_NAME	,	vl_43
+"\(NL)\n\(NL)Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'.\n\(NL)"	,	lr_20
+reference_file	,	vr_40
+file	,	vr_1
+fts_number	,	vr_25
+arg	,	vr_42
+"invalid mode: %s"	,	lr_28
+"\(NL)      --reference=RFILE  use RFILE's mode instead of MODE values\n\(NL)"	,	lr_18
+S_ISLNK	,	fn_15
+FTSENT	,	tp_3
+HELP_OPTION_DESCRIPTION	,	vl_29
+stat	,	vr_4
+c	,	vr_41
+fts	,	vr_13
+getopt_long	,	fn_28
+change	,	vl_21
+AUTHORS	,	vl_44
+old_mode	,	vr_2
+mode_len	,	vr_37
+"failed to get attributes of %s"	,	lr_27
+CH_SUCCEEDED	,	vl_8
+umask_value	,	vl_20
+emit_try_help	,	fn_22
+"/"	,	lr_29
+"\(NL)Change the mode of each FILE to MODE.\n\(NL)With --reference, change the mode of each FILE to that of RFILE.\n\(NL)\n\(NL)"	,	lr_15
+old_perms	,	vr_11
+"%s: new permissions are %s, not %s"	,	lr_11
+CH_FAILED	,	vl_9
+"%s"	,	lr_7
+"failed to change mode of %s from %04lo (%s) to %04lo (%s)\n"	,	lr_4
+FTS_DC	,	vl_17
+process_file	,	fn_5
+optind	,	vl_36
+program_name	,	vl_28
+fts_read	,	fn_12
+size_t	,	tp_4
+fmt	,	vr_12
+strmode	,	fn_4
+fts_cwd_fd	,	vr_27
+mode	,	vr_7
+"missing operand after %s"	,	lr_26
+mode_t	,	tp_1
+long_options	,	vl_35
+xfts_open	,	fn_19
+PACKAGE	,	vl_32
+ROOT_DEV_INO_CHECK	,	fn_9
+"missing operand"	,	lr_25
+LOCALEDIR	,	vl_33
+CHMOD_MODE_BITS	,	vl_6
+mode_create_from_ref	,	fn_31
+IF_LINT	,	vr_20
+"\(NL)  -c, --changes          like verbose but report only when a change is made\n\(NL)  -f, --silent, --quiet  suppress most error messages\n\(NL)  -v, --verbose          output a diagnostic for every file processed\n\(NL)"	,	lr_16
+new_perms	,	vr_30
+S_ISGID	,	vl_2
+dev_ino_buf	,	vr_47
+cycle_warning_required	,	fn_7
+PRESERVE_ROOT	,	vl_38
+chmod_succeeded	,	vr_22
+FTS_DEFER_STAT	,	vl_48
+fts_set	,	fn_6
+describe_change	,	fn_3
+close_stdout	,	vl_34
+file_full_name	,	vr_15
+CH_NO_CHANGE_REQUESTED	,	vl_10
+new_stats	,	vr_5
+get_root_dev_ino	,	fn_34
+force_silent	,	vl_4
+recurse	,	vl_26
+"cannot operate on dangling symlink %s"	,	lr_9
+case_GETOPT_VERSION_CHAR	,	fn_30
+files	,	vr_32
+FTS_SLNONE	,	vl_16
+changed	,	vr_9
+root_dev_ino	,	vl_18
+"0::1::2::3::4::5::6::7::"	,	lr_23
+FTS_COMFOLLOW	,	vl_46
+emit_cycle_warning	,	fn_8
+chmodat	,	fn_16
+FTS_NS	,	vl_12
+V_high	,	vl_24
+FTS_AGAIN	,	vl_13
+fts_accpath	,	vr_17
+file_stats	,	vr_18
+mode_comma_len	,	vr_44
+argv	,	vr_36
+emit_ancillary_info	,	fn_23
+mode_adjust	,	fn_13
+ROOT_DEV_INO_WARN	,	fn_10
+perms	,	vr_10
+process_files	,	fn_18
+ok	,	vr_21
+fts_level	,	vr_24
+argc	,	vr_35
+V_changes_only	,	vl_41
+fts_close	,	fn_20
+naively_expected_perms	,	vr_31
+S_ISVTX	,	vl_3
+"cannot read directory %s"	,	lr_8
+ent	,	vr_14
+initialize_main	,	fn_24
+V_off	,	vl_23
+"\(NL)      --no-preserve-root  do not treat '/' specially (the default)\n\(NL)      --preserve-root    fail to operate recursively on '/'\n\(NL)"	,	lr_17
+"getting new attributes of %s"	,	lr_1
+new_mode	,	vr_3
+S_ISDIR	,	fn_14
+mode_alloc	,	vr_38
+fts_info	,	vr_23
+FTS_DP	,	vl_11
+"\(NL)  -R, --recursive        change files and directories recursively\n\(NL)"	,	lr_19
+verbosity	,	vl_22
+naively_expected_mode	,	vr_29
+case_GETOPT_HELP_CHAR	,	vl_42

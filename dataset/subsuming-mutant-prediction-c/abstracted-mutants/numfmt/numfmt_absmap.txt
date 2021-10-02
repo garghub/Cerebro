@@ -1,0 +1,337 @@
+skip_fields	,	fn_42
+scale_to_types	,	vl_69
+"\n\(NL)Exit status is 0 if all input numbers were successfully converted.\n\(NL)By default, %s will stop at the first conversion error with exit status 2.\n\(NL)With --invalid='fail' a warning is printed for each conversion error\n\(NL)and the exit status is 2.  With --invalid='warn' each conversion error is\n\(NL)diagnosed, but the exit status is 0.  With --invalid='ignore' conversion\n\(NL)errors are not diagnosed and the exit status is 0.\n\(NL)"	,	lr_61
+stdin	,	vl_93
+n_string	,	vr_41
+line_allocated	,	vr_70
+"(error)"	,	lr_11
+"the delimiter must be a single character"	,	lr_99
+INVALID_OPTION	,	vl_84
+round_type	,	vr_13
+ten_or_less	,	vr_39
+PADDING_OPTION	,	vl_75
+"  after rounding, value=%Lf * %0.f ^ %d\n"	,	lr_31
+scale_base	,	vr_30
+FROM_UNIT_OPTION	,	vl_66
+_field	,	vr_58
+"--to"	,	lr_95
+"\(NL)Reformat NUMBER(s), or the numbers from standard input if none are specified.\n\(NL)"	,	lr_39
+quote	,	fn_24
+len	,	vr_71
+round_ceiling	,	vl_9
+gettext	,	fn_23
+_round	,	vl_46
+"\(NL)  none       no auto-scaling is done; suffixes will trigger an error\n\(NL)"	,	lr_55
+"KMGTPEZY"	,	lr_1
+"E"	,	lr_8
+possible_suffix	,	vr_54
+FROM_OPTION	,	vl_62
+simple_strtod_error	,	vr_15
+SSE_OK	,	vl_14
+errno	,	vl_37
+"\n\(NL)FORMAT must be suitable for printing one floating-point argument '%f'.\n\(NL)Optional quote (%'f) will enable --grouping (if supported by current locale).\n\(NL)Optional width value (%10f) will pad output. Optional negative width values\n\(NL)(%-10f) will left-pad output.\n\(NL)"	,	lr_60
+scale_IEC	,	vl_3
+isblank	,	fn_20
+"--header ignored with command-line input"	,	lr_107
+"\(NL)      --invalid=MODE   failure mode for invalid numbers: MODE can be:\n\(NL)                         abort (default), fail, warn, ignore\n\(NL)"	,	lr_48
+"large input value %s: possible precision loss"	,	lr_86
+ap	,	vr_2
+str	,	vr_50
+"Right"	,	lr_76
+"--invalid"	,	lr_101
+simple_round_to_zero	,	fn_12
+EXIT_FAILURE	,	vl_28
+"no numbers found to convert in field %ld"	,	lr_91
+xstrtoumax	,	fn_27
+extract_fields	,	fn_43
+_suffix	,	vr_61
+round_nearest	,	vl_13
+""	,	lr_2
+"value too large to be converted: %s"	,	lr_19
+ssize_t	,	tp_7
+"double_to_human:\n"	,	lr_24
+suf	,	vr_5
+PROGRAM_NAME	,	vl_88
+decimal_point_length	,	vl_21
+THOUSEP	,	vl_90
+result	,	vr_10
+MBA_UNIBYTE_ONLY	,	vl_48
+scale_IEC_I	,	vl_4
+valid_numbers	,	vr_68
+SSE_INVALID_SUFFIX	,	vl_22
+"G"	,	lr_5
+"\(NL)      --to-unit=N      the output unit size (instead of the default 1)\n\(NL)"	,	lr_53
+c	,	vr_69
+e	,	vr_20
+"invalid field value %s"	,	lr_98
+"%.1Lf%s"	,	lr_32
+msgid	,	vr_33
+i	,	vr_38
+AUTHORS	,	vl_89
+e2	,	vr_27
+n	,	vr_44
+xstrndup	,	fn_34
+p	,	vr_55
+buf	,	vr_34
+t	,	vr_14
+"\(NL)  si         accept optional single letter suffix:\n\(NL)               1K = 1000,\n\(NL)               1M = 1000000,\n\(NL)               ...\n"	,	lr_57
+"invalid suffix in input %s: %s"	,	lr_77
+w	,	vr_52
+x	,	vr_9
+digits	,	vr_21
+"%.*Lf"	,	lr_28
+scale_from_types	,	vl_65
+"i"	,	lr_34
+" directive must be %%['][-][N]f"	,	lr_68
+"\(NL)      --from-unit=N    specify the input unit size (instead of the default 1)\n\(NL)"	,	lr_45
+MAX_UNSCALED_DIGITS	,	vl_16
+program_name	,	vl_33
+EXIT_CONVERSION_WARNINGS	,	vl_95
+default_scale_base	,	fn_2
+"Y"	,	lr_10
+allowed_scaling	,	vr_29
+fmt	,	vr_1
+mbsalign	,	fn_38
+padding_buffer_size	,	vl_30
+"%'.*Lf"	,	lr_27
+uintmax_t	,	tp_4
+padding_alignment	,	vl_39
+"trimming suffix %s\n"	,	lr_83
+double_to_human	,	fn_25
+pad	,	vr_49
+"\(NL)      --padding=N      pad the output to N characters; positive N will\n\(NL)                         right-align; negative N will left-align;\n\(NL)                         padding is ignored if the output is wider than N;\n\(NL)                         the default is to automatically pad if a whitespace\n\(NL)                         is found\n\(NL)"	,	lr_49
+"formatting output:\n  value: %Lf\n  humanized: %s\n"	,	lr_81
+PACKAGE	,	vl_57
+"  scaled value to %Lf * %0.f ^ %d\n"	,	lr_30
+"error reading input"	,	lr_108
+digit	,	vr_22
+va_list	,	tp_1
+"invalid padding value %s"	,	lr_97
+parse_format_string	,	fn_33
+pre	,	vr_63
+endptr	,	vr_17
+multiplier	,	vr_31
+buf_size	,	vr_35
+"extracting Fields:\n  input: %s\n  field: %d\n"	,	lr_87
+close_stdout	,	vl_60
+"Z"	,	lr_9
+"format %s has no %% directive"	,	lr_63
+stderr	,	vl_2
+"  parsed numeric value: %Lf\n"	,	lr_14
+"%.0Lf%s"	,	lr_33
+scale_from_args	,	vl_64
+FORMAT_OPTION	,	vl_82
+_prefix	,	vr_59
+"input line is too short, "	,	lr_90
+"  suffix power=%d^%d = %Lf\n"	,	lr_17
+format_str	,	vl_83
+fields	,	vr_57
+DEBUG_OPTION	,	vl_78
+from_unit_size	,	vl_52
+"\(NL)      --round=METHOD   use METHOD for rounding when scaling; METHOD can be:\n\(NL)                         up, down, from-zero (default), towards-zero, nearest\n\(NL)"	,	lr_50
+"simple_strtod_human:\n  input string: %s\n  "	,	lr_12
+"\(NL)      --grouping       use locale-defined grouping of digits, e.g. 1,000,000\n\(NL)                         (which means it has no effect in the C/POSIX locale)\n\(NL)"	,	lr_46
+decimal_point	,	vl_20
+STREQ	,	fn_41
+prefix_len	,	vr_47
+HEADER_OPTION	,	vl_80
+scale_to_args	,	vl_68
+DEV_DEBUG_OPTION	,	vl_79
+exit_status	,	vr_72
+argv	,	vr_67
+format_str_suffix	,	vl_43
+negative	,	vr_19
+emit_ancillary_info	,	fn_32
+round_from_zero	,	vl_11
+round_to_zero	,	vl_12
+process_suffixed_number	,	fn_40
+simple_strtod_int	,	fn_15
+"  input precision = %d\n"	,	lr_15
+round_types	,	vl_73
+"K"	,	lr_3
+" (cannot handle values &gt; 999Y)"	,	lr_80
+end	,	vr_43
+argc	,	vr_66
+parse_human_number	,	fn_36
+"\(NL)      --from=UNIT      auto-scale input numbers to UNITs; default is 'none';\n\(NL)                         see UNIT below\n\(NL)"	,	lr_44
+"--round"	,	lr_96
+initialize_main	,	fn_45
+simple_strtod_human	,	fn_18
+absld	,	fn_7
+ptr	,	vr_51
+val_frac	,	vr_25
+inval_ignore	,	vl_26
+quote_n	,	fn_19
+inval_abort	,	vl_91
+format_str_prefix	,	vl_42
+"format %s ends in %%"	,	lr_66
+simple_round	,	fn_14
+strdup	,	fn_35
+longopts	,	vl_61
+base	,	vr_8
+STREQ_LEN	,	fn_17
+MAX_ACCEPTABLE_DIGITS	,	vl_18
+usage	,	fn_29
+TO_OPTION	,	vl_67
+process_line	,	fn_44
+optarg	,	vl_63
+"  returning value: %Lf (%LG)\n"	,	lr_18
+suffix_power	,	fn_4
+"invalid number: %s"	,	lr_20
+unit_to_umax	,	fn_26
+"\(NL)  -d, --delimiter=X    use X instead of whitespace for field delimiter\n\(NL)"	,	lr_41
+"no"	,	lr_74
+delimiter	,	vl_54
+"M"	,	lr_4
+s_err	,	vr_42
+text	,	vr_53
+simple_round_floor	,	fn_10
+simple_round_nearest	,	fn_13
+val	,	vr_11
+_GL_ATTRIBUTE_PURE	,	tp_6
+inval_args	,	vl_85
+devmsg	,	fn_1
+"rejecting suffix in input: %s (consider using --from)"	,	lr_21
+" (consider using --to)"	,	lr_79
+"\(NL)      --suffix=SUFFIX  add SUFFIX to output numbers, and accept optional\n\(NL)                         SUFFIX in input numbers\n\(NL)"	,	lr_51
+"yes"	,	lr_73
+textdomain	,	fn_48
+VERSION_OPTION_DESCRIPTION	,	vl_35
+scale_auto	,	vl_6
+grouping	,	vl_36
+valid_suffix	,	fn_3
+"  Auto-scaling, found 'i', switching to base %d\n"	,	lr_16
+ptr2	,	vr_24
+field	,	vl_50
+set_program_name	,	fn_46
+LC_ALL	,	vl_56
+ROUND_OPTION	,	vl_71
+EXIT_SUCCESS	,	vl_32
+simple_strtod_fatal	,	fn_21
+"\(NL)      --debug          print warnings about invalid input\n\(NL)"	,	lr_40
+xstrtol	,	fn_51
+"grouping cannot be combined with --to"	,	lr_105
+SSE_OVERFLOW	,	vl_19
+"d:"	,	lr_93
+print_padded_number	,	fn_39
+skip_count	,	vr_56
+status	,	vr_46
+prepare_padded_number	,	fn_37
+strtol_error	,	tp_5
+inval_warn	,	vl_94
+bindtextdomain	,	fn_47
+"\(NL)  iec        accept optional single letter suffix:\n\(NL)               1K = 1024,\n\(NL)               1M = 1048576,\n\(NL)               ...\n"	,	lr_58
+scale_to	,	vl_45
+inval_types	,	vl_86
+"  TOO FEW FIELDS!\n  prefix: %s\n"	,	lr_88
+"\(NL)  iec-i      accept optional two-letter suffix:\n\(NL)               1Ki = 1024,\n\(NL)               1Mi = 1048576,\n\(NL)               ...\n"	,	lr_59
+"--from"	,	lr_94
+"failed to convert some of the input numbers"	,	lr_109
+"invalid unit size: %s"	,	lr_36
+"no valid suffix found\n"	,	lr_84
+valid_suffixes	,	vr_6
+"invalid format %s (width overflow)"	,	lr_65
+"\(NL)      --header[=N]     print (without converting) the first N header lines;\n\(NL)                         N defaults to 1 if not specified\n\(NL)"	,	lr_47
+"  no scaling, returning (grouped) value: %'.*Lf\n"	,	lr_25
+"."	,	lr_92
+power	,	vr_7
+"out of memory (requested %zu bytes)"	,	lr_37
+SSE_VALID_BUT_FORBIDDEN_SUFFIX	,	vl_23
+HELP_OPTION_DESCRIPTION	,	vl_34
+"  After padding: %s\n"	,	lr_82
+err	,	vr_32
+getopt_long	,	fn_49
+TO_UNIT_OPTION	,	vl_70
+simple_round_from_zero	,	fn_11
+"\(NL)      --format=FORMAT  use printf style floating-point FORMAT;\n\(NL)                         see FORMAT below for details\n\(NL)"	,	lr_43
+emit_try_help	,	fn_30
+XARGMATCH	,	fn_50
+"P"	,	lr_7
+"  no scaling, returning value: %.*Lf\n"	,	lr_26
+"no conversion option specified"	,	lr_104
+"\(NL)Usage: %s [OPTION]... [NUMBER]...\n\(NL)"	,	lr_38
+"invalid format %s,"	,	lr_67
+"grouping has no effect in this locale"	,	lr_106
+optind	,	vl_92
+precision	,	vr_23
+num	,	vr_64
+round_floor	,	vl_10
+setup_padding_buffer	,	fn_28
+size_t	,	tp_3
+suffix	,	vl_47
+expld	,	fn_8
+"invalid suffix in input: %s"	,	lr_22
+newline	,	vr_62
+ERANGE	,	vl_38
+simple_strtod_float	,	fn_16
+"Left"	,	lr_75
+"  prefix: %s\n  number: %s\n  suffix: %s\n"	,	lr_89
+LOCALEDIR	,	vl_58
+show_decimal_point	,	vr_40
+IF_LINT	,	fn_54
+exponent	,	vr_28
+group	,	vr_36
+"failed to prepare value '%Lf' for printing"	,	lr_29
+scale_none	,	vl_5
+intmax_t	,	tp_2
+intval	,	vr_12
+" "	,	lr_64
+"value too large to be printed: '%Lg'"	,	lr_78
+"--grouping cannot be combined with --format"	,	lr_102
+"\(NL)      --to=UNIT        auto-scale output numbers to UNITs; see UNIT below\n\(NL)"	,	lr_52
+"\(NL)  auto       accept optional single/two letter suffix:\n\(NL)               1K = 1000,\n\(NL)               1Ki = 1024,\n\(NL)               1M = 1000000,\n\(NL)               1Mi = 1048576,\n"	,	lr_56
+"  padding width: %ld\n  alignment: %s\n"	,	lr_71
+round_args	,	vl_72
+"format %s has too many %% directives"	,	lr_69
+"--padding cannot be combined with --format"	,	lr_103
+LONGINT_OK	,	vl_29
+"\n\(NL)Examples:\n\(NL)  $ %s --to=si 1000\n\(NL)            -&gt; \"1.0K\"\n\(NL)  $ %s --to=iec 2048\n\(NL)           -&gt; \"2.0K\"\n\(NL)  $ %s --to=iec-i 4096\n\(NL)           -&gt; \"4.0Ki\"\n\(NL)  $ echo 1K | %s --from=si\n\(NL)           -&gt; \"1000\"\n\(NL)  $ echo 1K | %s --from=iec\n\(NL)           -&gt; \"1024\"\n\(NL)  $ df | %s --header --field 2 --to=si\n\(NL)  $ ls -l | %s --header --field 5 --to=iec\n\(NL)  $ ls -lh | %s --header --field 5 --from=iec --padding=10\n\(NL)  $ ls -lh | %s --header --field 5 --from=iec --format %%10f\n"	,	lr_62
+simple_round_ceiling	,	fn_9
+case_GETOPT_VERSION_CHAR	,	fn_52
+valid_number	,	vr_65
+header	,	vl_81
+min_size	,	vr_45
+LDBL_MAX	,	vl_8
+scale_SI	,	vl_7
+scale_type	,	vr_3
+"\(NL)\n\(NL)UNIT options:\n"	,	lr_54
+"  returning value: %s\n"	,	lr_35
+"\(NL)      --field=N        replace the number in input field N (default is 1)\n\(NL)"	,	lr_42
+conv_exit_code	,	vl_27
+scale	,	vr_4
+SSE_INVALID_NUMBER	,	vl_15
+auto_padding	,	vl_49
+suffix_pos	,	vr_48
+"  prefix: %s\n  suffix: %s\n"	,	lr_72
+"format String:\n  input: %s\n  grouping: %s\n"	,	lr_70
+N_	,	fn_22
+MBS_ALIGN_LEFT	,	vl_40
+scale_from	,	vl_44
+dev_debug	,	vl_1
+emit_mandatory_arg_note	,	fn_31
+to_unit_size	,	vl_53
+DELIMITER_DEFAULT	,	vl_55
+getline	,	fn_53
+"locale decimal-point: %s\n"	,	lr_13
+"missing 'i' suffix in input: %s (e.g Ki/Mi/Gi)"	,	lr_23
+"invalid header value %s"	,	lr_100
+powerld	,	fn_6
+value	,	vr_18
+SSE_OK_PRECISION_LOSS	,	vl_17
+_data	,	vr_60
+GROUPING_OPTION	,	vl_74
+"setting Auto-Padding to %ld characters\n"	,	lr_85
+debug	,	vl_51
+_invalid	,	vl_25
+SSE_MISSING_I_SUFFIX	,	vl_24
+suffix_power_character	,	fn_5
+SUFFIX_OPTION	,	vl_77
+padding_width	,	vl_41
+"T"	,	lr_6
+RADIXCHAR	,	vl_59
+round	,	vr_37
+neg_frac	,	vr_26
+padding_buffer	,	vl_31
+FIELD_OPTION	,	vl_76
+case_GETOPT_HELP_CHAR	,	vl_87
+input_str	,	vr_16

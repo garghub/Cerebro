@@ -1,0 +1,111 @@
+"\(NL)  \\NNN    byte with octal value NNN (1 to 3 digits)\n\(NL)  \\xHH    byte with hexadecimal value HH (1 to 2 digits)\n\(NL)  \\uHHHH  Unicode (ISO/IEC 10646) character with hex value HHHH (4 digits)\n\(NL)  \\UHHHHHHHH  Unicode character with hex value HHHHHHHH (8 digits)\n\(NL)"	,	lr_5
+mempcpy	,	fn_14
+usage	,	fn_1
+vstrtold	,	fn_18
+print_esc	,	fn_6
+"%s: expected a numeric value"	,	lr_8
+to_uchar	,	fn_7
+length_modifier	,	vr_22
+quote	,	fn_26
+prec	,	vr_34
+print_formatted	,	fn_19
+errno	,	vl_7
+textdomain	,	fn_23
+VERSION_OPTION_DESCRIPTION	,	vl_4
+isodigit	,	fn_9
+"\(NL)  %%      a single %\n\(NL)  %b      ARGUMENT as a string with '\\' escapes interpreted,\n\(NL)          except that octal escapes are of the form \\0 or \\0NNN\n\(NL)\n\(NL)and all C format specifications ending with one of diouxXfeEgGcs, with\n\(NL)ARGUMENTs converted to proper type first.  Variable widths are handled.\n\(NL)"	,	lr_6
+str	,	vr_12
+"--"	,	lr_21
+UCHAR_MAX	,	vl_11
+set_program_name	,	fn_21
+EXIT_FAILURE	,	vl_9
+LC_ALL	,	vl_16
+EXIT_SUCCESS	,	vl_1
+"\(NL)  \\\\      backslash\n\(NL)  \\a      alert (BEL)\n\(NL)  \\b      backspace\n\(NL)  \\c      produce no further output\n\(NL)  \\e      escape\n\(NL)  \\f      form feed\n\(NL)  \\n      new line\n\(NL)  \\r      carriage return\n\(NL)  \\t      horizontal tab\n\(NL)  \\v      vertical tab\n\(NL)"	,	lr_4
+status	,	vr_1
+"\(NL)Print ARGUMENT(s) according to FORMAT, or execute according to OPTION:\n\(NL)\n\(NL)"	,	lr_2
+""	,	lr_17
+bindtextdomain	,	fn_22
+PROGRAM_NAME	,	vl_6
+field_width	,	vr_17
+INT_MIN	,	vl_14
+xprintf	,	fn_16
+"invalid universal character name \\%c%0*x"	,	lr_12
+arg	,	vr_24
+INT_MAX	,	vl_15
+args_used	,	vr_35
+uni_value	,	vr_11
+HELP_OPTION_DESCRIPTION	,	vl_3
+"missing hexadecimal number in escape"	,	lr_10
+c	,	vr_4
+f	,	vr_29
+AUTHORS	,	vl_23
+print_direc	,	fn_13
+octal_0	,	vr_6
+p	,	vr_7
+have_precision	,	vr_18
+q	,	vr_21
+emit_try_help	,	fn_2
+"--version"	,	lr_20
+s	,	vr_2
+PRIdMAX	,	vl_10
+"invalid field width: %s"	,	lr_14
+vstrtoimax	,	fn_15
+width	,	vr_33
+direc_start	,	vr_30
+esc_char	,	vr_10
+"%.*s: invalid conversion specification"	,	lr_16
+"%s"	,	lr_7
+argument	,	vr_20
+"\(NL)Usage: %s FORMAT [ARGUMENT]...\n\(NL)  or:  %s OPTION\n\(NL)"	,	lr_1
+verify_numeric	,	fn_4
+program_name	,	vl_2
+precision	,	vr_19
+size_t	,	tp_1
+uintmax_t	,	tp_3
+Version	,	vl_22
+PACKAGE	,	vl_17
+"missing operand"	,	lr_22
+LOCALEDIR	,	vl_18
+posixly_correct	,	vl_20
+length_modifier_len	,	vr_23
+intmax_t	,	tp_2
+__GLIBC__	,	vl_12
+"\(NL)\n\(NL)FORMAT controls the output as in C printf.  Interpreted sequences are:\n\(NL)\n\(NL)  \\\"      double quote\n\(NL)"	,	lr_3
+format	,	vr_25
+close_stdout	,	vl_19
+"%s: value not completely converted"	,	lr_9
+have_field_width	,	vr_16
+escstart	,	vr_5
+octtobin	,	fn_10
+esc_length	,	vr_9
+version_etc	,	fn_25
+save_argc	,	vr_28
+direc_length	,	vr_31
+STREQ	,	fn_24
+exit_status	,	vl_8
+argv	,	vr_27
+emit_ancillary_info	,	fn_3
+print_esc_string	,	fn_12
+print_unicode_char	,	fn_11
+end	,	vr_3
+hextobin	,	fn_8
+no_more_flag_characters	,	lb_1
+ok	,	vr_32
+"warning: ignoring excess arguments, starting with %s"	,	lr_23
+esc_value	,	vr_8
+conversion	,	vr_15
+argc	,	vr_26
+"invalid precision: %s"	,	lr_15
+"POSIXLY_CORRECT"	,	lr_18
+USAGE_BUILTIN_WARNING	,	vl_5
+"\"\\abcefnrtv"	,	lr_11
+start	,	vr_13
+length	,	vr_14
+initialize_main	,	fn_20
+"--help"	,	lr_19
+vstrtoumax	,	fn_17
+__GLIBC_MINOR__	,	vl_13
+"L"	,	lr_13
+print_esc_char	,	fn_5
+PACKAGE_NAME	,	vl_21

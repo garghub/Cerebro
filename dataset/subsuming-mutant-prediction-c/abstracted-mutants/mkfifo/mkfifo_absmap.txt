@@ -1,0 +1,69 @@
+scontext	,	vr_8
+optind	,	vl_15
+usage	,	fn_1
+program_name	,	vl_2
+optarg	,	vl_10
+mode_t	,	tp_1
+quote	,	fn_15
+PACKAGE	,	vl_6
+"missing operand"	,	lr_9
+LOCALEDIR	,	vl_7
+ret	,	vr_10
+"mode must specify only file permission bits"	,	lr_12
+errno	,	vl_16
+optc	,	vr_7
+mode_compile	,	fn_16
+close_stdout	,	vl_8
+"\(NL)  -m, --mode=MODE    set file permission bits to MODE, not a=rw - umask\n\(NL)"	,	lr_3
+"invalid mode"	,	lr_11
+textdomain	,	fn_8
+VERSION_OPTION_DESCRIPTION	,	vl_4
+"failed to set default file creation context to %s"	,	lr_10
+setfscreatecon	,	fn_14
+"cannot set permissions of %s"	,	lr_14
+set_program_name	,	fn_6
+LC_ALL	,	vl_5
+EXIT_FAILURE	,	vl_14
+EXIT_SUCCESS	,	vl_1
+case_GETOPT_VERSION_CHAR	,	fn_12
+MODE_RW_UGO	,	vl_17
+status	,	vr_1
+""	,	lr_5
+S_IRWXUGO	,	vl_18
+umask	,	fn_17
+"\(NL)  -Z, --context[=CTX]  set the SELinux security context of each NAME to\n\(NL)                         default type, or CTX if specified\n\(NL)"	,	lr_4
+newmode	,	vr_4
+bindtextdomain	,	fn_7
+PROGRAM_NAME	,	vl_12
+"m:Z"	,	lr_6
+"it requires an SELinux/SMACK-enabled kernel"	,	lr_8
+exit_status	,	vr_6
+is_selinux_enabled	,	fn_11
+argv	,	vr_3
+S_IFIFO	,	vl_19
+emit_ancillary_info	,	fn_4
+defaultcon	,	fn_19
+"\(NL)Create named pipes (FIFOs) with the given NAMEs.\n\(NL)"	,	lr_2
+smack_set_label_for_self	,	fn_13
+"cannot create fifo %s"	,	lr_13
+mode_adjust	,	fn_18
+emit_mandatory_arg_note	,	fn_3
+"warning: ignoring --context; "	,	lr_7
+"Usage: %s [OPTION]... NAME...\n"	,	lr_1
+mode_change	,	vr_12
+HELP_OPTION_DESCRIPTION	,	vl_3
+argc	,	vr_2
+getopt_long	,	fn_9
+is_smack_enabled	,	fn_10
+change	,	vr_13
+initialize_main	,	fn_5
+AUTHORS	,	vl_13
+specified_mode	,	vr_5
+set_security_context	,	vr_9
+umask_value	,	vr_11
+emit_try_help	,	fn_2
+security_context_t	,	tp_2
+longopts	,	vl_9
+case_GETOPT_HELP_CHAR	,	vl_11
+mkfifo	,	fn_20
+lchmod	,	fn_21

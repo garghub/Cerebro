@@ -1,0 +1,100 @@
+stdin	,	vl_15
+usage	,	fn_1
+prev	,	vr_7
+optarg	,	vl_28
+whatfile	,	vr_9
+check_input_order	,	vl_9
+quote	,	fn_20
+len	,	vr_21
+delimiter	,	vl_7
+order	,	vr_11
+hard_locale	,	fn_18
+errno	,	vl_16
+FADVISE_SEQUENTIAL	,	vl_17
+streams	,	vr_17
+"empty %s not allowed"	,	lr_16
+textdomain	,	fn_17
+VERSION_OPTION_DESCRIPTION	,	vl_4
+fadvise	,	fn_11
+set_program_name	,	fn_15
+EXIT_FAILURE	,	vl_14
+LC_ALL	,	vl_18
+EXIT_SUCCESS	,	vl_1
+"-"	,	lr_10
+"\t"	,	lr_21
+NOCHECK_ORDER_OPTION	,	vl_25
+status	,	vr_1
+initbuffer	,	fn_9
+""	,	lr_13
+"\(NL)Compare sorted files FILE1 and FILE2 line by line.\n\(NL)"	,	lr_2
+bindtextdomain	,	fn_16
+PROGRAM_NAME	,	vl_30
+linebuffer	,	vr_2
+current	,	vr_8
+min	,	fn_13
+check_order	,	fn_5
+stream	,	vr_3
+FILE	,	tp_1
+only_file_1	,	vl_5
+seen_unpairable	,	vl_12
+HELP_OPTION_DESCRIPTION	,	vl_3
+only_file_2	,	vl_6
+hard_LC_COLLATE	,	vl_13
+c	,	vr_24
+OUTPUT_DELIMITER_OPTION	,	vl_27
+getopt_long	,	fn_19
+i	,	vr_18
+j	,	vr_19
+AUTHORS	,	vl_31
+writeline	,	fn_4
+"\(NL)\n\(NL)Examples:\n\(NL)  %s -12 file1 file2  Print only lines present in both file1 and file2.\n\(NL)  %s -3 file1 file2  Print lines in file1 not in file2, and vice versa.\n\(NL)"	,	lr_8
+emit_try_help	,	fn_2
+"\(NL)\n\(NL)Note, comparisons honor the rules specified by 'LC_COLLATE'.\n\(NL)"	,	lr_7
+"file %d is not in sorted order"	,	lr_9
+infiles	,	vr_12
+"%s"	,	lr_12
+optind	,	vl_32
+program_name	,	vl_2
+size_t	,	tp_2
+memcmp2	,	fn_7
+CHECK_ORDER_DISABLED	,	vl_10
+"r"	,	lr_11
+"missing operand after %s"	,	lr_19
+long_options	,	vl_24
+PACKAGE	,	vl_19
+LC_COLLATE	,	vl_21
+"missing operand"	,	lr_18
+LOCALEDIR	,	vl_20
+buffer	,	vr_5
+CHECK_ORDER_ENABLED	,	vl_11
+"\(NL)  --output-delimiter=STR  separate columns with STR\n\(NL)"	,	lr_6
+CHECK_ORDER_DEFAULT	,	vl_23
+"123"	,	lr_14
+"multiple delimiters specified"	,	lr_15
+alt	,	vr_16
+close_stdout	,	vl_22
+lba	,	vr_13
+both	,	vl_8
+"\(NL)\n\(NL)With no options, produce three-column output.  Column one contains\n\(NL)lines unique to FILE1, column two contains lines unique to FILE2,\n\(NL)and column three contains lines common to both files.\n\(NL)"	,	lr_3
+compare_files	,	fn_8
+case_GETOPT_VERSION_CHAR	,	fn_21
+STREQ	,	fn_10
+"--output-delimiter"	,	lr_17
+"extra operand %s"	,	lr_20
+issued_disorder_warning	,	vr_10
+"\(NL)Usage: %s [OPTION]... FILE1 FILE2\n\(NL)"	,	lr_1
+argv	,	vr_23
+readlinebuffer	,	fn_12
+"\(NL)\n\(NL)  -1              suppress column 1 (lines unique to FILE1)\n\(NL)  -2              suppress column 2 (lines unique to FILE2)\n\(NL)  -3              suppress column 3 (lines that appear in both files)\n\(NL)"	,	lr_4
+emit_ancillary_info	,	fn_3
+xmemcoll	,	fn_6
+"\(NL)\n\(NL)  --check-order     check that the input is correctly sorted, even\n\(NL)                      if all input lines are pairable\n\(NL)  --nocheck-order   do not check that the input is correctly sorted\n\(NL)"	,	lr_5
+thisline	,	vr_14
+fill_up	,	vr_20
+class	,	vr_4
+CHECK_ORDER_OPTION	,	vl_26
+argc	,	vr_22
+length	,	vr_6
+initialize_main	,	fn_14
+all_line	,	vr_15
+case_GETOPT_HELP_CHAR	,	vl_29

@@ -1,0 +1,102 @@
+scontext	,	vr_9
+"%s\n"	,	lr_15
+usage	,	fn_1
+optarg	,	vl_12
+quote	,	fn_16
+"\(NL)\n\(NL)Both MAJOR and MINOR must be specified when TYPE is b, c, or u, and they\n\(NL)must be omitted when TYPE is p.  If MAJOR or MINOR begins with 0x or 0X,\n\(NL)it is interpreted as hexadecimal; otherwise, if it begins with 0, as octal;\n\(NL)otherwise, as decimal.  TYPE may be:\n\(NL)"	,	lr_5
+minor_t	,	vl_23
+errno	,	vl_20
+optc	,	vr_6
+mode_compile	,	fn_13
+"invalid device type %s"	,	lr_26
+"invalid mode"	,	lr_11
+"invalid minor device number %s"	,	lr_23
+textdomain	,	fn_8
+VERSION_OPTION_DESCRIPTION	,	vl_4
+set_program_name	,	fn_6
+LC_ALL	,	vl_7
+EXIT_FAILURE	,	vl_15
+EXIT_SUCCESS	,	vl_1
+device	,	vr_21
+xstrtoumax	,	fn_19
+status	,	vr_1
+"\(NL)  -Z, --context[=CTX]  set the SELinux security context of NAME to\n\(NL)                         default type, or to CTX if specified\n\(NL)"	,	lr_4
+""	,	lr_7
+S_IRWXUGO	,	vl_17
+umask	,	fn_14
+newmode	,	vr_4
+bindtextdomain	,	fn_7
+PROGRAM_NAME	,	vl_6
+"m:Z"	,	lr_8
+"it requires an SELinux/SMACK-enabled kernel"	,	lr_10
+S_IFIFO	,	vl_24
+"\(NL)Create the special file NAME of the given TYPE.\n\(NL)"	,	lr_2
+s_minor	,	vr_18
+smack_set_label_for_self	,	fn_17
+mknod	,	fn_22
+s_major	,	vr_17
+HELP_OPTION_DESCRIPTION	,	vl_3
+getopt_long	,	fn_9
+"Special files require major and minor device numbers."	,	lr_16
+change	,	vr_13
+AUTHORS	,	vl_14
+set_security_context	,	vr_10
+umask_value	,	vr_11
+emit_try_help	,	fn_2
+block_or_character	,	lb_1
+dev_t	,	tp_4
+mkfifo	,	fn_23
+lchmod	,	fn_24
+"%s"	,	lr_25
+S_IFCHR	,	vr_16
+optind	,	vl_18
+program_name	,	vl_2
+"block special files not supported"	,	lr_20
+uintmax_t	,	tp_3
+"missing operand after %s"	,	lr_14
+mode_t	,	tp_1
+node_type	,	vr_8
+PACKAGE	,	vl_8
+"missing operand"	,	lr_13
+LOCALEDIR	,	vl_9
+"mode must specify only file permission bits"	,	lr_12
+ret	,	vr_14
+"Usage: %s [OPTION]... NAME TYPE [MAJOR MINOR]\n"	,	lr_1
+close_stdout	,	vl_10
+"\(NL)  -m, --mode=MODE    set file permission bits to MODE, not a=rw - umask\n\(NL)"	,	lr_3
+stderr	,	vl_19
+"failed to set default file creation context to %s"	,	lr_19
+setfscreatecon	,	fn_18
+"character special files not supported"	,	lr_21
+LONGINT_OK	,	vl_21
+"cannot set permissions of %s"	,	lr_27
+"invalid device %s %s"	,	lr_24
+case_GETOPT_VERSION_CHAR	,	fn_12
+MODE_RW_UGO	,	vl_16
+"invalid major device number %s"	,	lr_22
+makedev	,	fn_20
+"extra operand %s"	,	lr_17
+is_selinux_enabled	,	fn_11
+argv	,	vr_3
+emit_ancillary_info	,	fn_4
+defaultcon	,	fn_21
+mode_adjust	,	fn_15
+emit_mandatory_arg_note	,	fn_3
+"\(NL)\n\(NL)  b      create a block (buffered) special file\n\(NL)  c, u   create a character (unbuffered) special file\n\(NL)  p      create a FIFO\n\(NL)"	,	lr_6
+"warning: ignoring --context; "	,	lr_9
+i_major	,	vr_19
+mode_change	,	vr_12
+argc	,	vr_2
+i_minor	,	vr_20
+NODEV	,	vr_22
+is_smack_enabled	,	fn_10
+USAGE_BUILTIN_WARNING	,	vl_5
+initialize_main	,	fn_5
+"Fifos do not have major and minor device numbers."	,	lr_18
+specified_mode	,	vr_5
+security_context_t	,	tp_2
+expected_operands	,	vr_7
+major_t	,	vl_22
+longopts	,	vl_11
+case_GETOPT_HELP_CHAR	,	vl_13
+S_IFBLK	,	vr_15

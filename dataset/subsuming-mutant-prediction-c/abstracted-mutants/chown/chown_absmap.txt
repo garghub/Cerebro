@@ -1,0 +1,96 @@
+"\(NL)      --from=CURRENT_OWNER:CURRENT_GROUP\n\(NL)                         change the owner and/or group of each file only if\n\(NL)                         its current owner and/or group match those specified\n\(NL)                         here.  Either may be omitted, in which case a match\n\(NL)                         is not required for the omitted attribute\n\(NL)"	,	lr_6
+optind	,	vl_26
+usage	,	fn_1
+program_name	,	vl_2
+"\(NL)\n\(NL)Owner is unchanged if missing.  Group is unchanged if missing, but changed\n\(NL)to login group if implied by a ':' following a symbolic OWNER.\n\(NL)OWNER and GROUP may be numeric as well as symbolic.\n\(NL)"	,	lr_11
+optarg	,	vl_18
+chopt	,	vr_12
+"missing operand after %s"	,	lr_18
+long_options	,	vl_10
+quote	,	fn_11
+FTS_PHYSICAL	,	vl_5
+PACKAGE	,	vl_7
+bit_flags	,	vr_9
+"missing operand"	,	lr_17
+Chown_option	,	vr_11
+LOCALEDIR	,	vl_8
+"\(NL)Change the owner and/or group of each FILE to OWNER and/or GROUP.\n\(NL)With --reference, change the owner and group of each FILE to those of RFILE.\n\(NL)\n\(NL)"	,	lr_2
+"\(NL)  -c, --changes          like verbose but report only when a change is made\n\(NL)  -f, --silent, --quiet  suppress most error messages\n\(NL)  -v, --verbose          output a diagnostic for every file processed\n\(NL)"	,	lr_3
+"-R --dereference requires either -H or -L"	,	lr_16
+FROM_OPTION	,	vl_19
+preserve_root	,	vr_4
+errno	,	vl_27
+dev_ino_buf	,	vr_27
+PRESERVE_ROOT	,	vl_15
+optc	,	vr_14
+DEREFERENCE_OPTION	,	vl_13
+group_name	,	vr_25
+FTS_DEFER_STAT	,	vl_28
+close_stdout	,	vl_9
+REFERENCE_FILE_OPTION	,	vl_16
+st_gid	,	vr_23
+textdomain	,	fn_7
+VERSION_OPTION_DESCRIPTION	,	vl_4
+"\(NL)\n\(NL)Examples:\n\(NL)  %s root /u        Change the owner of /u to \"root\".\n\(NL)  %s root:staff /u  Likewise, but also change its group to \"staff\".\n\(NL)  %s -hR root /u    Change the owner of /u and subfiles to \"root\".\n\(NL)"	,	lr_12
+get_root_dev_ino	,	fn_16
+chopt_free	,	fn_18
+"\(NL)                         (useful only on systems that can change the\n\(NL)                         ownership of a symlink)\n\(NL)"	,	lr_5
+"\(NL)\n\(NL)The following options modify how a hierarchy is traversed when the -R\n\(NL)option is also specified.  If more than one is specified, only the final\n\(NL)one takes effect.\n\(NL)\n\(NL)  -H                     if a command line argument is a symbolic link\n\(NL)                         to a directory, traverse it\n\(NL)  -L                     traverse every symbolic link to a directory\n\(NL)                         encountered\n\(NL)  -P                     do not traverse any symbolic links (default)\n\(NL)\n\(NL)"	,	lr_10
+force_silent	,	vr_18
+set_program_name	,	fn_5
+dev_ino	,	vr_26
+LC_ALL	,	vl_6
+"HLPRcfhv"	,	lr_14
+EXIT_FAILURE	,	vl_20
+recurse	,	vr_16
+EXIT_SUCCESS	,	vl_1
+case_GETOPT_VERSION_CHAR	,	fn_12
+NO_PRESERVE_ROOT	,	vl_14
+st_uid	,	vr_22
+status	,	vr_1
+dereference	,	vr_10
+""	,	lr_13
+root_dev_ino	,	vr_28
+required_uid	,	vr_7
+ref_stats	,	vr_21
+FTS_COMFOLLOW	,	vl_11
+gid	,	vr_6
+bindtextdomain	,	fn_6
+bad_cast	,	fn_15
+PROGRAM_NAME	,	vl_24
+parse_user_spec	,	fn_10
+user_name	,	vr_24
+V_high	,	vl_22
+"\(NL)Usage: %s [OPTION]... [OWNER][:[GROUP]] FILE...\n\(NL)  or:  %s [OPTION]... --reference=RFILE FILE...\n\(NL)"	,	lr_1
+reference_file	,	vl_17
+gid_to_name	,	fn_14
+argv	,	vr_3
+chown_files	,	fn_17
+uid	,	vr_5
+"\(NL)  -R, --recursive        operate on files and directories recursively\n\(NL)"	,	lr_9
+emit_ancillary_info	,	fn_3
+"%s: %s"	,	lr_15
+required_gid	,	vr_8
+ok	,	vr_13
+HELP_OPTION_DESCRIPTION	,	vl_3
+argc	,	vr_2
+stat	,	vr_20
+V_changes_only	,	vl_21
+uid_t	,	tp_1
+getopt_long	,	fn_9
+e	,	vr_15
+"\(NL)      --dereference      affect the referent of each symbolic link (this is\n\(NL)                         the default), rather than the symbolic link itself\n\(NL)  -h, --no-dereference   affect symbolic links instead of any referenced file\n\(NL)"	,	lr_4
+initialize_main	,	fn_4
+AUTHORS	,	vl_25
+gid_t	,	tp_2
+affect_symlink_referent	,	vr_19
+"failed to get attributes of %s"	,	lr_19
+chopt_init	,	fn_8
+emit_try_help	,	fn_2
+"\(NL)      --no-preserve-root  do not treat '/' specially (the default)\n\(NL)      --preserve-root    fail to operate recursively on '/'\n\(NL)"	,	lr_7
+"/"	,	lr_20
+"\(NL)      --reference=RFILE  use RFILE's owner and group rather than\n\(NL)                         specifying OWNER:GROUP values\n\(NL)"	,	lr_8
+FTS_LOGICAL	,	vl_12
+uid_to_name	,	fn_13
+verbosity	,	vr_17
+case_GETOPT_HELP_CHAR	,	vl_23

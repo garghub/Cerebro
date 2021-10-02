@@ -1,0 +1,47 @@
+"\(NL)     --all       print the number of installed processors\n\(NL)     --ignore=N  if possible, exclude N processing units\n\(NL)"	,	lr_3
+""	,	lr_4
+bindtextdomain	,	fn_6
+"\(NL)Print the number of processing units available to the current process,\n\(NL)which may be less than the number of online processors\n\(NL)\n\(NL)"	,	lr_2
+PROGRAM_NAME	,	vl_12
+nproc	,	vr_4
+optind	,	vl_20
+usage	,	fn_1
+program_name	,	vl_2
+NPROC_ALL	,	vl_15
+"%s: invalid number to ignore"	,	lr_5
+optarg	,	vl_17
+"extra operand %s"	,	lr_6
+argv	,	vr_3
+NPROC_CURRENT_OVERRIDABLE	,	vl_9
+mode	,	vr_7
+emit_ancillary_info	,	fn_3
+quote	,	fn_11
+PACKAGE	,	vl_6
+ignore	,	vr_5
+LOCALEDIR	,	vl_7
+nproc_query	,	vr_6
+"%lu\n"	,	lr_7
+HELP_OPTION_DESCRIPTION	,	vl_3
+argc	,	vr_2
+num_processors	,	fn_12
+"Usage: %s [OPTION]...\n"	,	lr_1
+c	,	vr_8
+xstrtoul	,	fn_10
+getopt_long	,	fn_8
+IGNORE_OPTION	,	vl_16
+close_stdout	,	vl_8
+initialize_main	,	fn_4
+AUTHORS	,	vl_13
+textdomain	,	fn_7
+VERSION_OPTION_DESCRIPTION	,	vl_4
+ALL_OPTION	,	vl_14
+LONGINT_OK	,	vl_18
+emit_try_help	,	fn_2
+set_program_name	,	fn_5
+LC_ALL	,	vl_5
+EXIT_FAILURE	,	vl_19
+EXIT_SUCCESS	,	vl_1
+case_GETOPT_VERSION_CHAR	,	fn_9
+longopts	,	vl_10
+case_GETOPT_HELP_CHAR	,	vl_11
+status	,	vr_1

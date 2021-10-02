@@ -1,0 +1,40 @@
+""	,	lr_5
+bindtextdomain	,	fn_6
+"\(NL)Output each NAME with its last non-slash component and trailing slashes\n\(NL)removed; if NAME contains no /'s, output '.' (meaning the current directory).\n\(NL)\n\(NL)"	,	lr_2
+PROGRAM_NAME	,	vl_11
+optind	,	vl_14
+usage	,	fn_1
+program_name	,	vl_2
+"\(NL)  -z, --zero     separate output with NUL rather than newline\n\(NL)"	,	lr_3
+dot	,	vr_4
+"z"	,	lr_6
+size_t	,	tp_1
+argv	,	vr_3
+"\(NL)\n\(NL)Examples:\n\(NL)  %s /usr/bin/          -&gt; \"/usr\"\n\(NL)  %s dir1/str dir2/str  -&gt; \"dir1\" followed by \"dir2\"\n\(NL)  %s stdio.h            -&gt; \".\"\n\(NL)"	,	lr_4
+result	,	vr_6
+emit_ancillary_info	,	fn_3
+len	,	vr_7
+PACKAGE	,	vl_6
+use_nuls	,	vr_5
+"missing operand"	,	lr_7
+LOCALEDIR	,	vl_7
+HELP_OPTION_DESCRIPTION	,	vl_3
+argc	,	vr_2
+"\(NL)Usage: %s [OPTION] NAME...\n\(NL)"	,	lr_1
+c	,	vr_8
+getopt_long	,	fn_8
+close_stdout	,	vl_8
+initialize_main	,	fn_4
+AUTHORS	,	vl_12
+textdomain	,	fn_7
+VERSION_OPTION_DESCRIPTION	,	vl_4
+dir_len	,	fn_10
+emit_try_help	,	fn_2
+set_program_name	,	fn_5
+LC_ALL	,	vl_5
+EXIT_FAILURE	,	vl_13
+EXIT_SUCCESS	,	vl_1
+case_GETOPT_VERSION_CHAR	,	fn_9
+longopts	,	vl_9
+case_GETOPT_HELP_CHAR	,	vl_10
+status	,	vr_1

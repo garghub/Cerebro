@@ -1,0 +1,61 @@
+EEXIST	,	vl_2
+"removing directory, %s"	,	lr_1
+optind	,	vl_26
+usage	,	fn_10
+program_name	,	vl_12
+AT_FDCWD	,	vl_8
+prog_fprintf	,	fn_7
+rmdir	,	fn_9
+dir	,	vr_2
+quote	,	fn_8
+errno_rmdir_non_empty	,	fn_1
+PACKAGE	,	vl_16
+"Usage: %s [OPTION]... DIRECTORY...\n"	,	lr_3
+"missing operand"	,	lr_8
+LOCALEDIR	,	vl_17
+ignore_fail_on_non_empty	,	vl_7
+errno	,	vl_10
+errno_may_be_empty	,	fn_2
+optc	,	vr_8
+close_stdout	,	vl_18
+"\(NL)  -p, --parents   remove DIRECTORY and its ancestors; e.g., 'rmdir -p a/b/c' is\(NL)\n\(NL)                    similar to 'rmdir a/b/c a/b a'\n\(NL)  -v, --verbose   output a diagnostic for every directory processed\n\(NL)"	,	lr_5
+textdomain	,	fn_16
+VERSION_OPTION_DESCRIPTION	,	vl_14
+remove_parents	,	fn_5
+"failed to remove %s"	,	lr_9
+set_program_name	,	fn_14
+LC_ALL	,	vl_15
+EXIT_FAILURE	,	vl_25
+EXIT_SUCCESS	,	vl_11
+case_GETOPT_VERSION_CHAR	,	fn_18
+"failed to remove directory %s"	,	lr_2
+error_number	,	vr_1
+status	,	vr_5
+"\(NL)Remove the DIRECTORY(ies), if they are empty.\n\(NL)\n\(NL)      --ignore-fail-on-non-empty\n\(NL)                  ignore each failure that is solely because a directory\n\(NL)                    is non-empty\n\(NL)"	,	lr_4
+""	,	lr_6
+EPERM	,	vl_4
+bindtextdomain	,	fn_15
+PROGRAM_NAME	,	vl_23
+argv	,	vr_7
+ignorable_failure	,	fn_3
+emit_ancillary_info	,	fn_12
+EBUSY	,	vl_6
+EACCES	,	vl_3
+ok	,	vr_4
+HELP_OPTION_DESCRIPTION	,	vl_13
+argc	,	vr_6
+IGNORE_FAIL_ON_NON_EMPTY_OPTION	,	vl_21
+getopt_long	,	fn_17
+initialize_main	,	fn_13
+AUTHORS	,	vl_24
+"pv"	,	lr_7
+remove_empty_parents	,	vl_19
+verbose	,	vl_9
+emit_try_help	,	fn_11
+slash	,	vr_3
+longopts	,	vl_20
+EROFS	,	vl_5
+is_empty_dir	,	fn_4
+ENOTEMPTY	,	vl_1
+strip_trailing_slashes	,	fn_6
+case_GETOPT_HELP_CHAR	,	vl_22

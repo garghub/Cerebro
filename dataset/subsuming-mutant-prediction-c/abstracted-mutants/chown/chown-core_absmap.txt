@@ -1,0 +1,158 @@
+old_grp	,	vr_62
+symlink_changed	,	vr_52
+FTS_DNR	,	vl_24
+Change_status	,	vr_23
+fts_path	,	vr_46
+RC_ok	,	vl_7
+"fts_close failed"	,	lr_21
+old_spec	,	vr_28
+st_mode	,	vr_39
+quote	,	fn_15
+"failed to change group of %s from %s to %s\n"	,	lr_7
+"changing group of %s"	,	lr_19
+fts_errno	,	vr_57
+"fts_read failed"	,	lr_20
+FTS_SKIP	,	vl_19
+bit_flags	,	vr_64
+TYPE_SIGNED	,	fn_7
+getgrgid	,	fn_5
+chownat	,	fn_36
+errno	,	vl_13
+fts_statp	,	vr_54
+ch_status	,	vr_60
+group_name	,	vr_9
+RC_inode_changed	,	vl_17
+st_gid	,	vr_41
+INT_BUFSIZE_BOUND	,	fn_4
+open_flags	,	vr_37
+chopt_free	,	fn_2
+passwd	,	vr_17
+"neither symbolic link %s nor referent has been changed\n"	,	lr_2
+"cannot access %s"	,	lr_14
+RC_error	,	vl_16
+old_user	,	vr_25
+ignore_value	,	fn_28
+pwd	,	vr_18
+openat	,	fn_19
+status	,	vr_35
+required_uid	,	vr_33
+FTS_ERR	,	vl_23
+"cannot dereference %s"	,	lr_17
+restricted_chown	,	fn_16
+FTS	,	tp_3
+CH_NOT_APPLIED	,	vl_3
+user_name	,	vr_8
+cwd_fd	,	vr_30
+O_NONBLOCK	,	vl_8
+"ownership of %s retained as %s\n"	,	lr_11
+"ownership of %s retained\n"	,	lr_13
+orig_st	,	vr_32
+"failed to change group of %s to %s\n"	,	lr_10
+stat_flags	,	vr_65
+uid	,	vr_16
+file	,	vr_22
+"failed to change ownership of %s to %s\n"	,	lr_9
+fts_number	,	vr_56
+FTS_NOSTAT	,	vl_29
+close	,	fn_23
+S_ISLNK	,	fn_32
+FTSENT	,	tp_4
+"failed to change ownership of %s from %s to %s\n"	,	lr_6
+st	,	vr_36
+stat	,	vr_31
+fts	,	vr_43
+err	,	vr_59
+xstrdup	,	fn_6
+fstat	,	fn_20
+affect_symlink_referent	,	vr_5
+EOPNOTSUPP	,	vl_26
+FTSENT_IS_DIRECTORY	,	fn_34
+chopt_init	,	fn_1
+CH_SUCCEEDED	,	vl_4
+buf	,	vr_12
+O_RDONLY	,	vl_12
+CH_FAILED	,	vl_5
+"%s"	,	lr_15
+FTS_DC	,	vl_25
+stat_buf	,	vr_49
+fts_read	,	fn_29
+chopt	,	vr_2
+fmt	,	vr_27
+SAME_INODE	,	fn_21
+spec	,	vr_21
+fts_cwd_fd	,	vr_58
+getpwuid	,	fn_11
+xfts_open	,	fn_38
+O_NOCTTY	,	vl_9
+ROOT_DEV_INO_CHECK	,	fn_25
+Chown_option	,	vr_1
+group	,	vr_13
+RC_excluded	,	vl_27
+intmax_t	,	vl_2
+cycle_warning_required	,	fn_30
+fts_set	,	fn_27
+describe_change	,	fn_14
+file_full_name	,	vr_45
+CH_NO_CHANGE_REQUESTED	,	vl_6
+RC_do_ordinary_chown	,	vl_10
+old_usr	,	vr_61
+force_silent	,	vr_7
+recurse	,	vr_6
+"group of %s retained as %s\n"	,	lr_12
+change_file_owner	,	fn_24
+"changing ownership of %s"	,	lr_18
+files	,	vr_63
+fd	,	vr_38
+st_uid	,	vr_40
+changed	,	vr_24
+root_dev_ino	,	vr_4
+"changed group of %s from %s to %s\n"	,	lr_4
+gid	,	vr_11
+emit_cycle_warning	,	fn_31
+do_chown	,	vr_51
+FTS_NS	,	vl_21
+gr_name	,	vr_15
+V_high	,	vl_28
+stpcpy	,	fn_13
+FTS_AGAIN	,	vl_22
+":"	,	lr_1
+gid_to_name	,	fn_3
+fts_accpath	,	vr_47
+FTS_D	,	vl_18
+file_stats	,	vr_48
+chown_files	,	fn_37
+imaxtostr	,	fn_8
+"no change to ownership of %s\n"	,	lr_5
+O_DIRECTORY	,	vl_11
+required_gid	,	vr_34
+umaxtostr	,	fn_9
+ROOT_DEV_INO_WARN	,	fn_26
+EACCES	,	vl_14
+lchownat	,	fn_35
+ok	,	vr_50
+fts_level	,	vr_55
+grp	,	vr_14
+uid_t	,	tp_2
+fstatat	,	fn_33
+fts_close	,	fn_39
+"changed ownership of %s from %s to %s\n"	,	lr_3
+fchown	,	fn_22
+"cannot read directory %s"	,	lr_16
+ent	,	vr_44
+gid_t	,	tp_1
+saved_errno	,	vr_42
+V_off	,	vl_1
+old_group	,	vr_26
+"failed to change ownership of %s\n"	,	lr_8
+S_ISREG	,	fn_17
+_GL_UNUSED	,	vr_10
+user_group_str	,	fn_12
+S_ISDIR	,	fn_18
+uid_to_name	,	fn_10
+pw_name	,	vr_19
+RCH_status	,	vr_29
+O_WRONLY	,	vl_15
+fts_info	,	vr_53
+FTS_DP	,	vl_20
+user	,	vr_20
+verbosity	,	vr_3

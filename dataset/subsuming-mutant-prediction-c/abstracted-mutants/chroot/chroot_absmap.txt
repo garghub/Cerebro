@@ -1,0 +1,98 @@
+n_gids	,	vr_5
+"invalid group list %s"	,	lr_4
+GROUPS	,	vl_16
+"cannot chdir to root directory"	,	lr_14
+usage	,	fn_9
+optarg	,	vl_15
+"cannot change root directory to %s"	,	lr_12
+quote	,	fn_7
+tmp	,	vr_7
+","	,	lr_1
+"invalid group %s"	,	lr_3
+chroot	,	fn_19
+getgrgid	,	fn_5
+errno	,	vl_3
+setgid	,	fn_23
+execvp	,	fn_25
+userspec	,	vr_17
+textdomain	,	fn_15
+VERSION_OPTION_DESCRIPTION	,	vl_7
+"\(NL)Usage: %s [OPTION] NEWROOT [COMMAND [ARG]...]\n\(NL)  or:  %s OPTION\n\(NL)"	,	lr_6
+"\(NL)Run COMMAND with root directory set to NEWROOT.\n\(NL)\n\(NL)"	,	lr_7
+fail	,	vr_19
+size	,	tp_2
+set_program_name	,	fn_13
+set_additional_groups	,	fn_2
+LC_ALL	,	vl_8
+EXIT_SUCCESS	,	vl_4
+status	,	vr_13
+""	,	lr_2
+"failed to set group-ID"	,	lr_19
+bindtextdomain	,	fn_14
+bad_cast	,	fn_21
+"\(NL)  --userspec=USER:GROUP  specify user and group (ID or name) to use\n\(NL)  --groups=G_LIST        specify supplementary groups as g1,g2,..,gN\n\(NL)"	,	lr_8
+PROGRAM_NAME	,	vl_18
+"\(NL)\n\(NL)If no command is given, run '${SHELL} -i' (default: '/bin/sh -i').\n\(NL)"	,	lr_9
+uid	,	vr_20
+EXIT_CANNOT_INVOKE	,	vl_23
+gr_gid	,	vr_12
+GETGROUPS_T	,	tp_5
+HELP_OPTION_DESCRIPTION	,	vl_6
+EXIT_ENOENT	,	vl_22
+c	,	vr_16
+n_gids_allocated	,	vr_4
+err	,	vr_22
+getopt_long	,	fn_17
+xstrdup	,	fn_3
+g	,	vr_10
+AUTHORS	,	vl_19
+ENOENT	,	vl_21
+emit_try_help	,	fn_10
+"-i"	,	lr_17
+"failed to run command %s"	,	lr_21
+"/"	,	lr_13
+"%s"	,	lr_18
+optind	,	vl_20
+program_name	,	vl_5
+size_t	,	tp_1
+setgroups	,	fn_1
+PACKAGE	,	vl_9
+"missing operand"	,	lr_11
+LOCALEDIR	,	vl_10
+"/bin/sh"	,	lr_16
+buffer	,	vr_6
+group	,	vr_9
+ret	,	vr_8
+long_opts	,	vl_13
+"failed to set additional groups"	,	lr_5
+close_stdout	,	vl_12
+chdir	,	fn_20
+list	,	tp_4
+setuid	,	fn_24
+LONGINT_OK	,	vl_1
+shell	,	vr_18
+case_GETOPT_VERSION_CHAR	,	fn_18
+"failed to set user-ID"	,	lr_20
+gids	,	vr_3
+gid	,	vr_21
+parse_user_spec	,	fn_22
+exit_status	,	vr_23
+argv	,	vr_15
+emit_ancillary_info	,	fn_11
+initialize_exit_failure	,	fn_16
+USERSPEC	,	vl_14
+value	,	vr_11
+argc	,	vr_14
+xstrtoul	,	fn_4
+X2NREALLOC	,	fn_8
+uid_t	,	tp_6
+groups	,	vr_2
+initialize_main	,	fn_12
+gid_t	,	tp_3
+_GL_UNUSED	,	vr_1
+getgrnam	,	fn_6
+"+"	,	lr_10
+"SHELL"	,	lr_15
+MAXGID	,	vl_2
+case_GETOPT_HELP_CHAR	,	vl_17
+EXIT_CANCELED	,	vl_11

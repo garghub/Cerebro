@@ -1,0 +1,50 @@
+IS_RELATIVE_FILE_NAME	,	fn_9
+base_name	,	fn_7
+optind	,	vl_15
+usage	,	fn_1
+program_name	,	vl_2
+"+as:z"	,	lr_6
+optarg	,	vl_10
+suffix	,	vr_3
+"\(NL)\n\(NL)Examples:\n\(NL)  %s /usr/bin/sort          -&gt; \"sort\"\n\(NL)  %s include/stdio.h .h     -&gt; \"stdio\"\n\(NL)  %s -s .h include/stdio.h  -&gt; \"stdio\"\n\(NL)  %s -a any/str1 any/str2   -&gt; \"str1\" followed by \"str2\"\n\(NL)"	,	lr_4
+quote	,	fn_17
+PACKAGE	,	vl_6
+"missing operand"	,	lr_7
+LOCALEDIR	,	vl_7
+perform_basename	,	fn_6
+close_stdout	,	vl_8
+textdomain	,	fn_14
+VERSION_OPTION_DESCRIPTION	,	vl_4
+"\(NL)  -a, --multiple       support multiple arguments and treat each as a NAME\n\(NL)  -s, --suffix=SUFFIX  remove a trailing SUFFIX\n\(NL)  -z, --zero           separate output with NUL rather than newline\n\(NL)"	,	lr_3
+set_program_name	,	fn_12
+LC_ALL	,	vl_5
+EXIT_FAILURE	,	vl_14
+EXIT_SUCCESS	,	vl_1
+name	,	vr_2
+case_GETOPT_VERSION_CHAR	,	fn_16
+remove_suffix	,	fn_5
+status	,	vr_1
+"\(NL)Print NAME with any leading directory components removed.\n\(NL)If specified, also remove a trailing SUFFIX.\n\(NL)"	,	lr_2
+""	,	lr_5
+np	,	vr_4
+"\(NL)Usage: %s NAME [SUFFIX]\n\(NL)  or:  %s OPTION... NAME...\n\(NL)"	,	lr_1
+bindtextdomain	,	fn_13
+PROGRAM_NAME	,	vl_12
+"extra operand %s"	,	lr_8
+argv	,	vr_8
+emit_ancillary_info	,	fn_4
+use_nuls	,	vr_6
+emit_mandatory_arg_note	,	fn_3
+sp	,	vr_5
+HELP_OPTION_DESCRIPTION	,	vl_3
+argc	,	vr_7
+FILE_SYSTEM_PREFIX_LEN	,	fn_10
+c	,	vr_10
+getopt_long	,	fn_15
+initialize_main	,	fn_11
+AUTHORS	,	vl_13
+emit_try_help	,	fn_2
+multiple_names	,	vr_9
+longopts	,	vl_9
+strip_trailing_slashes	,	fn_8
+case_GETOPT_HELP_CHAR	,	vl_11

@@ -1,0 +1,160 @@
+ngettext	,	fn_19
+"\\\\"	,	lr_32
+STREQ_LEN	,	fn_8
+stdin	,	vl_13
+status_only	,	vl_22
+usage	,	fn_1
+hex_digest	,	vr_6
+escaped_filename	,	vr_8
+"\(NL)  -c, --check          read %s sums from the FILEs and check them\n"	,	lr_4
+"\(NL)  -t, --text           read in text mode (default if reading tty stdin)\n\(NL)"	,	lr_6
+DIGEST_BITS	,	vl_4
+STATUS_OPTION	,	vl_31
+"WARNING: %"	,	lr_24
+strict	,	vl_24
+"\\n"	,	lr_31
+n_open_or_read_failures	,	vr_22
+_GL_ATTRIBUTE_PURE	,	tp_2
+errno	,	vl_15
+FADVISE_SEQUENTIAL	,	vl_16
+ISWHITE	,	fn_6
+textdomain	,	fn_25
+VERSION_OPTION_DESCRIPTION	,	vl_7
+filename_unescape	,	fn_4
+"the --binary and --text options are meaningless when "	,	lr_38
+DIGEST_ALIGN	,	vl_18
+filename	,	vr_11
+fadvise	,	fn_14
+set_program_name	,	fn_23
+digest_check	,	fn_16
+EXIT_FAILURE	,	vl_19
+LC_ALL	,	vl_25
+"the --warn option is meaningful only when verifying checksums"	,	lr_40
+"\(NL)\n\(NL)The following four options are useful only when verifying checksums:\n\(NL)      --quiet          don't print OK for each successfully verified file\n\(NL)      --status         don't output anything, status code shows success\n\(NL)      --strict         exit non-zero for improperly formatted checksum lines\n\(NL)  -w, --warn           warn about improperly formatted checksum lines\n\(NL)\n\(NL)"	,	lr_8
+EXIT_SUCCESS	,	vl_1
+binary	,	vr_9
+"-"	,	lr_10
+QUIET_OPTION	,	vl_32
+print_filename	,	fn_21
+STRICT_OPTION	,	vl_33
+" lines are improperly formatted"	,	lr_26
+min_digest_line_length	,	vl_9
+"the --strict option is meaningful only when verifying checksums"	,	lr_42
+status	,	vr_1
+n_properly_formatted_lines	,	vr_19
+""	,	lr_33
+bsd_reversed	,	vl_11
+"the --tag option is meaningless when "	,	lr_36
+bin_buffer	,	vr_24
+ssize_t	,	tp_5
+O_BINARY	,	vl_5
+bindtextdomain	,	fn_24
+bad_cast	,	fn_28
+bin2hex	,	vr_29
+PROGRAM_NAME	,	vl_36
+DIGEST_HEX_BYTES	,	vl_39
+"verifying checksums"	,	lr_37
+" computed checksum did NOT match"	,	lr_29
+" line is improperly formatted"	,	lr_25
+prefix_tag	,	vr_39
+ptr_align	,	fn_17
+bin_buffer_unaligned	,	vr_23
+line_chars_allocated	,	vr_26
+"%s: no properly formatted %s checksum lines found"	,	lr_23
+digest_hex_bytes	,	vl_10
+file	,	vr_33
+line_number	,	vr_25
+quiet	,	vl_23
+FILE	,	tp_3
+is_stdin	,	vr_15
+escape	,	vr_34
+HELP_OPTION_DESCRIPTION	,	vl_6
+algo_name_len	,	vr_10
+TAG_OPTION	,	vl_34
+"%s: too many checksum lines"	,	lr_15
+err	,	vr_14
+getopt_long	,	fn_26
+n_misformatted_lines	,	vr_18
+cnt	,	vr_32
+i	,	vr_5
+AUTHORS	,	vl_37
+n_improperly_formatted_lines	,	vr_20
+emit_try_help	,	fn_2
+s	,	vr_2
+"OK"	,	lr_21
+"\(NL)  -t, --text           read in text mode (default)\n\(NL)"	,	lr_7
+"rb"	,	lr_11
+"%s"	,	lr_13
+"%s: read error"	,	lr_22
+optind	,	vl_40
+program_name	,	vl_2
+digest_file	,	fn_10
+DIGEST_REFERENCE	,	vl_8
+size_t	,	tp_1
+isatty	,	fn_12
+uintmax_t	,	tp_4
+"r"	,	lr_12
+long_options	,	vl_30
+PACKAGE	,	vl_26
+LOCALEDIR	,	vl_27
+" listed files could not be read"	,	lr_28
+IF_LINT	,	vr_27
+DIGEST_TYPE_STRING	,	vl_3
+STDIN_FILENO	,	vl_14
+"bctw"	,	lr_34
+checkfile_name	,	vr_16
+close_stdout	,	vl_28
+checkfile_stream	,	vr_17
+PRIuMAX	,	vl_21
+MIN_DIGEST_LINE_LENGTH	,	vl_38
+warn	,	vl_20
+opt	,	vr_38
+": improperly formatted %s checksum line"	,	lr_17
+digest_bin_bytes	,	vr_31
+" ("	,	lr_43
+case_GETOPT_VERSION_CHAR	,	fn_27
+select_plural	,	fn_20
+"\(NL)\n\(NL)The sums are computed as described in %s.  When checking, the input\n\(NL)should be a former output of this program.  The default mode is to print\n\(NL)a line with checksum, a character indicating input mode ('*' for binary,\n\(NL)space for text), and name for each FILE.\n"	,	lr_9
+"standard input"	,	lr_14
+DIGEST_STREAM	,	fn_15
+"--tag does not support --text mode"	,	lr_35
+dst	,	vr_4
+STREQ	,	fn_11
+bsd_split_3	,	fn_5
+line_length	,	vr_28
+"%s: FAILED open or read\n"	,	lr_18
+s_len	,	vr_3
+DIGEST_BIN_BYTES	,	vl_17
+"\(NL)  -b, --binary         read in binary mode (default unless reading tty stdin)\n\(NL)"	,	lr_2
+fp	,	vr_13
+"the --quiet option is meaningful only when verifying checksums"	,	lr_41
+"%02x"	,	lr_45
+"FAILED"	,	lr_20
+argv	,	vr_36
+" listed file could not be read"	,	lr_27
+"\(NL)Usage: %s [OPTION]... [FILE]...\n\(NL)Print or check %s (%d-bit) checksums.\n\(NL)With no FILE, or when FILE is -, read standard input.\n\(NL)\n\(NL)"	,	lr_1
+emit_ancillary_info	,	fn_3
+file_is_binary	,	vr_40
+" computed checksums did NOT match"	,	lr_30
+"\(NL)  -b, --binary         read in binary mode\n\(NL)"	,	lr_3
+getline	,	fn_18
+needs_escape	,	vr_41
+ok	,	vr_30
+"the --status option is meaningful only when verifying checksums"	,	lr_39
+do_check	,	vr_37
+EOF	,	vl_41
+split_3	,	fn_7
+argc	,	vr_35
+n_mismatched_checksums	,	vr_21
+"\(NL)      --tag            create a BSD-style checksum\n\(NL)"	,	lr_5
+"%s: %s\n"	,	lr_19
+hex_digits	,	fn_9
+file_name	,	vr_7
+initialize_main	,	fn_22
+_IOLBF	,	vl_29
+") = "	,	lr_44
+have_read_stdin	,	vl_12
+"%s: %"	,	lr_16
+bin_result	,	vr_12
+case_GETOPT_HELP_CHAR	,	vl_35
+xfreopen	,	fn_13

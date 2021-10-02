@@ -1,0 +1,102 @@
+scontext	,	vr_29
+usage	,	fn_1
+make_ancestor	,	fn_8
+optarg	,	vl_19
+st_mode	,	vr_21
+quote	,	fn_7
+S_IXUSR	,	vl_8
+"Usage: %s [OPTION]... DIRECTORY...\n"	,	lr_1
+options	,	vr_3
+mkdir	,	fn_12
+errno	,	vl_6
+optc	,	vr_28
+mode_compile	,	fn_30
+pdir	,	vr_18
+textdomain	,	fn_23
+VERSION_OPTION_DESCRIPTION	,	vl_4
+set_program_name	,	fn_21
+EXIT_FAILURE	,	vl_13
+LC_ALL	,	vl_14
+EXIT_SUCCESS	,	vl_1
+restorecon	,	fn_18
+status	,	vr_1
+self_denying_umask	,	vr_10
+S_IRWXUGO	,	vl_9
+""	,	lr_7
+umask	,	fn_11
+make_dir_parents	,	fn_17
+bindtextdomain	,	fn_22
+PROGRAM_NAME	,	vl_21
+mkdir_errno	,	vr_13
+"it requires an SELinux/SMACK-enabled kernel"	,	lr_11
+S_IRUSR	,	vl_10
+mode_bits	,	vr_24
+"."	,	lr_5
+smack_set_label_for_self	,	fn_28
+"invalid mode %s"	,	lr_14
+"\(NL)Create the DIRECTORY(ies), if they do not already exist.\n\(NL)"	,	lr_2
+HELP_OPTION_DESCRIPTION	,	vl_3
+st	,	vr_20
+stat	,	vr_19
+getopt_long	,	fn_24
+change	,	vr_31
+AUTHORS	,	vl_22
+"pm:vZ"	,	lr_8
+o	,	vr_5
+set_security_context	,	vr_8
+umask_value	,	vr_11
+emit_try_help	,	fn_2
+component	,	vr_7
+r	,	vr_12
+S_IWUSR	,	vl_7
+"created directory %s"	,	lr_9
+mkdir_options	,	vr_4
+optind	,	vl_23
+program_name	,	vl_2
+prog_fprintf	,	fn_6
+ignorable_ctx_err	,	fn_10
+make_ancestor_function	,	vr_17
+dir	,	vr_2
+mode	,	vr_23
+mode_t	,	tp_1
+PACKAGE	,	vl_15
+"missing operand"	,	lr_12
+LOCALEDIR	,	vl_16
+"failed to restore context for %s"	,	lr_6
+ret	,	vr_22
+S_IFDIR	,	vl_5
+dir_name	,	fn_14
+close_stdout	,	vl_17
+process_dir	,	fn_13
+"failed to set default file creation context to %s"	,	lr_13
+setfscreatecon	,	fn_29
+case_GETOPT_VERSION_CHAR	,	fn_27
+"\(NL)  -m, --mode=MODE   set file mode (as in chmod), not a=rwx - umask\n\(NL)  -p, --parents     no error if existing, make parent directories as needed\n\(NL)  -v, --verbose     print a message for each created directory\n\(NL)  -Z, --context[=CTX]  set the SELinux security context of each created\n\(NL)                         directory to default type or to CTX if specified\n\(NL)"	,	lr_3
+set_defaultcon	,	vr_16
+savewd	,	vr_14
+STREQ	,	fn_15
+is_selinux_enabled	,	fn_26
+created_directory_format	,	vr_6
+wd	,	vr_15
+argv	,	vr_26
+emit_ancillary_info	,	fn_4
+defaultcon	,	fn_9
+mode_adjust	,	fn_31
+emit_mandatory_arg_note	,	fn_3
+"warning: ignoring --context; "	,	lr_10
+announce_mkdir	,	fn_5
+mode_change	,	vr_30
+last_component	,	fn_19
+argc	,	vr_25
+uid_t	,	vl_11
+is_smack_enabled	,	fn_25
+savewd_process_files	,	fn_32
+"failed to set default creation context for %s"	,	lr_4
+initialize_main	,	fn_20
+gid_t	,	vl_12
+user_wx	,	vr_9
+specified_mode	,	vr_27
+security_context_t	,	tp_2
+S_ISDIR	,	fn_16
+longopts	,	vl_18
+case_GETOPT_HELP_CHAR	,	vl_20

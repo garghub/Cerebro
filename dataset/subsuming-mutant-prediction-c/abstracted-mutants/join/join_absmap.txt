@@ -1,0 +1,217 @@
+beg2	,	vr_18
+stdin	,	vl_53
+beg1	,	vr_17
+prev	,	vr_22
+field_index	,	vr_66
+to_uchar	,	fn_8
+"invalid field number: %s"	,	lr_11
+delseq	,	fn_26
+quote	,	fn_36
+len	,	vr_3
+LONGINT_OVERFLOW	,	vl_32
+MUST_BE_OPERAND	,	vl_34
+"both files cannot be standard input"	,	lr_28
+errno	,	vl_19
+empty_filler	,	vl_20
+optc	,	vr_83
+FADVISE_SEQUENTIAL	,	vl_25
+isblank	,	fn_7
+diff	,	vr_21
+SWAPLINES	,	fn_19
+extract_field	,	fn_4
+str	,	vr_60
+MIN	,	fn_12
+prfields	,	fn_28
+fadvise	,	fn_31
+", \t"	,	lr_14
+EXIT_FAILURE	,	vl_16
+freeline	,	fn_9
+NOCHECK_ORDER_OPTION	,	vl_47
+"\(NL)\n\(NL)Unless -t CHAR is given, leading blanks separate fields and are ignored,\n\(NL)else fields are separated by CHAR.  Any FIELD is a field number counted\n\(NL)from 1.  FORMAT is one or more comma or blank separated specifications,\n\(NL)each being 'FILENUM.FIELD' or '0'.  Default FORMAT outputs the join field,\n\(NL)the remaining fields from FILE1, the remaining fields from FILE2, all\n\(NL)separated by CHAR.  If FORMAT is the keyword 'auto', then the first\n\(NL)line of each file determines the number of fields output for each line.\n\(NL)\n\(NL)Important: FILE1 and FILE2 must be sorted on the join fields.\n\(NL)E.g., use \"sort -k 1b,1\" if 'join' has no options,\n\(NL)or use \"join -t ''\" if 'sort' has no options.\n\(NL)Note, comparisons honor the rules specified by 'LC_COLLATE'.\n\(NL)If the input is not sorted and some lines cannot be joined, a\n\(NL)warning message will be given.\n\(NL)"	,	lr_6
+""	,	lr_10
+PROGRAM_NAME	,	vl_51
+result	,	vr_61
+current	,	vr_23
+nfields	,	vr_4
+arg	,	vr_80
+set_join_field	,	fn_39
+seen_unpairable	,	vl_12
+seq	,	vr_35
+sep	,	vr_12
+add_field	,	fn_32
+i	,	vr_34
+j	,	vr_57
+AUTHORS	,	vl_52
+"\(NL)  -z, --zero-terminated     end lines with 0 byte, not newline\n\(NL)"	,	lr_5
+"read error"	,	lr_9
+n	,	vr_41
+"invalid file number in field spec: %s"	,	lr_13
+op0	,	vr_79
+o	,	vr_47
+p	,	vr_67
+buf	,	vr_8
+s	,	vr_64
+init_linep	,	fn_16
+add_file_name	,	fn_40
+"\(NL)  -i, --ignore-case  ignore differences in case when comparing fields\n\(NL)  -j FIELD          equivalent to '-1 FIELD -2 FIELD'\n\(NL)  -o FORMAT         obey FORMAT while constructing output line\n\(NL)  -t CHAR           use CHAR as input and output field separator\n\(NL)"	,	lr_3
+beg	,	vl_5
+autocount_1	,	vl_23
+program_name	,	vl_2
+autocount_2	,	vl_24
+checktail	,	vr_58
+newtab	,	vr_85
+"-a:e:i1:2:j:o:t:v:z"	,	lr_17
+len1	,	vr_19
+len2	,	vr_20
+lim	,	vr_10
+HEADER_LINE_OPTION	,	vl_49
+"missing operand after %s"	,	lr_24
+output_separator	,	vr_43
+PACKAGE	,	vl_39
+LC_COLLATE	,	vl_41
+"missing operand"	,	lr_23
+memcasecmp	,	fn_11
+eof2	,	vr_54
+eof1	,	vr_53
+CHECK_ORDER_ENABLED	,	vl_11
+line2	,	vr_14
+line1	,	vr_13
+"\\0"	,	lr_20
+which	,	vr_31
+fp1	,	vr_49
+count	,	vr_36
+close_stdout	,	vl_42
+fp2	,	vr_50
+prevline	,	vr_32
+name	,	vr_72
+fields	,	vr_6
+alloc	,	vr_37
+xfields	,	fn_6
+next	,	vr_46
+getseq	,	fn_24
+STREQ	,	fn_47
+ARRAY_CARDINALITY	,	fn_22
+fp	,	vr_30
+"extra operand %s"	,	lr_16
+hline2	,	vr_56
+argv	,	vr_82
+hline1	,	vr_55
+ignore_case	,	vl_7
+emit_ancillary_info	,	fn_3
+join_header_lines	,	vl_26
+xmemcoll	,	fn_13
+print_pairables	,	vl_29
+keycmp	,	fn_10
+lines	,	vr_38
+linep	,	vr_29
+argc	,	vr_81
+"auto"	,	lr_19
+length	,	vr_11
+initialize_main	,	fn_41
+ptr	,	vr_7
+get_line	,	fn_18
+operand_status	,	vr_74
+reset_line	,	fn_15
+print_unpairables_1	,	vl_27
+print_unpairables_2	,	vl_28
+longopts	,	vl_44
+outlist	,	vr_44
+outlist_end	,	vr_59
+prev_optc_status	,	vr_77
+usage	,	fn_1
+eolchar	,	vl_18
+val1	,	vr_71
+optarg	,	vl_45
+whatfile	,	vr_24
+check_input_order	,	vl_9
+file_index	,	vr_65
+MIGHT_BE_J1_ARG	,	vl_35
+": is not sorted: %.*s"	,	lr_8
+s_err	,	vr_63
+join	,	fn_30
+hard_locale	,	fn_45
+val	,	vr_62
+var	,	vr_69
+free_spareline	,	fn_21
+prfield	,	fn_27
+textdomain	,	fn_44
+VERSION_OPTION_DESCRIPTION	,	vl_4
+joption_count	,	vr_75
+autoformat	,	vl_21
+SIZE_MAX	,	vl_30
+field	,	vr_2
+set_program_name	,	fn_42
+LC_ALL	,	vl_38
+EXIT_SUCCESS	,	vl_1
+"-"	,	lr_25
+status	,	vr_1
+strtol_error	,	tp_3
+bindtextdomain	,	fn_43
+nfiles	,	vr_76
+xcalloc	,	fn_17
+file	,	vr_48
+check_order	,	fn_14
+INT_MAX	,	vl_15
+verify	,	fn_34
+FILE	,	tp_2
+HELP_OPTION_DESCRIPTION	,	vl_3
+join_field_2	,	vl_14
+string_to_join_field	,	fn_33
+"conflicting empty-field replacement strings"	,	lr_18
+hard_LC_COLLATE	,	vl_8
+spec_item	,	vr_68
+getopt_long	,	fn_46
+line_no	,	vr_28
+join_field_1	,	vl_13
+initseq	,	fn_23
+uni_blank	,	vl_22
+emit_try_help	,	fn_2
+"multi-character tab %s"	,	lr_21
+nfields_allocated	,	vr_5
+names	,	vr_73
+"invalid field specifier: %s"	,	lr_12
+"incompatible join fields %lu, %lu"	,	lr_15
+first	,	vr_40
+"%s"	,	lr_27
+spareline	,	vr_33
+"%s:%"	,	lr_7
+seq2	,	vr_52
+optind	,	vl_46
+seq1	,	vr_51
+whichfile	,	vr_39
+g_names	,	vr_27
+size_t	,	tp_1
+outlist_head	,	vr_45
+CHECK_ORDER_DISABLED	,	vl_10
+"\(NL)For each pair of input lines with identical join fields, write a line to\n\(NL)standard output.  The default join field is the first, delimited\n\(NL)by whitespace.  When FILE1 or FILE2 (not both) is -, read standard input.\n\(NL)\n\(NL)  -a FILENUM        also print unpairable lines from file FILENUM, where\n\(NL)                      FILENUM is 1 or 2, corresponding to FILE1 or FILE2\n\(NL)  -e EMPTY          replace missing input fields with EMPTY\n\(NL)"	,	lr_2
+readlinebuffer_delim	,	fn_20
+"r"	,	lr_26
+tab	,	vl_6
+LOCALEDIR	,	vl_40
+buffer	,	vr_9
+ULONG_MAX	,	vl_31
+MIGHT_BE_J2_ARG	,	vl_36
+optc_status	,	vr_78
+CHECK_ORDER_DEFAULT	,	vl_43
+decode_field_spec	,	fn_37
+PRIuMAX	,	vl_17
+LONGINT_OK	,	vl_33
+case_GETOPT_VERSION_CHAR	,	fn_48
+prjoin	,	fn_29
+is_j2	,	vr_84
+issued_disorder_warning	,	vr_25
+"\(NL)Usage: %s [OPTION]... FILE1 FILE2\n\(NL)"	,	lr_1
+"incompatible tabs"	,	lr_22
+var1	,	vr_70
+CHECK_ORDER_OPTION	,	vl_48
+jf_2	,	vr_16
+jf_1	,	vr_15
+"\(NL)  -v FILENUM        like -a FILENUM, but suppress joined output lines\n\(NL)  -1 FIELD          join on this FIELD of file 1\n\(NL)  -2 FIELD          join on this FIELD of file 2\n\(NL)  --check-order     check that the input is correctly sorted, even\n\(NL)                      if all input lines are pairable\n\(NL)  --nocheck-order   do not check that the input is correctly sorted\n\(NL)  --header          treat the first line in each file as field headers,\n\(NL)                      print them without trying to pair them\n\(NL)"	,	lr_4
+X2NREALLOC	,	fn_5
+xstrtoul	,	fn_35
+advance_seq	,	fn_25
+join_field	,	vr_26
+MIGHT_BE_O_ARG	,	vl_37
+add_field_list	,	fn_38
+autocount	,	vr_42
+case_GETOPT_HELP_CHAR	,	vl_50
