@@ -1,0 +1,45 @@
+"standard input"	,	lr_14
+"\\\\"	,	lr_32
+""	,	lr_33
+"rb"	,	lr_11
+"the --tag option is meaningless when "	,	lr_36
+"%s"	,	lr_13
+"--tag does not support --text mode"	,	lr_35
+"%s: read error"	,	lr_22
+"%s: FAILED open or read\n"	,	lr_18
+"verifying checksums"	,	lr_37
+"\(NL)  -b, --binary         read in binary mode (default unless reading tty stdin)\n\(NL)"	,	lr_2
+"the --quiet option is meaningful only when verifying checksums"	,	lr_41
+"%02x"	,	lr_45
+"FAILED"	,	lr_20
+" computed checksum did NOT match"	,	lr_29
+"\(NL)  -c, --check          read %s sums from the FILEs and check them\n"	,	lr_4
+"\(NL)  -t, --text           read in text mode (default if reading tty stdin)\n\(NL)"	,	lr_6
+" line is improperly formatted"	,	lr_25
+" listed file could not be read"	,	lr_27
+"\(NL)Usage: %s [OPTION]... [FILE]...\n\(NL)Print or check %s (%d-bit) checksums.\n\(NL)With no FILE, or when FILE is -, read standard input.\n\(NL)\n\(NL)"	,	lr_1
+"r"	,	lr_12
+"%s: no properly formatted %s checksum lines found"	,	lr_23
+" computed checksums did NOT match"	,	lr_30
+"\(NL)  -b, --binary         read in binary mode\n\(NL)"	,	lr_3
+" listed files could not be read"	,	lr_28
+"WARNING: %"	,	lr_24
+"\\n"	,	lr_31
+"the --status option is meaningful only when verifying checksums"	,	lr_39
+"\(NL)      --tag            create a BSD-style checksum\n\(NL)"	,	lr_5
+"%s: too many checksum lines"	,	lr_15
+"%s: %s\n"	,	lr_19
+"bctw"	,	lr_34
+"the --binary and --text options are meaningless when "	,	lr_38
+": improperly formatted %s checksum line"	,	lr_17
+") = "	,	lr_44
+"OK"	,	lr_21
+"%s: %"	,	lr_16
+"the --warn option is meaningful only when verifying checksums"	,	lr_40
+"\(NL)  -t, --text           read in text mode (default)\n\(NL)"	,	lr_7
+"\(NL)\n\(NL)The following four options are useful only when verifying checksums:\n\(NL)      --quiet          don't print OK for each successfully verified file\n\(NL)      --status         don't output anything, status code shows success\n\(NL)      --strict         exit non-zero for improperly formatted checksum lines\n\(NL)  -w, --warn           warn about improperly formatted checksum lines\n\(NL)\n\(NL)"	,	lr_8
+"-"	,	lr_10
+" ("	,	lr_43
+"\(NL)\n\(NL)The sums are computed as described in %s.  When checking, the input\n\(NL)should be a former output of this program.  The default mode is to print\n\(NL)a line with checksum, a character indicating input mode ('*' for binary,\n\(NL)space for text), and name for each FILE.\n"	,	lr_9
+" lines are improperly formatted"	,	lr_26
+"the --strict option is meaningful only when verifying checksums"	,	lr_42

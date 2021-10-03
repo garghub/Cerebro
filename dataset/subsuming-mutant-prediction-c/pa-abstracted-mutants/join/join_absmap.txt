@@ -1,0 +1,28 @@
+"\(NL)\n\(NL)Unless -t CHAR is given, leading blanks separate fields and are ignored,\n\(NL)else fields are separated by CHAR.  Any FIELD is a field number counted\n\(NL)from 1.  FORMAT is one or more comma or blank separated specifications,\n\(NL)each being 'FILENUM.FIELD' or '0'.  Default FORMAT outputs the join field,\n\(NL)the remaining fields from FILE1, the remaining fields from FILE2, all\n\(NL)separated by CHAR.  If FORMAT is the keyword 'auto', then the first\n\(NL)line of each file determines the number of fields output for each line.\n\(NL)\n\(NL)Important: FILE1 and FILE2 must be sorted on the join fields.\n\(NL)E.g., use \"sort -k 1b,1\" if 'join' has no options,\n\(NL)or use \"join -t ''\" if 'sort' has no options.\n\(NL)Note, comparisons honor the rules specified by 'LC_COLLATE'.\n\(NL)If the input is not sorted and some lines cannot be joined, a\n\(NL)warning message will be given.\n\(NL)"	,	lr_6
+""	,	lr_10
+"%s"	,	lr_27
+"%s:%"	,	lr_7
+"extra operand %s"	,	lr_16
+"-a:e:i1:2:j:o:t:v:z"	,	lr_17
+"\(NL)Usage: %s [OPTION]... FILE1 FILE2\n\(NL)"	,	lr_1
+"\(NL)For each pair of input lines with identical join fields, write a line to\n\(NL)standard output.  The default join field is the first, delimited\n\(NL)by whitespace.  When FILE1 or FILE2 (not both) is -, read standard input.\n\(NL)\n\(NL)  -a FILENUM        also print unpairable lines from file FILENUM, where\n\(NL)                      FILENUM is 1 or 2, corresponding to FILE1 or FILE2\n\(NL)  -e EMPTY          replace missing input fields with EMPTY\n\(NL)"	,	lr_2
+"invalid field number: %s"	,	lr_11
+"missing operand after %s"	,	lr_24
+"r"	,	lr_26
+": is not sorted: %.*s"	,	lr_8
+"missing operand"	,	lr_23
+"both files cannot be standard input"	,	lr_28
+"incompatible tabs"	,	lr_22
+"\\0"	,	lr_20
+"\(NL)  -v FILENUM        like -a FILENUM, but suppress joined output lines\n\(NL)  -1 FIELD          join on this FIELD of file 1\n\(NL)  -2 FIELD          join on this FIELD of file 2\n\(NL)  --check-order     check that the input is correctly sorted, even\n\(NL)                      if all input lines are pairable\n\(NL)  --nocheck-order   do not check that the input is correctly sorted\n\(NL)  --header          treat the first line in each file as field headers,\n\(NL)                      print them without trying to pair them\n\(NL)"	,	lr_4
+"conflicting empty-field replacement strings"	,	lr_18
+"auto"	,	lr_19
+"\(NL)  -z, --zero-terminated     end lines with 0 byte, not newline\n\(NL)"	,	lr_5
+"read error"	,	lr_9
+"invalid file number in field spec: %s"	,	lr_13
+"multi-character tab %s"	,	lr_21
+", \t"	,	lr_14
+"-"	,	lr_25
+"invalid field specifier: %s"	,	lr_12
+"incompatible join fields %lu, %lu"	,	lr_15
+"\(NL)  -i, --ignore-case  ignore differences in case when comparing fields\n\(NL)  -j FIELD          equivalent to '-1 FIELD -2 FIELD'\n\(NL)  -o FORMAT         obey FORMAT while constructing output line\n\(NL)  -t CHAR           use CHAR as input and output field separator\n\(NL)"	,	lr_3

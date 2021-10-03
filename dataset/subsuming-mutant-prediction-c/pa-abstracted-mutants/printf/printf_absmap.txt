@@ -1,0 +1,23 @@
+"missing hexadecimal number in escape"	,	lr_10
+"invalid precision: %s"	,	lr_15
+""	,	lr_17
+"%.*s: invalid conversion specification"	,	lr_16
+"%s"	,	lr_7
+"\(NL)Usage: %s FORMAT [ARGUMENT]...\n\(NL)  or:  %s OPTION\n\(NL)"	,	lr_1
+"\(NL)  \\NNN    byte with octal value NNN (1 to 3 digits)\n\(NL)  \\xHH    byte with hexadecimal value HH (1 to 2 digits)\n\(NL)  \\uHHHH  Unicode (ISO/IEC 10646) character with hex value HHHH (4 digits)\n\(NL)  \\UHHHHHHHH  Unicode character with hex value HHHHHHHH (8 digits)\n\(NL)"	,	lr_5
+"POSIXLY_CORRECT"	,	lr_18
+"\(NL)\n\(NL)FORMAT controls the output as in C printf.  Interpreted sequences are:\n\(NL)\n\(NL)  \\\"      double quote\n\(NL)"	,	lr_3
+"\"\\abcefnrtv"	,	lr_11
+"%s: value not completely converted"	,	lr_9
+"--help"	,	lr_19
+"%s: expected a numeric value"	,	lr_8
+"\(NL)  %%      a single %\n\(NL)  %b      ARGUMENT as a string with '\\' escapes interpreted,\n\(NL)          except that octal escapes are of the form \\0 or \\0NNN\n\(NL)\n\(NL)and all C format specifications ending with one of diouxXfeEgGcs, with\n\(NL)ARGUMENTs converted to proper type first.  Variable widths are handled.\n\(NL)"	,	lr_6
+"--"	,	lr_21
+"--version"	,	lr_20
+"invalid field width: %s"	,	lr_14
+"invalid universal character name \\%c%0*x"	,	lr_12
+"L"	,	lr_13
+"missing operand"	,	lr_22
+"warning: ignoring excess arguments, starting with %s"	,	lr_23
+"\(NL)  \\\\      backslash\n\(NL)  \\a      alert (BEL)\n\(NL)  \\b      backspace\n\(NL)  \\c      produce no further output\n\(NL)  \\e      escape\n\(NL)  \\f      form feed\n\(NL)  \\n      new line\n\(NL)  \\r      carriage return\n\(NL)  \\t      horizontal tab\n\(NL)  \\v      vertical tab\n\(NL)"	,	lr_4
+"\(NL)Print ARGUMENT(s) according to FORMAT, or execute according to OPTION:\n\(NL)\n\(NL)"	,	lr_2

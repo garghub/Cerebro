@@ -1,0 +1,7 @@
+"\(NL)     --all       print the number of installed processors\n\(NL)     --ignore=N  if possible, exclude N processing units\n\(NL)"	,	lr_3
+""	,	lr_4
+"Usage: %s [OPTION]...\n"	,	lr_1
+"\(NL)Print the number of processing units available to the current process,\n\(NL)which may be less than the number of online processors\n\(NL)\n\(NL)"	,	lr_2
+"%s: invalid number to ignore"	,	lr_5
+"extra operand %s"	,	lr_6
+"%lu\n"	,	lr_7

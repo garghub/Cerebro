@@ -1,0 +1,32 @@
+""	,	lr_18
+"Usage: %s OPTION... FILE...\n"	,	lr_2
+"cannot open %s for writing"	,	lr_31
+"you must specify either %s or %s"	,	lr_23
+" * %"	,	lr_10
+"division by zero"	,	lr_22
+"EgGkKmMPtTYZ0"	,	lr_1
+"--size"	,	lr_24
+"cannot fstat %s"	,	lr_8
+"\n\(NL)SIZE may also be prefixed by one of the following modifying characters:\n\(NL)'+' extend by, '-' reduce by, '&lt;' at most, '&gt;' at least,\n\(NL)'/' round down to multiple of, '%' round up to multiple of.\n"	,	lr_7
+"cannot stat %s"	,	lr_30
+"--reference"	,	lr_25
+"--io-blocks"	,	lr_28
+"overflow extending size of file %s"	,	lr_15
+" bytes"	,	lr_17
+"you must specify a relative %s with %s"	,	lr_26
+"\(NL)  -o, --io-blocks        treat SIZE as number of IO blocks instead of bytes\n\(NL)"	,	lr_5
+"\(NL)  -c, --no-create        do not create any files\n\(NL)"	,	lr_4
+"%s was specified but %s was not"	,	lr_27
+"failed to close %s"	,	lr_32
+"%s has unusable, apparently negative size"	,	lr_12
+"\(NL)Shrink or extend the size of each FILE to the specified size\n\(NL)\n\(NL)A FILE argument that does not exist is created.\n\(NL)\n\(NL)If a FILE is larger than the specified size, the extra data is lost.\n\(NL)If a FILE is shorter, it is extended and the extended part (hole)\n\(NL)reads as zero bytes.\n\(NL)"	,	lr_3
+" byte blocks for file %s"	,	lr_11
+"\(NL)  -r, --reference=RFILE  base size on RFILE\n\(NL)  -s, --size=SIZE        set or adjust the file size by SIZE bytes\n"	,	lr_6
+"invalid number %s"	,	lr_21
+"failed to truncate %s at %"	,	lr_16
+"missing file operand"	,	lr_29
+"cannot get the size of %s"	,	lr_13
+"overflow rounding up size of file %s"	,	lr_14
+"cor:s:"	,	lr_19
+"multiple relative modifiers specified"	,	lr_20
+"overflow in %"	,	lr_9

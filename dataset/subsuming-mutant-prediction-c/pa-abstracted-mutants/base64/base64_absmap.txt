@@ -1,0 +1,15 @@
+""	,	lr_8
+"rb"	,	lr_13
+"%s"	,	lr_14
+"extra operand %s"	,	lr_11
+"read error"	,	lr_6
+"invalid input"	,	lr_7
+"diw:"	,	lr_9
+"\(NL)  -d, --decode          decode data\n\(NL)  -i, --ignore-garbage  when decoding, ignore non-alphabet characters\n\(NL)  -w, --wrap=COLS       wrap encoded lines after COLS character (default 76).\n\(NL)                          Use 0 to disable line wrapping\n\(NL)\n\(NL)"	,	lr_2
+"-"	,	lr_12
+"write error"	,	lr_5
+"\(NL)\n\(NL)With no FILE, or when FILE is -, read standard input.\n"	,	lr_3
+"invalid wrap size: %s"	,	lr_10
+"\(NL)Usage: %s [OPTION]... [FILE]\n\(NL)Base64 encode or decode FILE, or standard input, to standard output.\n\(NL)"	,	lr_1
+"closing standard input"	,	lr_15
+"\(NL)\n\(NL)The data are encoded as described for the base64 alphabet in RFC 3548.\n\(NL)When decoding, the input may contain newlines in addition to the bytes of\n\(NL)the formal base64 alphabet.  Use --ignore-garbage to attempt to recover\n\(NL)from any other non-alphabet bytes in the encoded stream.\n"	,	lr_4

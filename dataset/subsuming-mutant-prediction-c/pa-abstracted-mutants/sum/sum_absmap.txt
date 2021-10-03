@@ -1,0 +1,12 @@
+""	,	lr_11
+"rb"	,	lr_5
+"r"	,	lr_6
+"%s"	,	lr_7
+"%d %s"	,	lr_10
+"%05d %5s"	,	lr_8
+"\(NL)Usage: %s [OPTION]... [FILE]...\n\(NL)"	,	lr_1
+"\(NL)Print checksum and block counts for each FILE.\n\(NL)\n\(NL)  -r              use BSD sum algorithm, use 1K blocks\n\(NL)  -s, --sysv      use System V sum algorithm, use 512 bytes blocks\n\(NL)"	,	lr_2
+"\(NL)\n\(NL)With no FILE, or when FILE is -, read standard input.\n\(NL)"	,	lr_3
+"-"	,	lr_4
+" %s"	,	lr_9
+"rs"	,	lr_12

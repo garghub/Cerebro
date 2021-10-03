@@ -1,0 +1,29 @@
+"\(NL)      --reference=RFILE  use RFILE's security context rather than specifying\n\(NL)                         a CONTEXT value\n\(NL)"	,	lr_16
+""	,	lr_20
+"failed to get security context of %s"	,	lr_2
+"%s"	,	lr_6
+"\(NL)Usage: %s [OPTION]... CONTEXT FILE...\n\(NL)  or:  %s [OPTION]... [-u USER] [-r ROLE] [-l RANGE] [-t TYPE] FILE...\n\(NL)  or:  %s [OPTION]... --reference=RFILE FILE...\n\(NL)"	,	lr_11
+"\(NL)Change the SELinux security context of each FILE to CONTEXT.\n\(NL)With --reference, change the security context of each FILE to that of RFILE.\n\(NL)"	,	lr_12
+"fts_close failed"	,	lr_10
+"changing security context of %s\n"	,	lr_8
+"\(NL)  -R, --recursive        operate on files and directories recursively\n\(NL)"	,	lr_17
+"missing operand after %s"	,	lr_25
+"fts_read failed"	,	lr_9
+"missing operand"	,	lr_24
+"HLPRhvu:r:t:l:"	,	lr_21
+"invalid context: %s"	,	lr_26
+"can't apply partial context to unlabeled file %s"	,	lr_3
+"-R --dereference requires either -H or -L"	,	lr_22
+"\(NL)  -v, --verbose          output a diagnostic for every file processed\n\(NL)"	,	lr_18
+"-R -h requires -P"	,	lr_23
+"\(NL)  -u, --user=USER        set user USER in the target security context\n\(NL)  -r, --role=ROLE        set role ROLE in the target security context\n\(NL)  -t, --type=TYPE        set type TYPE in the target security context\n\(NL)  -l, --range=RANGE      set range RANGE in the target security context\n\(NL)"	,	lr_14
+"cannot read directory %s"	,	lr_7
+"\(NL)      --dereference      affect the referent of each symbolic link (this is\n\(NL)                         the default), rather than the symbolic link itself\n\(NL)  -h, --no-dereference   affect symbolic links instead of any referenced file\n\(NL)"	,	lr_13
+"failed to get attributes of %s"	,	lr_28
+"conflicting security context specifiers given"	,	lr_27
+"failed to change context of %s to %s"	,	lr_4
+"\(NL)      --no-preserve-root  do not treat '/' specially (the default)\n\(NL)      --preserve-root    fail to operate recursively on '/'\n\(NL)"	,	lr_15
+"\(NL)\n\(NL)The following options modify how a hierarchy is traversed when the -R\n\(NL)option is also specified.  If more than one is specified, only the final\n\(NL)one takes effect.\n\(NL)\n\(NL)  -H                     if a command line argument is a symbolic link\n\(NL)                         to a directory, traverse it\n\(NL)  -L                     traverse every symbolic link to a directory\n\(NL)                         encountered\n\(NL)  -P                     do not traverse any symbolic links (default)\n\(NL)\n\(NL)"	,	lr_19
+"/"	,	lr_29
+"cannot access %s"	,	lr_5
+"failed to create security context: %s"	,	lr_1

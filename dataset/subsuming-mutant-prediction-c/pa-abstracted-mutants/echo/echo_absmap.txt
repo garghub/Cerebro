@@ -1,0 +1,12 @@
+""	,	lr_10
+"\(NL)Usage: %s [SHORT-OPTION]... [STRING]...\n\(NL)  or:  %s LONG-OPTION\n\(NL)"	,	lr_1
+"\(NL)  \\0NNN   byte with octal value NNN (1 to 3 digits)\n\(NL)  \\xHH    byte with hexadecimal value HH (1 to 2 digits)\n\(NL)"	,	lr_7
+"--version"	,	lr_12
+"\(NL)  -e             enable interpretation of backslash escapes (default)\n\(NL)  -E             disable interpretation of backslash escapes\n"	,	lr_3
+"POSIXLY_CORRECT"	,	lr_8
+"\(NL)Echo the STRING(s) to standard output.\n\(NL)\n\(NL)  -n             do not output the trailing newline\n\(NL)"	,	lr_2
+"\(NL)  -e             enable interpretation of backslash escapes\n\(NL)  -E             disable interpretation of backslash escapes (default)\n"	,	lr_4
+"--help"	,	lr_11
+"\(NL)  \\\\      backslash\n\(NL)  \\a      alert (BEL)\n\(NL)  \\b      backspace\n\(NL)  \\c      produce no further output\n\(NL)  \\e      escape\n\(NL)  \\f      form feed\n\(NL)  \\n      new line\n\(NL)  \\r      carriage return\n\(NL)  \\t      horizontal tab\n\(NL)  \\v      vertical tab\n\(NL)"	,	lr_6
+"\(NL)\n\(NL)If -e is in effect, the following sequences are recognized:\n\(NL)\n\(NL)"	,	lr_5
+"-n"	,	lr_9

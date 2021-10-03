@@ -1,0 +1,776 @@
+char * wd ; bool logical = ( getenv ( lr_17 ) != NULL ) ; MST[STMT!DELSTMT]MSP[] initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; setlocale ( LC_ALL , lr_14 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ;
+char * wd ; bool logical = ( getenv ( lr_17 ) != NULL ) ; MST[ASSIGN$V1$@2$!LT$@2$V1$]MSP[] initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; setlocale ( LC_ALL , lr_14 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ;
+char * wd ; bool logical = ( getenv ( lr_17 ) != NULL ) ; MST[@!ABS$@$]MSP[] initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; setlocale ( LC_ALL , lr_14 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ;
+char * wd ; bool logical = ( getenv ( lr_17 ) != NULL ) ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[STMT!TRAPSTMT]MSP[] setlocale ( LC_ALL , lr_14 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ;
+char * wd ; bool logical = ( getenv ( lr_17 ) != NULL ) ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[STMT!DELSTMT]MSP[] setlocale ( LC_ALL , lr_14 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ;
+char * wd ; bool logical = ( getenv ( lr_17 ) != NULL ) ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[A!CONSTVAL$0$]MSP[] setlocale ( LC_ALL , lr_14 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ;
+char * wd ; bool logical = ( getenv ( lr_17 ) != NULL ) ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[C!ADD$C$-1$]MSP[] setlocale ( LC_ALL , lr_14 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ;
+char * wd ; bool logical = ( getenv ( lr_17 ) != NULL ) ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[C!ADD$C$1$]MSP[] setlocale ( LC_ALL , lr_14 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ;
+char * wd ; bool logical = ( getenv ( lr_17 ) != NULL ) ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[P!PRIGHTDEC$P$]MSP[] setlocale ( LC_ALL , lr_14 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ;
+char * wd ; bool logical = ( getenv ( lr_17 ) != NULL ) ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[P!PLEFTINC$P$]MSP[] setlocale ( LC_ALL , lr_14 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ;
+char * wd ; bool logical = ( getenv ( lr_17 ) != NULL ) ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[P!PRIGHTINC$P$]MSP[] setlocale ( LC_ALL , lr_14 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ;
+char * wd ; bool logical = ( getenv ( lr_17 ) != NULL ) ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[P!PLEFTDEC$P$]MSP[] setlocale ( LC_ALL , lr_14 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ;
+char * wd ; bool logical = ( getenv ( lr_17 ) != NULL ) ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; setlocale ( LC_ALL , lr_14 ) ; MST[STMT!TRAPSTMT]MSP[] bindtextdomain ( PACKAGE , LOCALEDIR ) ;
+char * wd ; bool logical = ( getenv ( lr_17 ) != NULL ) ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; setlocale ( LC_ALL , lr_14 ) ; MST[STMT!DELSTMT]MSP[] bindtextdomain ( PACKAGE , LOCALEDIR ) ;
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; MST[STMT!TRAPSTMT]MSP[] while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; MST[STMT!DELSTMT]MSP[] while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) MST[STMT!TRAPSTMT]MSP[] { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; MST[STMT!DELSTMT]MSP[] if ( c == - 1 ) break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; MST[ASSIGN$V1$@2$!BITOR$V1$@2$]MSP[] if ( c == - 1 ) break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; MST[A!CONSTVAL$0$]MSP[] if ( c == - 1 ) break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; MST[@!ABS$@$]MSP[] if ( c == - 1 ) break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; MST[@!ABS$@$]MSP[] if ( c == - 1 ) break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; MST[P!PRIGHTDEC$P$]MSP[] if ( c == - 1 ) break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; MST[P!PLEFTINC$P$]MSP[] if ( c == - 1 ) break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; MST[P!PRIGHTINC$P$]MSP[] if ( c == - 1 ) break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; MST[P!PLEFTDEC$P$]MSP[] if ( c == - 1 ) break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[STMT!TRAPSTMT]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[@!ABS$@$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[@!ABS$@$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[@!ABS$@$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[C!CONSTVAL$0$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[C!ADD$C$-1$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!BITOR$@1$@2$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!BITNOT$@1$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!MUL$@1$@2$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!BITAND$@1$@2$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!MOD$@2$@1$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!BITSHL$@1$@2$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!GT$@2$@1$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!NEQ$@1$@2$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!LE$@1$@2$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!MOD$@1$@2$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!DIV$@2$@1$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!ADD$@1$@2$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!SUB$@1$@2$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!GT$@1$@2$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!LE$@2$@1$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!DIV$@1$@2$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!GE$@2$@1$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!NEG$@1$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!ABS$@1$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!SUB$@2$@1$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!LT$@1$@2$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!LT$@2$@1$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!GE$@1$@2$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!MOD$@2$@1$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!GT$@2$@1$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!MOD$@1$@2$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!DIV$@2$@1$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!LE$@2$@1$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!DIV$@1$@2$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!LT$@1$@2$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$@1$@2$!GE$@1$@2$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) MST[EQ$V1$@2$!ASSIGN$V1$@2$]MSP[] break; switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) break; MST[STMT!TRAPSTMT]MSP[] switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) break; MST[STMT!DELSTMT]MSP[] switch ( c ) { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) break; switch ( c ) MST[STMT!TRAPSTMT]MSP[] { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) break; switch ( c ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) break; switch ( c ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) break; switch ( c ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) break; switch ( c ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) break; switch ( c ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) break; switch ( c ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) break; switch ( c ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) break; switch ( c ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 'L' :
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$V1$@2$!ASSIGN$V1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) break; switch ( c ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) break; switch ( c ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) break; switch ( c ) MST[SWITCH!REMOVECASES$1$]MSP[] { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) break; switch ( c ) MST[SWITCH!REMOVECASES$1$]MSP[] { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) break; switch ( c ) MST[SWITCH!REMOVECASES$1$]MSP[] { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) break; switch ( c ) MST[SWITCH!REMOVECASES$1$]MSP[] { case 'L' :
+textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; while ( 1 ) { int c = getopt_long ( argc , argv , lr_18 , longopts , NULL ) ; if ( c == - 1 ) break; switch ( c ) MST[@!ABS$@$]MSP[] { case 'L' :
+logical = true ; MST[STMT!TRAPSTMT]MSP[] break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; MST[STMT!DELSTMT]MSP[] break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!ABS$@1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+logical = true ; MST[ASSIGN$V1$@2$!LT$@2$V1$]MSP[] break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!BITNOT$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!CONSTVAL$0$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+logical = true ; MST[C!CONSTVAL$0$]MSP[] break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; MST[C!ADD$C$1$]MSP[] break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; MST[STMT!TRAPSTMT]MSP[] case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; MST[STMT!DELSTMT]MSP[] case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; MST[STMT!TRAPSTMT]MSP[] break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; MST[STMT!DELSTMT]MSP[] break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; MST[ASSIGN$V1$@2$!LE$@2$V1$]MSP[] break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!LE$@2$@1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!BITNOT$@1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+logical = true ; break; case 'P' : logical = false ; MST[C!ADD$C$-1$]MSP[] break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; MST[C!ADD$C$1$]MSP[] break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; MST[STMT!TRAPSTMT]MSP[] case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; MST[STMT!DELSTMT]MSP[] case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; MST[STMT!TRAPSTMT]MSP[] case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; MST[STMT!TRAPSTMT]MSP[] default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; MST[STMT!DELSTMT]MSP[] default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; MST[CALL!SHUFFLEARGS$2$]MSP[] default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; MST[CALL!SHUFFLEARGS$2$]MSP[] default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; MST[CALL!SHUFFLEARGS$2$]MSP[] default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; MST[CALL!SHUFFLEARGS$2$]MSP[] default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; MST[CALL!SHUFFLEARGS$2$]MSP[] default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; MST[CALL!SHUFFLEARGS$2$]MSP[] default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; MST[CALL!SHUFFLEARGS$2$]MSP[] default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; MST[CALL!SHUFFLEARGS$2$]MSP[] default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; MST[CALL!SHUFFLEARGS$2$]MSP[] default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; MST[CALL!SHUFFLEARGS$2$]MSP[] default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!SUB$@2$@1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; MST[STMT!TRAPSTMT]MSP[] default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; MST[STMT!DELSTMT]MSP[] default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; MST[STMT!TRAPSTMT]MSP[] } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; MST[STMT!DELSTMT]MSP[] } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } MST[STMT!TRAPSTMT]MSP[] if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } MST[STMT!DELSTMT]MSP[] if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[@!ABS$@$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[@!ABS$@$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[@!ABS$@$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$V2$!ASSIGN$V2$@1$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!EQ$@1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$V1$@2$!ASSIGN$V1$@2$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!MOD$@2$@1$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!NEG$@2$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!BITXOR$@1$@2$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!DIV$@2$@1$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!BITSHR$@1$@2$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!BITOR$@1$@2$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!SUB$@2$@1$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!NEG$@1$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!NEQ$@1$@2$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!MOD$@1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!BITNOT$@2$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!BITSHL$@2$@1$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!BITSHL$@1$@2$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!CONSTVAL$1$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!EQ$@1$@2$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!ADD$@1$@2$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!OPERAND$@1$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!MUL$@1$@2$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!BITAND$@1$@2$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!ABS$@1$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!GT$@2$@1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!ABS$@2$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!OPERAND$@2$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!MOD$@1$@2$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!LE$@2$@1$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!GE$@2$@1$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!CONSTVAL$0$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!SUB$@1$@2$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!LE$@1$@2$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!DIV$@1$@2$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!GE$@1$@2$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!GE$@1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!BITSHR$@2$@1$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!GT$@2$@1$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!BITNOT$@1$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) MST[LT$@1$@2$!GT$@1$@2$]MSP[] error ( 0 , 0 , _ ( lr_19 ) ) ;
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ; MST[STMT!TRAPSTMT]MSP[]
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ; MST[STMT!DELSTMT]MSP[]
+logical = true ; break; case 'P' : logical = false ; break; case_GETOPT_HELP_CHAR ; case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ; default: usage ( EXIT_FAILURE ) ; } } if ( optind < argc ) error ( 0 , 0 , _ ( lr_19 ) ) ; MST[STMT!TRAPSTMT]MSP[]
+if ( logical ) MST[STMT!TRAPSTMT]MSP[] { wd = logical_getcwd () ; if ( wd ) { puts ( wd ) ; exit ( EXIT_SUCCESS ) ; } } wd = xgetcwd () ; if ( wd != NULL ) { puts ( wd ) ; free ( wd ) ; }
+if ( logical ) MST[@!ABS$@$]MSP[] { wd = logical_getcwd () ; if ( wd ) { puts ( wd ) ; exit ( EXIT_SUCCESS ) ; } } wd = xgetcwd () ; if ( wd != NULL ) { puts ( wd ) ; free ( wd ) ; }
+if ( logical ) MST[@!ABS$@$]MSP[] { wd = logical_getcwd () ; if ( wd ) { puts ( wd ) ; exit ( EXIT_SUCCESS ) ; } } wd = xgetcwd () ; if ( wd != NULL ) { puts ( wd ) ; free ( wd ) ; }
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+if ( logical ) { wd = logical_getcwd () ; MST[STMT!TRAPSTMT]MSP[] if ( wd ) { puts ( wd ) ; exit ( EXIT_SUCCESS ) ; } } wd = xgetcwd () ; if ( wd != NULL ) { puts ( wd ) ; free ( wd ) ; }
+if ( logical ) { wd = logical_getcwd () ; MST[STMT!DELSTMT]MSP[] if ( wd ) { puts ( wd ) ; exit ( EXIT_SUCCESS ) ; } } wd = xgetcwd () ; if ( wd != NULL ) { puts ( wd ) ; free ( wd ) ; }
+if ( logical ) { wd = logical_getcwd () ; if ( wd ) MST[STMT!TRAPSTMT]MSP[] { puts ( wd ) ; exit ( EXIT_SUCCESS ) ; } } wd = xgetcwd () ; if ( wd != NULL ) { puts ( wd ) ; free ( wd ) ; }
+if ( logical ) { wd = logical_getcwd () ; if ( wd ) MST[@!ABS$@$]MSP[] { puts ( wd ) ; exit ( EXIT_SUCCESS ) ; } } wd = xgetcwd () ; if ( wd != NULL ) { puts ( wd ) ; free ( wd ) ; }
+if ( logical ) { wd = logical_getcwd () ; if ( wd ) { puts ( wd ) ; MST[STMT!TRAPSTMT]MSP[] exit ( EXIT_SUCCESS ) ; } } wd = xgetcwd () ; if ( wd != NULL ) { puts ( wd ) ; free ( wd ) ; }
+if ( logical ) { wd = logical_getcwd () ; if ( wd ) { puts ( wd ) ; MST[STMT!DELSTMT]MSP[] exit ( EXIT_SUCCESS ) ; } } wd = xgetcwd () ; if ( wd != NULL ) { puts ( wd ) ; free ( wd ) ; }
+if ( logical ) { wd = logical_getcwd () ; if ( wd ) { puts ( wd ) ; exit ( EXIT_SUCCESS ) ; MST[STMT!TRAPSTMT]MSP[] } } wd = xgetcwd () ; if ( wd != NULL ) { puts ( wd ) ; free ( wd ) ; }
+if ( logical ) { wd = logical_getcwd () ; if ( wd ) { puts ( wd ) ; exit ( EXIT_SUCCESS ) ; MST[STMT!DELSTMT]MSP[] } } wd = xgetcwd () ; if ( wd != NULL ) { puts ( wd ) ; free ( wd ) ; }
+if ( logical ) { wd = logical_getcwd () ; if ( wd ) { puts ( wd ) ; exit ( EXIT_SUCCESS ) ; } } MST[STMT!TRAPSTMT]MSP[] wd = xgetcwd () ; if ( wd != NULL ) { puts ( wd ) ; free ( wd ) ; }
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+if ( logical ) { wd = logical_getcwd () ; if ( wd ) { puts ( wd ) ; exit ( EXIT_SUCCESS ) ; } } wd = xgetcwd () ; MST[STMT!TRAPSTMT]MSP[] if ( wd != NULL ) { puts ( wd ) ; free ( wd ) ; }
+if ( logical ) { wd = logical_getcwd () ; if ( wd ) { puts ( wd ) ; exit ( EXIT_SUCCESS ) ; } } wd = xgetcwd () ; MST[STMT!DELSTMT]MSP[] if ( wd != NULL ) { puts ( wd ) ; free ( wd ) ; }
+if ( logical ) { wd = logical_getcwd () ; if ( wd ) { puts ( wd ) ; exit ( EXIT_SUCCESS ) ; } } wd = xgetcwd () ; if ( wd != NULL ) MST[STMT!TRAPSTMT]MSP[] { puts ( wd ) ; free ( wd ) ; }
+if ( logical ) { wd = logical_getcwd () ; if ( wd ) { puts ( wd ) ; exit ( EXIT_SUCCESS ) ; } } wd = xgetcwd () ; if ( wd != NULL ) MST[@!ABS$@$]MSP[] { puts ( wd ) ; free ( wd ) ; }
+if ( logical ) { wd = logical_getcwd () ; if ( wd ) { puts ( wd ) ; exit ( EXIT_SUCCESS ) ; } } wd = xgetcwd () ; if ( wd != NULL ) { puts ( wd ) ; MST[STMT!TRAPSTMT]MSP[] free ( wd ) ; }
+if ( logical ) { wd = logical_getcwd () ; if ( wd ) { puts ( wd ) ; exit ( EXIT_SUCCESS ) ; } } wd = xgetcwd () ; if ( wd != NULL ) { puts ( wd ) ; MST[STMT!DELSTMT]MSP[] free ( wd ) ; }
+if ( logical ) { wd = logical_getcwd () ; if ( wd ) { puts ( wd ) ; exit ( EXIT_SUCCESS ) ; } } wd = xgetcwd () ; if ( wd != NULL ) { puts ( wd ) ; free ( wd ) ; MST[STMT!TRAPSTMT]MSP[] }
+if ( logical ) { wd = logical_getcwd () ; if ( wd ) { puts ( wd ) ; exit ( EXIT_SUCCESS ) ; } } wd = xgetcwd () ; if ( wd != NULL ) { puts ( wd ) ; free ( wd ) ; MST[STMT!DELSTMT]MSP[] }
+if ( logical ) { wd = logical_getcwd () ; if ( wd ) { puts ( wd ) ; exit ( EXIT_SUCCESS ) ; } } wd = xgetcwd () ; if ( wd != NULL ) { puts ( wd ) ; free ( wd ) ; } MST[STMT!TRAPSTMT]MSP[]
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!LT$@1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+if ( logical ) { wd = logical_getcwd () ; if ( wd ) { puts ( wd ) ; exit ( EXIT_SUCCESS ) ; } } wd = xgetcwd () ; if ( wd != NULL ) { puts ( wd ) ; free ( wd ) ; } MST[STMT!DELSTMT]MSP[]
+else { struct file_name * file_name = file_name_init () ; MST[STMT!TRAPSTMT]MSP[] robust_getcwd ( file_name ) ; puts ( file_name -> start ) ; file_name_free ( file_name ) ; } exit ( EXIT_SUCCESS ) ; }
+else { struct file_name * file_name = file_name_init () ; MST[STMT!DELSTMT]MSP[] robust_getcwd ( file_name ) ; puts ( file_name -> start ) ; file_name_free ( file_name ) ; } exit ( EXIT_SUCCESS ) ; }
+else { struct file_name * file_name = file_name_init () ; robust_getcwd ( file_name ) ; MST[STMT!TRAPSTMT]MSP[] puts ( file_name -> start ) ; file_name_free ( file_name ) ; } exit ( EXIT_SUCCESS ) ; }
+else { struct file_name * file_name = file_name_init () ; robust_getcwd ( file_name ) ; MST[STMT!DELSTMT]MSP[] puts ( file_name -> start ) ; file_name_free ( file_name ) ; } exit ( EXIT_SUCCESS ) ; }
+else { struct file_name * file_name = file_name_init () ; robust_getcwd ( file_name ) ; puts ( file_name -> start ) ; MST[STMT!TRAPSTMT]MSP[] file_name_free ( file_name ) ; } exit ( EXIT_SUCCESS ) ; }
+else { struct file_name * file_name = file_name_init () ; robust_getcwd ( file_name ) ; puts ( file_name -> start ) ; MST[STMT!DELSTMT]MSP[] file_name_free ( file_name ) ; } exit ( EXIT_SUCCESS ) ; }
+else { struct file_name * file_name = file_name_init () ; robust_getcwd ( file_name ) ; puts ( file_name -> start ) ; MST[A!CONSTVAL$0$]MSP[] file_name_free ( file_name ) ; } exit ( EXIT_SUCCESS ) ; }
+else { struct file_name * file_name = file_name_init () ; robust_getcwd ( file_name ) ; puts ( file_name -> start ) ; MST[C!ADD$C$-1$]MSP[] file_name_free ( file_name ) ; } exit ( EXIT_SUCCESS ) ; }
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+else { struct file_name * file_name = file_name_init () ; robust_getcwd ( file_name ) ; puts ( file_name -> start ) ; MST[C!ADD$C$1$]MSP[] file_name_free ( file_name ) ; } exit ( EXIT_SUCCESS ) ; }
+else { struct file_name * file_name = file_name_init () ; robust_getcwd ( file_name ) ; puts ( file_name -> start ) ; file_name_free ( file_name ) ; MST[STMT!TRAPSTMT]MSP[] } exit ( EXIT_SUCCESS ) ; }
+else { struct file_name * file_name = file_name_init () ; robust_getcwd ( file_name ) ; puts ( file_name -> start ) ; file_name_free ( file_name ) ; MST[STMT!DELSTMT]MSP[] } exit ( EXIT_SUCCESS ) ; }
+else { struct file_name * file_name = file_name_init () ; robust_getcwd ( file_name ) ; puts ( file_name -> start ) ; file_name_free ( file_name ) ; } exit ( EXIT_SUCCESS ) ; MST[STMT!TRAPSTMT]MSP[] }
+else { struct file_name * file_name = file_name_init () ; robust_getcwd ( file_name ) ; puts ( file_name -> start ) ; file_name_free ( file_name ) ; } exit ( EXIT_SUCCESS ) ; MST[STMT!DELSTMT]MSP[] }
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; MST[STMT!TRAPSTMT]MSP[] char * p ; if ( ! wd || wd [ 0 ] != '/' ) return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; MST[STMT!DELSTMT]MSP[] char * p ; if ( ! wd || wd [ 0 ] != '/' ) return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[STMT!TRAPSTMT]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[@!ABS$@$]MSP[] return NULL ; p = wd ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[STMT!TRAPSTMT]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$V1$@2$!ASSIGN$V1$@2$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!ABS$@1$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!BITNOT$@2$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!CONSTVAL$0$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!BITXOR$@1$@2$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!LE$@2$@1$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!BITAND$@1$@2$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!ADD$@1$@2$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!BITNOT$@1$]MSP[] return NULL ; p = wd ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!DIV$@2$@1$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!BITSHL$@1$@2$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!MOD$@2$@1$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!SUB$@2$@1$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!NEG$@1$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!OPERAND$@1$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!EQ$@1$@2$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!MOD$@1$@2$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!GT$@2$@1$]MSP[] return NULL ; p = wd ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!GE$@1$@2$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!SUB$@1$@2$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!LT$@1$@2$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!MUL$@1$@2$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[] return NULL ; p = wd ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!BITSHR$@2$@1$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!LE$@2$@1$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!DIV$@2$@1$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!MOD$@2$@1$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!MOD$@1$@2$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!GT$@2$@1$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!GE$@1$@2$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[] return NULL ; p = wd ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!LT$@1$@2$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[NEQ$@1$@2$!BITSHR$@2$@1$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[@!ABS$@$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[@!ABS$@$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[@!ABS$@$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[C!ADD$C$-1$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[C!ADD$C$1$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[C!ADD$C$-1$]MSP[] return NULL ; p = wd ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) MST[C!ADD$C$1$]MSP[] return NULL ; p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) return NULL ; MST[STMT!TRAPSTMT]MSP[] p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) return NULL ; MST[STMT!DELSTMT]MSP[] p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) return NULL ; MST[STMT!TRAPSTMT]MSP[] p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) return NULL ; MST[STMT!DELSTMT]MSP[] p = wd ;
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) return NULL ; p = wd ; MST[STMT!TRAPSTMT]MSP[]
+logical_getcwd ( void ) { struct stat st1 ; struct stat st2 ; char * wd = getenv ( lr_15 ) ; char * p ; if ( ! wd || wd [ 0 ] != '/' ) return NULL ; p = wd ; MST[STMT!DELSTMT]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) MST[STMT!TRAPSTMT]MSP[] { if ( ! p [ 2 ] || p [ 2 ] == '/'
+while ( ( p = strstr ( p , lr_16 ) ) ) MST[@!ABS$@$]MSP[] { if ( ! p [ 2 ] || p [ 2 ] == '/'
+while ( ( p = strstr ( p , lr_16 ) ) ) MST[CALL!SHUFFLEARGS$2$]MSP[] { if ( ! p [ 2 ] || p [ 2 ] == '/'
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[@!ABS$@$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[STMT!TRAPSTMT]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$V1$@2$!ASSIGN$V1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!ABS$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!BITNOT$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!CONSTVAL$0$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!LE$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!BITAND$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!BITNOT$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!SUB$@2$@1$]MSP[]
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[C!ADD$C$-1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!EQ$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!MOD$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!GT$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!GE$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!GT$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!LT$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!LT$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!LE$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!GE$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!LE$@2$@1$]MSP[]
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[C!ADD$C$1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!GT$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!LT$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!LE$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!GE$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$P1$@2$!PDEREF_LEFTINC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTDEC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$P1$@2$!PDEREF_LEFTDEC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTINC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$A1$@2$!PDEREF_ADD$A1$@2$]MSP[]
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; MST[STMT!TRAPSTMT]MSP[] else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$A1$@2$!PDEREF_SUB$A1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[@!ABS$@$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!CONSTVAL$0$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!ADD$C$-1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!ADD$C$1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!ADD$C$-1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!ADD$C$1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$A1$@2$!OPERAND$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$A1$@2$!PSUB$A1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$P1$@2$!PLEFTINC$P1$]MSP[]
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; MST[STMT!DELSTMT]MSP[] else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$P1$@2$!PRIGHTDEC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$P1$@2$!PRIGHTINC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$P1$@2$!PLEFTDEC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[STMT!TRAPSTMT]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$P1$@2$!PDEREF_LEFTINC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTDEC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$P1$@2$!PDEREF_LEFTDEC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTINC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$A1$@2$!PDEREF_ADD$A1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$A1$@2$!PDEREF_SUB$A1$@2$]MSP[]
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; MST[STMT!TRAPSTMT]MSP[] else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[@!ABS$@$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[@!ABS$@$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[@!ABS$@$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!CONSTVAL$0$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!ADD$C$-1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!ADD$C$1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!CONSTVAL$0$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!ADD$C$-1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!ADD$C$1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$A1$@2$!OPERAND$@2$]MSP[]
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; MST[STMT!DELSTMT]MSP[] else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$A1$@2$!PSUB$A1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$P1$@2$!PLEFTINC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$P1$@2$!PRIGHTDEC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$P1$@2$!PRIGHTINC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$P1$@2$!PLEFTDEC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!BITOR$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!BITNOT$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!MUL$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!BITAND$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!CONSTVAL$1$]MSP[]
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; MST[STMT!TRAPSTMT]MSP[] fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!MOD$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!BITSHL$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GT$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!BITSHR$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!NEQ$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LE$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!MOD$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!DIV$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!ADD$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!SUB$@1$@2$]MSP[]
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; MST[STMT!DELSTMT]MSP[] fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GT$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LE$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!OPERAND$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!DIV$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GE$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!BITXOR$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!NEG$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!ABS$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!SUB$@2$@1$]MSP[]
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; MST[@!ABS$@$]MSP[] fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!CONSTVAL$0$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LT$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LT$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GE$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!MOD$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GT$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!BITSHR$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LE$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!MOD$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!DIV$@2$@1$]MSP[]
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; MST[CALL!SHUFFLEARGS$2$]MSP[] fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GT$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LE$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!DIV$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GE$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LT$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LT$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GE$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$V1$@2$!ASSIGN$V1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[STMT!TRAPSTMT]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$P1$@2$!PDEREF_LEFTINC$P1$]MSP[]
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; MST[STMT!TRAPSTMT]MSP[] fputs ( _ ( lr_3 ) , stdout ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTDEC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$P1$@2$!PDEREF_LEFTDEC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTINC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$A1$@2$!PDEREF_ADD$A1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$A1$@2$!PDEREF_SUB$A1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[@!ABS$@$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[@!ABS$@$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[@!ABS$@$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!CONSTVAL$0$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!ADD$C$-1$]MSP[]
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; MST[STMT!DELSTMT]MSP[] fputs ( _ ( lr_3 ) , stdout ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!ADD$C$1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!CONSTVAL$0$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!ADD$C$-1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!ADD$C$1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$A1$@2$!OPERAND$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$A1$@2$!PSUB$A1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$P1$@2$!PLEFTINC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$P1$@2$!PRIGHTDEC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$P1$@2$!PRIGHTINC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$P1$@2$!PLEFTDEC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!BITNOT$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!MUL$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!BITAND$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!CONSTVAL$1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!MOD$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!BITSHL$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GT$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!BITSHR$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!NEQ$@1$@2$]MSP[]
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ; MST[STMT!TRAPSTMT]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LE$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!MOD$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!DIV$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!ADD$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!SUB$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GT$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LE$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!OPERAND$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!DIV$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GE$@2$@1$]MSP[]
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( _ ( lr_3 ) , stdout ) ; MST[STMT!DELSTMT]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!BITXOR$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!NEG$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!ABS$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!BITSHL$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!SUB$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!CONSTVAL$0$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LT$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LT$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GE$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!MOD$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GT$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!BITSHR$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LE$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!MOD$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!DIV$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GT$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LE$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!DIV$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GE$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LT$@1$@2$]MSP[]
+fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; MST[STMT!TRAPSTMT]MSP[] fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; printf ( USAGE_BUILTIN_WARNING , PROGRAM_NAME ) ; emit_ancillary_info () ; } exit ( status ) ; } static void file_name_free ( struct file_name * p ) { free ( p -> buf ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LT$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GE$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$V1$@2$!ASSIGN$V1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[STMT!TRAPSTMT]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$V1$@2$!ASSIGN$V1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!ABS$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!BITNOT$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!CONSTVAL$0$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!LE$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!BITAND$@1$@2$]MSP[]
+fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; MST[STMT!DELSTMT]MSP[] fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; printf ( USAGE_BUILTIN_WARNING , PROGRAM_NAME ) ; emit_ancillary_info () ; } exit ( status ) ; } static void file_name_free ( struct file_name * p ) { free ( p -> buf ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!BITNOT$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!SUB$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!EQ$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!MOD$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!GT$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!GE$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!GT$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!LT$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!LT$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!LE$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!GE$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!LE$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!GT$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!LT$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!LE$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[NEQ$@1$@2$!GE$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$P1$@2$!PDEREF_LEFTINC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTDEC$P1$]MSP[]
+fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; MST[STMT!TRAPSTMT]MSP[] printf ( USAGE_BUILTIN_WARNING , PROGRAM_NAME ) ; emit_ancillary_info () ; } exit ( status ) ; } static void file_name_free ( struct file_name * p ) { free ( p -> buf ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$P1$@2$!PDEREF_LEFTDEC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTINC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$A1$@2$!PDEREF_ADD$A1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$A1$@2$!PDEREF_SUB$A1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[@!ABS$@$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!CONSTVAL$0$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!ADD$C$-1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!ADD$C$1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!ADD$C$-1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!ADD$C$1$]MSP[]
+fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; MST[STMT!DELSTMT]MSP[] printf ( USAGE_BUILTIN_WARNING , PROGRAM_NAME ) ; emit_ancillary_info () ; } exit ( status ) ; } static void file_name_free ( struct file_name * p ) { free ( p -> buf ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$A1$@2$!OPERAND$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$A1$@2$!PSUB$A1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$P1$@2$!PLEFTINC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$P1$@2$!PRIGHTDEC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$P1$@2$!PRIGHTINC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$P1$@2$!PLEFTDEC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[STMT!TRAPSTMT]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$P1$@2$!PDEREF_LEFTINC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTDEC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$P1$@2$!PDEREF_LEFTDEC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTINC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$A1$@2$!PDEREF_ADD$A1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD_DEREF$A1$@2$!PDEREF_SUB$A1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[@!ABS$@$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[@!ABS$@$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[@!ABS$@$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!CONSTVAL$0$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!ADD$C$-1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!ADD$C$1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!CONSTVAL$0$]MSP[]
+fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; printf ( USAGE_BUILTIN_WARNING , PROGRAM_NAME ) ; MST[STMT!TRAPSTMT]MSP[] emit_ancillary_info () ; } exit ( status ) ; } static void file_name_free ( struct file_name * p ) { free ( p -> buf ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!ADD$C$-1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[C!ADD$C$1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$A1$@2$!OPERAND$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$A1$@2$!PSUB$A1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$P1$@2$!PLEFTINC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$P1$@2$!PRIGHTDEC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$P1$@2$!PRIGHTINC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[PADD$P1$@2$!PLEFTDEC$P1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!BITOR$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!BITNOT$@1$]MSP[]
+fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; printf ( USAGE_BUILTIN_WARNING , PROGRAM_NAME ) ; MST[STMT!DELSTMT]MSP[] emit_ancillary_info () ; } exit ( status ) ; } static void file_name_free ( struct file_name * p ) { free ( p -> buf ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!MUL$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!BITAND$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!CONSTVAL$1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!MOD$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!BITSHL$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GT$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!BITSHR$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!NEQ$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LE$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!MOD$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!DIV$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!ADD$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!SUB$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GT$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LE$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!OPERAND$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!DIV$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GE$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!BITXOR$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!NEG$@1$]MSP[]
+fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; printf ( USAGE_BUILTIN_WARNING , PROGRAM_NAME ) ; MST[CALL!SHUFFLEARGS$2$]MSP[] emit_ancillary_info () ; } exit ( status ) ; } static void file_name_free ( struct file_name * p ) { free ( p -> buf ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!ABS$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!SUB$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!CONSTVAL$0$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LT$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LT$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GE$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!MOD$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GT$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!BITSHR$@2$@1$]MSP[]
+fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; printf ( USAGE_BUILTIN_WARNING , PROGRAM_NAME ) ; emit_ancillary_info () ; MST[STMT!TRAPSTMT]MSP[] } exit ( status ) ; } static void file_name_free ( struct file_name * p ) { free ( p -> buf ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LE$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!MOD$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!DIV$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GT$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LE$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!DIV$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GE$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LT$@1$@2$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!LT$@2$@1$]MSP[]
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$@1$@2$!GE$@1$@2$]MSP[]
+fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; printf ( USAGE_BUILTIN_WARNING , PROGRAM_NAME ) ; emit_ancillary_info () ; MST[STMT!DELSTMT]MSP[] } exit ( status ) ; } static void file_name_free ( struct file_name * p ) { free ( p -> buf ) ;
+while ( ( p = strstr ( p , lr_16 ) ) ) { if ( ! p [ 2 ] || p [ 2 ] == '/' MST[EQ$V1$@2$!ASSIGN$V1$@2$]MSP[]
+|| ( p [ 2 ] == '.' && ( ! p [ 3 ] || p [ 3 ] == '/' ) ) ) return NULL ; MST[STMT!TRAPSTMT]MSP[] p ++ ; }
+|| ( p [ 2 ] == '.' && ( ! p [ 3 ] || p [ 3 ] == '/' ) ) ) return NULL ; MST[STMT!DELSTMT]MSP[] p ++ ; }
+|| ( p [ 2 ] == '.' && ( ! p [ 3 ] || p [ 3 ] == '/' ) ) ) return NULL ; MST[STMT!TRAPSTMT]MSP[] p ++ ; }
+|| ( p [ 2 ] == '.' && ( ! p [ 3 ] || p [ 3 ] == '/' ) ) ) return NULL ; MST[STMT!DELSTMT]MSP[] p ++ ; }
+|| ( p [ 2 ] == '.' && ( ! p [ 3 ] || p [ 3 ] == '/' ) ) ) return NULL ; p ++ ; MST[STMT!TRAPSTMT]MSP[] }
+|| ( p [ 2 ] == '.' && ( ! p [ 3 ] || p [ 3 ] == '/' ) ) ) return NULL ; p ++ ; MST[STMT!DELSTMT]MSP[] }
+|| ( p [ 2 ] == '.' && ( ! p [ 3 ] || p [ 3 ] == '/' ) ) ) return NULL ; p ++ ; MST[PLEFTINC$P1$!PRIGHTINC$P1$]MSP[] }
+|| ( p [ 2 ] == '.' && ( ! p [ 3 ] || p [ 3 ] == '/' ) ) ) return NULL ; p ++ ; MST[PLEFTINC$P1$!OPERAND$P1$]MSP[] }
+|| ( p [ 2 ] == '.' && ( ! p [ 3 ] || p [ 3 ] == '/' ) ) ) return NULL ; p ++ ; MST[C!ADD$C$1$]MSP[] }
+|| ( p [ 2 ] == '.' && ( ! p [ 3 ] || p [ 3 ] == '/' ) ) ) return NULL ; p ++ ; MST[PADD$A1$@2$!OPERAND$@2$]MSP[] }
+|| ( p [ 2 ] == '.' && ( ! p [ 3 ] || p [ 3 ] == '/' ) ) ) return NULL ; p ++ ; MST[PADD$A1$@2$!PSUB$A1$@2$]MSP[] }
+|| ( p [ 2 ] == '.' && ( ! p [ 3 ] || p [ 3 ] == '/' ) ) ) return NULL ; p ++ ; MST[PADD$P1$@2$!PRIGHTDEC$P1$]MSP[] }
+{ if ( SAME_INODE ( dot_sb , * root_dev_ino ) ) break; find_dir_entry ( & dot_sb , file_name , height ++ ) ; } if ( file_name -> start [ 0 ] == '\0' ) file_name_prepend ( file_name , lr_14 , 0 ) ; } static char * MST[STMT!TRAPSTMT]MSP[]
+{ if ( SAME_INODE ( dot_sb , * root_dev_ino ) ) break; find_dir_entry ( & dot_sb , file_name , height ++ ) ; } if ( file_name -> start [ 0 ] == '\0' ) file_name_prepend ( file_name , lr_14 , 0 ) ; } static char * MST[STMT!DELSTMT]MSP[]
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[STMT!TRAPSTMT]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[@!ABS$@$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; printf ( USAGE_BUILTIN_WARNING , PROGRAM_NAME ) ; emit_ancillary_info () ; } exit ( status ) ; MST[STMT!TRAPSTMT]MSP[] } static void file_name_free ( struct file_name * p ) { free ( p -> buf ) ;
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[@!ABS$@$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[C!ADD$C$-1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[C!ADD$C$1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITOR$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITNOT$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!MUL$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!CONSTVAL$1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GT$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LE$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!MOD$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; printf ( USAGE_BUILTIN_WARNING , PROGRAM_NAME ) ; emit_ancillary_info () ; } exit ( status ) ; MST[STMT!DELSTMT]MSP[] } static void file_name_free ( struct file_name * p ) { free ( p -> buf ) ;
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GT$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LE$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!DIV$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GE$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!NEG$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!ABS$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LT$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LT$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GE$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LE$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; printf ( USAGE_BUILTIN_WARNING , PROGRAM_NAME ) ; emit_ancillary_info () ; } exit ( status ) ; MST[@!ABS$@$]MSP[] } static void file_name_free ( struct file_name * p ) { free ( p -> buf ) ;
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GT$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!DIV$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GE$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LT$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[AND$@1$@2$!CONSTVAL$0$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[AND$@1$@2$!CONSTVAL$1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[AND$@1$@2$!OPERAND$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[AND$@1$@2$!OPERAND$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[AND$@1$@2$!OR$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[STMT!TRAPSTMT]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[@!ABS$@$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[@!ABS$@$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[C!ADD$C$-1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[C!ADD$C$1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITOR$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITNOT$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!MUL$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!CONSTVAL$1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GT$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LE$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!MOD$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GT$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LE$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!DIV$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GE$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!NEG$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!ABS$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LT$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LT$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GE$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LE$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GT$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!DIV$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GE$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LT$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[AND$@1$@2$!CONSTVAL$0$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[AND$@1$@2$!CONSTVAL$1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[AND$@1$@2$!OPERAND$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[AND$@1$@2$!OPERAND$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[AND$@1$@2$!OR$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[STMT!TRAPSTMT]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[@!ABS$@$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[@!ABS$@$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[@!ABS$@$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$V2$!ASSIGN$V2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITOR$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITNOT$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!MUL$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITAND$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!CONSTVAL$1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!MOD$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITSHL$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GT$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITSHR$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!NEQ$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LE$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!MOD$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!DIV$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!ADD$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!SUB$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GT$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!ABS$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LE$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!OPERAND$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!DIV$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!NEG$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!OPERAND$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GE$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITNOT$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITXOR$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!NEG$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!ABS$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITSHL$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!SUB$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!CONSTVAL$0$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LT$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LT$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITSHR$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GE$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!MOD$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GT$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITSHR$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LE$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!MOD$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!DIV$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GT$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LE$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!DIV$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GE$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LT$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LT$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITSHR$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GE$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$V1$@2$!ASSIGN$V1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[AND$@1$@2$!CONSTVAL$1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[AND$@1$@2$!OPERAND$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[AND$@1$@2$!OR$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[STMT!TRAPSTMT]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[@!ABS$@$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[@!ABS$@$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[@!ABS$@$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$V2$!ASSIGN$V2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITOR$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITNOT$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!MUL$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITAND$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!CONSTVAL$1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!MOD$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITSHL$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GT$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITSHR$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!NEQ$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LE$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!MOD$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!DIV$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!ADD$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!SUB$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GT$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!ABS$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LE$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!OPERAND$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!DIV$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!NEG$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!OPERAND$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GE$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITNOT$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITXOR$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!NEG$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!ABS$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITSHL$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!SUB$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!CONSTVAL$0$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LT$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LT$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITSHR$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GE$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!MOD$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GT$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITSHR$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LE$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!MOD$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!DIV$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GT$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LE$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!DIV$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GE$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LT$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!LT$@2$@1$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!BITSHR$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$@1$@2$!GE$@1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) MST[EQ$V1$@2$!ASSIGN$V1$@2$]MSP[] return wd ; return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) return wd ; MST[STMT!TRAPSTMT]MSP[] return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) return wd ; MST[STMT!DELSTMT]MSP[] return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) return wd ; MST[STMT!TRAPSTMT]MSP[] return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) return wd ; MST[STMT!DELSTMT]MSP[] return NULL ; } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) return wd ; return NULL ; MST[STMT!TRAPSTMT]MSP[] } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) return wd ; return NULL ; MST[STMT!DELSTMT]MSP[] } int main ( int argc , char * * argv ) {
+if ( stat ( wd , & st1 ) == 0 && stat ( lr_8 , & st2 ) == 0 && SAME_INODE ( st1 , st2 ) ) return wd ; return NULL ; MST[STMT!TRAPSTMT]MSP[] } int main ( int argc , char * * argv ) {
+{ if ( SAME_INODE ( dot_sb , * root_dev_ino ) ) break; find_dir_entry ( & dot_sb , file_name , height ++ ) ; } if ( file_name -> start [ 0 ] == '\0' ) file_name_prepend ( file_name , lr_14 , 0 ) ; } static char * MST[STMT!TRAPSTMT]MSP[]
+{ if ( SAME_INODE ( dot_sb , * root_dev_ino ) ) break; find_dir_entry ( & dot_sb , file_name , height ++ ) ; } if ( file_name -> start [ 0 ] == '\0' ) file_name_prepend ( file_name , lr_14 , 0 ) ; } static char * MST[STMT!DELSTMT]MSP[]

@@ -1,0 +1,24 @@
+"standard input"	,	lr_6
+""	,	lr_10
+"rb"	,	lr_9
+"%s"	,	lr_7
+"%s\n"	,	lr_13
+"%s: read error"	,	lr_18
+"invalid zero-length file name"	,	lr_22
+"cannot read file names from %s"	,	lr_17
+"extra operand %s"	,	lr_12
+"no file name of %s allowed"	,	lr_21
+" %*s"	,	lr_4
+"\(NL)      --files0-from=F    read input from the files specified by\n\(NL)                           NUL-terminated names in file F;\n\(NL)                           If F is - then read names from standard input\n\(NL)  -L, --max-line-length  print the length of the longest line\n\(NL)  -w, --words            print the word counts\n\(NL)"	,	lr_3
+"clLmw"	,	lr_11
+"r"	,	lr_15
+"%s:%lu: %s"	,	lr_23
+"file operands cannot be combined with --files0-from"	,	lr_14
+"unexpected error code from argv_iter"	,	lr_19
+"\(NL)Usage: %s [OPTION]... [FILE]...\n\(NL)  or:  %s [OPTION]... --files0-from=F\n\(NL)"	,	lr_1
+"-"	,	lr_8
+"when reading file names from stdin, "	,	lr_20
+"\(NL)Print newline, word, and byte counts for each FILE, and a total line if\n\(NL)more than one FILE is specified.  With no FILE, or when FILE is -,\n\(NL)read standard input.  A word is a non-zero-length sequence of characters\n\(NL)delimited by white space.\n\(NL)The options below may be used to select which counts are printed, always in\n\(NL)the following order: newline, word, character, byte, maximum line length.\n\(NL)  -c, --bytes            print the byte counts\n\(NL)  -m, --chars            print the character counts\n\(NL)  -l, --lines            print the newline counts\n\(NL)"	,	lr_2
+" %s"	,	lr_5
+"total"	,	lr_24
+"cannot open %s for reading"	,	lr_16

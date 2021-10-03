@@ -1,0 +1,8 @@
+""	,	lr_5
+"\(NL)Usage: %s NAME [SUFFIX]\n\(NL)  or:  %s OPTION... NAME...\n\(NL)"	,	lr_1
+"\(NL)  -a, --multiple       support multiple arguments and treat each as a NAME\n\(NL)  -s, --suffix=SUFFIX  remove a trailing SUFFIX\n\(NL)  -z, --zero           separate output with NUL rather than newline\n\(NL)"	,	lr_3
+"+as:z"	,	lr_6
+"missing operand"	,	lr_7
+"extra operand %s"	,	lr_8
+"\(NL)\n\(NL)Examples:\n\(NL)  %s /usr/bin/sort          -&gt; \"sort\"\n\(NL)  %s include/stdio.h .h     -&gt; \"stdio\"\n\(NL)  %s -s .h include/stdio.h  -&gt; \"stdio\"\n\(NL)  %s -a any/str1 any/str2   -&gt; \"str1\" followed by \"str2\"\n\(NL)"	,	lr_4
+"\(NL)Print NAME with any leading directory components removed.\n\(NL)If specified, also remove a trailing SUFFIX.\n\(NL)"	,	lr_2

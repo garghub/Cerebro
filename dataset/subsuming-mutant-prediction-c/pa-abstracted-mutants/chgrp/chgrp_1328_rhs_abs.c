@@ -1,0 +1,163 @@
+static gid_t
+parse_group ( const char * name )
+{
+gid_t gid = - 1 ;
+if ( * name )
+{
+struct group * grp = getgrnam ( name ) ;
+if ( grp )
+gid = grp -> gr_gid ;
+else
+{
+unsigned long int tmp ;
+if ( ! ( xstrtoul ( name , NULL , 10 , & tmp , lr_1 ) == LONGINT_OK
+&& tmp <= GID_T_MAX ) )
+error ( EXIT_FAILURE , 0 , _ ( lr_2 ) , quote ( name ) ) ;
+gid = tmp ;
+}
+endgrent () ;
+}
+return gid ;
+}
+void
+usage ( int status )
+{
+if ( status != EXIT_SUCCESS )
+emit_try_help () ;
+else
+{
+printf ( _ ( lr_3 ) ,
+program_name , program_name ) ;
+fputs ( _ ( lr_4 ) , stdout ) ;
+fputs ( _ ( lr_5 ) , stdout ) ;
+fputs ( _ ( lr_6 ) , stdout ) ;
+fputs ( _ ( lr_7 ) , stdout ) ;
+fputs ( _ ( lr_8 ) , stdout ) ;
+fputs ( _ ( lr_9 ) , stdout ) ;
+fputs ( _ ( lr_10 ) , stdout ) ;
+fputs ( _ ( lr_11 ) , stdout ) ;
+fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ;
+printf ( _ ( lr_12 ) ,
+program_name , program_name ) ;
+emit_ancillary_info () ;
+}
+exit ( status ) ;
+}
+int
+main ( int argc , char * * argv )
+{
+bool preserve_root = false ;
+gid_t gid ;
+int bit_flags = FTS_PHYSICAL ;
+int dereference = - 1 ;
+struct Chown_option chopt ;
+bool ok ;
+int optc ;
+initialize_main ( & argc , & argv ) ;
+set_program_name ( argv [ 0 ] ) ;
+setlocale ( LC_ALL , lr_1 ) ;
+bindtextdomain ( PACKAGE , LOCALEDIR ) ;
+textdomain ( PACKAGE ) ;
+atexit ( close_stdout ) ;
+chopt_init ( & chopt ) ;
+while ( ( optc = getopt_long ( argc , argv , lr_13 , long_options , NULL ) )
+!= - 1 )
+{
+switch ( optc )
+{
+case 'H' :
+bit_flags = FTS_COMFOLLOW | FTS_PHYSICAL ;
+break;
+case 'L' :
+bit_flags = FTS_LOGICAL ;
+break;
+case 'P' :
+bit_flags = FTS_PHYSICAL ;
+break;
+case 'h' :
+dereference = 0 ;
+break;
+case DEREFERENCE_OPTION :
+dereference = 1 ;
+break;
+case NO_PRESERVE_ROOT :
+preserve_root = false ;
+break;
+case PRESERVE_ROOT :
+preserve_root = true ;
+break;
+case REFERENCE_FILE_OPTION :
+reference_file = optarg ;
+break;
+case 'R' :
+chopt . recurse = true ;
+break;
+case 'c' :
+chopt . verbosity = V_changes_only ;
+break;
+case 'f' :
+chopt . force_silent = true ;
+break;
+case 'v' :
+chopt . verbosity = V_high ;
+break;
+case_GETOPT_HELP_CHAR ;
+case_GETOPT_VERSION_CHAR ( PROGRAM_NAME , AUTHORS ) ;
+default:
+usage ( EXIT_FAILURE ) ;
+}
+}
+if ( chopt . recurse )
+{
+if ( bit_flags == FTS_PHYSICAL )
+{
+if ( dereference == 1 )
+error ( EXIT_FAILURE , 0 ,
+_ ( lr_14 ) ) ;
+dereference = 0 ;
+}
+}
+else
+{
+bit_flags = FTS_PHYSICAL ;
+}
+chopt . affect_symlink_referent = ( dereference != 0 ) ;
+if ( argc - optind < ( reference_file ? 1 : 2 ) )
+{
+if ( argc <= optind )
+error ( 0 , 0 , _ ( lr_15 ) ) ;
+else
+error ( 0 , 0 , _ ( lr_16 ) , quote ( argv [ argc - 1 ] ) ) ;
+usage ( EXIT_FAILURE ) ;
+}
+if ( reference_file )
+{
+struct stat ref_stats ;
+if ( stat ( reference_file , & ref_stats ) )
+error ( EXIT_FAILURE , errno , _ ( lr_17 ) ,
+quote ( reference_file ) ) ;
+gid = ref_stats . st_gid ;
+chopt . group_name = gid_to_name ( ref_stats . st_gid ) ;
+}
+else
+{
+char * group_name = argv [ optind ++ ] ;
+chopt . group_name = ( * group_name ? group_name : NULL ) ;
+gid = parse_group ( group_name ) ;
+}
+if ( chopt . recurse && preserve_root )
+{
+static struct dev_ino dev_ino_buf ;
+chopt . root_dev_ino = get_root_dev_ino ( & dev_ino_buf ) ;
+if ( chopt . root_dev_ino == NULL )
+error ( EXIT_FAILURE , errno , _ ( lr_17 ) ,
+quote ( lr_18 ) ) ;
+}
+bit_flags |= FTS_DEFER_STAT ; MST[BITOR$@1$@2$!LT$@1$@2$]MSP[N]
+ok = chown_files ( argv + optind , bit_flags ,
+( uid_t ) - 1 , gid ,
+( uid_t ) - 1 , ( gid_t ) - 1 , & chopt ) ;
+chopt_free ( & chopt ) ;
+exit ( ok ? EXIT_SUCCESS : EXIT_FAILURE ) ;
+}

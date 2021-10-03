@@ -1,0 +1,592 @@
+double seconds = 0.0 ; MST[ASSIGN$V1$@2$!LE$@2$V1$]MSP[] bool ok = true ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; setlocale ( LC_ALL , lr_2 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ;
+double seconds = 0.0 ; MST[C!ADD$C$-1$]MSP[] bool ok = true ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; setlocale ( LC_ALL , lr_2 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ;
+double seconds = 0.0 ; MST[C!ADD$C$1$]MSP[] bool ok = true ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; setlocale ( LC_ALL , lr_2 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ;
+double seconds = 0.0 ; bool ok = true ; MST[STMT!TRAPSTMT]MSP[] initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; setlocale ( LC_ALL , lr_2 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ;
+double seconds = 0.0 ; bool ok = true ; MST[STMT!DELSTMT]MSP[] initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; setlocale ( LC_ALL , lr_2 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ;
+double seconds = 0.0 ; bool ok = true ; MST[C!CONSTVAL$0$]MSP[] initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; setlocale ( LC_ALL , lr_2 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ;
+double seconds = 0.0 ; bool ok = true ; MST[C!ADD$C$1$]MSP[] initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; setlocale ( LC_ALL , lr_2 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ;
+double seconds = 0.0 ; bool ok = true ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[STMT!TRAPSTMT]MSP[] setlocale ( LC_ALL , lr_2 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ;
+double seconds = 0.0 ; bool ok = true ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[STMT!DELSTMT]MSP[] setlocale ( LC_ALL , lr_2 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ;
+double seconds = 0.0 ; bool ok = true ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[A!CONSTVAL$0$]MSP[] setlocale ( LC_ALL , lr_2 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ;
+double seconds = 0.0 ; bool ok = true ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[C!ADD$C$-1$]MSP[] setlocale ( LC_ALL , lr_2 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ;
+double seconds = 0.0 ; bool ok = true ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[C!ADD$C$1$]MSP[] setlocale ( LC_ALL , lr_2 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ;
+double seconds = 0.0 ; bool ok = true ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[P!PRIGHTDEC$P$]MSP[] setlocale ( LC_ALL , lr_2 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ;
+double seconds = 0.0 ; bool ok = true ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[P!PLEFTINC$P$]MSP[] setlocale ( LC_ALL , lr_2 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ;
+double seconds = 0.0 ; bool ok = true ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[P!PRIGHTINC$P$]MSP[] setlocale ( LC_ALL , lr_2 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ;
+double seconds = 0.0 ; bool ok = true ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[P!PLEFTDEC$P$]MSP[] setlocale ( LC_ALL , lr_2 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ;
+double seconds = 0.0 ; bool ok = true ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; setlocale ( LC_ALL , lr_2 ) ; MST[STMT!TRAPSTMT]MSP[] bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ;
+double seconds = 0.0 ; bool ok = true ; initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; setlocale ( LC_ALL , lr_2 ) ; MST[STMT!DELSTMT]MSP[] bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ;
+atexit ( close_stdout ) ; MST[STMT!TRAPSTMT]MSP[] parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; MST[STMT!DELSTMT]MSP[] parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; MST[@!ABS$@$]MSP[] parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[STMT!TRAPSTMT]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[STMT!DELSTMT]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[A!CONSTVAL$0$]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[@!ABS$@$]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[P!PRIGHTDEC$P$]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[P!PLEFTINC$P$]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[P!PRIGHTINC$P$]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[P!PLEFTDEC$P$]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 )
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[STMT!TRAPSTMT]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!ABS$@1$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!BITNOT$@2$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!BITXOR$@1$@2$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!LE$@2$@1$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!BITAND$@1$@2$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!ADD$@1$@2$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!DIV$@2$@1$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!BITSHL$@1$@2$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!OPERAND$@2$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!MOD$@2$@1$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!SUB$@2$@1$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!NEG$@1$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!EQ$@1$@2$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!GT$@2$@1$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!GE$@1$@2$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!SUB$@1$@2$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!LT$@1$@2$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!MUL$@1$@2$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!LE$@2$@1$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!DIV$@2$@1$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!MOD$@2$@1$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!MOD$@1$@2$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!GT$@2$@1$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!GE$@1$@2$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!LT$@1$@2$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[A!CONSTVAL$0$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[@!ABS$@$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[@!ABS$@$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[@!ABS$@$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[@!ABS$@$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[C!ADD$C$-1$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[P!PRIGHTDEC$P$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[P!PLEFTINC$P$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[P!PRIGHTINC$P$]MSP[]
+atexit ( close_stdout ) ; parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_2 , NULL , NULL ) != - 1 ) MST[P!PLEFTDEC$P$]MSP[]
+usage ( EXIT_FAILURE ) ; MST[STMT!TRAPSTMT]MSP[] if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$V1$@2$!ASSIGN$V1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+usage ( EXIT_FAILURE ) ; MST[STMT!DELSTMT]MSP[] if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[STMT!TRAPSTMT]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[@!ABS$@$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[@!ABS$@$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[C!CONSTVAL$0$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[C!ADD$C$1$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!BITNOT$@1$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!MUL$@1$@2$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!BITAND$@1$@2$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!ABS$@1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!CONSTVAL$1$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!MOD$@2$@1$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!BITSHL$@1$@2$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!GT$@2$@1$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!BITSHR$@2$@1$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!NEQ$@1$@2$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!LE$@1$@2$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!MOD$@1$@2$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!DIV$@2$@1$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!ADD$@1$@2$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!BITNOT$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!SUB$@1$@2$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!GT$@1$@2$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!LE$@2$@1$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!GE$@2$@1$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!BITXOR$@1$@2$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!NEG$@1$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!ABS$@1$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!SUB$@2$@1$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!CONSTVAL$0$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!LT$@1$@2$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!LT$@2$@1$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!BITSHR$@1$@2$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!GE$@1$@2$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!MOD$@2$@1$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!GT$@2$@1$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!BITSHR$@2$@1$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!LE$@1$@2$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!DIV$@2$@1$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!GT$@1$@2$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!LE$@2$@1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!LE$@2$@1$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!GE$@2$@1$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!LT$@1$@2$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!LT$@2$@1$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!BITSHR$@1$@2$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$@1$@2$!GE$@1$@2$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) MST[EQ$V1$@2$!ASSIGN$V1$@2$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; MST[STMT!TRAPSTMT]MSP[] usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; MST[STMT!DELSTMT]MSP[] usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; MST[STMT!TRAPSTMT]MSP[] } for ( i = optind ; i < argc ; i ++ ) { double s ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!BITNOT$@1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; MST[STMT!DELSTMT]MSP[] } for ( i = optind ; i < argc ; i ++ ) { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[STMT!TRAPSTMT]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ASSIGN$V1$@2$!OPERAND$V1$]MSP[] { double s ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ASSIGN$V1$@2$!NEQ$V1$@2$]MSP[] { double s ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!SUB$@2$@1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[@!ABS$@$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[STMT!TRAPSTMT]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[@!ABS$@$]MSP[] { double s ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!EQ$@1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[@!ABS$@$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[@!ABS$@$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$V2$!ASSIGN$V2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$V1$@2$!ASSIGN$V1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!MOD$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!NEG$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!BITXOR$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!DIV$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!BITSHR$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!BITOR$@1$@2$]MSP[] { double s ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!MOD$@1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!SUB$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!NEG$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!NEQ$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!BITNOT$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!BITSHL$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!BITSHL$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!CONSTVAL$1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!EQ$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!ADD$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!OPERAND$@1$]MSP[] { double s ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!GT$@2$@1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!MUL$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!BITAND$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!ABS$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!ABS$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!OPERAND$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!MOD$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!LE$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!GE$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!CONSTVAL$0$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!SUB$@1$@2$]MSP[] { double s ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!GE$@1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!LE$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!DIV$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!GE$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!BITSHR$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!GT$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!BITNOT$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[LT$@1$@2$!GT$@1$@2$]MSP[] { double s ;
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[STMT!TRAPSTMT]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD_DEREF$P1$@2$!PDEREF_LEFTINC$P1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTDEC$P1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD_DEREF$P1$@2$!PDEREF_LEFTDEC$P1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTINC$P1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD_DEREF$A1$@2$!PDEREF_ADD$A1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD_DEREF$A1$@2$!PDEREF_SUB$A1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[A!CONSTVAL$0$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[A!CONSTVAL$0$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[@!ABS$@$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[@!ABS$@$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD$A1$@2$!OPERAND$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD$A1$@2$!PSUB$A1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD$A1$@2$!OPERAND$A1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD$P1$@2$!PLEFTINC$P1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD$P1$@2$!PRIGHTDEC$P1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD$P1$@2$!PRIGHTINC$P1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD$P1$@2$!PLEFTDEC$P1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[P!PRIGHTDEC$P$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[P!PLEFTINC$P$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[P!PRIGHTINC$P$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[P!PLEFTDEC$P$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!LT$@1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[AND$@1$@2$!CONSTVAL$0$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[AND$@1$@2$!CONSTVAL$1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[AND$@1$@2$!OPERAND$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[AND$@1$@2$!OPERAND$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[AND$@1$@2$!OR$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[STMT!TRAPSTMT]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[@!ABS$@$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[@!ABS$@$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[C!ADD$C$-1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[C!ADD$C$1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[LE$@1$V2$!ASSIGN$V2$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[LE$@1$@2$!CONSTVAL$1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[LE$@1$@2$!ADD$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[LE$@1$@2$!NEQ$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[LE$@1$@2$!MOD$@2$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[LE$@1$@2$!MUL$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[LE$@1$@2$!EQ$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[LE$@1$@2$!DIV$@2$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[LE$@1$@2$!SUB$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[LE$@1$@2$!DIV$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[LE$@1$@2$!LT$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[LE$@1$@2$!GE$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[LE$@1$@2$!ABS$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[LE$@1$@2$!LT$@2$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[LE$@1$@2$!OPERAND$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[LE$@1$@2$!SUB$@2$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[LE$@1$@2$!MOD$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[STMT!TRAPSTMT]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$V1$@2$!ASSIGN$V1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!ABS$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!CONSTVAL$0$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!LE$@2$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!BITNOT$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!SUB$@2$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!EQ$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!MOD$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!GT$@2$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!GE$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!LT$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!LE$@2$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[@!ABS$@$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[@!ABS$@$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[C!ADD$C$-1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[C!ADD$C$1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[AND$@1$@2$!CONSTVAL$0$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[AND$@1$@2$!OPERAND$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[AND$@1$@2$!OPERAND$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[AND$@1$@2$!OR$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[STMT!TRAPSTMT]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$V1$@2$!ASSIGN$V1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!ABS$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!BITNOT$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!CONSTVAL$0$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!LE$@2$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!BITNOT$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!SUB$@2$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!EQ$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!MOD$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!GT$@2$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!GE$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[@!ABS$@$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!LT$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD_DEREF$P1$@2$!PDEREF_LEFTINC$P1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[C!ADD$C$-1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTDEC$P1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD_DEREF$P1$@2$!PDEREF_LEFTDEC$P1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTINC$P1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD_DEREF$A1$@2$!PDEREF_ADD$A1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD_DEREF$A1$@2$!PDEREF_SUB$A1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[@!ABS$@$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[@!ABS$@$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[C!CONSTVAL$0$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[C!ADD$C$1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[C!ADD$C$-1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[C!ADD$C$1$]MSP[] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[C!ADD$C$1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD$A1$@2$!OPERAND$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD$A1$@2$!PSUB$A1$@2$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD$P1$@2$!PLEFTINC$P1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD$P1$@2$!PRIGHTDEC$P1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD$P1$@2$!PRIGHTINC$P1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+const char * p ; if ( ! xstrtod ( argv [ i ] , & p , & s , c_strtod ) MST[PADD$P1$@2$!PLEFTDEC$P1$]MSP[] || ! ( 0 <= s ) || ( * p && * ( p + 1 ) )
+|| ! apply_suffix ( & s , * p ) ) MST[STMT!TRAPSTMT]MSP[] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) MST[@!ABS$@$]MSP[] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; } if ( ! ok )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; MST[STMT!TRAPSTMT]MSP[] else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[STMT!TRAPSTMT]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[STMT!DELSTMT]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[PADD_DEREF$P1$@2$!PDEREF_LEFTINC$P1$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTDEC$P1$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[PADD_DEREF$P1$@2$!PDEREF_LEFTDEC$P1$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTINC$P1$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[PADD_DEREF$A1$@2$!PDEREF_ADD$A1$@2$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[PADD_DEREF$A1$@2$!PDEREF_SUB$A1$@2$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[A!CONSTVAL$0$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[A!CONSTVAL$0$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; MST[STMT!DELSTMT]MSP[] else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[@!ABS$@$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[@!ABS$@$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[PADD$A1$@2$!OPERAND$@2$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[PADD$A1$@2$!PSUB$A1$@2$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[PADD$A1$@2$!OPERAND$A1$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[PADD$P1$@2$!PLEFTINC$P1$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[PADD$P1$@2$!PRIGHTDEC$P1$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[PADD$P1$@2$!PRIGHTINC$P1$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[PADD$P1$@2$!PLEFTDEC$P1$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[P!PRIGHTDEC$P$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; MST[STMT!TRAPSTMT]MSP[] else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[P!PLEFTINC$P$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[P!PRIGHTINC$P$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[P!PLEFTDEC$P$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; MST[CALL!SHUFFLEARGS$2$]MSP[] ok = false ; } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; MST[STMT!TRAPSTMT]MSP[] } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; MST[ASSIGN$V1$@2$!ABS$V1$]MSP[] } seconds += s ; } if ( ! ok )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; MST[STMT!DELSTMT]MSP[] else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , MST[STMT!TRAPSTMT]MSP[] program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; MST[C!ADD$C$-1$]MSP[] } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; MST[C!ADD$C$1$]MSP[] } seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } MST[STMT!TRAPSTMT]MSP[] seconds += s ; } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[STMT!TRAPSTMT]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[STMT!DELSTMT]MSP[] } if ( ! ok )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , MST[STMT!DELSTMT]MSP[] program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , MST[CALL!SHUFFLEARGS$2$]MSP[] program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[@!ABS$@$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[@!ABS$@$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[@!ABS$@$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$V2$!ASSIGN$V2$@1$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$V1$@2$!ASSIGN$V1$@2$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!SUB$@1$@2$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!LT$@1$@2$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!SUB$@2$@1$]MSP[] } if ( ! ok )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , MST[CALL!SHUFFLEARGS$2$]MSP[] program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!LE$@2$@1$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!OPERAND$@1$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!ABS$@1$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!LE$@1$@2$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!DIV$@1$@2$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!CONSTVAL$0$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!MOD$@1$@2$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!MOD$@2$@1$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!MUL$@1$@2$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!LT$@2$@1$]MSP[] } if ( ! ok )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; MST[STMT!TRAPSTMT]MSP[] fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!DIV$@2$@1$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!NEG$@1$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!NEG$@2$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!ABS$@2$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!EQ$@1$@2$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!NEQ$@1$@2$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!CONSTVAL$1$]MSP[] } if ( ! ok )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; MST[STMT!DELSTMT]MSP[] fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!LT$@1$@2$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!LE$@1$@2$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!GT$@1$@2$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!GE$@1$@2$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!EQ$@1$@2$]MSP[] } if ( ! ok )
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; MST[ADD$@1$@2$!NEQ$@1$@2$]MSP[] } if ( ! ok )
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; MST[@!ABS$@$]MSP[] fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; }
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; } MST[STMT!TRAPSTMT]MSP[] if ( ! ok )
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ASSIGN$V1$@2$!LT$@2$V1$]MSP[] { double s ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; MST[STMT!TRAPSTMT]MSP[] emit_ancillary_info () ; }
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[@!ABS$@$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[@!ABS$@$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[C!CONSTVAL$0$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[C!ADD$C$1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$V1$@2$!ASSIGN$V1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!GT$@2$@1$]MSP[] { double s ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; MST[STMT!DELSTMT]MSP[] emit_ancillary_info () ; }
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!SUB$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!BITSHR$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!LT$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!SUB$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!LE$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!BITAND$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!ABS$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!LE$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!CONSTVAL$0$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!MOD$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!BITXOR$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!LT$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!DIV$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!NEG$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!BITOR$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!BITNOT$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!NEG$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!GT$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!GE$@1$@2$]MSP[] { double s ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; MST[STMT!TRAPSTMT]MSP[] }
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!EQ$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!GE$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!BITSHL$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!NEQ$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!BITNOT$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!BITSHL$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!BITSHR$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!GT$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!BITSHR$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!LT$@1$@2$]MSP[] { double s ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name , program_name ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; MST[STMT!DELSTMT]MSP[] }
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!LE$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!LE$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!MOD$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!LT$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!DIV$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!GT$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!GE$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!GE$@2$@1$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[ADD$@1$@2$!BITSHR$@1$@2$]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[STMT!TRAPSTMT]MSP[] { double s ;
+usage ( EXIT_FAILURE ) ; if ( argc == 1 ) { error ( 0 , 0 , _ ( lr_3 ) ) ; usage ( EXIT_FAILURE ) ; } for ( i = optind ; i < argc ; i ++ ) MST[STMT!DELSTMT]MSP[] { double s ;
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; } if ( ! ok ) MST[STMT!TRAPSTMT]MSP[]
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; } if ( ! ok ) MST[@!ABS$@$]MSP[]
+|| ! apply_suffix ( & s , * p ) ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ i ] ) ) ; ok = false ; } seconds += s ; } if ( ! ok ) MST[@!ABS$@$]MSP[]
+usage ( EXIT_FAILURE ) ; MST[STMT!TRAPSTMT]MSP[] if ( xnanosleep ( seconds ) ) error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; MST[STMT!DELSTMT]MSP[] if ( xnanosleep ( seconds ) ) error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[STMT!TRAPSTMT]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[NEQ$@1$@2$!ABS$@1$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[NEQ$@1$@2$!BITNOT$@2$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[NEQ$@1$@2$!CONSTVAL$0$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+exit ( status ) ; MST[STMT!TRAPSTMT]MSP[] } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[NEQ$@1$@2$!LE$@2$@1$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[NEQ$@1$@2$!BITNOT$@1$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[NEQ$@1$@2$!SUB$@2$@1$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[NEQ$@1$@2$!EQ$@1$@2$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[NEQ$@1$@2$!MOD$@1$@2$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[NEQ$@1$@2$!GT$@2$@1$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[NEQ$@1$@2$!GE$@1$@2$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+exit ( status ) ; MST[STMT!DELSTMT]MSP[] } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[NEQ$@1$@2$!LT$@1$@2$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[@!ABS$@$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[@!ABS$@$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+exit ( status ) ; MST[@!ABS$@$]MSP[] } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[C!ADD$C$-1$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) MST[C!ADD$C$1$]MSP[] error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; MST[STMT!TRAPSTMT]MSP[] exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; MST[STMT!DELSTMT]MSP[] exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; MST[@!ABS$@$]MSP[] exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; MST[CALL!SHUFFLEARGS$2$]MSP[] exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; MST[STMT!TRAPSTMT]MSP[] exit ( EXIT_SUCCESS ) ; }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; MST[STMT!TRAPSTMT]MSP[] }
+usage ( EXIT_FAILURE ) ; if ( xnanosleep ( seconds ) ) error ( EXIT_FAILURE , errno , _ ( lr_5 ) ) ; exit ( EXIT_SUCCESS ) ; MST[STMT!DELSTMT]MSP[] }
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[STMT!TRAPSTMT]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[SWITCH!SHUFFLECASESDESTS$2$]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[SWITCH!REMOVECASES$1$]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[SWITCH!REMOVECASES$1$]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[SWITCH!REMOVECASES$1$]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[SWITCH!REMOVECASES$1$]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[SWITCH!REMOVECASES$1$]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[@!ABS$@$]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) MST[@!ABS$@$]MSP[] { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) { case 0 : case 's' : multiplier = 1 ; MST[STMT!TRAPSTMT]MSP[] break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) { case 0 : case 's' : multiplier = 1 ; MST[STMT!DELSTMT]MSP[] break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) { case 0 : case 's' : multiplier = 1 ; MST[ASSIGN$V1$@2$!LT$@2$V1$]MSP[] break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) { case 0 : case 's' : multiplier = 1 ; MST[C!CONSTVAL$0$]MSP[] break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) { case 0 : case 's' : multiplier = 1 ; MST[C!ADD$C$1$]MSP[] break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) { case 0 : case 's' : multiplier = 1 ; break; MST[STMT!TRAPSTMT]MSP[] case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) { case 0 : case 's' : multiplier = 1 ; break; MST[STMT!DELSTMT]MSP[] case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; MST[STMT!TRAPSTMT]MSP[] break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; MST[STMT!DELSTMT]MSP[] break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; MST[ASSIGN$V1$@2$!NEQ$V1$@2$]MSP[] break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; MST[C!CONSTVAL$0$]MSP[] break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; MST[C!ADD$C$-1$]MSP[] break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; MST[C!ADD$C$1$]MSP[] break; case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; MST[STMT!TRAPSTMT]MSP[] case 'h' :
+exit ( status ) ; } static bool apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; MST[STMT!DELSTMT]MSP[] case 'h' :
+multiplier = 60 * 60 ; MST[STMT!TRAPSTMT]MSP[] break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; MST[STMT!DELSTMT]MSP[] break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; MST[ASSIGN$V1$@2$!GT$V1$@2$]MSP[] break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; MST[C!CONSTVAL$0$]MSP[] break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; MST[C!ADD$C$-1$]MSP[] break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; MST[C!ADD$C$1$]MSP[] break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; MST[STMT!TRAPSTMT]MSP[] case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; MST[STMT!DELSTMT]MSP[] case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; MST[STMT!TRAPSTMT]MSP[] break; default: return false ; } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; MST[STMT!DELSTMT]MSP[] break; default: return false ; } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; MST[ASSIGN$V1$@2$!LT$@2$V1$]MSP[] break; default: return false ; } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; MST[C!CONSTVAL$0$]MSP[] break; default: return false ; } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; MST[C!ADD$C$-1$]MSP[] break; default: return false ; } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; MST[C!ADD$C$1$]MSP[] break; default: return false ; } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; MST[STMT!TRAPSTMT]MSP[] default: return false ; } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; MST[STMT!DELSTMT]MSP[] default: return false ; } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; MST[STMT!TRAPSTMT]MSP[] } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; MST[STMT!DELSTMT]MSP[] } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; MST[ASSIGN$V1$@2$!BITOR$V1$@2$]MSP[] } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; MST[C!ADD$C$-1$]MSP[] } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; MST[STMT!TRAPSTMT]MSP[] } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; MST[STMT!DELSTMT]MSP[] } * x *= multiplier ; return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[STMT!TRAPSTMT]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[STMT!DELSTMT]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!GT$@2$@1$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!DIV$@2$@1$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!NEQ$@1$@2$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!MOD$@1$@2$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!GE$@1$@2$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!LT$@2$@1$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!OPERAND$@2$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!GE$@2$@1$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!ABS$@1$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!SUB$@2$@1$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!OPERAND$@1$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!ADD$@1$@2$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!MOD$@2$@1$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!NEG$@2$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!DIV$@1$@2$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!CONSTVAL$1$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!EQ$@1$@2$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!CONSTVAL$0$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!NEG$@1$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!ABS$@2$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!SUB$@1$@2$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!GT$@2$@1$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!NEQ$@1$@2$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!GE$@1$@2$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!LT$@2$@1$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!GE$@2$@1$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$@2$!EQ$@1$@2$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[MUL$@1$V2$!ASSIGN$V2$@1$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[@!ABS$@$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[@!ABS$@$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[@!ABS$@$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; MST[@!ABS$@$]MSP[] return true ; } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; return true ; MST[STMT!TRAPSTMT]MSP[] } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; return true ; MST[ASSIGN$V1$@2$!ABS$V1$]MSP[] } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; return true ; MST[C!CONSTVAL$0$]MSP[] } int main ( int argc , char * * argv ) { int i ;
+multiplier = 60 * 60 ; break; case 'd' : multiplier = 60 * 60 * 24 ; break; default: return false ; } * x *= multiplier ; return true ; MST[STMT!TRAPSTMT]MSP[] } int main ( int argc , char * * argv ) { int i ;
+exit ( status ) ; } static bool MST[STMT!TRAPSTMT]MSP[] apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool MST[STMT!DELSTMT]MSP[] apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :
+exit ( status ) ; } static bool MST[@!ABS$@$]MSP[] apply_suffix ( double * x , char suffix_char ) { int multiplier ; switch ( suffix_char ) { case 0 : case 's' : multiplier = 1 ; break; case 'm' : multiplier = 60 ; break; case 'h' :

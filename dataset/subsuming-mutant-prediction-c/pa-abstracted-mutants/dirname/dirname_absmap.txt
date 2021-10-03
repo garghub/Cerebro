@@ -1,0 +1,7 @@
+"\(NL)\n\(NL)Examples:\n\(NL)  %s /usr/bin/          -&gt; \"/usr\"\n\(NL)  %s dir1/str dir2/str  -&gt; \"dir1\" followed by \"dir2\"\n\(NL)  %s stdio.h            -&gt; \".\"\n\(NL)"	,	lr_4
+""	,	lr_5
+"\(NL)Usage: %s [OPTION] NAME...\n\(NL)"	,	lr_1
+"\(NL)Output each NAME with its last non-slash component and trailing slashes\n\(NL)removed; if NAME contains no /'s, output '.' (meaning the current directory).\n\(NL)\n\(NL)"	,	lr_2
+"\(NL)  -z, --zero     separate output with NUL rather than newline\n\(NL)"	,	lr_3
+"missing operand"	,	lr_7
+"z"	,	lr_6

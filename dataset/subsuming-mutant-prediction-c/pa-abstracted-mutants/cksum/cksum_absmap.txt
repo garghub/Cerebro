@@ -1,0 +1,15 @@
+""	,	lr_15
+"rb"	,	lr_5
+"%u %s\n"	,	lr_10
+"static uint_fast32_t const crctab[256] =\n{\n  0x00000000"	,	lr_1
+"%s"	,	lr_7
+"%s: file too long"	,	lr_8
+"\n};\n"	,	lr_3
+"%u %s %s\n"	,	lr_9
+",\n  0x%08x, 0x%08x, 0x%08x, 0x%08x, 0x%08x"	,	lr_2
+"r"	,	lr_6
+"\(NL)Print CRC checksum and byte counts of each FILE.\n\(NL)\n\(NL)"	,	lr_14
+"-"	,	lr_4
+"write error"	,	lr_12
+"\(NL)Usage: %s [FILE]...\n\(NL)  or:  %s [OPTION]\n\(NL)"	,	lr_13
+"-: %s"	,	lr_11

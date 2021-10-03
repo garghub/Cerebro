@@ -1,0 +1,109 @@
+"\n\(NL)Exit status is 0 if all input numbers were successfully converted.\n\(NL)By default, %s will stop at the first conversion error with exit status 2.\n\(NL)With --invalid='fail' a warning is printed for each conversion error\n\(NL)and the exit status is 2.  With --invalid='warn' each conversion error is\n\(NL)diagnosed, but the exit status is 0.  With --invalid='ignore' conversion\n\(NL)errors are not diagnosed and the exit status is 0.\n\(NL)"	,	lr_61
+"(error)"	,	lr_11
+"the delimiter must be a single character"	,	lr_99
+"  returning value: %Lf (%LG)\n"	,	lr_18
+"invalid number: %s"	,	lr_20
+"  after rounding, value=%Lf * %0.f ^ %d\n"	,	lr_31
+"\(NL)  -d, --delimiter=X    use X instead of whitespace for field delimiter\n\(NL)"	,	lr_41
+"no"	,	lr_74
+"--to"	,	lr_95
+"\(NL)Reformat NUMBER(s), or the numbers from standard input if none are specified.\n\(NL)"	,	lr_39
+"M"	,	lr_4
+"\(NL)  none       no auto-scaling is done; suffixes will trigger an error\n\(NL)"	,	lr_55
+"KMGTPEZY"	,	lr_1
+"E"	,	lr_8
+"\n\(NL)FORMAT must be suitable for printing one floating-point argument '%f'.\n\(NL)Optional quote (%'f) will enable --grouping (if supported by current locale).\n\(NL)Optional width value (%10f) will pad output. Optional negative width values\n\(NL)(%-10f) will left-pad output.\n\(NL)"	,	lr_60
+"rejecting suffix in input: %s (consider using --from)"	,	lr_21
+" (consider using --to)"	,	lr_79
+"\(NL)      --suffix=SUFFIX  add SUFFIX to output numbers, and accept optional\n\(NL)                         SUFFIX in input numbers\n\(NL)"	,	lr_51
+"--header ignored with command-line input"	,	lr_107
+"yes"	,	lr_73
+"\(NL)      --invalid=MODE   failure mode for invalid numbers: MODE can be:\n\(NL)                         abort (default), fail, warn, ignore\n\(NL)"	,	lr_48
+"  Auto-scaling, found 'i', switching to base %d\n"	,	lr_16
+"large input value %s: possible precision loss"	,	lr_86
+"Right"	,	lr_76
+"--invalid"	,	lr_101
+"no numbers found to convert in field %ld"	,	lr_91
+"\(NL)      --debug          print warnings about invalid input\n\(NL)"	,	lr_40
+"grouping cannot be combined with --to"	,	lr_105
+"d:"	,	lr_93
+""	,	lr_2
+"value too large to be converted: %s"	,	lr_19
+"double_to_human:\n"	,	lr_24
+"\(NL)  iec        accept optional single letter suffix:\n\(NL)               1K = 1024,\n\(NL)               1M = 1048576,\n\(NL)               ...\n"	,	lr_58
+"  TOO FEW FIELDS!\n  prefix: %s\n"	,	lr_88
+"\(NL)  iec-i      accept optional two-letter suffix:\n\(NL)               1Ki = 1024,\n\(NL)               1Mi = 1048576,\n\(NL)               ...\n"	,	lr_59
+"--from"	,	lr_94
+"failed to convert some of the input numbers"	,	lr_109
+"invalid unit size: %s"	,	lr_36
+"no valid suffix found\n"	,	lr_84
+"invalid format %s (width overflow)"	,	lr_65
+"\(NL)      --header[=N]     print (without converting) the first N header lines;\n\(NL)                         N defaults to 1 if not specified\n\(NL)"	,	lr_47
+"  no scaling, returning (grouped) value: %'.*Lf\n"	,	lr_25
+"."	,	lr_92
+"out of memory (requested %zu bytes)"	,	lr_37
+"G"	,	lr_5
+"\(NL)      --to-unit=N      the output unit size (instead of the default 1)\n\(NL)"	,	lr_53
+"  After padding: %s\n"	,	lr_82
+"invalid field value %s"	,	lr_98
+"%.1Lf%s"	,	lr_32
+"\(NL)      --format=FORMAT  use printf style floating-point FORMAT;\n\(NL)                         see FORMAT below for details\n\(NL)"	,	lr_43
+"P"	,	lr_7
+"\(NL)  si         accept optional single letter suffix:\n\(NL)               1K = 1000,\n\(NL)               1M = 1000000,\n\(NL)               ...\n"	,	lr_57
+"invalid suffix in input %s: %s"	,	lr_77
+"%.*Lf"	,	lr_28
+"i"	,	lr_34
+"  no scaling, returning value: %.*Lf\n"	,	lr_26
+"no conversion option specified"	,	lr_104
+"\(NL)Usage: %s [OPTION]... [NUMBER]...\n\(NL)"	,	lr_38
+" directive must be %%['][-][N]f"	,	lr_68
+"\(NL)      --from-unit=N    specify the input unit size (instead of the default 1)\n\(NL)"	,	lr_45
+"invalid format %s,"	,	lr_67
+"grouping has no effect in this locale"	,	lr_106
+"Y"	,	lr_10
+"%'.*Lf"	,	lr_27
+"trimming suffix %s\n"	,	lr_83
+"invalid suffix in input: %s"	,	lr_22
+"\(NL)      --padding=N      pad the output to N characters; positive N will\n\(NL)                         right-align; negative N will left-align;\n\(NL)                         padding is ignored if the output is wider than N;\n\(NL)                         the default is to automatically pad if a whitespace\n\(NL)                         is found\n\(NL)"	,	lr_49
+"formatting output:\n  value: %Lf\n  humanized: %s\n"	,	lr_81
+"Left"	,	lr_75
+"  prefix: %s\n  number: %s\n  suffix: %s\n"	,	lr_89
+"  scaled value to %Lf * %0.f ^ %d\n"	,	lr_30
+"error reading input"	,	lr_108
+"failed to prepare value '%Lf' for printing"	,	lr_29
+"invalid padding value %s"	,	lr_97
+" "	,	lr_64
+"value too large to be printed: '%Lg'"	,	lr_78
+"--grouping cannot be combined with --format"	,	lr_102
+"extracting Fields:\n  input: %s\n  field: %d\n"	,	lr_87
+"\(NL)      --to=UNIT        auto-scale output numbers to UNITs; see UNIT below\n\(NL)"	,	lr_52
+"\(NL)  auto       accept optional single/two letter suffix:\n\(NL)               1K = 1000,\n\(NL)               1Ki = 1024,\n\(NL)               1M = 1000000,\n\(NL)               1Mi = 1048576,\n"	,	lr_56
+"  padding width: %ld\n  alignment: %s\n"	,	lr_71
+"Z"	,	lr_9
+"format %s has no %% directive"	,	lr_63
+"format %s has too many %% directives"	,	lr_69
+"--padding cannot be combined with --format"	,	lr_103
+"\n\(NL)Examples:\n\(NL)  $ %s --to=si 1000\n\(NL)            -&gt; \"1.0K\"\n\(NL)  $ %s --to=iec 2048\n\(NL)           -&gt; \"2.0K\"\n\(NL)  $ %s --to=iec-i 4096\n\(NL)           -&gt; \"4.0Ki\"\n\(NL)  $ echo 1K | %s --from=si\n\(NL)           -&gt; \"1000\"\n\(NL)  $ echo 1K | %s --from=iec\n\(NL)           -&gt; \"1024\"\n\(NL)  $ df | %s --header --field 2 --to=si\n\(NL)  $ ls -l | %s --header --field 5 --to=iec\n\(NL)  $ ls -lh | %s --header --field 5 --from=iec --padding=10\n\(NL)  $ ls -lh | %s --header --field 5 --from=iec --format %%10f\n"	,	lr_62
+"  parsed numeric value: %Lf\n"	,	lr_14
+"%.0Lf%s"	,	lr_33
+"input line is too short, "	,	lr_90
+"  suffix power=%d^%d = %Lf\n"	,	lr_17
+"\(NL)\n\(NL)UNIT options:\n"	,	lr_54
+"\(NL)      --round=METHOD   use METHOD for rounding when scaling; METHOD can be:\n\(NL)                         up, down, from-zero (default), towards-zero, nearest\n\(NL)"	,	lr_50
+"simple_strtod_human:\n  input string: %s\n  "	,	lr_12
+"\(NL)      --grouping       use locale-defined grouping of digits, e.g. 1,000,000\n\(NL)                         (which means it has no effect in the C/POSIX locale)\n\(NL)"	,	lr_46
+"  returning value: %s\n"	,	lr_35
+"\(NL)      --field=N        replace the number in input field N (default is 1)\n\(NL)"	,	lr_42
+"  prefix: %s\n  suffix: %s\n"	,	lr_72
+"format String:\n  input: %s\n  grouping: %s\n"	,	lr_70
+"  input precision = %d\n"	,	lr_15
+"K"	,	lr_3
+" (cannot handle values &gt; 999Y)"	,	lr_80
+"locale decimal-point: %s\n"	,	lr_13
+"missing 'i' suffix in input: %s (e.g Ki/Mi/Gi)"	,	lr_23
+"invalid header value %s"	,	lr_100
+"setting Auto-Padding to %ld characters\n"	,	lr_85
+"\(NL)      --from=UNIT      auto-scale input numbers to UNITs; default is 'none';\n\(NL)                         see UNIT below\n\(NL)"	,	lr_44
+"--round"	,	lr_96
+"T"	,	lr_6
+"format %s ends in %%"	,	lr_66

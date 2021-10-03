@@ -1,0 +1,20 @@
+""	,	lr_12
+"'touch -t %04ld%02d%02d%02d%02d.%02d'"	,	lr_19
+"\(NL)  -a                     change only the access time\n\(NL)  -c, --no-create        do not create any files\n\(NL)  -d, --date=STRING      parse STRING and use it instead of current time\n\(NL)  -f                     (ignored)\n\(NL)"	,	lr_8
+"failed to close %s"	,	lr_3
+"\(NL)Update the access and modification times of each FILE to the current time.\n\(NL)\n\(NL)A FILE argument that does not exist is created empty, unless -c or -h\n\(NL)is supplied.\n\(NL)\n\(NL)A FILE argument string of - is handled specially and causes touch to\n\(NL)change the times of the file associated with standard output.\n\(NL)"	,	lr_7
+"POSIXLY_CORRECT"	,	lr_17
+"setting times of %s"	,	lr_5
+"\(NL)  -h, --no-dereference   affect each symbolic link instead of any referenced\n\(NL)                         file (useful only on systems that can change the\n\(NL)                         timestamps of a symlink)\n\(NL)  -m                     change only the modification time\n\(NL)"	,	lr_9
+"cannot specify times from more than one source"	,	lr_15
+"warning: 'touch %s' is obsolete; use "	,	lr_18
+"--time"	,	lr_14
+"failed to get attributes of %s"	,	lr_16
+"missing file operand"	,	lr_20
+"invalid date format %s"	,	lr_1
+"Usage: %s [OPTION]... FILE...\n"	,	lr_6
+"\(NL)  -r, --reference=FILE   use this file's times instead of current time\n\(NL)  -t STAMP               use [[CC]YY]MMDDhhmm[.ss] instead of current time\n\(NL)      --time=WORD        change the specified time:\n\(NL)                           WORD is access, atime, or use: equivalent to -a\n\(NL)                           WORD is modify or mtime: equivalent to -m\n\(NL)"	,	lr_10
+"-"	,	lr_2
+"acd:fhmr:t:"	,	lr_13
+"cannot touch %s"	,	lr_4
+"\(NL)\n\(NL)Note that the -d and -t options accept different time-date formats.\n\(NL)"	,	lr_11

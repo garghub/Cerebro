@@ -1,0 +1,52 @@
+"%s"	,	lr_15
+"non-integer argument"	,	lr_34
+"!="	,	lr_43
+"error in regular expression matcher"	,	lr_18
+"division by zero"	,	lr_35
+"eval7"	,	lr_19
+"\(NL)\n\(NL)Beware that many operators need to be escaped or quoted for shells.\n\(NL)Comparisons are arithmetic if both ARGs are numbers, else lexicographical.\n\(NL)Pattern matches return the string matched between \\( and \\) or null; if\n\(NL)\\( and \\) are not used, they return the number of characters matched or 0.\n\(NL)"	,	lr_8
+"eval3"	,	lr_36
+"missing operand"	,	lr_14
+" %s"	,	lr_17
+"\(NL)Usage: %s EXPRESSION\n\(NL)  or:  %s OPTION\n\(NL)"	,	lr_1
+"("	,	lr_20
+"\(NL)\n\(NL)Print the value of EXPRESSION to standard output.  A blank line below\n\(NL)separates increasing precedence groups.  EXPRESSION may be:\n\(NL)\n\(NL)  ARG1 | ARG2       ARG1 if it is neither null nor 0, otherwise ARG2\n\(NL)\n\(NL)  ARG1 &amp; ARG2       ARG1 if neither argument is null or 0, otherwise 0\n\(NL)"	,	lr_2
+"\(NL)\n\(NL)  ARG1 + ARG2       arithmetic sum of ARG1 and ARG2\n\(NL)  ARG1 - ARG2       arithmetic difference of ARG1 and ARG2\n\(NL)"	,	lr_4
+"&lt;="	,	lr_40
+"="	,	lr_41
+"--"	,	lr_13
+"=="	,	lr_42
+"&amp;"	,	lr_50
+"%c"	,	lr_11
+"eval4"	,	lr_30
+"-"	,	lr_37
+"\(NL)\n\(NL)  ARG1 &lt; ARG2       ARG1 is less than ARG2\n\(NL)  ARG1 &lt;= ARG2      ARG1 is less than or equal to ARG2\n\(NL)  ARG1 = ARG2       ARG1 is equal to ARG2\n\(NL)  ARG1 != ARG2      ARG1 is unequal to ARG2\n\(NL)  ARG1 &gt;= ARG2      ARG1 is greater than or equal to ARG2\n\(NL)  ARG1 &gt; ARG2       ARG1 is greater than ARG2\n\(NL)"	,	lr_3
+")"	,	lr_21
+"length"	,	lr_24
+"match"	,	lr_25
+"%"	,	lr_33
+""	,	lr_12
+"|"	,	lr_52
+"%s:"	,	lr_16
+":"	,	lr_29
+"index"	,	lr_26
+"eval5"	,	lr_28
+"\(NL)\n\(NL)Exit status is 0 if EXPRESSION is neither null nor 0, 1 if EXPRESSION is null\n\(NL)or 0, 2 if EXPRESSION is syntactically invalid, and 3 if an error occurred.\n\(NL)"	,	lr_9
+"set LC_ALL='C' to work around the problem"	,	lr_47
+"eval1"	,	lr_49
+"*"	,	lr_31
+"&lt;"	,	lr_39
+"&gt;="	,	lr_44
+"\(NL)\n\(NL)  ARG1 * ARG2       arithmetic product of ARG1 and ARG2\n\(NL)  ARG1 / ARG2       arithmetic quotient of ARG1 divided by ARG2\n\(NL)  ARG1 % ARG2       arithmetic remainder of ARG1 divided by ARG2\n\(NL)"	,	lr_5
+"string comparison failed"	,	lr_46
+"\(NL)  + TOKEN                    interpret TOKEN as a string, even if it is a\n\(NL)                               keyword like 'match' or an operator like '/'\n\(NL)\n\(NL)  ( EXPRESSION )             value of EXPRESSION\n\(NL)"	,	lr_7
+"\(NL)\n\(NL)  STRING : REGEXP   anchored pattern match of REGEXP in STRING\n\(NL)\n\(NL)  match STRING REGEXP        same as STRING : REGEXP\n\(NL)  substr STRING POS LENGTH   substring of STRING, POS counted from 1\n\(NL)  index STRING CHARS         index in STRING where any CHARS is found, or 0\n\(NL)  length STRING              length of STRING\n\(NL)"	,	lr_6
+"eval"	,	lr_51
+"eval6"	,	lr_22
+"&gt;"	,	lr_45
+"/"	,	lr_32
+"eval2"	,	lr_38
+"+"	,	lr_23
+"substr"	,	lr_27
+"the strings compared were %s and %s"	,	lr_48
+"syntax error"	,	lr_10

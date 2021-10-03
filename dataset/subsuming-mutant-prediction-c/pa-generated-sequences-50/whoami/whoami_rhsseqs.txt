@@ -1,0 +1,321 @@
+fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; } exit ( status ) ; } int main ( int argc , char * * argv ) { struct passwd * pw ; uid_t uid ; uid_t NO_UID = - 1 ; MST[ASSIGN$V1$@2$!BITOR$V1$@2$]MSP[N]
+fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; } exit ( status ) ; } int main ( int argc , char * * argv ) { struct passwd * pw ; uid_t uid ; uid_t NO_UID = - 1 ; MST[@!ABS$@$]MSP[N]
+fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; } exit ( status ) ; } int main ( int argc , char * * argv ) { struct passwd * pw ; uid_t uid ; uid_t NO_UID = - 1 ; MST[C!CONSTVAL$0$]MSP[N]
+fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; } exit ( status ) ; } int main ( int argc , char * * argv ) { struct passwd * pw ; uid_t uid ; uid_t NO_UID = - 1 ; MST[C!ADD$C$-1$]MSP[N]
+initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[STMT!TRAPSTMT]MSP[N] setlocale ( LC_ALL , lr_3 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ; atexit ( close_stdout ) ;
+initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[STMT!DELSTMT]MSP[N] setlocale ( LC_ALL , lr_3 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ; atexit ( close_stdout ) ;
+initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[A!CONSTVAL$0$]MSP[N] setlocale ( LC_ALL , lr_3 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ; atexit ( close_stdout ) ;
+initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[C!ADD$C$-1$]MSP[N] setlocale ( LC_ALL , lr_3 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ; atexit ( close_stdout ) ;
+initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[C!ADD$C$1$]MSP[N] setlocale ( LC_ALL , lr_3 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ; atexit ( close_stdout ) ;
+initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[P!PRIGHTDEC$P$]MSP[N] setlocale ( LC_ALL , lr_3 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ; atexit ( close_stdout ) ;
+initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[P!PLEFTINC$P$]MSP[N] setlocale ( LC_ALL , lr_3 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ; atexit ( close_stdout ) ;
+initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[P!PRIGHTINC$P$]MSP[N] setlocale ( LC_ALL , lr_3 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ; atexit ( close_stdout ) ;
+initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; MST[P!PLEFTDEC$P$]MSP[N] setlocale ( LC_ALL , lr_3 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ; atexit ( close_stdout ) ;
+initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; setlocale ( LC_ALL , lr_3 ) ; MST[STMT!TRAPSTMT]MSP[N] bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ; atexit ( close_stdout ) ;
+initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; setlocale ( LC_ALL , lr_3 ) ; MST[STMT!DELSTMT]MSP[N] bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ; atexit ( close_stdout ) ;
+initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; setlocale ( LC_ALL , lr_3 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; MST[STMT!TRAPSTMT]MSP[N]
+initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; setlocale ( LC_ALL , lr_3 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; MST[STMT!DELSTMT]MSP[N]
+initialize_main ( & argc , & argv ) ; set_program_name ( argv [ 0 ] ) ; setlocale ( LC_ALL , lr_3 ) ; bindtextdomain ( PACKAGE , LOCALEDIR ) ; textdomain ( PACKAGE ) ; atexit ( close_stdout ) ; MST[@!ABS$@$]MSP[N]
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[STMT!TRAPSTMT]MSP[N] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[STMT!DELSTMT]MSP[N] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[A!CONSTVAL$0$]MSP[N] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[@!ABS$@$]MSP[N] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[P!PRIGHTDEC$P$]MSP[N] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[P!PLEFTINC$P$]MSP[N] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[P!PRIGHTINC$P$]MSP[N] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[P!PLEFTDEC$P$]MSP[N] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[N] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[N] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[S] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[N] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[S] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[S] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[N] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[S] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[S] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , MST[CALL!SHUFFLEARGS$2$]MSP[S] usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[STMT!TRAPSTMT]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!ABS$@1$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!BITNOT$@2$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!BITXOR$@1$@2$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!LE$@2$@1$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!BITAND$@1$@2$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!ADD$@1$@2$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!DIV$@2$@1$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!BITSHL$@1$@2$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!OPERAND$@2$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!MOD$@2$@1$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!SUB$@2$@1$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!NEG$@1$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!EQ$@1$@2$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!GT$@2$@1$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!GE$@1$@2$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!SUB$@1$@2$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!LT$@1$@2$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!MUL$@1$@2$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!LE$@2$@1$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!DIV$@2$@1$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!MOD$@2$@1$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!MOD$@1$@2$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!GT$@2$@1$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!GE$@1$@2$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[NEQ$@1$@2$!LT$@1$@2$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[A!CONSTVAL$0$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[@!ABS$@$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[@!ABS$@$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[@!ABS$@$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[@!ABS$@$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[C!ADD$C$-1$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[P!PRIGHTDEC$P$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[P!PLEFTINC$P$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[P!PRIGHTINC$P$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) MST[P!PLEFTDEC$P$]MSP[N] usage ( EXIT_FAILURE ) ;
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) usage ( EXIT_FAILURE ) ; MST[STMT!TRAPSTMT]MSP[N]
+parse_long_options ( argc , argv , PROGRAM_NAME , PACKAGE_NAME , Version , usage , AUTHORS , ( char const * ) NULL ) ; if ( getopt_long ( argc , argv , lr_3 , NULL , NULL ) != - 1 ) usage ( EXIT_FAILURE ) ; MST[STMT!DELSTMT]MSP[N]
+if ( optind != argc ) MST[STMT!TRAPSTMT]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$V1$@2$!ASSIGN$V1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!ABS$@1$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!BITNOT$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!CONSTVAL$0$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!BITXOR$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!LE$@2$@1$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!BITAND$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!ADD$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!BITNOT$@1$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!DIV$@2$@1$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!BITSHL$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!OPERAND$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!MOD$@2$@1$]MSP[S] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!SUB$@2$@1$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!NEG$@1$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!OPERAND$@1$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!ABS$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!EQ$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!MOD$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!CONSTVAL$1$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!GT$@2$@1$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!GE$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!BITOR$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!BITSHL$@2$@1$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!BITSHR$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!SUB$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!LT$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$V1$@2$!ASSIGN$V1$@2$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+if ( optind != argc ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!MUL$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!NEG$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!BITSHR$@2$@1$]MSP[S] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!LE$@2$@1$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!DIV$@2$@1$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!MOD$@2$@1$]MSP[S] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!MOD$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!ABS$@1$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+if ( optind != argc ) MST[NEQ$@1$@2$!GT$@2$@1$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!GE$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!BITSHR$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!LT$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$@2$!BITSHR$@2$@1$]MSP[S] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[NEQ$@1$V2$!ASSIGN$V2$@1$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!BITNOT$@2$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+if ( optind != argc ) MST[@!ABS$@$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[@!ABS$@$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) MST[@!ABS$@$]MSP[N] { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[STMT!TRAPSTMT]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[STMT!DELSTMT]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[PADD_DEREF$P1$@2$!PDEREF_LEFTINC$P1$]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTDEC$P1$]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[PADD_DEREF$P1$@2$!PDEREF_LEFTDEC$P1$]MSP[S] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTINC$P1$]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[PADD_DEREF$A1$@2$!PDEREF_ADD$A1$@2$]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!CONSTVAL$0$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[PADD_DEREF$A1$@2$!PDEREF_SUB$A1$@2$]MSP[S] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[A!CONSTVAL$0$]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[A!CONSTVAL$0$]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[@!ABS$@$]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[@!ABS$@$]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[PADD$A1$@2$!OPERAND$@2$]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[PADD$A1$@2$!PSUB$A1$@2$]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[PADD$A1$@2$!OPERAND$A1$]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[PADD$P1$@2$!PLEFTINC$P1$]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[PADD$P1$@2$!PRIGHTDEC$P1$]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!LE$@2$@1$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[PADD$P1$@2$!PRIGHTINC$P1$]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[PADD$P1$@2$!PLEFTDEC$P1$]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[P!PRIGHTDEC$P$]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[P!PLEFTINC$P$]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[P!PRIGHTINC$P$]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[P!PLEFTDEC$P$]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; MST[CALL!SHUFFLEARGS$2$]MSP[N] usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; MST[STMT!TRAPSTMT]MSP[N] } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; MST[STMT!DELSTMT]MSP[N] } errno = 0 ; uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; MST[STMT!TRAPSTMT]MSP[N] uid = geteuid () ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!BITNOT$@1$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; MST[STMT!DELSTMT]MSP[N] uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; MST[ASSIGN$V1$@2$!BITOR$V1$@2$]MSP[N] uid = geteuid () ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; MST[C!ADD$C$-1$]MSP[N] uid = geteuid () ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; MST[C!ADD$C$1$]MSP[N] uid = geteuid () ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!SUB$@2$@1$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ; MST[STMT!TRAPSTMT]MSP[N]
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ; MST[STMT!DELSTMT]MSP[S]
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ; MST[ASSIGN$V1$@2$!BITOR$V1$@2$]MSP[S]
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!EQ$@1$@2$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!MOD$@1$@2$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+if ( optind != argc ) { error ( 0 , 0 , _ ( lr_4 ) , quote ( argv [ optind ] ) ) ; usage ( EXIT_FAILURE ) ; } errno = 0 ; uid = geteuid () ; MST[@!ABS$@$]MSP[N]
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[STMT!TRAPSTMT]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[@!ABS$@$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[@!ABS$@$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[@!ABS$@$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$V2$!ASSIGN$V2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!BITOR$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!GT$@2$@1$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!BITNOT$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!MUL$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!BITAND$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!CONSTVAL$1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!MOD$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!BITSHL$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!GT$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!BITSHR$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!NEQ$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!LE$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!GE$@1$@2$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!MOD$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!DIV$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!ADD$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!SUB$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!GT$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!ABS$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!LE$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!OPERAND$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!DIV$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!NEG$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!OPERAND$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!GE$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!BITNOT$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!BITXOR$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!NEG$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!ABS$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!BITSHL$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!SUB$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!CONSTVAL$0$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!LT$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!LT$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!BITSHR$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!GE$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!MOD$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!GT$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!BITSHR$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!LE$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!MOD$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!DIV$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!GT$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!LT$@1$@2$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!LE$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!DIV$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!GE$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!LT$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!LT$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!BITSHR$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$@1$@2$!GE$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[EQ$V1$@2$!ASSIGN$V1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[AND$@1$@2$!CONSTVAL$0$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[AND$@1$@2$!CONSTVAL$1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[AND$@1$@2$!OPERAND$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[AND$@1$@2$!OPERAND$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[AND$@1$@2$!OR$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[STMT!TRAPSTMT]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$V1$@2$!ASSIGN$V1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$@1$@2$!ABS$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$@1$@2$!BITNOT$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$@1$@2$!LE$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$@1$@2$!BITAND$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$@1$@2$!BITNOT$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$@1$@2$!SUB$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$@1$@2$!EQ$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$@1$@2$!MOD$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$@1$@2$!GT$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$@1$@2$!GE$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$@1$@2$!GT$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$@1$@2$!LT$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$@1$@2$!LT$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$@1$@2$!LE$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$@1$@2$!GE$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$@1$@2$!GT$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$@1$@2$!LT$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$@1$@2$!LE$@1$@2$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[NEQ$@1$@2$!GE$@2$@1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[@!ABS$@$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[C!ADD$C$-1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[C!ADD$C$1$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[STMT!TRAPSTMT]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[STMT!DELSTMT]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[STMT!TRAPSTMT]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[STMT!DELSTMT]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[@!ABS$@$]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[STMT!TRAPSTMT]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[STMT!TRAPSTMT]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; MST[STMT!DELSTMT]MSP[N] if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; if ( pw ) MST[STMT!TRAPSTMT]MSP[N] { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; if ( pw ) MST[@!ABS$@$]MSP[N] { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; if ( pw ) { puts ( pw -> pw_name ) ; MST[STMT!TRAPSTMT]MSP[N] exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; if ( pw ) { puts ( pw -> pw_name ) ; MST[STMT!DELSTMT]MSP[S] exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; if ( pw ) { puts ( pw -> pw_name ) ; MST[A!CONSTVAL$0$]MSP[N] exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; if ( pw ) { puts ( pw -> pw_name ) ; MST[C!ADD$C$-1$]MSP[N] exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; if ( pw ) { puts ( pw -> pw_name ) ; MST[C!ADD$C$1$]MSP[N] exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; MST[STMT!TRAPSTMT]MSP[N] } fprintf ( stderr , _ ( lr_5 ) ,
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; MST[STMT!DELSTMT]MSP[N] } fprintf ( stderr , _ ( lr_5 ) ,
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) , MST[STMT!TRAPSTMT]MSP[N]
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) , MST[STMT!DELSTMT]MSP[N]
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) , MST[@!ABS$@$]MSP[N]
+pw = ( uid == NO_UID && errno ? NULL : getpwuid ( uid ) ) ; if ( pw ) { puts ( pw -> pw_name ) ; exit ( EXIT_SUCCESS ) ; } fprintf ( stderr , _ ( lr_5 ) , MST[CALL!SHUFFLEARGS$2$]MSP[N]
+program_name , ( unsigned long int ) uid ) ; exit ( EXIT_FAILURE ) ; MST[STMT!TRAPSTMT]MSP[N] }
+program_name , ( unsigned long int ) uid ) ; exit ( EXIT_FAILURE ) ; MST[STMT!DELSTMT]MSP[N] }
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[@!ABS$@$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[C!ADD$C$-1$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) MST[C!ADD$C$1$]MSP[N] emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; MST[STMT!TRAPSTMT]MSP[N] else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; MST[STMT!DELSTMT]MSP[N] else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; MST[STMT!TRAPSTMT]MSP[N] else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; MST[STMT!DELSTMT]MSP[S] else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; MST[STMT!TRAPSTMT]MSP[N] fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; MST[STMT!DELSTMT]MSP[S] fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; MST[CALL!SHUFFLEARGS$2$]MSP[S] fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; MST[STMT!TRAPSTMT]MSP[N] fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; MST[STMT!DELSTMT]MSP[S] fputs ( HELP_OPTION_DESCRIPTION , stdout ) ;
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; MST[STMT!TRAPSTMT]MSP[N]
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; MST[STMT!DELSTMT]MSP[S]
+void usage ( int status ) { if ( status != EXIT_SUCCESS ) emit_try_help () ; else { printf ( _ ( lr_1 ) , program_name ) ; fputs ( _ ( lr_2 ) , stdout ) ; fputs ( HELP_OPTION_DESCRIPTION , stdout ) ; MST[@!ABS$@$]MSP[N]
+fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; MST[STMT!TRAPSTMT]MSP[N] emit_ancillary_info () ; } exit ( status ) ; } int main ( int argc , char * * argv ) { struct passwd * pw ; uid_t uid ; uid_t NO_UID = - 1 ;
+fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; MST[STMT!DELSTMT]MSP[S] emit_ancillary_info () ; } exit ( status ) ; } int main ( int argc , char * * argv ) { struct passwd * pw ; uid_t uid ; uid_t NO_UID = - 1 ;
+fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; MST[STMT!TRAPSTMT]MSP[N] } exit ( status ) ; } int main ( int argc , char * * argv ) { struct passwd * pw ; uid_t uid ; uid_t NO_UID = - 1 ;
+fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; MST[STMT!DELSTMT]MSP[S] } exit ( status ) ; } int main ( int argc , char * * argv ) { struct passwd * pw ; uid_t uid ; uid_t NO_UID = - 1 ;
+fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; } exit ( status ) ; MST[STMT!TRAPSTMT]MSP[N] } int main ( int argc , char * * argv ) { struct passwd * pw ; uid_t uid ; uid_t NO_UID = - 1 ;
+fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; } exit ( status ) ; MST[STMT!DELSTMT]MSP[N] } int main ( int argc , char * * argv ) { struct passwd * pw ; uid_t uid ; uid_t NO_UID = - 1 ;
+fputs ( VERSION_OPTION_DESCRIPTION , stdout ) ; emit_ancillary_info () ; } exit ( status ) ; MST[@!ABS$@$]MSP[N] } int main ( int argc , char * * argv ) { struct passwd * pw ; uid_t uid ; uid_t NO_UID = - 1 ;

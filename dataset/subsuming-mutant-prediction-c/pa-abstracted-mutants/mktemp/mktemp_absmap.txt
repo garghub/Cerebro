@@ -1,0 +1,22 @@
+""	,	lr_9
+" it may not be absolute"	,	lr_19
+"failed to create directory via template %s"	,	lr_20
+"\(NL)      --suffix=SUFF   append SUFF to TEMPLATE; SUFF must not contain a slash.\n\(NL)                        This option is implied if TEMPLATE does not end in X\n\(NL)"	,	lr_6
+"too few X's in template %s"	,	lr_14
+"\(NL)  -p DIR, --tmpdir[=DIR]  interpret TEMPLATE relative to DIR; if DIR is not\n\(NL)                        specified, use $TMPDIR if set, else /tmp.  With\n\(NL)                        this option, TEMPLATE must not be an absolute name;\n\(NL)                        unlike with -t, TEMPLATE may contain slashes, but\n\(NL)                        mktemp creates only the final component\n\(NL)"	,	lr_7
+"failed to create file via template %s"	,	lr_21
+"/tmp"	,	lr_16
+"\(NL)  -d, --directory     create a directory, not a file\n\(NL)  -u, --dry-run       do not create anything; merely print a name (unsafe)\n\(NL)  -q, --quiet         suppress diagnostics about file/dir-creation failure\n\(NL)"	,	lr_5
+"invalid template, %s; with --tmpdir,"	,	lr_18
+"\(NL)Create a temporary file or directory, safely, and print its name.\n\(NL)TEMPLATE must contain at least 3 consecutive 'X's in last component.\n\(NL)If TEMPLATE is not specified, use tmp.XXXXXXXXXX, and --tmpdir is implied.\n\(NL)"	,	lr_2
+"TMPDIR"	,	lr_15
+"invalid suffix %s, contains directory separator"	,	lr_13
+"write error"	,	lr_22
+"\(NL)Files are created u+rw, and directories u+rwx, minus umask restrictions.\n\(NL)"	,	lr_3
+"invalid template, %s, contains directory separator"	,	lr_17
+"dp:qtuV"	,	lr_10
+"too many templates"	,	lr_11
+"\(NL)  -t                  interpret TEMPLATE as a single file name component,\n\(NL)                        relative to a directory: $TMPDIR, if set; else the\n\(NL)                        directory specified via -p; else /tmp [deprecated]\n\(NL)"	,	lr_8
+"Usage: %s [OPTION]... [TEMPLATE]\n"	,	lr_1
+"\n"	,	lr_4
+"with --suffix, template %s must end in X"	,	lr_12

@@ -1,0 +1,42 @@
+""	,	lr_28
+"%s"	,	lr_13
+"options %s and %s are mutually exclusive"	,	lr_29
+"Warning: "	,	lr_38
+"Capacity"	,	lr_7
+"no file systems processed"	,	lr_42
+"bad field_type"	,	lr_14
+"-T"	,	lr_33
+"-P"	,	lr_34
+"--output"	,	lr_32
+"invalid field"	,	lr_6
+"option --output: field %s used more than once"	,	lr_3
+"/auto/"	,	lr_16
+"%s-%s"	,	lr_10
+"total"	,	lr_41
+"blocks"	,	lr_9
+"lofs"	,	lr_20
+"aB:iF:hHklmPTt:vx:"	,	lr_30
+"%.0f%%"	,	lr_15
+"option --output: field %s unknown"	,	lr_2
+"\(NL)      --output[=FIELD_LIST]  use the output format defined by FIELD_LIST,\n\(NL)                               or print all fields if FIELD_LIST is omitted.\n\(NL)  -P, --portability     use the POSIX output format\n\(NL)      --sync            invoke sync before getting usage info\n\(NL)  -t, --type=TYPE       limit listing to file systems of type TYPE\n\(NL)  -T, --print-type      print file system type\n\(NL)  -x, --exclude-type=TYPE   limit listing to file systems not of type TYPE\n\(NL)  -v                    (ignored)\n\(NL)"	,	lr_25
+"POSIXLY_CORRECT"	,	lr_35
+"%s%s"	,	lr_39
+"\(NL)  -i, --inodes          list inode information instead of block usage\n\(NL)  -k                    like --block-size=1K\n\(NL)  -l, --local           limit listing to local file systems\n\(NL)      --no-sync         do not invoke sync before getting usage info (default)\(NL)\n\(NL)"	,	lr_24
+"invalid header_mode"	,	lr_8
+"empty cell"	,	lr_19
+"unhandled field"	,	lr_18
+"DF"	,	lr_26
+"file system type %s both selected and excluded"	,	lr_37
+"Usage: %s [OPTION]... [FILE]...\n"	,	lr_21
+"-i"	,	lr_31
+"\(NL)Show information about the file system on which each FILE resides,\n\(NL)or all file systems by default.\n\(NL)"	,	lr_22
+"\n\(NL)FIELD_LIST is a comma-separated list of columns to be included.  Valid\n\(NL)field names are: 'source', 'fstype', 'itotal', 'iused', 'iavail', 'ipcent',\n\(NL)'size', 'used', 'avail', 'pcent', 'file' and 'target' (see info page).\n\(NL)"	,	lr_27
+"/tmp_mnt/"	,	lr_17
+"DF_BLOCK_SIZE"	,	lr_36
+"cannot read table of mounted file systems"	,	lr_40
+"-"	,	lr_11
+"Size"	,	lr_4
+"-0123456789abcdefABCDEF"	,	lr_12
+"\(NL)  -a, --all             include dummy file systems\n\(NL)  -B, --block-size=SIZE  scale sizes by SIZE before printing them; e.g.,\n\(NL)                           '-BM' prints sizes in units of 1,048,576 bytes;\n\(NL)                           see SIZE format below\n\(NL)      --total           produce a grand total\n\(NL)  -h, --human-readable  print sizes in human readable format (e.g., 1K 234M 2G)\(NL)\n\(NL)  -H, --si              likewise, but use powers of 1000 not 1024\n\(NL)"	,	lr_23
+"field used"	,	lr_1
+"Avail"	,	lr_5

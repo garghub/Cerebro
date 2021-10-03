@@ -1,0 +1,29 @@
+""	,	lr_21
+"mode of %s retained as %04lo (%s)\n"	,	lr_5
+"%s"	,	lr_7
+"Rcfvr::w::x::X::s::t::u::g::o::a::,::+::=::"	,	lr_22
+"0::1::2::3::4::5::6::7::"	,	lr_23
+"mode of %s changed from %04lo (%s) to %04lo (%s)\n"	,	lr_3
+"failed to change mode of %s from %04lo (%s) to %04lo (%s)\n"	,	lr_4
+"changing permissions of %s"	,	lr_10
+"\(NL)\n\(NL)Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'.\n\(NL)"	,	lr_20
+"fts_close failed"	,	lr_13
+"missing operand after %s"	,	lr_26
+"fts_read failed"	,	lr_12
+"missing operand"	,	lr_25
+"invalid mode: %s"	,	lr_28
+"\(NL)  -c, --changes          like verbose but report only when a change is made\n\(NL)  -f, --silent, --quiet  suppress most error messages\n\(NL)  -v, --verbose          output a diagnostic for every file processed\n\(NL)"	,	lr_16
+"\(NL)      --reference=RFILE  use RFILE's mode instead of MODE values\n\(NL)"	,	lr_18
+"cannot read directory %s"	,	lr_8
+"\(NL)Usage: %s [OPTION]... MODE[,MODE]... FILE...\n\(NL)  or:  %s [OPTION]... OCTAL-MODE FILE...\n\(NL)  or:  %s [OPTION]... --reference=RFILE FILE...\n\(NL)"	,	lr_14
+"failed to get attributes of %s"	,	lr_27
+"\(NL)      --no-preserve-root  do not treat '/' specially (the default)\n\(NL)      --preserve-root    fail to operate recursively on '/'\n\(NL)"	,	lr_17
+"/"	,	lr_29
+"getting new attributes of %s"	,	lr_1
+"neither symbolic link %s nor referent has been changed\n"	,	lr_2
+"cannot access %s"	,	lr_6
+"cannot operate on dangling symlink %s"	,	lr_9
+"\(NL)Change the mode of each FILE to MODE.\n\(NL)With --reference, change the mode of each FILE to that of RFILE.\n\(NL)\n\(NL)"	,	lr_15
+"\(NL)  -R, --recursive        change files and directories recursively\n\(NL)"	,	lr_19
+"cannot combine mode and --reference options"	,	lr_24
+"%s: new permissions are %s, not %s"	,	lr_11

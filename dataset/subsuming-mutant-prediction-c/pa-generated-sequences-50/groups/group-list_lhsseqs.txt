@@ -1,0 +1,483 @@
+extern bool print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; MST[STMT!TRAPSTMT]MSP[] struct passwd * pwd = NULL ; if ( username ) { pwd = getpwuid ( ruid ) ;
+extern bool print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; MST[ASSIGN$V1$@2$!LE$@2$V1$]MSP[] struct passwd * pwd = NULL ; if ( username ) { pwd = getpwuid ( ruid ) ;
+extern bool print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; MST[C!CONSTVAL$0$]MSP[] struct passwd * pwd = NULL ; if ( username ) { pwd = getpwuid ( ruid ) ;
+extern bool print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; MST[C!ADD$C$1$]MSP[] struct passwd * pwd = NULL ; if ( username ) { pwd = getpwuid ( ruid ) ;
+extern bool print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; struct passwd * pwd = NULL ; MST[STMT!TRAPSTMT]MSP[] if ( username ) { pwd = getpwuid ( ruid ) ;
+extern bool print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; struct passwd * pwd = NULL ; MST[STMT!DELSTMT]MSP[] if ( username ) { pwd = getpwuid ( ruid ) ;
+extern bool print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; struct passwd * pwd = NULL ; if ( username ) MST[STMT!TRAPSTMT]MSP[] { pwd = getpwuid ( ruid ) ;
+extern bool print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; struct passwd * pwd = NULL ; if ( username ) MST[@!ABS$@$]MSP[] { pwd = getpwuid ( ruid ) ;
+extern bool print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; struct passwd * pwd = NULL ; if ( username ) { pwd = getpwuid ( ruid ) ; MST[STMT!TRAPSTMT]MSP[]
+extern bool print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; struct passwd * pwd = NULL ; if ( username ) { pwd = getpwuid ( ruid ) ; MST[STMT!DELSTMT]MSP[]
+extern bool print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; struct passwd * pwd = NULL ; if ( username ) { pwd = getpwuid ( ruid ) ; MST[@!ABS$@$]MSP[]
+if ( pwd == NULL ) MST[STMT!TRAPSTMT]MSP[] ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) MST[@!ABS$@$]MSP[] ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; MST[STMT!TRAPSTMT]MSP[] } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; MST[STMT!DELSTMT]MSP[] } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; MST[ASSIGN$V1$@2$!BITOR$V1$@2$]MSP[] } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; MST[ASSIGN$V1$@2$!LE$@2$V1$]MSP[] } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; MST[C!ADD$C$-1$]MSP[] } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; MST[C!ADD$C$1$]MSP[] } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; MST[STMT!TRAPSTMT]MSP[] } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+extern bool MST[STMT!TRAPSTMT]MSP[] print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; struct passwd * pwd = NULL ; if ( username ) { pwd = getpwuid ( ruid ) ;
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) MST[STMT!TRAPSTMT]MSP[] ok = false ; if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) MST[@!ABS$@$]MSP[] ok = false ; if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) MST[@!ABS$@$]MSP[] ok = false ; if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) MST[@!ABS$@$]MSP[] ok = false ; if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; MST[STMT!TRAPSTMT]MSP[] if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; MST[STMT!DELSTMT]MSP[] if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; MST[ASSIGN$V1$@2$!BITOR$V1$@2$]MSP[] if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; MST[ASSIGN$V1$@2$!LT$@2$V1$]MSP[] if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; MST[C!ADD$C$-1$]MSP[] if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; MST[C!ADD$C$1$]MSP[] if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; MST[STMT!TRAPSTMT]MSP[] if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[STMT!TRAPSTMT]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$V1$@2$!ASSIGN$V1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!ABS$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!BITNOT$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!CONSTVAL$0$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!BITXOR$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!LE$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!BITAND$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!ADD$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!BITNOT$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!DIV$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!BITSHL$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!OPERAND$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!MOD$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!SUB$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!NEG$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!OPERAND$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!ABS$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!EQ$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!MOD$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!CONSTVAL$1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!GT$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!GE$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!BITOR$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!BITSHL$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!BITSHR$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!SUB$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!LT$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!MUL$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!NEG$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!BITSHR$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!LE$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!DIV$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!MOD$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!MOD$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!GT$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!GE$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!BITSHR$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!LT$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$@2$!BITSHR$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[NEQ$@1$V2$!ASSIGN$V2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[@!ABS$@$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[@!ABS$@$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) MST[@!ABS$@$]MSP[] { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) { putchar ( delim ) ; MST[STMT!TRAPSTMT]MSP[] if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) { putchar ( delim ) ; MST[STMT!DELSTMT]MSP[] if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) { putchar ( delim ) ; MST[@!ABS$@$]MSP[] if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) { putchar ( delim ) ; MST[@!ABS$@$]MSP[] if ( ! print_group ( egid , use_names ) )
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) ) MST[STMT!TRAPSTMT]MSP[]
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) ) MST[@!ABS$@$]MSP[]
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) ) MST[@!ABS$@$]MSP[]
+if ( pwd == NULL ) ok = false ; } if ( ! print_group ( rgid , use_names ) ) ok = false ; if ( egid != rgid ) { putchar ( delim ) ; if ( ! print_group ( egid , use_names ) ) MST[@!ABS$@$]MSP[]
+ok = false ; MST[STMT!TRAPSTMT]MSP[] } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) { if ( username ) {
+ok = false ; MST[STMT!DELSTMT]MSP[] } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) { if ( username ) {
+ok = false ; MST[ASSIGN$V1$@2$!BITOR$V1$@2$]MSP[] } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) { if ( username ) {
+ok = false ; MST[ASSIGN$V1$@2$!LT$@2$V1$]MSP[] } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) { if ( username ) {
+ok = false ; MST[C!ADD$C$-1$]MSP[] } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) { if ( username ) {
+ok = false ; MST[C!ADD$C$1$]MSP[] } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) { if ( username ) {
+ok = false ; MST[STMT!TRAPSTMT]MSP[] } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) { if ( username ) {
+extern bool MST[STMT!TRAPSTMT]MSP[] print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; struct passwd * pwd = NULL ; if ( username ) { pwd = getpwuid ( ruid ) ;
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[STMT!TRAPSTMT]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[STMT!DELSTMT]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[STMT!TRAPSTMT]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[@!ABS$@$]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[STMT!TRAPSTMT]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[STMT!DELSTMT]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[ASSIGN$V1$@2$!NEQ$V1$@2$]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[@!ABS$@$]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[C!ADD$C$-1$]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[C!ADD$C$1$]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[STMT!TRAPSTMT]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[STMT!DELSTMT]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[STMT!TRAPSTMT]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[STMT!DELSTMT]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[ASSIGN$V1$@2$!OPERAND$V1$]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[ASSIGN$V1$@2$!GE$@2$V1$]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[@!ABS$@$]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[STMT!TRAPSTMT]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[STMT!TRAPSTMT]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[STMT!DELSTMT]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[ASSIGN$V1$@2$!BITOR$V1$@2$]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[ASSIGN$V1$@2$!ABS$V1$]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[@!ABS$@$]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; MST[@!ABS$@$]MSP[] if ( n_groups < 0 ) { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) MST[STMT!TRAPSTMT]MSP[] { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) MST[@!ABS$@$]MSP[] { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) MST[@!ABS$@$]MSP[] { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) MST[C!ADD$C$-1$]MSP[] { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) MST[C!ADD$C$1$]MSP[] { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) MST[LT$V1$@2$!ASSIGN$V1$@2$]MSP[] { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) MST[LT$@1$@2$!MOD$@2$@1$]MSP[] { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) MST[LT$@1$@2$!BITXOR$@1$@2$]MSP[] { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) MST[LT$@1$@2$!SUB$@2$@1$]MSP[] { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) MST[LT$@1$@2$!BITNOT$@2$]MSP[] { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) MST[LT$@1$@2$!EQ$@1$@2$]MSP[] { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) MST[LT$@1$@2$!ABS$@1$]MSP[] { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) MST[LT$@1$@2$!MOD$@1$@2$]MSP[] { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) MST[LT$@1$@2$!LE$@2$@1$]MSP[] { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) MST[LT$@1$@2$!GE$@2$@1$]MSP[] { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) MST[LT$@1$@2$!LE$@1$@2$]MSP[] { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) MST[LT$@1$@2$!DIV$@1$@2$]MSP[] { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) MST[LT$@1$@2$!GE$@1$@2$]MSP[] { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) MST[LT$@1$@2$!GT$@2$@1$]MSP[] { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) MST[LT$@1$@2$!BITNOT$@1$]MSP[] { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) MST[LT$@1$@2$!GT$@1$@2$]MSP[] { if ( username ) {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) { if ( username ) MST[STMT!TRAPSTMT]MSP[] {
+ok = false ; } { gid_t * groups ; int i ; int n_groups = xgetgroups ( username , ( pwd ? pwd -> pw_gid : egid ) , & groups ) ; if ( n_groups < 0 ) { if ( username ) MST[@!ABS$@$]MSP[] {
+extern bool MST[STMT!TRAPSTMT]MSP[] print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; struct passwd * pwd = NULL ; if ( username ) { pwd = getpwuid ( ruid ) ;
+extern bool MST[STMT!DELSTMT]MSP[] print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; struct passwd * pwd = NULL ; if ( username ) { pwd = getpwuid ( ruid ) ;
+extern bool MST[@!ABS$@$]MSP[] print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; struct passwd * pwd = NULL ; if ( username ) { pwd = getpwuid ( ruid ) ;
+extern bool MST[CALL!SHUFFLEARGS$2$]MSP[] print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; struct passwd * pwd = NULL ; if ( username ) { pwd = getpwuid ( ruid ) ;
+extern bool MST[CALL!SHUFFLEARGS$2$]MSP[] print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; struct passwd * pwd = NULL ; if ( username ) { pwd = getpwuid ( ruid ) ;
+extern bool MST[STMT!TRAPSTMT]MSP[] print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; struct passwd * pwd = NULL ; if ( username ) { pwd = getpwuid ( ruid ) ;
+extern bool MST[STMT!DELSTMT]MSP[] print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; struct passwd * pwd = NULL ; if ( username ) { pwd = getpwuid ( ruid ) ;
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; MST[STMT!TRAPSTMT]MSP[] } return false ; } for ( i = 0 ; i < n_groups ; i ++ )
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; MST[STMT!DELSTMT]MSP[] } return false ; } for ( i = 0 ; i < n_groups ; i ++ )
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; MST[@!ABS$@$]MSP[] } return false ; } for ( i = 0 ; i < n_groups ; i ++ )
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; MST[CALL!SHUFFLEARGS$2$]MSP[] } return false ; } for ( i = 0 ; i < n_groups ; i ++ )
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; MST[STMT!TRAPSTMT]MSP[] } for ( i = 0 ; i < n_groups ; i ++ )
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; MST[STMT!DELSTMT]MSP[] } for ( i = 0 ; i < n_groups ; i ++ )
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; MST[ASSIGN$V1$@2$!ABS$V1$]MSP[] } for ( i = 0 ; i < n_groups ; i ++ )
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; MST[C!ADD$C$-1$]MSP[] } for ( i = 0 ; i < n_groups ; i ++ )
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; MST[STMT!TRAPSTMT]MSP[] } for ( i = 0 ; i < n_groups ; i ++ )
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; MST[STMT!DELSTMT]MSP[] } for ( i = 0 ; i < n_groups ; i ++ )
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[STMT!TRAPSTMT]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ASSIGN$V1$@2$!BITOR$V1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ASSIGN$V1$@2$!GE$@2$V1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[C!ADD$C$-1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[C!ADD$C$1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[STMT!TRAPSTMT]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[@!ABS$@$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[@!ABS$@$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[@!ABS$@$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$V2$!ASSIGN$V2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$V1$@2$!ASSIGN$V1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!MOD$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!NEG$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!BITXOR$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!DIV$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!BITSHR$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!BITOR$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!SUB$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!NEG$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!NEQ$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!BITNOT$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!BITSHL$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!BITSHL$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!CONSTVAL$1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!EQ$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!ADD$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!OPERAND$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!MUL$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!BITAND$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!ABS$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!ABS$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!OPERAND$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!MOD$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!LE$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!GE$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!CONSTVAL$0$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!SUB$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!LE$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!DIV$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!GE$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!BITSHR$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!GT$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!BITNOT$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[LT$@1$@2$!GT$@1$@2$]MSP[]
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[STMT!TRAPSTMT]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$V1$@2$!ASSIGN$V1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!ABS$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITNOT$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!CONSTVAL$0$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITXOR$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!LE$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITAND$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!ADD$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITNOT$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!DIV$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITSHL$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!OPERAND$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!MOD$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!SUB$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!NEG$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!OPERAND$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!ABS$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!EQ$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!MOD$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!CONSTVAL$1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!GT$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!GE$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITOR$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITSHL$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITSHR$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!SUB$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!LT$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!MUL$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!NEG$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITSHR$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!LE$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!DIV$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!MOD$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!MOD$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!GT$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!GE$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITSHR$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!LT$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITSHR$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$V2$!ASSIGN$V2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD_DEREF$P1$@2$!PDEREF_LEFTINC$P1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTDEC$P1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD_DEREF$P1$@2$!PDEREF_LEFTDEC$P1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTINC$P1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD_DEREF$A1$@2$!PDEREF_ADD$A1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD_DEREF$A1$@2$!PDEREF_SUB$A1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[@!ABS$@$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[@!ABS$@$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[@!ABS$@$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[@!ABS$@$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[@!ABS$@$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD$A1$@2$!OPERAND$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD$A1$@2$!PSUB$A1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD$A1$@2$!OPERAND$A1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD$P1$@2$!PLEFTINC$P1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD$P1$@2$!PRIGHTDEC$P1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD$P1$@2$!PRIGHTINC$P1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD$P1$@2$!PLEFTDEC$P1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[AND$@1$@2$!CONSTVAL$0$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[AND$@1$@2$!CONSTVAL$1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[AND$@1$@2$!OPERAND$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[AND$@1$@2$!OPERAND$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[AND$@1$@2$!OR$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[STMT!TRAPSTMT]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$V1$@2$!ASSIGN$V1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!ABS$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITNOT$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!CONSTVAL$0$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITXOR$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!LE$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITAND$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!ADD$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITNOT$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!DIV$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITSHL$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!OPERAND$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!MOD$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!SUB$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!NEG$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!OPERAND$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!ABS$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!EQ$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!MOD$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!CONSTVAL$1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!GT$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!GE$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITOR$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITSHL$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITSHR$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!SUB$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!LT$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!MUL$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!NEG$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITSHR$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!LE$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!DIV$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!MOD$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!DIV$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!MOD$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!GT$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!GE$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITSHR$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!GT$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!LT$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!LT$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!LE$@1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!GE$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$@2$!BITSHR$@2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[NEQ$@1$V2$!ASSIGN$V2$@1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD_DEREF$P1$@2$!PDEREF_LEFTINC$P1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTDEC$P1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD_DEREF$P1$@2$!PDEREF_LEFTDEC$P1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTINC$P1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD_DEREF$A1$@2$!PDEREF_ADD$A1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD_DEREF$A1$@2$!PDEREF_SUB$A1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[@!ABS$@$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[@!ABS$@$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[@!ABS$@$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[@!ABS$@$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[@!ABS$@$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD$A1$@2$!OPERAND$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD$A1$@2$!PSUB$A1$@2$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD$A1$@2$!OPERAND$A1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD$P1$@2$!PLEFTINC$P1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD$P1$@2$!PRIGHTDEC$P1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD$P1$@2$!PRIGHTINC$P1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) MST[PADD$P1$@2$!PLEFTDEC$P1$]MSP[] { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; MST[STMT!TRAPSTMT]MSP[] if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; MST[STMT!DELSTMT]MSP[] if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; MST[@!ABS$@$]MSP[] if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; MST[@!ABS$@$]MSP[] if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) MST[STMT!TRAPSTMT]MSP[] ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) MST[PADD_DEREF$P1$@2$!PDEREF_LEFTINC$P1$]MSP[] ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTDEC$P1$]MSP[] ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) MST[PADD_DEREF$P1$@2$!PDEREF_LEFTDEC$P1$]MSP[] ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) MST[PADD_DEREF$P1$@2$!PDEREF_RIGHTINC$P1$]MSP[] ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) MST[PADD_DEREF$A1$@2$!PDEREF_ADD$A1$@2$]MSP[] ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) MST[PADD_DEREF$A1$@2$!PDEREF_SUB$A1$@2$]MSP[] ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) MST[@!ABS$@$]MSP[] ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) MST[@!ABS$@$]MSP[] ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) MST[@!ABS$@$]MSP[] ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) MST[@!ABS$@$]MSP[] ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) MST[@!ABS$@$]MSP[] ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) MST[PADD$A1$@2$!OPERAND$@2$]MSP[] ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) MST[PADD$A1$@2$!PSUB$A1$@2$]MSP[] ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) MST[PADD$A1$@2$!OPERAND$A1$]MSP[] ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) MST[PADD$P1$@2$!PLEFTINC$P1$]MSP[] ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) MST[PADD$P1$@2$!PRIGHTDEC$P1$]MSP[] ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) MST[PADD$P1$@2$!PRIGHTINC$P1$]MSP[] ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) MST[PADD$P1$@2$!PLEFTDEC$P1$]MSP[] ok = false ; } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; MST[STMT!TRAPSTMT]MSP[] } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; MST[STMT!DELSTMT]MSP[] } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; MST[ASSIGN$V1$@2$!BITOR$V1$@2$]MSP[] } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; MST[ASSIGN$V1$@2$!LE$@2$V1$]MSP[] } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; MST[C!ADD$C$-1$]MSP[] } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; MST[C!ADD$C$1$]MSP[] } free ( groups ) ; } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; MST[STMT!TRAPSTMT]MSP[] } free ( groups ) ; } return ok ; }
+extern bool MST[STMT!TRAPSTMT]MSP[] print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; struct passwd * pwd = NULL ; if ( username ) { pwd = getpwuid ( ruid ) ;
+extern bool MST[STMT!TRAPSTMT]MSP[] print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; struct passwd * pwd = NULL ; if ( username ) { pwd = getpwuid ( ruid ) ;
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[STMT!DELSTMT]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ASSIGN$V1$@2$!OPERAND$V1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[@!ABS$@$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[@!ABS$@$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[C!CONSTVAL$0$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[C!ADD$C$1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$V1$@2$!ASSIGN$V1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!GT$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!SUB$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!BITSHR$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!LT$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!SUB$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!LE$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!BITAND$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!ABS$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!LE$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!CONSTVAL$0$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!MOD$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!BITXOR$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!LT$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!DIV$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!NEG$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!BITOR$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!BITNOT$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!NEG$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!GT$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!GE$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!EQ$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!GE$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!BITSHL$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!NEQ$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!BITNOT$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!BITSHL$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!BITSHR$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!GT$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!BITSHR$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!LT$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!LE$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!LE$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!MOD$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!LT$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!DIV$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!GT$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!GE$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!GE$@2$@1$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[ADD$@1$@2$!BITSHR$@1$@2$]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[STMT!TRAPSTMT]MSP[]
+error ( 0 , errno , _ ( lr_1 ) , quote ( username ) ) ; } else { error ( 0 , errno , _ ( lr_2 ) ) ; } return false ; } for ( i = 0 ; i < n_groups ; i ++ ) MST[STMT!DELSTMT]MSP[]
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; MST[STMT!TRAPSTMT]MSP[] } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; MST[STMT!DELSTMT]MSP[] } return ok ; }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; MST[STMT!TRAPSTMT]MSP[] }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; MST[STMT!DELSTMT]MSP[] }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; MST[@!ABS$@$]MSP[] }
+if ( groups [ i ] != rgid && groups [ i ] != egid ) { putchar ( delim ) ; if ( ! print_group ( groups [ i ] , use_names ) ) ok = false ; } free ( groups ) ; } return ok ; MST[STMT!TRAPSTMT]MSP[] }
+extern bool MST[STMT!TRAPSTMT]MSP[] print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; struct passwd * pwd = NULL ; if ( username ) { pwd = getpwuid ( ruid ) ;
+extern bool MST[STMT!DELSTMT]MSP[] print_group_list ( const char * username , uid_t ruid , gid_t rgid , gid_t egid , bool use_names , char delim ) { bool ok = true ; struct passwd * pwd = NULL ; if ( username ) { pwd = getpwuid ( ruid ) ;
+static char * gidtostr_ptr ( gid_t const * gid ) { static char buf [ INT_BUFSIZE_BOUND ( uintmax_t ) ] ; return umaxtostr ( * gid , buf ) ; } extern bool print_group ( gid_t gid , bool use_name ) { struct group * grp = NULL ; MST[STMT!TRAPSTMT]MSP[]
+static char * gidtostr_ptr ( gid_t const * gid ) { static char buf [ INT_BUFSIZE_BOUND ( uintmax_t ) ] ; return umaxtostr ( * gid , buf ) ; } extern bool print_group ( gid_t gid , bool use_name ) { struct group * grp = NULL ; MST[STMT!DELSTMT]MSP[]
+bool ok = true ; MST[STMT!TRAPSTMT]MSP[] if ( use_name ) { grp = getgrgid ( gid ) ; if ( grp == NULL ) { error ( 0 , 0 , _ ( lr_3 ) , ( unsigned long int ) gid ) ; ok = false ; } }
+bool ok = true ; MST[ASSIGN$V1$@2$!LT$@2$V1$]MSP[] if ( use_name ) { grp = getgrgid ( gid ) ; if ( grp == NULL ) { error ( 0 , 0 , _ ( lr_3 ) , ( unsigned long int ) gid ) ; ok = false ; } }
+bool ok = true ; MST[C!CONSTVAL$0$]MSP[] if ( use_name ) { grp = getgrgid ( gid ) ; if ( grp == NULL ) { error ( 0 , 0 , _ ( lr_3 ) , ( unsigned long int ) gid ) ; ok = false ; } }
+bool ok = true ; MST[C!ADD$C$1$]MSP[] if ( use_name ) { grp = getgrgid ( gid ) ; if ( grp == NULL ) { error ( 0 , 0 , _ ( lr_3 ) , ( unsigned long int ) gid ) ; ok = false ; } }
+bool ok = true ; if ( use_name ) MST[STMT!TRAPSTMT]MSP[] { grp = getgrgid ( gid ) ; if ( grp == NULL ) { error ( 0 , 0 , _ ( lr_3 ) , ( unsigned long int ) gid ) ; ok = false ; } }
+bool ok = true ; if ( use_name ) MST[@!ABS$@$]MSP[] { grp = getgrgid ( gid ) ; if ( grp == NULL ) { error ( 0 , 0 , _ ( lr_3 ) , ( unsigned long int ) gid ) ; ok = false ; } }
+bool ok = true ; if ( use_name ) MST[@!ABS$@$]MSP[] { grp = getgrgid ( gid ) ; if ( grp == NULL ) { error ( 0 , 0 , _ ( lr_3 ) , ( unsigned long int ) gid ) ; ok = false ; } }
+bool ok = true ; if ( use_name ) { grp = getgrgid ( gid ) ; MST[STMT!TRAPSTMT]MSP[] if ( grp == NULL ) { error ( 0 , 0 , _ ( lr_3 ) , ( unsigned long int ) gid ) ; ok = false ; } }
+bool ok = true ; if ( use_name ) { grp = getgrgid ( gid ) ; MST[STMT!DELSTMT]MSP[] if ( grp == NULL ) { error ( 0 , 0 , _ ( lr_3 ) , ( unsigned long int ) gid ) ; ok = false ; } }
+bool ok = true ; if ( use_name ) { grp = getgrgid ( gid ) ; MST[@!ABS$@$]MSP[] if ( grp == NULL ) { error ( 0 , 0 , _ ( lr_3 ) , ( unsigned long int ) gid ) ; ok = false ; } }
+bool ok = true ; if ( use_name ) { grp = getgrgid ( gid ) ; if ( grp == NULL ) MST[STMT!TRAPSTMT]MSP[] { error ( 0 , 0 , _ ( lr_3 ) , ( unsigned long int ) gid ) ; ok = false ; } }
+bool ok = true ; if ( use_name ) { grp = getgrgid ( gid ) ; if ( grp == NULL ) MST[@!ABS$@$]MSP[] { error ( 0 , 0 , _ ( lr_3 ) , ( unsigned long int ) gid ) ; ok = false ; } }
+bool ok = true ; if ( use_name ) { grp = getgrgid ( gid ) ; if ( grp == NULL ) { error ( 0 , 0 , _ ( lr_3 ) , MST[STMT!TRAPSTMT]MSP[] ( unsigned long int ) gid ) ; ok = false ; } }
+bool ok = true ; if ( use_name ) { grp = getgrgid ( gid ) ; if ( grp == NULL ) { error ( 0 , 0 , _ ( lr_3 ) , MST[STMT!DELSTMT]MSP[] ( unsigned long int ) gid ) ; ok = false ; } }
+bool ok = true ; if ( use_name ) { grp = getgrgid ( gid ) ; if ( grp == NULL ) { error ( 0 , 0 , _ ( lr_3 ) , MST[@!ABS$@$]MSP[] ( unsigned long int ) gid ) ; ok = false ; } }
+bool ok = true ; if ( use_name ) { grp = getgrgid ( gid ) ; if ( grp == NULL ) { error ( 0 , 0 , _ ( lr_3 ) , ( unsigned long int ) gid ) ; ok = false ; MST[STMT!TRAPSTMT]MSP[] } }
+bool ok = true ; if ( use_name ) { grp = getgrgid ( gid ) ; if ( grp == NULL ) { error ( 0 , 0 , _ ( lr_3 ) , ( unsigned long int ) gid ) ; ok = false ; MST[ASSIGN$V1$@2$!GT$@2$V1$]MSP[] } }
+bool ok = true ; if ( use_name ) { grp = getgrgid ( gid ) ; if ( grp == NULL ) { error ( 0 , 0 , _ ( lr_3 ) , ( unsigned long int ) gid ) ; ok = false ; MST[C!ADD$C$-1$]MSP[] } }
+bool ok = true ; if ( use_name ) { grp = getgrgid ( gid ) ; if ( grp == NULL ) { error ( 0 , 0 , _ ( lr_3 ) , ( unsigned long int ) gid ) ; ok = false ; MST[C!ADD$C$1$]MSP[] } }
+bool ok = true ; if ( use_name ) { grp = getgrgid ( gid ) ; if ( grp == NULL ) { error ( 0 , 0 , _ ( lr_3 ) , ( unsigned long int ) gid ) ; ok = false ; } MST[STMT!TRAPSTMT]MSP[] }
+bool ok = true ; if ( use_name ) { grp = getgrgid ( gid ) ; if ( grp == NULL ) { error ( 0 , 0 , _ ( lr_3 ) , ( unsigned long int ) gid ) ; ok = false ; } } MST[STMT!TRAPSTMT]MSP[]
+char * s = grp ? grp -> gr_name : gidtostr ( gid ) ; MST[STMT!TRAPSTMT]MSP[] fputs ( s , stdout ) ; return ok ; }
+char * s = grp ? grp -> gr_name : gidtostr ( gid ) ; MST[@!ABS$@$]MSP[] fputs ( s , stdout ) ; return ok ; }
+char * s = grp ? grp -> gr_name : gidtostr ( gid ) ; MST[STMT!TRAPSTMT]MSP[] fputs ( s , stdout ) ; return ok ; }
+char * s = grp ? grp -> gr_name : gidtostr ( gid ) ; MST[STMT!DELSTMT]MSP[] fputs ( s , stdout ) ; return ok ; }
+char * s = grp ? grp -> gr_name : gidtostr ( gid ) ; MST[A!CONSTVAL$0$]MSP[] fputs ( s , stdout ) ; return ok ; }
+char * s = grp ? grp -> gr_name : gidtostr ( gid ) ; MST[C!ADD$C$-1$]MSP[] fputs ( s , stdout ) ; return ok ; }
+char * s = grp ? grp -> gr_name : gidtostr ( gid ) ; MST[C!ADD$C$1$]MSP[] fputs ( s , stdout ) ; return ok ; }
+char * s = grp ? grp -> gr_name : gidtostr ( gid ) ; MST[STMT!TRAPSTMT]MSP[] fputs ( s , stdout ) ; return ok ; }
+char * s = grp ? grp -> gr_name : gidtostr ( gid ) ; MST[STMT!DELSTMT]MSP[] fputs ( s , stdout ) ; return ok ; }
+char * s = grp ? grp -> gr_name : gidtostr ( gid ) ; MST[STMT!TRAPSTMT]MSP[] fputs ( s , stdout ) ; return ok ; }
+char * s = grp ? grp -> gr_name : gidtostr ( gid ) ; MST[STMT!DELSTMT]MSP[] fputs ( s , stdout ) ; return ok ; }
+char * s = grp ? grp -> gr_name : gidtostr ( gid ) ; MST[STMT!TRAPSTMT]MSP[] fputs ( s , stdout ) ; return ok ; }
+char * s = grp ? grp -> gr_name : gidtostr ( gid ) ; MST[STMT!TRAPSTMT]MSP[] fputs ( s , stdout ) ; return ok ; }
+char * s = grp ? grp -> gr_name : gidtostr ( gid ) ; MST[STMT!DELSTMT]MSP[] fputs ( s , stdout ) ; return ok ; }
+char * s = grp ? grp -> gr_name : gidtostr ( gid ) ; fputs ( s , stdout ) ; MST[STMT!TRAPSTMT]MSP[] return ok ; }
+char * s = grp ? grp -> gr_name : gidtostr ( gid ) ; fputs ( s , stdout ) ; MST[STMT!DELSTMT]MSP[] return ok ; }
+char * s = grp ? grp -> gr_name : gidtostr ( gid ) ; fputs ( s , stdout ) ; return ok ; MST[STMT!TRAPSTMT]MSP[] }
+char * s = grp ? grp -> gr_name : gidtostr ( gid ) ; fputs ( s , stdout ) ; return ok ; MST[STMT!DELSTMT]MSP[] }
+char * s = grp ? grp -> gr_name : gidtostr ( gid ) ; fputs ( s , stdout ) ; return ok ; MST[@!ABS$@$]MSP[] }

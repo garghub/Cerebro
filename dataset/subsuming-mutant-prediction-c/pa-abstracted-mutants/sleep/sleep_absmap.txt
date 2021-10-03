@@ -1,0 +1,5 @@
+"\(NL)Usage: %s NUMBER[SUFFIX]...\n\(NL)  or:  %s OPTION\n\(NL)Pause for NUMBER seconds.  SUFFIX may be 's' for seconds (the default),\n\(NL)'m' for minutes, 'h' for hours or 'd' for days.  Unlike most implementations\n\(NL)that require NUMBER be an integer, here NUMBER may be an arbitrary floating\n\(NL)point number.  Given two or more arguments, pause for the amount of time\n\(NL)specified by the sum of their values.\n\(NL)\n\(NL)"	,	lr_1
+""	,	lr_2
+"invalid time interval %s"	,	lr_4
+"missing operand"	,	lr_3
+"cannot read realtime clock"	,	lr_5

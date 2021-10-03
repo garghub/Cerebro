@@ -1,0 +1,9 @@
+"\(NL)Remove the DIRECTORY(ies), if they are empty.\n\(NL)\n\(NL)      --ignore-fail-on-non-empty\n\(NL)                  ignore each failure that is solely because a directory\n\(NL)                    is non-empty\n\(NL)"	,	lr_4
+""	,	lr_6
+"removing directory, %s"	,	lr_1
+"Usage: %s [OPTION]... DIRECTORY...\n"	,	lr_3
+"missing operand"	,	lr_8
+"failed to remove directory %s"	,	lr_2
+"\(NL)  -p, --parents   remove DIRECTORY and its ancestors; e.g., 'rmdir -p a/b/c' is\(NL)\n\(NL)                    similar to 'rmdir a/b/c a/b a'\n\(NL)  -v, --verbose   output a diagnostic for every directory processed\n\(NL)"	,	lr_5
+"pv"	,	lr_7
+"failed to remove %s"	,	lr_9

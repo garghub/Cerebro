@@ -1,0 +1,46 @@
+"standard input"	,	lr_21
+""	,	lr_25
+"--iso-8601"	,	lr_34
+"\(NL)  %U   week number of year, with Sunday as first day of week (00..53)\n\(NL)  %V   ISO week number, with Monday as first day of week (01..53)\n\(NL)  %w   day of week (0..6); 0 is Sunday\n\(NL)  %W   week number of year, with Monday as first day of week (00..53)\n\(NL)"	,	lr_14
+"%s"	,	lr_23
+"multiple output formats specified"	,	lr_36
+"\(NL)\n\(NL)After any flags comes an optional field width, as a decimal number;\n\(NL)then an optional modifier, which is either\n\(NL)E to use the locale's alternate representations if available, or\n\(NL)O to use the locale's alternate numeric symbols if available.\n\(NL)"	,	lr_18
+"cannot set date"	,	lr_44
+"extra operand %s"	,	lr_39
+"\(NL)  %h   same as %b\n\(NL)  %H   hour (00..23)\n\(NL)  %I   hour (01..12)\n\(NL)  %j   day of year (001..366)\n\(NL)"	,	lr_10
+"r"	,	lr_22
+"\(NL)  -r, --reference=FILE      display the last modification time of FILE\n\(NL)  -R, --rfc-2822            output date and time in RFC 2822 format.\n\(NL)                            Example: Mon, 07 Aug 2006 12:34:56 -0600\n\(NL)"	,	lr_4
+"\(NL)\n\(NL)FORMAT controls the output.  Interpreted sequences are:\n\(NL)\n\(NL)  %%   a literal %\n\(NL)  %a   locale's abbreviated weekday name (e.g., Sun)\n\(NL)"	,	lr_6
+"%Y-%m-%d %H:%M:%S%:z"	,	lr_27
+"the options to print and set the time may not be used together"	,	lr_38
+"\(NL)      --rfc-3339=TIMESPEC   output date and time in RFC 3339 format.\n\(NL)                            TIMESPEC='date', 'seconds', or 'ns' for\n\(NL)                            date and time to the indicated precision.\n\(NL)                            Date and time components are separated by\n\(NL)                            a single space: 2006-08-07 12:34:56-06:00\n\(NL)  -s, --set=STRING          set time described by STRING\n\(NL)  -u, --utc, --universal    print or set Coordinated Universal Time (UTC)\n\(NL)"	,	lr_5
+"TZ=UTC0"	,	lr_35
+"%Y-%m-%dT%H:%M:%S%z"	,	lr_30
+"%Y-%m-%dT%H:%M%z"	,	lr_33
+"\(NL)Display the current time in the given FORMAT, or set the system date.\n\(NL)"	,	lr_2
+"C"	,	lr_46
+"--rfc-3339"	,	lr_29
+"invalid date %s"	,	lr_24
+"\(NL)  %C   century; like %Y, except omit last two digits (e.g., 20)\n\(NL)  %d   day of month (e.g., 01)\n\(NL)  %D   date; same as %m/%d/%y\n\(NL)  %e   day of month, space padded; same as %_d\n\(NL)"	,	lr_8
+"\(NL)Usage: %s [OPTION]... [+FORMAT]\n\(NL)  or:  %s [-u|--utc|--universal] [MMDDhhmm[[CC]YY][.ss]]\n\(NL)"	,	lr_1
+"%Y-%m-%d"	,	lr_26
+"time %s is out of range"	,	lr_45
+"\(NL)  %x   locale's date representation (e.g., 12/31/99)\n\(NL)  %X   locale's time representation (e.g., 23:13:48)\n\(NL)  %y   last two digits of year (00..99)\n\(NL)  %Y   year\n\(NL)"	,	lr_15
+"\(NL)  %F   full date; same as %Y-%m-%d\n\(NL)  %g   last two digits of year of ISO week number (see %G)\n\(NL)  %G   year of ISO week number (see %V); normally useful only with %V\n\(NL)"	,	lr_9
+"\(NL)  %A   locale's full weekday name (e.g., Sunday)\n\(NL)  %b   locale's abbreviated month name (e.g., Jan)\n\(NL)  %B   locale's full month name (e.g., January)\n\(NL)  %c   locale's date and time (e.g., Thu Mar  3 23:05:25 2005)\n\(NL)"	,	lr_7
+"\(NL)  %S   second (00..60)\n\(NL)  %t   a tab\n\(NL)  %T   time; same as %H:%M:%S\n\(NL)  %u   day of week (1..7); 1 is Monday\n\(NL)"	,	lr_13
+"\(NL)  %z   +hhmm numeric time zone (e.g., -0400)\n\(NL)  %:z  +hh:mm numeric time zone (e.g., -04:00)\n\(NL)  %::z  +hh:mm:ss numeric time zone (e.g., -04:00:00)\n\(NL)  %:::z  numeric time zone with : to necessary precision (e.g., -04, +05:30)\n\(NL)  %Z   alphabetic time zone abbreviation (e.g., EDT)\n\(NL)\n\(NL)By default, date pads numeric fields with zeroes.\n\(NL)"	,	lr_16
+"when using an option to specify date(s), any non-option\n"	,	lr_41
+"argument must be a format string beginning with '+'"	,	lr_42
+"%Y-%m-%dT%H%z"	,	lr_32
+"the options to specify dates for printing are mutually exclusive"	,	lr_37
+"\(NL)  %k   hour, space padded ( 0..23); same as %_H\n\(NL)  %l   hour, space padded ( 1..12); same as %_I\n\(NL)  %m   month (01..12)\n\(NL)  %M   minute (00..59)\n\(NL)"	,	lr_11
+"%Y-%m-%d %H:%M:%S.%N%:z"	,	lr_28
+"%Y-%m-%dT%H:%M:%S,%N%z"	,	lr_31
+"\(NL)  -d, --date=STRING         display time described by STRING, not 'now'\n\(NL)  -f, --file=DATEFILE       like --date once for each line of DATEFILE\n\(NL)  -I[TIMESPEC], --iso-8601[=TIMESPEC]  output date/time in ISO 8601 format.\n\(NL)                            TIMESPEC='date' for date only (the default),\n\(NL)                            'hours', 'minutes', 'seconds', or 'ns' for date\n\(NL)                            and time to the indicated precision.\n\(NL)"	,	lr_3
+"\(NL)  %n   a newline\n\(NL)  %N   nanoseconds (000000000..999999999)\n\(NL)  %p   locale's equivalent of either AM or PM; blank if not known\n\(NL)  %P   like %p, but lower case\n\(NL)  %r   locale's 12-hour clock time (e.g., 11:11:04 PM)\n\(NL)  %R   24-hour hour and minute; same as %H:%M\n\(NL)  %s   seconds since 1970-01-01 00:00:00 UTC\n\(NL)"	,	lr_12
+"-"	,	lr_20
+"%a %b %e %H:%M:%S %Z %Y"	,	lr_43
+"\(NL)The following optional flags may follow '%':\n\(NL)\n\(NL)  -  (hyphen) do not pad the field\n\(NL)  _  (underscore) pad with spaces\n\(NL)  0  (zero) pad with zeros\n\(NL)  ^  use upper case if possible\n\(NL)  #  use opposite case if possible\n\(NL)"	,	lr_17
+"the argument %s lacks a leading '+';\n"	,	lr_40
+"\(NL)\n\(NL)Examples:\n\(NL)Convert seconds since the epoch (1970-01-01 UTC) to a date\n\(NL)  $ date --date='@2147483647'\n\(NL)\n\(NL)Show the time on the west coast of the US (use tzselect(1) to find TZ)\n\(NL)  $ TZ='America/Los_Angeles' date\n\(NL)\n\(NL)Show the local time for 9AM next Friday on the west coast of the US\n\(NL)  $ date --date='TZ=\"America/Los_Angeles\" 09:00 next Fri'\n\(NL)"	,	lr_19

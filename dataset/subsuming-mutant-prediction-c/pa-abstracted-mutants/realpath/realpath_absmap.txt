@@ -1,0 +1,8 @@
+"Usage: %s [OPTION]... FILE...\n"	,	lr_1
+""	,	lr_6
+"\(NL)Print the resolved absolute file name;\n\(NL)all but the last component must exist\n\(NL)\n\(NL)"	,	lr_2
+"%s"	,	lr_5
+"eLmPqsz"	,	lr_7
+"cannot stat %s"	,	lr_4
+"missing operand"	,	lr_8
+"\(NL)  -e, --canonicalize-existing  all components of the path must exist\n\(NL)  -m, --canonicalize-missing   no components of the path need exist\n\(NL)  -L, --logical                resolve '..' components before symlinks\n\(NL)  -P, --physical               resolve symlinks as encountered (default)\n\(NL)  -q, --quiet                  suppress most error messages\n\(NL)      --relative-to=FILE       print the resolved path relative to FILE\n\(NL)      --relative-base=FILE     print absolute paths unless paths below FILE\n\(NL)  -s, --strip, --no-symlinks   don't expand symlinks\n\(NL)  -z, --zero                   separate output with NUL rather than newline\n\(NL)\n\(NL)"	,	lr_3

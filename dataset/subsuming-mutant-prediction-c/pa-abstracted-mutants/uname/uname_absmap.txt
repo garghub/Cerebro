@@ -1,0 +1,12 @@
+""	,	lr_5
+"Usage: %s [OPTION]...\n"	,	lr_1
+"asnrvmpio"	,	lr_6
+"ppc"	,	lr_11
+"\(NL)Print certain system information.  With no OPTION, same as -s.\n\(NL)\n\(NL)  -a, --all                print all information, in the following order,\n\(NL)                             except omit -p and -i if unknown:\n\(NL)  -s, --kernel-name        print the kernel name\n\(NL)  -n, --nodename           print the network node hostname\n\(NL)  -r, --kernel-release     print the kernel release\n\(NL)"	,	lr_2
+"\(NL)  -v, --kernel-version     print the kernel version\n\(NL)  -m, --machine            print the machine hardware name\n\(NL)  -p, --processor          print the processor type or \"unknown\"\n\(NL)  -i, --hardware-platform  print the hardware platform or \"unknown\"\n\(NL)  -o, --operating-system   print the operating system\n\(NL)"	,	lr_3
+"extra operand %s"	,	lr_7
+"\(NL)Print machine architecture.\n\(NL)\n\(NL)"	,	lr_4
+"unknown"	,	lr_8
+"hw.cputype"	,	lr_10
+"cannot get system name"	,	lr_9
+"powerpc"	,	lr_12

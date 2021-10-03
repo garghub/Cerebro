@@ -1,0 +1,14 @@
+""	,	lr_5
+"mode must specify only file permission bits"	,	lr_12
+"\(NL)  -Z, --context[=CTX]  set the SELinux security context of each NAME to\n\(NL)                         default type, or CTX if specified\n\(NL)"	,	lr_4
+"m:Z"	,	lr_6
+"\(NL)  -m, --mode=MODE    set file permission bits to MODE, not a=rw - umask\n\(NL)"	,	lr_3
+"it requires an SELinux/SMACK-enabled kernel"	,	lr_8
+"invalid mode"	,	lr_11
+"failed to set default file creation context to %s"	,	lr_10
+"cannot set permissions of %s"	,	lr_14
+"\(NL)Create named pipes (FIFOs) with the given NAMEs.\n\(NL)"	,	lr_2
+"cannot create fifo %s"	,	lr_13
+"missing operand"	,	lr_9
+"warning: ignoring --context; "	,	lr_7
+"Usage: %s [OPTION]... NAME...\n"	,	lr_1

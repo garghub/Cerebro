@@ -1,0 +1,21 @@
+"Usage: %s [OPTION]... [FILE]\n"	,	lr_15
+"  \(NL)Processes in\n\(NL)an uninterruptible sleep state also contribute to the load average.\n"	,	lr_17
+""	,	lr_20
+"%s"	,	lr_14
+"up  %2d:%02d,  "	,	lr_9
+"extra operand %s"	,	lr_21
+"/proc/uptime"	,	lr_1
+"up %ld days %2d:%02d,  "	,	lr_8
+"\(NL)Print the current time, the length of time the system has been up,\n\(NL)the number of users on the system, and the average number of jobs\n\(NL)in the run queue over the last 1, 5 and 15 minutes."	,	lr_16
+"r"	,	lr_2
+",  load average: %.2f"	,	lr_12
+"up ???? days ??:??,  "	,	lr_6
+"%lu users"	,	lr_11
+"couldn't get boot time"	,	lr_3
+"up %ld day %2d:%02d,  "	,	lr_7
+", %.2f"	,	lr_13
+"\(NL)If FILE is not specified, use %s.  %s as FILE is common.\n\(NL)\n"	,	lr_19
+" ??:????  "	,	lr_5
+"%lu user"	,	lr_10
+"\n"	,	lr_18
+" %H:%M%P  "	,	lr_4
