@@ -1,0 +1,6259 @@
+{
+  "1": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      6
+    ],
+    "SrcLoc": "",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "1001": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      26
+    ],
+    "SrcLoc": "src/stdbuf.c:74",
+    "Type": "C!ADD$C$-1$"
+  },
+  "1002": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      26
+    ],
+    "SrcLoc": "src/stdbuf.c:74",
+    "Type": "C!ADD$C$1$"
+  },
+  "1003": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      27,
+      28,
+      29
+    ],
+    "SrcLoc": "src/stdbuf.c:75",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "1008": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      29
+    ],
+    "SrcLoc": "src/stdbuf.c:75",
+    "Type": "ASSIGN$V1$@2$!NEG$@2$"
+  },
+  "1029": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      27
+    ],
+    "SrcLoc": "src/stdbuf.c:75",
+    "Type": "@!ABS$@$"
+  },
+  "103": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "ASSIGN$V1$@2$!NEQ$V1$@2$"
+  },
+  "1030": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      30
+    ],
+    "SrcLoc": "src/stdbuf.c:76",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "1033": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      30
+    ],
+    "SrcLoc": "src/stdbuf.c:76",
+    "Type": "ASSIGN$V1$@2$!LE$@2$V1$"
+  },
+  "1048": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      30
+    ],
+    "SrcLoc": "src/stdbuf.c:76",
+    "Type": "C!ADD$C$-1$"
+  },
+  "1049": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      30
+    ],
+    "SrcLoc": "src/stdbuf.c:76",
+    "Type": "C!ADD$C$1$"
+  },
+  "1050": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/stdbuf.c:76",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "1051": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/stdbuf.c:76",
+    "Type": "STMT!DELSTMT"
+  },
+  "1052": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "1056": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      36
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "ASSIGN$V1$@2$!BITNOT$V1$"
+  },
+  "107": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "ASSIGN$V1$@2$!ABS$@2$"
+  },
+  "1079": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      32
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "@!ABS$@$"
+  },
+  "1082": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "1083": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "C!ADD$C$1$"
+  },
+  "1084": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      34
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "1085": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      34
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "C!ADD$C$-1$"
+  },
+  "1086": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      34
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "C!ADD$C$-1$"
+  },
+  "1087": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      34
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "C!ADD$C$1$"
+  },
+  "1088": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      34
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "C!ADD$C$1$"
+  },
+  "1090": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!BITNOT$@1$"
+  },
+  "1091": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!MUL$@1$@2$"
+  },
+  "1092": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!BITAND$@1$@2$"
+  },
+  "1093": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!CONSTVAL$1$"
+  },
+  "1094": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "1095": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!BITSHL$@1$@2$"
+  },
+  "1096": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "1097": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!BITSHR$@2$@1$"
+  },
+  "1098": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!NEQ$@1$@2$"
+  },
+  "1099": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "1101": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "1102": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!ADD$@1$@2$"
+  },
+  "1103": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!SUB$@1$@2$"
+  },
+  "1104": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "1105": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "1106": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "1107": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!BITXOR$@1$@2$"
+  },
+  "1108": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!NEG$@1$"
+  },
+  "1109": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!ABS$@1$"
+  },
+  "1111": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!SUB$@2$@1$"
+  },
+  "1112": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "1113": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "1114": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!BITSHR$@1$@2$"
+  },
+  "1115": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "1116": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "1117": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "1118": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!BITSHR$@2$@1$"
+  },
+  "1119": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "1120": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "1121": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "1122": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "1123": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "1124": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "1125": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "1126": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!BITSHR$@1$@2$"
+  },
+  "1127": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "1128": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:79",
+    "Type": "EQ$V1$@2$!ASSIGN$V1$@2$"
+  },
+  "1129": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:80",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "1140": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:80",
+    "Type": "ASSIGN$V1$@2$!LE$V1$@2$"
+  },
+  "1147": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:80",
+    "Type": "@!ABS$@$"
+  },
+  "1148": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:80",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "1149": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:80",
+    "Type": "C!ADD$C$-1$"
+  },
+  "1150": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      38
+    ],
+    "SrcLoc": "src/stdbuf.c:80",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "1151": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      39,
+      40
+    ],
+    "SrcLoc": "src/stdbuf.c:81",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "1152": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      40
+    ],
+    "SrcLoc": "src/stdbuf.c:81",
+    "Type": "STMT!DELSTMT"
+  },
+  "1153": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/stdbuf.c:81",
+    "Type": "@!ABS$@$"
+  },
+  "120": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      21
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "A!CONSTVAL$0$"
+  },
+  "121": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "@!ABS$@$"
+  },
+  "122": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      20
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "@!ABS$@$"
+  },
+  "123": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      22
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "@!ABS$@$"
+  },
+  "124": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "@!ABS$@$"
+  },
+  "125": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "C!ADD$C$-1$"
+  },
+  "126": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      21
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "P!PRIGHTDEC$P$"
+  },
+  "127": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      21
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "P!PLEFTINC$P$"
+  },
+  "128": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      21
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "P!PRIGHTINC$P$"
+  },
+  "129": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      21
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "P!PLEFTDEC$P$"
+  },
+  "130": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      27,
+      28
+    ],
+    "SrcLoc": "src/stdbuf.c:309",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "131": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      28
+    ],
+    "SrcLoc": "src/stdbuf.c:309",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "132": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      28
+    ],
+    "SrcLoc": "src/stdbuf.c:309",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "133": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      28
+    ],
+    "SrcLoc": "src/stdbuf.c:309",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "134": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      28
+    ],
+    "SrcLoc": "src/stdbuf.c:309",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "135": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      28
+    ],
+    "SrcLoc": "src/stdbuf.c:309",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "136": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      28
+    ],
+    "SrcLoc": "src/stdbuf.c:309",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "137": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      28
+    ],
+    "SrcLoc": "src/stdbuf.c:309",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "138": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      28
+    ],
+    "SrcLoc": "src/stdbuf.c:309",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "139": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      28
+    ],
+    "SrcLoc": "src/stdbuf.c:309",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "140": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      28
+    ],
+    "SrcLoc": "src/stdbuf.c:309",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "141": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      28
+    ],
+    "SrcLoc": "src/stdbuf.c:309",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "142": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      28
+    ],
+    "SrcLoc": "src/stdbuf.c:309",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "143": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      28
+    ],
+    "SrcLoc": "src/stdbuf.c:309",
+    "Type": "SWITCH!REMOVECASES$1$"
+  },
+  "144": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      28
+    ],
+    "SrcLoc": "src/stdbuf.c:309",
+    "Type": "SWITCH!REMOVECASES$1$"
+  },
+  "145": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      28
+    ],
+    "SrcLoc": "src/stdbuf.c:309",
+    "Type": "SWITCH!REMOVECASES$1$"
+  },
+  "146": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      28
+    ],
+    "SrcLoc": "src/stdbuf.c:309",
+    "Type": "SWITCH!REMOVECASES$1$"
+  },
+  "147": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      28
+    ],
+    "SrcLoc": "src/stdbuf.c:309",
+    "Type": "SWITCH!REMOVECASES$1$"
+  },
+  "148": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      27
+    ],
+    "SrcLoc": "src/stdbuf.c:309",
+    "Type": "@!ABS$@$"
+  },
+  "149": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      29,
+      30,
+      31
+    ],
+    "SrcLoc": "src/stdbuf.c:315",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "150": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      29,
+      30,
+      31
+    ],
+    "SrcLoc": "src/stdbuf.c:315",
+    "Type": "STMT!DELSTMT"
+  },
+  "153": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/stdbuf.c:315",
+    "Type": "ASSIGN$V1$@2$!ABS$V1$"
+  },
+  "157": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/stdbuf.c:315",
+    "Type": "ASSIGN$V1$@2$!EQ$V1$@2$"
+  },
+  "172": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      29
+    ],
+    "SrcLoc": "src/stdbuf.c:315",
+    "Type": "@!ABS$@$"
+  },
+  "173": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      30
+    ],
+    "SrcLoc": "src/stdbuf.c:315",
+    "Type": "@!ABS$@$"
+  },
+  "174": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      32,
+      33,
+      34
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "175": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      32
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "@!ABS$@$"
+  },
+  "176": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "@!ABS$@$"
+  },
+  "177": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "C!ADD$C$-1$"
+  },
+  "178": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "C!ADD$C$1$"
+  },
+  "179": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LE$@1$V2$!ASSIGN$V2$@1$"
+  },
+  "180": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LE$@1$@2$!CONSTVAL$1$"
+  },
+  "181": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LE$@1$@2$!ADD$@1$@2$"
+  },
+  "182": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LE$@1$@2$!NEQ$@1$@2$"
+  },
+  "183": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LE$@1$@2$!MOD$@2$@1$"
+  },
+  "184": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LE$@1$@2$!MUL$@1$@2$"
+  },
+  "185": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LE$@1$@2$!EQ$@1$@2$"
+  },
+  "186": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LE$@1$@2$!DIV$@2$@1$"
+  },
+  "187": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LE$@1$@2$!SUB$@1$@2$"
+  },
+  "188": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LE$@1$@2$!GT$@1$@2$"
+  },
+  "189": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LE$@1$@2$!LT$@1$@2$"
+  },
+  "190": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LE$@1$@2$!GE$@1$@2$"
+  },
+  "191": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LE$@1$@2$!ABS$@2$"
+  },
+  "192": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LE$@1$@2$!GT$@2$@1$"
+  },
+  "193": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LE$@1$@2$!LT$@2$@1$"
+  },
+  "194": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LE$@1$@2$!BITNOT$@2$"
+  },
+  "195": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LE$@1$@2$!GE$@2$@1$"
+  },
+  "196": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      34
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "AND$@1$@2$!CONSTVAL$0$"
+  },
+  "197": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      34
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "AND$@1$@2$!CONSTVAL$1$"
+  },
+  "198": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      34
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "AND$@1$@2$!OPERAND$@1$"
+  },
+  "199": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      34
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "AND$@1$@2$!OPERAND$@2$"
+  },
+  "2": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      6
+    ],
+    "SrcLoc": "",
+    "Type": "STMT!DELSTMT"
+  },
+  "20": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      6
+    ],
+    "SrcLoc": "",
+    "Type": "C!ADD$C$-1$"
+  },
+  "200": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      34
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "AND$@1$@2$!OR$@1$@2$"
+  },
+  "201": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      35,
+      36,
+      37,
+      38
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "202": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      35
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "@!ABS$@$"
+  },
+  "203": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      36
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "@!ABS$@$"
+  },
+  "204": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "@!ABS$@$"
+  },
+  "205": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "206": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "C!ADD$C$-1$"
+  },
+  "207": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "C!ADD$C$1$"
+  },
+  "208": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$V1$@2$!ASSIGN$V1$@2$"
+  },
+  "209": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!MOD$@2$@1$"
+  },
+  "21": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      6
+    ],
+    "SrcLoc": "",
+    "Type": "C!ADD$C$1$"
+  },
+  "210": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!NEG$@2$"
+  },
+  "211": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!BITXOR$@1$@2$"
+  },
+  "212": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!DIV$@2$@1$"
+  },
+  "213": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!BITSHR$@1$@2$"
+  },
+  "214": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!BITOR$@1$@2$"
+  },
+  "215": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!SUB$@2$@1$"
+  },
+  "216": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!NEG$@1$"
+  },
+  "217": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!NEQ$@1$@2$"
+  },
+  "219": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!BITSHL$@1$@2$"
+  },
+  "22": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      7
+    ],
+    "SrcLoc": "",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "220": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!EQ$@1$@2$"
+  },
+  "221": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!ADD$@1$@2$"
+  },
+  "222": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!OPERAND$@1$"
+  },
+  "223": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!MUL$@1$@2$"
+  },
+  "224": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!BITAND$@1$@2$"
+  },
+  "225": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!ABS$@1$"
+  },
+  "226": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!MOD$@1$@2$"
+  },
+  "227": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!LE$@2$@1$"
+  },
+  "228": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!GE$@2$@1$"
+  },
+  "229": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!CONSTVAL$0$"
+  },
+  "230": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!SUB$@1$@2$"
+  },
+  "231": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!LE$@1$@2$"
+  },
+  "232": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!DIV$@1$@2$"
+  },
+  "233": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!GE$@1$@2$"
+  },
+  "234": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!BITSHR$@2$@1$"
+  },
+  "235": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!GT$@2$@1$"
+  },
+  "236": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!BITNOT$@1$"
+  },
+  "237": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "LT$@1$@2$!GT$@1$@2$"
+  },
+  "238": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "239": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      40
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "24": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      7
+    ],
+    "SrcLoc": "",
+    "Type": "ASSIGN$V1$@2$!BITOR$V1$@2$"
+  },
+  "240": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      40
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "241": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      40
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "242": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      40
+    ],
+    "SrcLoc": "src/stdbuf.c:316",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "243": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "SrcLoc": "src/stdbuf.c:317",
+    "Type": "STMT!DELSTMT"
+  },
+  "269": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      43
+    ],
+    "SrcLoc": "src/stdbuf.c:317",
+    "Type": "@!ABS$@$"
+  },
+  "270": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      44
+    ],
+    "SrcLoc": "src/stdbuf.c:317",
+    "Type": "@!ABS$@$"
+  },
+  "271": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/stdbuf.c:317",
+    "Type": "@!ABS$@$"
+  },
+  "272": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      46
+    ],
+    "SrcLoc": "src/stdbuf.c:317",
+    "Type": "PADD$A1$@2$!OPERAND$@2$"
+  },
+  "273": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      46
+    ],
+    "SrcLoc": "src/stdbuf.c:317",
+    "Type": "PADD$A1$@2$!PSUB$A1$@2$"
+  },
+  "274": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      46
+    ],
+    "SrcLoc": "src/stdbuf.c:317",
+    "Type": "PADD$A1$@2$!OPERAND$A1$"
+  },
+  "275": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      49
+    ],
+    "SrcLoc": "src/stdbuf.c:318",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "276": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      51
+    ],
+    "SrcLoc": "src/stdbuf.c:318",
+    "Type": "@!ABS$@$"
+  },
+  "277": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/stdbuf.c:318",
+    "Type": "@!ABS$@$"
+  },
+  "279": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      55,
+      56,
+      57
+    ],
+    "SrcLoc": "src/stdbuf.c:319",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "280": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      55,
+      56,
+      57
+    ],
+    "SrcLoc": "src/stdbuf.c:319",
+    "Type": "STMT!DELSTMT"
+  },
+  "281": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      56,
+      55
+    ],
+    "SrcLoc": "src/stdbuf.c:319",
+    "Type": "PDEREF_ADD$A1$@2$!PADD_DEREF$A1$@2$"
+  },
+  "282": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      56,
+      55
+    ],
+    "SrcLoc": "src/stdbuf.c:319",
+    "Type": "PDEREF_ADD$A1$@2$!PSUB_DEREF$A1$@2$"
+  },
+  "283": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      56,
+      57
+    ],
+    "SrcLoc": "src/stdbuf.c:319",
+    "Type": "PLEFTINC$P1$!PLEFTDEC$P1$"
+  },
+  "286": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/stdbuf.c:319",
+    "Type": "C!ADD$C$1$"
+  },
+  "287": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/stdbuf.c:319",
+    "Type": "PADD$A1$@2$!OPERAND$@2$"
+  },
+  "290": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/stdbuf.c:319",
+    "Type": "PADD$P1$@2$!PRIGHTINC$P1$"
+  },
+  "291": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      58
+    ],
+    "SrcLoc": "src/stdbuf.c:319",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "292": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      58
+    ],
+    "SrcLoc": "src/stdbuf.c:319",
+    "Type": "STMT!DELSTMT"
+  },
+  "294": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ],
+    "SrcLoc": "src/stdbuf.c:320",
+    "Type": "STMT!DELSTMT"
+  },
+  "295": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      63
+    ],
+    "SrcLoc": "src/stdbuf.c:320",
+    "Type": "A!CONSTVAL$0$"
+  },
+  "296": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      60
+    ],
+    "SrcLoc": "src/stdbuf.c:320",
+    "Type": "@!ABS$@$"
+  },
+  "297": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      61
+    ],
+    "SrcLoc": "src/stdbuf.c:320",
+    "Type": "@!ABS$@$"
+  },
+  "298": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      62
+    ],
+    "SrcLoc": "src/stdbuf.c:320",
+    "Type": "PADD$A1$@2$!OPERAND$@2$"
+  },
+  "299": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      62
+    ],
+    "SrcLoc": "src/stdbuf.c:320",
+    "Type": "PADD$A1$@2$!PSUB$A1$@2$"
+  },
+  "300": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      62
+    ],
+    "SrcLoc": "src/stdbuf.c:320",
+    "Type": "PADD$A1$@2$!OPERAND$A1$"
+  },
+  "301": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      65,
+      66,
+      67
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "302": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      65
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "@!ABS$@$"
+  },
+  "303": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "@!ABS$@$"
+  },
+  "304": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "305": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "C!ADD$C$-1$"
+  },
+  "306": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "C!ADD$C$1$"
+  },
+  "308": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!BITNOT$@1$"
+  },
+  "309": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!MUL$@1$@2$"
+  },
+  "310": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!BITAND$@1$@2$"
+  },
+  "311": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!CONSTVAL$1$"
+  },
+  "312": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "313": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!BITSHL$@1$@2$"
+  },
+  "314": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "315": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!BITSHR$@2$@1$"
+  },
+  "316": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!NEQ$@1$@2$"
+  },
+  "317": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "318": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "319": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "320": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!ADD$@1$@2$"
+  },
+  "321": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!SUB$@1$@2$"
+  },
+  "322": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "323": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "324": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!OPERAND$@1$"
+  },
+  "325": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "326": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "327": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!BITXOR$@1$@2$"
+  },
+  "328": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!NEG$@1$"
+  },
+  "329": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!ABS$@1$"
+  },
+  "331": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!SUB$@2$@1$"
+  },
+  "332": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!CONSTVAL$0$"
+  },
+  "333": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "334": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "335": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "336": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "337": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "338": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!BITSHR$@2$@1$"
+  },
+  "339": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "340": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "341": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "342": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "343": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "344": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "345": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "346": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "347": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "348": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "349": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$V1$@2$!ASSIGN$V1$@2$"
+  },
+  "350": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      67
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "AND$@1$@2$!CONSTVAL$0$"
+  },
+  "351": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      67
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "AND$@1$@2$!CONSTVAL$1$"
+  },
+  "352": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      67
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "AND$@1$@2$!OPERAND$@1$"
+  },
+  "353": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      67
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "AND$@1$@2$!OPERAND$@2$"
+  },
+  "354": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      67
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "AND$@1$@2$!OR$@1$@2$"
+  },
+  "355": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      68,
+      69,
+      70,
+      71,
+      72
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "356": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "@!ABS$@$"
+  },
+  "357": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      70
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "@!ABS$@$"
+  },
+  "358": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "@!ABS$@$"
+  },
+  "359": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "360": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "C!ADD$C$-1$"
+  },
+  "361": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "C!ADD$C$1$"
+  },
+  "362": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!BITOR$@1$@2$"
+  },
+  "363": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!BITNOT$@1$"
+  },
+  "364": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!MUL$@1$@2$"
+  },
+  "365": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!BITAND$@1$@2$"
+  },
+  "367": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "368": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!BITSHL$@1$@2$"
+  },
+  "369": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "370": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!BITSHR$@2$@1$"
+  },
+  "371": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!NEQ$@1$@2$"
+  },
+  "372": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "373": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "374": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "375": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!ADD$@1$@2$"
+  },
+  "376": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!SUB$@1$@2$"
+  },
+  "377": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "378": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "379": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!OPERAND$@1$"
+  },
+  "380": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "381": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "382": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!BITXOR$@1$@2$"
+  },
+  "383": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!NEG$@1$"
+  },
+  "384": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!ABS$@1$"
+  },
+  "385": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!BITSHL$@2$@1$"
+  },
+  "386": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!SUB$@2$@1$"
+  },
+  "387": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!CONSTVAL$0$"
+  },
+  "388": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "389": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "390": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "391": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "392": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "393": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!BITSHR$@2$@1$"
+  },
+  "394": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "395": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "396": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "397": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "398": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "399": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "400": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "401": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "402": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "403": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "404": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71
+    ],
+    "SrcLoc": "src/stdbuf.c:321",
+    "Type": "EQ$V1$@2$!ASSIGN$V1$@2$"
+  },
+  "405": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      73
+    ],
+    "SrcLoc": "src/stdbuf.c:326",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "406": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      73
+    ],
+    "SrcLoc": "src/stdbuf.c:326",
+    "Type": "STMT!DELSTMT"
+  },
+  "407": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      74
+    ],
+    "SrcLoc": "src/stdbuf.c:327",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "408": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      74
+    ],
+    "SrcLoc": "src/stdbuf.c:327",
+    "Type": "STMT!DELSTMT"
+  },
+  "409": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      76,
+      77,
+      78,
+      79
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "410": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      77
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "@!ABS$@$"
+  },
+  "411": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "@!ABS$@$"
+  },
+  "412": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "C!ADD$C$-1$"
+  },
+  "413": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "C!ADD$C$1$"
+  },
+  "414": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "EQ$@1$@2$!BITOR$@1$@2$"
+  },
+  "415": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "EQ$@1$@2$!BITNOT$@1$"
+  },
+  "416": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "EQ$@1$@2$!MUL$@1$@2$"
+  },
+  "417": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "EQ$@1$@2$!CONSTVAL$1$"
+  },
+  "418": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "419": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "420": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "421": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "423": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "424": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "425": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "426": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "EQ$@1$@2$!NEG$@1$"
+  },
+  "427": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "EQ$@1$@2$!ABS$@1$"
+  },
+  "428": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "429": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "430": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "431": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "432": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "434": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "435": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "436": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "437": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      77
+    ],
+    "SrcLoc": "src/stdbuf.c:330",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "438": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "439": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "@!ABS$@$"
+  },
+  "440": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "@!ABS$@$"
+  },
+  "441": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      82
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "@!ABS$@$"
+  },
+  "442": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      85
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "@!ABS$@$"
+  },
+  "443": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "@!ABS$@$"
+  },
+  "444": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "445": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "C!ADD$C$-1$"
+  },
+  "446": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      83
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "PADD$A1$@2$!OPERAND$@2$"
+  },
+  "447": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      83
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "PADD$A1$@2$!PSUB$A1$@2$"
+  },
+  "448": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      83
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "PADD$A1$@2$!OPERAND$A1$"
+  },
+  "449": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!BITOR$@1$@2$"
+  },
+  "450": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!BITNOT$@1$"
+  },
+  "451": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!MUL$@1$@2$"
+  },
+  "452": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!BITAND$@1$@2$"
+  },
+  "453": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "454": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!BITSHL$@1$@2$"
+  },
+  "455": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "456": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!NEQ$@1$@2$"
+  },
+  "457": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "459": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "46": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      9
+    ],
+    "SrcLoc": "",
+    "Type": "STMT!DELSTMT"
+  },
+  "460": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!ADD$@1$@2$"
+  },
+  "461": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!SUB$@1$@2$"
+  },
+  "462": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "463": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "464": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "465": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "466": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!BITNOT$@2$"
+  },
+  "467": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!NEG$@1$"
+  },
+  "468": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!ABS$@1$"
+  },
+  "470": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!SUB$@2$@1$"
+  },
+  "471": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "472": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "473": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "474": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "475": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "477": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "478": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "479": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "48": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "SrcLoc": "src/stdbuf.c:297",
+    "Type": "STMT!DELSTMT"
+  },
+  "480": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "481": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "482": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/stdbuf.c:331",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "483": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      88,
+      89,
+      90,
+      91,
+      92
+    ],
+    "SrcLoc": "src/stdbuf.c:332",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "484": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      88,
+      89,
+      90,
+      91,
+      92
+    ],
+    "SrcLoc": "src/stdbuf.c:332",
+    "Type": "STMT!DELSTMT"
+  },
+  "485": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      89
+    ],
+    "SrcLoc": "src/stdbuf.c:332",
+    "Type": "@!ABS$@$"
+  },
+  "486": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      92
+    ],
+    "SrcLoc": "src/stdbuf.c:332",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "487": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      92
+    ],
+    "SrcLoc": "src/stdbuf.c:332",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "488": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      93
+    ],
+    "SrcLoc": "src/stdbuf.c:332",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "489": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      94
+    ],
+    "SrcLoc": "src/stdbuf.c:334",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "49": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      12
+    ],
+    "SrcLoc": "src/stdbuf.c:297",
+    "Type": "A!CONSTVAL$0$"
+  },
+  "490": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      94
+    ],
+    "SrcLoc": "src/stdbuf.c:334",
+    "Type": "STMT!DELSTMT"
+  },
+  "491": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      95
+    ],
+    "SrcLoc": "src/stdbuf.c:336",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "492": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      97,
+      98,
+      99,
+      100
+    ],
+    "SrcLoc": "src/stdbuf.c:338",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "493": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      97,
+      98,
+      99,
+      100
+    ],
+    "SrcLoc": "src/stdbuf.c:338",
+    "Type": "STMT!DELSTMT"
+  },
+  "494": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      99
+    ],
+    "SrcLoc": "src/stdbuf.c:338",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "495": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      100
+    ],
+    "SrcLoc": "src/stdbuf.c:338",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "496": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      100
+    ],
+    "SrcLoc": "src/stdbuf.c:338",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "497": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      100
+    ],
+    "SrcLoc": "src/stdbuf.c:338",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "498": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      100
+    ],
+    "SrcLoc": "src/stdbuf.c:338",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "499": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      100
+    ],
+    "SrcLoc": "src/stdbuf.c:338",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "50": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      13
+    ],
+    "SrcLoc": "src/stdbuf.c:297",
+    "Type": "C!ADD$C$-1$"
+  },
+  "500": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      100
+    ],
+    "SrcLoc": "src/stdbuf.c:338",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "501": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      100
+    ],
+    "SrcLoc": "src/stdbuf.c:338",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "502": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      100
+    ],
+    "SrcLoc": "src/stdbuf.c:338",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "503": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      100
+    ],
+    "SrcLoc": "src/stdbuf.c:338",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "504": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      100
+    ],
+    "SrcLoc": "src/stdbuf.c:338",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "505": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      101
+    ],
+    "SrcLoc": "src/stdbuf.c:338",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "506": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      101
+    ],
+    "SrcLoc": "src/stdbuf.c:338",
+    "Type": "STMT!DELSTMT"
+  },
+  "507": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      103
+    ],
+    "SrcLoc": "src/stdbuf.c:341",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "508": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      103
+    ],
+    "SrcLoc": "src/stdbuf.c:341",
+    "Type": "STMT!DELSTMT"
+  },
+  "509": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      105
+    ],
+    "SrcLoc": "src/stdbuf.c:343",
+    "Type": "STMT!DELSTMT"
+  },
+  "51": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      13
+    ],
+    "SrcLoc": "src/stdbuf.c:297",
+    "Type": "C!ADD$C$1$"
+  },
+  "510": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      106,
+      107,
+      108,
+      109,
+      110
+    ],
+    "SrcLoc": "src/stdbuf.c:345",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "511": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      106,
+      107,
+      108,
+      109,
+      110
+    ],
+    "SrcLoc": "src/stdbuf.c:345",
+    "Type": "STMT!DELSTMT"
+  },
+  "512": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      107
+    ],
+    "SrcLoc": "src/stdbuf.c:345",
+    "Type": "A!CONSTVAL$0$"
+  },
+  "513": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      109
+    ],
+    "SrcLoc": "src/stdbuf.c:345",
+    "Type": "A!CONSTVAL$0$"
+  },
+  "514": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      106
+    ],
+    "SrcLoc": "src/stdbuf.c:345",
+    "Type": "@!ABS$@$"
+  },
+  "515": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      108
+    ],
+    "SrcLoc": "src/stdbuf.c:345",
+    "Type": "@!ABS$@$"
+  },
+  "516": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      109
+    ],
+    "SrcLoc": "src/stdbuf.c:345",
+    "Type": "PADD$A1$@2$!OPERAND$@2$"
+  },
+  "517": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      109
+    ],
+    "SrcLoc": "src/stdbuf.c:345",
+    "Type": "PADD$A1$@2$!PSUB$A1$@2$"
+  },
+  "518": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      109
+    ],
+    "SrcLoc": "src/stdbuf.c:345",
+    "Type": "PADD$A1$@2$!OPERAND$A1$"
+  },
+  "519": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      109
+    ],
+    "SrcLoc": "src/stdbuf.c:345",
+    "Type": "PADD$P1$@2$!PLEFTINC$P1$"
+  },
+  "52": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      12
+    ],
+    "SrcLoc": "src/stdbuf.c:297",
+    "Type": "P!PRIGHTDEC$P$"
+  },
+  "522": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      109
+    ],
+    "SrcLoc": "src/stdbuf.c:345",
+    "Type": "PADD$P1$@2$!PLEFTDEC$P1$"
+  },
+  "524": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      107
+    ],
+    "SrcLoc": "src/stdbuf.c:345",
+    "Type": "P!PLEFTINC$P$"
+  },
+  "526": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      107
+    ],
+    "SrcLoc": "src/stdbuf.c:345",
+    "Type": "P!PLEFTDEC$P$"
+  },
+  "527": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$V2$!ASSIGN$V2$@1$"
+  },
+  "528": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!OPERAND$@1$"
+  },
+  "529": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!DIV$@1$@2$"
+  },
+  "53": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      12
+    ],
+    "SrcLoc": "src/stdbuf.c:297",
+    "Type": "P!PLEFTINC$P$"
+  },
+  "530": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!BITNOT$@1$"
+  },
+  "531": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!NEQ$@1$@2$"
+  },
+  "532": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!CONSTVAL$1$"
+  },
+  "533": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!DIV$@2$@1$"
+  },
+  "534": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!BITSHR$@1$@2$"
+  },
+  "535": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!CONSTVAL$0$"
+  },
+  "536": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!BITAND$@1$@2$"
+  },
+  "537": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!NEG$@2$"
+  },
+  "538": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!BITOR$@1$@2$"
+  },
+  "539": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!OPERAND$@2$"
+  },
+  "54": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      12
+    ],
+    "SrcLoc": "src/stdbuf.c:297",
+    "Type": "P!PRIGHTINC$P$"
+  },
+  "540": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!LT$@2$@1$"
+  },
+  "541": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!BITXOR$@1$@2$"
+  },
+  "542": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      111,
+      112,
+      113,
+      114
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!DELSTMT"
+  },
+  "543": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!MOD$@1$@2$"
+  },
+  "544": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!ADD$@1$@2$"
+  },
+  "545": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!GT$@2$@1$"
+  },
+  "546": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!BITSHL$@2$@1$"
+  },
+  "547": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!EQ$@1$@2$"
+  },
+  "548": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!BITSHL$@1$@2$"
+  },
+  "549": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      111,
+      112,
+      113,
+      114
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!TRAPSTMT"
+  },
+  "55": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      12
+    ],
+    "SrcLoc": "src/stdbuf.c:297",
+    "Type": "P!PLEFTDEC$P$"
+  },
+  "550": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!MUL$@1$@2$"
+  },
+  "551": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!NEG$@1$"
+  },
+  "552": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!LE$@1$@2$"
+  },
+  "553": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!ABS$@1$"
+  },
+  "554": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!MOD$@2$@1$"
+  },
+  "555": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!GE$@1$@2$"
+  },
+  "556": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!GT$@1$@2$"
+  },
+  "557": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!GE$@2$@1$"
+  },
+  "558": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!ABS$@2$"
+  },
+  "559": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!BITNOT$@2$"
+  },
+  "56": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      16
+    ],
+    "SrcLoc": "src/stdbuf.c:298",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "560": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!BITSHR$@2$@1$"
+  },
+  "561": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!LE$@2$@1$"
+  },
+  "562": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!LT$@1$@2$"
+  },
+  "563": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!DIV$@1$@2$"
+  },
+  "564": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!DIV$@2$@1$"
+  },
+  "565": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!BITSHR$@1$@2$"
+  },
+  "566": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!LT$@2$@1$"
+  },
+  "567": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!MOD$@1$@2$"
+  },
+  "568": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!GT$@2$@1$"
+  },
+  "569": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!LE$@1$@2$"
+  },
+  "57": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      16
+    ],
+    "SrcLoc": "src/stdbuf.c:298",
+    "Type": "STMT!DELSTMT"
+  },
+  "570": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!MOD$@2$@1$"
+  },
+  "571": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!GE$@1$@2$"
+  },
+  "572": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!GT$@1$@2$"
+  },
+  "573": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!GE$@2$@1$"
+  },
+  "574": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!BITSHR$@2$@1$"
+  },
+  "575": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!LE$@2$@1$"
+  },
+  "576": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$@1$@2$!LT$@1$@2$"
+  },
+  "577": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "SUB$V1$@2$!ASSIGN$V1$@2$"
+  },
+  "58": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      17
+    ],
+    "SrcLoc": "src/stdbuf.c:302",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "584": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      114
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "ASSIGN$V1$@2$!LT$V1$@2$"
+  },
+  "59": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      17
+    ],
+    "SrcLoc": "src/stdbuf.c:302",
+    "Type": "STMT!DELSTMT"
+  },
+  "60": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:303",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "600": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      111
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "@!ABS$@$"
+  },
+  "601": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      112
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "@!ABS$@$"
+  },
+  "602": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      113
+    ],
+    "SrcLoc": "src/stdbuf.c:346",
+    "Type": "@!ABS$@$"
+  },
+  "603": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      115,
+      116,
+      117
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "604": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      115
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "@!ABS$@$"
+  },
+  "605": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "@!ABS$@$"
+  },
+  "606": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "607": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "C!ADD$C$1$"
+  },
+  "608": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$V1$@2$!ASSIGN$V1$@2$"
+  },
+  "609": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!MOD$@2$@1$"
+  },
+  "61": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:303",
+    "Type": "STMT!DELSTMT"
+  },
+  "611": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!BITXOR$@1$@2$"
+  },
+  "612": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!DIV$@2$@1$"
+  },
+  "613": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!BITSHR$@1$@2$"
+  },
+  "615": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!SUB$@2$@1$"
+  },
+  "616": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!NEG$@1$"
+  },
+  "617": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!NEQ$@1$@2$"
+  },
+  "618": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!BITSHL$@2$@1$"
+  },
+  "619": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!BITSHL$@1$@2$"
+  },
+  "62": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:303",
+    "Type": "@!ABS$@$"
+  },
+  "620": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!EQ$@1$@2$"
+  },
+  "621": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!ADD$@1$@2$"
+  },
+  "622": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!OPERAND$@1$"
+  },
+  "623": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!BITAND$@1$@2$"
+  },
+  "624": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!ABS$@1$"
+  },
+  "625": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!MOD$@1$@2$"
+  },
+  "626": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!LE$@2$@1$"
+  },
+  "627": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!GE$@2$@1$"
+  },
+  "628": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!SUB$@1$@2$"
+  },
+  "629": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!LE$@1$@2$"
+  },
+  "63": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      19
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "630": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!GE$@1$@2$"
+  },
+  "631": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!BITSHR$@2$@1$"
+  },
+  "632": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!GT$@2$@1$"
+  },
+  "633": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!BITNOT$@1$"
+  },
+  "634": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      116
+    ],
+    "SrcLoc": "src/stdbuf.c:349",
+    "Type": "LT$@1$@2$!GT$@1$@2$"
+  },
+  "635": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      118
+    ],
+    "SrcLoc": "src/stdbuf.c:351",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "636": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      118
+    ],
+    "SrcLoc": "src/stdbuf.c:351",
+    "Type": "STMT!DELSTMT"
+  },
+  "637": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      119
+    ],
+    "SrcLoc": "src/stdbuf.c:352",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "638": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      119
+    ],
+    "SrcLoc": "src/stdbuf.c:352",
+    "Type": "STMT!DELSTMT"
+  },
+  "639": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      121,
+      122
+    ],
+    "SrcLoc": "src/stdbuf.c:355",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "64": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!ABS$@1$"
+  },
+  "641": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      123
+    ],
+    "SrcLoc": "src/stdbuf.c:357",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "642": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      123
+    ],
+    "SrcLoc": "src/stdbuf.c:357",
+    "Type": "STMT!DELSTMT"
+  },
+  "643": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      124
+    ],
+    "SrcLoc": "src/stdbuf.c:358",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "644": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      124
+    ],
+    "SrcLoc": "src/stdbuf.c:358",
+    "Type": "STMT!DELSTMT"
+  },
+  "645": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      126,
+      127
+    ],
+    "SrcLoc": "src/stdbuf.c:363",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "646": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      126,
+      127
+    ],
+    "SrcLoc": "src/stdbuf.c:363",
+    "Type": "STMT!DELSTMT"
+  },
+  "647": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      128,
+      129,
+      130
+    ],
+    "SrcLoc": "src/stdbuf.c:364",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "648": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      129
+    ],
+    "SrcLoc": "src/stdbuf.c:364",
+    "Type": "@!ABS$@$"
+  },
+  "649": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      131,
+      132
+    ],
+    "SrcLoc": "src/stdbuf.c:365",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "65": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!BITNOT$@2$"
+  },
+  "650": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      131,
+      132
+    ],
+    "SrcLoc": "src/stdbuf.c:365",
+    "Type": "STMT!DELSTMT"
+  },
+  "651": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      133
+    ],
+    "SrcLoc": "src/stdbuf.c:365",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "652": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      134
+    ],
+    "SrcLoc": "src/stdbuf.c:366",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "653": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      134
+    ],
+    "SrcLoc": "src/stdbuf.c:366",
+    "Type": "STMT!DELSTMT"
+  },
+  "654": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      135,
+      136
+    ],
+    "SrcLoc": "src/stdbuf.c:367",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "655": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      135,
+      136
+    ],
+    "SrcLoc": "src/stdbuf.c:367",
+    "Type": "STMT!DELSTMT"
+  },
+  "656": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      137,
+      138,
+      139,
+      140
+    ],
+    "SrcLoc": "src/stdbuf.c:369",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "657": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      137,
+      138,
+      139,
+      140
+    ],
+    "SrcLoc": "src/stdbuf.c:369",
+    "Type": "STMT!DELSTMT"
+  },
+  "658": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      137
+    ],
+    "SrcLoc": "src/stdbuf.c:369",
+    "Type": "A!CONSTVAL$0$"
+  },
+  "659": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      139
+    ],
+    "SrcLoc": "src/stdbuf.c:369",
+    "Type": "A!CONSTVAL$0$"
+  },
+  "66": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!BITXOR$@1$@2$"
+  },
+  "661": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      137
+    ],
+    "SrcLoc": "src/stdbuf.c:369",
+    "Type": "P!PRIGHTDEC$P$"
+  },
+  "662": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      137
+    ],
+    "SrcLoc": "src/stdbuf.c:369",
+    "Type": "P!PLEFTINC$P$"
+  },
+  "663": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      137
+    ],
+    "SrcLoc": "src/stdbuf.c:369",
+    "Type": "P!PRIGHTINC$P$"
+  },
+  "664": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      137
+    ],
+    "SrcLoc": "src/stdbuf.c:369",
+    "Type": "P!PLEFTDEC$P$"
+  },
+  "665": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      139
+    ],
+    "SrcLoc": "src/stdbuf.c:369",
+    "Type": "P!PRIGHTDEC$P$"
+  },
+  "666": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      139
+    ],
+    "SrcLoc": "src/stdbuf.c:369",
+    "Type": "P!PLEFTINC$P$"
+  },
+  "667": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      139
+    ],
+    "SrcLoc": "src/stdbuf.c:369",
+    "Type": "P!PRIGHTINC$P$"
+  },
+  "668": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      139
+    ],
+    "SrcLoc": "src/stdbuf.c:369",
+    "Type": "P!PLEFTDEC$P$"
+  },
+  "669": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      142,
+      143,
+      144,
+      145,
+      146
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "67": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!LE$@2$@1$"
+  },
+  "672": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      146
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "ASSIGN$V1$@2$!OPERAND$V1$"
+  },
+  "68": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!BITAND$@1$@2$"
+  },
+  "69": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!ADD$@1$@2$"
+  },
+  "695": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      143
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "@!ABS$@$"
+  },
+  "698": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "699": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "C!ADD$C$-1$"
+  },
+  "7": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      6
+    ],
+    "SrcLoc": "",
+    "Type": "ASSIGN$V1$@2$!LT$@2$V1$"
+  },
+  "70": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!DIV$@2$@1$"
+  },
+  "700": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "C!ADD$C$1$"
+  },
+  "701": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      145
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "702": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      145
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "703": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      145
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "C!ADD$C$-1$"
+  },
+  "704": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      145
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "C!ADD$C$-1$"
+  },
+  "705": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      145
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "C!ADD$C$1$"
+  },
+  "708": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!BITNOT$@1$"
+  },
+  "709": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!MUL$@1$@2$"
+  },
+  "71": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!BITSHL$@1$@2$"
+  },
+  "710": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!BITAND$@1$@2$"
+  },
+  "711": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!CONSTVAL$1$"
+  },
+  "712": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "713": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!BITSHL$@1$@2$"
+  },
+  "714": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "715": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!BITSHR$@2$@1$"
+  },
+  "716": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!NEQ$@1$@2$"
+  },
+  "717": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "718": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "719": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "72": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!OPERAND$@2$"
+  },
+  "720": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!ADD$@1$@2$"
+  },
+  "721": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!SUB$@1$@2$"
+  },
+  "722": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "723": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "724": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!OPERAND$@1$"
+  },
+  "725": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "726": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "727": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!BITXOR$@1$@2$"
+  },
+  "728": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!NEG$@1$"
+  },
+  "729": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!ABS$@1$"
+  },
+  "73": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!MOD$@2$@1$"
+  },
+  "730": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!BITSHL$@2$@1$"
+  },
+  "731": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!SUB$@2$@1$"
+  },
+  "733": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "734": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "735": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!BITSHR$@1$@2$"
+  },
+  "736": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "737": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "738": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "739": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!BITSHR$@2$@1$"
+  },
+  "74": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!DIV$@1$@2$"
+  },
+  "740": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "741": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "742": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "743": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "744": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "745": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "746": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "747": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "748": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "749": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!BITSHR$@1$@2$"
+  },
+  "75": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!SUB$@2$@1$"
+  },
+  "750": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "751": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      144
+    ],
+    "SrcLoc": "src/stdbuf.c:372",
+    "Type": "EQ$V1$@2$!ASSIGN$V1$@2$"
+  },
+  "752": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153
+    ],
+    "SrcLoc": "src/stdbuf.c:373",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "753": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153
+    ],
+    "SrcLoc": "src/stdbuf.c:373",
+    "Type": "STMT!DELSTMT"
+  },
+  "755": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      150
+    ],
+    "SrcLoc": "src/stdbuf.c:373",
+    "Type": "A!CONSTVAL$0$"
+  },
+  "756": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      148
+    ],
+    "SrcLoc": "src/stdbuf.c:373",
+    "Type": "@!ABS$@$"
+  },
+  "757": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      150
+    ],
+    "SrcLoc": "src/stdbuf.c:373",
+    "Type": "C!ADD$C$-1$"
+  },
+  "758": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      150
+    ],
+    "SrcLoc": "src/stdbuf.c:373",
+    "Type": "C!ADD$C$1$"
+  },
+  "759": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      149
+    ],
+    "SrcLoc": "src/stdbuf.c:373",
+    "Type": "P!PRIGHTDEC$P$"
+  },
+  "76": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!NEG$@1$"
+  },
+  "760": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      149
+    ],
+    "SrcLoc": "src/stdbuf.c:373",
+    "Type": "P!PLEFTINC$P$"
+  },
+  "761": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      149
+    ],
+    "SrcLoc": "src/stdbuf.c:373",
+    "Type": "P!PRIGHTINC$P$"
+  },
+  "762": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      149
+    ],
+    "SrcLoc": "src/stdbuf.c:373",
+    "Type": "P!PLEFTDEC$P$"
+  },
+  "763": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      153
+    ],
+    "SrcLoc": "src/stdbuf.c:373",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "764": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      153
+    ],
+    "SrcLoc": "src/stdbuf.c:373",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "765": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      154,
+      155
+    ],
+    "SrcLoc": "src/stdbuf.c:374",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "766": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      154,
+      155
+    ],
+    "SrcLoc": "src/stdbuf.c:374",
+    "Type": "STMT!DELSTMT"
+  },
+  "767": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      154
+    ],
+    "SrcLoc": "src/stdbuf.c:374",
+    "Type": "@!ABS$@$"
+  },
+  "768": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      2
+    ],
+    "SrcLoc": "",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "77": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!EQ$@1$@2$"
+  },
+  "777": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      2
+    ],
+    "SrcLoc": "",
+    "Type": "ASSIGN$V1$@2$!GE$@2$V1$"
+  },
+  "79": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!GT$@2$@1$"
+  },
+  "792": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      5
+    ],
+    "SrcLoc": "src/stdbuf.c:168",
+    "Type": "STMT!DELSTMT"
+  },
+  "80": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!GE$@1$@2$"
+  },
+  "809": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      5
+    ],
+    "SrcLoc": "src/stdbuf.c:168",
+    "Type": "@!ABS$@$"
+  },
+  "810": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      5
+    ],
+    "SrcLoc": "src/stdbuf.c:168",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "811": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      5
+    ],
+    "SrcLoc": "src/stdbuf.c:168",
+    "Type": "C!ADD$C$-1$"
+  },
+  "812": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      6,
+      7
+    ],
+    "SrcLoc": "src/stdbuf.c:170",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "813": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      7
+    ],
+    "SrcLoc": "src/stdbuf.c:170",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "814": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      7
+    ],
+    "SrcLoc": "src/stdbuf.c:170",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "815": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      7
+    ],
+    "SrcLoc": "src/stdbuf.c:170",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "816": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      7
+    ],
+    "SrcLoc": "src/stdbuf.c:170",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "817": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      7
+    ],
+    "SrcLoc": "src/stdbuf.c:170",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "818": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      7
+    ],
+    "SrcLoc": "src/stdbuf.c:170",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "819": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      7
+    ],
+    "SrcLoc": "src/stdbuf.c:170",
+    "Type": "SWITCH!REMOVECASES$1$"
+  },
+  "82": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!GT$@1$@2$"
+  },
+  "820": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      7
+    ],
+    "SrcLoc": "src/stdbuf.c:170",
+    "Type": "SWITCH!REMOVECASES$1$"
+  },
+  "821": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      7
+    ],
+    "SrcLoc": "src/stdbuf.c:170",
+    "Type": "SWITCH!REMOVECASES$1$"
+  },
+  "822": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      6
+    ],
+    "SrcLoc": "src/stdbuf.c:170",
+    "Type": "@!ABS$@$"
+  },
+  "823": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      8
+    ],
+    "SrcLoc": "src/stdbuf.c:173",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "824": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      8
+    ],
+    "SrcLoc": "src/stdbuf.c:173",
+    "Type": "ASSIGN$V1$@2$!BITOR$V1$@2$"
+  },
+  "825": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      8
+    ],
+    "SrcLoc": "src/stdbuf.c:173",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "826": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      8
+    ],
+    "SrcLoc": "src/stdbuf.c:173",
+    "Type": "C!ADD$C$-1$"
+  },
+  "827": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      8
+    ],
+    "SrcLoc": "src/stdbuf.c:173",
+    "Type": "C!ADD$C$1$"
+  },
+  "828": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      9
+    ],
+    "SrcLoc": "src/stdbuf.c:174",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "829": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      9
+    ],
+    "SrcLoc": "src/stdbuf.c:174",
+    "Type": "STMT!DELSTMT"
+  },
+  "83": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!SUB$@1$@2$"
+  },
+  "830": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      10
+    ],
+    "SrcLoc": "src/stdbuf.c:176",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "831": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      10
+    ],
+    "SrcLoc": "src/stdbuf.c:176",
+    "Type": "ASSIGN$V1$@2$!BITOR$V1$@2$"
+  },
+  "832": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      10
+    ],
+    "SrcLoc": "src/stdbuf.c:176",
+    "Type": "C!ADD$C$-1$"
+  },
+  "833": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      10
+    ],
+    "SrcLoc": "src/stdbuf.c:176",
+    "Type": "C!ADD$C$1$"
+  },
+  "834": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      11
+    ],
+    "SrcLoc": "src/stdbuf.c:177",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "835": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      11
+    ],
+    "SrcLoc": "src/stdbuf.c:177",
+    "Type": "STMT!DELSTMT"
+  },
+  "836": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      12
+    ],
+    "SrcLoc": "src/stdbuf.c:179",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "837": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      12
+    ],
+    "SrcLoc": "src/stdbuf.c:179",
+    "Type": "ASSIGN$V1$@2$!BITOR$V1$@2$"
+  },
+  "838": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      12
+    ],
+    "SrcLoc": "src/stdbuf.c:179",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "839": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      12
+    ],
+    "SrcLoc": "src/stdbuf.c:179",
+    "Type": "C!ADD$C$1$"
+  },
+  "84": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!LT$@2$@1$"
+  },
+  "840": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      13
+    ],
+    "SrcLoc": "src/stdbuf.c:180",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "841": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      14,
+      15
+    ],
+    "SrcLoc": "src/stdbuf.c:183",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "842": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      15
+    ],
+    "SrcLoc": "src/stdbuf.c:183",
+    "Type": "STMT!DELSTMT"
+  },
+  "843": {
+    "FuncName": "optc_to_fileno",
+    "IRPosInFunc": [
+      14
+    ],
+    "SrcLoc": "src/stdbuf.c:183",
+    "Type": "@!ABS$@$"
+  },
+  "845": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      5
+    ],
+    "SrcLoc": "",
+    "Type": "STMT!DELSTMT"
+  },
+  "847": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      7
+    ],
+    "SrcLoc": "",
+    "Type": "STMT!DELSTMT"
+  },
+  "848": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      11,
+      12,
+      13
+    ],
+    "SrcLoc": "src/stdbuf.c:68",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "849": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      11,
+      12,
+      13
+    ],
+    "SrcLoc": "src/stdbuf.c:68",
+    "Type": "STMT!DELSTMT"
+  },
+  "85": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!LT$@1$@2$"
+  },
+  "854": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      13
+    ],
+    "SrcLoc": "src/stdbuf.c:68",
+    "Type": "ASSIGN$V1$@2$!NEQ$V1$@2$"
+  },
+  "86": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!LE$@1$@2$"
+  },
+  "87": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!MUL$@1$@2$"
+  },
+  "871": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      12
+    ],
+    "SrcLoc": "src/stdbuf.c:68",
+    "Type": "@!ABS$@$"
+  },
+  "872": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      12
+    ],
+    "SrcLoc": "src/stdbuf.c:68",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "873": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      14,
+      15,
+      16
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "874": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      14
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "@!ABS$@$"
+  },
+  "877": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      15
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "C!ADD$C$1$"
+  },
+  "878": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      15
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "EQ$@1$@2$!BITOR$@1$@2$"
+  },
+  "88": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!GE$@2$@1$"
+  },
+  "89": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!LE$@2$@1$"
+  },
+  "897": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      15
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "EQ$V1$@2$!ASSIGN$V1$@2$"
+  },
+  "898": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      16
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "AND$@1$@2$!CONSTVAL$0$"
+  },
+  "899": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      16
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "AND$@1$@2$!CONSTVAL$1$"
+  },
+  "90": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!DIV$@2$@1$"
+  },
+  "900": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      16
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "AND$@1$@2$!OPERAND$@1$"
+  },
+  "901": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      16
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "AND$@1$@2$!OR$@1$@2$"
+  },
+  "902": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      17,
+      18,
+      19
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "903": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "@!ABS$@$"
+  },
+  "904": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      17
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "@!ABS$@$"
+  },
+  "906": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "907": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "C!ADD$C$-1$"
+  },
+  "908": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "GT$V1$@2$!ASSIGN$V1$@2$"
+  },
+  "909": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "GT$@1$@2$!MOD$@2$@1$"
+  },
+  "91": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!MOD$@2$@1$"
+  },
+  "910": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "GT$@1$@2$!BITXOR$@1$@2$"
+  },
+  "911": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "GT$@1$@2$!MUL$@1$@2$"
+  },
+  "912": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "GT$@1$@2$!BITSHL$@2$@1$"
+  },
+  "913": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "GT$@1$@2$!ADD$@1$@2$"
+  },
+  "914": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "GT$@1$@2$!BITSHL$@1$@2$"
+  },
+  "915": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "GT$@1$@2$!DIV$@2$@1$"
+  },
+  "916": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "GT$@1$@2$!SUB$@1$@2$"
+  },
+  "917": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "GT$@1$@2$!NEG$@1$"
+  },
+  "92": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!DIV$@1$@2$"
+  },
+  "921": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "GT$@1$@2$!ABS$@1$"
+  },
+  "922": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "GT$@1$@2$!LE$@2$@1$"
+  },
+  "924": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "GT$@1$@2$!BITAND$@1$@2$"
+  },
+  "925": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "GT$@1$@2$!EQ$@1$@2$"
+  },
+  "926": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "GT$@1$@2$!GE$@1$@2$"
+  },
+  "927": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "GT$@1$@2$!SUB$@2$@1$"
+  },
+  "928": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "GT$@1$@2$!MOD$@1$@2$"
+  },
+  "929": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "GT$@1$@2$!LT$@1$@2$"
+  },
+  "93": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!MOD$@1$@2$"
+  },
+  "930": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "GT$@1$@2$!DIV$@1$@2$"
+  },
+  "931": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/stdbuf.c:69",
+    "Type": "GT$@1$@2$!NEQ$@1$@2$"
+  },
+  "932": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      20
+    ],
+    "SrcLoc": "src/stdbuf.c:70",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "934": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      20
+    ],
+    "SrcLoc": "src/stdbuf.c:70",
+    "Type": "ASSIGN$V1$@2$!BITOR$V1$@2$"
+  },
+  "937": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      20
+    ],
+    "SrcLoc": "src/stdbuf.c:70",
+    "Type": "ASSIGN$V1$@2$!LT$@2$V1$"
+  },
+  "94": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!GT$@2$@1$"
+  },
+  "95": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!GE$@1$@2$"
+  },
+  "954": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      21
+    ],
+    "SrcLoc": "src/stdbuf.c:70",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "955": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      22,
+      23,
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "956": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      22
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "@!ABS$@$"
+  },
+  "957": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "@!ABS$@$"
+  },
+  "958": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "C!ADD$C$-1$"
+  },
+  "959": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "C!ADD$C$1$"
+  },
+  "96": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/stdbuf.c:305",
+    "Type": "NEQ$@1$@2$!LT$@1$@2$"
+  },
+  "960": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$@1$@2$!BITOR$@1$@2$"
+  },
+  "961": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$@1$@2$!BITNOT$@1$"
+  },
+  "962": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$@1$@2$!MUL$@1$@2$"
+  },
+  "963": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$@1$@2$!CONSTVAL$1$"
+  },
+  "964": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "965": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "966": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "967": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "968": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "969": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "970": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "971": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$@1$@2$!NEG$@1$"
+  },
+  "972": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$@1$@2$!ABS$@1$"
+  },
+  "973": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "974": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "975": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "976": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "977": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "978": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "979": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "980": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "981": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/stdbuf.c:72",
+    "Type": "EQ$V1$@2$!ASSIGN$V1$@2$"
+  },
+  "982": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      25,
+      26
+    ],
+    "SrcLoc": "src/stdbuf.c:74",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "987": {
+    "FuncName": "parse_size",
+    "IRPosInFunc": [
+      26
+    ],
+    "SrcLoc": "src/stdbuf.c:74",
+    "Type": "ASSIGN$V1$@2$!ABS$V1$"
+  }
+}

@@ -1,0 +1,6461 @@
+{
+  "1": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      1
+    ],
+    "SrcLoc": "",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "100": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      8
+    ],
+    "SrcLoc": "",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "107": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      8
+    ],
+    "SrcLoc": "",
+    "Type": "ASSIGN$V1$@2$!LT$V1$@2$"
+  },
+  "124": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      10
+    ],
+    "SrcLoc": "",
+    "Type": "STMT!DELSTMT"
+  },
+  "126": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      14,
+      15,
+      16,
+      17
+    ],
+    "SrcLoc": "src/pwd.c:328",
+    "Type": "STMT!DELSTMT"
+  },
+  "133": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      17
+    ],
+    "SrcLoc": "src/pwd.c:328",
+    "Type": "ASSIGN$V1$@2$!LT$@2$V1$"
+  },
+  "151": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      15
+    ],
+    "SrcLoc": "src/pwd.c:328",
+    "Type": "@!ABS$@$"
+  },
+  "153": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "SrcLoc": "src/pwd.c:331",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "154": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "SrcLoc": "src/pwd.c:331",
+    "Type": "STMT!DELSTMT"
+  },
+  "155": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:331",
+    "Type": "A!CONSTVAL$0$"
+  },
+  "157": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      19
+    ],
+    "SrcLoc": "src/pwd.c:331",
+    "Type": "C!ADD$C$-1$"
+  },
+  "158": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      19
+    ],
+    "SrcLoc": "src/pwd.c:331",
+    "Type": "C!ADD$C$1$"
+  },
+  "159": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:331",
+    "Type": "P!PRIGHTDEC$P$"
+  },
+  "160": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:331",
+    "Type": "P!PLEFTINC$P$"
+  },
+  "161": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:331",
+    "Type": "P!PRIGHTINC$P$"
+  },
+  "162": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:331",
+    "Type": "P!PLEFTDEC$P$"
+  },
+  "163": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      22
+    ],
+    "SrcLoc": "src/pwd.c:332",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "164": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      22
+    ],
+    "SrcLoc": "src/pwd.c:332",
+    "Type": "STMT!DELSTMT"
+  },
+  "165": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/pwd.c:336",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "166": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      23
+    ],
+    "SrcLoc": "src/pwd.c:336",
+    "Type": "STMT!DELSTMT"
+  },
+  "168": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/pwd.c:338",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "169": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      26,
+      27,
+      28,
+      29
+    ],
+    "SrcLoc": "src/pwd.c:340",
+    "Type": "STMT!DELSTMT"
+  },
+  "170": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      29
+    ],
+    "SrcLoc": "src/pwd.c:340",
+    "Type": "ASSIGN$V1$@2$!BITOR$V1$@2$"
+  },
+  "191": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      27
+    ],
+    "SrcLoc": "src/pwd.c:340",
+    "Type": "A!CONSTVAL$0$"
+  },
+  "192": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      26
+    ],
+    "SrcLoc": "src/pwd.c:340",
+    "Type": "@!ABS$@$"
+  },
+  "193": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      28
+    ],
+    "SrcLoc": "src/pwd.c:340",
+    "Type": "@!ABS$@$"
+  },
+  "194": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      27
+    ],
+    "SrcLoc": "src/pwd.c:340",
+    "Type": "P!PRIGHTDEC$P$"
+  },
+  "195": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      27
+    ],
+    "SrcLoc": "src/pwd.c:340",
+    "Type": "P!PLEFTINC$P$"
+  },
+  "196": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      27
+    ],
+    "SrcLoc": "src/pwd.c:340",
+    "Type": "P!PRIGHTINC$P$"
+  },
+  "197": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      27
+    ],
+    "SrcLoc": "src/pwd.c:340",
+    "Type": "P!PLEFTDEC$P$"
+  },
+  "198": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      30,
+      31,
+      32
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "199": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "@!ABS$@$"
+  },
+  "2": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      1
+    ],
+    "SrcLoc": "",
+    "Type": "STMT!DELSTMT"
+  },
+  "200": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      30
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "@!ABS$@$"
+  },
+  "201": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "@!ABS$@$"
+  },
+  "202": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "203": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "C!ADD$C$-1$"
+  },
+  "204": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!BITOR$@1$@2$"
+  },
+  "205": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!BITNOT$@1$"
+  },
+  "206": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!MUL$@1$@2$"
+  },
+  "207": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!BITAND$@1$@2$"
+  },
+  "208": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "209": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!BITSHL$@1$@2$"
+  },
+  "210": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "211": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!NEQ$@1$@2$"
+  },
+  "212": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "213": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "214": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "215": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!ADD$@1$@2$"
+  },
+  "216": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!SUB$@1$@2$"
+  },
+  "217": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "218": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "219": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "220": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "222": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!NEG$@1$"
+  },
+  "223": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!ABS$@1$"
+  },
+  "225": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!SUB$@2$@1$"
+  },
+  "226": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "227": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "228": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "229": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "230": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "232": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "233": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "234": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "235": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "236": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "237": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "238": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:341",
+    "Type": "EQ$V1$@2$!ASSIGN$V1$@2$"
+  },
+  "239": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:342",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "24": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$V1$@2$!ASSIGN$V1$@2$"
+  },
+  "240": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:342",
+    "Type": "STMT!DELSTMT"
+  },
+  "241": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      34,
+      35
+    ],
+    "SrcLoc": "src/pwd.c:343",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "242": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      35
+    ],
+    "SrcLoc": "src/pwd.c:343",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "243": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      35
+    ],
+    "SrcLoc": "src/pwd.c:343",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "244": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      35
+    ],
+    "SrcLoc": "src/pwd.c:343",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "245": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      35
+    ],
+    "SrcLoc": "src/pwd.c:343",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "246": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      35
+    ],
+    "SrcLoc": "src/pwd.c:343",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "247": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      35
+    ],
+    "SrcLoc": "src/pwd.c:343",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "248": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      35
+    ],
+    "SrcLoc": "src/pwd.c:343",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "249": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      35
+    ],
+    "SrcLoc": "src/pwd.c:343",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "25": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$@1$@2$!ABS$@1$"
+  },
+  "250": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      35
+    ],
+    "SrcLoc": "src/pwd.c:343",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "251": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      35
+    ],
+    "SrcLoc": "src/pwd.c:343",
+    "Type": "SWITCH!SHUFFLECASESDESTS$2$"
+  },
+  "252": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      35
+    ],
+    "SrcLoc": "src/pwd.c:343",
+    "Type": "SWITCH!REMOVECASES$1$"
+  },
+  "253": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      35
+    ],
+    "SrcLoc": "src/pwd.c:343",
+    "Type": "SWITCH!REMOVECASES$1$"
+  },
+  "254": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      35
+    ],
+    "SrcLoc": "src/pwd.c:343",
+    "Type": "SWITCH!REMOVECASES$1$"
+  },
+  "255": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      35
+    ],
+    "SrcLoc": "src/pwd.c:343",
+    "Type": "SWITCH!REMOVECASES$1$"
+  },
+  "256": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      34
+    ],
+    "SrcLoc": "src/pwd.c:343",
+    "Type": "@!ABS$@$"
+  },
+  "257": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      36
+    ],
+    "SrcLoc": "src/pwd.c:346",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "258": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      36
+    ],
+    "SrcLoc": "src/pwd.c:346",
+    "Type": "STMT!DELSTMT"
+  },
+  "26": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$@1$@2$!BITNOT$@2$"
+  },
+  "263": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      36
+    ],
+    "SrcLoc": "src/pwd.c:346",
+    "Type": "ASSIGN$V1$@2$!LT$@2$V1$"
+  },
+  "27": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$@1$@2$!CONSTVAL$0$"
+  },
+  "28": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$@1$@2$!LE$@2$@1$"
+  },
+  "280": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      36
+    ],
+    "SrcLoc": "src/pwd.c:346",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "281": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      36
+    ],
+    "SrcLoc": "src/pwd.c:346",
+    "Type": "C!ADD$C$1$"
+  },
+  "282": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/pwd.c:347",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "283": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/pwd.c:347",
+    "Type": "STMT!DELSTMT"
+  },
+  "284": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      38
+    ],
+    "SrcLoc": "src/pwd.c:349",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "285": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      38
+    ],
+    "SrcLoc": "src/pwd.c:349",
+    "Type": "STMT!DELSTMT"
+  },
+  "288": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      38
+    ],
+    "SrcLoc": "src/pwd.c:349",
+    "Type": "ASSIGN$V1$@2$!LE$@2$V1$"
+  },
+  "29": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$@1$@2$!BITNOT$@1$"
+  },
+  "30": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$@1$@2$!DIV$@1$@2$"
+  },
+  "303": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      38
+    ],
+    "SrcLoc": "src/pwd.c:349",
+    "Type": "C!ADD$C$-1$"
+  },
+  "304": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      38
+    ],
+    "SrcLoc": "src/pwd.c:349",
+    "Type": "C!ADD$C$1$"
+  },
+  "305": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:350",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "306": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:350",
+    "Type": "STMT!DELSTMT"
+  },
+  "307": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      40
+    ],
+    "SrcLoc": "src/pwd.c:352",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "308": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      42,
+      43,
+      44
+    ],
+    "SrcLoc": "src/pwd.c:354",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "309": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      42,
+      43,
+      44
+    ],
+    "SrcLoc": "src/pwd.c:354",
+    "Type": "STMT!DELSTMT"
+  },
+  "31": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$@1$@2$!SUB$@2$@1$"
+  },
+  "310": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      44
+    ],
+    "SrcLoc": "src/pwd.c:354",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "311": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      44
+    ],
+    "SrcLoc": "src/pwd.c:354",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "312": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      44
+    ],
+    "SrcLoc": "src/pwd.c:354",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "313": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      44
+    ],
+    "SrcLoc": "src/pwd.c:354",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "314": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      44
+    ],
+    "SrcLoc": "src/pwd.c:354",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "315": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      44
+    ],
+    "SrcLoc": "src/pwd.c:354",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "316": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      44
+    ],
+    "SrcLoc": "src/pwd.c:354",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "317": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      44
+    ],
+    "SrcLoc": "src/pwd.c:354",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "318": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      44
+    ],
+    "SrcLoc": "src/pwd.c:354",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "319": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      44
+    ],
+    "SrcLoc": "src/pwd.c:354",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "32": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$@1$@2$!EQ$@1$@2$"
+  },
+  "320": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:354",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "321": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:354",
+    "Type": "STMT!DELSTMT"
+  },
+  "322": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      47
+    ],
+    "SrcLoc": "src/pwd.c:357",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "323": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      47
+    ],
+    "SrcLoc": "src/pwd.c:357",
+    "Type": "STMT!DELSTMT"
+  },
+  "324": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      49
+    ],
+    "SrcLoc": "src/pwd.c:359",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "325": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      49
+    ],
+    "SrcLoc": "src/pwd.c:359",
+    "Type": "STMT!DELSTMT"
+  },
+  "326": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "@!ABS$@$"
+  },
+  "327": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      51
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "@!ABS$@$"
+  },
+  "328": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "@!ABS$@$"
+  },
+  "329": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$V2$!ASSIGN$V2$@1$"
+  },
+  "33": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$@1$@2$!MOD$@1$@2$"
+  },
+  "330": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$V1$@2$!ASSIGN$V1$@2$"
+  },
+  "331": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!MOD$@2$@1$"
+  },
+  "332": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!NEG$@2$"
+  },
+  "333": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!BITXOR$@1$@2$"
+  },
+  "334": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!DIV$@2$@1$"
+  },
+  "335": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!BITSHR$@1$@2$"
+  },
+  "336": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!BITOR$@1$@2$"
+  },
+  "337": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!SUB$@2$@1$"
+  },
+  "338": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!NEG$@1$"
+  },
+  "339": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!NEQ$@1$@2$"
+  },
+  "34": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$@1$@2$!GT$@2$@1$"
+  },
+  "340": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!BITNOT$@2$"
+  },
+  "341": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!BITSHL$@2$@1$"
+  },
+  "342": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!BITSHL$@1$@2$"
+  },
+  "343": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!CONSTVAL$1$"
+  },
+  "344": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!EQ$@1$@2$"
+  },
+  "345": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!ADD$@1$@2$"
+  },
+  "346": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!OPERAND$@1$"
+  },
+  "347": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!MUL$@1$@2$"
+  },
+  "348": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!BITAND$@1$@2$"
+  },
+  "349": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!ABS$@1$"
+  },
+  "35": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$@1$@2$!GE$@1$@2$"
+  },
+  "350": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!ABS$@2$"
+  },
+  "351": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!OPERAND$@2$"
+  },
+  "352": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!MOD$@1$@2$"
+  },
+  "353": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!LE$@2$@1$"
+  },
+  "354": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!GE$@2$@1$"
+  },
+  "355": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!CONSTVAL$0$"
+  },
+  "356": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!SUB$@1$@2$"
+  },
+  "357": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!LE$@1$@2$"
+  },
+  "358": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!DIV$@1$@2$"
+  },
+  "359": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!GE$@1$@2$"
+  },
+  "36": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$@1$@2$!GT$@1$@2$"
+  },
+  "360": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!BITSHR$@2$@1$"
+  },
+  "361": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!GT$@2$@1$"
+  },
+  "362": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!BITNOT$@1$"
+  },
+  "363": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      52
+    ],
+    "SrcLoc": "src/pwd.c:361",
+    "Type": "LT$@1$@2$!GT$@1$@2$"
+  },
+  "364": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      54
+    ],
+    "SrcLoc": "src/pwd.c:362",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "365": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      54
+    ],
+    "SrcLoc": "src/pwd.c:362",
+    "Type": "STMT!DELSTMT"
+  },
+  "366": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      55
+    ],
+    "SrcLoc": "src/pwd.c:362",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "367": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      56,
+      57,
+      58
+    ],
+    "SrcLoc": "src/pwd.c:364",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "368": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:364",
+    "Type": "@!ABS$@$"
+  },
+  "369": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      57
+    ],
+    "SrcLoc": "src/pwd.c:364",
+    "Type": "@!ABS$@$"
+  },
+  "37": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$@1$@2$!LT$@2$@1$"
+  },
+  "370": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      59,
+      60
+    ],
+    "SrcLoc": "src/pwd.c:366",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "371": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      59,
+      60
+    ],
+    "SrcLoc": "src/pwd.c:366",
+    "Type": "STMT!DELSTMT"
+  },
+  "372": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      61,
+      62,
+      63
+    ],
+    "SrcLoc": "src/pwd.c:367",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "373": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      62
+    ],
+    "SrcLoc": "src/pwd.c:367",
+    "Type": "@!ABS$@$"
+  },
+  "374": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      64,
+      65
+    ],
+    "SrcLoc": "src/pwd.c:369",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "375": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      64,
+      65
+    ],
+    "SrcLoc": "src/pwd.c:369",
+    "Type": "STMT!DELSTMT"
+  },
+  "377": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:370",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "378": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:370",
+    "Type": "STMT!DELSTMT"
+  },
+  "379": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      68
+    ],
+    "SrcLoc": "src/pwd.c:372",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "38": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$@1$@2$!LT$@1$@2$"
+  },
+  "380": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      69,
+      70
+    ],
+    "SrcLoc": "src/pwd.c:374",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "381": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      69,
+      70
+    ],
+    "SrcLoc": "src/pwd.c:374",
+    "Type": "STMT!DELSTMT"
+  },
+  "382": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      71,
+      72,
+      73
+    ],
+    "SrcLoc": "src/pwd.c:375",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "383": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      72
+    ],
+    "SrcLoc": "src/pwd.c:375",
+    "Type": "@!ABS$@$"
+  },
+  "384": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      74,
+      75
+    ],
+    "SrcLoc": "src/pwd.c:377",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "385": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      74,
+      75
+    ],
+    "SrcLoc": "src/pwd.c:377",
+    "Type": "STMT!DELSTMT"
+  },
+  "387": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      76,
+      77
+    ],
+    "SrcLoc": "src/pwd.c:378",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "388": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      76,
+      77
+    ],
+    "SrcLoc": "src/pwd.c:378",
+    "Type": "STMT!DELSTMT"
+  },
+  "389": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/pwd.c:379",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "39": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$@1$@2$!LE$@1$@2$"
+  },
+  "390": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/pwd.c:379",
+    "Type": "STMT!DELSTMT"
+  },
+  "391": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      80,
+      81
+    ],
+    "SrcLoc": "src/pwd.c:382",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "392": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      80,
+      81
+    ],
+    "SrcLoc": "src/pwd.c:382",
+    "Type": "STMT!DELSTMT"
+  },
+  "393": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      82,
+      83
+    ],
+    "SrcLoc": "src/pwd.c:383",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "394": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      82,
+      83
+    ],
+    "SrcLoc": "src/pwd.c:383",
+    "Type": "STMT!DELSTMT"
+  },
+  "395": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      84,
+      85,
+      86,
+      87
+    ],
+    "SrcLoc": "src/pwd.c:384",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "396": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      84,
+      85,
+      86,
+      87
+    ],
+    "SrcLoc": "src/pwd.c:384",
+    "Type": "STMT!DELSTMT"
+  },
+  "397": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      85
+    ],
+    "SrcLoc": "src/pwd.c:384",
+    "Type": "A!CONSTVAL$0$"
+  },
+  "399": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      85
+    ],
+    "SrcLoc": "src/pwd.c:384",
+    "Type": "C!ADD$C$-1$"
+  },
+  "40": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$@1$@2$!GE$@2$@1$"
+  },
+  "400": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      85
+    ],
+    "SrcLoc": "src/pwd.c:384",
+    "Type": "C!ADD$C$1$"
+  },
+  "401": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      88,
+      89
+    ],
+    "SrcLoc": "src/pwd.c:385",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "402": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      88,
+      89
+    ],
+    "SrcLoc": "src/pwd.c:385",
+    "Type": "STMT!DELSTMT"
+  },
+  "403": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      90
+    ],
+    "SrcLoc": "",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "404": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      91
+    ],
+    "SrcLoc": "src/pwd.c:388",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "405": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      91
+    ],
+    "SrcLoc": "src/pwd.c:388",
+    "Type": "STMT!DELSTMT"
+  },
+  "406": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      8,
+      9
+    ],
+    "SrcLoc": "src/pwd.c:301",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "407": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      8,
+      9
+    ],
+    "SrcLoc": "src/pwd.c:301",
+    "Type": "STMT!DELSTMT"
+  },
+  "408": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      11,
+      12,
+      13
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "409": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      12
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "@!ABS$@$"
+  },
+  "41": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$@1$@2$!DIV$@1$@2$"
+  },
+  "410": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "411": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$V1$@2$!ASSIGN$V1$@2$"
+  },
+  "412": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!ABS$@1$"
+  },
+  "413": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!BITNOT$@2$"
+  },
+  "414": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!CONSTVAL$0$"
+  },
+  "415": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!BITXOR$@1$@2$"
+  },
+  "416": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!LE$@2$@1$"
+  },
+  "417": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!BITAND$@1$@2$"
+  },
+  "418": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!ADD$@1$@2$"
+  },
+  "419": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!BITNOT$@1$"
+  },
+  "42": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$@1$@2$!GT$@1$@2$"
+  },
+  "420": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!DIV$@2$@1$"
+  },
+  "421": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!BITSHL$@1$@2$"
+  },
+  "422": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!MOD$@2$@1$"
+  },
+  "423": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!DIV$@1$@2$"
+  },
+  "424": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!SUB$@2$@1$"
+  },
+  "425": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!NEG$@1$"
+  },
+  "426": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!OPERAND$@1$"
+  },
+  "427": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!EQ$@1$@2$"
+  },
+  "428": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!MOD$@1$@2$"
+  },
+  "429": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!GT$@2$@1$"
+  },
+  "43": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$@1$@2$!LT$@2$@1$"
+  },
+  "430": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!GE$@1$@2$"
+  },
+  "433": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!GT$@1$@2$"
+  },
+  "434": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!SUB$@1$@2$"
+  },
+  "435": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!LT$@2$@1$"
+  },
+  "436": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!LT$@1$@2$"
+  },
+  "437": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!LE$@1$@2$"
+  },
+  "438": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!MUL$@1$@2$"
+  },
+  "439": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!GE$@2$@1$"
+  },
+  "44": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$@1$@2$!LE$@1$@2$"
+  },
+  "440": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!BITSHR$@2$@1$"
+  },
+  "441": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!LE$@2$@1$"
+  },
+  "442": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!DIV$@2$@1$"
+  },
+  "443": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!MOD$@2$@1$"
+  },
+  "444": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!DIV$@1$@2$"
+  },
+  "445": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!MOD$@1$@2$"
+  },
+  "446": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!GT$@2$@1$"
+  },
+  "447": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!GE$@1$@2$"
+  },
+  "448": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!GT$@1$@2$"
+  },
+  "449": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!LT$@2$@1$"
+  },
+  "45": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "NEQ$@1$@2$!GE$@2$@1$"
+  },
+  "450": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!LT$@1$@2$"
+  },
+  "451": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!LE$@1$@2$"
+  },
+  "452": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!GE$@2$@1$"
+  },
+  "453": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "NEQ$@1$@2$!BITSHR$@2$@1$"
+  },
+  "454": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      16
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "@!ABS$@$"
+  },
+  "455": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      17
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "@!ABS$@$"
+  },
+  "456": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "@!ABS$@$"
+  },
+  "457": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      15
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "C!ADD$C$-1$"
+  },
+  "458": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      15
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "C!ADD$C$1$"
+  },
+  "459": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "C!ADD$C$-1$"
+  },
+  "46": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "@!ABS$@$"
+  },
+  "460": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:305",
+    "Type": "C!ADD$C$1$"
+  },
+  "461": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      20
+    ],
+    "SrcLoc": "src/pwd.c:306",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "462": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      20
+    ],
+    "SrcLoc": "src/pwd.c:306",
+    "Type": "STMT!DELSTMT"
+  },
+  "463": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      21
+    ],
+    "SrcLoc": "src/pwd.c:306",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "464": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      21
+    ],
+    "SrcLoc": "src/pwd.c:306",
+    "Type": "STMT!DELSTMT"
+  },
+  "465": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      22,
+      23
+    ],
+    "SrcLoc": "src/pwd.c:307",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "466": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      22,
+      23
+    ],
+    "SrcLoc": "src/pwd.c:307",
+    "Type": "STMT!DELSTMT"
+  },
+  "467": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      24
+    ],
+    "SrcLoc": "src/pwd.c:308",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "468": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      28
+    ],
+    "SrcLoc": "src/pwd.c:308",
+    "Type": "@!ABS$@$"
+  },
+  "469": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      26
+    ],
+    "SrcLoc": "src/pwd.c:308",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "47": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "C!ADD$C$-1$"
+  },
+  "470": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "471": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$V1$@2$!ASSIGN$V1$@2$"
+  },
+  "472": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!ABS$@1$"
+  },
+  "473": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!BITNOT$@2$"
+  },
+  "474": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!CONSTVAL$0$"
+  },
+  "475": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!LE$@2$@1$"
+  },
+  "476": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!BITAND$@1$@2$"
+  },
+  "477": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!BITNOT$@1$"
+  },
+  "478": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!DIV$@1$@2$"
+  },
+  "479": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!SUB$@2$@1$"
+  },
+  "48": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      4
+    ],
+    "SrcLoc": "src/pwd.c:52",
+    "Type": "C!ADD$C$1$"
+  },
+  "480": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!EQ$@1$@2$"
+  },
+  "481": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!MOD$@1$@2$"
+  },
+  "482": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!GT$@2$@1$"
+  },
+  "483": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!GE$@1$@2$"
+  },
+  "484": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!GT$@1$@2$"
+  },
+  "485": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!LT$@2$@1$"
+  },
+  "486": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!LT$@1$@2$"
+  },
+  "487": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!LE$@1$@2$"
+  },
+  "488": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!GE$@2$@1$"
+  },
+  "489": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!LE$@2$@1$"
+  },
+  "49": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      6
+    ],
+    "SrcLoc": "src/pwd.c:53",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "490": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!DIV$@1$@2$"
+  },
+  "491": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!GT$@1$@2$"
+  },
+  "492": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!LT$@2$@1$"
+  },
+  "493": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!LE$@1$@2$"
+  },
+  "494": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!GE$@2$@1$"
+  },
+  "495": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      31,
+      32
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$P1$@2$!PDEREF_LEFTINC$P1$"
+  },
+  "496": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      31,
+      32
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$P1$@2$!PDEREF_RIGHTDEC$P1$"
+  },
+  "497": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      31,
+      32
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$P1$@2$!PDEREF_LEFTDEC$P1$"
+  },
+  "498": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      31,
+      32
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$P1$@2$!PDEREF_RIGHTINC$P1$"
+  },
+  "499": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      31,
+      32
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$A1$@2$!PDEREF_ADD$A1$@2$"
+  },
+  "50": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      6
+    ],
+    "SrcLoc": "src/pwd.c:53",
+    "Type": "STMT!DELSTMT"
+  },
+  "500": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      31,
+      32
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$A1$@2$!PDEREF_SUB$A1$@2$"
+  },
+  "501": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "@!ABS$@$"
+  },
+  "502": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "503": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!ADD$C$-1$"
+  },
+  "504": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!ADD$C$1$"
+  },
+  "505": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!ADD$C$-1$"
+  },
+  "506": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      33
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!ADD$C$1$"
+  },
+  "507": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$A1$@2$!OPERAND$@2$"
+  },
+  "508": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$A1$@2$!PSUB$A1$@2$"
+  },
+  "509": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$P1$@2$!PLEFTINC$P1$"
+  },
+  "51": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      7
+    ],
+    "SrcLoc": "src/pwd.c:53",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "510": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$P1$@2$!PRIGHTDEC$P1$"
+  },
+  "511": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$P1$@2$!PRIGHTINC$P1$"
+  },
+  "512": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      31
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$P1$@2$!PLEFTDEC$P1$"
+  },
+  "513": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "514": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      36,
+      37
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$P1$@2$!PDEREF_LEFTINC$P1$"
+  },
+  "515": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      36,
+      37
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$P1$@2$!PDEREF_RIGHTDEC$P1$"
+  },
+  "516": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      36,
+      37
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$P1$@2$!PDEREF_LEFTDEC$P1$"
+  },
+  "517": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      36,
+      37
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$P1$@2$!PDEREF_RIGHTINC$P1$"
+  },
+  "518": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      36,
+      37
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$A1$@2$!PDEREF_ADD$A1$@2$"
+  },
+  "519": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      36,
+      37
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$A1$@2$!PDEREF_SUB$A1$@2$"
+  },
+  "52": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      7
+    ],
+    "SrcLoc": "src/pwd.c:53",
+    "Type": "STMT!DELSTMT"
+  },
+  "520": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      37
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "@!ABS$@$"
+  },
+  "521": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      38
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "@!ABS$@$"
+  },
+  "522": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "@!ABS$@$"
+  },
+  "523": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      36
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "524": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      36
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!ADD$C$-1$"
+  },
+  "525": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      36
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!ADD$C$1$"
+  },
+  "526": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "527": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!ADD$C$-1$"
+  },
+  "528": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!ADD$C$1$"
+  },
+  "529": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      36
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$A1$@2$!OPERAND$@2$"
+  },
+  "53": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      8,
+      9
+    ],
+    "SrcLoc": "src/pwd.c:56",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "530": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      36
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$A1$@2$!PSUB$A1$@2$"
+  },
+  "531": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      36
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$P1$@2$!PLEFTINC$P1$"
+  },
+  "532": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      36
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$P1$@2$!PRIGHTDEC$P1$"
+  },
+  "533": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      36
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$P1$@2$!PRIGHTINC$P1$"
+  },
+  "534": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      36
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$P1$@2$!PLEFTDEC$P1$"
+  },
+  "535": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!BITOR$@1$@2$"
+  },
+  "536": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!BITNOT$@1$"
+  },
+  "537": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!MUL$@1$@2$"
+  },
+  "538": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!BITAND$@1$@2$"
+  },
+  "539": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!CONSTVAL$1$"
+  },
+  "54": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      8,
+      9
+    ],
+    "SrcLoc": "src/pwd.c:56",
+    "Type": "STMT!DELSTMT"
+  },
+  "540": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "541": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!BITSHL$@1$@2$"
+  },
+  "542": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "543": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!BITSHR$@2$@1$"
+  },
+  "544": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!NEQ$@1$@2$"
+  },
+  "545": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "546": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "547": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "548": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!ADD$@1$@2$"
+  },
+  "549": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!SUB$@1$@2$"
+  },
+  "55": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      9
+    ],
+    "SrcLoc": "src/pwd.c:56",
+    "Type": "@!ABS$@$"
+  },
+  "550": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "551": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "552": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!OPERAND$@1$"
+  },
+  "553": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "554": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "555": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!BITXOR$@1$@2$"
+  },
+  "556": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!NEG$@1$"
+  },
+  "557": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!ABS$@1$"
+  },
+  "559": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!SUB$@2$@1$"
+  },
+  "56": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      9
+    ],
+    "SrcLoc": "src/pwd.c:56",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "560": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!CONSTVAL$0$"
+  },
+  "561": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "562": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "563": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "564": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "565": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "566": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!BITSHR$@2$@1$"
+  },
+  "567": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "568": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "569": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "57": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      10,
+      11
+    ],
+    "SrcLoc": "src/pwd.c:57",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "570": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "571": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "572": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "573": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "574": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "575": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "576": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "577": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      39
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$V1$@2$!ASSIGN$V1$@2$"
+  },
+  "578": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "579": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      42,
+      43
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$P1$@2$!PDEREF_LEFTINC$P1$"
+  },
+  "58": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      10,
+      11
+    ],
+    "SrcLoc": "src/pwd.c:57",
+    "Type": "STMT!DELSTMT"
+  },
+  "580": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      42,
+      43
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$P1$@2$!PDEREF_RIGHTDEC$P1$"
+  },
+  "581": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      42,
+      43
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$P1$@2$!PDEREF_LEFTDEC$P1$"
+  },
+  "582": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      42,
+      43
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$P1$@2$!PDEREF_RIGHTINC$P1$"
+  },
+  "583": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      42,
+      43
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$A1$@2$!PDEREF_ADD$A1$@2$"
+  },
+  "584": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      42,
+      43
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$A1$@2$!PDEREF_SUB$A1$@2$"
+  },
+  "585": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      43
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "@!ABS$@$"
+  },
+  "586": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      44
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "@!ABS$@$"
+  },
+  "587": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "@!ABS$@$"
+  },
+  "588": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      42
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "589": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      42
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!ADD$C$-1$"
+  },
+  "590": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      42
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!ADD$C$1$"
+  },
+  "591": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "592": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!ADD$C$-1$"
+  },
+  "593": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!ADD$C$1$"
+  },
+  "594": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      42
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$A1$@2$!OPERAND$@2$"
+  },
+  "595": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      42
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$A1$@2$!PSUB$A1$@2$"
+  },
+  "596": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      42
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$P1$@2$!PLEFTINC$P1$"
+  },
+  "597": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      42
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$P1$@2$!PRIGHTDEC$P1$"
+  },
+  "598": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      42
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$P1$@2$!PRIGHTINC$P1$"
+  },
+  "599": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      42
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$P1$@2$!PLEFTDEC$P1$"
+  },
+  "60": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      12,
+      13
+    ],
+    "SrcLoc": "src/pwd.c:61",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "601": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!BITNOT$@1$"
+  },
+  "602": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!MUL$@1$@2$"
+  },
+  "603": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!BITAND$@1$@2$"
+  },
+  "604": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!CONSTVAL$1$"
+  },
+  "605": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "606": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!BITSHL$@1$@2$"
+  },
+  "607": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "608": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!BITSHR$@2$@1$"
+  },
+  "609": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!NEQ$@1$@2$"
+  },
+  "61": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      12,
+      13
+    ],
+    "SrcLoc": "src/pwd.c:61",
+    "Type": "STMT!DELSTMT"
+  },
+  "610": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "611": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "612": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "613": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!ADD$@1$@2$"
+  },
+  "614": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!SUB$@1$@2$"
+  },
+  "615": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "616": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "617": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!OPERAND$@1$"
+  },
+  "618": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "619": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "620": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!BITXOR$@1$@2$"
+  },
+  "621": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!NEG$@1$"
+  },
+  "622": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!ABS$@1$"
+  },
+  "623": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!BITSHL$@2$@1$"
+  },
+  "624": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!SUB$@2$@1$"
+  },
+  "625": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!CONSTVAL$0$"
+  },
+  "626": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "627": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "628": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "629": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "63": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      14,
+      15
+    ],
+    "SrcLoc": "src/pwd.c:65",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "630": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "631": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!BITSHR$@2$@1$"
+  },
+  "632": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "633": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "634": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "635": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "636": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "637": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "638": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "639": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "64": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      14,
+      15
+    ],
+    "SrcLoc": "src/pwd.c:65",
+    "Type": "STMT!DELSTMT"
+  },
+  "640": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "641": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "642": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      45
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$V1$@2$!ASSIGN$V1$@2$"
+  },
+  "643": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "644": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$V1$@2$!ASSIGN$V1$@2$"
+  },
+  "645": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!ABS$@1$"
+  },
+  "646": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!BITNOT$@2$"
+  },
+  "647": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!CONSTVAL$0$"
+  },
+  "648": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!LE$@2$@1$"
+  },
+  "649": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!BITAND$@1$@2$"
+  },
+  "650": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!BITNOT$@1$"
+  },
+  "651": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!DIV$@1$@2$"
+  },
+  "652": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!SUB$@2$@1$"
+  },
+  "653": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!EQ$@1$@2$"
+  },
+  "654": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!MOD$@1$@2$"
+  },
+  "655": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!GT$@2$@1$"
+  },
+  "656": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!GE$@1$@2$"
+  },
+  "657": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!GT$@1$@2$"
+  },
+  "658": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!LT$@2$@1$"
+  },
+  "659": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!LT$@1$@2$"
+  },
+  "66": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      16,
+      17
+    ],
+    "SrcLoc": "src/pwd.c:66",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "660": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!LE$@1$@2$"
+  },
+  "661": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!GE$@2$@1$"
+  },
+  "662": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!LE$@2$@1$"
+  },
+  "663": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!DIV$@1$@2$"
+  },
+  "664": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!GT$@1$@2$"
+  },
+  "665": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!LT$@2$@1$"
+  },
+  "666": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!LE$@1$@2$"
+  },
+  "667": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "NEQ$@1$@2$!GE$@2$@1$"
+  },
+  "668": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      48,
+      49
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$P1$@2$!PDEREF_LEFTINC$P1$"
+  },
+  "669": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      48,
+      49
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$P1$@2$!PDEREF_RIGHTDEC$P1$"
+  },
+  "67": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      16,
+      17
+    ],
+    "SrcLoc": "src/pwd.c:66",
+    "Type": "STMT!DELSTMT"
+  },
+  "670": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      48,
+      49
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$P1$@2$!PDEREF_LEFTDEC$P1$"
+  },
+  "671": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      48,
+      49
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$P1$@2$!PDEREF_RIGHTINC$P1$"
+  },
+  "672": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      48,
+      49
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$A1$@2$!PDEREF_ADD$A1$@2$"
+  },
+  "673": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      48,
+      49
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$A1$@2$!PDEREF_SUB$A1$@2$"
+  },
+  "674": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "@!ABS$@$"
+  },
+  "675": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      48
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "676": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      48
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!ADD$C$-1$"
+  },
+  "677": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      48
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!ADD$C$1$"
+  },
+  "678": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!ADD$C$-1$"
+  },
+  "679": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      50
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!ADD$C$1$"
+  },
+  "680": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      48
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$A1$@2$!OPERAND$@2$"
+  },
+  "681": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      48
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$A1$@2$!PSUB$A1$@2$"
+  },
+  "682": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      48
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$P1$@2$!PLEFTINC$P1$"
+  },
+  "683": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      48
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$P1$@2$!PRIGHTDEC$P1$"
+  },
+  "684": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      48
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$P1$@2$!PRIGHTINC$P1$"
+  },
+  "685": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      48
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$P1$@2$!PLEFTDEC$P1$"
+  },
+  "686": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "687": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      53,
+      54
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$P1$@2$!PDEREF_LEFTINC$P1$"
+  },
+  "688": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      53,
+      54
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$P1$@2$!PDEREF_RIGHTDEC$P1$"
+  },
+  "689": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      53,
+      54
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$P1$@2$!PDEREF_LEFTDEC$P1$"
+  },
+  "69": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:67",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "690": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      53,
+      54
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$P1$@2$!PDEREF_RIGHTINC$P1$"
+  },
+  "691": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      53,
+      54
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$A1$@2$!PDEREF_ADD$A1$@2$"
+  },
+  "692": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      53,
+      54
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD_DEREF$A1$@2$!PDEREF_SUB$A1$@2$"
+  },
+  "693": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      54
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "@!ABS$@$"
+  },
+  "694": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      55
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "@!ABS$@$"
+  },
+  "695": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "@!ABS$@$"
+  },
+  "696": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      53
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "697": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      53
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!ADD$C$-1$"
+  },
+  "698": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      53
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!ADD$C$1$"
+  },
+  "699": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!CONSTVAL$0$"
+  },
+  "7": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      1
+    ],
+    "SrcLoc": "",
+    "Type": "ASSIGN$V1$@2$!LT$V1$@2$"
+  },
+  "70": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:67",
+    "Type": "STMT!DELSTMT"
+  },
+  "700": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!ADD$C$-1$"
+  },
+  "701": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "C!ADD$C$1$"
+  },
+  "702": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      53
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$A1$@2$!OPERAND$@2$"
+  },
+  "703": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      53
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$A1$@2$!PSUB$A1$@2$"
+  },
+  "704": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      53
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$P1$@2$!PLEFTINC$P1$"
+  },
+  "705": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      53
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$P1$@2$!PRIGHTDEC$P1$"
+  },
+  "706": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      53
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$P1$@2$!PRIGHTINC$P1$"
+  },
+  "707": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      53
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "PADD$P1$@2$!PLEFTDEC$P1$"
+  },
+  "708": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!BITOR$@1$@2$"
+  },
+  "709": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!BITNOT$@1$"
+  },
+  "710": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!MUL$@1$@2$"
+  },
+  "711": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!BITAND$@1$@2$"
+  },
+  "712": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!CONSTVAL$1$"
+  },
+  "713": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "714": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!BITSHL$@1$@2$"
+  },
+  "715": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "716": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!BITSHR$@2$@1$"
+  },
+  "717": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!NEQ$@1$@2$"
+  },
+  "718": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "719": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "72": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      18
+    ],
+    "SrcLoc": "src/pwd.c:67",
+    "Type": "CALL!SHUFFLEARGS$2$"
+  },
+  "720": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "721": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!ADD$@1$@2$"
+  },
+  "722": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!SUB$@1$@2$"
+  },
+  "723": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "724": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "725": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!OPERAND$@1$"
+  },
+  "726": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "727": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "728": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!BITXOR$@1$@2$"
+  },
+  "729": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!NEG$@1$"
+  },
+  "73": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      19
+    ],
+    "SrcLoc": "src/pwd.c:68",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "730": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!ABS$@1$"
+  },
+  "732": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!SUB$@2$@1$"
+  },
+  "733": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!CONSTVAL$0$"
+  },
+  "734": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "735": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "736": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "737": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "738": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "739": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!BITSHR$@2$@1$"
+  },
+  "74": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      19
+    ],
+    "SrcLoc": "src/pwd.c:68",
+    "Type": "STMT!DELSTMT"
+  },
+  "740": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "741": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "742": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "743": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "744": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "745": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "746": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "747": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "748": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "749": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "75": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      20
+    ],
+    "SrcLoc": "",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "750": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      56
+    ],
+    "SrcLoc": "src/pwd.c:310",
+    "Type": "EQ$V1$@2$!ASSIGN$V1$@2$"
+  },
+  "751": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      58
+    ],
+    "SrcLoc": "src/pwd.c:312",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "752": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      58
+    ],
+    "SrcLoc": "src/pwd.c:312",
+    "Type": "STMT!DELSTMT"
+  },
+  "753": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      59
+    ],
+    "SrcLoc": "src/pwd.c:312",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "754": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      59
+    ],
+    "SrcLoc": "src/pwd.c:312",
+    "Type": "STMT!DELSTMT"
+  },
+  "755": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      60,
+      61,
+      62
+    ],
+    "SrcLoc": "src/pwd.c:313",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "756": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      60,
+      61,
+      62
+    ],
+    "SrcLoc": "src/pwd.c:313",
+    "Type": "STMT!DELSTMT"
+  },
+  "758": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      61,
+      62
+    ],
+    "SrcLoc": "src/pwd.c:313",
+    "Type": "PLEFTINC$P1$!PRIGHTINC$P1$"
+  },
+  "759": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      61,
+      62
+    ],
+    "SrcLoc": "src/pwd.c:313",
+    "Type": "PLEFTINC$P1$!OPERAND$P1$"
+  },
+  "76": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      21,
+      22
+    ],
+    "SrcLoc": "src/pwd.c:70",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "761": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      61
+    ],
+    "SrcLoc": "src/pwd.c:313",
+    "Type": "C!ADD$C$1$"
+  },
+  "762": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      61
+    ],
+    "SrcLoc": "src/pwd.c:313",
+    "Type": "PADD$A1$@2$!OPERAND$@2$"
+  },
+  "763": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      61
+    ],
+    "SrcLoc": "src/pwd.c:313",
+    "Type": "PADD$A1$@2$!PSUB$A1$@2$"
+  },
+  "764": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      61
+    ],
+    "SrcLoc": "src/pwd.c:313",
+    "Type": "PADD$P1$@2$!PRIGHTDEC$P1$"
+  },
+  "766": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      63
+    ],
+    "SrcLoc": "src/pwd.c:314",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "767": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      63
+    ],
+    "SrcLoc": "src/pwd.c:314",
+    "Type": "STMT!DELSTMT"
+  },
+  "768": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      64,
+      65,
+      66,
+      67
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "769": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      65
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "@!ABS$@$"
+  },
+  "77": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      21,
+      22
+    ],
+    "SrcLoc": "src/pwd.c:70",
+    "Type": "STMT!DELSTMT"
+  },
+  "770": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "@!ABS$@$"
+  },
+  "771": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "C!ADD$C$-1$"
+  },
+  "772": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "C!ADD$C$1$"
+  },
+  "773": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITOR$@1$@2$"
+  },
+  "774": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITNOT$@1$"
+  },
+  "775": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!MUL$@1$@2$"
+  },
+  "776": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!CONSTVAL$1$"
+  },
+  "777": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "778": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "779": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "78": {
+    "FuncName": "usage",
+    "IRPosInFunc": [
+      21
+    ],
+    "SrcLoc": "src/pwd.c:70",
+    "Type": "@!ABS$@$"
+  },
+  "780": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "781": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "782": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "783": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "784": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!NEG$@1$"
+  },
+  "785": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!ABS$@1$"
+  },
+  "786": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "787": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "788": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "789": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "79": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      7
+    ],
+    "SrcLoc": "",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "790": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "791": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "792": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "793": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      66
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "794": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      67
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "AND$@1$@2$!CONSTVAL$0$"
+  },
+  "795": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      67
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "AND$@1$@2$!CONSTVAL$1$"
+  },
+  "796": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      67
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "AND$@1$@2$!OPERAND$@1$"
+  },
+  "797": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      67
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "AND$@1$@2$!OPERAND$@2$"
+  },
+  "798": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      67
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "AND$@1$@2$!OR$@1$@2$"
+  },
+  "799": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      68,
+      69,
+      70
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "80": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      7
+    ],
+    "SrcLoc": "",
+    "Type": "STMT!DELSTMT"
+  },
+  "800": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      68
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "@!ABS$@$"
+  },
+  "801": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "@!ABS$@$"
+  },
+  "802": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "C!ADD$C$-1$"
+  },
+  "803": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "C!ADD$C$1$"
+  },
+  "804": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITOR$@1$@2$"
+  },
+  "805": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITNOT$@1$"
+  },
+  "806": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!MUL$@1$@2$"
+  },
+  "807": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!CONSTVAL$1$"
+  },
+  "808": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "809": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "810": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "811": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "812": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "813": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "814": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "815": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!NEG$@1$"
+  },
+  "816": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!ABS$@1$"
+  },
+  "817": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "818": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "819": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "820": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "821": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "822": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "823": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "824": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      69
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "825": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      70
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "AND$@1$@2$!CONSTVAL$0$"
+  },
+  "826": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      70
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "AND$@1$@2$!CONSTVAL$1$"
+  },
+  "827": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      70
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "AND$@1$@2$!OPERAND$@1$"
+  },
+  "828": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      70
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "AND$@1$@2$!OPERAND$@2$"
+  },
+  "829": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      70
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "AND$@1$@2$!OR$@1$@2$"
+  },
+  "83": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      7
+    ],
+    "SrcLoc": "",
+    "Type": "ASSIGN$V1$@2$!LE$@2$V1$"
+  },
+  "830": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      71,
+      72,
+      73,
+      74,
+      75,
+      76
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "831": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      72
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "@!ABS$@$"
+  },
+  "832": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      74
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "@!ABS$@$"
+  },
+  "833": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "@!ABS$@$"
+  },
+  "834": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$V2$!ASSIGN$V2$@1$"
+  },
+  "835": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITOR$@1$@2$"
+  },
+  "836": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITNOT$@1$"
+  },
+  "837": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!MUL$@1$@2$"
+  },
+  "838": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITAND$@1$@2$"
+  },
+  "839": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!CONSTVAL$1$"
+  },
+  "840": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "841": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITSHL$@1$@2$"
+  },
+  "842": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "843": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITSHR$@2$@1$"
+  },
+  "844": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!NEQ$@1$@2$"
+  },
+  "845": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "846": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "847": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "848": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!ADD$@1$@2$"
+  },
+  "849": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!SUB$@1$@2$"
+  },
+  "850": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "851": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!ABS$@2$"
+  },
+  "852": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "853": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!OPERAND$@1$"
+  },
+  "854": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "855": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!NEG$@2$"
+  },
+  "856": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!OPERAND$@2$"
+  },
+  "857": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "858": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITNOT$@2$"
+  },
+  "859": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITXOR$@1$@2$"
+  },
+  "860": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!NEG$@1$"
+  },
+  "861": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!ABS$@1$"
+  },
+  "862": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITSHL$@2$@1$"
+  },
+  "863": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!SUB$@2$@1$"
+  },
+  "864": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!CONSTVAL$0$"
+  },
+  "865": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "866": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "867": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITSHR$@1$@2$"
+  },
+  "868": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "869": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "870": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "871": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITSHR$@2$@1$"
+  },
+  "872": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "873": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "874": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "875": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "876": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "877": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "878": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "879": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "880": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "881": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITSHR$@1$@2$"
+  },
+  "882": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "883": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      75
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$V1$@2$!ASSIGN$V1$@2$"
+  },
+  "884": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      76
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "AND$@1$@2$!CONSTVAL$1$"
+  },
+  "885": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      76
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "AND$@1$@2$!OPERAND$@1$"
+  },
+  "886": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      76
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "AND$@1$@2$!OR$@1$@2$"
+  },
+  "887": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      77,
+      78,
+      79,
+      80,
+      81,
+      82
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "888": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      78
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "@!ABS$@$"
+  },
+  "889": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      80
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "@!ABS$@$"
+  },
+  "890": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "@!ABS$@$"
+  },
+  "891": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$V2$!ASSIGN$V2$@1$"
+  },
+  "892": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITOR$@1$@2$"
+  },
+  "893": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITNOT$@1$"
+  },
+  "894": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!MUL$@1$@2$"
+  },
+  "895": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITAND$@1$@2$"
+  },
+  "896": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!CONSTVAL$1$"
+  },
+  "897": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "898": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITSHL$@1$@2$"
+  },
+  "899": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "900": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITSHR$@2$@1$"
+  },
+  "901": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!NEQ$@1$@2$"
+  },
+  "902": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "903": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "904": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "905": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!ADD$@1$@2$"
+  },
+  "906": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!SUB$@1$@2$"
+  },
+  "907": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "908": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!ABS$@2$"
+  },
+  "909": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "910": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!OPERAND$@1$"
+  },
+  "911": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "912": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!NEG$@2$"
+  },
+  "913": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!OPERAND$@2$"
+  },
+  "914": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "915": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITNOT$@2$"
+  },
+  "916": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITXOR$@1$@2$"
+  },
+  "917": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!NEG$@1$"
+  },
+  "918": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!ABS$@1$"
+  },
+  "919": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITSHL$@2$@1$"
+  },
+  "920": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!SUB$@2$@1$"
+  },
+  "921": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!CONSTVAL$0$"
+  },
+  "922": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "923": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "924": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITSHR$@1$@2$"
+  },
+  "925": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "926": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!MOD$@2$@1$"
+  },
+  "927": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GT$@2$@1$"
+  },
+  "928": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITSHR$@2$@1$"
+  },
+  "929": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LE$@1$@2$"
+  },
+  "930": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!MOD$@1$@2$"
+  },
+  "931": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!DIV$@2$@1$"
+  },
+  "932": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GT$@1$@2$"
+  },
+  "933": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LE$@2$@1$"
+  },
+  "934": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!DIV$@1$@2$"
+  },
+  "935": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GE$@2$@1$"
+  },
+  "936": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LT$@1$@2$"
+  },
+  "937": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!LT$@2$@1$"
+  },
+  "938": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!BITSHR$@1$@2$"
+  },
+  "939": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$@1$@2$!GE$@1$@2$"
+  },
+  "940": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      81
+    ],
+    "SrcLoc": "src/pwd.c:317",
+    "Type": "EQ$V1$@2$!ASSIGN$V1$@2$"
+  },
+  "941": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      83,
+      84
+    ],
+    "SrcLoc": "src/pwd.c:318",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "942": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      83,
+      84
+    ],
+    "SrcLoc": "src/pwd.c:318",
+    "Type": "STMT!DELSTMT"
+  },
+  "943": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      85
+    ],
+    "SrcLoc": "src/pwd.c:318",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "944": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      85
+    ],
+    "SrcLoc": "src/pwd.c:318",
+    "Type": "STMT!DELSTMT"
+  },
+  "945": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/pwd.c:319",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "946": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      86
+    ],
+    "SrcLoc": "src/pwd.c:319",
+    "Type": "STMT!DELSTMT"
+  },
+  "947": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      87
+    ],
+    "SrcLoc": "src/pwd.c:319",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "948": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      88,
+      89
+    ],
+    "SrcLoc": "src/pwd.c:320",
+    "Type": "STMT!TRAPSTMT"
+  },
+  "949": {
+    "FuncName": "logical_getcwd",
+    "IRPosInFunc": [
+      89
+    ],
+    "SrcLoc": "src/pwd.c:320",
+    "Type": "STMT!DELSTMT"
+  },
+  "98": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      7
+    ],
+    "SrcLoc": "",
+    "Type": "C!ADD$C$-1$"
+  },
+  "99": {
+    "FuncName": "main",
+    "IRPosInFunc": [
+      7
+    ],
+    "SrcLoc": "",
+    "Type": "C!ADD$C$1$"
+  }
+}
