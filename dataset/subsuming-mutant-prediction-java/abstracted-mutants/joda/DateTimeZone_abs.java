@@ -1,0 +1,555 @@
+public static tp_1 fn_1 () {
+tp_1 vr_1 = vr_2 . get () ;
+if ( vr_1 == null ) {
+try {
+try {
+String vr_3 = System . getProperty ( lr_1 ) ;
+if ( vr_3 != null ) {
+vr_1 = fn_2 ( vr_3 ) ;
+}
+} catch ( tp_2 vr_4 ) {
+}
+if ( vr_1 == null ) {
+vr_1 = fn_3 ( vr_5 . fn_1 () ) ;
+}
+} catch ( IllegalArgumentException vr_4 ) {
+}
+if ( vr_1 == null ) {
+vr_1 = vl_1 ;
+}
+if ( ! vr_2 . vr_6 ( null , vr_1 ) ) {
+vr_1 = vr_2 . get () ;
+}
+}
+return vr_1 ;
+}
+public static void fn_4 ( tp_1 vr_1 ) throws vl_2 {
+tp_3 vr_7 = System . vr_8 () ;
+if ( vr_7 != null ) {
+vr_7 . vr_9 ( new fn_5 ( lr_2 ) ) ;
+}
+if ( vr_1 == null ) {
+throw new IllegalArgumentException ( lr_3 ) ;
+}
+vr_2 . vr_10 ( vr_1 ) ;
+}
+@df_1
+public static tp_1 fn_2 ( String vr_3 ) {
+if ( vr_3 == null ) {
+return fn_1 () ;
+}
+if ( vr_3 . equals ( lr_4 ) ) {
+return tp_1 . vl_1 ;
+}
+tp_1 vr_1 = fn_6 () . fn_7 ( vr_3 ) ;
+if ( vr_1 != null ) {
+return vr_1 ;
+}
+if ( vr_3 . vr_11 ( lr_5 ) || vr_3 . vr_11 ( lr_6 ) ) {
+int vr_12 = fn_8 ( vr_3 ) ;
+if ( vr_12 == 0L ) {
+return tp_1 . vl_1 ;
+} else {
+vr_3 = fn_9 ( vr_12 ) ;
+return fn_10 ( vr_3 , vr_12 ) ;
+}
+}
+throw new IllegalArgumentException ( lr_7 + vr_3 + lr_8 ) ;
+}
+public static tp_1 fn_11 ( int vr_13 ) throws IllegalArgumentException {
+return fn_12 ( vr_13 , 0 ) ;
+}
+public static tp_1 fn_12 ( int vr_13 , int vr_14 ) throws IllegalArgumentException {
+if ( vr_13 == 0 && vr_14 == 0 ) {
+return tp_1 . vl_1 ;
+}
+if ( vr_13 < - 23 || vr_13 > 23 ) {
+throw new IllegalArgumentException ( lr_9 + vr_13 ) ;
+}
+if ( vr_14 < - 59 || vr_14 > 59 ) {
+throw new IllegalArgumentException ( lr_10 + vr_14 ) ;
+}
+if ( vr_13 > 0 && vr_14 < 0 ) {
+throw new IllegalArgumentException ( lr_11 + vr_14 ) ;
+}
+int vr_12 = 0 ;
+try {
+int vr_15 = vr_13 * 60 ;
+if ( vr_15 < 0 ) {
+vr_14 = vr_15 - vr_16 . abs ( vr_14 ) ;
+} else {
+vr_14 = vr_15 + vr_14 ;
+}
+vr_12 = vr_17 . vr_18 ( vr_14 , vr_19 . vr_20 ) ;
+} catch ( tp_4 vr_4 ) {
+throw new IllegalArgumentException ( lr_12 ) ;
+}
+return fn_13 ( vr_12 ) ;
+}
+public static tp_1 fn_13 ( int vr_21 ) {
+if ( vr_21 < - vt_1 || vr_21 > vt_1 ) {
+throw new IllegalArgumentException ( lr_13 + vr_21 ) ;
+}
+String vr_3 = fn_9 ( vr_21 ) ;
+return fn_10 ( vr_3 , vr_21 ) ;
+}
+public static tp_1 fn_3 ( vr_5 vr_1 ) {
+if ( vr_1 == null ) {
+return fn_1 () ;
+}
+final String vr_3 = vr_1 . vr_22 () ;
+if ( vr_3 == null ) {
+throw new IllegalArgumentException ( lr_14 ) ;
+}
+if ( vr_3 . equals ( lr_4 ) ) {
+return tp_1 . vl_1 ;
+}
+tp_1 vr_23 = null ;
+String vr_24 = fn_14 ( vr_3 ) ;
+tp_5 vr_25 = fn_6 () ;
+if ( vr_24 != null ) {
+vr_23 = vr_25 . fn_7 ( vr_24 ) ;
+}
+if ( vr_23 == null ) {
+vr_23 = vr_25 . fn_7 ( vr_3 ) ;
+}
+if ( vr_23 != null ) {
+return vr_23 ;
+}
+if ( vr_24 == null ) {
+vr_24 = vr_3 ;
+if ( vr_24 . vr_11 ( lr_15 ) || vr_24 . vr_11 ( lr_16 ) ) {
+vr_24 = vr_24 . vr_26 ( 3 ) ;
+if ( vr_24 . length () > 2 ) {
+char vr_27 = vr_24 . charAt ( 1 ) ;
+if ( vr_27 > '9' && vr_28 . isDigit ( vr_27 ) ) {
+vr_24 = fn_15 ( vr_24 ) ;
+}
+}
+int vr_12 = fn_8 ( vr_24 ) ;
+if ( vr_12 == 0L ) {
+return tp_1 . vl_1 ;
+} else {
+vr_24 = fn_9 ( vr_12 ) ;
+return fn_10 ( vr_24 , vr_12 ) ;
+}
+}
+}
+throw new IllegalArgumentException ( lr_7 + vr_3 + lr_8 ) ;
+}
+private static String fn_15 ( String vr_24 ) {
+StringBuilder vr_29 = new StringBuilder ( vr_24 ) ;
+for ( int vr_30 = 0 ; vr_30 < vr_29 . length () ; vr_30 ++ ) {
+char vr_31 = vr_29 . charAt ( vr_30 ) ;
+int vr_32 = vr_28 . vr_32 ( vr_31 , 10 ) ;
+if ( vr_32 >= 0 ) {
+vr_29 . vr_33 ( vr_30 , (char) ( '0' + vr_32 ) ) ;
+}
+}
+return vr_29 . toString () ;
+}
+private static tp_1 fn_10 ( String vr_3 , int vr_12 ) {
+if ( vr_12 == 0 ) {
+return tp_1 . vl_1 ;
+}
+return new fn_16 ( vr_3 , null , vr_12 , vr_12 ) ;
+}
+public static vr_34 < String > fn_17 () {
+return fn_6 () . fn_17 () ;
+}
+public static tp_5 fn_6 () {
+tp_5 vr_25 = vr_35 . get () ;
+if ( vr_25 == null ) {
+vr_25 = fn_18 () ;
+if ( ! vr_35 . vr_6 ( null , vr_25 ) ) {
+vr_25 = vr_35 . get () ;
+}
+}
+return vr_25 ;
+}
+public static void fn_19 ( tp_5 vr_25 ) throws vl_2 {
+tp_3 vr_7 = System . vr_8 () ;
+if ( vr_7 != null ) {
+vr_7 . vr_9 ( new fn_5 ( lr_17 ) ) ;
+}
+if ( vr_25 == null ) {
+vr_25 = fn_18 () ;
+} else {
+fn_20 ( vr_25 ) ;
+}
+vr_35 . vr_10 ( vr_25 ) ;
+}
+private static tp_5 fn_20 ( tp_5 vr_25 ) {
+vr_34 < String > vr_36 = vr_25 . fn_17 () ;
+if ( vr_36 == null || vr_36 . size () == 0 ) {
+throw new IllegalArgumentException ( lr_18 ) ;
+}
+if ( ! vr_36 . contains ( lr_4 ) ) {
+throw new IllegalArgumentException ( lr_19 ) ;
+}
+if ( ! vl_1 . equals ( vr_25 . fn_7 ( lr_4 ) ) ) {
+throw new IllegalArgumentException ( lr_20 ) ;
+}
+return vr_25 ;
+}
+private static tp_5 fn_18 () {
+try {
+String vr_37 = System . getProperty ( lr_21 ) ;
+if ( vr_37 != null ) {
+try {
+Class < ? > vr_38 = Class . vr_39 ( vr_37 , false , tp_1 . class . vr_40 () ) ;
+if ( ! tp_5 . class . vr_41 ( vr_38 ) ) {
+throw new IllegalArgumentException ( lr_22 + tp_5 . class ) ;
+}
+tp_5 vr_25 = vr_38 . vr_42 ( tp_5 . class ) . fn_21 () . fn_22 () ;
+return fn_20 ( vr_25 ) ;
+} catch ( Exception vr_4 ) {
+throw new tp_2 ( vr_4 ) ;
+}
+}
+} catch ( vl_2 vr_4 ) {
+}
+try {
+String vr_43 = System . getProperty ( lr_23 ) ;
+if ( vr_43 != null ) {
+try {
+tp_5 vr_25 = new fn_23 ( new fn_24 ( vr_43 ) ) ;
+return fn_20 ( vr_25 ) ;
+} catch ( Exception vr_4 ) {
+throw new tp_2 ( vr_4 ) ;
+}
+}
+} catch ( vl_2 vr_4 ) {
+}
+try {
+tp_5 vr_25 = new fn_23 ( vl_3 ) ;
+return fn_20 ( vr_25 ) ;
+} catch ( Exception vr_4 ) {
+vr_4 . vr_44 () ;
+}
+return new fn_25 () ;
+}
+public static tp_6 fn_26 () {
+tp_6 vr_45 = vr_46 . get () ;
+if ( vr_45 == null ) {
+vr_45 = fn_27 () ;
+if ( ! vr_46 . vr_6 ( null , vr_45 ) ) {
+vr_45 = vr_46 . get () ;
+}
+}
+return vr_45 ;
+}
+public static void fn_28 ( tp_6 vr_45 ) throws vl_2 {
+tp_3 vr_7 = System . vr_8 () ;
+if ( vr_7 != null ) {
+vr_7 . vr_9 ( new fn_5 ( lr_24 ) ) ;
+}
+if ( vr_45 == null ) {
+vr_45 = fn_27 () ;
+}
+vr_46 . vr_10 ( vr_45 ) ;
+}
+private static tp_6 fn_27 () {
+tp_6 vr_45 = null ;
+try {
+String vr_37 = System . getProperty ( lr_25 ) ;
+if ( vr_37 != null ) {
+try {
+Class < ? > vr_38 = Class . vr_39 ( vr_37 , false , tp_1 . class . vr_40 () ) ;
+if ( ! tp_6 . class . vr_41 ( vr_38 ) ) {
+throw new IllegalArgumentException ( lr_22 + tp_6 . class ) ;
+}
+vr_45 = vr_38 . vr_42 ( tp_6 . class ) . fn_21 () . fn_22 () ;
+} catch ( Exception vr_4 ) {
+throw new tp_2 ( vr_4 ) ;
+}
+}
+} catch ( vl_2 vr_4 ) {
+}
+if ( vr_45 == null ) {
+vr_45 = new fn_29 () ;
+}
+return vr_45 ;
+}
+private static String fn_14 ( String vr_3 ) {
+return vr_47 . vr_48 . get ( vr_3 ) ;
+}
+private static int fn_8 ( String vr_49 ) {
+return - ( int ) vr_47 . vr_50 . vr_51 ( vr_49 ) ;
+}
+private static String fn_9 ( int vr_12 ) {
+tp_7 vr_29 = new tp_7 () ;
+if ( vr_12 >= 0 ) {
+vr_29 . append ( '+' ) ;
+} else {
+vr_29 . append ( '-' ) ;
+vr_12 = - vr_12 ;
+}
+int vr_52 = vr_12 / vr_19 . vr_53 ;
+vr_54 . vr_55 ( vr_29 , vr_52 , 2 ) ;
+vr_12 -= vr_52 * ( int ) vr_19 . vr_53 ;
+int vr_56 = vr_12 / vr_19 . vr_20 ;
+vr_29 . append ( ':' ) ;
+vr_54 . vr_55 ( vr_29 , vr_56 , 2 ) ;
+vr_12 -= vr_56 * vr_19 . vr_20 ;
+if ( vr_12 == 0 ) {
+return vr_29 . toString () ;
+}
+int vr_57 = vr_12 / vr_19 . vr_58 ;
+vr_29 . append ( ':' ) ;
+vr_54 . vr_55 ( vr_29 , vr_57 , 2 ) ;
+vr_12 -= vr_57 * vr_19 . vr_58 ;
+if ( vr_12 == 0 ) {
+return vr_29 . toString () ;
+}
+vr_29 . append ( '.' ) ;
+vr_54 . vr_55 ( vr_29 , vr_12 , 3 ) ;
+return vr_29 . toString () ;
+}
+@ToString
+public final String vr_22 () {
+return vl_4 ;
+}
+public final String fn_30 ( long vr_59 ) {
+return fn_30 ( vr_59 , null ) ;
+}
+public String fn_30 ( long vr_59 , tp_8 vr_60 ) {
+if ( vr_60 == null ) {
+vr_60 = tp_8 . fn_1 () ;
+}
+String vr_61 = fn_31 ( vr_59 ) ;
+if ( vr_61 == null ) {
+return vl_4 ;
+}
+String vr_62 ;
+tp_6 vr_63 = fn_26 () ;
+if ( vr_63 instanceof fn_29 ) {
+vr_62 = ( ( fn_29 ) vr_63 ) . fn_30 ( vr_60 , vl_4 , vr_61 , fn_32 ( vr_59 ) ) ;
+} else {
+vr_62 = vr_63 . fn_30 ( vr_60 , vl_4 , vr_61 ) ;
+}
+if ( vr_62 != null ) {
+return vr_62 ;
+}
+return fn_9 ( fn_33 ( vr_59 ) ) ;
+}
+public final String fn_34 ( long vr_59 ) {
+return fn_34 ( vr_59 , null ) ;
+}
+public String fn_34 ( long vr_59 , tp_8 vr_60 ) {
+if ( vr_60 == null ) {
+vr_60 = tp_8 . fn_1 () ;
+}
+String vr_61 = fn_31 ( vr_59 ) ;
+if ( vr_61 == null ) {
+return vl_4 ;
+}
+String vr_62 ;
+tp_6 vr_63 = fn_26 () ;
+if ( vr_63 instanceof fn_29 ) {
+vr_62 = ( ( fn_29 ) vr_63 ) . fn_34 ( vr_60 , vl_4 , vr_61 , fn_32 ( vr_59 ) ) ;
+} else {
+vr_62 = vr_63 . fn_34 ( vr_60 , vl_4 , vr_61 ) ;
+}
+if ( vr_62 != null ) {
+return vr_62 ;
+}
+return fn_9 ( fn_33 ( vr_59 ) ) ;
+}
+public final int fn_33 ( tp_9 vr_59 ) {
+if ( vr_59 == null ) {
+return fn_33 ( vr_64 . vr_65 () ) ;
+}
+return fn_33 ( vr_59 . vr_66 () ) ;
+}
+public boolean fn_32 ( long vr_59 ) {
+return fn_33 ( vr_59 ) == fn_35 ( vr_59 ) ;
+}
+public int fn_36 ( long vr_67 ) {
+final int vr_68 = fn_33 ( vr_67 ) ;
+final long vr_69 = vr_67 - vr_68 ;
+final int vr_70 = fn_33 ( vr_69 ) ;
+if ( vr_68 != vr_70 ) {
+if ( ( vr_68 - vr_70 ) < 0 ) {
+long vr_71 = fn_37 ( vr_69 ) ;
+if ( vr_71 == ( vr_67 - vr_68 ) ) {
+vr_71 = Long . vr_72 ;
+}
+long vr_73 = fn_37 ( vr_67 - vr_70 ) ;
+if ( vr_73 == ( vr_67 - vr_70 ) ) {
+vr_73 = Long . vr_72 ;
+}
+if ( vr_71 != vr_73 ) {
+return vr_68 ;
+}
+}
+} else if ( vr_68 >= 0 ) {
+long vr_74 = fn_38 ( vr_69 ) ;
+if ( vr_74 < vr_69 ) {
+int vr_75 = fn_33 ( vr_74 ) ;
+int vr_76 = vr_75 - vr_68 ;
+if ( vr_69 - vr_74 <= vr_76 ) {
+return vr_75 ;
+}
+}
+}
+return vr_70 ;
+}
+public long fn_39 ( long vr_77 ) {
+int vr_12 = fn_33 ( vr_77 ) ;
+long vr_67 = vr_77 + vr_12 ;
+if ( ( vr_77 ^ vr_67 ) < 0 && ( vr_77 ^ vr_12 ) >= 0 ) {
+throw new tp_4 ( lr_26 ) ;
+}
+return vr_67 ;
+}
+public long fn_40 ( long vr_67 , boolean vr_78 , long vr_79 ) {
+int vr_80 = fn_33 ( vr_79 ) ;
+long vr_77 = vr_67 - vr_80 ;
+int vr_81 = fn_33 ( vr_77 ) ;
+if ( vr_81 == vr_80 ) {
+return vr_77 ;
+}
+return fn_40 ( vr_67 , vr_78 ) ;
+}
+public long fn_40 ( long vr_67 , boolean vr_78 ) {
+int vr_68 = fn_33 ( vr_67 ) ;
+int vr_12 = fn_33 ( vr_67 - vr_68 ) ;
+if ( vr_68 != vr_12 ) {
+if ( vr_78 || vr_68 < 0 ) {
+long vr_71 = fn_37 ( vr_67 - vr_68 ) ;
+if ( vr_71 == ( vr_67 - vr_68 ) ) {
+vr_71 = Long . vr_72 ;
+}
+long vr_73 = fn_37 ( vr_67 - vr_12 ) ;
+if ( vr_73 == ( vr_67 - vr_12 ) ) {
+vr_73 = Long . vr_72 ;
+}
+if ( vr_71 != vr_73 ) {
+if ( vr_78 ) {
+throw new fn_41 ( vr_67 , vr_22 () ) ;
+} else {
+vr_12 = vr_68 ;
+}
+}
+}
+}
+long vr_77 = vr_67 - vr_12 ;
+if ( ( vr_67 ^ vr_77 ) < 0 && ( vr_67 ^ vr_12 ) < 0 ) {
+throw new tp_4 ( lr_27 ) ;
+}
+return vr_77 ;
+}
+public long fn_42 ( tp_1 vr_82 , long vr_83 ) {
+if ( vr_82 == null ) {
+vr_82 = tp_1 . fn_1 () ;
+}
+if ( vr_82 == this ) {
+return vr_83 ;
+}
+long vr_67 = fn_39 ( vr_83 ) ;
+return vr_82 . fn_40 ( vr_67 , false , vr_83 ) ;
+}
+public boolean fn_43 ( tp_10 vr_84 ) {
+if ( fn_44 () ) {
+return false ;
+}
+try {
+vr_84 . vr_85 ( this ) ;
+return false ;
+} catch ( fn_41 vr_4 ) {
+return true ;
+}
+}
+public long fn_45 ( long vr_59 , boolean vr_86 ) {
+long vr_87 = vr_59 - 3 * vr_19 . vr_53 ;
+long vr_88 = vr_59 + 3 * vr_19 . vr_53 ;
+long vr_89 = fn_33 ( vr_87 ) ;
+long vr_90 = fn_33 ( vr_88 ) ;
+if ( vr_89 <= vr_90 ) {
+return vr_59 ;
+}
+long vr_76 = vr_89 - vr_90 ;
+long vr_91 = fn_37 ( vr_87 ) ;
+long vr_92 = vr_91 - vr_76 ;
+long vr_93 = vr_91 + vr_76 ;
+if ( vr_59 < vr_92 || vr_59 >= vr_93 ) {
+return vr_59 ;
+}
+long vr_94 = vr_59 - vr_92 ;
+if ( vr_94 >= vr_76 ) {
+return vr_86 ? vr_59 : vr_59 - vr_76 ;
+} else {
+return vr_86 ? vr_59 + vr_76 : vr_59 ;
+}
+}
+public vr_95 . util . vr_5 fn_46 () {
+return vr_95 . util . vr_5 . vr_96 ( vl_4 ) ;
+}
+public int fn_47 () {
+return 57 + vr_22 () . fn_47 () ;
+}
+public String toString () {
+return vr_22 () ;
+}
+protected Object fn_48 () throws vl_5 {
+return new fn_49 ( vl_4 ) ;
+}
+private void fn_50 ( tp_11 out ) throws IOException {
+out . vr_97 ( vl_4 ) ;
+}
+private void fn_51 ( tp_12 vr_98 ) throws IOException {
+vl_4 = vr_98 . vr_99 () ;
+}
+private Object fn_52 () throws vl_5 {
+return fn_2 ( vl_4 ) ;
+}
+public tp_1 fn_7 () {
+return null ;
+}
+public tp_13 fn_53 () {
+return this ;
+}
+public tp_13 fn_54 ( tp_1 vr_1 ) {
+return this ;
+}
+public String toString () {
+return getClass () . fn_34 () ;
+}
+private static vr_100 < String , String > fn_55 () {
+vr_100 < String , String > vr_101 = new vr_102 < String , String > () ;
+vr_101 . vr_103 ( lr_28 , lr_4 ) ;
+vr_101 . vr_103 ( lr_29 , lr_29 ) ;
+vr_101 . vr_103 ( lr_30 , lr_30 ) ;
+vr_101 . vr_103 ( lr_31 , lr_30 ) ;
+vr_101 . vr_103 ( lr_32 , lr_30 ) ;
+vr_101 . vr_103 ( lr_33 , lr_33 ) ;
+vr_101 . vr_103 ( lr_34 , lr_35 ) ;
+vr_101 . vr_103 ( lr_36 , lr_37 ) ;
+vr_101 . vr_103 ( lr_38 , lr_39 ) ;
+vr_101 . vr_103 ( lr_40 , lr_41 ) ;
+vr_101 . vr_103 ( lr_42 , lr_43 ) ;
+vr_101 . vr_103 ( lr_44 , lr_45 ) ;
+vr_101 . vr_103 ( lr_46 , lr_47 ) ;
+vr_101 . vr_103 ( lr_48 , lr_49 ) ;
+vr_101 . vr_103 ( lr_50 , lr_51 ) ;
+vr_101 . vr_103 ( lr_52 , lr_53 ) ;
+vr_101 . vr_103 ( lr_54 , lr_55 ) ;
+vr_101 . vr_103 ( lr_56 , lr_57 ) ;
+vr_101 . vr_103 ( lr_58 , lr_59 ) ;
+vr_101 . vr_103 ( lr_60 , lr_61 ) ;
+vr_101 . vr_103 ( lr_62 , lr_63 ) ;
+vr_101 . vr_103 ( lr_64 , lr_65 ) ;
+vr_101 . vr_103 ( lr_66 , lr_67 ) ;
+vr_101 . vr_103 ( lr_68 , lr_69 ) ;
+vr_101 . vr_103 ( lr_70 , lr_71 ) ;
+vr_101 . vr_103 ( lr_72 , lr_73 ) ;
+vr_101 . vr_103 ( lr_74 , lr_75 ) ;
+vr_101 . vr_103 ( lr_76 , lr_77 ) ;
+vr_101 . vr_103 ( lr_78 , lr_79 ) ;
+vr_101 . vr_103 ( lr_80 , lr_81 ) ;
+vr_101 . vr_103 ( lr_82 , lr_83 ) ;
+vr_101 . vr_103 ( lr_84 , lr_85 ) ;
+vr_101 . vr_103 ( lr_86 , lr_87 ) ;
+return vr_104 . vr_105 ( vr_101 ) ;
+}

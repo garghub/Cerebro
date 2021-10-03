@@ -1,0 +1,70 @@
+@Override
+public Double fn_1 ( final tp_1 vr_1 , final tp_1 vr_2 ) {
+final double vr_3 = 0.1 ;
+if ( vr_1 == null || vr_2 == null ) {
+throw new IllegalArgumentException ( lr_1 ) ;
+}
+final int [] vr_4 = fn_2 ( vr_1 , vr_2 ) ;
+final double vr_5 = vr_4 [ 0 ] ;
+if ( vr_5 == 0 ) {
+return 0D ;
+}
+final double vr_6 = ( ( vr_5 / vr_1 . length () + vr_5 / vr_2 . length () + ( vr_5 - vr_4 [ 1 ] ) / vr_5 ) ) / 3 ;
+final double vr_7 = vr_6 < 0.7D ? vr_6 : vr_6 + vr_8 . vr_9 ( vr_3 , 1D / vr_4 [ 3 ] ) * vr_4 [ 2 ] * ( 1D - vr_6 ) ;
+return vr_7 ;
+}
+protected static int [] fn_2 ( final tp_1 vr_10 , final tp_1 vr_11 ) {
+tp_1 vr_12 , vr_9 ;
+if ( vr_10 . length () > vr_11 . length () ) {
+vr_12 = vr_10 ;
+vr_9 = vr_11 ;
+} else {
+vr_12 = vr_11 ;
+vr_9 = vr_10 ;
+}
+final int vr_13 = vr_8 . vr_12 ( vr_12 . length () / 2 - 1 , 0 ) ;
+final int [] vr_14 = new int [ vr_9 . length () ] ;
+vr_15 . vr_16 ( vr_14 , - 1 ) ;
+final boolean [] vr_17 = new boolean [ vr_12 . length () ] ;
+int fn_2 = 0 ;
+for ( int vr_18 = 0 ; vr_18 < vr_9 . length () ; vr_18 ++ ) {
+final char vr_19 = vr_9 . charAt ( vr_18 ) ;
+for ( int vr_20 = vr_8 . vr_12 ( vr_18 - vr_13 , 0 ) , vr_21 = vr_8 . vr_9 ( vr_18 + vr_13 + 1 , vr_12 . length () ) ; vr_20 < vr_21 ; vr_20 ++ ) {
+if ( ! vr_17 [ vr_20 ] && vr_19 == vr_12 . charAt ( vr_20 ) ) {
+vr_14 [ vr_18 ] = vr_20 ;
+vr_17 [ vr_20 ] = true ;
+fn_2 ++ ;
+break;
+}
+}
+}
+final char [] vr_22 = new char [ fn_2 ] ;
+final char [] vr_23 = new char [ fn_2 ] ;
+for ( int vr_24 = 0 , vr_25 = 0 ; vr_24 < vr_9 . length () ; vr_24 ++ ) {
+if ( vr_14 [ vr_24 ] != - 1 ) {
+vr_22 [ vr_25 ] = vr_9 . charAt ( vr_24 ) ;
+vr_25 ++ ;
+}
+}
+for ( int vr_24 = 0 , vr_25 = 0 ; vr_24 < vr_12 . length () ; vr_24 ++ ) {
+if ( vr_17 [ vr_24 ] ) {
+vr_23 [ vr_25 ] = vr_12 . charAt ( vr_24 ) ;
+vr_25 ++ ;
+}
+}
+int vr_26 = 0 ;
+for ( int vr_18 = 0 ; vr_18 < vr_22 . length ; vr_18 ++ ) {
+if ( vr_22 [ vr_18 ] != vr_23 [ vr_18 ] ) {
+vr_26 ++ ;
+}
+}
+int vr_27 = 0 ;
+for ( int vr_18 = 0 ; vr_18 < vr_9 . length () ; vr_18 ++ ) {
+if ( vr_10 . charAt ( vr_18 ) == vr_11 . charAt ( vr_18 ) ) {
+vr_27 ++ ;
+} else {
+break;
+}
+}
+return new int [] { fn_2 , vr_26 / 2 , vr_27 , vr_12 . length () } ;
+}

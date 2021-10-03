@@ -1,0 +1,52 @@
+getLocation	,	vr_28
+fromJar	,	fn_2
+replace	,	vr_14
+invoke	,	vr_21
+getCause	,	vr_24
+getFile	,	fn_4
+".jar"	,	lr_13
+" or exampleClass&gt; &lt;exampleClass parameters&gt;\" (space separated)"	,	lr_6
+getStackTrace	,	fn_1
+" exampleClass&gt;,&lt;exampleClass parameters&gt; (comma-separated, no spaces)"	,	lr_4
+"main"	,	lr_12
+ite	,	vr_22
+Collections	,	vr_9
+"Usage: java -jar commons-net-examples-m.n.jar &lt;alias or exampleClass&gt; &lt;exampleClass parameters&gt;"	,	lr_7
+ClassNotFoundException	,	tp_4
+currentThread	,	vr_7
+ras	,	vr_2
+"Usage: mvn -q exec:java  -Dexec.arguments=&lt;alias or"	,	lr_3
+sort	,	vr_10
+Method	,	tp_2
+CodeSource	,	tp_5
+InvocationTargetException	,	tp_3
+"\nAliases and their classes:"	,	lr_10
+"Or   : mvn -q exec:java  -Dexec.args=\"&lt;alias"	,	lr_5
+endsWith	,	fn_5
+Throwable	,	vl_1
+codeSource	,	vr_26
+shortName	,	vr_12
+"%-25s %s%n"	,	lr_11
+getProtectionDomain	,	vr_27
+cause	,	vr_23
+fp	,	vr_1
+getCodeSource	,	fn_3
+"Usage: java -cp target/classes examples/Main &lt;alias or exampleClass&gt; &lt;exampleClass parameters&gt;"	,	lr_8
+load	,	vr_4
+arraycopy	,	vr_20
+err	,	vr_5
+forName	,	vr_16
+"unchecked"	,	lr_9
+e	,	vr_25
+InputStream	,	tp_1
+getResourceAsStream	,	vr_3
+fullName	,	vr_13
+getDeclaredMethod	,	vr_18
+l	,	vr_8
+m	,	vr_17
+Thread	,	vr_6
+s	,	vr_11
+args2	,	vr_19
+"examples.properties"	,	lr_1
+clazz	,	vr_15
+"[Cannot find examples.properties file, so aliases cannot be used]"	,	lr_2

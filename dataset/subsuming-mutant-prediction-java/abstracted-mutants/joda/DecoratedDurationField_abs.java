@@ -1,0 +1,27 @@
+public final tp_1 fn_1 () {
+return vl_1 ;
+}
+public boolean fn_2 () {
+return vl_1 . fn_2 () ;
+}
+public long fn_3 ( long vr_1 , long vr_2 ) {
+return vl_1 . fn_3 ( vr_1 , vr_2 ) ;
+}
+public long fn_4 ( int vr_3 , long vr_2 ) {
+return vl_1 . fn_4 ( vr_3 , vr_2 ) ;
+}
+public long fn_4 ( long vr_3 , long vr_2 ) {
+return vl_1 . fn_4 ( vr_3 , vr_2 ) ;
+}
+public long add ( long vr_2 , int vr_3 ) {
+return vl_1 . add ( vr_2 , vr_3 ) ;
+}
+public long add ( long vr_2 , long vr_3 ) {
+return vl_1 . add ( vr_2 , vr_3 ) ;
+}
+public long fn_5 ( long vr_4 , long vr_5 ) {
+return vl_1 . fn_5 ( vr_4 , vr_5 ) ;
+}
+public long fn_6 () {
+return vl_1 . fn_6 () ;
+}

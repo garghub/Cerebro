@@ -1,0 +1,47 @@
+other	,	vr_19
+getDelay	,	fn_4
+getReceiveTimeStamp	,	vr_8
+origTime	,	vr_5
+getTime	,	vr_6
+xmitTime	,	vr_12
+getOffset	,	fn_5
+delta	,	vr_15
+computeDetails	,	fn_2
+rcvTime	,	vr_9
+"Error: zero orig time -- cannot compute delay/offset"	,	lr_2
+"Error: OrigTime &gt; DestRcvTime"	,	lr_4
+result	,	vr_21
+rcvNtpTime	,	vr_7
+hashCode	,	fn_9
+DatagramPacket	,	tp_4
+getComments	,	fn_3
+pkt	,	vr_16
+"Warning: processing time &gt; total network time"	,	lr_7
+getAddress	,	fn_7
+addComment	,	fn_1
+"Error: xmitTime &lt; rcvTime"	,	lr_5
+detailsComputed	,	vl_2
+prime	,	vr_20
+"Warning: zero rcvNtpTime or xmitNtpTime"	,	lr_3
+delayValue	,	vr_14
+comments	,	vl_1
+origNtpTime	,	vr_2
+offset	,	vl_3
+getOriginateTimeStamp	,	vr_4
+getReturnTime	,	fn_8
+"Error: zero orig time -- cannot compute delay"	,	lr_1
+getMessage	,	fn_6
+xmitNtpTime	,	vr_10
+message	,	vr_3
+TimeStamp	,	tp_1
+getTransmitTimeStamp	,	vr_11
+returnTime	,	vl_4
+getDatagramPacket	,	vr_17
+delay	,	vl_5
+obj	,	vr_18
+TimeInfo	,	tp_5
+comment	,	vr_1
+ntpValue	,	vr_13
+NtpV3Packet	,	tp_2
+InetAddress	,	tp_3
+"Info: processing time &gt; total network time by 1 ms -&gt; assume zero delay"	,	lr_6

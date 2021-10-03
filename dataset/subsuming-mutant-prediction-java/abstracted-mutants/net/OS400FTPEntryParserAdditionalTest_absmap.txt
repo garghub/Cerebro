@@ -1,0 +1,53 @@
+getGoodListings	,	fn_2
+MONTH	,	vr_9
+df	,	vr_16
+getName	,	vr_4
+goodsamples	,	vl_2
+FTPFile	,	tp_2
+YEAR	,	vr_11
+FTPFileEntryParser	,	tp_1
+assertNotNull	,	fn_9
+"directory.type"	,	lr_7
+DIRECTORY_TYPE	,	vr_22
+doAdditionalGoodTests	,	fn_12
+parseFTPEntry	,	fn_8
+MINUTE	,	vr_14
+testParseFieldsOnDirectory	,	fn_7
+"Should have been a directory."	,	lr_3
+test	,	vr_20
+"Should have been a file."	,	lr_9
+UnixFTPEntryParser	,	fn_6
+format	,	vr_17
+"build.xml"	,	lr_10
+CompositeFileEntryParser	,	fn_4
+"PEP"	,	lr_4
+testDefaultPrecision	,	fn_14
+OS400FTPEntryParser	,	fn_5
+testParseFieldsOnFile	,	fn_13
+isDirectory	,	vr_2
+"PEP             36864 04/03/24 14:06:34 *DIR       dir1/"	,	lr_1
+DAY_OF_MONTH	,	vr_12
+getTime	,	vr_18
+getUser	,	vr_3
+"dir1"	,	lr_5
+badsamples	,	vl_1
+"Could not parse entry."	,	lr_2
+"PEP              5000000000 04/03/24 14:06:29 *STMF      build.xml"	,	lr_8
+cal	,	vr_6
+getBadListings	,	fn_1
+assertTrue	,	fn_10
+HOUR_OF_DAY	,	vr_13
+getTimestamp	,	vr_19
+getParser	,	fn_3
+testRecentPrecision	,	fn_15
+"d"	,	lr_6
+set	,	vr_8
+isFile	,	vr_23
+f	,	vr_1
+Calendar	,	tp_3
+assertEquals	,	fn_11
+getSize	,	vr_5
+MARCH	,	vr_10
+SECOND	,	vr_15
+getInstance	,	vr_7
+startsWith	,	vr_21

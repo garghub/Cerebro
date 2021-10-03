@@ -1,0 +1,53 @@
+disconnect	,	vr_24
+"FTP server2 refused connection."	,	lr_7
+listener	,	vr_14
+enterRemoteActiveMode	,	vr_31
+addProtocolCommandListener	,	vr_18
+"Could not connect to server2."	,	lr_8
+server2	,	vr_5
+server1	,	vr_1
+port1	,	vr_10
+getPassivePort	,	vr_35
+port2	,	vr_11
+logout	,	vr_39
+split	,	vr_16
+__main	,	lb_1
+username2	,	vr_6
+username1	,	vr_2
+reply	,	vr_19
+FTPReply	,	vr_22
+ftp2	,	vr_13
+getPassiveHost	,	vr_34
+printStackTrace	,	vr_28
+completePendingCommand	,	vr_38
+FTPClient	,	tp_1
+"Connected to "	,	lr_3
+parts	,	vr_9
+PrintCommandListener	,	fn_1
+InetAddress	,	vr_32
+ftp1	,	vr_12
+isConnected	,	vr_26
+"Usage: ftp &lt;host1&gt; &lt;user1&gt; &lt;pass1&gt; &lt;file1&gt; &lt;host2&gt; &lt;user2&gt; &lt;pass2&gt; &lt;file2&gt;"	,	lr_1
+"Could not connect to server1."	,	lr_6
+":"	,	lr_2
+remoteRetrieve	,	vr_36
+login	,	vr_29
+getReplyCode	,	vr_21
+remoteStoreUnique	,	vr_37
+"."	,	lr_4
+getByName	,	vr_33
+password2	,	vr_7
+password1	,	vr_3
+"Could not login to "	,	lr_9
+connect	,	vr_20
+err	,	vr_15
+e	,	vr_25
+f	,	vr_27
+isPositiveCompletion	,	vr_23
+parseInt	,	vr_17
+"Couldn't initiate transfer. Check that file names are valid."	,	lr_10
+file2	,	vr_8
+ProtocolCommandListener	,	tp_2
+file1	,	vr_4
+enterRemotePassiveMode	,	vr_30
+"FTP server1 refused connection."	,	lr_5

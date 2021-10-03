@@ -1,0 +1,70 @@
+ZERO	,	vr_34
+ReadableInstant	,	tp_1
+getName	,	vr_27
+iso	,	vr_20
+millisPerUnit	,	vr_19
+compareTo	,	fn_11
+ReadablePartial	,	tp_4
+getInstanceUTC	,	vr_22
+isize	,	vr_12
+"ReadablePartial objects must be contiguous"	,	lr_4
+between	,	fn_1
+safeToInt	,	vr_32
+isPrecise	,	vr_26
+period	,	vr_18
+IndexOutOfBoundsException	,	fn_6
+getUnitMillis	,	vr_31
+getField	,	vr_8
+index	,	vr_33
+Period	,	tp_7
+isSupported	,	fn_7
+getMillis	,	vr_9
+withFields	,	vr_35
+ISOChronology	,	vr_21
+field	,	vr_3
+START_1972	,	vl_1
+toPeriod	,	fn_8
+toMutablePeriod	,	fn_9
+getPeriodType	,	vr_37
+MutablePeriod	,	tp_8
+withUTC	,	fn_3
+iPeriod	,	vl_2
+DurationField	,	tp_6
+getInstantChronology	,	vr_6
+other	,	vr_36
+"ReadablePartial objects must have the same set of fields"	,	lr_3
+values	,	vr_16
+getFieldType	,	vr_13
+duration	,	vr_23
+FieldUtils	,	vr_28
+total	,	vr_38
+hashCode	,	fn_10
+DurationFieldType	,	tp_2
+end	,	vr_2
+Chronology	,	tp_3
+safeMultiply	,	vr_30
+getChronology	,	vr_15
+value	,	vr_24
+otherValue	,	vr_39
+standardPeriodIn	,	fn_4
+"ReadableInstant objects must not be null"	,	lr_1
+amount	,	vr_7
+thisValue	,	vr_40
+set	,	vr_17
+start	,	vr_1
+zeroInstance	,	vr_10
+i	,	vr_11
+safeAdd	,	vr_29
+"ReadablePartial objects must not be null"	,	lr_2
+"Cannot convert period to duration as "	,	lr_5
+" is not precise in the period "	,	lr_6
+" cannot be compared to "	,	lr_7
+getValue	,	vr_25
+isContiguous	,	vr_14
+ReadablePeriod	,	tp_5
+getDifference	,	fn_2
+setValue	,	fn_5
+ClassCastException	,	fn_12
+DateTimeUtils	,	vr_5
+chrono	,	vr_4
+BaseSingleFieldPeriod	,	tp_9

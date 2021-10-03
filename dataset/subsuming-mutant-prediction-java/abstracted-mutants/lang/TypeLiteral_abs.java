@@ -1,0 +1,23 @@
+@Override
+public final boolean equals ( final Object vr_1 ) {
+if ( vr_1 == this ) {
+return true ;
+}
+if ( vr_1 instanceof vl_1 == false ) {
+return false ;
+}
+final vl_1 < ? > vr_2 = ( vl_1 < ? > ) vr_1 ;
+return vr_3 . equals ( vl_2 , vr_2 . vl_2 ) ;
+}
+@Override
+public int fn_1 () {
+return 37 << 4 | vl_2 . fn_1 () ;
+}
+@Override
+public String toString () {
+return toString ;
+}
+@Override
+public Type getType () {
+return vl_2 ;
+}

@@ -1,0 +1,287 @@
+public final tp_1 getType () {
+return vl_1 ;
+}
+public final String fn_1 () {
+return vl_1 . fn_1 () ;
+}
+public final boolean fn_2 () {
+return true ;
+}
+public String fn_3 ( long vr_1 , tp_2 vr_2 ) {
+return fn_3 ( get ( vr_1 ) , vr_2 ) ;
+}
+public final String fn_3 ( long vr_1 ) {
+return fn_3 ( vr_1 , null ) ;
+}
+public String fn_3 ( tp_3 vr_3 , int vr_4 , tp_2 vr_2 ) {
+return fn_3 ( vr_4 , vr_2 ) ;
+}
+public final String fn_3 ( tp_3 vr_3 , tp_2 vr_2 ) {
+return fn_3 ( vr_3 , vr_3 . get ( getType () ) , vr_2 ) ;
+}
+public String fn_3 ( int vr_4 , tp_2 vr_2 ) {
+return Integer . toString ( vr_4 ) ;
+}
+public String fn_4 ( long vr_1 , tp_2 vr_2 ) {
+return fn_4 ( get ( vr_1 ) , vr_2 ) ;
+}
+public final String fn_4 ( long vr_1 ) {
+return fn_4 ( vr_1 , null ) ;
+}
+public String fn_4 ( tp_3 vr_3 , int vr_4 , tp_2 vr_2 ) {
+return fn_4 ( vr_4 , vr_2 ) ;
+}
+public final String fn_4 ( tp_3 vr_3 , tp_2 vr_2 ) {
+return fn_4 ( vr_3 , vr_3 . get ( getType () ) , vr_2 ) ;
+}
+public String fn_4 ( int vr_4 , tp_2 vr_2 ) {
+return fn_3 ( vr_4 , vr_2 ) ;
+}
+public long add ( long vr_1 , int vr_5 ) {
+return fn_5 () . add ( vr_1 , vr_5 ) ;
+}
+public long add ( long vr_1 , long vr_5 ) {
+return fn_5 () . add ( vr_1 , vr_5 ) ;
+}
+public int [] add ( tp_3 vr_1 , int vr_6 , int [] vr_7 , int vr_8 ) {
+if ( vr_8 == 0 ) {
+return vr_7 ;
+}
+tp_4 vr_9 = null ;
+while ( vr_8 > 0 ) {
+int vr_10 = fn_6 ( vr_1 , vr_7 ) ;
+long vr_11 = vr_7 [ vr_6 ] + vr_8 ;
+if ( vr_11 <= vr_10 ) {
+vr_7 [ vr_6 ] = ( int ) vr_11 ;
+break;
+}
+if ( vr_9 == null ) {
+if ( vr_6 == 0 ) {
+throw new IllegalArgumentException ( lr_1 ) ;
+}
+vr_9 = vr_1 . vr_12 ( vr_6 - 1 ) ;
+if ( fn_7 () . getType () != vr_9 . fn_5 () . getType () ) {
+throw new IllegalArgumentException ( lr_2 ) ;
+}
+}
+vr_8 -= ( vr_10 + 1 ) - vr_7 [ vr_6 ] ;
+vr_7 = vr_9 . add ( vr_1 , vr_6 - 1 , vr_7 , 1 ) ;
+vr_7 [ vr_6 ] = fn_8 ( vr_1 , vr_7 ) ;
+}
+while ( vr_8 < 0 ) {
+int vr_13 = fn_8 ( vr_1 , vr_7 ) ;
+long vr_11 = vr_7 [ vr_6 ] + vr_8 ;
+if ( vr_11 >= vr_13 ) {
+vr_7 [ vr_6 ] = ( int ) vr_11 ;
+break;
+}
+if ( vr_9 == null ) {
+if ( vr_6 == 0 ) {
+throw new IllegalArgumentException ( lr_1 ) ;
+}
+vr_9 = vr_1 . vr_12 ( vr_6 - 1 ) ;
+if ( fn_7 () . getType () != vr_9 . fn_5 () . getType () ) {
+throw new IllegalArgumentException ( lr_2 ) ;
+}
+}
+vr_8 -= ( vr_13 - 1 ) - vr_7 [ vr_6 ] ;
+vr_7 = vr_9 . add ( vr_1 , vr_6 - 1 , vr_7 , - 1 ) ;
+vr_7 [ vr_6 ] = fn_6 ( vr_1 , vr_7 ) ;
+}
+return fn_9 ( vr_1 , vr_6 , vr_7 , vr_7 [ vr_6 ] ) ;
+}
+public int [] fn_10 ( tp_3 vr_1 , int vr_6 , int [] vr_7 , int vr_8 ) {
+if ( vr_8 == 0 ) {
+return vr_7 ;
+}
+tp_4 vr_9 = null ;
+while ( vr_8 > 0 ) {
+int vr_10 = fn_6 ( vr_1 , vr_7 ) ;
+long vr_11 = vr_7 [ vr_6 ] + vr_8 ;
+if ( vr_11 <= vr_10 ) {
+vr_7 [ vr_6 ] = ( int ) vr_11 ;
+break;
+}
+if ( vr_9 == null ) {
+if ( vr_6 == 0 ) {
+vr_8 -= ( vr_10 + 1 ) - vr_7 [ vr_6 ] ;
+vr_7 [ vr_6 ] = fn_8 ( vr_1 , vr_7 ) ;
+continue;
+}
+vr_9 = vr_1 . vr_12 ( vr_6 - 1 ) ;
+if ( fn_7 () . getType () != vr_9 . fn_5 () . getType () ) {
+throw new IllegalArgumentException ( lr_2 ) ;
+}
+}
+vr_8 -= ( vr_10 + 1 ) - vr_7 [ vr_6 ] ;
+vr_7 = vr_9 . fn_10 ( vr_1 , vr_6 - 1 , vr_7 , 1 ) ;
+vr_7 [ vr_6 ] = fn_8 ( vr_1 , vr_7 ) ;
+}
+while ( vr_8 < 0 ) {
+int vr_13 = fn_8 ( vr_1 , vr_7 ) ;
+long vr_11 = vr_7 [ vr_6 ] + vr_8 ;
+if ( vr_11 >= vr_13 ) {
+vr_7 [ vr_6 ] = ( int ) vr_11 ;
+break;
+}
+if ( vr_9 == null ) {
+if ( vr_6 == 0 ) {
+vr_8 -= ( vr_13 - 1 ) - vr_7 [ vr_6 ] ;
+vr_7 [ vr_6 ] = fn_6 ( vr_1 , vr_7 ) ;
+continue;
+}
+vr_9 = vr_1 . vr_12 ( vr_6 - 1 ) ;
+if ( fn_7 () . getType () != vr_9 . fn_5 () . getType () ) {
+throw new IllegalArgumentException ( lr_2 ) ;
+}
+}
+vr_8 -= ( vr_13 - 1 ) - vr_7 [ vr_6 ] ;
+vr_7 = vr_9 . fn_10 ( vr_1 , vr_6 - 1 , vr_7 , - 1 ) ;
+vr_7 [ vr_6 ] = fn_6 ( vr_1 , vr_7 ) ;
+}
+return fn_9 ( vr_1 , vr_6 , vr_7 , vr_7 [ vr_6 ] ) ;
+}
+public long fn_11 ( long vr_1 , int vr_5 ) {
+int vr_14 = get ( vr_1 ) ;
+int vr_15 = vr_16 . vr_17
+( vr_14 , vr_5 , fn_8 ( vr_1 ) , fn_6 ( vr_1 ) ) ;
+return fn_9 ( vr_1 , vr_15 ) ;
+}
+public int [] fn_11 ( tp_3 vr_1 , int vr_6 , int [] vr_7 , int vr_8 ) {
+int vr_14 = vr_7 [ vr_6 ] ;
+int vr_15 = vr_16 . vr_17
+( vr_14 , vr_8 , fn_8 ( vr_1 ) , fn_6 ( vr_1 ) ) ;
+return fn_9 ( vr_1 , vr_6 , vr_7 , vr_15 ) ;
+}
+public int fn_12 ( long vr_18 , long vr_19 ) {
+return fn_5 () . fn_12 ( vr_18 , vr_19 ) ;
+}
+public long fn_13 ( long vr_18 , long vr_19 ) {
+return fn_5 () . fn_13 ( vr_18 , vr_19 ) ;
+}
+public int [] fn_9 ( tp_3 vr_3 , int vr_6 , int [] vr_7 , int vr_20 ) {
+vr_16 . vr_21 ( this , vr_20 , fn_8 ( vr_3 , vr_7 ) , fn_6 ( vr_3 , vr_7 ) ) ;
+vr_7 [ vr_6 ] = vr_20 ;
+for ( int vr_22 = vr_6 + 1 ; vr_22 < vr_3 . size () ; vr_22 ++ ) {
+tp_4 vr_23 = vr_3 . vr_12 ( vr_22 ) ;
+if ( vr_7 [ vr_22 ] > vr_23 . fn_6 ( vr_3 , vr_7 ) ) {
+vr_7 [ vr_22 ] = vr_23 . fn_6 ( vr_3 , vr_7 ) ;
+}
+if ( vr_7 [ vr_22 ] < vr_23 . fn_8 ( vr_3 , vr_7 ) ) {
+vr_7 [ vr_22 ] = vr_23 . fn_8 ( vr_3 , vr_7 ) ;
+}
+}
+return vr_7 ;
+}
+public long fn_9 ( long vr_1 , String vr_24 , tp_2 vr_2 ) {
+int vr_5 = fn_14 ( vr_24 , vr_2 ) ;
+return fn_9 ( vr_1 , vr_5 ) ;
+}
+public final long fn_9 ( long vr_1 , String vr_24 ) {
+return fn_9 ( vr_1 , vr_24 , null ) ;
+}
+public int [] fn_9 ( tp_3 vr_1 , int vr_6 , int [] vr_7 , String vr_24 , tp_2 vr_2 ) {
+int vr_5 = fn_14 ( vr_24 , vr_2 ) ;
+return fn_9 ( vr_1 , vr_6 , vr_7 , vr_5 ) ;
+}
+protected int fn_14 ( String vr_24 , tp_2 vr_2 ) {
+try {
+return Integer . vr_25 ( vr_24 ) ;
+} catch ( tp_5 vr_26 ) {
+throw new fn_15 ( getType () , vr_24 ) ;
+}
+}
+public boolean fn_16 ( long vr_1 ) {
+return false ;
+}
+public int fn_17 ( long vr_1 ) {
+return 0 ;
+}
+public tp_6 fn_18 () {
+return null ;
+}
+public int fn_8 ( long vr_1 ) {
+return fn_8 () ;
+}
+public int fn_8 ( tp_3 vr_1 ) {
+return fn_8 () ;
+}
+public int fn_8 ( tp_3 vr_1 , int [] vr_7 ) {
+return fn_8 ( vr_1 ) ;
+}
+public int fn_6 ( long vr_1 ) {
+return fn_6 () ;
+}
+public int fn_6 ( tp_3 vr_1 ) {
+return fn_6 () ;
+}
+public int fn_6 ( tp_3 vr_1 , int [] vr_7 ) {
+return fn_6 ( vr_1 ) ;
+}
+public int fn_19 ( tp_2 vr_2 ) {
+int vr_10 = fn_6 () ;
+if ( vr_10 >= 0 ) {
+if ( vr_10 < 10 ) {
+return 1 ;
+} else if ( vr_10 < 100 ) {
+return 2 ;
+} else if ( vr_10 < 1000 ) {
+return 3 ;
+}
+}
+return Integer . toString ( vr_10 ) . length () ;
+}
+public int fn_20 ( tp_2 vr_2 ) {
+return fn_19 ( vr_2 ) ;
+}
+public long fn_21 ( long vr_1 ) {
+long vr_27 = fn_22 ( vr_1 ) ;
+if ( vr_27 != vr_1 ) {
+vr_1 = add ( vr_27 , 1 ) ;
+}
+return vr_1 ;
+}
+public long fn_23 ( long vr_1 ) {
+long floor = fn_22 ( vr_1 ) ;
+long vr_28 = fn_21 ( vr_1 ) ;
+long vr_29 = vr_1 - floor ;
+long vr_30 = vr_28 - vr_1 ;
+if ( vr_29 <= vr_30 ) {
+return floor ;
+} else {
+return vr_28 ;
+}
+}
+public long fn_24 ( long vr_1 ) {
+long floor = fn_22 ( vr_1 ) ;
+long vr_28 = fn_21 ( vr_1 ) ;
+long vr_29 = vr_1 - floor ;
+long vr_30 = vr_28 - vr_1 ;
+if ( vr_30 <= vr_29 ) {
+return vr_28 ;
+} else {
+return floor ;
+}
+}
+public long fn_25 ( long vr_1 ) {
+long floor = fn_22 ( vr_1 ) ;
+long vr_28 = fn_21 ( vr_1 ) ;
+long vr_29 = vr_1 - floor ;
+long vr_30 = vr_28 - vr_1 ;
+if ( vr_29 < vr_30 ) {
+return floor ;
+} else if ( vr_30 < vr_29 ) {
+return vr_28 ;
+} else {
+if ( ( get ( vr_28 ) & 1 ) == 0 ) {
+return vr_28 ;
+}
+return floor ;
+}
+}
+public long fn_26 ( long vr_1 ) {
+return vr_1 - fn_22 ( vr_1 ) ;
+}
+public String toString () {
+return lr_3 + fn_1 () + ']' ;
+}

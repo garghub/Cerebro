@@ -1,0 +1,60 @@
+MONTH	,	vr_11
+getName	,	vr_7
+"Owner should not have execute permission."	,	lr_9
+year	,	vr_4
+"World should not have read permission."	,	lr_13
+FTPFile	,	tp_1
+dir	,	vr_20
+"Group should not have execute permission."	,	lr_12
+YEAR	,	vr_5
+FTPFileEntryParser	,	tp_3
+WORLD_ACCESS	,	vr_27
+EnterpriseUnixFTPEntryParser	,	fn_13
+parseFTPEntry	,	fn_4
+MINUTE	,	vr_17
+EXECUTE_PERMISSION	,	vr_25
+"-C--E-----FTP B QUA1I1      18128       5000000000 Aug 12 2014 QUADTEST"	,	lr_6
+testParseFieldsOnDirectory	,	fn_1
+USER_ACCESS	,	vr_22
+WRITE_PERMISSION	,	vr_24
+testDefaultPrecision	,	fn_10
+getGoodListing	,	fn_12
+GROUP_ACCESS	,	vr_26
+getGroup	,	vr_10
+hasPermission	,	vr_21
+AUGUST	,	vr_12
+testParseFieldsOnFile	,	fn_2
+"Should be a file."	,	lr_2
+CalendarUnit	,	vr_19
+"-C--E-----FTP B QUA1I1      18128       5000000000 Aug 12 13:56 QUADTEST"	,	lr_1
+DAY_OF_MONTH	,	vr_15
+getUser	,	vr_9
+"18128"	,	lr_5
+"Group should not have write permission."	,	lr_11
+checkPermisions	,	fn_7
+file	,	vr_1
+assertTrue	,	fn_5
+HOUR_OF_DAY	,	vr_16
+getTimestamp	,	vr_14
+getParser	,	fn_3
+today	,	vr_2
+"World should not have write permission."	,	lr_14
+testRecentPrecision	,	fn_8
+"World should not have execute permission."	,	lr_15
+timestamp	,	vr_13
+"Group should not have read permission."	,	lr_10
+"Owner should not have write permission."	,	lr_8
+isFile	,	vr_6
+Calendar	,	tp_2
+getBadListing	,	fn_11
+testPrecision	,	fn_9
+"Owner should not have read permission."	,	lr_7
+READ_PERMISSION	,	vr_23
+assertEquals	,	fn_6
+"QUADTEST"	,	lr_3
+getSize	,	vr_8
+"QUA1I1"	,	lr_4
+GOODSAMPLES	,	vl_2
+BADSAMPLES	,	vl_1
+SECOND	,	vr_18
+getInstance	,	vr_3

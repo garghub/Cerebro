@@ -1,0 +1,90 @@
+encode	,	fn_1
+LinkedHashSet	,	vr_50
+originalCopy	,	vr_49
+getEncodedCharLength	,	fn_4
+codepoint	,	vr_4
+originalLetter	,	vr_56
+codePointAt	,	vr_5
+HashMap	,	vr_54
+doNotEncode	,	vr_44
+createConverterFromMap	,	fn_8
+decode	,	fn_3
+put	,	vr_29
+asList	,	fn_11
+LinkedHashMap	,	vr_41
+integers	,	vr_47
+encodedLetter	,	vr_57
+encodedLetterLength	,	vl_2
+Collections	,	vr_19
+convertCharsToIntegers	,	fn_10
+nextLetter	,	vr_6
+encodingLetter	,	vr_26
+originalAsString	,	vr_43
+getKey	,	vr_33
+"Must have at least two encoding characters (excluding "	,	lr_12
+ac	,	vr_60
+Character	,	vr_8
+doNotEncodeMap	,	vr_25
+level	,	vr_21
+entrySet	,	vr_32
+containsKey	,	vr_27
+"alphabet does not contain '"	,	lr_9
+UnsupportedEncodingException	,	vl_1
+it	,	vr_55
+encoding	,	vr_23
+unmodifiableMap	,	vr_20
+entry	,	vr_31
+Objects	,	vr_38
+encodedToOriginal	,	vr_17
+"PMD"	,	lr_7
+unmodifiableOriginalToEncoded	,	vr_40
+encodingCopy	,	vr_52
+createConverterFromChars	,	fn_9
+currentEncoding	,	vr_22
+Arrays	,	vr_51
+Map	,	vr_18
+hash	,	vr_39
+encoded	,	vr_10
+toChars	,	vr_61
+next	,	vr_16
+""	,	lr_14
+codePointToString	,	fn_2
+"of string while decoding "	,	lr_4
+other	,	vr_37
+charCount	,	vr_9
+Set	,	vr_48
+AlphabetConverter	,	vl_4
+lineSeparator	,	vr_35
+"Can not use 'do not encode' list because original "	,	lr_8
+substring	,	vr_15
+getOriginalToEncoded	,	fn_5
+sb	,	vr_2
+originalToEncoded	,	vr_7
+result	,	vr_11
+Entry	,	vr_30
+ARROW	,	vl_3
+hashCode	,	fn_7
+createConverter	,	vr_45
+lettersSoFar	,	vr_58
+originals	,	vr_24
+addSingleEncoding	,	fn_6
+") in "	,	lr_6
+"Unexpected end "	,	lr_3
+"Can not use 'do not encode' list because encoding alphabet does not contain '"	,	lr_11
+"those in the 'do not encode' list), but has "	,	lr_13
+lettersLeft	,	vr_59
+original	,	vr_1
+e	,	vr_42
+i	,	vr_3
+j	,	vr_12
+"Couldn't find encoding for '"	,	lr_1
+getValue	,	vr_34
+doNotEncodeCopy	,	vr_53
+s	,	vr_13
+nextGroup	,	vr_14
+"Unexpected string without decoding ("	,	lr_5
+obj	,	vr_36
+"' in "	,	lr_2
+originalLetterAsString	,	vr_28
+"'"	,	lr_10
+chars	,	vr_46

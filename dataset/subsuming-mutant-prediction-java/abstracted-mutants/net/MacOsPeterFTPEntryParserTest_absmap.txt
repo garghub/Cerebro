@@ -1,0 +1,70 @@
+"-rw-r--r--    78440       49231   127671 Jul 22  2010 Filename with whitespace.jpg"	,	lr_17
+MONTH	,	vr_11
+df	,	vr_19
+getName	,	vr_7
+"Should have user read permission."	,	lr_8
+before	,	fn_13
+goodsamples	,	vl_2
+"-rwxr-xr-x    78440       49231   127671 Jul  2 14:51 Filename with whitespace.jpg"	,	lr_5
+FTPFile	,	tp_2
+YEAR	,	vr_18
+FTPFileEntryParser	,	tp_1
+WORLD_ACCESS	,	vr_29
+assertNotNull	,	fn_7
+parseFTPEntry	,	fn_6
+MINUTE	,	vr_15
+EXECUTE_PERMISSION	,	vr_27
+"Should NOT have world write permission."	,	lr_15
+testParseFieldsOnDirectory	,	fn_5
+"Should have been a directory."	,	lr_3
+USER_ACCESS	,	vr_24
+"Should have been a file."	,	lr_6
+checkPermissions	,	fn_9
+format	,	vr_20
+"Should have world read permission."	,	lr_14
+WRITE_PERMISSION	,	vr_26
+"Should have group read permission."	,	lr_11
+testDefaultPrecision	,	fn_15
+"Should have world execute permission."	,	lr_16
+getGoodListing	,	fn_2
+GROUP_ACCESS	,	vr_28
+getGroup	,	vr_5
+hasPermission	,	vr_23
+"Should have user execute permission."	,	lr_10
+JULY	,	vr_22
+testParseFieldsOnFile	,	fn_14
+"Alias_to_Steak"	,	lr_4
+isDirectory	,	vr_2
+MacOsPeterFTPEntryParser	,	fn_4
+CalendarUnit	,	vr_30
+DAY_OF_MONTH	,	vr_13
+getTime	,	fn_12
+getUser	,	vr_4
+"Should have group execute permission."	,	lr_13
+badsamples	,	vl_1
+"Could not parse entry."	,	lr_2
+cal	,	vr_8
+getHardLinkCount	,	vr_3
+assertTrue	,	fn_8
+HOUR_OF_DAY	,	vr_14
+getTimestamp	,	vr_17
+getParser	,	fn_3
+"Should have user write permission."	,	lr_9
+testRecentPrecision	,	fn_17
+"Filename with whitespace.jpg"	,	lr_7
+set	,	vr_10
+isFile	,	vr_21
+f	,	vr_1
+getBadListing	,	fn_1
+Calendar	,	tp_3
+testPrecision	,	fn_16
+READ_PERMISSION	,	vr_25
+assertEquals	,	fn_10
+"-rw-r--r--    78440       49231   127671 Jul 22 14:51 Filename with whitespace.jpg"	,	lr_18
+"Should NOT have group write permission."	,	lr_12
+getSize	,	vr_6
+assertNull	,	fn_11
+MARCH	,	vr_12
+SECOND	,	vr_16
+"drwxr-xr-x               folder        0 Mar  2 15:13 Alias_to_Steak"	,	lr_1
+getInstance	,	vr_9

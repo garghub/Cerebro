@@ -1,0 +1,29 @@
+@Override
+public boolean fn_1 ( final int vr_1 ) {
+return vr_2 . vr_3 ( vr_1 ) ;
+}
+@Override
+public boolean fn_1 ( final int vr_1 ) {
+return vr_2 . isDigit ( vr_1 ) ;
+}
+@Override
+public boolean fn_1 ( final int vr_1 ) {
+return vr_1 >= '0' && vr_1 <= '9' ;
+}
+@Override
+public boolean fn_1 ( final int vr_1 ) {
+return vr_1 >= 'a' && vr_1 <= 'z' ;
+}
+@Override
+public boolean fn_1 ( final int vr_1 ) {
+return vr_1 >= 'A' && vr_1 <= 'Z' ;
+}
+@Override
+public boolean fn_1 ( final int vr_1 ) {
+return vr_4 . fn_1 ( vr_1 ) || vr_5 . fn_1 ( vr_1 ) ;
+}
+@Override
+public boolean fn_1 ( final int vr_1 ) {
+return vr_4 . fn_1 ( vr_1 ) || vr_5 . fn_1 ( vr_1 )
+|| vr_6 . fn_1 ( vr_1 ) ;
+}

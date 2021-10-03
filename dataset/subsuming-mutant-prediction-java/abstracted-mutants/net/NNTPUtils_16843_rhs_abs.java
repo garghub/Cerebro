@@ -1,0 +1,9 @@
+public static List < vt_1 > fn_1 ( final tp_1 vr_1 , final long vr_2 , final long vr_3 )
+throws IOException {
+final List < vt_1 > vr_4 = new ArrayList <> () ;
+final vr_5 < vt_1 > vr_6 = vr_1 . vr_7 ( vr_2 , vr_3 ) ;
+for( final vt_1 vr_8 : vr_6 ) {
+vr_4 . add ( vr_8 ) ;
+} MST[rv.UOI2Mutator]MSP[N]
+return vr_4 ;
+}

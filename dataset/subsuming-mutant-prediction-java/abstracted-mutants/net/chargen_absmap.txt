@@ -1,0 +1,34 @@
+disconnect	,	vr_8
+SocketException	,	tp_4
+InterruptedIOException	,	tp_5
+data	,	vr_10
+packets	,	vr_9
+"InterruptedIOException: Timed out and dropped packet"	,	lr_2
+"Usage: chargen [-udp] &lt;hostname&gt;"	,	lr_4
+setDefaultTimeout	,	vr_4
+flush	,	vr_20
+chargenTCP	,	fn_1
+host	,	vr_1
+getByName	,	vr_12
+client	,	vr_3
+lines	,	vr_2
+write	,	vr_19
+close	,	vr_21
+connect	,	vr_5
+CharGenUDPClient	,	tp_3
+receive	,	vr_16
+address	,	vr_11
+InputStreamReader	,	fn_2
+err	,	vr_18
+printStackTrace	,	vr_22
+e	,	vr_17
+setSoTimeout	,	vr_14
+getInputStream	,	vr_7
+"SocketException: Timed out and dropped packet"	,	lr_1
+chargenInput	,	vr_6
+chargenUDP	,	fn_3
+"-udp"	,	lr_3
+CharGenTCPClient	,	tp_1
+InetAddress	,	tp_2
+send	,	vr_15
+open	,	vr_13

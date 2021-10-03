@@ -1,0 +1,37 @@
+"Hello World!\r"	,	lr_4
+testSingleDotWithTrailingText	,	fn_15
+"#"	,	lr_13
+testEmbeddedNewlines	,	fn_6
+testDoubleCrBeforeDot	,	fn_7
+"Hello World#more#"	,	lr_14
+reader	,	vl_2
+testEmbeddedDot1	,	fn_9
+"Hello World\r.\nmore#"	,	lr_15
+"Hello World!"	,	lr_1
+testLeadingDot	,	fn_8
+testEmbeddedDot2	,	fn_10
+testEmbeddedDot3	,	fn_11
+testEmbeddedDot4	,	fn_12
+StringReader	,	fn_3
+"Hello World."	,	lr_9
+testReadSimpleStringLfLineEnding	,	fn_5
+"Hello"	,	lr_2
+EOM	,	vl_1
+"Hello World\r.\nmore"	,	lr_11
+read	,	vr_2
+"Hello .. World!"	,	lr_8
+"Hello World"	,	lr_12
+test	,	vr_1
+"..text"	,	lr_5
+"Hello . World!"	,	lr_7
+testReadLine1	,	fn_13
+assertEquals	,	fn_4
+testReadLine2	,	fn_14
+".text"	,	lr_6
+str	,	vr_3
+buf	,	vl_3
+"more"	,	lr_10
+CRLF	,	vl_4
+testReadSimpleStringCrLfLineEnding	,	fn_1
+DotTerminatedMessageReader	,	fn_2
+"World\nA\rB"	,	lr_3

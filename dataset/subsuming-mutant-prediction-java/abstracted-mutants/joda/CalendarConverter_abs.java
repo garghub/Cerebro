@@ -1,0 +1,37 @@
+public tp_1 fn_1 ( Object object , tp_1 vr_1 ) {
+if ( vr_1 != null ) {
+return vr_1 ;
+}
+tp_2 vr_2 = ( tp_2 ) object ;
+tp_3 vr_3 = null ;
+try {
+vr_3 = tp_3 . vr_4 ( vr_2 . vr_5 () ) ;
+} catch ( IllegalArgumentException vr_6 ) {
+vr_3 = tp_3 . vr_7 () ;
+}
+return fn_1 ( vr_2 , vr_3 ) ;
+}
+public tp_1 fn_1 ( Object object , tp_3 vr_3 ) {
+if ( object . getClass () . fn_2 () . fn_3 ( lr_1 ) ) {
+return vr_8 . vr_9 ( vr_3 ) ;
+} else if ( object instanceof vl_1 ) {
+vl_1 vr_10 = ( vl_1 ) object ;
+long vr_11 = vr_10 . vr_12 () . fn_4 () ;
+if ( vr_11 == Long . vr_13 ) {
+return vr_14 . vr_9 ( vr_3 ) ;
+} else if ( vr_11 == Long . vr_15 ) {
+return vr_16 . vr_9 ( vr_3 ) ;
+} else {
+return vr_17 . vr_9 ( vr_3 , vr_11 , 4 ) ;
+}
+} else {
+return vr_18 . vr_9 ( vr_3 ) ;
+}
+}
+public long fn_5 ( Object object , tp_1 vr_1 ) {
+tp_2 vr_19 = ( tp_2 ) object ;
+return vr_19 . fn_4 () . fn_4 () ;
+}
+public Class < ? > fn_6 () {
+return tp_2 . class ;
+}

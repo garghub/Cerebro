@@ -1,0 +1,72 @@
+"Should NOT have user execute permission."	,	lr_7
+MONTH	,	vr_24
+df	,	vr_31
+getName	,	vr_19
+"Should have user read permission."	,	lr_5
+setDefaultDateFormatStr	,	vr_3
+FTPFile	,	tp_3
+"Should have group write permission."	,	lr_21
+YEAR	,	vr_30
+WORLD_ACCESS	,	vr_15
+isSymbolicLink	,	vr_35
+assertNotNull	,	fn_2
+parseFTPEntry	,	vr_7
+MINUTE	,	vr_28
+EXECUTE_PERMISSION	,	vr_13
+"Should NOT have world write permission."	,	lr_12
+"ravensm"	,	lr_14
+USER_ACCESS	,	vr_10
+"dd MMM HH:mm"	,	lr_1
+"Should NOT have group execute permission."	,	lr_10
+UnixFTPEntryParser	,	tp_2
+format	,	vr_32
+"Should have world read permission."	,	lr_23
+WRITE_PERMISSION	,	vr_12
+"Should have group read permission."	,	lr_8
+"Should NOT have world read permission."	,	lr_11
+"Should have world execute permission."	,	lr_25
+parser	,	vr_4
+GROUP_ACCESS	,	vr_14
+hasPermission	,	vr_9
+getGroup	,	vr_18
+"Should have user execute permission."	,	lr_20
+isDirectory	,	vr_8
+DAY_OF_MONTH	,	vr_26
+getTime	,	vr_33
+FTPClientConfig	,	tp_1
+assertFalse	,	fn_3
+getUser	,	vr_17
+"sca"	,	lr_15
+"Should have group execute permission."	,	lr_22
+"Could not parse entry."	,	lr_3
+cal	,	vr_21
+testParseEntryWithSymlink	,	fn_6
+getHardLinkCount	,	vr_16
+assertTrue	,	fn_4
+HOUR_OF_DAY	,	vr_27
+getTimestamp	,	vr_34
+SYST_UNIX	,	vr_2
+"Should have user write permission."	,	lr_6
+"neeme"	,	lr_26
+"lrwxrwxrwx   1 neeme neeme    23 2005-03-02 18:06 macros"	,	lr_18
+"ZMIR2.m"	,	lr_16
+set	,	vr_23
+"macros"	,	lr_27
+f	,	vr_6
+Calendar	,	tp_4
+"Should have world write permission."	,	lr_24
+"-rw-r-----   1 ravensm  sca          814 02 Mar 16:27 ZMIR2.m"	,	lr_2
+READ_PERMISSION	,	vr_11
+"Is a symbolic link"	,	lr_19
+testParseFieldsOnAIX	,	fn_1
+"Is not a directory."	,	lr_4
+assertEquals	,	fn_5
+configure	,	vr_5
+"Should NOT have group write permission."	,	lr_9
+"yyyy-MM-dd HH:mm"	,	lr_17
+"Should NOT have world execute permission."	,	lr_13
+getSize	,	vr_20
+MARCH	,	vr_25
+SECOND	,	vr_29
+getInstance	,	vr_22
+config	,	vr_1

@@ -1,0 +1,82 @@
+disconnect	,	vr_25
+"Getting messages: "	,	lr_12
+mbox	,	vr_30
+lookingAt	,	vr_47
+number	,	vr_29
+password	,	vr_8
+logout	,	vr_27
+split	,	fn_1
+writeMbox	,	fn_5
+"Connecting to server "	,	lr_6
+".eml"	,	lr_14
+write	,	vr_38
+"Could not login to server.  Check password."	,	lr_9
+pat	,	vr_44
+" on "	,	lr_7
+printStackTrace	,	vr_23
+argCount	,	vr_3
+StandardCharsets	,	vr_34
+count	,	vr_28
+format	,	vr_42
+received	,	vr_41
+matcher	,	vr_46
+input	,	vr_43
+PATFROM	,	vl_1
+port	,	vr_17
+pop3	,	vr_16
+"-F"	,	lr_1
+arg0	,	vr_5
+proto	,	vr_13
+FileOutputStream	,	fn_3
+replyTo	,	vr_40
+ISO_8859_1	,	vr_35
+File	,	tp_3
+"EEE MMM dd HH:mm:ss YYYY"	,	lr_17
+isDirectory	,	vr_31
+status	,	vr_26
+server	,	vr_6
+implicit	,	vr_14
+"Could not retrieve status."	,	lr_10
+"Could not retrieve password: "	,	lr_4
+"Status: "	,	lr_11
+DATE_FORMAT	,	vr_39
+Matcher	,	tp_8
+parseBoolean	,	vr_15
+POP3Client	,	tp_1
+":"	,	lr_3
+login	,	vr_24
+"Usage: POP3Mail [-F file/directory] &lt;server[:port]&gt; &lt;username&gt; &lt;password|-|*|VARNAME&gt; [TLS [true=implicit]]"	,	lr_2
+fw	,	vr_33
+file	,	vr_2
+setDefaultTimeout	,	vr_20
+"Could not connect to server."	,	lr_8
+retrieveMessage	,	vr_37
+writeFile	,	fn_4
+connect	,	vr_21
+POP3SClient	,	fn_2
+POP3MessageInfo	,	tp_2
+Pattern	,	tp_7
+err	,	vr_4
+getDefaultPort	,	vr_19
+e	,	vr_22
+getMessage	,	vr_12
+i	,	vr_32
+e1	,	vr_11
+"MAILER-DAEMON"	,	lr_18
+m	,	vr_45
+Date	,	tp_6
+"From "	,	lr_19
+parseInt	,	vr_18
+getPassword	,	vr_10
+r	,	vr_36
+"&gt;"	,	lr_20
+Utils	,	vr_9
+"Writing dir: "	,	lr_13
+"Using secure protocol: "	,	lr_5
+OutputStreamWriter	,	tp_4
+argIdx	,	vr_1
+SimpleDateFormat	,	tp_5
+"Writing file: "	,	lr_15
+"\n"	,	lr_16
+username	,	vr_7
+startsWith	,	fn_6

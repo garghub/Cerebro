@@ -1,0 +1,48 @@
+testReader_1	,	fn_5
+rdr	,	vr_8
+expectedBytes	,	vl_9
+testNET550_Reader	,	fn_9
+dst	,	vl_6
+testcloseQuietly	,	fn_1
+Closeable	,	vl_1
+listener	,	vr_9
+Reader	,	tp_1
+copyReader	,	vr_4
+source	,	vl_3
+dest	,	vl_4
+expectedSize	,	vl_8
+testStream0	,	fn_6
+bytesTransferredTotal	,	vr_16
+testStream1	,	fn_7
+"Wrong streamSize"	,	lr_2
+Test	,	df_1
+event	,	vr_12
+CSL	,	fn_3
+expectedTotal	,	vl_7
+"Wrong totalBytesTransferred total"	,	lr_4
+testReader1	,	fn_4
+bytesTransferred	,	fn_13
+totalBytesTransferred	,	vr_13
+testReader0	,	fn_2
+src	,	vl_5
+InputStream	,	tp_3
+"Total should equal sum of parts"	,	lr_5
+streamSize	,	vr_2
+is	,	vr_11
+assertEquals	,	vr_14
+checkExpected	,	vr_10
+"Wrong total"	,	lr_1
+CharArrayReader	,	fn_10
+CSLtotal	,	tp_2
+"Wrong bytes"	,	lr_3
+bufflen	,	vr_7
+testNET550_Stream	,	fn_11
+ByteArrayInputStream	,	fn_12
+totalBytesTransferredTotal	,	vr_15
+copyStream	,	vr_5
+testStream_1	,	fn_8
+closeQuietly	,	vr_1
+CopyStreamEvent	,	tp_4
+buff	,	vr_6
+Socket	,	vl_2
+bufferSize	,	vr_3

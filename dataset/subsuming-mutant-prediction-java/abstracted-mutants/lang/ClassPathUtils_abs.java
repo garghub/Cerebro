@@ -1,0 +1,20 @@
+public static String fn_1 ( final Class < ? > vr_1 , final String vr_2 ) {
+vr_3 . vr_4 ( vr_1 , lr_1 , lr_2 ) ;
+vr_3 . vr_4 ( vr_2 , lr_1 , lr_3 ) ;
+return fn_1 ( vr_1 . vr_5 () , vr_2 ) ;
+}
+public static String fn_1 ( final Package vr_1 , final String vr_2 ) {
+vr_3 . vr_4 ( vr_1 , lr_1 , lr_2 ) ;
+vr_3 . vr_4 ( vr_2 , lr_1 , lr_3 ) ;
+return vr_1 . vr_6 () + lr_4 + vr_2 ;
+}
+public static String fn_2 ( final Class < ? > vr_1 , final String vr_2 ) {
+vr_3 . vr_4 ( vr_1 , lr_1 , lr_2 ) ;
+vr_3 . vr_4 ( vr_2 , lr_1 , lr_3 ) ;
+return fn_2 ( vr_1 . vr_5 () , vr_2 ) ;
+}
+public static String fn_2 ( final Package vr_1 , final String vr_2 ) {
+vr_3 . vr_4 ( vr_1 , lr_1 , lr_2 ) ;
+vr_3 . vr_4 ( vr_2 , lr_1 , lr_3 ) ;
+return vr_1 . vr_6 () . fn_3 ( '.' , '/' ) + lr_5 + vr_2 ;
+}

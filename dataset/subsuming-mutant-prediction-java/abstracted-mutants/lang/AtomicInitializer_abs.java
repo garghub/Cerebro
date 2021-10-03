@@ -1,0 +1,11 @@
+@Override
+public tp_1 get () throws vl_1 {
+tp_1 vr_1 = vr_2 . get () ;
+if ( vr_1 == null ) {
+vr_1 = fn_1 () ;
+if ( ! vr_2 . vr_3 ( null , vr_1 ) ) {
+vr_1 = vr_2 . get () ;
+}
+}
+return vr_1 ;
+}

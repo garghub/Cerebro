@@ -1,0 +1,25 @@
+@Override
+public String fn_1 ( final String vr_1 ) {
+switch ( vr_1 ) {
+case lr_1 :
+try {
+return vr_2 . vr_3 () . fn_2 () ;
+} catch ( final tp_1 vr_4 ) {
+return null ;
+}
+case lr_2 :
+try {
+return vr_2 . vr_3 () . fn_3 () ;
+} catch ( final tp_1 vr_4 ) {
+return null ;
+}
+case lr_3 :
+try {
+return vr_2 . vr_3 () . fn_4 () ;
+} catch ( final tp_1 vr_4 ) {
+return null ;
+}
+default:
+throw new IllegalArgumentException ( vr_1 ) ;
+}
+}

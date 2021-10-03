@@ -1,0 +1,32 @@
+@Override
+protected void fn_1 ()
+{
+vl_1 = new fn_2 () ;
+vl_2 = new fn_2 ( true , true , true , true ) ;
+vl_3 = new fn_2 ( false , false , false , false ) ;
+}
+@Override
+public void fn_3 ()
+{
+fn_4 ( vl_1 . vr_1 () , vr_2 . vr_3 ) ;
+super . fn_3 () ;
+}
+@Override
+public void fn_5 ()
+{
+final int vr_4 [] = vl_1 . vr_5 () ;
+final int vr_6 [] = vl_1 . vr_7 () ;
+fn_4 ( vr_4 , null ) ;
+fn_4 ( vr_6 , null ) ;
+}
+@Override
+public void fn_6 ()
+{
+final int vr_8 [] =
+{
+vr_9 . vr_10 , vr_9 . vr_11 , vr_2 . vr_3 ,
+1 , vr_9 . vr_10 , vr_9 . vr_12 ,
+} ;
+final int vr_4 [] = vl_1 . vr_13 ( vr_8 , vr_8 . length ) ;
+fn_4 ( vr_4 , null ) ;
+}

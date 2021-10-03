@@ -1,0 +1,40 @@
+@Override
+public String fn_1 ( long vr_1 ) {
+return lr_1 ;
+}
+@Override
+public int fn_2 ( long vr_1 ) {
+return 0 ;
+}
+@Override
+public int fn_3 ( long vr_1 ) {
+return 0 ;
+}
+@Override
+public int fn_4 ( long vr_2 ) {
+return 0 ;
+}
+@Override
+public boolean fn_5 () {
+return true ;
+}
+@Override
+public long fn_6 ( long vr_1 ) {
+return vr_1 ;
+}
+@Override
+public long fn_7 ( long vr_1 ) {
+return vr_1 ;
+}
+@Override
+public vr_3 . util . vr_4 fn_8 () {
+return new vr_3 . util . vr_5 ( 0 , fn_9 () ) ;
+}
+@Override
+public boolean equals ( Object vr_6 ) {
+return ( vr_6 instanceof vl_1 ) ;
+}
+@Override
+public int fn_10 () {
+return fn_9 () . fn_10 () ;
+}

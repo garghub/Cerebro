@@ -1,0 +1,102 @@
+public static < vt_1 extends tp_1 > vt_1 fn_1 ( final vt_1 object ) {
+if ( object == null ) {
+return null ;
+}
+final byte [] vr_1 = fn_2 ( object ) ;
+final tp_2 vr_2 = new tp_2 ( vr_1 ) ;
+tp_3 vr_3 = null ;
+try {
+vr_3 = new tp_3 ( vr_2 , object . getClass () . fn_3 () ) ;
+@SuppressWarnings ( lr_1 )
+final vt_1 vr_4 = ( vt_1 ) vr_3 . vr_4 () ;
+return vr_4 ;
+} catch ( final tp_4 vr_5 ) {
+throw new fn_4 ( lr_2 , vr_5 ) ;
+} catch ( final IOException vr_5 ) {
+throw new fn_4 ( lr_3 , vr_5 ) ;
+} finally {
+try {
+if ( vr_3 != null ) {
+vr_3 . vr_6 () ;
+}
+} catch ( final IOException vr_5 ) {
+throw new fn_4 ( lr_4 , vr_5 ) ;
+}
+}
+}
+@SuppressWarnings ( lr_1 )
+public static < vt_1 extends tp_1 > vt_1 fn_5 ( final vt_1 vr_7 ) {
+return ( vt_1 ) vr_8 . vr_9 ( vr_8 . fn_2 ( vr_7 ) ) ;
+}
+public static void fn_2 ( final tp_1 vr_10 , final tp_5 vr_11 ) {
+if ( vr_11 == null ) {
+throw new IllegalArgumentException ( lr_5 ) ;
+}
+tp_6 out = null ;
+try {
+out = new tp_6 ( vr_11 ) ;
+out . vr_12 ( vr_10 ) ;
+} catch ( final IOException vr_5 ) {
+throw new fn_4 ( vr_5 ) ;
+} finally {
+try {
+if ( out != null ) {
+out . vr_6 () ;
+}
+} catch ( final IOException vr_5 ) {
+}
+}
+}
+public static byte [] fn_2 ( final tp_1 vr_10 ) {
+final tp_7 vr_13 = new tp_7 ( 512 ) ;
+fn_2 ( vr_10 , vr_13 ) ;
+return vr_13 . vr_14 () ;
+}
+public static < vt_1 > vt_1 vr_9 ( final tp_8 vr_15 ) {
+if ( vr_15 == null ) {
+throw new IllegalArgumentException ( lr_6 ) ;
+}
+tp_9 vr_3 = null ;
+try {
+vr_3 = new tp_9 ( vr_15 ) ;
+@SuppressWarnings ( lr_1 )
+final vt_1 vr_10 = ( vt_1 ) vr_3 . vr_4 () ;
+return vr_10 ;
+} catch ( final tp_10 vr_5 ) {
+throw new fn_4 ( vr_5 ) ;
+} catch ( final tp_4 vr_5 ) {
+throw new fn_4 ( vr_5 ) ;
+} catch ( final IOException vr_5 ) {
+throw new fn_4 ( vr_5 ) ;
+} finally {
+try {
+if ( vr_3 != null ) {
+vr_3 . vr_6 () ;
+}
+} catch ( final IOException vr_5 ) {
+}
+}
+}
+public static < vt_1 > vt_1 vr_9 ( final byte [] vr_1 ) {
+if ( vr_1 == null ) {
+throw new IllegalArgumentException ( lr_7 ) ;
+}
+return vr_8 . <vt_1 > vr_9 ( new tp_2 ( vr_1 ) ) ;
+}
+@Override
+protected Class < ? > fn_6 ( final tp_11 vr_16 ) throws IOException , tp_4 {
+final String vr_17 = vr_16 . vr_18 () ;
+try {
+return Class . vr_19 ( vr_17 , false , vl_1 ) ;
+} catch ( final tp_4 vr_5 ) {
+try {
+return Class . vr_19 ( vr_17 , false , vr_20 . vr_21 () . fn_7 () ) ;
+} catch ( final tp_4 vr_22 ) {
+final Class < ? > vr_23 = vr_24 . get ( vr_17 ) ;
+if ( vr_23 != null ) {
+return vr_23 ;
+}
+throw vr_22 ;
+}
+}
+}

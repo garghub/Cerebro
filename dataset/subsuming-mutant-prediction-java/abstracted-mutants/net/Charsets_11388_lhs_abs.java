@@ -1,0 +1,6 @@
+public static tp_1 fn_1 ( final String vr_1 ) {
+return vr_1 == null ? tp_1 . vr_2 () : tp_1 . vr_3 ( vr_1 ) ; MST[NegateConditionalsMutator]MSP[]
+}
+public static tp_1 fn_1 ( final String vr_1 , final String vr_4 ) {
+return vr_1 == null ? tp_1 . vr_3 ( vr_4 ) : tp_1 . vr_3 ( vr_1 ) ;
+}

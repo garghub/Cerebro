@@ -1,0 +1,40 @@
+@df_1
+@SuppressWarnings ( lr_1 )
+public void fn_1 () {
+final tp_1 vr_1 = new tp_1 () ;
+final vr_2 [] vr_3 = null ;
+Assert . vr_4 ( vr_1 . vr_5 ( vr_3 ) ) ;
+}
+@df_1
+public void fn_2 () {
+final tp_1 vr_1 = new tp_1 () ;
+final List < vr_2 > vr_3 = null ;
+Assert . vr_4 ( vr_1 . vr_5 ( vr_3 ) ) ;
+}
+@df_1
+public void fn_3 () {
+final tp_1 vr_1 = new tp_1 () ;
+final vr_6 < vr_2 > vr_3 = null ;
+Assert . vr_4 ( vr_1 . vr_5 ( vr_3 ) ) ;
+}
+@SuppressWarnings ( lr_1 )
+@df_1
+public void fn_4 () {
+final tp_1 vr_1 = new tp_1 () ;
+final vr_2 [] vr_3 = new vr_2 [ 0 ] ;
+Assert . vr_4 ( vr_1 . vr_5 ( vr_3 ) ) ;
+}
+@df_1
+public void fn_5 () {
+final tp_1 vr_1 = new tp_1 () ;
+final vr_2 [] vr_3 = new vr_2 [ 0 ] ;
+final List < vr_2 > vr_7 = vr_8 . vr_7 ( vr_3 ) ;
+Assert . vr_4 ( vr_1 . vr_5 ( vr_7 ) ) ;
+}
+@df_1
+public void fn_6 () {
+final tp_1 vr_1 = new tp_1 () ;
+final vr_2 [] vr_3 = new vr_2 [ 0 ] ;
+final vr_6 < vr_2 > vr_7 = vr_8 . vr_7 ( vr_3 ) ;
+Assert . vr_4 ( vr_1 . vr_5 ( vr_7 ) ) ;
+}

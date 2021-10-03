@@ -1,0 +1,67 @@
+msg	,	vr_3
+date	,	vr_10
+Locale	,	vr_14
+"^(Date: (.+))$"	,	lr_15
+"EEE, dd MMM yyyy HH:mm:ss Z"	,	lr_16
+" should be before "	,	lr_18
+"From: from@here.invalid\nTo: to@there.invalid\nSubject: Test email\n\n"	,	lr_4
+"X-Header2"	,	lr_9
+afterDate	,	vr_21
+compile	,	vr_5
+Test	,	df_2
+assertNotNull	,	fn_5
+find	,	vr_9
+setUp	,	fn_1
+"From: from@here.invalid\nTo: to@there.invalid\n\n"	,	lr_5
+group	,	vr_11
+pat	,	vr_4
+expected	,	vl_3
+format	,	vr_13
+"X-Header1: value 1\nX-Header2: value 2\nFrom: from@here.invalid\n\n"	,	lr_11
+testToStringNoFrom	,	fn_9
+matcher	,	vr_8
+beforeDate	,	vl_1
+fail	,	fn_13
+testToString	,	fn_4
+header	,	vl_2
+addHeaderField	,	vr_2
+afterDateSecs	,	vr_22
+MULTILINE	,	vr_6
+Before	,	df_1
+""	,	lr_19
+testToStringAddHeader	,	fn_11
+sentSecs	,	vr_18
+"Date"	,	lr_12
+Matcher	,	tp_2
+getTime	,	vr_19
+"dummy date"	,	lr_13
+"Expecting Date header in "	,	lr_20
+pattern	,	vr_12
+"value 1"	,	lr_8
+"Date: dummy date\nFrom: from@here.invalid\n\n"	,	lr_14
+substring	,	vr_26
+sentDate	,	vr_16
+"to@there.invalid"	,	lr_2
+end	,	vr_25
+beforeDateSecs	,	vr_20
+SimpleSMTPHeader	,	fn_3
+" should be after "	,	lr_17
+Pattern	,	tp_1
+"Test email"	,	lr_3
+testToStringAddHeaderDate	,	fn_12
+ENGLISH	,	vr_15
+e	,	vr_23
+start	,	vr_24
+"value 2"	,	lr_10
+assertEquals	,	fn_6
+parse	,	vr_17
+checkDate	,	fn_7
+m	,	vr_7
+Date	,	fn_2
+"X-Header1"	,	lr_7
+testToStringNoTo	,	fn_10
+"from@here.invalid"	,	lr_1
+hdr	,	vr_1
+"From: from@here.invalid\n\n"	,	lr_6
+SimpleDateFormat	,	tp_3
+testToStringNoSubject	,	fn_8

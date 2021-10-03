@@ -1,0 +1,146 @@
+"drwx------ 4 maxm Domain Users 512 Oct 2 10:59 abc(test)123.pdf"	,	lr_23
+testParseFieldsOnFileJapaneseYear	,	fn_28
+MONTH	,	vr_11
+"abc(test)123.pdf"	,	lr_24
+"Should have user read permission."	,	lr_39
+"-rw-r--r--   1 ftpuser  ftpusers 12414535 Mar 17 11:07 test 1999 abc.pdf"	,	lr_27
+goodsamples	,	vl_2
+FTPFile	,	tp_2
+"Expected to find a timestamp"	,	lr_57
+"Timestamp not null"	,	lr_52
+"Timestamp should not be null"	,	lr_13
+UNKNOWN_TYPE	,	vr_48
+YEAR	,	vr_10
+WORLD_ACCESS	,	vr_39
+assertNotNull	,	fn_4
+DIRECTORY_TYPE	,	vr_24
+doAdditionalGoodTests	,	fn_29
+parseFTPEntry	,	vr_6
+"zxbox"	,	lr_22
+EXECUTE_PERMISSION	,	vr_37
+testNumericDateFormat	,	fn_3
+"Should NOT have world write permission."	,	lr_46
+testTrailingSpaces	,	fn_11
+"Should have been a directory."	,	lr_37
+USER_ACCESS	,	vr_34
+"Should have world read permission."	,	lr_45
+"chrism"	,	lr_26
+"Should have group read permission."	,	lr_42
+"ftp"	,	lr_11
+testTrimLeadingSpacesNET566	,	fn_14
+testDefaultPrecision	,	fn_25
+"drwxr-x---+1464 chrism   chrism     41472 Feb 25 13:17 20090225"	,	lr_25
+"Should have world execute permission."	,	lr_47
+"john smith"	,	lr_7
+GROUP_ACCESS	,	vr_38
+hasPermission	,	vr_33
+"Failed to parse "	,	lr_3
+"Should have user execute permission."	,	lr_41
+testNoSpacesBeforeFileSize	,	fn_16
+testLeadingSpacesDefault	,	fn_12
+testParseFieldsOnFile	,	fn_26
+testCorrectGroupNameParsing	,	fn_17
+access	,	vr_49
+DAY_OF_MONTH	,	vr_13
+"my group 500"	,	lr_50
+badsamples	,	vl_1
+testFilenamesWithEmbeddedNumbers	,	fn_18
+"ftpuser"	,	lr_28
+getHardLinkCount	,	vr_25
+assertTrue	,	fn_20
+linklen	,	vr_44
+pos	,	vr_51
+permchar	,	vr_52
+"123 456 abc.csv"	,	lr_32
+"Should have user write permission."	,	lr_40
+"lrwxrwxrwx   1 neeme neeme    23 2005-03-02 18:06 macros -&gt; ./../../global/macros/."	,	lr_2
+"drwxr-xr-x   2 john smith     test group         4096 Mar  2 15:13 zxbox"	,	lr_8
+set	,	vr_9
+isFile	,	vr_40
+f	,	vr_5
+Calendar	,	tp_3
+"drwxr-xr-x   2 john smith     group         4096 Mar  2 15:13 zxbox"	,	lr_6
+READ_PERMISSION	,	vr_35
+isUpperCase	,	vr_54
+assertEquals	,	fn_5
+testNameWIthPunctuation	,	fn_15
+"Should NOT have group write permission."	,	lr_43
+"drwxr-xr-x   2 john smith     group         4096 Mar  2 15:13 zxbox     "	,	lr_18
+MARCH	,	vr_26
+MILLISECOND	,	vr_28
+FILE_TYPE	,	vr_47
+"drwxr-xr-x   2 user     group         4096 Mar  2 2014 zxbox"	,	lr_38
+"user"	,	lr_33
+"-rwxrwx---   1 ftp      ftp-admin 816026400 Oct  5  2008 bloplab 7 cd1.img"	,	lr_10
+"zxbox     "	,	lr_19
+df	,	vr_30
+getName	,	vr_23
+before	,	fn_22
+"drwxr-xr-x   2 john smith     group         4096 Mar  2 15:13   zxbox"	,	lr_20
+f2	,	vr_18
+testOwnerNameWithSpaces	,	fn_7
+testNET294	,	fn_9
+testNumericDF2	,	vr_2
+"Type of "	,	lr_55
+"test group"	,	lr_9
+testParseFieldsOnFileJapaneseTime	,	fn_27
+FTPFileEntryParser	,	tp_4
+"bloplab 7 cd1.img"	,	lr_14
+MINUTE	,	vr_15
+testGroupNameWithSpaces	,	fn_10
+"symbolic link"	,	lr_4
+testParseFieldsOnDirectory	,	fn_19
+"Should have been a file."	,	lr_49
+test	,	vr_42
+Character	,	vr_53
+UnixFTPEntryParser	,	tp_1
+checkPermissions	,	fn_21
+format	,	vr_31
+WRITE_PERMISSION	,	vr_36
+"\u8a66\u9a13\u30d5\u30a1\u30a4\u30eb.csv"	,	lr_54
+"Permission "	,	lr_56
+DATE	,	vr_41
+"Domain Users"	,	lr_17
+getGoodListing	,	fn_2
+parser	,	vr_3
+getGroup	,	vr_21
+testLeadingSpacesNET566	,	fn_13
+isDirectory	,	vr_29
+CalendarUnit	,	vr_32
+perm	,	vr_50
+getTime	,	vr_16
+getUser	,	vr_20
+link	,	vr_43
+testNumericDF	,	vr_1
+"Should have group execute permission."	,	lr_44
+"Could not parse entry."	,	lr_36
+"./../../global/macros/."	,	lr_5
+substring	,	vr_45
+cal	,	vr_7
+HOUR_OF_DAY	,	vr_14
+"-rw-r-----   1 neeme neeme   346 2005-04-08 11:22 services.vsp"	,	lr_1
+getTimestamp	,	vr_17
+getParser	,	fn_6
+testRecentPrecision	,	fn_23
+"drwx------ 4 maxm Domain Users 512 Oct 2 10:59 .metadata"	,	lr_15
+"-rwxr-xr-x 2 user group 4096 3\u6708 2\u65e5 15:13 zxbox"	,	lr_51
+APRIL	,	vr_12
+SYMBOLIC_LINK_TYPE	,	vr_46
+"maxm"	,	lr_16
+getBadListing	,	fn_1
+"ftpusers"	,	lr_29
+testPrecision	,	fn_24
+"  zxbox"	,	lr_21
+"test 1999 abc.pdf"	,	lr_30
+NUMERIC_DATE_CONFIG	,	vr_4
+testOwnerAndGroupNameWithSpaces	,	fn_8
+getLink	,	vr_19
+getSize	,	vr_22
+"-rw-rw-rw-   1 user group 5840 Mar 19 09:34 123 456 abc.csv"	,	lr_31
+"group"	,	lr_34
+"drwxr-xr-x   2 user     group         4096 Mar  2 15:13 zxbox"	,	lr_35
+SECOND	,	vr_27
+"-rwxr-xr-x 2 user group 4096 3\u6708 2\u65e5 2003\u5e74 \u8a66\u9a13\u30d5\u30a1\u30a4\u30eb.csv"	,	lr_53
+getInstance	,	vr_8
+"ftp-admin"	,	lr_12
+"-rwxr-xr-x   2 user     my group 500        5000000000 Mar  2 15:13 zxbox"	,	lr_48

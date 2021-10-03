@@ -1,0 +1,48 @@
+"Stopwatch already started. "	,	lr_2
+"Illegal running state has occurred."	,	lr_7
+IllegalStateException	,	fn_5
+"Stopwatch is not running. "	,	lr_3
+splitState	,	vr_14
+UNSPLIT	,	vr_16
+formatDurationHMS	,	vr_19
+startTimeMillis	,	vr_9
+"Stopwatch has not been started"	,	lr_9
+getTime	,	fn_12
+getNanoTime	,	fn_13
+getSplitNanoTime	,	fn_16
+DurationFormatUtils	,	vr_18
+SPLIT	,	vr_17
+SplitState	,	vr_15
+split	,	fn_8
+RuntimeException	,	fn_14
+STOPPED	,	vr_5
+unsplit	,	fn_9
+getSplitTime	,	fn_15
+nanoTime	,	vr_8
+"Stopwatch has not been split. "	,	lr_4
+startTime	,	vr_7
+stopTime	,	vr_13
+getStartTime	,	fn_17
+"Stopwatch must be reset before being restarted. "	,	lr_1
+suspend	,	fn_10
+resume	,	fn_11
+NANO_2_MILLIS	,	vl_1
+isStopped	,	fn_3
+isSuspended	,	fn_4
+UNSTARTED	,	vr_6
+sw	,	vr_1
+toSplitString	,	fn_18
+RUNNING	,	vr_11
+start	,	vr_2
+isStarted	,	fn_2
+"Stopwatch must be suspended to resume. "	,	lr_6
+StopWatch	,	tp_1
+stop	,	fn_6
+"Stopwatch must be running to suspend. "	,	lr_5
+"Stopwatch must be split to get the split time. "	,	lr_8
+State	,	vr_4
+SUSPENDED	,	vr_12
+createStarted	,	fn_1
+currentTimeMillis	,	vr_10
+runningState	,	vr_3
+reset	,	fn_7

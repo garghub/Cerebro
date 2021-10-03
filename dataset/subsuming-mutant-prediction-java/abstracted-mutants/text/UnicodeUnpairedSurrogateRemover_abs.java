@@ -1,0 +1,7 @@
+@Override
+public boolean fn_1 ( final int vr_1 , final tp_1 out ) throws IOException {
+if ( vr_1 >= vr_2 . vr_3 && vr_1 <= vr_2 . vr_4 ) {
+return true ;
+}
+return false ;
+}

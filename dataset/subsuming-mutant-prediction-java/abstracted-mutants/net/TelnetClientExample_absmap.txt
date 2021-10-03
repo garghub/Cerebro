@@ -1,0 +1,119 @@
+disconnect	,	vr_44
+initlocal	,	vr_31
+acceptremote	,	vr_35
+OutputStream	,	tp_7
+ret_read	,	vr_20
+"TelnetClientExample"	,	lr_6
+"Type REGISTER to register a new SimpleOptionHandler"	,	lr_9
+"OPT"	,	lr_18
+instr	,	vr_54
+fout	,	vr_1
+"Usage: TelnetClientExample &lt;remote-ip&gt; [&lt;remote-port&gt;]"	,	lr_1
+write	,	vr_42
+"(optcode is an integer)"	,	lr_33
+stopSpyStream	,	vr_39
+RECEIVED_WONT	,	vr_52
+ii	,	vr_25
+in	,	vr_21
+opthand	,	vr_36
+"DONT"	,	lr_40
+"Type SPY to register the spy (connect to port 3333 to spy)"	,	lr_11
+matches	,	vr_40
+getInputStream	,	vr_55
+"SPY"	,	lr_34
+negotiation_code	,	vr_45
+outstr	,	vr_17
+deleteOptionHandler	,	vr_37
+TelnetNotificationHandler	,	vr_48
+RECEIVED_DONT	,	vr_50
+nextToken	,	vr_29
+"Type UNREGISTER to unregister an OptionHandler"	,	lr_10
+"Error registering option handlers: "	,	lr_5
+gaopt	,	vr_10
+SimpleOptionHandler	,	tp_9
+parseBoolean	,	vr_32
+acceptlocal	,	vr_34
+"Type AYT to send an AYT telnet command"	,	lr_7
+RECEIVED_DO	,	vr_49
+RECEIVED_WILL	,	vr_51
+"Use UNREGISTER optcode"	,	lr_32
+"AYT"	,	lr_14
+TerminalTypeOptionHandler	,	tp_2
+end_loop	,	vr_12
+connect	,	vr_13
+"spy.log"	,	lr_2
+"WILL"	,	lr_41
+st	,	vr_28
+" Remote Option "	,	lr_22
+RECEIVED_COMMAND	,	vr_53
+getLocalOptionState	,	vr_26
+err	,	vr_2
+e	,	vr_6
+getMessage	,	vr_7
+"AYT response:"	,	lr_16
+tc	,	vl_1
+Thread	,	tp_6
+registerNotifHandler	,	vr_15
+StringTokenizer	,	tp_8
+getOutputStream	,	vr_18
+"Exception waiting AYT response: "	,	lr_17
+buff	,	vr_19
+"REGISTER"	,	lr_23
+addOptionHandler	,	vr_11
+remoteip	,	vr_3
+registerSpyStream	,	vr_38
+"DO"	,	lr_39
+reader	,	vr_14
+EchoOptionHandler	,	tp_3
+run	,	fn_5
+opcode	,	vr_30
+"WONT"	,	lr_42
+InvalidTelnetOptionException	,	tp_5
+getRemoteOptionState	,	vr_27
+"Invalid REGISTER command."	,	lr_25
+sendAYT	,	vr_24
+toSend	,	vr_41
+receivedNegotiation	,	fn_4
+"Error unregistering option: "	,	lr_30
+read	,	vr_22
+TelnetClient	,	fn_1
+ttopt	,	vr_8
+"COMMAND"	,	lr_43
+"UNREGISTER"	,	lr_29
+"Error registering option: "	,	lr_24
+"Exception while reading socket:"	,	lr_46
+FileOutputStream	,	tp_1
+"Exception while closing telnet:"	,	lr_47
+"VT100"	,	lr_4
+"Sending AYT"	,	lr_15
+"Status of options:"	,	lr_19
+"Type UNSPY to stop spying the connection"	,	lr_12
+"Exception while opening the spy file: "	,	lr_3
+":"	,	lr_21
+"Exception while reading keyboard:"	,	lr_37
+"(optcode is an integer.)"	,	lr_27
+"^\\^[A-Z^]\\r?\\n?$"	,	lr_36
+"Exception while connecting:"	,	lr_38
+"Received "	,	lr_44
+"UNSPY"	,	lr_35
+TelnetClientExample	,	fn_2
+flush	,	vr_43
+" for option code "	,	lr_45
+SuppressGAOptionHandler	,	tp_4
+"Invalid UNREGISTER command."	,	lr_31
+initremote	,	vr_33
+remoteport	,	vr_4
+echoopt	,	vr_9
+"Use REGISTER optcode initlocal initremote acceptlocal acceptremote"	,	lr_26
+"Type OPT to print a report of status of options (0-24)"	,	lr_8
+intValue	,	fn_3
+InputStream	,	tp_10
+start	,	vr_16
+option_code	,	vr_46
+command	,	vr_47
+parseInt	,	vr_5
+print	,	vr_56
+"Type ^[A-Z] to send the control character; use ^^ to send ^"	,	lr_13
+"Local Option "	,	lr_20
+"(initlocal, initremote, acceptlocal, acceptremote are boolean)"	,	lr_28
+startsWith	,	vr_23

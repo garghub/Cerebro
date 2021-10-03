@@ -1,0 +1,20 @@
+public int get ( long vr_1 ) {
+int vr_2 = super . get ( vr_1 ) ;
+if ( vr_2 < vl_1 ) {
+vr_2 ++ ;
+}
+return vr_2 ;
+}
+public long fn_1 ( long vr_1 , int vr_2 ) {
+vr_3 . vr_4 ( this , vr_2 , vl_2 , fn_2 () ) ;
+if ( vr_2 <= vl_1 ) {
+vr_2 -- ;
+}
+return super . fn_1 ( vr_1 , vr_2 ) ;
+}
+public int fn_3 () {
+return vl_2 ;
+}
+private Object fn_4 () {
+return getType () . fn_5 ( vl_3 ) ;
+}

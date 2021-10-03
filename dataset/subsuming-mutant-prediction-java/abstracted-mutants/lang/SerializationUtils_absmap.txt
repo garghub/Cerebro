@@ -1,0 +1,51 @@
+msg	,	vr_7
+Serializable	,	tp_1
+ClassLoaderAwareObjectInputStream	,	tp_3
+getName	,	vr_18
+objectData	,	vr_1
+bais	,	vr_2
+OutputStream	,	tp_5
+"The InputStream must not be null"	,	lr_6
+"ClassNotFoundException while reading cloned object data"	,	lr_2
+ClassNotFoundException	,	tp_4
+"IOException while reading cloned object data"	,	lr_3
+currentThread	,	vr_21
+in	,	vr_3
+"The byte[] must not be null"	,	lr_7
+writeObject	,	vr_12
+inputStream	,	vr_15
+cls	,	vr_23
+readObject	,	vr_4
+serialize	,	fn_2
+ex	,	vr_5
+ByteArrayInputStream	,	tp_2
+resolveClass	,	fn_6
+getContextClassLoader	,	fn_7
+name	,	vr_17
+primitiveTypes	,	vr_24
+desc	,	vr_16
+classLoader	,	vl_1
+cnfe	,	vr_22
+"IOException on closing cloned object data InputStream."	,	lr_4
+getClassLoader	,	fn_3
+ObjectOutputStream	,	tp_6
+SerializationUtils	,	vr_8
+baos	,	vr_13
+T	,	vt_1
+outputStream	,	vr_11
+close	,	vr_6
+ObjectStreamClass	,	tp_11
+deserialize	,	vr_9
+SerializationException	,	fn_4
+forName	,	vr_19
+"unchecked"	,	lr_1
+InputStream	,	tp_8
+"The OutputStream must not be null"	,	lr_5
+ByteArrayOutputStream	,	tp_7
+Thread	,	vr_20
+roundtrip	,	fn_5
+obj	,	vr_10
+toByteArray	,	vr_14
+ClassCastException	,	tp_10
+clone	,	fn_1
+ObjectInputStream	,	tp_9

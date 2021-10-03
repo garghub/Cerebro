@@ -1,0 +1,60 @@
+public int fn_1 ( long vr_1 , long vr_2 ) {
+return vr_3 . vr_4 ( fn_2 ( vr_1 , vr_2 ) ) ;
+}
+public long fn_2 ( long vr_1 , long vr_2 ) {
+if ( vr_1 < vr_2 ) {
+return - fn_2 ( vr_2 , vr_1 ) ;
+}
+long vr_5 = ( vr_1 - vr_2 ) / vl_1 ;
+if ( add ( vr_2 , vr_5 ) < vr_1 ) {
+do {
+vr_5 ++ ;
+} while ( add ( vr_2 , vr_5 ) <= vr_1 );
+vr_5 -- ;
+} else if ( add ( vr_2 , vr_5 ) > vr_1 ) {
+do {
+vr_5 -- ;
+} while ( add ( vr_2 , vr_5 ) > vr_1 );
+}
+return vr_5 ;
+}
+public final tp_1 fn_3 () {
+return vl_2 ;
+}
+protected final long fn_4 () {
+return vl_1 ;
+}
+public boolean fn_5 () {
+return false ;
+}
+public long fn_6 () {
+return vl_1 ;
+}
+public int fn_7 ( long vr_6 , long vr_7 ) {
+return vr_8 . this
+. fn_1 ( vr_7 + vr_6 , vr_7 ) ;
+}
+public long fn_8 ( long vr_6 , long vr_7 ) {
+return vr_8 . this
+. fn_2 ( vr_7 + vr_6 , vr_7 ) ;
+}
+public long fn_9 ( int vr_9 , long vr_7 ) {
+return vr_8 . this . add ( vr_7 , vr_9 ) - vr_7 ;
+}
+public long fn_9 ( long vr_9 , long vr_7 ) {
+return vr_8 . this . add ( vr_7 , vr_9 ) - vr_7 ;
+}
+public long add ( long vr_7 , int vr_9 ) {
+return vr_8 . this . add ( vr_7 , vr_9 ) ;
+}
+public long add ( long vr_7 , long vr_9 ) {
+return vr_8 . this . add ( vr_7 , vr_9 ) ;
+}
+public int fn_1 ( long vr_1 , long vr_2 ) {
+return vr_8 . this
+. fn_1 ( vr_1 , vr_2 ) ;
+}
+public long fn_2 ( long vr_1 , long vr_2 ) {
+return vr_8 . this
+. fn_2 ( vr_1 , vr_2 ) ;
+}

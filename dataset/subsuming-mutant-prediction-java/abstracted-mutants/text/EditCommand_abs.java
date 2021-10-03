@@ -1,0 +1,3 @@
+protected tp_1 fn_1 () {
+return object ;
+}

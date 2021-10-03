@@ -1,0 +1,311 @@
+looksLikeUtf8	,	fn_30
+mimeBoundary	,	vr_72
+"Request has already been read"	,	lr_48
+InetSocketAddress	,	vr_62
+createHeaderMap	,	fn_63
+OutputStream	,	tp_17
+UncheckedIOException	,	fn_56
+"; "	,	lr_62
+Document	,	tp_11
+Validate	,	vr_11
+fixHeaderEncoding	,	fn_29
+followRedirects	,	fn_10
+CONTENT_TYPE	,	vl_7
+keyVal	,	vr_35
+getQuery	,	vr_145
+"URL must be specified to connect"	,	lr_33
+notNull	,	vr_15
+inputStream	,	vr_24
+"\""	,	lr_3
+Method	,	tp_7
+getContentLength	,	vr_91
+"Data map must not be null"	,	lr_10
+execute	,	fn_23
+Parser	,	tp_10
+"text/"	,	lr_40
+"Cookie map must not be null"	,	lr_17
+proxy	,	fn_6
+input	,	vr_50
+getHeaderField	,	vr_123
+filename	,	vr_23
+postDataCharset	,	fn_26
+"Content-Disposition: form-data; name=\""	,	lr_58
+scanHeaders	,	fn_34
+keyval	,	vr_64
+statusCode	,	fn_52
+setDoOutput	,	vr_112
+""	,	lr_22
+LOCATION	,	vl_5
+"Must supply a valid URL"	,	lr_5
+FORM_URL_ENCODED	,	vl_14
+executed	,	vr_101
+defaultCharset	,	vr_107
+"http"	,	lr_34
+cookies	,	fn_21
+"Only http &amp; https protocols supported"	,	lr_36
+sb	,	vr_139
+"Unhandled content type. Must be text/*, application/xml, or application/*+xml"	,	lr_41
+MULTIPART_FORM_DATA	,	vl_13
+Entry	,	vr_27
+ignoreContentType	,	fn_14
+T	,	tp_12
+requestBody	,	fn_18
+nanoTime	,	vr_74
+"\"\r\nContent-Type: "	,	lr_60
+"http:/"	,	lr_38
+URLEncoder	,	vr_137
+"Cookie"	,	lr_49
+close	,	vr_114
+connect	,	fn_1
+key	,	vr_19
+getHeaderFieldKey	,	vr_122
+cd	,	vr_124
+e	,	vr_4
+"boundary"	,	lr_53
+Connection	,	tp_1
+i	,	vr_34
+Charset	,	vr_65
+createConnection	,	fn_44
+HttpStatusException	,	fn_46
+j	,	vr_52
+o	,	vr_53
+isTrue	,	vr_33
+"Request must not be null"	,	lr_32
+u	,	vr_3
+byteData	,	vr_98
+w	,	vr_131
+setOutputContentType	,	fn_43
+"Set-Cookie"	,	lr_50
+OutputStreamWriter	,	fn_66
+wrap	,	vr_96
+encode	,	vr_138
+resolve	,	vr_85
+POST	,	vr_40
+ConstrainableInputStream	,	vr_95
+getBytes	,	vr_49
+DataUtil	,	vr_89
+HTTP_TEMP_REDIR	,	vl_6
+releaseBuilder	,	vr_141
+post	,	fn_24
+lowerCase	,	fn_36
+SSLSocketFactory	,	tp_8
+Collections	,	vr_57
+encodeUrl	,	fn_3
+req	,	vr_10
+getKey	,	vr_30
+res	,	vr_38
+TokenQueue	,	tp_16
+USER_AGENT	,	vl_1
+openConnection	,	fn_60
+"\r\n\r\n"	,	lr_61
+"InputStream data not supported in URL query string."	,	lr_65
+UnsupportedEncodingException	,	tp_13
+HTTP	,	vr_61
+isFalse	,	vr_71
+setupFromConnection	,	vr_80
+"Request must be executed (with .execute(), .get(), or .post() before getting response body"	,	lr_46
+parser	,	fn_22
+port	,	vr_14
+name	,	vr_37
+getContentType	,	vr_119
+timeoutMilliseconds	,	vl_2
+notEmpty	,	vr_12
+resHeaders	,	vr_120
+createUnresolved	,	vr_63
+setSSLSocketFactory	,	fn_61
+getResponseMessage	,	vr_118
+timeout	,	fn_8
+"gzip"	,	lr_42
+IllegalCharsetNameException	,	fn_39
+Proxy	,	tp_6
+emptyList	,	vr_58
+HttpURLConnection	,	tp_14
+getErrorStream	,	vr_93
+flush	,	vr_134
+serialiseRequestUrl	,	fn_42
+maxBodySize	,	fn_9
+end	,	vr_51
+emptyByteBuffer	,	vr_99
+StringUtil	,	vr_45
+"Request must be executed (with .execute(), .get(), or .post() before parsing response"	,	lr_44
+hasBody	,	fn_41
+cookieName	,	vr_125
+parseInputStream	,	vr_103
+headers	,	fn_19
+addHeader	,	fn_28
+maxBodySizeBytes	,	vl_3
+"Key val must not be null"	,	lr_30
+InputStream	,	tp_9
+bound	,	vr_129
+Request	,	vr_42
+";"	,	lr_52
+borrowBuilder	,	vr_140
+getProtocol	,	fn_40
+parse	,	vr_39
+addRequestProperty	,	vr_113
+"; filename=\""	,	lr_59
+referrer	,	fn_11
+getValue	,	vr_31
+setReadTimeout	,	vr_111
+urlS	,	vr_5
+"Data key value pairs must not be null"	,	lr_11
+"Must supply an even number of key value pairs"	,	lr_12
+getResponseCode	,	vr_79
+location	,	vr_81
+toASCIIString	,	vr_8
+disconnect	,	vr_115
+MalformedURLException	,	tp_5
+conn	,	vr_75
+setConnectTimeout	,	vr_110
+"Header map must not be null"	,	lr_16
+"Referer"	,	lr_9
+bodyStream	,	vr_92
+previousResponse	,	vr_67
+put	,	vr_48
+redir	,	vr_84
+"://"	,	lr_63
+sslSocketFactory	,	fn_16
+"Cookie value must not be null"	,	lr_27
+getPath	,	vr_144
+join	,	vr_46
+write	,	vr_132
+"Cookie name must not be empty"	,	lr_26
+val	,	vr_9
+Buffer	,	vl_11
+encodeMimeName	,	fn_5
+method	,	fn_12
+cookie	,	fn_20
+keyvals	,	vr_32
+in	,	vr_142
+"="	,	lr_51
+"Referrer must not be null"	,	lr_8
+"User agent must not be null"	,	lr_7
+matcher	,	vr_87
+matches	,	fn_47
+getInputStream	,	vr_94
+multiHeaders	,	fn_35
+"--"	,	lr_56
+toExternalForm	,	fn_4
+xmlParser	,	vr_88
+writePost	,	fn_45
+DefaultUploadType	,	vl_15
+doc	,	vr_102
+Inflater	,	fn_51
+Map	,	vr_26
+HttpsURLConnection	,	vl_12
+status	,	vr_78
+UnsupportedMimeTypeException	,	fn_48
+charset	,	vr_43
+prevCookie	,	vr_121
+HttpConnection	,	fn_2
+vals	,	vr_44
+hasInputStream	,	vr_133
+"Data input stream must not be null"	,	lr_66
+bodyAsBytes	,	fn_58
+URI	,	tp_3
+URL	,	tp_2
+"%22"	,	lr_4
+BufferedWriter	,	tp_18
+getHeadersCaseInsensitive	,	fn_27
+"Request has already been read (with .parse())"	,	lr_47
+"ISO-8859-1"	,	lr_23
+"Method must not be null"	,	lr_19
+stream	,	vr_146
+startTime	,	vr_73
+"Data collection must not be null"	,	lr_15
+map	,	vr_56
+CONTENT_ENCODING	,	vl_9
+"Input stream already read and parsed, cannot re-read."	,	lr_45
+forName	,	vr_106
+"Data key must not be empty"	,	lr_13
+"?"	,	lr_64
+"Data value must not be null"	,	lr_14
+InflaterInputStream	,	fn_50
+cookieVal	,	vr_127
+xmlContentTypeRxp	,	vr_86
+userAgent	,	fn_7
+safeClose	,	vr_100
+uri	,	vr_7
+getRequestMethod	,	vr_116
+url	,	vr_1
+statusMessage	,	fn_53
+readToByteBuffer	,	vr_105
+consumeTo	,	vr_128
+"%20"	,	lr_2
+"deflate"	,	lr_43
+lc	,	vr_59
+needsMultipart	,	fn_65
+getOutputStream	,	vr_77
+first	,	vr_136
+"; charset="	,	lr_55
+con	,	vr_2
+data	,	fn_15
+removeCookie	,	fn_38
+replace	,	vr_6
+methodHasBody	,	vr_69
+body	,	vr_36
+decode	,	fn_57
+"Header name must not be empty"	,	lr_25
+LinkedHashMap	,	vr_55
+"URL must not be null"	,	lr_18
+protocol	,	vr_68
+BufferedInputStream	,	tp_15
+host	,	vr_13
+create	,	vr_22
+contentType	,	vr_25
+"https"	,	lr_35
+KeyVal	,	vr_21
+" "	,	lr_1
+entrySet	,	vr_29
+containsKey	,	vr_60
+inputStreamRead	,	vl_10
+isSupported	,	vr_66
+hasRequestBody	,	vr_70
+hasCookie	,	fn_37
+ignoreHttpErrors	,	fn_13
+removeHeader	,	fn_31
+entry	,	vr_28
+getURL	,	vr_117
+ByteArrayInputStream	,	fn_54
+header	,	vr_16
+millis	,	vr_17
+bufferUp	,	fn_59
+getCharsetFromContentType	,	vr_90
+"Malformed URL: "	,	lr_6
+"Header name must not be null"	,	lr_20
+request	,	fn_17
+HEAD	,	vl_8
+setRequestMethod	,	vr_108
+values	,	vr_47
+setInstanceFollowRedirects	,	vr_109
+crossStreams	,	vr_135
+"Charset must not be null"	,	lr_31
+URISyntaxException	,	tp_4
+outputSettings	,	vr_104
+processResponseHeaders	,	fn_64
+substring	,	vr_83
+"Cannot set a request body for HTTP method "	,	lr_37
+GZIPInputStream	,	fn_49
+candidate	,	vr_54
+"\r\n"	,	lr_57
+getRequestCookieString	,	fn_62
+outputStream	,	vr_130
+", "	,	lr_21
+"Timeout milliseconds must be 0 (infinite) or greater"	,	lr_28
+value	,	vr_20
+"maxSize must be 0 (unlimited) or larger"	,	lr_29
+hasHeader	,	fn_32
+parserDefined	,	vl_4
+"; boundary="	,	lr_54
+hasHeaderWithValue	,	fn_33
+getAuthority	,	vr_143
+Response	,	vr_41
+prepareByteData	,	fn_55
+"UTF-8"	,	lr_24
+bytes	,	vr_18
+response	,	fn_25
+chompTo	,	vr_126
+getDoOutput	,	vr_76
+"HTTP error fetching URL"	,	lr_39
+startsWith	,	vr_82
+bufferSize	,	vr_97

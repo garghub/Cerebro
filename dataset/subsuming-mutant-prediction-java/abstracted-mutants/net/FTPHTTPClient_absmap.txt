@@ -1,0 +1,93 @@
+msg	,	vr_45
+_parseExtendedPassiveModeReply	,	fn_7
+_parsePassiveModeReply	,	fn_9
+SocketException	,	vl_5
+proxyUsername	,	vl_12
+auth	,	vr_35
+"Only passive connection mode supported"	,	lr_1
+_socket_	,	vl_6
+reader	,	vr_40
+OutputStream	,	tp_3
+" using port "	,	lr_3
+base64	,	vr_37
+getDataConnectionMode	,	fn_2
+getPassivePort	,	vr_19
+"Host: "	,	lr_7
+getBytes	,	vr_34
+output	,	vr_30
+"Invalid response from proxy: "	,	lr_11
+proxyPort	,	vl_4
+"No response from proxy"	,	lr_9
+isUseEPSVwithIPv4	,	fn_5
+host	,	vr_22
+tunnelHost	,	vr_9
+FTPReply	,	vr_6
+write	,	vr_33
+_output_	,	vl_8
+"Response received from the proxy:\r\n"	,	lr_14
+ENTERING_EPSV_MODE	,	vr_7
+pasv	,	fn_8
+getPassiveHost	,	vr_11
+socketIsReader	,	vr_24
+"200"	,	lr_12
+tunnelHandshake	,	fn_10
+getRemoteAddress	,	fn_4
+initCause	,	vr_27
+UnsupportedEncodingException	,	vl_9
+Inet6Address	,	vl_2
+is	,	vr_15
+_input_	,	vl_7
+passiveHost	,	vr_4
+proxyHost	,	vl_3
+getInputStream	,	vr_16
+isInet6Address	,	vr_3
+input	,	vr_29
+_connectAction_	,	vr_28
+createSocket	,	vr_14
+port	,	vr_23
+CRLF	,	vl_11
+getRestartOffset	,	fn_11
+"CONNECT "	,	lr_4
+header	,	vr_36
+connectString	,	vr_31
+_socketFactory_	,	vr_13
+IllegalStateException	,	fn_3
+charset	,	vl_10
+code	,	vr_41
+_replyLines	,	vr_8
+"HTTPTunnelConnector: connection failed\r\n"	,	lr_13
+Reader	,	tp_4
+":"	,	lr_5
+"HTTP/"	,	lr_10
+getCharset	,	fn_16
+substring	,	vr_44
+sendCommand	,	fn_13
+"\r\n"	,	lr_15
+arg	,	vr_2
+close	,	vr_20
+connect	,	fn_14
+epsv	,	fn_6
+os	,	vr_17
+InputStreamReader	,	fn_15
+restart	,	fn_12
+e	,	vr_25
+resp	,	vr_42
+InputStream	,	tp_2
+"Could not connect to "	,	lr_2
+_openDataConnection_	,	fn_1
+proxyPassword	,	vl_13
+"Proxy-Authorization: Basic "	,	lr_8
+encodeToString	,	vr_38
+attemptEPSV	,	vr_5
+command	,	vr_1
+hostString	,	vr_32
+ENTERING_PASSIVE_MODE	,	vr_10
+isPositivePreliminary	,	vr_21
+response	,	vr_39
+PASSIVE_LOCAL_DATA_CONNECTION_MODE	,	vl_1
+getOutputStream	,	vr_18
+socket	,	vr_12
+" HTTP/1.1"	,	lr_6
+Socket	,	tp_1
+ioe	,	vr_26
+startsWith	,	vr_43

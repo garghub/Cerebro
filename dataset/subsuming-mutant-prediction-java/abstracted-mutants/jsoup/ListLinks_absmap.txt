@@ -1,0 +1,44 @@
+msg	,	vr_16
+select	,	vr_8
+"\nMedia: (%d)"	,	lr_6
+Element	,	tp_3
+link	,	vr_14
+Jsoup	,	vr_5
+media	,	vr_9
+Document	,	tp_1
+Elements	,	tp_2
+substring	,	vr_20
+" * %s &lt;%s&gt; (%s)"	,	lr_15
+Validate	,	vr_1
+"Fetching %s..."	,	lr_2
+"[src]"	,	lr_4
+"."	,	lr_20
+"abs:src"	,	lr_9
+links	,	vr_7
+"abs:href"	,	lr_16
+text	,	vr_15
+attr	,	vr_13
+" * %s: &lt;%s&gt; %sx%s (%s)"	,	lr_8
+connect	,	vr_6
+"usage: supply url to fetch"	,	lr_1
+"rel"	,	lr_17
+"a[href]"	,	lr_3
+" * %s: &lt;%s&gt;"	,	lr_13
+imports	,	vr_10
+src	,	vr_11
+"width"	,	lr_10
+format	,	vr_17
+tagName	,	vr_12
+url	,	vr_3
+" * a: &lt;%s&gt;  (%s)"	,	lr_19
+isTrue	,	vr_2
+"img"	,	lr_7
+print	,	fn_1
+"link[href]"	,	lr_5
+s	,	vr_18
+"\nImports: (%d)"	,	lr_14
+"alt"	,	lr_12
+"height"	,	lr_11
+width	,	vr_19
+doc	,	vr_4
+"\nLinks: (%d)"	,	lr_18

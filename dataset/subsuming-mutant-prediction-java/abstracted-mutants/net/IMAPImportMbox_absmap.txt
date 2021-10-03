@@ -1,0 +1,83 @@
+msg	,	vr_46
+date	,	vr_49
+disconnect	,	vr_40
+"Usage: IMAPImportMbox imap[s]://user:password@host[:port]/folder/path &lt;mboxfile&gt; [selectors]"	,	lr_1
+IMAPUtils	,	vr_25
+"MsgNum: "	,	lr_17
+" messages, loaded "	,	lr_14
+mbox	,	vr_5
+loaded	,	vr_28
+lookingAt	,	vr_45
+path	,	vr_8
+high	,	vr_21
+logout	,	vr_39
+split	,	vr_17
+compile	,	vr_48
+getPath	,	vr_9
+","	,	lr_8
+create	,	vr_3
+listContains	,	fn_4
+group	,	vr_50
+pat	,	vr_42
+" "	,	lr_12
+printStackTrace	,	vr_38
+" - or a list of strings to match in the initial From line"	,	lr_3
+BitSet	,	tp_3
+"From \\S+ +\\S+ (\\S+)  ?(\\S+) (\\S+) (\\S+)"	,	lr_15
+setSoTimeout	,	vr_29
+matcher	,	vr_44
+matches	,	vr_15
+"Cannot read mailbox file: "	,	lr_4
+entry	,	vr_16
+input	,	vr_41
+setLength	,	vr_34
+folder	,	vr_10
+PATFROM	,	vl_1
+wanted	,	vr_32
+CRLF	,	vl_2
+"-"	,	lr_9
+FROM_RE	,	vr_47
+parts	,	vr_18
+"Invalid folderPath: '"	,	lr_5
+File	,	tp_2
+haveMessage	,	vr_52
+msgNum	,	vr_51
+canRead	,	vr_7
+Matcher	,	tp_6
+"\tWhere: a selector is a list of numbers/number ranges - 1,2,3-10"	,	lr_2
+getReplyString	,	vr_37
+URI	,	tp_1
+substring	,	vr_11
+sb	,	vr_31
+br	,	vr_30
+total	,	vr_27
+" Length "	,	lr_18
+file	,	vr_4
+low	,	vr_19
+"Processed "	,	lr_13
+arg	,	vr_14
+FileReader	,	fn_1
+getDate	,	fn_3
+msgNums	,	vr_12
+close	,	vr_35
+" +0000"	,	lr_16
+Pattern	,	tp_5
+imap	,	vr_24
+process	,	fn_2
+"\\d+(-\\d+)?(,\\d+(-\\d+)?)*"	,	lr_7
+set	,	vr_23
+IMAPClient	,	tp_4
+err	,	vr_1
+isFile	,	vr_6
+e	,	vr_36
+i	,	vr_13
+j	,	vr_22
+uri	,	vr_2
+m	,	vr_43
+"From "	,	lr_10
+parseInt	,	vr_20
+"Error processing msg: "	,	lr_11
+"Failed to import message: "	,	lr_19
+imapLogin	,	vr_26
+"'"	,	lr_6
+startsWith	,	vr_33

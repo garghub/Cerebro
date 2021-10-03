@@ -1,0 +1,119 @@
+public long fn_1 ( Object object , tp_1 vr_1 ) {
+String vr_2 = ( String ) object ;
+tp_2 vr_3 = vr_4 . vr_5 () ;
+return vr_3 . vr_6 ( vr_1 ) . fn_2 ( vr_2 ) ;
+}
+public int [] fn_3 ( tp_3 vr_7 , Object object , tp_1 vr_1 , tp_2 vr_8 ) {
+if ( vr_8 . vr_9 () != null ) {
+vr_1 = vr_1 . vr_10 ( vr_8 . vr_9 () ) ;
+}
+long vr_11 = vr_8 . vr_6 ( vr_1 ) . fn_2 ( ( String ) object ) ;
+return vr_1 . get ( vr_7 , vr_11 ) ;
+}
+public long fn_4 ( Object object ) {
+String vr_12 = ( String ) object ;
+String vr_2 = vr_12 ;
+int vr_13 = vr_2 . length () ;
+if ( vr_13 >= 4 &&
+( vr_2 . charAt ( 0 ) == 'P' || vr_2 . charAt ( 0 ) == 'p' ) &&
+( vr_2 . charAt ( 1 ) == 'T' || vr_2 . charAt ( 1 ) == 't' ) &&
+( vr_2 . charAt ( vr_13 - 1 ) == 'S' || vr_2 . charAt ( vr_13 - 1 ) == 's' ) ) {
+} else {
+throw new IllegalArgumentException ( lr_1 + vr_12 + '"' ) ;
+}
+vr_2 = vr_2 . vr_14 ( 2 , vr_13 - 1 ) ;
+int vr_15 = - 1 ;
+boolean vr_16 = false ;
+for ( int vr_17 = 0 ; vr_17 < vr_2 . length () ; vr_17 ++ ) {
+if ( vr_2 . charAt ( vr_17 ) >= '0' && vr_2 . charAt ( vr_17 ) <= '9' ) {
+} else if ( vr_17 == 0 && vr_2 . charAt ( 0 ) == '-' ) {
+vr_16 = true ;
+} else if ( vr_17 > ( vr_16 ? 1 : 0 ) && vr_2 . charAt ( vr_17 ) == '.' && vr_15 == - 1 ) {
+vr_15 = vr_17 ;
+} else {
+throw new IllegalArgumentException ( lr_1 + vr_12 + '"' ) ;
+}
+}
+long vr_11 = 0 , vr_18 = 0 ;
+int vr_19 = vr_16 ? 1 : 0 ;
+if ( vr_15 > 0 ) {
+vr_18 = Long . vr_20 ( vr_2 . vr_14 ( vr_19 , vr_15 ) ) ;
+vr_2 = vr_2 . vr_14 ( vr_15 + 1 ) ;
+if ( vr_2 . length () != 3 ) {
+vr_2 = ( vr_2 + lr_2 ) . vr_14 ( 0 , 3 ) ;
+}
+vr_11 = Integer . vr_21 ( vr_2 ) ;
+} else if ( vr_16 ) {
+vr_18 = Long . vr_20 ( vr_2 . vr_14 ( vr_19 , vr_2 . length () ) ) ;
+} else {
+vr_18 = Long . vr_20 ( vr_2 ) ;
+}
+if ( vr_16 ) {
+return vr_22 . vr_23 ( vr_22 . vr_24 ( - vr_18 , 1000 ) , - vr_11 ) ;
+} else {
+return vr_22 . vr_23 ( vr_22 . vr_24 ( vr_18 , 1000 ) , vr_11 ) ;
+}
+}
+public void fn_5 ( tp_4 vr_25 , Object object , tp_1 vr_1 ) {
+String vr_2 = ( String ) object ;
+tp_5 vr_8 = vr_26 . vr_27 () ;
+vr_25 . clear () ;
+int vr_28 = vr_8 . vr_29 ( vr_25 , vr_2 , 0 ) ;
+if ( vr_28 < vr_2 . length () ) {
+if ( vr_28 < 0 ) {
+vr_8 . vr_30 ( vr_25 . vr_31 () ) . fn_6 ( vr_2 ) ;
+}
+throw new IllegalArgumentException ( lr_1 + vr_2 + '"' ) ;
+}
+}
+public void fn_5 ( tp_6 vr_32 , Object object , tp_1 vr_1 ) {
+String vr_2 = ( String ) object ;
+int vr_33 = vr_2 . indexOf ( '/' ) ;
+if ( vr_33 < 0 ) {
+throw new IllegalArgumentException ( lr_3 + vr_2 ) ;
+}
+String vr_34 = vr_2 . vr_14 ( 0 , vr_33 ) ;
+if ( vr_34 . length () <= 0 ) {
+throw new IllegalArgumentException ( lr_4 + vr_2 ) ;
+}
+String vr_35 = vr_2 . vr_14 ( vr_33 + 1 ) ;
+if ( vr_35 . length () <= 0 ) {
+throw new IllegalArgumentException ( lr_4 + vr_2 ) ;
+}
+tp_2 vr_5 = vr_4 . vr_5 () ;
+vr_5 = vr_5 . vr_6 ( vr_1 ) ;
+tp_5 vr_36 = vr_26 . vr_27 () ;
+long vr_37 = 0 , vr_38 = 0 ;
+tp_7 vr_25 = null ;
+tp_1 vr_39 = null ;
+char vr_40 = vr_34 . charAt ( 0 ) ;
+if ( vr_40 == 'P' || vr_40 == 'p' ) {
+vr_25 = vr_36 . vr_30 ( vr_31 ( vr_34 ) ) . fn_7 ( vr_34 ) ;
+} else {
+tp_8 vr_41 = vr_5 . vr_42 ( vr_34 ) ;
+vr_37 = vr_41 . vr_43 () ;
+vr_39 = vr_41 . vr_44 () ;
+}
+vr_40 = vr_35 . charAt ( 0 ) ;
+if ( vr_40 == 'P' || vr_40 == 'p' ) {
+if ( vr_25 != null ) {
+throw new IllegalArgumentException ( lr_5 + vr_2 ) ;
+}
+vr_25 = vr_36 . vr_30 ( vr_31 ( vr_35 ) ) . fn_7 ( vr_35 ) ;
+vr_1 = ( vr_1 != null ? vr_1 : vr_39 ) ;
+vr_38 = vr_1 . add ( vr_25 , vr_37 , 1 ) ;
+} else {
+tp_8 vr_45 = vr_5 . vr_42 ( vr_35 ) ;
+vr_38 = vr_45 . vr_43 () ;
+vr_39 = ( vr_39 != null ? vr_39 : vr_45 . vr_44 () ) ;
+vr_1 = ( vr_1 != null ? vr_1 : vr_39 ) ;
+if ( vr_25 != null ) {
+vr_37 = vr_1 . add ( vr_25 , vr_38 , - 1 ) ;
+}
+}
+vr_32 . vr_46 ( vr_37 , vr_38 ) ;
+vr_32 . vr_47 ( vr_1 ) ;
+}
+public Class < ? > fn_8 () {
+return String . class ;
+}

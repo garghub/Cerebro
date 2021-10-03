@@ -1,0 +1,43 @@
+df	,	vr_5
+getName	,	vr_4
+CalendarUnit	,	vr_12
+getTime	,	fn_7
+goodsamples	,	vl_2
+OS2FTPEntryParser	,	fn_11
+FTPFile	,	tp_1
+dir	,	vr_1
+"Could not parse entry."	,	lr_2
+"Fri Nov 28 09:42:00 1997"	,	lr_5
+badsamples	,	vl_1
+"5000000000      A          11-17-98   16:07  POPUPLOG.OS2"	,	lr_6
+file	,	vr_8
+assertTrue	,	fn_5
+FTPFileEntryParser	,	tp_2
+assertNotNull	,	fn_4
+getTimestamp	,	vr_7
+getParser	,	fn_2
+parseFTPEntry	,	fn_3
+MINUTE	,	vr_13
+testRecentPrecision	,	fn_14
+ConfigurableFTPFileEntryParserImpl	,	tp_3
+"Tue Nov 17 16:07:00 1998"	,	lr_9
+testParseFieldsOnDirectory	,	fn_1
+"Should have been a directory."	,	lr_3
+"Should have been a file."	,	lr_7
+isFile	,	vr_9
+getBadListing	,	fn_9
+"     0           DIR   11-28-97   09:42  PC"	,	lr_1
+format	,	vr_6
+testPrecision	,	fn_13
+assertEquals	,	fn_6
+configure	,	vr_11
+"     0           DIR   05-12-97   16:44  PSFONTS"	,	lr_10
+testDefaultPrecision	,	fn_12
+getSize	,	vr_3
+"     0           DIR   05-19-2000 12:56  local"	,	lr_11
+getGoodListing	,	fn_10
+parser	,	vr_10
+"POPUPLOG.OS2"	,	lr_8
+testParseFieldsOnFile	,	fn_8
+"PC"	,	lr_4
+isDirectory	,	vr_2

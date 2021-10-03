@@ -1,0 +1,115 @@
+bitLength	,	vr_55
+mod	,	vr_51
+divideBy	,	fn_24
+gcd	,	vr_7
+whole	,	vr_4
+Math	,	vr_10
+ArithmeticException	,	fn_2
+"The numerator must not be negative"	,	lr_4
+denom	,	vr_34
+delta2	,	vr_25
+delta1	,	vr_24
+reduce	,	fn_14
+"The fraction could not be parsed as the format X Y/Z"	,	lr_9
+subtract	,	fn_22
+doubleValue	,	fn_13
+str	,	vr_28
+getProperWhole	,	fn_9
+mulAndCheck	,	fn_17
+upv	,	vr_49
+getFraction	,	fn_1
+getNumerator	,	fn_6
+other	,	vr_57
+ONE	,	vl_2
+MAX_VALUE	,	vr_6
+d1	,	vr_47
+longValue	,	fn_11
+d2	,	vr_52
+pos	,	vr_29
+power	,	vr_35
+"overflow: too large to negate"	,	lr_12
+f	,	vr_36
+"overflow: gcd is 2^31"	,	lr_13
+i	,	vr_27
+Fraction	,	tp_1
+k	,	vr_40
+m	,	vr_44
+mulPosAndCheck	,	fn_18
+fraction	,	vr_26
+"overflow: mul"	,	lr_14
+s	,	vr_45
+t	,	vr_41
+u	,	vr_38
+"/"	,	lr_20
+negate	,	fn_16
+v	,	vr_39
+w	,	vr_53
+x	,	vr_42
+y	,	vr_43
+first	,	vr_58
+denom2	,	vr_18
+addAndCheck	,	fn_19
+ZERO	,	vl_1
+denom1	,	vr_16
+denom0	,	vr_14
+wholeNumber	,	vr_12
+numer0	,	vr_13
+numer1	,	vr_15
+numer2	,	vr_17
+sign	,	vr_9
+compareTo	,	fn_26
+isNaN	,	vr_11
+"-1"	,	lr_23
+second	,	vr_59
+"0"	,	lr_21
+numeratorValue	,	vr_5
+toProperString	,	fn_27
+"The value must not be greater than Integer.MAX_VALUE or NaN"	,	lr_6
+invert	,	fn_15
+" "	,	lr_24
+NumberFormatException	,	fn_5
+floatValue	,	fn_12
+numerator	,	vr_1
+denominator	,	vr_2
+getDenominator	,	fn_7
+"1"	,	lr_22
+x1	,	vr_21
+BigInteger	,	tp_2
+x2	,	vr_22
+"The fraction to divide by must not be zero"	,	lr_19
+"overflow: add"	,	lr_16
+"overflow: numerator too large after multiply"	,	lr_18
+greatestCommonDivisor	,	fn_4
+"Unable to convert double to fraction"	,	lr_7
+properNumerator	,	vr_60
+substring	,	vr_32
+"The denominator must not be zero"	,	lr_1
+getReducedFraction	,	fn_3
+subAndCheck	,	fn_20
+parseDouble	,	vr_30
+getProperNumerator	,	fn_8
+"overflow: mulPos"	,	lr_15
+hashCode	,	fn_25
+y2	,	vr_23
+"Numerator too large to represent as an Integer."	,	lr_5
+"The string must not be null"	,	lr_8
+divide	,	vr_54
+multiply	,	fn_23
+value	,	vr_8
+"overflow: can't negate"	,	lr_2
+intValue	,	fn_10
+"The denominator must not be negative"	,	lr_3
+addSub	,	fn_21
+"The fraction must not be null"	,	lr_17
+"overflow: can't negate numerator"	,	lr_11
+isAdd	,	vr_46
+MIN_VALUE	,	vr_3
+"Unable to invert zero."	,	lr_10
+uvp	,	vr_48
+a1	,	vr_19
+parseInt	,	vr_31
+a2	,	vr_20
+obj	,	vr_56
+numer	,	vr_33
+multiplyBy	,	vr_37
+tmodd1	,	vr_50

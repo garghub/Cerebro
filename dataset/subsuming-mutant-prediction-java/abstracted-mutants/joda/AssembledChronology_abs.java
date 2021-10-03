@@ -1,0 +1,340 @@
+public tp_1 fn_1 () {
+tp_2 vr_1 ;
+if ( ( vr_1 = vl_1 ) != null ) {
+return vr_1 . fn_1 () ;
+}
+return null ;
+}
+public long fn_2 ( int vr_2 , int vr_3 , int vr_4 ,
+int vr_5 )
+throws IllegalArgumentException
+{
+tp_2 vr_1 ;
+if ( ( vr_1 = vl_1 ) != null && ( vl_2 & 6 ) == 6 ) {
+return vr_1 . fn_2 ( vr_2 , vr_3 , vr_4 , vr_5 ) ;
+}
+return super . fn_2 ( vr_2 , vr_3 , vr_4 , vr_5 ) ;
+}
+public long fn_2 ( int vr_2 , int vr_3 , int vr_4 ,
+int vr_6 , int vr_7 ,
+int vr_8 , int vr_9 )
+throws IllegalArgumentException
+{
+tp_2 vr_1 ;
+if ( ( vr_1 = vl_1 ) != null && ( vl_2 & 5 ) == 5 ) {
+return vr_1 . fn_2 ( vr_2 , vr_3 , vr_4 ,
+vr_6 , vr_7 , vr_8 , vr_9 ) ;
+}
+return super . fn_2 ( vr_2 , vr_3 , vr_4 ,
+vr_6 , vr_7 , vr_8 , vr_9 ) ;
+}
+public long fn_2 ( long vr_10 ,
+int vr_6 , int vr_7 ,
+int vr_8 , int vr_9 )
+throws IllegalArgumentException
+{
+tp_2 vr_1 ;
+if ( ( vr_1 = vl_1 ) != null && ( vl_2 & 1 ) == 1 ) {
+return vr_1 . fn_2
+( vr_10 , vr_6 , vr_7 , vr_8 , vr_9 ) ;
+}
+return super . fn_2
+( vr_10 , vr_6 , vr_7 , vr_8 , vr_9 ) ;
+}
+public final tp_3 fn_3 () {
+return vl_3 ;
+}
+public final tp_4 vr_9 () {
+return vl_4 ;
+}
+public final tp_4 vr_5 () {
+return vl_5 ;
+}
+public final tp_3 fn_4 () {
+return vl_6 ;
+}
+public final tp_4 vr_8 () {
+return vl_7 ;
+}
+public final tp_4 fn_5 () {
+return vl_8 ;
+}
+public final tp_3 fn_6 () {
+return vl_9 ;
+}
+public final tp_4 vr_7 () {
+return vl_10 ;
+}
+public final tp_4 fn_7 () {
+return vl_11 ;
+}
+public final tp_3 fn_8 () {
+return vl_12 ;
+}
+public final tp_4 vr_6 () {
+return vl_13 ;
+}
+public final tp_4 fn_9 () {
+return vl_14 ;
+}
+public final tp_3 fn_10 () {
+return vl_15 ;
+}
+public final tp_4 fn_11 () {
+return vl_16 ;
+}
+public final tp_4 fn_12 () {
+return vl_17 ;
+}
+public final tp_4 fn_13 () {
+return vl_18 ;
+}
+public final tp_3 fn_14 () {
+return vl_19 ;
+}
+public final tp_4 fn_15 () {
+return vl_20 ;
+}
+public final tp_4 vr_4 () {
+return vl_21 ;
+}
+public final tp_4 fn_16 () {
+return vl_22 ;
+}
+public final tp_3 fn_17 () {
+return vl_23 ;
+}
+public final tp_4 fn_18 () {
+return vl_24 ;
+}
+public final tp_3 fn_19 () {
+return vl_25 ;
+}
+public final tp_4 fn_20 () {
+return vl_26 ;
+}
+public final tp_4 fn_21 () {
+return vl_27 ;
+}
+public final tp_3 fn_22 () {
+return vl_28 ;
+}
+public final tp_4 vr_3 () {
+return vl_29 ;
+}
+public final tp_3 fn_23 () {
+return vl_30 ;
+}
+public final tp_4 vr_2 () {
+return vl_31 ;
+}
+public final tp_4 fn_24 () {
+return vl_32 ;
+}
+public final tp_4 fn_25 () {
+return vl_33 ;
+}
+public final tp_3 fn_26 () {
+return vl_34 ;
+}
+public final tp_4 fn_27 () {
+return vl_35 ;
+}
+public final tp_3 fn_28 () {
+return vl_36 ;
+}
+public final tp_4 fn_29 () {
+return vl_37 ;
+}
+protected final tp_2 fn_30 () {
+return vl_1 ;
+}
+protected final Object fn_31 () {
+return vl_38 ;
+}
+private void fn_32 () {
+tp_5 vr_11 = new tp_5 () ;
+if ( vl_1 != null ) {
+vr_11 . vr_12 ( vl_1 ) ;
+}
+fn_33 ( vr_11 ) ;
+{
+tp_3 vr_13 ;
+vl_3 = ( vr_13 = vr_11 . fn_3 ) != null ? vr_13 : super . fn_3 () ;
+vl_6 = ( vr_13 = vr_11 . fn_4 ) != null ? vr_13 : super . fn_4 () ;
+vl_9 = ( vr_13 = vr_11 . fn_6 ) != null ? vr_13 : super . fn_6 () ;
+vl_12 = ( vr_13 = vr_11 . fn_8 ) != null ? vr_13 : super . fn_8 () ;
+vl_15 = ( vr_13 = vr_11 . fn_10 ) != null ? vr_13 : super . fn_10 () ;
+vl_19 = ( vr_13 = vr_11 . fn_14 ) != null ? vr_13 : super . fn_14 () ;
+vl_23 = ( vr_13 = vr_11 . fn_17 ) != null ? vr_13 : super . fn_17 () ;
+vl_25 = ( vr_13 = vr_11 . fn_19 ) != null ? vr_13 : super . fn_19 () ;
+vl_28 = ( vr_13 = vr_11 . fn_22 ) != null ? vr_13 : super . fn_22 () ;
+vl_30 = ( vr_13 = vr_11 . fn_23 ) != null ? vr_13 : super . fn_23 () ;
+vl_34 = ( vr_13 = vr_11 . fn_26 ) != null ? vr_13 : super . fn_26 () ;
+vl_36 = ( vr_13 = vr_11 . fn_28 ) != null ? vr_13 : super . fn_28 () ;
+}
+{
+tp_4 vr_13 ;
+vl_4 = ( vr_13 = vr_11 . vr_9 ) != null ? vr_13 : super . vr_9 () ;
+vl_5 = ( vr_13 = vr_11 . vr_5 ) != null ? vr_13 : super . vr_5 () ;
+vl_7 = ( vr_13 = vr_11 . vr_8 ) != null ? vr_13 : super . vr_8 () ;
+vl_8 = ( vr_13 = vr_11 . fn_5 ) != null ? vr_13 : super . fn_5 () ;
+vl_10 = ( vr_13 = vr_11 . vr_7 ) != null ? vr_13 : super . vr_7 () ;
+vl_11 = ( vr_13 = vr_11 . fn_7 ) != null ? vr_13 : super . fn_7 () ;
+vl_13 = ( vr_13 = vr_11 . vr_6 ) != null ? vr_13 : super . vr_6 () ;
+vl_14 = ( vr_13 = vr_11 . fn_9 ) != null ? vr_13 : super . fn_9 () ;
+vl_16 = ( vr_13 = vr_11 . fn_11 ) != null ? vr_13 : super . fn_11 () ;
+vl_17 = ( vr_13 = vr_11 . fn_12 ) != null ? vr_13 : super . fn_12 () ;
+vl_18 = ( vr_13 = vr_11 . fn_13 ) != null ? vr_13 : super . fn_13 () ;
+vl_20 = ( vr_13 = vr_11 . fn_15 ) != null ? vr_13 : super . fn_15 () ;
+vl_21 = ( vr_13 = vr_11 . vr_4 ) != null ? vr_13 : super . vr_4 () ;
+vl_22 = ( vr_13 = vr_11 . fn_16 ) != null ? vr_13 : super . fn_16 () ;
+vl_24 = ( vr_13 = vr_11 . fn_18 ) != null ? vr_13 : super . fn_18 () ;
+vl_26 = ( vr_13 = vr_11 . fn_20 ) != null ? vr_13 : super . fn_20 () ;
+vl_27 = ( vr_13 = vr_11 . fn_21 ) != null ? vr_13 : super . fn_21 () ;
+vl_29 = ( vr_13 = vr_11 . vr_3 ) != null ? vr_13 : super . vr_3 () ;
+vl_31 = ( vr_13 = vr_11 . vr_2 ) != null ? vr_13 : super . vr_2 () ;
+vl_32 = ( vr_13 = vr_11 . fn_24 ) != null ? vr_13 : super . fn_24 () ;
+vl_33 = ( vr_13 = vr_11 . fn_25 ) != null ? vr_13 : super . fn_25 () ;
+vl_35 = ( vr_13 = vr_11 . fn_27 ) != null ? vr_13 : super . fn_27 () ;
+vl_37 = ( vr_13 = vr_11 . fn_29 ) != null ? vr_13 : super . fn_29 () ;
+}
+int vr_14 ;
+if ( vl_1 == null ) {
+vr_14 = 0 ;
+} else {
+vr_14 =
+( ( vl_13 == vl_1 . vr_6 () &&
+vl_10 == vl_1 . vr_7 () &&
+vl_7 == vl_1 . vr_8 () &&
+vl_4 == vl_1 . vr_9 () ) ? 1 : 0 ) |
+( ( vl_5 == vl_1 . vr_5 () ) ? 2 : 0 ) |
+( ( vl_31 == vl_1 . vr_2 () &&
+vl_29 == vl_1 . vr_3 () &&
+vl_21 == vl_1 . vr_4 () ) ? 4 : 0 ) ;
+}
+vl_2 = vr_14 ;
+}
+private void fn_34 ( tp_6 vr_15 ) throws IOException , vl_39 {
+vr_15 . vr_16 () ;
+fn_32 () ;
+}
+public void vr_12 ( tp_2 vr_17 ) {
+{
+tp_3 vr_13 ;
+if ( fn_35 ( vr_13 = vr_17 . fn_3 () ) ) {
+fn_3 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_4 () ) ) {
+fn_4 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_6 () ) ) {
+fn_6 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_8 () ) ) {
+fn_8 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_10 () ) ) {
+fn_10 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_14 () ) ) {
+fn_14 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_17 () ) ) {
+fn_17 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_19 () ) ) {
+fn_19 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_22 () ) ) {
+fn_22 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_23 () ) ) {
+fn_23 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_26 () ) ) {
+fn_26 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_28 () ) ) {
+fn_28 = vr_13 ;
+}
+}
+{
+tp_4 vr_13 ;
+if ( fn_35 ( vr_13 = vr_17 . vr_9 () ) ) {
+vr_9 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . vr_5 () ) ) {
+vr_5 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . vr_8 () ) ) {
+vr_8 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_5 () ) ) {
+fn_5 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . vr_7 () ) ) {
+vr_7 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_7 () ) ) {
+fn_7 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . vr_6 () ) ) {
+vr_6 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_9 () ) ) {
+fn_9 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_11 () ) ) {
+fn_11 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_12 () ) ) {
+fn_12 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_13 () ) ) {
+fn_13 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_15 () ) ) {
+fn_15 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . vr_4 () ) ) {
+vr_4 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_16 () ) ) {
+fn_16 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_18 () ) ) {
+fn_18 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_20 () ) ) {
+fn_20 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_21 () ) ) {
+fn_21 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . vr_3 () ) ) {
+vr_3 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . vr_2 () ) ) {
+vr_2 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_24 () ) ) {
+fn_24 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_25 () ) ) {
+fn_25 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_27 () ) ) {
+fn_27 = vr_13 ;
+}
+if ( fn_35 ( vr_13 = vr_17 . fn_29 () ) ) {
+fn_29 = vr_13 ;
+}
+}
+}
+private static boolean fn_35 ( tp_3 vr_18 ) {
+return vr_18 == null ? false : vr_18 . fn_35 () ;
+}
+private static boolean fn_35 ( tp_4 vr_18 ) {
+return vr_18 == null ? false : vr_18 . fn_35 () ;
+}

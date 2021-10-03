@@ -1,0 +1,48 @@
+public final String fn_1 ( final tp_1 vr_1 ) {
+if ( vr_1 == null ) {
+return null ;
+}
+try {
+final tp_2 vr_2 = new tp_2 ( vr_1 . length () * 2 ) ;
+fn_1 ( vr_1 , vr_2 ) ;
+return vr_2 . toString () ;
+} catch ( final IOException vr_3 ) {
+throw new fn_2 ( vr_3 ) ;
+}
+}
+public final void fn_1 ( final tp_1 vr_1 , final tp_3 out ) throws IOException {
+vr_4 . vr_5 ( out != null , lr_1 ) ;
+if ( vr_1 == null ) {
+return;
+}
+int vr_6 = 0 ;
+final int vr_7 = vr_1 . length () ;
+while ( vr_6 < vr_7 ) {
+final int vr_8 = fn_1 ( vr_1 , vr_6 , out ) ;
+if ( vr_8 == 0 ) {
+final char vr_9 = vr_1 . charAt ( vr_6 ) ;
+out . vr_10 ( vr_9 ) ;
+vr_6 ++ ;
+if ( vr_11 . vr_12 ( vr_9 ) && vr_6 < vr_7 ) {
+final char vr_13 = vr_1 . charAt ( vr_6 ) ;
+if ( vr_11 . vr_14 ( vr_13 ) ) {
+out . vr_10 ( vr_13 ) ;
+vr_6 ++ ;
+}
+}
+continue;
+}
+for ( int vr_15 = 0 ; vr_15 < vr_8 ; vr_15 ++ ) {
+vr_6 += vr_11 . vr_16 ( vr_11 . vr_17 ( vr_1 , vr_6 ) ) ;
+}
+}
+}
+public final tp_4 fn_3 ( final tp_4 ... vr_18 ) {
+final tp_4 [] vr_19 = new tp_4 [ vr_18 . length + 1 ] ;
+vr_19 [ 0 ] = this ;
+System . vr_20 ( vr_18 , 0 , vr_19 , 1 , vr_18 . length ) ;
+return new fn_4 ( vr_19 ) ;
+}
+public static String fn_5 ( final int vr_21 ) {
+return Integer . vr_22 ( vr_21 ) . fn_6 ( vr_23 . vr_24 ) ;
+}

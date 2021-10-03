@@ -1,0 +1,28 @@
+sendData	,	fn_1
+data	,	vr_8
+rint	,	vr_3
+ack	,	vr_10
+TFTP	,	tp_1
+run	,	fn_3
+setPort	,	vr_7
+"Server shutting down"	,	lr_7
+"Server exit"	,	lr_8
+trace	,	fn_2
+"Drop packet: "	,	lr_4
+"Bump port "	,	lr_1
+tftp	,	vr_1
+direction	,	vr_11
+TFTPAckPacket	,	vl_2
+" "	,	lr_6
+nextInt	,	vr_4
+"Dupe packet: "	,	lr_5
+packet	,	vr_2
+"Change ack block num"	,	lr_3
+getPort	,	vr_6
+port	,	vr_5
+blockNumber	,	vr_9
+tftpS	,	vr_12
+TFTPDataPacket	,	vl_1
+"Change data block num"	,	lr_2
+TFTPPacket	,	tp_2
+shutdown	,	vr_13

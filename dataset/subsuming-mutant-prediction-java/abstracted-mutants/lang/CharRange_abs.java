@@ -1,0 +1,110 @@
+public static tp_1 fn_1 ( final char vr_1 ) {
+return new tp_1 ( vr_1 , vr_1 , false ) ;
+}
+public static tp_1 fn_2 ( final char vr_1 ) {
+return new tp_1 ( vr_1 , vr_1 , true ) ;
+}
+public static tp_1 fn_3 ( final char vr_2 , final char vr_3 ) {
+return new tp_1 ( vr_2 , vr_3 , false ) ;
+}
+public static tp_1 fn_4 ( final char vr_2 , final char vr_3 ) {
+return new tp_1 ( vr_2 , vr_3 , true ) ;
+}
+public char fn_5 () {
+return this . vr_2 ;
+}
+public char fn_6 () {
+return this . vr_3 ;
+}
+public boolean fn_7 () {
+return vl_1 ;
+}
+public boolean contains ( final char vr_1 ) {
+return ( vr_1 >= vr_2 && vr_1 <= vr_3 ) != vl_1 ;
+}
+public boolean contains ( final tp_1 vr_4 ) {
+if ( vr_4 == null ) {
+throw new IllegalArgumentException ( lr_1 ) ;
+}
+if ( vl_1 ) {
+if ( vr_4 . vl_1 ) {
+return vr_2 >= vr_4 . vr_2 && vr_3 <= vr_4 . vr_3 ;
+}
+return vr_4 . vr_3 < vr_2 || vr_4 . vr_2 > vr_3 ;
+}
+if ( vr_4 . vl_1 ) {
+return vr_2 == 0 && vr_3 == vr_5 . vr_6 ;
+}
+return vr_2 <= vr_4 . vr_2 && vr_3 >= vr_4 . vr_3 ;
+}
+@Override
+public boolean equals ( final Object vr_7 ) {
+if ( vr_7 == this ) {
+return true ;
+}
+if ( vr_7 instanceof tp_1 == false ) {
+return false ;
+}
+final tp_1 vr_8 = ( tp_1 ) vr_7 ;
+return vr_2 == vr_8 . vr_2 && vr_3 == vr_8 . vr_3 && vl_1 == vr_8 . vl_1 ;
+}
+@Override
+public int fn_8 () {
+return 83 + vr_2 + 7 * vr_3 + ( vl_1 ? 1 : 0 ) ;
+}
+@Override
+public String toString () {
+if ( vl_2 == null ) {
+final StringBuilder vr_9 = new StringBuilder ( 4 ) ;
+if ( fn_7 () ) {
+vr_9 . append ( '^' ) ;
+}
+vr_9 . append ( vr_2 ) ;
+if ( vr_2 != vr_3 ) {
+vr_9 . append ( '-' ) ;
+vr_9 . append ( vr_3 ) ;
+}
+vl_2 = vr_9 . toString () ;
+}
+return vl_2 ;
+}
+@Override
+public Iterator < vr_5 > iterator () {
+return new fn_9 ( this ) ;
+}
+private void fn_10 () {
+if ( vr_4 . vl_1 ) {
+if ( vl_3 == vr_5 . vr_6 ) {
+hasNext = false ;
+} else if ( vl_3 + 1 == vr_4 . vr_2 ) {
+if ( vr_4 . vr_3 == vr_5 . vr_6 ) {
+hasNext = false ;
+} else {
+vl_3 = (char) ( vr_4 . vr_3 + 1 ) ;
+}
+} else {
+vl_3 = (char) ( vl_3 + 1 ) ;
+}
+} else if ( vl_3 < vr_4 . vr_3 ) {
+vl_3 = (char) ( vl_3 + 1 ) ;
+} else {
+hasNext = false ;
+}
+}
+@Override
+public boolean hasNext () {
+return hasNext ;
+}
+@Override
+public vr_5 fn_11 () {
+if ( hasNext == false ) {
+throw new fn_12 () ;
+}
+final char vr_10 = vl_3 ;
+fn_10 () ;
+return vr_5 . valueOf ( vr_10 ) ;
+}
+@Override
+public void remove () {
+throw new fn_13 () ;
+}

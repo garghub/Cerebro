@@ -1,0 +1,65 @@
+Locale	,	vr_7
+"  Subject: "	,	lr_5
+disconnect	,	vr_33
+listMessages	,	vr_37
+reader	,	vr_1
+subject	,	vr_4
+addProtocolCommandListener	,	vr_28
+"from: "	,	lr_2
+msginfo	,	vr_38
+number	,	vr_40
+password	,	vr_15
+logout	,	vr_35
+split	,	fn_2
+"Connecting to server "	,	lr_10
+from	,	vr_3
+id	,	vr_2
+"subject: "	,	lr_3
+"Could not login to server.  Check password."	,	lr_13
+"Message count: "	,	lr_18
+" on "	,	lr_11
+printStackTrace	,	vr_31
+lower	,	vr_5
+toLowerCase	,	vr_6
+retrieveMessageTop	,	vr_39
+" From: "	,	lr_4
+port	,	vr_24
+pop3	,	vr_23
+arg0	,	vr_12
+proto	,	vr_20
+PrintCommandListener	,	fn_4
+messages	,	vr_36
+status	,	vr_34
+""	,	lr_1
+server	,	vr_13
+implicit	,	vr_21
+"Could not retrieve status."	,	lr_14
+"Could not retrieve password: "	,	lr_8
+"Status: "	,	lr_15
+parseBoolean	,	vr_22
+POP3Client	,	tp_1
+":"	,	lr_7
+printMessageInfo	,	fn_1
+login	,	vr_32
+substring	,	vr_10
+setDefaultTimeout	,	vr_27
+"Could not connect to server."	,	lr_12
+connect	,	vr_29
+POP3SClient	,	fn_3
+POP3MessageInfo	,	tp_2
+ENGLISH	,	vr_8
+err	,	vr_11
+"Could not retrieve message header."	,	lr_19
+getDefaultPort	,	vr_26
+e	,	vr_30
+getMessage	,	vr_19
+e1	,	vr_18
+"Could not retrieve message list."	,	lr_16
+parseInt	,	vr_25
+getPassword	,	vr_17
+"No messages"	,	lr_17
+Utils	,	vr_16
+"Using secure protocol: "	,	lr_9
+startsWith	,	vr_9
+"Usage: POP3Mail &lt;server[:port]&gt; &lt;username&gt; &lt;password|-|*|VARNAME&gt; [TLS [true=implicit]]"	,	lr_6
+username	,	vr_14

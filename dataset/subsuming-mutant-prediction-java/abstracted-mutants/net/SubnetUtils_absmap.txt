@@ -1,0 +1,81 @@
+getPrevious	,	fn_29
+"# Addresses:\t["	,	lr_12
+addresses	,	vr_11
+"]"	,	lr_5
+"Count is larger than an integer: "	,	lr_1
+getHighAddress	,	fn_17
+getCidrSignature	,	fn_22
+high	,	fn_6
+getLowAddress	,	fn_16
+getAddressCountLong	,	fn_19
+"Broadcast:\t["	,	lr_9
+"Last Address:\t["	,	lr_11
+octets	,	vr_15
+addressPattern	,	vr_20
+","	,	lr_15
+networkLong	,	fn_3
+"Value ["	,	lr_13
+getBroadcastAddress	,	fn_9
+isInclusiveHostCount	,	fn_1
+group	,	vr_24
+val	,	vr_13
+ret	,	vr_14
+getInfo	,	fn_25
+countLong	,	vr_5
+" Netmask: ["	,	lr_6
+UNSIGNED_INT_MASK	,	vl_3
+format	,	fn_10
+count	,	vr_9
+matcher	,	vr_19
+matches	,	vr_21
+asInteger	,	fn_21
+str	,	vr_16
+highLong	,	vr_4
+"Network:\t["	,	lr_8
+addLong	,	vr_2
+getAllAddresses	,	fn_24
+matchAddress	,	fn_26
+begin	,	vr_26
+broadcast	,	vl_4
+"] not in range ["	,	lr_14
+Matcher	,	tp_2
+getNextAddress	,	fn_14
+isInRange	,	fn_7
+MAX_VALUE	,	vr_6
+broadcastLong	,	fn_4
+lowLong	,	vr_3
+setInclusiveHostCount	,	fn_2
+network	,	vl_2
+inclusiveHostCount	,	vl_1
+pop	,	fn_23
+toInteger	,	fn_8
+RuntimeException	,	fn_20
+low	,	fn_5
+netmask	,	vl_5
+"."	,	lr_3
+getAddressCount	,	fn_18
+"First Address:\t["	,	lr_10
+getAddress	,	fn_13
+end	,	vr_27
+getPreviousAddress	,	fn_15
+addr	,	vr_22
+SubnetInfo	,	tp_1
+value	,	vr_25
+b	,	vr_7
+SubnetUtils	,	tp_3
+address	,	vr_1
+i	,	vr_17
+j	,	vr_12
+getNext	,	fn_28
+n	,	vr_8
+parseInt	,	vr_23
+ct	,	vr_10
+buf	,	vr_18
+rangeCheck	,	fn_27
+"/"	,	lr_2
+x	,	vr_28
+PARSE_FAIL	,	vl_6
+getNetmask	,	fn_12
+"CIDR Signature:\t["	,	lr_4
+getNetworkAddress	,	fn_11
+"]\n"	,	lr_7

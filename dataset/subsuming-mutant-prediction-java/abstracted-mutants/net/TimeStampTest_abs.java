@@ -1,0 +1,46 @@
+public void fn_1 () {
+final tp_1 vr_1 = new tp_1 ( vl_1 ) ;
+final tp_1 vr_2 = new tp_1 ( vl_1 ) ;
+final tp_1 vr_3 = new tp_1 ( vl_2 ) ;
+final tp_1 vr_4 = new tp_1 ( vl_3 ) ;
+fn_2 ( lr_1 , vr_1 , vr_2 ) ;
+fn_2 ( lr_2 , 0 , vr_1 . vr_5 ( vr_2 ) ) ;
+fn_2 ( lr_3 , vr_1 . vr_6 () , vr_2 . vr_6 () ) ;
+fn_2 ( lr_4 , vr_1 . vr_7 () , vr_2 . vr_7 () ) ;
+fn_2 ( lr_5 , vr_1 , vr_1 ) ;
+fn_3 ( lr_6 , ! vr_1 . equals ( vr_3 ) ) ;
+fn_2 ( lr_7 , - 1 , vr_1 . vr_5 ( vr_3 ) ) ;
+fn_2 ( lr_8 , vr_1 . vr_8 () , vr_3 . vr_8 () ) ;
+fn_3 ( lr_9 , vr_1 . vr_9 () != vr_3 . vr_9 () ) ;
+fn_3 ( lr_10 , vr_1 . vr_6 () != vr_3 . vr_6 () ) ;
+fn_3 ( lr_11 , vr_1 . vr_7 () != vr_3 . vr_7 () ) ;
+final long vr_10 = vr_1 . vr_11 () ;
+final long vr_12 = vr_3 . vr_11 () ;
+fn_2 ( lr_12 , vr_10 , vr_12 ) ;
+fn_3 ( lr_13 , ! vr_3 . equals ( vr_4 ) ) ;
+fn_3 ( lr_14 , vr_12 != vr_4 . vr_11 () ) ;
+}
+public void fn_4 () {
+final tp_1 vr_1 = new tp_1 ( vl_1 ) ;
+final String vr_13 = vr_1 . vr_14 () ;
+fn_2 ( lr_15 , vr_13 ) ;
+}
+public void fn_5 () {
+final tp_2 vr_15 = tp_2 . vr_16 ( vr_17 . util . vr_18 . vr_19 ( lr_16 ) ) ;
+final tp_3 vr_20 = vr_15 . vr_11 () ;
+final tp_1 vr_21 = new tp_1 ( vr_20 ) ;
+fn_2 ( lr_17 , vr_20 . vr_11 () , vr_21 . vr_11 () ) ;
+final tp_3 vr_22 = vr_21 . vr_23 () ;
+fn_2 ( vr_20 , vr_22 ) ;
+}
+public void fn_6 () {
+final tp_1 time = tp_1 . vr_24 () ;
+Object vr_25 = Integer . valueOf ( 0 ) ;
+if( time . equals ( vr_25 ) ) {
+fn_7 ( lr_18 ) ;
+}
+vr_25 = null ;
+if( time . equals ( vr_25 ) ) {
+fn_7 ( lr_19 ) ;
+}
+}

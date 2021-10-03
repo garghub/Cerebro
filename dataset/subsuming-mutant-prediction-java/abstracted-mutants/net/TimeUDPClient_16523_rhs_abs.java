@@ -1,0 +1,29 @@
+public long fn_1 ( final tp_1 vr_1 , final int vr_2 ) throws IOException MST[rv.CRCR3Mutator]MSP[N]
+{
+long time ;
+tp_2 vr_3 , vr_4 ;
+vr_3 =
+new tp_2 ( vl_1 , vl_1 . length , vr_1 , vr_2 ) ;
+vr_4 = new tp_2 ( vl_2 , vl_2 . length ) ;
+vr_5 . vr_6 ( vr_3 ) ;
+vr_5 . vr_7 ( vr_4 ) ;
+time = 0L ;
+time |= ( ( ( vl_2 [ 0 ] & 0xff ) << 24 ) & 0xffffffffL ) ;
+time |= ( ( ( vl_2 [ 1 ] & 0xff ) << 16 ) & 0xffffffffL ) ;
+time |= ( ( ( vl_2 [ 2 ] & 0xff ) << 8 ) & 0xffffffffL ) ;
+time |= ( ( vl_2 [ 3 ] & 0xff ) & 0xffffffffL ) ;
+return time ;
+}
+public long fn_1 ( final tp_1 vr_1 ) throws IOException
+{
+return fn_1 ( vr_1 , vl_3 ) ;
+}
+public tp_3 fn_2 ( final tp_1 vr_1 , final int vr_2 ) throws IOException
+{
+return new tp_3 ( ( fn_1 ( vr_1 , vr_2 ) - vl_4 ) * 1000L ) ;
+}
+public tp_3 fn_2 ( final tp_1 vr_1 ) throws IOException
+{
+return new tp_3 ( ( fn_1 ( vr_1 , vl_3 ) -
+vl_4 ) * 1000L ) ;
+}

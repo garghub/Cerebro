@@ -1,0 +1,127 @@
+public tp_1 fn_1 () {
+return fn_2 () . fn_1 () ;
+}
+public int get ( tp_2 type ) {
+if ( type == null ) {
+throw new IllegalArgumentException ( lr_1 ) ;
+}
+return type . vr_1 ( fn_2 () ) . get ( fn_3 () ) ;
+}
+public boolean fn_4 ( tp_2 type ) {
+if ( type == null ) {
+return false ;
+}
+return type . vr_1 ( fn_2 () ) . fn_4 () ;
+}
+public int get ( tp_3 vr_2 ) {
+if ( vr_2 == null ) {
+throw new IllegalArgumentException ( lr_2 ) ;
+}
+return vr_2 . get ( fn_3 () ) ;
+}
+public tp_4 fn_5 () {
+return new tp_4 ( fn_3 () ) ;
+}
+public tp_5 fn_6 () {
+return new tp_5 ( fn_3 () , fn_1 () ) ;
+}
+public tp_5 fn_7 () {
+return new tp_5 ( fn_3 () , vr_3 . vr_4 ( fn_1 () ) ) ;
+}
+public tp_5 fn_6 ( tp_1 vr_5 ) {
+tp_6 vr_6 = vr_7 . fn_2 ( fn_2 () ) ;
+vr_6 = vr_6 . vr_8 ( vr_5 ) ;
+return new tp_5 ( fn_3 () , vr_6 ) ;
+}
+public tp_5 fn_6 ( tp_6 vr_9 ) {
+return new tp_5 ( fn_3 () , vr_9 ) ;
+}
+public tp_7 fn_8 () {
+return new tp_7 ( fn_3 () , fn_1 () ) ;
+}
+public tp_7 fn_9 () {
+return new tp_7 ( fn_3 () , vr_3 . vr_4 ( fn_1 () ) ) ;
+}
+public tp_7 fn_8 ( tp_1 vr_5 ) {
+tp_6 vr_6 = vr_7 . fn_2 ( fn_2 () ) ;
+vr_6 = vr_6 . vr_8 ( vr_5 ) ;
+return new tp_7 ( fn_3 () , vr_6 ) ;
+}
+public tp_7 fn_8 ( tp_6 vr_9 ) {
+return new tp_7 ( fn_3 () , vr_9 ) ;
+}
+public tp_8 fn_10 () {
+return new tp_8 ( fn_3 () ) ;
+}
+public boolean equals ( Object vr_10 ) {
+if ( this == vr_10 ) {
+return true ;
+}
+if ( vr_10 instanceof vl_1 == false ) {
+return false ;
+}
+vl_1 vr_11 = ( vl_1 ) vr_10 ;
+return
+fn_3 () == vr_11 . fn_3 () &&
+vr_12 . equals ( fn_2 () , vr_11 . fn_2 () ) ;
+}
+public int fn_11 () {
+return
+( (int) ( fn_3 () ^ ( fn_3 () >>> 32 ) ) ) +
+( fn_2 () . fn_11 () ) ;
+}
+public int fn_12 ( vl_1 vr_13 ) {
+if ( this == vr_13 ) {
+return 0 ;
+}
+long vr_14 = vr_13 . fn_3 () ;
+long vr_15 = fn_3 () ;
+if ( vr_15 == vr_14 ) {
+return 0 ;
+}
+if ( vr_15 < vr_14 ) {
+return - 1 ;
+} else {
+return 1 ;
+}
+}
+public boolean fn_13 ( long vr_16 ) {
+return ( fn_3 () > vr_16 ) ;
+}
+public boolean fn_14 () {
+return fn_13 ( vr_7 . vr_17 () ) ;
+}
+public boolean fn_13 ( vl_1 vr_16 ) {
+long vr_18 = vr_7 . vr_19 ( vr_16 ) ;
+return fn_13 ( vr_18 ) ;
+}
+public boolean fn_15 ( long vr_16 ) {
+return ( fn_3 () < vr_16 ) ;
+}
+public boolean fn_16 () {
+return fn_15 ( vr_7 . vr_17 () ) ;
+}
+public boolean fn_15 ( vl_1 vr_16 ) {
+long vr_18 = vr_7 . vr_19 ( vr_16 ) ;
+return fn_15 ( vr_18 ) ;
+}
+public boolean fn_17 ( long vr_16 ) {
+return ( fn_3 () == vr_16 ) ;
+}
+public boolean fn_18 () {
+return fn_17 ( vr_7 . vr_17 () ) ;
+}
+public boolean fn_17 ( vl_1 vr_16 ) {
+long vr_18 = vr_7 . vr_19 ( vr_16 ) ;
+return fn_17 ( vr_18 ) ;
+}
+@ToString
+public String toString () {
+return vr_20 . vr_21 () . fn_19 ( this ) ;
+}
+public String toString ( tp_9 vr_22 ) {
+if ( vr_22 == null ) {
+return toString () ;
+}
+return vr_22 . fn_19 ( this ) ;
+}

@@ -1,0 +1,23 @@
+public static < vt_1 , vt_2 > vr_1 < vt_1 , vt_2 > fn_1 ( final vt_1 vr_2 , final vt_2 vr_3 ) {
+return new vr_1 < vt_1 , vt_2 > ( vr_2 , vr_3 ) ;
+}
+@Override
+public vt_1 fn_2 () {
+return vr_2 ;
+}
+public void fn_3 ( final vt_1 vr_2 ) {
+this . vr_2 = vr_2 ;
+}
+@Override
+public vt_2 fn_4 () {
+return vr_3 ;
+}
+public void fn_5 ( final vt_2 vr_3 ) {
+this . vr_3 = vr_3 ;
+}
+@Override
+public vt_2 fn_6 ( final vt_2 vr_4 ) {
+final vt_2 vr_5 = fn_4 () ;
+fn_5 ( vr_4 ) ;
+return vr_5 ;
+}

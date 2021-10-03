@@ -1,0 +1,56 @@
+MONTH	,	vr_10
+df	,	vr_18
+getName	,	vr_3
+"Directory flag is not set!"	,	lr_5
+goodsamples	,	vl_2
+"File flag is not set!"	,	lr_9
+FTPFile	,	tp_2
+YEAR	,	vr_16
+FTPFileEntryParser	,	tp_1
+assertNotNull	,	fn_7
+parseFTPEntry	,	fn_6
+MINUTE	,	vr_13
+reply	,	vr_1
+testParseFieldsOnDirectory	,	fn_5
+USER_ACCESS	,	vr_23
+format	,	vr_19
+WRITE_PERMISSION	,	vr_25
+"Document name with spaces.doc"	,	lr_7
+testDefaultPrecision	,	fn_12
+getGoodListing	,	fn_2
+hasPermission	,	vr_22
+testParseFieldsOnFile	,	fn_10
+isDirectory	,	vr_6
+"testUser"	,	lr_4
+"rwinston"	,	lr_8
+CalendarUnit	,	vr_26
+DAY_OF_MONTH	,	vr_11
+getTime	,	vr_20
+getUser	,	vr_5
+assertFalse	,	fn_11
+badsamples	,	vl_1
+cal	,	vr_7
+assertTrue	,	fn_9
+HOUR_OF_DAY	,	vr_12
+NetwareFTPEntryParser	,	fn_4
+"testFile"	,	lr_3
+getTimestamp	,	vr_17
+getParser	,	fn_3
+testRecentPrecision	,	fn_14
+"- [RWCEAFMS] rwinston                        19968 Mar 12 15:20 Executive Summary.doc"	,	lr_11
+set	,	vr_9
+isFile	,	vr_21
+f	,	vr_2
+getBadListing	,	fn_1
+Calendar	,	tp_3
+testPrecision	,	fn_13
+READ_PERMISSION	,	vr_24
+"d [-W---F--] testUser                        512 Apr 13 23:12 testFile"	,	lr_1
+assertEquals	,	fn_8
+"- [R-CEAFMS] rwinston                        19968 Mar 12 15:20 Document name with spaces.doc"	,	lr_6
+getSize	,	vr_4
+"Could not parse file"	,	lr_2
+SECOND	,	vr_14
+getInstance	,	vr_8
+MILLISECOND	,	vr_15
+"d [RWCEAFMS] rwinston                          512 Nov 24  2005 Favorites"	,	lr_10

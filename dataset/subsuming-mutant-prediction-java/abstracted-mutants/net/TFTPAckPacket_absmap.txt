@@ -1,0 +1,15 @@
+_newDatagram	,	fn_1
+address	,	vl_2
+data	,	vr_2
+setAddress	,	vr_3
+setData	,	vr_5
+setBlockNumber	,	fn_4
+datagram	,	vr_1
+setPort	,	vr_4
+" ACK "	,	lr_1
+setLength	,	vr_6
+port	,	vl_3
+newDatagram	,	fn_2
+DatagramPacket	,	tp_1
+blockNumber	,	vl_1
+getBlockNumber	,	fn_3

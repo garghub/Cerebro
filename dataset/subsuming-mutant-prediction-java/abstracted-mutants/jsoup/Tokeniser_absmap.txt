@@ -1,0 +1,129 @@
+"Unexpected characters returned for "	,	lr_13
+"#"	,	lr_5
+matchConsume	,	vr_32
+charval	,	vr_40
+doctypePending	,	vr_67
+Token	,	tp_1
+codepointsForName	,	vr_57
+isNamedEntity	,	vr_51
+"Attributes incorrectly present on end tag"	,	lr_4
+unmark	,	vr_39
+advance	,	vr_26
+Validate	,	vr_5
+emitCommentPending	,	fn_11
+state	,	vr_4
+appropriateEndTagName	,	fn_17
+"invalid named reference '%s'"	,	lr_12
+emitTagPending	,	fn_9
+EndTag	,	vr_20
+endTag	,	vr_21
+numChars	,	vr_56
+matches	,	vr_47
+str	,	vr_10
+fail	,	vr_58
+matchesAny	,	vr_55
+reset	,	vr_62
+TokeniserState	,	tp_2
+matchesDigit	,	vr_54
+bogus	,	vr_66
+"character is not a valid unicode code point"	,	lr_11
+codeRef	,	vr_30
+looksLegit	,	vr_46
+consecutiveReads	,	vr_3
+consume	,	vr_75
+isBaseNamedEntity	,	vr_50
+"missing semicolon"	,	lr_9
+emitDoctypePending	,	fn_14
+"Unexpectedly reached end of file (EOF) in input state [%s]"	,	lr_15
+rewindToMark	,	vr_38
+appendCodePoint	,	vr_76
+additionalAllowedCharacter	,	vr_27
+current	,	vr_8
+TokenType	,	vr_16
+characterReferenceError	,	fn_7
+found	,	vr_48
+consumeDigitSequence	,	vr_37
+pos	,	vr_1
+consumeHexSequence	,	vr_36
+win1252ExtensionsStart	,	vl_8
+codepoints	,	vr_24
+consumeCharacterReference	,	fn_6
+inAttribute	,	vr_28
+matchesAnySorted	,	vr_29
+unescapeEntities	,	fn_21
+c	,	vr_25
+charPending	,	vr_12
+emitPending	,	vl_3
+charsString	,	vl_2
+"X"	,	lr_6
+transition	,	fn_4
+token	,	vr_14
+Entities	,	vr_49
+errorMsg	,	vr_71
+consumeTo	,	vr_74
+isTrue	,	vr_6
+numRef	,	vr_35
+attributes	,	vr_22
+Tag	,	vr_59
+isAppropriateEndTagToken	,	fn_16
+lastStartTag	,	vl_4
+chars	,	vr_23
+data	,	vr_13
+reader	,	vr_2
+currentNodeInHtmlNS	,	fn_20
+createCommentPending	,	fn_10
+win1252Extensions	,	vr_43
+"BUG: Not making progress from state: "	,	lr_1
+releaseBuilder	,	vr_77
+startPending	,	vr_61
+notCharRefCharsSorted	,	vl_5
+matchesLetter	,	vr_53
+createTagPending	,	fn_8
+" with current char="	,	lr_2
+ignored	,	vr_42
+consumeLetterThenDigitSequence	,	vr_45
+createTempBuffer	,	fn_15
+read	,	fn_1
+startTag	,	vr_18
+Character	,	tp_3
+"There is an unread token pending!"	,	lr_3
+format	,	vr_52
+NumberFormatException	,	tp_4
+dataBuffer	,	vl_11
+isFalse	,	vr_15
+nameRef	,	vr_44
+isEmitPending	,	vl_1
+StartTag	,	vr_17
+commentPending	,	vr_65
+"Unexpected character '%s' in input state [%s]"	,	lr_14
+name	,	vr_7
+canAddError	,	vr_69
+advanceTransition	,	fn_5
+"Invalid character reference: %s"	,	lr_16
+errors	,	vr_68
+isHexMode	,	vr_33
+tagPending	,	vl_10
+createBogusCommentPending	,	fn_12
+delete	,	vr_11
+codepointHolder	,	vl_6
+"character outside of valid range"	,	lr_10
+eofError	,	fn_19
+"numeric reference with no numerals"	,	lr_7
+ParseError	,	fn_18
+finaliseTag	,	vr_64
+StringUtil	,	vr_72
+endPending	,	vr_63
+multipointHolder	,	vl_9
+start	,	vr_60
+";"	,	lr_8
+borrowBuilder	,	vr_73
+tagName	,	vr_19
+message	,	vr_70
+charsBuilder	,	vr_9
+getState	,	fn_3
+emit	,	fn_2
+replacementChar	,	vl_7
+mark	,	vr_31
+matchConsumeIgnoreCase	,	vr_34
+base	,	vr_41
+createDoctypePending	,	fn_13

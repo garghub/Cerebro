@@ -1,0 +1,105 @@
+public static tp_1 fn_1 () {
+return vl_1 ;
+}
+public static tp_1 fn_2 () {
+return fn_2 ( vr_1 . vr_2 () , 4 ) ;
+}
+public static tp_1 fn_2 ( vr_1 vr_3 ) {
+return fn_2 ( vr_3 , 4 ) ;
+}
+public static tp_1 fn_2 ( vr_1 vr_3 , int vr_4 ) {
+if ( vr_3 == null ) {
+vr_3 = vr_1 . vr_2 () ;
+}
+tp_1 vr_5 ;
+tp_1 [] vr_6 = vr_7 . get ( vr_3 ) ;
+if ( vr_6 == null ) {
+vr_6 = new tp_1 [ 7 ] ;
+tp_1 [] vr_8 = vr_7 . vr_9 ( vr_3 , vr_6 ) ;
+if ( vr_8 != null ) {
+vr_6 = vr_8 ;
+}
+}
+try {
+vr_5 = vr_6 [ vr_4 - 1 ] ;
+} catch ( tp_2 vr_10 ) {
+throw new IllegalArgumentException
+( lr_1 + vr_4 ) ;
+}
+if ( vr_5 == null ) {
+synchronized ( vr_6 ) {
+vr_5 = vr_6 [ vr_4 - 1 ] ;
+if ( vr_5 == null ) {
+if ( vr_3 == vr_1 . vr_11 ) {
+vr_5 = new tp_1 ( null , null , vr_4 ) ;
+tp_3 vr_12 = new tp_3 ( 1 , 1 , 1 , 0 , 0 , 0 , 0 , vr_5 ) ;
+vr_5 = new tp_1
+( vr_13 . fn_2 ( vr_5 , vr_12 , null ) ,
+null , vr_4 ) ;
+} else {
+vr_5 = fn_2 ( vr_1 . vr_11 , vr_4 ) ;
+vr_5 = new tp_1
+( vr_14 . fn_2 ( vr_5 , vr_3 ) , null , vr_4 ) ;
+}
+vr_6 [ vr_4 - 1 ] = vr_5 ;
+}
+}
+}
+return vr_5 ;
+}
+private Object fn_3 () {
+tp_4 vr_15 = fn_4 () ;
+return vr_15 == null ?
+fn_2 ( vr_1 . vr_11 , fn_5 () ) :
+fn_2 ( vr_15 . vr_16 () , fn_5 () ) ;
+}
+public tp_4 fn_6 () {
+return vl_1 ;
+}
+public tp_4 fn_7 ( vr_1 vr_3 ) {
+if ( vr_3 == null ) {
+vr_3 = vr_1 . vr_2 () ;
+}
+if ( vr_3 == vr_16 () ) {
+return this ;
+}
+return fn_2 ( vr_3 ) ;
+}
+@Override
+boolean fn_8 ( long vr_17 ) {
+return fn_9 () . get ( vr_17 ) == 6 && fn_10 () . fn_11 ( vr_17 ) ;
+}
+long fn_12 ( int vr_18 ) {
+int vr_19 = vr_18 - 1963 ;
+int vr_20 ;
+if ( vr_19 <= 0 ) {
+vr_20 = ( vr_19 + 3 ) >> 2 ;
+} else {
+vr_20 = vr_19 >> 2 ;
+if ( ! fn_13 ( vr_18 ) ) {
+vr_20 ++ ;
+}
+}
+long vr_21 = ( vr_19 * 365L + vr_20 )
+* ( long ) vr_22 . vr_23 ;
+return vr_21 + ( 365L - 112 ) * vr_22 . vr_23 ;
+}
+int fn_14 () {
+return vl_2 ;
+}
+int fn_15 () {
+return vl_3 ;
+}
+long fn_16 () {
+return ( 1962L * vl_4 + 112L * vr_22 . vr_23 ) / 2 ;
+}
+protected void fn_17 ( tp_5 vr_24 ) {
+if ( fn_4 () == null ) {
+super . fn_17 ( vr_24 ) ;
+vr_24 . vr_18 = new fn_18 ( this , vr_24 . vr_18 ) ;
+vr_24 . vr_25 = new fn_18 ( this , vr_24 . vr_25 ) ;
+vr_24 . vr_26 = vl_5 ;
+vr_24 . fn_10 = new fn_19 ( this , 13 ) ;
+vr_24 . vr_27 = vr_24 . fn_10 . vr_28 () ;
+}
+}

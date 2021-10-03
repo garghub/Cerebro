@@ -1,0 +1,74 @@
+protected void fn_1 () throws Exception
+{
+try {
+vl_1 = new fn_2 ( vl_2 ) ;
+vl_1 . vr_1 () ;
+} catch ( final IOException vr_2 )
+{
+vl_2 = 4000 ;
+vl_1 = new fn_2 ( vl_2 ) ;
+vl_1 . vr_1 () ;
+}
+vl_1 . vr_3 () ;
+}
+public void fn_3 () {
+final tp_1 vr_4 = tp_1 . vr_5 ( lr_1 ) ;
+final tp_2 vr_6 = tp_2 . vr_7 ( vr_4 ) ;
+vr_6 . vr_8 ( 1900 , tp_2 . vr_9 , 1 , 0 , 0 , 0 ) ;
+vr_6 . vr_8 ( tp_2 . vr_10 , 0 ) ;
+final long vr_11 = vr_6 . vr_12 () . vr_12 () / 1000L ;
+fn_4 ( vr_11 , - vr_13 . vr_14 ) ;
+}
+public void fn_5 () throws Exception
+{
+fn_1 () ;
+long time , vr_15 ;
+long vr_16 , vr_17 ;
+final vr_13 vr_18 = new vr_13 () ;
+try
+{
+final tp_3 vr_19 = tp_3 . vr_20 ( lr_2 ) ;
+try
+{
+vr_18 . vr_21 ( 60000 ) ;
+vr_18 . vr_1 ( vr_19 , vl_2 ) ;
+vr_16 = vr_18 . vr_22 () . vr_12 () ;
+time = System . vr_23 () ;
+} catch ( final IOException vr_24 ) {
+fn_6 ( lr_3 + vr_24 + lr_4 + vr_19 + lr_5 + vl_2 ) ;
+throw vr_24 ;
+} finally
+{
+if( vr_18 . vr_25 () ) {
+vr_18 . vr_26 () ;
+}
+}
+try
+{
+vr_18 . vr_21 ( 60000 ) ;
+vr_18 . vr_1 ( vr_19 , vl_2 ) ;
+vr_17 = ( vr_18 . vr_12 () - vr_13 . vr_14 ) * 1000L ;
+vr_15 = System . vr_23 () ;
+} finally
+{
+if( vr_18 . vr_25 () ) {
+vr_18 . vr_26 () ;
+}
+}
+} finally
+{
+fn_7 () ;
+}
+fn_8 ( vr_27 . abs ( time - vr_16 ) < 5000 ) ;
+fn_8 ( vr_27 . abs ( vr_15 - vr_17 ) < 5000 ) ;
+}
+protected void fn_7 ()
+{
+try
+{
+vl_1 . vr_28 () ;
+vr_29 . vr_30 ( 1000 ) ;
+} catch ( final Exception vr_24 )
+{
+}
+}

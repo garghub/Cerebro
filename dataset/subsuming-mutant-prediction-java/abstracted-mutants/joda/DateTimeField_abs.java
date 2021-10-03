@@ -1,0 +1,3 @@
+public long fn_1 ( long vr_1 , int vr_2 ) {
+return fn_2 ( vr_1 , vr_2 ) ;
+}

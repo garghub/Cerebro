@@ -1,0 +1,102 @@
+"05-22-97  12:08AM                  5000000000 10 years and under"	,	lr_8
+"05-22-97  08:08                    828 AUTOEXEC.BAK"	,	lr_39
+goodsamples	,	vl_1
+"Thu May 22 00:08:00 1997"	,	lr_12
+FTPFile	,	tp_2
+"12-03-96  06:38AM       &lt;DIR&gt;          123 abc xyz"	,	lr_30
+"AUTOEXEC.BAK"	,	lr_21
+"Tue Dec 03 18:38:00 1996"	,	lr_14
+"12-03-96  06:38PM       &lt;DIR&gt;           10 years and under"	,	lr_13
+"12-03-96  06:38AM       &lt;DIR&gt;          123 xyz"	,	lr_28
+assertNotNull	,	fn_9
+"directory.type"	,	lr_25
+DIRECTORY_TYPE	,	vr_17
+testDirectoryBeginningWithNumber	,	fn_17
+doAdditionalGoodTests	,	fn_16
+parseFTPEntry	,	fn_8
+setTime	,	vr_14
+NTFTPEntryParser	,	fn_5
+"Should have been a directory."	,	lr_4
+CompositeFileEntryParser	,	fn_4
+"123xyz"	,	lr_27
+"hour"	,	lr_23
+testDefaultPrecision	,	fn_22
+"Tue Dec 03 06:38:00 1996"	,	lr_18
+testParseFieldsOnFile	,	fn_15
+testNET516	,	fn_20
+charset	,	vr_20
+"&lt;DIR&gt;"	,	lr_24
+"absoft2"	,	lr_5
+"05-22-97  12:08AM                  5000000000 AUTOEXEC.BAK"	,	lr_19
+"12-03-96  06:38AM       &lt;DIR&gt;          123456"	,	lr_6
+badsamples	,	vl_2
+"Thu May 22 12:08:00 1997"	,	lr_16
+file	,	vr_8
+"ISO-8859-1"	,	lr_37
+getBadListings	,	fn_2
+assertTrue	,	fn_12
+"name"	,	lr_26
+testParseLeadingDigits	,	fn_13
+"05-22-97  12:08                  5000000000 10 years and under"	,	lr_15
+"123 abc xyz"	,	lr_31
+timestamp	,	vr_9
+isFile	,	vr_11
+f	,	vr_10
+Calendar	,	tp_3
+assertEquals	,	fn_10
+"10 years and under"	,	lr_10
+getGoodListings	,	fn_1
+testNET339	,	fn_14
+df	,	vr_2
+getName	,	vr_6
+"ASCII"	,	lr_36
+"Thu Dec 05 17:03:00 1996"	,	lr_3
+dir	,	vr_1
+"123456"	,	lr_7
+FTPFileEntryParser	,	tp_1
+MINUTE	,	vr_30
+"12-05-96  05:03PM       &lt;DIR&gt;          absoft2"	,	lr_1
+testGroupNameWithSpaces	,	fn_19
+"Could not parse time"	,	lr_11
+testParseFieldsOnDirectory	,	fn_7
+"Should have been a file."	,	lr_20
+test	,	vr_16
+readServerList	,	vr_23
+"12-03-96  06:38       &lt;DIR&gt;           10 years and under"	,	lr_17
+utf	,	vr_26
+UnixFTPEntryParser	,	fn_6
+format	,	vr_3
+ftpfiles	,	vr_24
+getFiles	,	vr_25
+directoryBeginningWithNumber	,	vl_3
+testDirectoryBeginningWithNumberFollowedBySpaces	,	fn_18
+"Domain Users"	,	lr_34
+parser	,	vr_21
+ByteArrayInputStream	,	fn_21
+getGroup	,	vr_19
+isDirectory	,	vr_5
+"-rw-rw-r--   1 mqm        mqm          17707 Mar 12  3:33 killmq.sh.log"	,	lr_22
+LISTFILE_COUNT	,	vl_5
+CalendarUnit	,	vr_29
+HOUR	,	vr_15
+getTime	,	fn_11
+getUser	,	vr_18
+"Could not parse entry."	,	lr_2
+cal	,	vr_12
+iso8859_1	,	vr_28
+"123 xyz"	,	lr_29
+engine	,	vr_22
+"05-26-1995  10:57AM               143712 $LDR$"	,	lr_38
+getTimestamp	,	vr_4
+getParser	,	fn_3
+testRecentPrecision	,	fn_24
+"drwx------ 4 maxm Domain Users 512 Oct 2 10:59 .metadata"	,	lr_32
+"Could not parse entry"	,	lr_9
+ascii	,	vr_27
+FTPListParseEngine	,	tp_4
+"maxm"	,	lr_33
+testPrecision	,	fn_23
+listFilesByteTrace	,	vl_4
+getSize	,	vr_7
+"UTF-8"	,	lr_35
+getInstance	,	vr_13

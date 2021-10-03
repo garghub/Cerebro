@@ -1,0 +1,84 @@
+public int get ( long vr_1 ) {
+int vr_2 = fn_1 () . get ( vr_1 ) ;
+if ( vr_2 == 0 ) {
+vr_2 = fn_2 () ;
+}
+return vr_2 ;
+}
+public long add ( long vr_1 , int vr_2 ) {
+return fn_1 () . add ( vr_1 , vr_2 ) ;
+}
+public long add ( long vr_1 , long vr_2 ) {
+return fn_1 () . add ( vr_1 , vr_2 ) ;
+}
+public long fn_3 ( long vr_1 , int vr_2 ) {
+return fn_1 () . fn_3 ( vr_1 , vr_2 ) ;
+}
+public int [] fn_3 ( tp_1 vr_1 , int vr_3 , int [] vr_4 , int vr_5 ) {
+return fn_1 () . fn_3 ( vr_1 , vr_3 , vr_4 , vr_5 ) ;
+}
+public int fn_4 ( long vr_6 , long vr_7 ) {
+return fn_1 () . fn_4 ( vr_6 , vr_7 ) ;
+}
+public long fn_5 ( long vr_6 , long vr_7 ) {
+return fn_1 () . fn_5 ( vr_6 , vr_7 ) ;
+}
+public long fn_6 ( long vr_1 , int vr_2 ) {
+int vr_8 = fn_2 () ;
+vr_9 . vr_10 ( this , vr_2 , 1 , vr_8 ) ;
+if ( vr_2 == vr_8 ) {
+vr_2 = 0 ;
+}
+return fn_1 () . fn_6 ( vr_1 , vr_2 ) ;
+}
+public boolean fn_7 ( long vr_1 ) {
+return fn_1 () . fn_7 ( vr_1 ) ;
+}
+public int fn_8 ( long vr_1 ) {
+return fn_1 () . fn_8 ( vr_1 ) ;
+}
+public tp_2 fn_9 () {
+return fn_1 () . fn_9 () ;
+}
+public int fn_10 () {
+return 1 ;
+}
+public int fn_10 ( long vr_1 ) {
+return 1 ;
+}
+public int fn_10 ( tp_1 vr_1 ) {
+return 1 ;
+}
+public int fn_10 ( tp_1 vr_1 , int [] vr_4 ) {
+return 1 ;
+}
+public int fn_2 () {
+return fn_1 () . fn_2 () + 1 ;
+}
+public int fn_2 ( long vr_1 ) {
+return fn_1 () . fn_2 ( vr_1 ) + 1 ;
+}
+public int fn_2 ( tp_1 vr_1 ) {
+return fn_1 () . fn_2 ( vr_1 ) + 1 ;
+}
+public int fn_2 ( tp_1 vr_1 , int [] vr_4 ) {
+return fn_1 () . fn_2 ( vr_1 , vr_4 ) + 1 ;
+}
+public long fn_11 ( long vr_1 ) {
+return fn_1 () . fn_11 ( vr_1 ) ;
+}
+public long fn_12 ( long vr_1 ) {
+return fn_1 () . fn_12 ( vr_1 ) ;
+}
+public long fn_13 ( long vr_1 ) {
+return fn_1 () . fn_13 ( vr_1 ) ;
+}
+public long fn_14 ( long vr_1 ) {
+return fn_1 () . fn_14 ( vr_1 ) ;
+}
+public long fn_15 ( long vr_1 ) {
+return fn_1 () . fn_15 ( vr_1 ) ;
+}
+public long fn_16 ( long vr_1 ) {
+return fn_1 () . fn_16 ( vr_1 ) ;
+}

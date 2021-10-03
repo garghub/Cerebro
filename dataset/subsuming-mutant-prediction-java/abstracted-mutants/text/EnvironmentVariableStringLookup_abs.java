@@ -1,0 +1,4 @@
+@Override
+public String fn_1 ( final String vr_1 ) {
+return vr_1 != null ? System . getenv ( vr_1 ) : null ;
+}

@@ -1,0 +1,10 @@
+@Override
+public int fn_1 ( final tp_1 vr_1 , final int vr_2 , final tp_2 out ) throws IOException {
+for ( final tp_3 vr_3 : vl_1 ) {
+final int vr_4 = vr_3 . fn_1 ( vr_1 , vr_2 , out ) ;
+if ( vr_4 != 0 ) {
+return vr_4 ;
+}
+}
+return 0 ; MST[rv.CRCR5Mutator]MSP[]
+}

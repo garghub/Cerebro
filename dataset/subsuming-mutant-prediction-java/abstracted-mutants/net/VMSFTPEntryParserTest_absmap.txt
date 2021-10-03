@@ -1,0 +1,92 @@
+df	,	vr_17
+getName	,	vr_13
+"Owner should not have execute permission."	,	lr_25
+"World should not have read permission."	,	lr_29
+VMSVersioningFTPEntryParser	,	fn_7
+goodsamples	,	vl_2
+FTPFile	,	vr_7
+"Unexpected File "	,	lr_10
+dir	,	vr_14
+getBytes	,	vr_6
+"DATA.DIR"	,	lr_14
+"1-JUN.LIS"	,	lr_3
+"Group should not have execute permission."	,	lr_28
+FTPFileEntryParser	,	tp_3
+WORLD_ACCESS	,	vr_34
+parseFTPEntry	,	fn_11
+"1-JUN.LIS;1"	,	lr_4
+VMSFTPEntryParser	,	tp_1
+ConfigurableFTPFileEntryParserImpl	,	tp_4
+EXECUTE_PERMISSION	,	vr_32
+element	,	vr_12
+"TRANSLATED"	,	lr_19
+"GROUP"	,	lr_16
+testParseFieldsOnDirectory	,	fn_9
+USER_ACCESS	,	vr_29
+readServerList	,	vr_4
+format	,	vr_18
+WRITE_PERMISSION	,	vr_31
+getFiles	,	vr_9
+testDefaultPrecision	,	fn_16
+fail	,	fn_8
+parser	,	vr_1
+getGoodListing	,	fn_20
+ByteArrayInputStream	,	fn_2
+GROUP_ACCESS	,	vr_33
+"DATA.DIR;1               1/9           2-JUN-1998 07:32:04  [GROUP,OWNER]    (RWED,RWED,RWED,RE)"	,	lr_12
+getGroup	,	vr_20
+"1-JUN.LIS;1              9/9           2-JUN-1998 07:32:04  [GROUP,OWNER]    (RWED,RWED,RW,R)"	,	lr_20
+hasPermission	,	vr_28
+testWholeListParse	,	fn_1
+name	,	vr_11
+files	,	vr_8
+testParseFieldsOnFile	,	fn_15
+"1-JUN.LIS;1              9/9           2-JUN-1998 07:32:04  [TRANSLATED]    (RWED,RD,,)"	,	lr_22
+isDirectory	,	vr_15
+"OWNER"	,	lr_17
+"File "	,	lr_8
+"Should be a file."	,	lr_21
+"3-JUN.LIS"	,	lr_2
+"DATA.DIR;1               1/9           2-JUN-1998 07:32:04  [TRANSLATED]    (RWED,RWED,,RE)"	,	lr_18
+CalendarUnit	,	vr_24
+assertFileNotInListing	,	fn_5
+" not found in supplied listing"	,	lr_9
+getTime	,	fn_13
+getUser	,	vr_21
+"2-JUN.LIS;1"	,	lr_5
+"Tue Jun 02 07:32:04 1998"	,	lr_15
+"Group should not have write permission."	,	lr_27
+badsamples	,	vl_1
+checkPermisions	,	fn_14
+file	,	vr_22
+engine	,	vr_3
+assertTrue	,	fn_12
+getTimestamp	,	vr_19
+getParser	,	fn_10
+"World should not have write permission."	,	lr_30
+testRecentPrecision	,	fn_18
+listing	,	vr_10
+" found in supplied listing"	,	lr_11
+"3-JUN.LIS;4"	,	lr_6
+"Should be a directory."	,	lr_13
+"World should not have execute permission."	,	lr_31
+FTPListParseEngine	,	tp_2
+getVersioningParser	,	fn_21
+"Group should not have read permission."	,	lr_26
+"Owner should not have write permission."	,	lr_24
+isFile	,	vr_23
+getBadListing	,	fn_19
+testPrecision	,	fn_17
+"Owner should not have read permission."	,	lr_23
+testWholeListParseWithVersioning	,	fn_6
+READ_PERMISSION	,	vr_30
+fullListing	,	vr_5
+assertEquals	,	fn_3
+octalPerm	,	vr_26
+configure	,	vr_2
+getSize	,	vr_16
+"2-JUN.LIS"	,	lr_1
+permMask	,	vr_27
+"3-JUN.LIS;1"	,	lr_7
+SECOND	,	vr_25
+assertFileInListing	,	fn_4

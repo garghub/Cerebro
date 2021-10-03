@@ -1,0 +1,10 @@
+public String fn_1 () {
+return vl_1 ;
+}
+public String fn_2 () {
+return vl_2 ; MST[EmptyObjectReturnValsMutator]MSP[N]
+}
+@Override
+public String toString () {
+return super . toString () + lr_1 + vl_1 + lr_2 + vl_2 ;
+}

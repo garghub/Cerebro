@@ -1,0 +1,69 @@
+select	,	vr_3
+getName	,	fn_3
+"No partial converter found for type: "	,	lr_4
+PeriodConverter	,	tp_7
+"ConverterManager.alterPeriodConverters"	,	lr_9
+getIntervalConverters	,	fn_25
+converter	,	vr_1
+" partial,"	,	lr_14
+removeIntervalConverter	,	fn_28
+"ConverterManager.alterPartialConverters"	,	lr_5
+InstantConverter	,	tp_2
+getInstantConverters	,	fn_4
+iInstantConverters	,	vr_2
+checkPermission	,	vr_10
+checkAlterDurationConverters	,	fn_17
+ConverterSet	,	tp_3
+converters	,	vr_5
+removeDurationConverter	,	fn_18
+getPartialConverter	,	fn_9
+"ConverterManager.alterDurationConverters"	,	lr_7
+" period,"	,	lr_16
+getPeriodConverter	,	fn_19
+removeInstantConverter	,	fn_7
+removePartialConverter	,	fn_13
+copyInto	,	vr_6
+addPeriodConverter	,	fn_21
+INSTANCE	,	vl_1
+checkAlterInstantConverters	,	fn_6
+"No interval converter found for type: "	,	lr_10
+getSecurityManager	,	vr_9
+getDurationConverter	,	fn_14
+iPeriodConverters	,	vr_13
+checkAlterIntervalConverters	,	fn_27
+addDurationConverter	,	fn_16
+IntervalConverter	,	tp_8
+addInstantConverter	,	fn_5
+addPartialConverter	,	fn_11
+iPartialConverters	,	vr_11
+SecurityManager	,	tp_4
+PartialConverter	,	tp_5
+getDurationConverters	,	fn_15
+"No duration converter found for type: "	,	lr_6
+"null"	,	lr_2
+iDurationConverters	,	vr_12
+"ConverterManager["	,	lr_12
+" instant,"	,	lr_13
+getIntervalConverter	,	fn_24
+DurationConverter	,	tp_6
+getPeriodConverters	,	fn_20
+sm	,	vr_8
+getInstantConverter	,	fn_2
+checkAlterPartialConverters	,	fn_12
+getPartialConverters	,	fn_10
+" duration,"	,	lr_15
+" interval]"	,	lr_17
+"ConverterManager.alterInstantConverters"	,	lr_3
+set	,	vr_4
+addIntervalConverter	,	fn_26
+"No instant converter found for type: "	,	lr_1
+SecurityException	,	vl_2
+removePeriodConverter	,	fn_23
+iIntervalConverters	,	vr_14
+ConverterManager	,	tp_1
+removed	,	vr_7
+"No period converter found for type: "	,	lr_8
+JodaTimePermission	,	fn_8
+"ConverterManager.alterIntervalConverters"	,	lr_11
+getInstance	,	fn_1
+checkAlterPeriodConverters	,	fn_22

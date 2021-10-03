@@ -1,0 +1,46 @@
+""	,	lr_17
+subnet	,	vr_1
+Scanner	,	tp_3
+"Enter an IP address (e.g. 192.168.0.10):"	,	lr_14
+"IP Address:\t\t\t%s\t[%s]%n"	,	lr_4
+"--------------------------------------"	,	lr_3
+"Address List: %s%n%n"	,	lr_13
+"]"	,	lr_20
+"Subnet Information for %s:%n"	,	lr_2
+"] is "	,	lr_16
+isInRange	,	vr_23
+getHighAddress	,	vr_13
+getCidrSignature	,	vr_9
+getLowAddress	,	vr_12
+getAddressCountLong	,	vr_14
+"Broadcast Address:\t\t%s\t[%s]%n"	,	lr_9
+utils	,	vr_2
+scanner	,	vr_18
+"CIDR Representation:\t\t%s%n%n"	,	lr_6
+getAddress	,	vr_5
+"Total usable addresses: \t%d%n"	,	lr_12
+SubnetInfo	,	tp_2
+getBroadcastAddress	,	vr_11
+"within the subnet ["	,	lr_19
+info	,	vr_3
+SubnetUtils	,	tp_1
+address	,	vr_21
+getInfo	,	vr_4
+"Netmask:\t\t\t%s\t[%s]%n"	,	lr_5
+in	,	vr_19
+nextLine	,	vr_22
+"Low Address:\t\t\t%s\t[%s]%n"	,	lr_10
+"Network Address:\t\t%s\t[%s]%n"	,	lr_8
+"192.168.0.3/31"	,	lr_1
+"High Address:\t\t\t%s\t[%s]%n"	,	lr_11
+asInteger	,	vr_7
+"not "	,	lr_18
+toBinaryString	,	vr_6
+hasNextLine	,	vr_20
+"The IP address ["	,	lr_15
+"Supplied IP Address:\t\t%s%n%n"	,	lr_7
+getNetmask	,	vr_8
+Arrays	,	vr_15
+getAllAddresses	,	vr_16
+prompt	,	vr_17
+getNetworkAddress	,	vr_10

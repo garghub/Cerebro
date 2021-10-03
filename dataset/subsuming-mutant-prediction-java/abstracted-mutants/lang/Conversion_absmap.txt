@@ -1,0 +1,126 @@
+binaryToLong	,	fn_20
+shift	,	vr_37
+"(nInts-1)*32+dstPos is greather or equal to than 64"	,	lr_8
+setCharAt	,	vr_47
+uuidToByteArray	,	fn_38
+Math	,	vr_25
+"(nInts-1)*32+srcPos is greather or equal to than 64"	,	lr_22
+shortArrayToInt	,	fn_12
+longToShortArray	,	fn_25
+FFTF	,	vr_9
+nBytes	,	vr_41
+"nBytes is greather than 16"	,	lr_36
+"(nShorts-1)*16+dstPos is greather or equal to than 32"	,	lr_10
+srcLen	,	vr_24
+byteArrayToUuid	,	fn_39
+hexDigitToInt	,	fn_1
+TTTT	,	vr_20
+bits	,	vr_38
+byteArrayToShort	,	fn_15
+"(nHexs-1)*4+srcPos is greather or equal to than 16"	,	lr_30
+"(nHexs-1)*4+srcPos is greather or equal to than 32"	,	lr_29
+FTFF	,	vr_7
+"(nShorts-1)*16+srcPos is greather or equal to than 32"	,	lr_24
+"(nBytes-1)*8+dstPos is greather or equal to than 64"	,	lr_11
+longToByteArray	,	fn_27
+byteToBinary	,	fn_37
+intToShortArray	,	fn_26
+hexToShort	,	fn_18
+hexToByte	,	fn_19
+FTFT	,	vr_15
+binaryToShort	,	fn_22
+shortToHex	,	fn_32
+TFTF	,	vr_10
+"nBools-1+srcPos is greather or equal to than 64"	,	lr_32
+sb	,	vr_46
+min	,	vr_26
+TFTT	,	vr_18
+"Cannot convert an empty array."	,	lr_3
+"nBools-1+dstPos is greather or equal to than 16"	,	lr_20
+arraycopy	,	vr_28
+byteToHex	,	fn_33
+"(nHexs-1)*4+dstPos is greather or equal to than 64"	,	lr_14
+"(nHexs-1)*4+dstPos is greather or equal to than 8"	,	lr_17
+nibble	,	vr_29
+intArrayToLong	,	fn_10
+"nBools-1+dstPos is greather or equal to than 32"	,	lr_19
+"nBools-1+dstPos is greather or equal to than 8"	,	lr_21
+FFTT	,	vr_17
+dstPos	,	vr_34
+srcPos	,	vr_22
+c	,	vr_30
+TTFF	,	vr_8
+TTFT	,	vr_16
+i	,	vr_36
+byteArrayToLong	,	fn_13
+getLeastSignificantBits	,	vr_49
+nBools	,	vr_43
+"Need at least 16 bytes for UUID"	,	lr_37
+binaryToByte	,	fn_23
+nHexs	,	vr_45
+"(nBytes-1)*8+srcPos is greather or equal to than 64"	,	lr_25
+longToBinary	,	fn_34
+longToHex	,	fn_30
+"Cannot interpret '"	,	lr_1
+binaryBeMsb0ToHexDigit	,	fn_7
+shortArrayToLong	,	fn_11
+"src.length&gt;8: src.length="	,	lr_4
+TFFF	,	vr_6
+getMostSignificantBits	,	vr_48
+"(nShorts-1)*16+dstPos is greather or equal to than 64"	,	lr_9
+UUID	,	tp_1
+digit	,	vr_2
+FFFF	,	vr_4
+paddedSrc	,	vr_27
+Character	,	vr_3
+hexDigitToBinary	,	fn_3
+intToByteArray	,	fn_28
+"(nHexs-1)*4+srcPos is greather or equal to than 64"	,	lr_28
+FFFT	,	vr_13
+", srcPos="	,	lr_6
+"(nShorts-1)*16+srcPos is greather or equal to than 64"	,	lr_23
+"(nBytes-1)*8+dstPos is greather or equal to than 32"	,	lr_12
+hexToLong	,	fn_16
+"(nBytes-1)*8+dstPos is greather or equal to than 16"	,	lr_13
+"nibble value not between 0 and 15: "	,	lr_7
+byteArrayToInt	,	fn_14
+longToIntArray	,	fn_24
+shortToBinary	,	fn_36
+nInts	,	vr_35
+dstInit	,	vr_33
+dst	,	vr_44
+intToBinary	,	fn_35
+"nBools-1+srcPos is greather or equal to than 32"	,	lr_33
+intToHexDigitMsb0	,	fn_9
+binaryToInt	,	fn_21
+shortToByteArray	,	fn_29
+"nBools-1+srcPos is greather or equal to than 16"	,	lr_34
+"(nHexs-1)*4+dstPos is greather or equal to than 32"	,	lr_15
+TTTF	,	vr_12
+"(nHexs-1)*4+dstPos is greather or equal to than 16"	,	lr_16
+hexDigit	,	vr_1
+hexDigitMsb0ToInt	,	fn_2
+binaryToHexDigitMsb0_4bits	,	fn_6
+"nBools-1+dstPos is greather or equal to than 64"	,	lr_18
+"nBools-1+srcPos is greather or equal to than 8"	,	lr_35
+mask	,	vr_39
+"(nHexs-1)*4+srcPos is greather or equal to than 8"	,	lr_31
+"' as a hexadecimal digit"	,	lr_2
+FTTF	,	vr_11
+intToHexDigit	,	fn_8
+src	,	vr_21
+TFFT	,	vr_14
+forDigit	,	vr_31
+beSrcPos	,	vr_23
+MIN_VALUE	,	vr_32
+binaryToHexDigit	,	fn_5
+FTTT	,	vr_19
+hexToInt	,	fn_17
+"(nBytes-1)*8+srcPos is greather or equal to than 16"	,	lr_27
+"(nBytes-1)*8+srcPos is greather or equal to than 32"	,	lr_26
+clone	,	vr_5
+nShorts	,	vr_40
+hexDigitMsb0ToBinary	,	fn_4
+nHex	,	vr_42
+"src.length-srcPos&lt;4: src.length="	,	lr_5
+intToHex	,	fn_31

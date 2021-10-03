@@ -1,0 +1,75 @@
+"INCOMING.RPTBM025.D061704"	,	lr_10
+getName	,	vr_20
+"Failed to parse group "	,	lr_3
+"Timestamp should not have been set."	,	lr_14
+goodsamples	,	vr_2
+FTPFile	,	tp_2
+"Could not parse name in "	,	lr_21
+getRawListing	,	vr_27
+"Failed to parse name "	,	lr_2
+FTPFileEntryParser	,	tp_1
+assertNotNull	,	fn_7
+doAdditionalGoodTests	,	fn_8
+JES_LEVEL_2_LIST_TYPE	,	vr_15
+parseFTPEntry	,	vr_10
+Collections	,	vr_17
+MEMBER_LIST_TYPE	,	vr_11
+getAllGoodListings	,	fn_3
+"SAVE02 3390   2004/06/23  1    1  FB     128  6144  PO-E  INCOMING.RPTBM025.D061704"	,	lr_9
+testParseFieldsOnDirectory	,	fn_13
+"Should have been a directory."	,	lr_7
+setRegex	,	vr_6
+test	,	vr_8
+"Should have been a file."	,	lr_12
+preParse	,	vr_19
+testDefaultPrecision	,	fn_18
+"Could not parse raw listing in "	,	lr_20
+FILE_LIST_TYPE	,	vr_5
+getGoodListing	,	fn_2
+parser	,	vr_3
+goodsamplesMemberList	,	vl_3
+getGroup	,	vr_21
+"INCOMING.RPTBM023.D061704"	,	lr_13
+"Failed to parse "	,	lr_1
+testParseFieldsOnFile	,	fn_16
+isDirectory	,	vr_24
+MEMBER_LIST_REGEX	,	vr_12
+testJesLevel1Listing	,	fn_10
+"SAVE03    01.03 2002/09/12 2002/10/11 09:37    11    11     0 KIL001"	,	lr_15
+testJesLevel2Listing	,	fn_11
+getUser	,	vr_22
+"SAVE00 3390   2004/06/23  1    1  FB     128  6144  PS    INCOMING.RPTBM023.D061704"	,	lr_11
+"SAVE04"	,	lr_19
+badsamples	,	vl_1
+"Could not parse entry."	,	lr_6
+goodsamplesUnixList	,	vl_6
+goodsamplesJES2List	,	vl_5
+file	,	vr_23
+"SAVE03"	,	lr_16
+testGoodListing	,	fn_6
+assertTrue	,	fn_14
+getTimestamp	,	vr_26
+getParser	,	fn_4
+"SAVE04                                                              "	,	lr_18
+"SAVE01 3390   2004/06/23  1    1  FB     128  6144  PO    INCOMING.RPTBM024.D061704"	,	lr_5
+testRecentPrecision	,	fn_19
+"INCOMING.RPTBM024.D061704"	,	lr_8
+JES_LEVEL_2_LIST_REGEX	,	vr_16
+isFile	,	vr_25
+MVSFTPEntryParser	,	fn_5
+f	,	vr_9
+getBadListing	,	fn_1
+FILE_LIST_REGEX	,	vr_7
+"Failed to parse user "	,	lr_4
+assertEquals	,	fn_15
+l	,	vr_1
+setType	,	vr_4
+testMemberListing	,	fn_9
+JES_LEVEL_1_LIST_REGEX	,	vr_14
+assertNull	,	fn_17
+goodsamplesDatasetList	,	vl_2
+addAll	,	vr_18
+"Timestamp should have been set."	,	lr_17
+JES_LEVEL_1_LIST_TYPE	,	vr_13
+goodsamplesJES1List	,	vl_4
+testUnixListings	,	fn_12

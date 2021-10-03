@@ -1,0 +1,71 @@
+getGoodListings	,	fn_2
+MONTH	,	vr_9
+df	,	vr_16
+getName	,	vr_4
+"ZFTPDEV"	,	lr_17
+setDefaultDateFormatStr	,	vr_27
+goodsamples	,	vl_2
+testNET573	,	fn_17
+FTPFile	,	tp_2
+conf	,	vr_25
+"ZFTPDEV 9069 05/20/15 15:36:52 *STMF /DRV/AUDWRKSHET/AUDWRK0204232015114625.PDF"	,	lr_14
+YEAR	,	vr_11
+FTPFileEntryParser	,	tp_1
+assertNotNull	,	fn_9
+"directory.type"	,	lr_7
+DIRECTORY_TYPE	,	vr_22
+doAdditionalGoodTests	,	fn_12
+parseFTPEntry	,	fn_8
+MINUTE	,	vr_14
+testParseFieldsOnDirectory	,	fn_7
+"Should have been a directory."	,	lr_3
+test	,	vr_20
+"Should have been a file."	,	lr_9
+UnixFTPEntryParser	,	fn_6
+format	,	vr_17
+"build.xml"	,	lr_10
+CompositeFileEntryParser	,	fn_4
+"AUDWRK0204232015114625.PDF"	,	lr_18
+"PEP"	,	lr_4
+testDefaultPrecision	,	fn_14
+"----rwxr-x   1 PEP      0           4019 Mar 18 18:58 einladung.zip"	,	lr_12
+SYST_AS400	,	vr_26
+parser	,	vr_28
+OS400FTPEntryParser	,	fn_5
+testParseFieldsOnFile	,	fn_13
+isDirectory	,	vr_2
+"PEP             36864 04/03/24 14:06:34 *DIR       dir1/"	,	lr_1
+"Should not have been a directory."	,	lr_16
+CalendarUnit	,	vr_24
+MAY	,	vr_29
+DAY_OF_MONTH	,	vr_12
+getTime	,	vr_18
+getUser	,	vr_3
+FTPClientConfig	,	tp_4
+assertFalse	,	fn_18
+"dir1"	,	lr_5
+badsamples	,	vl_1
+"Could not parse entry."	,	lr_2
+"PEP              5000000000 04/03/24 14:06:29 *STMF      build.xml"	,	lr_8
+cal	,	vr_6
+getBadListings	,	fn_1
+assertTrue	,	fn_10
+HOUR_OF_DAY	,	vr_13
+getTimestamp	,	vr_19
+getParser	,	fn_3
+testRecentPrecision	,	fn_16
+"MM/dd/yy HH:mm:ss"	,	lr_13
+"d"	,	lr_6
+set	,	vr_8
+isFile	,	vr_23
+f	,	vr_1
+Calendar	,	tp_3
+testPrecision	,	fn_15
+assertEquals	,	fn_11
+getSize	,	vr_5
+MARCH	,	vr_10
+"PEP              4019 04/03/18 18:58:16 *STMF      einladung.zip"	,	lr_11
+SECOND	,	vr_15
+getInstance	,	vr_7
+"Could not parse timestamp."	,	lr_15
+startsWith	,	vr_21

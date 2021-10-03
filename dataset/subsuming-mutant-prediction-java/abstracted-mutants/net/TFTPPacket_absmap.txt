@@ -1,0 +1,29 @@
+data	,	vr_2
+TFTPErrorPacket	,	fn_6
+setPort	,	fn_9
+READ_REQUEST	,	vl_3
+MIN_PACKET_SIZE	,	vl_2
+ACKNOWLEDGEMENT	,	vl_6
+newTFTPPacket	,	fn_1
+DatagramPacket	,	tp_2
+getAddress	,	fn_7
+getData	,	vr_5
+"Bad packet. Datagram data length is too short."	,	lr_1
+address	,	vl_7
+TFTPAckPacket	,	fn_5
+setAddress	,	fn_10
+" "	,	lr_3
+datagram	,	vr_1
+packet	,	vr_3
+TFTPPacketException	,	vl_1
+TFTPReadRequestPacket	,	fn_2
+getPort	,	fn_8
+WRITE_REQUEST	,	vl_4
+DATA	,	vl_5
+port	,	vl_8
+getLength	,	vr_4
+"Bad packet.  Invalid TFTP operator code."	,	lr_2
+TFTPDataPacket	,	fn_4
+TFTPPacket	,	tp_1
+TFTPWriteRequestPacket	,	fn_3
+InetAddress	,	tp_3

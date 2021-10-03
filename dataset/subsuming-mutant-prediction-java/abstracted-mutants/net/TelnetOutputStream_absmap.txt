@@ -1,0 +1,17 @@
+sendByte	,	vr_5
+offset	,	vr_9
+flushOutputStream	,	vr_10
+ch	,	vr_1
+lastWasCR	,	vl_2
+convertCRtoCRLF	,	vl_3
+BINARY	,	vr_4
+IAC	,	vr_7
+TelnetCommand	,	vr_6
+closeOutputStream	,	vr_11
+flush	,	fn_2
+TelnetOption	,	vr_3
+client	,	vl_1
+buffer	,	vr_8
+requestedWont	,	vr_2
+write	,	fn_1
+close	,	fn_3
