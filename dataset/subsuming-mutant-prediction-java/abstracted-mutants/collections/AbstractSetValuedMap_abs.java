@@ -1,0 +1,34 @@
+@Override
+@SuppressWarnings ( lr_1 )
+protected vr_1 < vt_1 , vr_2 < vt_2 > > fn_1 () {
+return ( vr_1 < vt_1 , vr_2 < vt_2 > > ) super . fn_1 () ;
+}
+@Override
+public vr_2 < vt_2 > get ( final vt_1 vr_3 ) {
+return fn_2 ( vr_3 ) ;
+}
+@Override
+vr_2 < vt_2 > fn_2 ( final vt_1 vr_3 ) {
+return new fn_3 ( vr_3 ) ;
+}
+@Override
+public vr_2 < vt_2 > remove ( final Object vr_3 ) {
+return vr_4 . vr_5 ( fn_1 () . remove ( vr_3 ) ) ;
+}
+@Override
+public boolean equals ( final Object vr_6 ) {
+final vr_2 < vt_2 > vr_7 = ( vr_2 < vt_2 > ) fn_4 () ;
+if ( vr_7 == null ) {
+return vr_8 . vr_9 () . equals ( vr_6 ) ;
+}
+if ( ! ( vr_6 instanceof vr_2 ) ) {
+return false ;
+}
+final vr_2 < ? > vr_10 = ( vr_2 < ? > ) vr_6 ;
+return vr_4 . vr_11 ( vr_7 , vr_10 ) ;
+}
+@Override
+public int fn_5 () {
+final vr_2 < vt_2 > vr_7 = ( vr_2 < vt_2 > ) fn_4 () ;
+return vr_4 . vr_12 ( vr_7 ) ;
+}

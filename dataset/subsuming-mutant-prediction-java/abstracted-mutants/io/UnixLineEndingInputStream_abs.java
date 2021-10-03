@@ -1,0 +1,48 @@
+private int fn_1 () throws IOException {
+final int vr_1 = this . vr_1 . vr_2 () ;
+vl_1 = vr_1 == - 1 ;
+if ( vl_1 ) {
+return vr_1 ;
+}
+vl_2 = vr_1 == '\n' ;
+vl_3 = vr_1 == '\r' ;
+return vr_1 ;
+}
+@Override
+public int vr_2 () throws IOException {
+final boolean vr_3 = vl_3 ;
+if ( vl_1 ) {
+return fn_2 ( vr_3 ) ;
+}
+final int vr_1 = fn_1 () ;
+if ( vl_1 ) {
+return fn_2 ( vr_3 ) ;
+}
+if ( vl_3 )
+{
+return '\n' ;
+}
+if ( vr_3 && vl_2 ) {
+return vr_2 () ;
+}
+return vr_1 ;
+}
+private int fn_2 ( final boolean vr_3 ) {
+if ( vr_3 || ! vl_4 ) {
+return - 1 ;
+}
+if ( ! vl_2 ) {
+vl_2 = true ;
+return '\n' ;
+}
+return - 1 ;
+}
+@Override
+public void fn_3 () throws IOException {
+super . fn_3 () ;
+vr_1 . fn_3 () ;
+}
+@Override
+public synchronized void fn_4 ( final int vr_4 ) {
+throw new fn_5 ( lr_1 ) ;
+}

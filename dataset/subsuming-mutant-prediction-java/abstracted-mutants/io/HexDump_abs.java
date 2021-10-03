@@ -1,0 +1,55 @@
+public static void fn_1 ( final byte [] vr_1 , final long vr_2 ,
+final tp_1 vr_3 , final int vr_4 )
+throws IOException , vl_1 ,
+IllegalArgumentException {
+if ( vr_4 < 0 || vr_4 >= vr_1 . length ) {
+throw new vl_1 (
+lr_1 + vr_4 + lr_2
++ vr_1 . length ) ;
+}
+if ( vr_3 == null ) {
+throw new IllegalArgumentException ( lr_3 ) ;
+}
+long vr_5 = vr_2 + vr_4 ;
+final StringBuilder vr_6 = new StringBuilder ( 74 ) ;
+for ( int vr_7 = vr_4 ; vr_7 < vr_1 . length ; vr_7 += 16 ) {
+int vr_8 = vr_1 . length - vr_7 ;
+if ( vr_8 > 16 ) {
+vr_8 = 16 ;
+}
+fn_1 ( vr_6 , vr_5 ) . append ( ' ' ) ;
+for ( int vr_9 = 0 ; vr_9 < 16 ; vr_9 ++ ) {
+if ( vr_9 < vr_8 ) {
+fn_1 ( vr_6 , vr_1 [ vr_9 + vr_7 ] ) ;
+} else {
+vr_6 . append ( lr_4 ) ;
+}
+vr_6 . append ( ' ' ) ;
+}
+for ( int vr_9 = 0 ; vr_9 < vr_8 ; vr_9 ++ ) {
+if ( vr_1 [ vr_9 + vr_7 ] >= ' ' && vr_1 [ vr_9 + vr_7 ] < 127 ) {
+vr_6 . append ( ( char ) vr_1 [ vr_9 + vr_7 ] ) ;
+} else {
+vr_6 . append ( '.' ) ;
+}
+}
+vr_6 . append ( vl_2 ) ;
+vr_3 . vr_10 ( vr_6 . toString () . fn_2 ( vr_11 . vr_12 () ) ) ;
+vr_3 . vr_13 () ;
+vr_6 . vr_14 ( 0 ) ;
+vr_5 += vr_8 ;
+}
+}
+private static StringBuilder fn_1 ( final StringBuilder vr_15 , final long vr_16 ) {
+for ( int vr_7 = 0 ; vr_7 < 8 ; vr_7 ++ ) {
+vr_15
+. append ( vr_17 [ (int) ( vr_16 >> vr_18 [ vr_7 ] ) & 15 ] ) ;
+}
+return vr_15 ;
+}
+private static StringBuilder fn_1 ( final StringBuilder vr_19 , final byte vr_16 ) {
+for ( int vr_7 = 0 ; vr_7 < 2 ; vr_7 ++ ) {
+vr_19 . append ( vr_17 [ vr_16 >> vr_18 [ vr_7 + 6 ] & 15 ] ) ;
+}
+return vr_19 ;
+}

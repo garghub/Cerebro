@@ -1,0 +1,4 @@
+@Override
+public tp_1 fn_1 ( final tp_1 vr_1 ) {
+throw new fn_2 ( lr_1 ) ; MST[ConstructorCallMutator]MSP[S]
+}

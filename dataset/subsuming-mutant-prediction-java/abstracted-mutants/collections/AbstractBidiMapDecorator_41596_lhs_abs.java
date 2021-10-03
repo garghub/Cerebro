@@ -1,0 +1,24 @@
+@Override
+protected vr_1 < vt_1 , vt_2 > fn_1 () {
+return ( vr_1 < vt_1 , vt_2 > ) super . fn_1 () ; MST[NullReturnValsMutator]MSP[]
+}
+@Override
+public vr_2 < vt_1 , vt_2 > fn_2 () {
+return fn_1 () . fn_2 () ;
+}
+@Override
+public vt_1 fn_3 ( final Object vr_3 ) {
+return fn_1 () . fn_3 ( vr_3 ) ;
+}
+@Override
+public vt_1 fn_4 ( final Object vr_3 ) {
+return fn_1 () . fn_4 ( vr_3 ) ;
+}
+@Override
+public vr_1 < vt_2 , vt_1 > fn_5 () {
+return fn_1 () . fn_5 () ;
+}
+@Override
+public vr_4 < vt_2 > fn_6 () {
+return fn_1 () . fn_6 () ;
+}

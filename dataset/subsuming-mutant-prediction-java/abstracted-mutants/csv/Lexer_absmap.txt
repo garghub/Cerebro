@@ -1,0 +1,62 @@
+commentStart	,	vl_18
+readEscape	,	fn_12
+eol	,	vr_7
+UNDEFINED	,	vl_14
+Token	,	tp_1
+ignoreEmptyLines	,	vl_1
+") EOF reached before encapsulated token finished"	,	lr_4
+trimTrailingSpaces	,	fn_13
+isMetaChar	,	fn_16
+delimiter	,	vl_15
+") invalid char between encapsulated token and delimiter"	,	lr_2
+"(line "	,	lr_1
+BACKSPACE	,	vl_12
+buffer	,	vr_18
+TOKEN	,	vl_6
+END_OF_STREAM	,	vr_14
+read	,	vr_6
+Character	,	tp_2
+charValue	,	vr_17
+in	,	vr_3
+"EOF whilst processing escape sequence"	,	lr_5
+isWhitespace	,	fn_7
+"(startline "	,	lr_3
+DISABLED	,	vl_8
+setLength	,	vr_19
+isDelimiter	,	fn_5
+nextToken	,	fn_1
+isQuoteChar	,	fn_8
+FF	,	vl_13
+isEscape	,	fn_11
+mapNullToDisabled	,	fn_15
+isReady	,	vr_10
+readEndOfLine	,	fn_2
+INVALID	,	vl_4
+parseEncapsulatedToken	,	fn_9
+content	,	vr_9
+COMMENT	,	vl_3
+parseSimpleToken	,	fn_10
+lookAhead	,	vr_16
+getLastChar	,	vr_4
+EOF	,	vl_2
+escape	,	vl_16
+close	,	fn_18
+isEndOfFile	,	fn_4
+quoteChar	,	vl_17
+c	,	vr_5
+getCurrentLineNumber	,	fn_14
+ch	,	vr_11
+Constants	,	vr_13
+isStartOfLine	,	fn_3
+isCommentStart	,	fn_6
+ignoreSurroundingSpaces	,	vl_5
+EORECORD	,	vl_7
+token	,	vr_1
+CR	,	vl_9
+unescaped	,	vr_12
+TAB	,	vl_11
+isClosed	,	fn_17
+lastChar	,	vr_2
+comment	,	vr_8
+startLineNumber	,	vr_15
+LF	,	vl_10

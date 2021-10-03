@@ -1,0 +1,4 @@
+@Override
+public void fn_1 ( final vr_1 < vt_1 > vr_2 ) {
+vr_2 . vr_3 ( fn_2 () ) ; MST[VoidMethodCallMutator]MSP[N]
+}

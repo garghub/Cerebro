@@ -1,0 +1,48 @@
+encode	,	fn_6
+currentLinePos	,	vr_16
+isStrictDecoding	,	fn_8
+IllegalStateException	,	fn_5
+octet	,	vr_18
+isInAlphabet	,	fn_7
+"Decoding requires either 2, 4, 5, or 7 trailing 5-bit characters to create bytes."	,	lr_6
+BITS_PER_ENCODED_BYTE	,	vl_4
+decode	,	fn_1
+lineSeparator	,	vl_13
+MASK_2BITS	,	vl_6
+"Expected the discarded bits from the character to be zero."	,	lr_4
+result	,	vr_10
+MASK_3BITS	,	vl_9
+pad	,	vl_1
+validateCharacter	,	fn_4
+encodeSize	,	vl_11
+inPos	,	vr_2
+pos	,	vr_13
+arraycopy	,	vr_17
+emptyBitsMask	,	vr_19
+MASK_8BITS	,	vl_5
+context	,	vr_4
+"Strict decoding: Last encoded character(s) (before the paddings if any) are valid "	,	lr_5
+buffer	,	vr_8
+modulus	,	vr_11
+Context	,	tp_1
+encodeTable	,	vr_15
+ensureBufferSize	,	fn_2
+"Strict decoding: Last encoded character (before the paddings if any) is a valid "	,	lr_2
+b	,	vr_7
+MASK_4BITS	,	vl_7
+"Impossible modulus "	,	lr_1
+inAvail	,	vr_3
+i	,	vr_6
+validateTrailingCharacters	,	fn_3
+lineLength	,	vl_10
+savedPos	,	vr_14
+BYTES_PER_UNENCODED_BLOCK	,	vl_14
+input	,	vr_1
+BYTES_PER_ENCODED_BLOCK	,	vl_3
+"base 32 alphabet but not a possible encoding. "	,	lr_3
+lbitWorkArea	,	vr_12
+MASK_5BITS	,	vl_12
+decodeSize	,	vl_2
+eof	,	vr_5
+decodeTable	,	vr_9
+MASK_1BITS	,	vl_8

@@ -1,0 +1,33 @@
+static String fn_1 ( final String vr_1 ) {
+if ( vr_1 == null || vr_1 . length () == 0 ) {
+return vr_1 ;
+}
+final int vr_2 = vr_1 . length () ;
+final char [] vr_3 = new char [ vr_2 ] ;
+int vr_4 = 0 ;
+for ( int vr_5 = 0 ; vr_5 < vr_2 ; vr_5 ++ ) {
+if ( vr_6 . vr_7 ( vr_1 . charAt ( vr_5 ) ) ) {
+vr_3 [ vr_4 ++ ] = vr_1 . charAt ( vr_5 ) ;
+}
+}
+if ( vr_4 == vr_2 ) {
+return vr_1 . vr_8 ( vr_9 . util . vr_10 . vr_11 ) ;
+}
+return new String ( vr_3 , 0 , vr_4 ) . vr_8 ( vr_9 . util . vr_10 . vr_11 ) ;
+}
+static int fn_2 ( final tp_1 vr_12 , final String vr_13 , final String vr_14 ) throws vl_1 {
+return fn_3 ( vr_12 . vr_15 ( vr_13 ) , vr_12 . vr_15 ( vr_14 ) ) ;
+}
+static int fn_3 ( final String vr_16 , final String vr_17 ) {
+if ( vr_16 == null || vr_17 == null ) {
+return 0 ;
+}
+final int vr_18 = vr_19 . vr_20 ( vr_16 . length () , vr_17 . length () ) ;
+int vr_21 = 0 ;
+for ( int vr_5 = 0 ; vr_5 < vr_18 ; vr_5 ++ ) {
+if ( vr_16 . charAt ( vr_5 ) == vr_17 . charAt ( vr_5 ) ) {
+vr_21 ++ ;
+}
+}
+return vr_21 ;
+}

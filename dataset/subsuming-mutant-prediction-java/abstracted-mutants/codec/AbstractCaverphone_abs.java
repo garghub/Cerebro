@@ -1,0 +1,10 @@
+@Override
+public Object fn_1 ( final Object vr_1 ) throws vl_1 {
+if ( ! ( vr_1 instanceof String ) ) {
+throw new vl_1 ( lr_1 ) ;
+}
+return this . fn_1 ( ( String ) vr_1 ) ;
+}
+public boolean fn_2 ( final String vr_2 , final String vr_3 ) throws vl_1 {
+return this . fn_1 ( vr_2 ) . equals ( this . fn_1 ( vr_3 ) ) ;
+}

@@ -1,0 +1,21 @@
+next	,	fn_1
+getKey	,	vr_1
+IllegalStateException	,	fn_2
+"Iterator getValue() can only be called after next() and before remove()"	,	lr_3
+"MapIterator[]"	,	lr_8
+last	,	vl_1
+entrySet	,	vr_4
+"MapIterator["	,	lr_5
+"="	,	lr_6
+"]"	,	lr_7
+K	,	tp_1
+"Iterator setValue() can only be called after next() and before remove()"	,	lr_4
+"Iterator remove() can only be called once after next()"	,	lr_1
+"Iterator getKey() can only be called after next() and before remove()"	,	lr_2
+getValue	,	fn_3
+canRemove	,	vl_2
+V	,	tp_2
+setValue	,	fn_4
+reset	,	fn_5
+value	,	vr_2
+map	,	vr_3

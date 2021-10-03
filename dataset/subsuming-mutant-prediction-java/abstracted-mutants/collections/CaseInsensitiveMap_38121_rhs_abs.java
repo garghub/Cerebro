@@ -1,0 +1,23 @@
+@Override
+protected Object fn_1 ( final Object vr_1 ) {
+if ( vr_1 != null ) {
+final char [] vr_2 = vr_1 . toString () . fn_2 () ;
+for ( int vr_3 = vr_2 . length - 1 ; vr_3 >= 0 ; vr_3 -- ) {
+vr_2 [ vr_3 ] = vr_4 . vr_5 ( vr_4 . vr_6 ( vr_2 [ vr_3 ] ) ) ;
+}
+return new String ( vr_2 ) ;
+}
+return vr_7 . NULL ;
+}
+@Override
+public vr_8 < vt_1 , vt_2 > fn_3 () {
+return ( vr_8 < vt_1 , vt_2 > ) super . fn_3 () ; MST[experimental.NakedReceiverMutator]MSP[S]
+}
+private void fn_4 ( final tp_1 out ) throws IOException {
+out . vr_9 () ;
+fn_5 ( out ) ;
+}
+private void fn_6 ( final tp_2 vr_10 ) throws IOException , vl_1 {
+vr_10 . vr_11 () ;
+fn_7 ( vr_10 ) ;
+}

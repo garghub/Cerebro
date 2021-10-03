@@ -1,0 +1,70 @@
+reuse	,	vr_14
+data	,	vr_17
+doWriteObject	,	fn_15
+before	,	vr_7
+" This should not occur if your keys are immutable and you used synchronization properly."	,	lr_10
+modCount	,	vl_2
+HashEntry	,	vr_8
+"Entry.after=null, header.after="	,	lr_4
+"NPE, entry="	,	lr_14
+tmp	,	vr_18
+loop	,	vr_19
+LRUMap	,	vr_23
+updateToMRU	,	vr_2
+" This should not occur if your keys are immutable, and you have used synchronization properly."	,	lr_2
+reuseMapping	,	fn_8
+" header.before="	,	lr_5
+readInt	,	vr_28
+ClassNotFoundException	,	vl_5
+newValue	,	vr_9
+scanUntilRemovable	,	vl_3
+in	,	vr_25
+writeObject	,	fn_14
+readObject	,	fn_16
+entry	,	vr_4
+" value="	,	lr_7
+ex	,	vr_22
+addEntry	,	fn_11
+moveToMRU	,	fn_2
+header	,	vl_1
+reuseEntry	,	fn_10
+next	,	vr_21
+IllegalStateException	,	fn_3
+removeEntry	,	fn_9
+addMapping	,	fn_5
+" previous="	,	lr_13
+"reuse=null, header.after="	,	lr_11
+LinkEntry	,	vr_3
+"Entry.next=null, data[removeIndex]="	,	lr_12
+updateEntry	,	fn_4
+isScanUntilRemovable	,	fn_12
+maxSize	,	vl_4
+K	,	vt_1
+ObjectOutputStream	,	tp_3
+V	,	tp_1
+hashCode	,	vr_12
+NullPointerException	,	tp_2
+defaultWriteObject	,	vr_24
+doReadObject	,	fn_17
+after	,	vr_6
+getEntry	,	fn_1
+"Can't move header to MRU"	,	lr_3
+value	,	vr_13
+" maxSize="	,	lr_9
+key	,	vr_1
+hashIndex	,	vr_11
+writeInt	,	vr_27
+removeLRU	,	fn_7
+" key="	,	lr_6
+previous	,	vr_20
+removeLRUEntry	,	vr_15
+defaultReadObject	,	vr_26
+" size="	,	lr_8
+removeIndex	,	vr_16
+getValue	,	vr_5
+"Entry.before is null."	,	lr_1
+setValue	,	vr_10
+clone	,	fn_13
+isFull	,	fn_6
+" entryIsHeader="	,	lr_15
+ObjectInputStream	,	tp_4

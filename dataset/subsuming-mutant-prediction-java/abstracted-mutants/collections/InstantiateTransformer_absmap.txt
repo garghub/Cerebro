@@ -1,0 +1,26 @@
+instantiateTransformer	,	fn_1
+iArgs	,	vl_3
+Transformer	,	vr_1
+con	,	vr_6
+paramTypes	,	vr_2
+"Parameter types must match the arguments"	,	lr_1
+NoSuchMethodException	,	tp_1
+"InstantiateTransformer: InstantiationException"	,	lr_4
+transform	,	fn_2
+"InstantiateTransformer: Constructor threw an exception"	,	lr_6
+T	,	vt_1
+"InstantiateTransformer: Constructor must be public"	,	lr_5
+FunctorException	,	fn_3
+"InstantiateTransformer: Input object was not an instanceof Class, it was a null object"	,	lr_2
+Constructor	,	vr_5
+newInstance	,	vr_8
+getConstructor	,	vr_7
+InvocationTargetException	,	tp_4
+IllegalAccessException	,	tp_3
+input	,	vr_4
+ex	,	vr_9
+InstantiateTransformer	,	vr_3
+"InstantiateTransformer: The constructor must exist and be public "	,	lr_3
+NO_ARG_INSTANCE	,	vl_1
+iParamTypes	,	vl_2
+InstantiationException	,	tp_2

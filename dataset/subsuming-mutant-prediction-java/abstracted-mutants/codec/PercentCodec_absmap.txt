@@ -1,0 +1,47 @@
+ESCAPE_CHAR	,	vl_1
+encode	,	fn_3
+bb	,	vr_11
+plusForSpace	,	vl_5
+getName	,	fn_11
+doEncode	,	fn_5
+hex1	,	vr_12
+alwaysEncodeChars	,	vr_3
+hex2	,	vr_15
+" cannot be Percent encoded"	,	lr_3
+decode	,	fn_9
+put	,	vr_16
+alwaysEncodeCharsMax	,	vl_3
+alwaysEncodeCharsArray	,	vr_1
+isAsciiChar	,	fn_7
+"Invalid percent decoding: "	,	lr_1
+hexDigit	,	vr_14
+byteCount	,	vr_17
+willEncode	,	vr_7
+buffer	,	vr_9
+"Objects of type "	,	lr_2
+expectedEncodingBytes	,	vr_6
+inAlwaysEncodeCharsRange	,	fn_8
+containsSpace	,	fn_4
+b	,	vr_2
+set	,	vr_4
+c	,	vr_18
+insertAlwaysEncodeChars	,	fn_1
+e	,	vr_23
+alwaysEncodeCharsMin	,	vl_2
+" cannot be Percent decoded"	,	lr_4
+i	,	vr_19
+digit16	,	vr_21
+l	,	vr_22
+ByteBuffer	,	tp_1
+EncoderException	,	vl_4
+DecoderException	,	vl_6
+expectedDecodingBytes	,	fn_10
+allocate	,	vr_10
+Utils	,	vr_13
+u	,	vr_20
+bytes	,	vr_5
+obj	,	vr_24
+canEncode	,	fn_6
+insertAlwaysEncodeChar	,	fn_2
+ArrayIndexOutOfBoundsException	,	tp_2
+expectedLength	,	vr_8

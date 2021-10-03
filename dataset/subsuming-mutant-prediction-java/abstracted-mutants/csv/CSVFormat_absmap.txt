@@ -1,0 +1,94 @@
+commentStart	,	vl_5
+"The comment start character and the quoteChar cannot be the same ('"	,	lr_15
+"The header contains duplicate names: "	,	lr_18
+getEscape	,	fn_9
+ignoreEmptyLines	,	vl_9
+getCommentStart	,	fn_7
+withQuoteChar	,	fn_32
+"')"	,	lr_12
+asList	,	vr_19
+withSkipHeaderRecord	,	fn_35
+"Delimiter=&lt;"	,	lr_1
+skipHeaderRecord	,	vl_12
+delimiter	,	vr_3
+isNullHandling	,	fn_21
+getIgnoreEmptyLines	,	fn_11
+NONE	,	vr_14
+isCommentingEnabled	,	fn_19
+getNullString	,	fn_13
+"No quotes mode set but no escape character is set"	,	lr_17
+HashSet	,	vr_17
+prime	,	vr_10
+"The quoteChar character and the delimiter cannot be the same ('"	,	lr_11
+Character	,	tp_1
+charValue	,	vr_2
+isQuoting	,	fn_22
+in	,	vr_12
+withIgnoreEmptyLines	,	fn_29
+format	,	fn_3
+withHeader	,	fn_28
+quotePolicy	,	vl_3
+getQuotePolicy	,	fn_15
+getDelimiter	,	fn_8
+"RecordSeparator=&lt;"	,	lr_6
+header	,	vl_7
+"The escape character and the delimiter cannot be the same ('"	,	lr_13
+"QuoteChar=&lt;"	,	lr_3
+Arrays	,	vr_6
+withCommentStart	,	fn_25
+getQuoteChar	,	fn_14
+"CommentStart=&lt;"	,	lr_4
+recordSeparator	,	vl_10
+isEscaping	,	fn_20
+"The comment start character cannot be a line break"	,	lr_19
+newFormat	,	fn_2
+"The comment start and the escape character cannot be the same ('"	,	lr_16
+"Header:"	,	lr_10
+IllegalStateException	,	fn_6
+"The comment start character and the delimiter cannot be the same ('"	,	lr_14
+other	,	vr_5
+Set	,	vr_15
+values	,	vr_7
+Reader	,	tp_6
+printRecord	,	fn_5
+"The quoteChar cannot be a line break"	,	lr_22
+getHeader	,	fn_10
+sb	,	vr_13
+"Escape=&lt;"	,	lr_2
+CSVPrinter	,	fn_4
+result	,	vr_11
+getRecordSeparator	,	fn_16
+StringWriter	,	tp_3
+hashCode	,	fn_18
+nullString	,	vl_11
+escape	,	vl_6
+getIgnoreSurroundingSpaces	,	fn_12
+withDelimiter	,	fn_26
+validate	,	fn_24
+"The delimiter cannot be a line break"	,	lr_20
+" SurroundingSpaces:ignored"	,	lr_8
+quoteChar	,	vl_4
+" EmptyLines:ignored"	,	lr_7
+withEscape	,	fn_27
+withNullString	,	fn_31
+withQuotePolicy	,	fn_33
+c	,	vr_1
+set	,	vr_16
+e	,	vr_8
+"The escape character cannot be a line break"	,	lr_21
+" SkipHeaderRecord:"	,	lr_9
+parse	,	fn_23
+ignoreSurroundingSpaces	,	vl_8
+withIgnoreSurroundingSpaces	,	fn_30
+CR	,	vl_2
+withRecordSeparator	,	fn_34
+Quote	,	tp_4
+isLineBreak	,	fn_1
+getSkipHeaderRecord	,	fn_17
+addAll	,	vr_18
+obj	,	vr_4
+CSVParser	,	tp_5
+"NullString=&lt;"	,	lr_5
+clone	,	vr_9
+LF	,	vl_1
+CSVFormat	,	tp_2

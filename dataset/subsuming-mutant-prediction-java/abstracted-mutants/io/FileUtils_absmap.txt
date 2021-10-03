@@ -1,0 +1,347 @@
+parent	,	vr_9
+renameTo	,	vr_154
+FileUtils	,	vr_157
+OutputStream	,	tp_11
+sizeOf0	,	fn_75
+FileNotFoundException	,	fn_8
+"' is a directory"	,	lr_69
+srcFile	,	vr_70
+verifiedListFiles	,	fn_53
+isFileOlder	,	fn_79
+writeByteArrayToFile	,	fn_62
+checkDirectory	,	fn_74
+ONE_PB_BI	,	vl_2
+fis	,	vr_79
+"names must not be null"	,	lr_2
+java	,	vr_33
+decodeUrl	,	fn_30
+len	,	vr_142
+includeSubDirectories	,	vr_20
+notFileFilter	,	vr_27
+" bytes"	,	lr_18
+ONE_EB_BI	,	vl_1
+parentFile	,	vr_76
+currentThread	,	vr_131
+innerListFilesOrDirectories	,	fn_16
+newLastModifed	,	vr_84
+getTempDirectory	,	fn_4
+remaining	,	vr_124
+str	,	vr_140
+input	,	vr_77
+extensions	,	vr_36
+filename	,	vr_52
+doCopyFile	,	fn_38
+mkdirs	,	vr_11
+"URL could not be converted to a File: "	,	lr_25
+getUserDirectory	,	fn_6
+deleteDirectory	,	fn_48
+"Failed to delete original file '"	,	lr_70
+" GB"	,	lr_15
+wasInterrupted	,	vr_123
+defaultCharset	,	vr_49
+"' doesn't exist"	,	lr_56
+exclusionList	,	vr_93
+sleep	,	vr_126
+dstFile	,	vr_98
+found	,	vr_21
+forceDelete	,	fn_54
+min	,	vr_128
+" Actual: "	,	lr_37
+destDir	,	vr_71
+openOutputStream	,	fn_9
+innerListFiles	,	fn_15
+Files	,	vr_86
+close	,	fn_13
+flip	,	vr_65
+deleteOnExit	,	vr_146
+Path	,	tp_12
+file1Exists	,	vr_43
+toURL	,	fn_34
+getCanonicalPath	,	vr_75
+isFile	,	vr_110
+e	,	vr_63
+setUpEffectiveFileFilter	,	fn_18
+toURI	,	fn_33
+i	,	vr_38
+Charset	,	vr_48
+copyLarge	,	vr_80
+n	,	vr_55
+CheckedInputStream	,	fn_82
+dirFilter	,	vr_24
+IOUtils	,	vr_46
+"' exists but is read-only"	,	lr_33
+destPath	,	vr_83
+IOFileFilter	,	tp_5
+"'"	,	lr_65
+ZERO	,	vr_14
+fileFilter	,	vr_23
+suffixes	,	vr_37
+getName	,	vr_74
+"Sources must not be null"	,	lr_43
+"' does not exist"	,	lr_8
+sizeOfAsBigInteger	,	fn_71
+source	,	vr_99
+dest	,	vr_97
+getFile	,	fn_1
+"Failed to copy full contents from '"	,	lr_34
+REPLACE_EXISTING	,	vr_89
+TrueFileFilter	,	vr_40
+"' directory cannot be created"	,	lr_32
+copyToFile	,	fn_46
+addSuppressed	,	vr_137
+writeStringToFile	,	fn_61
+"file"	,	lr_24
+"' is not a directory"	,	lr_28
+getParentFile	,	vr_10
+"Checksums can't be computed on directories"	,	lr_59
+" PB"	,	lr_13
+ignored	,	vr_115
+lineEnding	,	vr_144
+"Parameter 'directory' is not a directory: "	,	lr_20
+StandardCharsets	,	vr_66
+openConnection	,	vr_105
+copyInputStreamToFile	,	fn_45
+"Parameter 'fileFilter' is null"	,	lr_21
+encoding	,	vr_132
+openStream	,	vr_101
+LinkedList	,	vr_34
+moveDirectoryToDirectory	,	fn_87
+destFile	,	vr_73
+ex	,	vr_130
+"Unable to set the last modification time for "	,	lr_19
+success	,	vr_15
+sizeOfBig0	,	fn_77
+name	,	vr_4
+toFile	,	fn_28
+"' are the same"	,	lr_31
+srcDir	,	vr_92
+BigInteger	,	tp_4
+iterateFilesAndDirs	,	fn_22
+toCharset	,	vr_134
+isDirectory	,	vr_6
+checkFileRequirements	,	fn_37
+child	,	vr_116
+Iterable	,	vr_111
+CRC32	,	tp_18
+"' Expected length: "	,	lr_36
+getTime	,	vr_150
+input2	,	vl_8
+input1	,	vr_45
+destination	,	vr_100
+directory	,	vr_1
+copyURLToFile	,	fn_44
+"' exists but is a directory"	,	lr_6
+ONE_KB_BI	,	vl_6
+urls	,	vr_69
+NullPointerException	,	fn_2
+"Directory '"	,	lr_10
+"No specified reference file"	,	lr_54
+effFileFilter	,	vr_31
+"' could not be created"	,	lr_11
+ignore	,	vr_129
+divide	,	vr_13
+ONE_TB_BI	,	vl_3
+lines	,	vr_143
+"Not a directory: "	,	lr_46
+BufferedOutputStream	,	fn_64
+InputStream	,	tp_6
+forceDeleteOnExit	,	fn_65
+getProtocol	,	vr_51
+message	,	vr_114
+ByteBuffer	,	tp_9
+FilenameUtils	,	vr_119
+parseInt	,	vr_60
+setReadTimeout	,	vr_107
+getValue	,	vr_153
+effDirFilter	,	vr_32
+isFileNewer	,	fn_78
+"Destination directory '"	,	lr_66
+toByteArray	,	vr_136
+"' cannot be written to"	,	lr_9
+FileFilterUtils	,	vr_25
+" to a subdirectory of itself: "	,	lr_62
+SuffixFileFilter	,	fn_24
+setLastModified	,	vr_16
+"No specified date"	,	lr_57
+forceMkdir	,	fn_68
+setConnectTimeout	,	vr_106
+getCanonicalFile	,	vr_44
+"]"	,	lr_68
+"Source '"	,	lr_29
+convertFileCollectionToFileArray	,	fn_14
+"' and destination '"	,	lr_30
+Math	,	vr_127
+"not a directory. Unable to create directory."	,	lr_52
+put	,	vr_62
+preserveFileDate	,	vr_72
+output	,	vr_78
+contentEqualsIgnoreEOL	,	fn_26
+seconds	,	vr_121
+"java.io.tmpdir"	,	lr_3
+sizeOfDirectoryAsBigInteger	,	fn_76
+Checksum	,	tp_19
+separatorChar	,	vr_53
+connection	,	vr_104
+write	,	vr_139
+openInputStream	,	fn_7
+ONE_GB_BI	,	vl_4
+fileLength	,	vr_135
+timeMillis	,	vr_151
+srcLen	,	vr_90
+lineIterator	,	fn_60
+"Failed to list contents of "	,	lr_40
+in	,	vr_109
+fileOrDir	,	vr_147
+"directory must not be null"	,	lr_1
+"Can't compare directories, only files"	,	lr_23
+INSTANCE	,	vr_29
+canonicalParent	,	vr_117
+getInputStream	,	vr_108
+moveFile	,	fn_88
+FileInputStream	,	tp_2
+"' to '"	,	lr_35
+byteCountToDisplaySize	,	fn_10
+allocate	,	vr_58
+sizeOfDirectory0	,	fn_70
+"' after copy to '"	,	lr_64
+srcs	,	vr_112
+"Destination '"	,	lr_27
+isSymlink	,	fn_49
+copyToDirectory	,	fn_47
+forceMkdirParent	,	fn_69
+charsetName	,	vr_47
+dstLen	,	vr_91
+copyFile	,	fn_36
+"File "	,	lr_50
+" KB"	,	lr_17
+canRead	,	vr_7
+"Destination must not be null"	,	lr_26
+Reader	,	tp_7
+InterruptedException	,	tp_14
+recursive	,	vr_39
+URL	,	tp_8
+cleanDirectory	,	fn_50
+DirectoryFileFilter	,	vr_28
+toSuffixes	,	fn_23
+copyFileToDirectory	,	fn_35
+file	,	vr_3
+"File '"	,	lr_5
+UTF_8	,	vr_67
+createDestDir	,	vr_156
+"."	,	lr_22
+"The source "	,	lr_41
+"' exists but is not a directory"	,	lr_39
+srcFiles	,	vr_94
+copy	,	vr_87
+getTempDirectoryPath	,	fn_3
+FileFilter	,	vl_7
+"No specified file"	,	lr_58
+connectionTimeout	,	vr_102
+copiedFile	,	vr_95
+"Source must not be null"	,	lr_38
+directoryContains	,	fn_52
+"Directory must not be null"	,	lr_45
+writeLines	,	fn_63
+sizeOfDirectory	,	fn_73
+url	,	vr_50
+URLConnection	,	tp_13
+off	,	vr_141
+Thread	,	vr_125
+filter	,	vr_19
+sizeOfDirectoryBig0	,	fn_72
+names	,	vr_2
+toFiles	,	fn_31
+toPath	,	vr_82
+currentTimeMillis	,	vr_17
+readTimeout	,	vr_103
+exists	,	vr_5
+" exists and is "	,	lr_51
+date	,	vr_149
+data	,	vr_138
+octet	,	vr_59
+replace	,	fn_29
+deleteDirectoryOnExit	,	fn_66
+compareTo	,	fn_11
+decode	,	vr_68
+canonicalChild	,	vr_118
+reference	,	vr_148
+copyDirectoryToDirectory	,	fn_40
+listFilesAndDirs	,	fn_20
+"user.home"	,	lr_4
+isSymbolicLink	,	vr_158
+" TB"	,	lr_14
+interrupt	,	fn_56
+readLines	,	fn_59
+buffer	,	vr_56
+EMPTY_FILE_ARRAY	,	vl_9
+waitFor	,	fn_55
+deleteQuietly	,	fn_51
+doCopyDirectory	,	fn_43
+srcPath	,	vr_81
+moveToDirectory	,	fn_90
+CharSequence	,	tp_16
+getUserDirectoryPath	,	fn_5
+touch	,	fn_12
+"File must not be null"	,	lr_71
+filePresent	,	vr_145
+"Unable to delete file: "	,	lr_49
+"' already exists"	,	lr_60
+separator	,	vr_155
+"Unable to delete directory "	,	lr_44
+readFileToString	,	fn_57
+"Cannot move directory: "	,	lr_61
+FileOutputStream	,	tp_3
+validateListFilesParameters	,	fn_17
+"The reference file '"	,	lr_55
+ONE_MB_BI	,	vl_5
+files	,	vr_18
+position	,	vr_64
+lastModified	,	vr_85
+"Unable to create directory "	,	lr_53
+File	,	tp_1
+Charsets	,	vr_133
+NullOutputStream	,	fn_83
+FileExistsException	,	fn_86
+" MB"	,	lr_16
+validateMoveParameters	,	fn_85
+checkEqualSizes	,	fn_39
+FalseFileFilter	,	vr_30
+" EB"	,	lr_12
+setUpEffectiveDirFilter	,	fn_19
+toURLs	,	fn_32
+"' cannot be read"	,	lr_7
+displaySize	,	vr_12
+delete	,	vr_113
+LineIterator	,	tp_15
+substring	,	vr_61
+RuntimeException	,	tp_10
+"' does not exist [createDestDir="	,	lr_67
+crc	,	vr_152
+and	,	vr_26
+cleanDirectoryOnExit	,	fn_67
+checksum	,	fn_81
+decoded	,	vr_54
+moveDirectory	,	fn_84
+listFiles	,	vr_22
+"Failed to delete original directory '"	,	lr_63
+readFileToByteArray	,	fn_58
+or	,	vr_35
+InputStreamReader	,	fn_27
+src	,	vr_96
+iterateFiles	,	fn_21
+contentEquals	,	fn_25
+canWrite	,	vr_8
+moveFileToDirectory	,	fn_89
+"File does not exist: "	,	lr_48
+Date	,	tp_17
+copyDirectory	,	fn_41
+" does not exist"	,	lr_42
+StandardCopyOption	,	vr_88
+" is not a directory"	,	lr_47
+bytes	,	vr_57
+file2	,	vr_42
+checksumCRC32	,	fn_80
+file1	,	vr_41
+ioe	,	vr_120
+finishAt	,	vr_122
+startsWith	,	fn_42

@@ -1,0 +1,4 @@
+@Override
+public int fn_1 ( final tp_1 vr_1 , final tp_1 vr_2 ) {
+return vr_1 . vr_3 ( vr_2 ) ;
+}

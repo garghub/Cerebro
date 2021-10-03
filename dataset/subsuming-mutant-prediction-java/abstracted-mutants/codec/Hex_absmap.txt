@@ -1,0 +1,50 @@
+encode	,	fn_8
+toCharArray	,	vr_8
+data	,	vr_1
+outOffset	,	vr_2
+"]"	,	lr_6
+DIGITS_LOWER	,	vl_2
+decode	,	fn_6
+encodeHexString	,	fn_5
+"Odd number of characters."	,	lr_1
+dataLen	,	vr_13
+getBytes	,	fn_9
+len	,	vr_3
+"Output array is not large enough to accommodate decoded data."	,	lr_2
+"Illegal hexadecimal character "	,	lr_3
+buffer	,	vr_23
+toDigits	,	vr_10
+digit	,	vr_21
+dataOffset	,	vr_12
+Character	,	vr_22
+toLowerCase	,	vr_9
+byteArray	,	vr_17
+DIGITS_UPPER	,	vl_3
+index	,	vr_20
+remaining	,	vr_15
+name	,	vr_27
+position	,	vr_18
+encodeHex	,	fn_3
+charset	,	vr_26
+getCharset	,	fn_7
+" at index "	,	lr_4
+"[charsetName="	,	lr_5
+toDigit	,	fn_2
+getCharsetName	,	fn_10
+hasArray	,	vr_16
+ch	,	vr_19
+e	,	vr_24
+f	,	vr_7
+i	,	vr_5
+getMessage	,	vr_25
+Charset	,	tp_3
+j	,	vr_6
+l	,	vr_11
+ByteBuffer	,	tp_1
+DecoderException	,	vl_1
+EncoderException	,	vl_4
+outLen	,	vr_4
+toByteArray	,	fn_4
+ClassCastException	,	tp_2
+decodeHex	,	fn_1
+byteBuffer	,	vr_14

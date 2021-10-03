@@ -1,0 +1,10 @@
+static int fn_1 ( final byte vr_1 ) throws vl_1 {
+final int vr_2 = vr_3 . vr_4 ( ( char ) vr_1 , vl_2 ) ;
+if ( vr_2 == - 1 ) {
+throw new vl_1 ( lr_1 + vl_2 + lr_2 + vr_1 ) ;
+}
+return vr_2 ;
+}
+static char fn_2 ( final int vr_1 ) {
+return vr_3 . vr_5 ( vr_3 . vr_6 ( vr_1 & 0xF , vl_2 ) ) ;
+}

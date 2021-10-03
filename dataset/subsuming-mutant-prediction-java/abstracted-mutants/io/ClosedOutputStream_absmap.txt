@@ -1,0 +1,6 @@
+b	,	vr_1
+"write("	,	lr_1
+flush	,	fn_2
+"flush() failed: stream is closed"	,	lr_3
+") failed: stream is closed"	,	lr_2
+write	,	fn_1

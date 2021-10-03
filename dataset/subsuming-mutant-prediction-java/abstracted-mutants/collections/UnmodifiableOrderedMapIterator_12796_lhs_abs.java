@@ -1,0 +1,42 @@
+public static < vt_1 , vt_2 > vr_1 < vt_1 , vt_2 > fn_1 (
+final vr_1 < vt_1 , ? extends vt_2 > iterator ) {
+vr_2 . vr_3 ( iterator , lr_1 ) ;
+if ( iterator instanceof vl_1 ) {
+@SuppressWarnings ( lr_2 )
+final vr_1 < vt_1 , vt_2 > vr_4 = ( vr_1 < vt_1 , vt_2 > ) iterator ;
+return vr_4 ;
+}
+return new vr_5 <> ( iterator ) ;
+}
+@Override
+public boolean hasNext () {
+return iterator . hasNext () ;
+}
+@Override
+public vt_1 fn_2 () {
+return iterator . fn_2 () ; MST[NullReturnValsMutator]MSP[]
+}
+@Override
+public boolean fn_3 () {
+return iterator . fn_3 () ;
+}
+@Override
+public vt_1 fn_4 () {
+return iterator . fn_4 () ;
+}
+@Override
+public vt_1 fn_5 () {
+return iterator . fn_5 () ;
+}
+@Override
+public vt_2 fn_6 () {
+return iterator . fn_6 () ;
+}
+@Override
+public vt_2 fn_7 ( final vt_2 vr_6 ) {
+throw new fn_8 ( lr_3 ) ;
+}
+@Override
+public void remove () {
+throw new fn_8 ( lr_4 ) ;
+}

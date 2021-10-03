@@ -1,0 +1,9 @@
+private void fn_1 ( final tp_1 out ) throws IOException {
+out . vr_1 () ;
+out . fn_1 ( fn_2 () ) ;
+}
+@SuppressWarnings ( lr_1 )
+private void fn_3 ( final tp_2 vr_2 ) throws IOException , vl_1 {
+vr_2 . vr_3 () ;
+fn_4 ( ( Collection < vt_1 > ) vr_2 . fn_3 () ) ; MST[VoidMethodCallMutator]MSP[N]
+}

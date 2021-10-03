@@ -1,0 +1,7 @@
+@Override
+protected String [] fn_1 ( @SuppressWarnings ( lr_1 ) final tp_1 vr_1 ,
+final String [] vr_2 ,
+@SuppressWarnings ( lr_1 ) final boolean vr_3 )
+{
+return vr_2 ;
+}

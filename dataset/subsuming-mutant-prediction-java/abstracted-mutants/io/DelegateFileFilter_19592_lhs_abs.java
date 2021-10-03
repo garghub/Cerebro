@@ -1,0 +1,19 @@
+@Override
+public boolean fn_1 ( final tp_1 vr_1 ) {
+if ( vl_1 != null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+return vl_1 . fn_1 ( vr_1 ) ;
+}
+return super . fn_1 ( vr_1 ) ;
+}
+@Override
+public boolean fn_1 ( final tp_1 vr_2 , final String vr_3 ) {
+if ( vl_2 != null ) {
+return vl_2 . fn_1 ( vr_2 , vr_3 ) ;
+}
+return super . fn_1 ( vr_2 , vr_3 ) ;
+}
+@Override
+public String toString () {
+final String vr_4 = vl_1 != null ? vl_1 . toString () : vl_2 . toString () ;
+return super . toString () + lr_1 + vr_4 + lr_2 ;
+}

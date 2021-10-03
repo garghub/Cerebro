@@ -1,0 +1,86 @@
+public static < vt_1 > vr_1 < vt_1 > fn_1 ( final vr_1 < vt_1 > vr_2 ) {
+if ( vr_2 instanceof vl_1 ) { MST[rv.ROR4Mutator]MSP[N]
+return vr_2 ;
+}
+return new vr_3 <> ( vr_2 ) ;
+}
+@Override
+public Iterator < vt_1 > iterator () {
+return vr_4 . vr_5 ( fn_2 () . iterator () ) ;
+}
+@Override
+public boolean add ( final vt_1 object ) {
+throw new fn_3 () ;
+}
+@Override
+public boolean fn_4 ( final Collection < ? extends vt_1 > vr_6 ) {
+throw new fn_3 () ;
+}
+@Override
+public void clear () {
+throw new fn_3 () ;
+}
+@Override
+public boolean remove ( final Object object ) {
+throw new fn_3 () ;
+}
+@Override
+public boolean fn_5 ( final vr_7 < ? super vt_1 > vr_8 ) {
+throw new fn_3 () ;
+}
+@Override
+public boolean fn_6 ( final Collection < ? > vr_6 ) {
+throw new fn_3 () ;
+}
+@Override
+public boolean fn_7 ( final Collection < ? > vr_6 ) {
+throw new fn_3 () ;
+}
+@Override
+public vr_9 < vt_1 > fn_8 ( final vt_1 vr_10 , final vt_1 vr_11 ) {
+final vr_9 < vt_1 > vr_12 = fn_2 () . fn_8 ( vr_10 , vr_11 ) ;
+return vr_13 . vr_14 ( vr_12 ) ;
+}
+@Override
+public vr_9 < vt_1 > fn_9 ( final vt_1 vr_11 ) {
+final vr_9 < vt_1 > vr_15 = fn_2 () . fn_9 ( vr_11 ) ;
+return vr_13 . vr_14 ( vr_15 ) ;
+}
+@Override
+public vr_9 < vt_1 > fn_10 ( final vt_1 vr_10 ) {
+final vr_9 < vt_1 > vr_16 = fn_2 () . fn_10 ( vr_10 ) ;
+return vr_13 . vr_14 ( vr_16 ) ;
+}
+@Override
+public vr_1 < vt_1 > fn_11 () {
+return fn_1 ( fn_2 () . fn_11 () ) ;
+}
+@Override
+public Iterator < vt_1 > fn_12 () {
+return vr_4 . vr_5 ( fn_2 () . fn_12 () ) ;
+}
+@Override
+public vr_1 < vt_1 > fn_8 ( final vt_1 vr_10 , final boolean vr_17 , final vt_1 vr_11 ,
+final boolean vr_18 ) {
+final vr_1 < vt_1 > vr_12 = fn_2 () . fn_8 ( vr_10 , vr_17 , vr_11 , vr_18 ) ;
+return fn_1 ( vr_12 ) ;
+}
+@Override
+public vr_1 < vt_1 > fn_9 ( final vt_1 vr_11 , final boolean vr_19 ) {
+final vr_1 < vt_1 > vr_15 = fn_2 () . fn_9 ( vr_11 , vr_19 ) ;
+return fn_1 ( vr_15 ) ;
+}
+@Override
+public vr_1 < vt_1 > fn_10 ( final vt_1 vr_10 , final boolean vr_19 ) {
+final vr_1 < vt_1 > vr_16 = fn_2 () . fn_10 ( vr_10 , vr_19 ) ;
+return fn_1 ( vr_16 ) ;
+}
+private void fn_13 ( final tp_1 out ) throws IOException {
+out . vr_20 () ;
+out . fn_13 ( fn_2 () ) ;
+}
+@SuppressWarnings ( lr_1 )
+private void fn_14 ( final tp_2 vr_21 ) throws IOException , vl_2 {
+vr_21 . vr_22 () ;
+fn_15 ( ( Collection < vt_1 > ) vr_21 . fn_14 () ) ;
+}

@@ -1,0 +1,19 @@
+@Override
+public boolean hasNext () {
+return iterator . hasNext () ;
+}
+@Override
+public tp_1 fn_1 () {
+return iterator . fn_1 () ; MST[NullReturnValsMutator]MSP[N]
+}
+@Override
+public void remove () {
+iterator . remove () ;
+}
+@Override
+public Iterator < tp_1 > iterator () {
+if ( iterator instanceof vl_1 ) {
+( ( vl_1 < ? extends tp_1 > ) iterator ) . fn_2 () ;
+}
+return vl_2 ;
+}

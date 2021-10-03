@@ -1,0 +1,13 @@
+public static < vt_1 > vr_1 < vt_1 > fn_1 ( final vt_1 vr_2 ) {
+if ( vr_2 == null ) {
+return vl_1 ;
+}
+return new vr_3 <> ( vr_2 ) ; MST[ReturnValsMutator]MSP[N]
+}
+@Override
+public vt_1 fn_2 () {
+return vl_2 ;
+}
+public vt_1 fn_3 () {
+return vl_2 ;
+}

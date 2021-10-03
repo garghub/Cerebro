@@ -1,0 +1,38 @@
+encode	,	fn_5
+isStrictDecoding	,	fn_7
+data	,	vr_1
+octet	,	vr_15
+isInAlphabet	,	fn_6
+BITS_PER_ENCODED_BYTE	,	vl_2
+decode	,	fn_1
+Math	,	vr_7
+dataLen	,	vr_6
+result	,	vr_12
+"Invalid octet in encoded value: "	,	lr_1
+ibitWorkArea	,	vr_5
+high	,	vr_20
+validateTrailingCharacter	,	fn_2
+min	,	vr_8
+pos	,	vr_14
+low	,	vr_21
+charsToProcess	,	vr_10
+availableChars	,	vr_9
+context	,	vr_3
+decoded	,	vr_16
+end	,	vr_18
+buffer	,	vr_11
+value	,	vr_19
+"Input length exceeds maximum size for encoded data: "	,	lr_2
+Context	,	tp_1
+encodeTable	,	vr_22
+ensureBufferSize	,	fn_4
+MASK_4BITS	,	vl_3
+offset	,	vr_2
+"Decoding requires at least two characters to create one byte."	,	lr_5
+i	,	vr_13
+"Strict decoding: Last encoded character is a valid base 16 alphabet"	,	lr_3
+BYTES_PER_ENCODED_BLOCK	,	vl_1
+decodeOctet	,	fn_3
+eof	,	vr_4
+decodeTable	,	vr_17
+"character but not a possible encoding. "	,	lr_4

@@ -1,0 +1,34 @@
+IllegalStateException	,	fn_2
+no	,	vl_3
+"Unexpected negative line length="	,	lr_4
+data	,	vl_8
+lineStart	,	vr_8
+newLineSequence	,	vr_12
+channel	,	vr_4
+"Current currentLastCharPos unexpectedly positive... "	,	lr_1
+rollOver	,	vr_2
+currentFilePart	,	vr_1
+leftOver	,	vl_5
+currentLastBytePos	,	vl_2
+arraycopy	,	vr_11
+newLineSequences	,	vl_10
+EMPTY_STRING	,	vr_3
+close	,	fn_1
+trailingNewlineOfFileSkipped	,	vl_1
+lineLengthBytes	,	vr_9
+"Unexpected leftover of the last block: leftOverOfThisFilePart="	,	lr_3
+match	,	vr_13
+i	,	vr_7
+j	,	vr_14
+k	,	vr_15
+encoding	,	vl_6
+FilePart	,	tp_1
+blockSize	,	vl_4
+lineData	,	vr_10
+avoidNewlineSplitBufferSize	,	vl_7
+getNewLineMatchByteCount	,	fn_4
+newLineMatchByteCount	,	vr_5
+isLastFilePart	,	vr_6
+byteDecrement	,	vl_9
+"last readLine() should have returned something! currentLastCharPos="	,	lr_2
+createLeftOver	,	fn_3
