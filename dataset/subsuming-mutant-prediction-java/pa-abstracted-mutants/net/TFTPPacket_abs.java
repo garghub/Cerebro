@@ -1,0 +1,57 @@
+public static final TFTPPacket newTFTPPacket ( final DatagramPacket datagram )
+throws TFTPPacketException
+{
+byte [] data ;
+TFTPPacket packet = null ;
+if ( datagram . getLength () < MIN_PACKET_SIZE ) {
+throw new TFTPPacketException (
+lr_1 ) ;
+}
+data = datagram . getData () ;
+switch ( data [ 1 ] )
+{
+case READ_REQUEST :
+packet = new TFTPReadRequestPacket ( datagram ) ;
+break;
+case WRITE_REQUEST :
+packet = new TFTPWriteRequestPacket ( datagram ) ;
+break;
+case DATA :
+packet = new TFTPDataPacket ( datagram ) ;
+break;
+case ACKNOWLEDGEMENT :
+packet = new TFTPAckPacket ( datagram ) ;
+break;
+case ERROR :
+packet = new TFTPErrorPacket ( datagram ) ;
+break;
+default:
+throw new TFTPPacketException (
+lr_2 ) ;
+}
+return packet ;
+}
+public final int getType ()
+{
+return type ;
+}
+public final InetAddress getAddress ()
+{
+return address ;
+}
+public final int getPort ()
+{
+return port ;
+}
+public final void setPort ( final int port )
+{
+this . port = port ;
+}
+public final void setAddress ( final InetAddress address )
+{
+this . address = address ;
+}
+@Override
+public String toString () {
+return address + lr_3 + port + lr_3 + type ;
+}

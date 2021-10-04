@@ -1,0 +1,47 @@
+"Status of options:"	,	lr_19
+"Type UNSPY to stop spying the connection"	,	lr_12
+"DO"	,	lr_39
+"Exception while opening the spy file: "	,	lr_3
+":"	,	lr_21
+"Exception while reading keyboard:"	,	lr_37
+"(optcode is an integer.)"	,	lr_27
+"^\\^[A-Z^]\\r?\\n?$"	,	lr_36
+"Exception while connecting:"	,	lr_38
+"Received "	,	lr_44
+"TelnetClientExample"	,	lr_6
+"UNSPY"	,	lr_35
+"Type AYT to send an AYT telnet command"	,	lr_7
+"WONT"	,	lr_42
+"Type REGISTER to register a new SimpleOptionHandler"	,	lr_9
+" for option code "	,	lr_45
+"OPT"	,	lr_18
+"Invalid REGISTER command."	,	lr_25
+"Invalid UNREGISTER command."	,	lr_31
+"Use UNREGISTER optcode"	,	lr_32
+"AYT"	,	lr_14
+"Usage: TelnetClientExample &lt;remote-ip&gt; [&lt;remote-port&gt;]"	,	lr_1
+"Error unregistering option: "	,	lr_30
+"Use REGISTER optcode initlocal initremote acceptlocal acceptremote"	,	lr_26
+"spy.log"	,	lr_2
+"(optcode is an integer)"	,	lr_33
+"WILL"	,	lr_41
+"Type OPT to print a report of status of options (0-24)"	,	lr_8
+" Remote Option "	,	lr_22
+"DONT"	,	lr_40
+"Type SPY to register the spy (connect to port 3333 to spy)"	,	lr_11
+"AYT response:"	,	lr_16
+"COMMAND"	,	lr_43
+"UNREGISTER"	,	lr_29
+"SPY"	,	lr_34
+"Type ^[A-Z] to send the control character; use ^^ to send ^"	,	lr_13
+"Error registering option: "	,	lr_24
+"Exception while reading socket:"	,	lr_46
+"Type UNREGISTER to unregister an OptionHandler"	,	lr_10
+"Exception while closing telnet:"	,	lr_47
+"Error registering option handlers: "	,	lr_5
+"VT100"	,	lr_4
+"Local Option "	,	lr_20
+"(initlocal, initremote, acceptlocal, acceptremote are boolean)"	,	lr_28
+"Exception waiting AYT response: "	,	lr_17
+"Sending AYT"	,	lr_15
+"REGISTER"	,	lr_23

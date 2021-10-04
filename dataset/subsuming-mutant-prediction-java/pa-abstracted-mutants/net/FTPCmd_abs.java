@@ -1,0 +1,4 @@
+public final String getCommand ()
+{
+return this . name () ;
+}

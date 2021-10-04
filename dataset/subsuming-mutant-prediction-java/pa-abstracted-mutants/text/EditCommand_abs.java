@@ -1,0 +1,3 @@
+protected T getObject () {
+return object ;
+}

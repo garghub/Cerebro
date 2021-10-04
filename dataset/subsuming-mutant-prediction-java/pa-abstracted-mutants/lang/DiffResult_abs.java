@@ -1,0 +1,30 @@
+public List < Diff < ? > > getDiffs () {
+return Collections . unmodifiableList ( diffs ) ;
+}
+public int getNumberOfDiffs () {
+return diffs . size () ;
+}
+public ToStringStyle getToStringStyle () {
+return style ;
+}
+@Override
+public String toString () {
+return toString ( style ) ;
+}
+public String toString ( final ToStringStyle style ) {
+if ( diffs . size () == 0 ) {
+return OBJECTS_SAME_STRING ;
+}
+final ToStringBuilder lhsBuilder = new ToStringBuilder ( lhs , style ) ;
+final ToStringBuilder rhsBuilder = new ToStringBuilder ( rhs , style ) ;
+for ( final Diff < ? > diff : diffs ) {
+lhsBuilder . append ( diff . getFieldName () , diff . getLeft () ) ;
+rhsBuilder . append ( diff . getFieldName () , diff . getRight () ) ;
+}
+return String . format ( lr_1 , lhsBuilder . build () , DIFFERS_STRING ,
+rhsBuilder . build () ) ;
+}
+@Override
+public Iterator < Diff < ? > > iterator () {
+return diffs . iterator () ;
+}

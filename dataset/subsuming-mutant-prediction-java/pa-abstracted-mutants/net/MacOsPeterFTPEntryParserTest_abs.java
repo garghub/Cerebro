@@ -1,0 +1,96 @@
+@Override
+protected String [] getBadListing () {
+return badsamples ;
+}
+@Override
+protected String [] getGoodListing () {
+return goodsamples ;
+}
+@Override
+protected FTPFileEntryParser getParser () {
+return new MacOsPeterFTPEntryParser () ;
+}
+@Override
+public void testParseFieldsOnDirectory () throws Exception {
+final FTPFile f = getParser () . parseFTPEntry (
+lr_1 ) ;
+assertNotNull ( lr_2 , f ) ;
+assertTrue ( lr_3 , f . isDirectory () ) ;
+checkPermissions ( f ) ;
+assertEquals ( 0 , f . getHardLinkCount () ) ;
+assertNull ( f . getUser () ) ;
+assertNull ( f . getGroup () ) ;
+assertEquals ( 0 , f . getSize () ) ;
+assertEquals ( lr_4 , f . getName () ) ;
+final Calendar cal = Calendar . getInstance () ;
+cal . set ( Calendar . MONTH , Calendar . MARCH ) ;
+cal . set ( Calendar . DAY_OF_MONTH , 1 ) ;
+cal . set ( Calendar . HOUR_OF_DAY , 0 ) ;
+cal . set ( Calendar . MINUTE , 0 ) ;
+cal . set ( Calendar . SECOND , 0 ) ;
+if ( f . getTimestamp () . getTime () . before ( cal . getTime () ) ) {
+cal . add ( Calendar . YEAR , - 1 ) ;
+}
+cal . set ( Calendar . DAY_OF_MONTH , 2 ) ;
+cal . set ( Calendar . HOUR_OF_DAY , 15 ) ;
+cal . set ( Calendar . MINUTE , 13 ) ;
+assertEquals ( df . format ( cal . getTime () ) , df . format ( f . getTimestamp ()
+. getTime () ) ) ;
+}
+@Override
+public void testParseFieldsOnFile () throws Exception {
+final FTPFile f = getParser () . parseFTPEntry (
+lr_5
+) ;
+assertNotNull ( lr_2 , f ) ;
+assertTrue ( lr_6 , f . isFile () ) ;
+checkPermissions ( f ) ;
+assertEquals ( 0 , f . getHardLinkCount () ) ;
+assertNull ( f . getUser () ) ;
+assertNull ( f . getGroup () ) ;
+assertEquals ( lr_7 , f . getName () ) ;
+assertEquals ( 127671L , f . getSize () ) ;
+final Calendar cal = Calendar . getInstance () ;
+cal . set ( Calendar . MONTH , Calendar . JULY ) ;
+cal . set ( Calendar . DAY_OF_MONTH , 1 ) ;
+cal . set ( Calendar . HOUR_OF_DAY , 0 ) ;
+cal . set ( Calendar . MINUTE , 0 ) ;
+cal . set ( Calendar . SECOND , 0 ) ;
+if ( f . getTimestamp () . getTime () . before ( cal . getTime () ) ) {
+cal . add ( Calendar . YEAR , - 1 ) ;
+}
+cal . set ( Calendar . DAY_OF_MONTH , 2 ) ;
+cal . set ( Calendar . HOUR_OF_DAY , 14 ) ;
+cal . set ( Calendar . MINUTE , 51 ) ;
+assertEquals ( df . format ( cal . getTime () ) , df . format ( f . getTimestamp () . getTime () ) ) ;
+}
+private void checkPermissions ( final FTPFile f ) {
+assertTrue ( lr_8 , f . hasPermission (
+FTPFile . USER_ACCESS , FTPFile . READ_PERMISSION ) ) ;
+assertTrue ( lr_9 , f . hasPermission (
+FTPFile . USER_ACCESS , FTPFile . WRITE_PERMISSION ) ) ;
+assertTrue ( lr_10 , f . hasPermission (
+FTPFile . USER_ACCESS , FTPFile . EXECUTE_PERMISSION ) ) ;
+assertTrue ( lr_11 , f . hasPermission (
+FTPFile . GROUP_ACCESS , FTPFile . READ_PERMISSION ) ) ;
+assertTrue ( lr_12 , ! f . hasPermission (
+FTPFile . GROUP_ACCESS , FTPFile . WRITE_PERMISSION ) ) ;
+assertTrue ( lr_13 , f . hasPermission (
+FTPFile . GROUP_ACCESS , FTPFile . EXECUTE_PERMISSION ) ) ;
+assertTrue ( lr_14 , f . hasPermission (
+FTPFile . WORLD_ACCESS , FTPFile . READ_PERMISSION ) ) ;
+assertTrue ( lr_15 , ! f . hasPermission (
+FTPFile . WORLD_ACCESS , FTPFile . WRITE_PERMISSION ) ) ;
+assertTrue ( lr_16 , f . hasPermission (
+FTPFile . WORLD_ACCESS , FTPFile . EXECUTE_PERMISSION ) ) ;
+}
+@Override
+public void testDefaultPrecision () {
+testPrecision (
+lr_17 , CalendarUnit . DAY_OF_MONTH ) ;
+}
+@Override
+public void testRecentPrecision () {
+testPrecision (
+lr_18 , CalendarUnit . MINUTE ) ;
+}

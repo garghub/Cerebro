@@ -1,0 +1,110 @@
+public void testReadSimpleStringCrLfLineEnding () throws IOException {
+final String test = lr_1 + EOM ;
+reader = new DotTerminatedMessageReader ( new StringReader ( test ) ) ;
+int read = 0 ;
+while ( ( read = reader . read ( buf ) ) != - 1 ) {
+str . append ( buf , 0 , read ) ;
+}
+assertEquals ( lr_1 + CRLF , str . toString () ) ;
+}
+public void testReadSimpleStringLfLineEnding () throws IOException {
+final String test = lr_1 + EOM ;
+reader = new DotTerminatedMessageReader ( new StringReader ( test ) ) ;
+int read = 0 ;
+while ( ( read = reader . read ( buf ) ) != - 1 ) {
+str . append ( buf , 0 , read ) ;
+}
+assertEquals ( lr_1 + CRLF , str . toString () ) ;
+}
+public void testEmbeddedNewlines () throws IOException {
+final String test = lr_2 + CRLF + lr_3 + EOM ;
+reader = new DotTerminatedMessageReader ( new StringReader ( test ) ) ;
+int read = 0 ;
+while ( ( read = reader . read ( buf ) ) != - 1 ) {
+str . append ( buf , 0 , read ) ;
+}
+assertEquals ( str . toString () , lr_2 + CRLF + lr_3 + CRLF ) ;
+}
+public void testDoubleCrBeforeDot () throws IOException {
+final String test = lr_4 + EOM ;
+reader = new DotTerminatedMessageReader ( new StringReader ( test ) ) ;
+int read = 0 ;
+while ( ( read = reader . read ( buf ) ) != - 1 ) {
+str . append ( buf , 0 , read ) ;
+}
+assertEquals ( lr_4 + CRLF , str . toString () ) ;
+}
+public void testLeadingDot () throws IOException {
+final String test = lr_1 + CRLF + lr_5 + EOM ;
+reader = new DotTerminatedMessageReader ( new StringReader ( test ) ) ;
+int read = 0 ;
+while ( ( read = reader . read ( buf ) ) != - 1 ) {
+str . append ( buf , 0 , read ) ;
+}
+assertEquals ( lr_1 + CRLF + lr_6 + CRLF , str . toString () ) ;
+}
+public void testEmbeddedDot1 () throws IOException {
+final String test = lr_7 + EOM ;
+reader = new DotTerminatedMessageReader ( new StringReader ( test ) ) ;
+int read = 0 ;
+while ( ( read = reader . read ( buf ) ) != - 1 ) {
+str . append ( buf , 0 , read ) ;
+}
+assertEquals ( lr_7 + CRLF , str . toString () ) ;
+}
+public void testEmbeddedDot2 () throws IOException {
+final String test = lr_8 + EOM ;
+reader = new DotTerminatedMessageReader ( new StringReader ( test ) ) ;
+int read = 0 ;
+while ( ( read = reader . read ( buf ) ) != - 1 ) {
+str . append ( buf , 0 , read ) ;
+}
+assertEquals ( lr_8 + CRLF , str . toString () ) ;
+}
+public void testEmbeddedDot3 () throws IOException {
+final String test = lr_9 + CRLF + lr_10 + EOM ;
+reader = new DotTerminatedMessageReader ( new StringReader ( test ) ) ;
+int read = 0 ;
+while ( ( read = reader . read ( buf ) ) != - 1 ) {
+str . append ( buf , 0 , read ) ;
+}
+assertEquals ( lr_9 + CRLF + lr_10 + CRLF , str . toString () ) ;
+}
+public void testEmbeddedDot4 () throws IOException {
+final String test = lr_11 + EOM ;
+reader = new DotTerminatedMessageReader ( new StringReader ( test ) ) ;
+int read = 0 ;
+while ( ( read = reader . read ( buf ) ) != - 1 ) {
+str . append ( buf , 0 , read ) ;
+}
+assertEquals ( lr_11 + CRLF , str . toString () ) ;
+}
+public void testReadLine1 () throws Exception {
+final String test = lr_12 + CRLF + lr_10 + EOM ;
+reader = new DotTerminatedMessageReader ( new StringReader ( test ) ) ;
+String line ;
+while ( ( line = reader . readLine () ) != null ) {
+str . append ( line ) ;
+str . append ( lr_13 ) ;
+}
+assertEquals ( lr_14 , str . toString () ) ;
+}
+public void testReadLine2 () throws Exception {
+final String test = lr_11 + EOM ;
+reader = new DotTerminatedMessageReader ( new StringReader ( test ) ) ;
+String line ;
+while ( ( line = reader . readLine () ) != null ) {
+str . append ( line ) ;
+str . append ( lr_13 ) ;
+}
+assertEquals ( lr_15 , str . toString () ) ;
+}
+public void testSingleDotWithTrailingText () throws IOException {
+final String test = lr_1 + CRLF + lr_6 + EOM ;
+reader = new DotTerminatedMessageReader ( new StringReader ( test ) ) ;
+int read = 0 ;
+while ( ( read = reader . read ( buf ) ) != - 1 ) {
+str . append ( buf , 0 , read ) ;
+}
+assertEquals ( lr_1 + CRLF + lr_6 + CRLF , str . toString () ) ;
+}

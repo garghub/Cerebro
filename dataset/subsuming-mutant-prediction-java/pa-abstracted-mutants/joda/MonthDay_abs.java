@@ -1,0 +1,205 @@
+public static MonthDay now () {
+return new MonthDay () ;
+}
+public static MonthDay now ( DateTimeZone zone ) {
+if ( zone == null ) {
+throw new NullPointerException ( lr_1 ) ;
+}
+return new MonthDay ( zone ) ;
+}
+public static MonthDay now ( Chronology chronology ) {
+if ( chronology == null ) {
+throw new NullPointerException ( lr_2 ) ;
+}
+return new MonthDay ( chronology ) ;
+}
+@FromString
+public static MonthDay parse ( String str ) {
+return parse ( str , PARSER ) ;
+}
+public static MonthDay parse ( String str , DateTimeFormatter formatter ) {
+LocalDate date = formatter . parseLocalDate ( str ) ;
+return new MonthDay ( date . getMonthOfYear () , date . getDayOfMonth () ) ;
+}
+public static MonthDay fromCalendarFields ( Calendar calendar ) {
+if ( calendar == null ) {
+throw new IllegalArgumentException ( lr_3 ) ;
+}
+return new MonthDay ( calendar . get ( Calendar . MONTH ) + 1 , calendar . get ( Calendar . DAY_OF_MONTH ) ) ;
+}
+@SuppressWarnings ( lr_4 )
+public static MonthDay fromDateFields ( Date date ) {
+if ( date == null ) {
+throw new IllegalArgumentException ( lr_5 ) ;
+}
+return new MonthDay ( date . getMonth () + 1 , date . getDate () ) ;
+}
+private Object readResolve () {
+if ( DateTimeZone . UTC . equals ( getChronology () . getZone () ) == false ) {
+return new MonthDay ( this , getChronology () . withUTC () ) ;
+}
+return this ;
+}
+public int size () {
+return 2 ;
+}
+protected DateTimeField getField ( int index , Chronology chrono ) {
+switch ( index ) {
+case MONTH_OF_YEAR :
+return chrono . monthOfYear () ;
+case DAY_OF_MONTH :
+return chrono . dayOfMonth () ;
+default:
+throw new IndexOutOfBoundsException ( lr_6 + index ) ;
+}
+}
+public DateTimeFieldType getFieldType ( int index ) {
+return FIELD_TYPES [ index ] ;
+}
+public DateTimeFieldType [] getFieldTypes () {
+return ( DateTimeFieldType [] ) FIELD_TYPES . clone () ;
+}
+public MonthDay withChronologyRetainFields ( Chronology newChronology ) {
+newChronology = DateTimeUtils . getChronology ( newChronology ) ;
+newChronology = newChronology . withUTC () ;
+if ( newChronology == getChronology () ) {
+return this ;
+} else {
+MonthDay newMonthDay = new MonthDay ( this , newChronology ) ;
+newChronology . validate ( newMonthDay , getValues () ) ;
+return newMonthDay ;
+}
+}
+public MonthDay withField ( DateTimeFieldType fieldType , int value ) {
+int index = indexOfSupported ( fieldType ) ;
+if ( value == getValue ( index ) ) {
+return this ;
+}
+int [] newValues = getValues () ;
+newValues = getField ( index ) . set ( this , index , newValues , value ) ;
+return new MonthDay ( this , newValues ) ;
+}
+public MonthDay withFieldAdded ( DurationFieldType fieldType , int amount ) {
+int index = indexOfSupported ( fieldType ) ;
+if ( amount == 0 ) {
+return this ;
+}
+int [] newValues = getValues () ;
+newValues = getField ( index ) . add ( this , index , newValues , amount ) ;
+return new MonthDay ( this , newValues ) ;
+}
+public MonthDay withPeriodAdded ( ReadablePeriod period , int scalar ) {
+if ( period == null || scalar == 0 ) {
+return this ;
+}
+int [] newValues = getValues () ;
+for ( int i = 0 ; i < period . size () ; i ++ ) {
+DurationFieldType fieldType = period . getFieldType ( i ) ;
+int index = indexOf ( fieldType ) ;
+if ( index >= 0 ) {
+newValues = getField ( index ) . add ( this , index , newValues ,
+FieldUtils . safeMultiply ( period . getValue ( i ) , scalar ) ) ;
+}
+}
+return new MonthDay ( this , newValues ) ;
+}
+public MonthDay plus ( ReadablePeriod period ) {
+return withPeriodAdded ( period , 1 ) ;
+}
+public MonthDay plusMonths ( int months ) {
+return withFieldAdded ( DurationFieldType . months () , months ) ;
+}
+public MonthDay plusDays ( int days ) {
+return withFieldAdded ( DurationFieldType . days () , days ) ;
+}
+public MonthDay minus ( ReadablePeriod period ) {
+return withPeriodAdded ( period , - 1 ) ;
+}
+public MonthDay minusMonths ( int months ) {
+return withFieldAdded ( DurationFieldType . months () , FieldUtils . safeNegate ( months ) ) ;
+}
+public MonthDay minusDays ( int days ) {
+return withFieldAdded ( DurationFieldType . days () , FieldUtils . safeNegate ( days ) ) ;
+}
+public LocalDate toLocalDate ( int year ) {
+return new LocalDate ( year , getMonthOfYear () , getDayOfMonth () , getChronology () ) ;
+}
+public int getMonthOfYear () {
+return getValue ( MONTH_OF_YEAR ) ;
+}
+public int getDayOfMonth () {
+return getValue ( DAY_OF_MONTH ) ;
+}
+public MonthDay withMonthOfYear ( int monthOfYear ) {
+int [] newValues = getValues () ;
+newValues = getChronology () . monthOfYear () . set ( this , MONTH_OF_YEAR , newValues , monthOfYear ) ;
+return new MonthDay ( this , newValues ) ;
+}
+public MonthDay withDayOfMonth ( int dayOfMonth ) {
+int [] newValues = getValues () ;
+newValues = getChronology () . dayOfMonth () . set ( this , DAY_OF_MONTH , newValues , dayOfMonth ) ;
+return new MonthDay ( this , newValues ) ;
+}
+public Property property ( DateTimeFieldType type ) {
+return new Property ( this , indexOfSupported ( type ) ) ;
+}
+public Property monthOfYear () {
+return new Property ( this , MONTH_OF_YEAR ) ;
+}
+public Property dayOfMonth () {
+return new Property ( this , DAY_OF_MONTH ) ;
+}
+@ToString
+public String toString () {
+List < DateTimeFieldType > fields = new ArrayList < DateTimeFieldType > () ;
+fields . add ( DateTimeFieldType . monthOfYear () ) ;
+fields . add ( DateTimeFieldType . dayOfMonth () ) ;
+return ISODateTimeFormat . forFields ( fields , true , true ) . print ( this ) ;
+}
+public String toString ( String pattern ) {
+if ( pattern == null ) {
+return toString () ;
+}
+return DateTimeFormat . forPattern ( pattern ) . print ( this ) ;
+}
+public String toString ( String pattern , Locale locale ) throws IllegalArgumentException {
+if ( pattern == null ) {
+return toString () ;
+}
+return DateTimeFormat . forPattern ( pattern ) . withLocale ( locale ) . print ( this ) ;
+}
+public DateTimeField getField () {
+return iBase . getField ( iFieldIndex ) ;
+}
+protected ReadablePartial getReadablePartial () {
+return iBase ;
+}
+public MonthDay getMonthDay () {
+return iBase ;
+}
+public int get () {
+return iBase . getValue ( iFieldIndex ) ;
+}
+public MonthDay addToCopy ( int valueToAdd ) {
+int [] newValues = iBase . getValues () ;
+newValues = getField () . add ( iBase , iFieldIndex , newValues , valueToAdd ) ;
+return new MonthDay ( iBase , newValues ) ;
+}
+public MonthDay addWrapFieldToCopy ( int valueToAdd ) {
+int [] newValues = iBase . getValues () ;
+newValues = getField () . addWrapField ( iBase , iFieldIndex , newValues , valueToAdd ) ;
+return new MonthDay ( iBase , newValues ) ;
+}
+public MonthDay setCopy ( int value ) {
+int [] newValues = iBase . getValues () ;
+newValues = getField () . set ( iBase , iFieldIndex , newValues , value ) ;
+return new MonthDay ( iBase , newValues ) ;
+}
+public MonthDay setCopy ( String text , Locale locale ) {
+int [] newValues = iBase . getValues () ;
+newValues = getField () . set ( iBase , iFieldIndex , newValues , text , locale ) ;
+return new MonthDay ( iBase , newValues ) ;
+}
+public MonthDay setCopy ( String text ) {
+return setCopy ( text , null ) ;
+}

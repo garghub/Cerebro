@@ -1,0 +1,11 @@
+@Override
+public void write ( final byte buffer [] , final int offset , final int length ) throws IOException
+{
+out . write ( buffer , offset , length ) ;
+}
+@Override
+public void close () throws IOException
+{
+super . close () ;
+socket . close () ;
+}

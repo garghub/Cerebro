@@ -1,0 +1,20 @@
+""	,	lr_19
+"Date"	,	lr_12
+"Test email"	,	lr_3
+"^(Date: (.+))$"	,	lr_15
+"EEE, dd MMM yyyy HH:mm:ss Z"	,	lr_16
+" should be before "	,	lr_18
+"From: from@here.invalid\nTo: to@there.invalid\nSubject: Test email\n\n"	,	lr_4
+"dummy date"	,	lr_13
+"Expecting Date header in "	,	lr_20
+"value 2"	,	lr_10
+"value 1"	,	lr_8
+"X-Header1: value 1\nX-Header2: value 2\nFrom: from@here.invalid\n\n"	,	lr_11
+"Date: dummy date\nFrom: from@here.invalid\n\n"	,	lr_14
+"X-Header1"	,	lr_7
+"X-Header2"	,	lr_9
+"from@here.invalid"	,	lr_1
+"to@there.invalid"	,	lr_2
+"From: from@here.invalid\nTo: to@there.invalid\n\n"	,	lr_5
+"From: from@here.invalid\n\n"	,	lr_6
+" should be after "	,	lr_17

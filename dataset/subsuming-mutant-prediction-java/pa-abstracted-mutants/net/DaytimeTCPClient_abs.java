@@ -1,0 +1,16 @@
+public String getTime () throws IOException
+{
+int read ;
+final StringBuilder result = new StringBuilder ( buffer . length ) ;
+BufferedReader reader ;
+reader = new BufferedReader ( new InputStreamReader ( _input_ , getCharset () ) ) ;
+while ( true )
+{
+read = reader . read ( buffer , 0 , buffer . length ) ;
+if ( read <= 0 ) {
+break;
+}
+result . append ( buffer , 0 , read ) ;
+}
+return result . toString () ;
+}

@@ -1,0 +1,120 @@
+private void getReply () throws IOException
+{
+String line ;
+replyLines . clear () ;
+line = reader . readLine () ;
+if ( line == null ) {
+throw new EOFException ( lr_1 ) ;
+}
+if ( line . startsWith ( _OK ) ) {
+replyCode = POP3Reply . OK ;
+} else if ( line . startsWith ( _ERROR ) ) {
+replyCode = POP3Reply . ERROR ;
+} else if ( line . startsWith ( _OK_INT ) ) {
+replyCode = POP3Reply . OK_INT ;
+} else {
+throw new
+MalformedServerReplyException (
+lr_2 + line ) ;
+}
+replyLines . add ( line ) ;
+lastReplyLine = line ;
+fireReplyReceived ( replyCode , getReplyString () ) ;
+}
+@Override
+protected void _connectAction_ () throws IOException
+{
+super . _connectAction_ () ;
+reader =
+new CRLFLineReader ( new InputStreamReader ( _input_ ,
+_DEFAULT_ENCODING ) ) ;
+writer =
+new BufferedWriter ( new OutputStreamWriter ( _output_ ,
+_DEFAULT_ENCODING ) ) ;
+getReply () ;
+setState ( AUTHORIZATION_STATE ) ;
+}
+public void setState ( final int state )
+{
+popState = state ;
+}
+public int getState ()
+{
+return popState ;
+}
+public void getAdditionalReply () throws IOException
+{
+String line ;
+line = reader . readLine () ;
+while ( line != null )
+{
+replyLines . add ( line ) ;
+if ( line . equals ( lr_3 ) ) {
+break;
+}
+line = reader . readLine () ;
+}
+}
+@Override
+public void disconnect () throws IOException
+{
+super . disconnect () ;
+reader = null ;
+writer = null ;
+lastReplyLine = null ;
+replyLines . clear () ;
+setState ( DISCONNECTED_STATE ) ;
+}
+public int sendCommand ( final String command , final String args ) throws IOException MST[ConstructorCallMutator]MSP[S]
+{
+if ( writer == null ) {
+throw new IllegalStateException ( lr_4 ) ;
+}
+final StringBuilder __commandBuffer = new StringBuilder () ;
+__commandBuffer . append ( command ) ;
+if ( args != null )
+{
+__commandBuffer . append ( ' ' ) ;
+__commandBuffer . append ( args ) ;
+}
+__commandBuffer . append ( SocketClient . NETASCII_EOL ) ;
+final String message = __commandBuffer . toString () ;
+writer . write ( message ) ;
+writer . flush () ;
+fireCommandSent ( command , message ) ;
+getReply () ;
+return replyCode ;
+}
+public int sendCommand ( final String command ) throws IOException
+{
+return sendCommand ( command , null ) ;
+}
+public int sendCommand ( final int command , final String args ) throws IOException
+{
+return sendCommand ( POP3Command . commands [ command ] , args ) ;
+}
+public int sendCommand ( final int command ) throws IOException
+{
+return sendCommand ( POP3Command . commands [ command ] , null ) ;
+}
+public String [] getReplyStrings ()
+{
+return replyLines . toArray ( new String [ replyLines . size () ] ) ;
+}
+public String getReplyString ()
+{
+final StringBuilder buffer = new StringBuilder ( 256 ) ;
+for ( final String entry : replyLines )
+{
+buffer . append ( entry ) ;
+buffer . append ( SocketClient . NETASCII_EOL ) ;
+}
+return buffer . toString () ;
+}
+public void removeProtocolCommandistener ( final org . apache . commons . net . ProtocolCommandListener listener ) {
+removeProtocolCommandListener ( listener ) ;
+}
+@Override
+protected ProtocolCommandSupport getCommandSupport () {
+return _commandSupport_ ;
+}

@@ -1,0 +1,13 @@
+"%-25s %s%n"	,	lr_11
+"unchecked"	,	lr_9
+"Usage: mvn -q exec:java  -Dexec.arguments=&lt;alias or"	,	lr_3
+".jar"	,	lr_13
+" or exampleClass&gt; &lt;exampleClass parameters&gt;\" (space separated)"	,	lr_6
+"Usage: java -cp target/classes examples/Main &lt;alias or exampleClass&gt; &lt;exampleClass parameters&gt;"	,	lr_8
+" exampleClass&gt;,&lt;exampleClass parameters&gt; (comma-separated, no spaces)"	,	lr_4
+"main"	,	lr_12
+"\nAliases and their classes:"	,	lr_10
+"Or   : mvn -q exec:java  -Dexec.args=\"&lt;alias"	,	lr_5
+"examples.properties"	,	lr_1
+"Usage: java -jar commons-net-examples-m.n.jar &lt;alias or exampleClass&gt; &lt;exampleClass parameters&gt;"	,	lr_7
+"[Cannot find examples.properties file, so aliases cannot be used]"	,	lr_2

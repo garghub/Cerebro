@@ -1,0 +1,7 @@
+"Warning: zero rcvNtpTime or xmitNtpTime"	,	lr_3
+"Error: zero orig time -- cannot compute delay"	,	lr_1
+"Warning: processing time &gt; total network time"	,	lr_7
+"Error: xmitTime &lt; rcvTime"	,	lr_5
+"Info: processing time &gt; total network time by 1 ms -&gt; assume zero delay"	,	lr_6
+"Error: zero orig time -- cannot compute delay/offset"	,	lr_2
+"Error: OrigTime &gt; DestRcvTime"	,	lr_4

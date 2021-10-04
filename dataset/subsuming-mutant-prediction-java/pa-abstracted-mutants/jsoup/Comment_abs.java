@@ -1,0 +1,42 @@
+public String nodeName () {
+return lr_1 ;
+}
+public String getData () {
+return coreValue () ;
+}
+public Comment setData ( String data ) {
+coreValue ( data ) ;
+return this ;
+}
+void outerHtmlHead ( Appendable accum , int depth , Document . OutputSettings out ) throws IOException {
+if ( out . prettyPrint () && ( ( siblingIndex () == 0 && parentNode instanceof Element && ( ( Element ) parentNode ) . tag () . formatAsBlock () ) || ( out . outline () ) ) )
+indent ( accum , depth , out ) ;
+accum
+. append ( lr_2 )
+. append ( getData () )
+. append ( lr_3 ) ;
+}
+void outerHtmlTail ( Appendable accum , int depth , Document . OutputSettings out ) {}
+@Override
+public String toString () {
+return outerHtml () ;
+}
+@Override
+public Comment clone () {
+return ( Comment ) super . clone () ;
+}
+public boolean isXmlDeclaration () {
+String data = getData () ;
+return ( data . length () > 1 && ( data . startsWith ( lr_4 ) || data . startsWith ( lr_5 ) ) ) ;
+}
+public XmlDeclaration asXmlDeclaration () {
+String data = getData () ;
+Document doc = Jsoup . parse ( lr_6 + data . substring ( 1 , data . length () - 1 ) + lr_7 , baseUri () , Parser . xmlParser () ) ;
+XmlDeclaration decl = null ;
+if ( doc . children () . size () > 0 ) {
+Element el = doc . child ( 0 ) ;
+decl = new XmlDeclaration ( NodeUtils . parser ( doc ) . settings () . normalizeTag ( el . tagName () ) , data . startsWith ( lr_4 ) ) ;
+decl . attributes () . addAll ( el . attributes () ) ;
+}
+return decl ;
+}

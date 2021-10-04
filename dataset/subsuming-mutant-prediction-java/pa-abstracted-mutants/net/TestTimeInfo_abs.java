@@ -1,0 +1,73 @@
+@Test
+public void testEquals () {
+final NtpV3Packet packet = new NtpV3Impl () ;
+final long returnTime = System . currentTimeMillis () ;
+final TimeInfo info = new TimeInfo ( packet , returnTime ) ;
+info . addComment ( lr_1 ) ;
+final TimeInfo other = new TimeInfo ( packet , returnTime ) ;
+other . addComment ( lr_1 ) ;
+Assert . assertEquals ( info , other ) ;
+Assert . assertEquals ( info . hashCode () , other . hashCode () ) ;
+other . addComment ( lr_2 ) ;
+final TimeInfo another = new TimeInfo ( packet , returnTime , new ArrayList < String > () ) ;
+Assert . assertEquals ( info , another ) ;
+}
+@Test
+public void testComputeDetails () {
+final NtpV3Packet packet = new NtpV3Impl () ;
+final long returnTime = System . currentTimeMillis () ;
+packet . setOriginateTimeStamp ( TimeStamp . getNtpTime ( returnTime + 1000 ) ) ;
+packet . setReceiveTimeStamp ( packet . getOriginateTimeStamp () ) ;
+packet . setTransmitTime ( packet . getOriginateTimeStamp () ) ;
+packet . setReferenceTime ( packet . getOriginateTimeStamp () ) ;
+final TimeInfo info = new TimeInfo ( packet , returnTime ) ;
+info . computeDetails () ;
+Assert . assertSame ( packet , info . getMessage () ) ;
+Assert . assertEquals ( returnTime , info . getReturnTime () ) ;
+Assert . assertEquals ( Long . valueOf ( 500 ) , info . getOffset () ) ;
+Assert . assertEquals ( Long . valueOf ( - 1000 ) , info . getDelay () ) ;
+Assert . assertEquals ( 2 , info . getComments () . size () ) ;
+}
+@Test ( expected = IllegalArgumentException . class )
+public void testException () {
+final NtpV3Packet packet = null ;
+new TimeInfo ( packet , 1L ) ;
+}
+@Test
+public void testAddress () throws UnknownHostException {
+final NtpV3Packet packet = new NtpV3Impl () ;
+final TimeInfo info = new TimeInfo ( packet , System . currentTimeMillis () ) ;
+Assert . assertNull ( info . getAddress () ) ;
+packet . getDatagramPacket () . setAddress ( InetAddress . getByAddress ( lr_3 , new byte [] { 127 , 0 , 0 , 1 } ) ) ;
+Assert . assertNotNull ( info . getAddress () ) ;
+}
+@Test
+public void testZeroTime () {
+final NtpV3Packet packet = new NtpV3Impl () ;
+final TimeInfo info = new TimeInfo ( packet , 0 ) ;
+info . computeDetails () ;
+Assert . assertNull ( info . getDelay () ) ;
+Assert . assertNull ( info . getOffset () ) ;
+Assert . assertEquals ( 0L , info . getReturnTime () ) ;
+final List < String > comments = info . getComments () ;
+Assert . assertEquals ( 1 , comments . size () ) ;
+Assert . assertTrue ( comments . get ( 0 ) . contains ( lr_4 ) ) ;
+}
+@Test
+public void testNotEquals () {
+final NtpV3Packet packet = new NtpV3Impl () ;
+final long returnTime = System . currentTimeMillis () ;
+final TimeInfo info = new TimeInfo ( packet , returnTime ) ;
+final NtpV3Packet packet2 = new NtpV3Impl () ;
+Assert . assertEquals ( packet , packet2 ) ;
+final TimeInfo info2 = new TimeInfo ( packet2 , returnTime + 1 ) ;
+Assert . assertFalse ( info . equals ( info2 ) ) ;
+packet2 . setStratum ( 3 ) ;
+packet2 . setRootDelay ( 25 ) ;
+final TimeInfo info3 = new TimeInfo ( packet2 , returnTime ) ;
+Assert . assertFalse ( info . equals ( info3 ) ) ;
+Object other = this ;
+Assert . assertFalse ( info . equals ( other ) ) ;
+other = null ;
+Assert . assertFalse ( info . equals ( other ) ) ;
+}

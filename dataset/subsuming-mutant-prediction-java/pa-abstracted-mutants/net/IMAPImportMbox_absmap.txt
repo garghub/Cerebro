@@ -1,0 +1,19 @@
+"\\d+(-\\d+)?(,\\d+(-\\d+)?)*"	,	lr_7
+" "	,	lr_12
+"Usage: IMAPImportMbox imap[s]://user:password@host[:port]/folder/path &lt;mboxfile&gt; [selectors]"	,	lr_1
+"\tWhere: a selector is a list of numbers/number ranges - 1,2,3-10"	,	lr_2
+" - or a list of strings to match in the initial From line"	,	lr_3
+"From \\S+ +\\S+ (\\S+)  ?(\\S+) (\\S+) (\\S+)"	,	lr_15
+"MsgNum: "	,	lr_17
+" messages, loaded "	,	lr_14
+"Cannot read mailbox file: "	,	lr_4
+"From "	,	lr_10
+" Length "	,	lr_18
+"Error processing msg: "	,	lr_11
+"Processed "	,	lr_13
+"-"	,	lr_9
+","	,	lr_8
+"Failed to import message: "	,	lr_19
+"Invalid folderPath: '"	,	lr_5
+"'"	,	lr_6
+" +0000"	,	lr_16

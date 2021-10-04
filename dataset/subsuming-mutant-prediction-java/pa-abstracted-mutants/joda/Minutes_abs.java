@@ -1,0 +1,128 @@
+public static Minutes minutes ( int minutes ) {
+switch ( minutes ) {
+case 0 :
+return ZERO ;
+case 1 :
+return ONE ;
+case 2 :
+return TWO ;
+case 3 :
+return THREE ;
+case Integer . MAX_VALUE :
+return MAX_VALUE ;
+case Integer . MIN_VALUE :
+return MIN_VALUE ;
+default:
+return new Minutes ( minutes ) ;
+}
+}
+public static Minutes minutesBetween ( ReadableInstant start , ReadableInstant end ) {
+int amount = BaseSingleFieldPeriod . between ( start , end , DurationFieldType . minutes () ) ;
+return Minutes . minutes ( amount ) ;
+}
+public static Minutes minutesBetween ( ReadablePartial start , ReadablePartial end ) {
+if ( start instanceof LocalTime && end instanceof LocalTime ) {
+Chronology chrono = DateTimeUtils . getChronology ( start . getChronology () ) ;
+int minutes = chrono . minutes () . getDifference (
+( ( LocalTime ) end ) . getLocalMillis () , ( ( LocalTime ) start ) . getLocalMillis () ) ;
+return Minutes . minutes ( minutes ) ;
+}
+int amount = BaseSingleFieldPeriod . between ( start , end , ZERO ) ;
+return Minutes . minutes ( amount ) ;
+}
+public static Minutes minutesIn ( ReadableInterval interval ) {
+if ( interval == null ) {
+return Minutes . ZERO ;
+}
+int amount = BaseSingleFieldPeriod . between ( interval . getStart () , interval . getEnd () , DurationFieldType . minutes () ) ;
+return Minutes . minutes ( amount ) ;
+}
+public static Minutes standardMinutesIn ( ReadablePeriod period ) {
+int amount = BaseSingleFieldPeriod . standardPeriodIn ( period , DateTimeConstants . MILLIS_PER_MINUTE ) ;
+return Minutes . minutes ( amount ) ;
+}
+@FromString
+public static Minutes parseMinutes ( String periodStr ) {
+if ( periodStr == null ) {
+return Minutes . ZERO ;
+}
+Period p = PARSER . parsePeriod ( periodStr ) ;
+return Minutes . minutes ( p . getMinutes () ) ;
+}
+private Object readResolve () {
+return Minutes . minutes ( getValue () ) ;
+}
+public DurationFieldType getFieldType () {
+return DurationFieldType . minutes () ;
+}
+public PeriodType getPeriodType () {
+return PeriodType . minutes () ;
+}
+public Weeks toStandardWeeks () {
+return Weeks . weeks ( getValue () / DateTimeConstants . MINUTES_PER_WEEK ) ;
+}
+public Days toStandardDays () {
+return Days . days ( getValue () / DateTimeConstants . MINUTES_PER_DAY ) ;
+}
+public Hours toStandardHours () {
+return Hours . hours ( getValue () / DateTimeConstants . MINUTES_PER_HOUR ) ;
+}
+public Seconds toStandardSeconds () {
+return Seconds . seconds ( FieldUtils . safeMultiply ( getValue () , DateTimeConstants . SECONDS_PER_MINUTE ) ) ;
+}
+public Duration toStandardDuration () {
+long minutes = getValue () ;
+return new Duration ( minutes * DateTimeConstants . MILLIS_PER_MINUTE ) ;
+}
+public int getMinutes () {
+return getValue () ;
+}
+public Minutes plus ( int minutes ) {
+if ( minutes == 0 ) {
+return this ;
+}
+return Minutes . minutes ( FieldUtils . safeAdd ( getValue () , minutes ) ) ;
+}
+public Minutes plus ( Minutes minutes ) {
+if ( minutes == null ) {
+return this ;
+}
+return plus ( minutes . getValue () ) ;
+}
+public Minutes minus ( int minutes ) {
+return plus ( FieldUtils . safeNegate ( minutes ) ) ;
+}
+public Minutes minus ( Minutes minutes ) {
+if ( minutes == null ) {
+return this ;
+}
+return minus ( minutes . getValue () ) ;
+}
+public Minutes multipliedBy ( int scalar ) {
+return Minutes . minutes ( FieldUtils . safeMultiply ( getValue () , scalar ) ) ;
+}
+public Minutes dividedBy ( int divisor ) {
+if ( divisor == 1 ) {
+return this ;
+}
+return Minutes . minutes ( getValue () / divisor ) ;
+}
+public Minutes negated () {
+return Minutes . minutes ( FieldUtils . safeNegate ( getValue () ) ) ;
+}
+public boolean isGreaterThan ( Minutes other ) {
+if ( other == null ) {
+return getValue () > 0 ;
+}
+return getValue () > other . getValue () ;
+}
+public boolean isLessThan ( Minutes other ) {
+if ( other == null ) {
+return getValue () < 0 ;
+}
+return getValue () < other . getValue () ;
+}
+@ToString
+public String toString () {
+return lr_1 + String . valueOf ( getValue () ) + lr_2 ;
+}

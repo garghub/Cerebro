@@ -1,0 +1,32 @@
+" rootdelay="	,	lr_15
+", precision="	,	lr_8
+"Usage: NTPClient &lt;hostname-or-address-list&gt;"	,	lr_30
+" (2 ** "	,	lr_14
+" Stratum: "	,	lr_4
+"N/A"	,	lr_27
+" seconds"	,	lr_13
+" Destination Timestamp:\t"	,	lr_26
+"  "	,	lr_22
+"127.127.1.0"	,	lr_17
+" Reference Identifier:\t"	,	lr_20
+" Originate Timestamp:\t"	,	lr_23
+" poll: "	,	lr_12
+" leap="	,	lr_6
+"&gt; "	,	lr_31
+"(Unspecified or Unavailable)"	,	lr_1
+" "	,	lr_5
+"LOCAL"	,	lr_18
+" mode: "	,	lr_9
+"127.127"	,	lr_19
+" Receive Timestamp:\t"	,	lr_24
+", clock offset(ms)="	,	lr_29
+"(Secondary Reference; e.g. via NTP or SNTP)"	,	lr_3
+" Roundtrip delay(ms)="	,	lr_28
+", version="	,	lr_7
+", rootdispersion(ms): "	,	lr_16
+"/"	,	lr_32
+" Transmit Timestamp:\t"	,	lr_25
+" ("	,	lr_10
+")"	,	lr_11
+" Reference Timestamp:\t"	,	lr_21
+"(Primary Reference; e.g., GPS)"	,	lr_2

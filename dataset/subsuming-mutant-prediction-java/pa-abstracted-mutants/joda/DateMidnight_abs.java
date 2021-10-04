@@ -1,0 +1,308 @@
+public static DateMidnight now () {
+return new DateMidnight () ;
+}
+public static DateMidnight now ( DateTimeZone zone ) {
+if ( zone == null ) {
+throw new NullPointerException ( lr_1 ) ;
+}
+return new DateMidnight ( zone ) ;
+}
+public static DateMidnight now ( Chronology chronology ) {
+if ( chronology == null ) {
+throw new NullPointerException ( lr_2 ) ;
+}
+return new DateMidnight ( chronology ) ;
+}
+@FromString
+public static DateMidnight parse ( String str ) {
+return parse ( str , ISODateTimeFormat . dateTimeParser () . withOffsetParsed () ) ;
+}
+public static DateMidnight parse ( String str , DateTimeFormatter formatter ) {
+return formatter . parseDateTime ( str ) . toDateMidnight () ;
+}
+protected long checkInstant ( long instant , Chronology chronology ) {
+return chronology . dayOfMonth () . roundFloor ( instant ) ;
+}
+public DateMidnight withMillis ( long newMillis ) {
+Chronology chrono = getChronology () ;
+newMillis = checkInstant ( newMillis , chrono ) ;
+return ( newMillis == getMillis () ? this : new DateMidnight ( newMillis , chrono ) ) ;
+}
+public DateMidnight withChronology ( Chronology newChronology ) {
+return ( newChronology == getChronology () ? this : new DateMidnight ( getMillis () , newChronology ) ) ;
+}
+public DateMidnight withZoneRetainFields ( DateTimeZone newZone ) {
+newZone = DateTimeUtils . getZone ( newZone ) ;
+DateTimeZone originalZone = DateTimeUtils . getZone ( getZone () ) ;
+if ( newZone == originalZone ) {
+return this ;
+}
+long millis = originalZone . getMillisKeepLocal ( newZone , getMillis () ) ;
+return new DateMidnight ( millis , getChronology () . withZone ( newZone ) ) ;
+}
+public DateMidnight withFields ( ReadablePartial partial ) {
+if ( partial == null ) {
+return this ;
+}
+return withMillis ( getChronology () . set ( partial , getMillis () ) ) ;
+}
+public DateMidnight withField ( DateTimeFieldType fieldType , int value ) {
+if ( fieldType == null ) {
+throw new IllegalArgumentException ( lr_3 ) ;
+}
+long instant = fieldType . getField ( getChronology () ) . set ( getMillis () , value ) ;
+return withMillis ( instant ) ;
+}
+public DateMidnight withFieldAdded ( DurationFieldType fieldType , int amount ) {
+if ( fieldType == null ) {
+throw new IllegalArgumentException ( lr_3 ) ;
+}
+if ( amount == 0 ) {
+return this ;
+}
+long instant = fieldType . getField ( getChronology () ) . add ( getMillis () , amount ) ;
+return withMillis ( instant ) ;
+}
+public DateMidnight withDurationAdded ( long durationToAdd , int scalar ) {
+if ( durationToAdd == 0 || scalar == 0 ) {
+return this ;
+}
+long instant = getChronology () . add ( getMillis () , durationToAdd , scalar ) ;
+return withMillis ( instant ) ;
+}
+public DateMidnight withDurationAdded ( ReadableDuration durationToAdd , int scalar ) {
+if ( durationToAdd == null || scalar == 0 ) {
+return this ;
+}
+return withDurationAdded ( durationToAdd . getMillis () , scalar ) ;
+}
+public DateMidnight withPeriodAdded ( ReadablePeriod period , int scalar ) {
+if ( period == null || scalar == 0 ) {
+return this ;
+}
+long instant = getChronology () . add ( period , getMillis () , scalar ) ;
+return withMillis ( instant ) ;
+}
+public DateMidnight plus ( long duration ) {
+return withDurationAdded ( duration , 1 ) ;
+}
+public DateMidnight plus ( ReadableDuration duration ) {
+return withDurationAdded ( duration , 1 ) ;
+}
+public DateMidnight plus ( ReadablePeriod period ) {
+return withPeriodAdded ( period , 1 ) ;
+}
+public DateMidnight plusYears ( int years ) {
+if ( years == 0 ) {
+return this ;
+}
+long instant = getChronology () . years () . add ( getMillis () , years ) ;
+return withMillis ( instant ) ;
+}
+public DateMidnight plusMonths ( int months ) {
+if ( months == 0 ) {
+return this ;
+}
+long instant = getChronology () . months () . add ( getMillis () , months ) ;
+return withMillis ( instant ) ;
+}
+public DateMidnight plusWeeks ( int weeks ) {
+if ( weeks == 0 ) {
+return this ;
+}
+long instant = getChronology () . weeks () . add ( getMillis () , weeks ) ;
+return withMillis ( instant ) ;
+}
+public DateMidnight plusDays ( int days ) {
+if ( days == 0 ) {
+return this ;
+}
+long instant = getChronology () . days () . add ( getMillis () , days ) ;
+return withMillis ( instant ) ;
+}
+public DateMidnight minus ( long duration ) {
+return withDurationAdded ( duration , - 1 ) ;
+}
+public DateMidnight minus ( ReadableDuration duration ) {
+return withDurationAdded ( duration , - 1 ) ;
+}
+public DateMidnight minus ( ReadablePeriod period ) {
+return withPeriodAdded ( period , - 1 ) ;
+}
+public DateMidnight minusYears ( int years ) {
+if ( years == 0 ) {
+return this ;
+}
+long instant = getChronology () . years () . subtract ( getMillis () , years ) ;
+return withMillis ( instant ) ;
+}
+public DateMidnight minusMonths ( int months ) {
+if ( months == 0 ) {
+return this ;
+}
+long instant = getChronology () . months () . subtract ( getMillis () , months ) ;
+return withMillis ( instant ) ;
+}
+public DateMidnight minusWeeks ( int weeks ) {
+if ( weeks == 0 ) {
+return this ;
+}
+long instant = getChronology () . weeks () . subtract ( getMillis () , weeks ) ;
+return withMillis ( instant ) ;
+}
+public DateMidnight minusDays ( int days ) {
+if ( days == 0 ) {
+return this ;
+}
+long instant = getChronology () . days () . subtract ( getMillis () , days ) ;
+return withMillis ( instant ) ;
+}
+public Property property ( DateTimeFieldType type ) {
+if ( type == null ) {
+throw new IllegalArgumentException ( lr_4 ) ;
+}
+DateTimeField field = type . getField ( getChronology () ) ;
+if ( field . isSupported () == false ) {
+throw new IllegalArgumentException ( lr_5 + type + lr_6 ) ;
+}
+return new Property ( this , field ) ;
+}
+@Deprecated
+public YearMonthDay toYearMonthDay () {
+return new YearMonthDay ( getMillis () , getChronology () ) ;
+}
+public LocalDate toLocalDate () {
+return new LocalDate ( getMillis () , getChronology () ) ;
+}
+public Interval toInterval () {
+Chronology chrono = getChronology () ;
+long start = getMillis () ;
+long end = DurationFieldType . days () . getField ( chrono ) . add ( start , 1 ) ;
+return new Interval ( start , end , chrono ) ;
+}
+public DateMidnight withEra ( int era ) {
+return withMillis ( getChronology () . era () . set ( getMillis () , era ) ) ;
+}
+public DateMidnight withCenturyOfEra ( int centuryOfEra ) {
+return withMillis ( getChronology () . centuryOfEra () . set ( getMillis () , centuryOfEra ) ) ;
+}
+public DateMidnight withYearOfEra ( int yearOfEra ) {
+return withMillis ( getChronology () . yearOfEra () . set ( getMillis () , yearOfEra ) ) ;
+}
+public DateMidnight withYearOfCentury ( int yearOfCentury ) {
+return withMillis ( getChronology () . yearOfCentury () . set ( getMillis () , yearOfCentury ) ) ;
+}
+public DateMidnight withYear ( int year ) {
+return withMillis ( getChronology () . year () . set ( getMillis () , year ) ) ;
+}
+public DateMidnight withWeekyear ( int weekyear ) {
+return withMillis ( getChronology () . weekyear () . set ( getMillis () , weekyear ) ) ;
+}
+public DateMidnight withMonthOfYear ( int monthOfYear ) {
+return withMillis ( getChronology () . monthOfYear () . set ( getMillis () , monthOfYear ) ) ;
+}
+public DateMidnight withWeekOfWeekyear ( int weekOfWeekyear ) {
+return withMillis ( getChronology () . weekOfWeekyear () . set ( getMillis () , weekOfWeekyear ) ) ;
+}
+public DateMidnight withDayOfYear ( int dayOfYear ) {
+return withMillis ( getChronology () . dayOfYear () . set ( getMillis () , dayOfYear ) ) ;
+}
+public DateMidnight withDayOfMonth ( int dayOfMonth ) {
+return withMillis ( getChronology () . dayOfMonth () . set ( getMillis () , dayOfMonth ) ) ;
+}
+public DateMidnight withDayOfWeek ( int dayOfWeek ) {
+return withMillis ( getChronology () . dayOfWeek () . set ( getMillis () , dayOfWeek ) ) ;
+}
+public Property era () {
+return new Property ( this , getChronology () . era () ) ;
+}
+public Property centuryOfEra () {
+return new Property ( this , getChronology () . centuryOfEra () ) ;
+}
+public Property yearOfCentury () {
+return new Property ( this , getChronology () . yearOfCentury () ) ;
+}
+public Property yearOfEra () {
+return new Property ( this , getChronology () . yearOfEra () ) ;
+}
+public Property year () {
+return new Property ( this , getChronology () . year () ) ;
+}
+public Property weekyear () {
+return new Property ( this , getChronology () . weekyear () ) ;
+}
+public Property monthOfYear () {
+return new Property ( this , getChronology () . monthOfYear () ) ;
+}
+public Property weekOfWeekyear () {
+return new Property ( this , getChronology () . weekOfWeekyear () ) ;
+}
+public Property dayOfYear () {
+return new Property ( this , getChronology () . dayOfYear () ) ;
+}
+public Property dayOfMonth () {
+return new Property ( this , getChronology () . dayOfMonth () ) ;
+}
+public Property dayOfWeek () {
+return new Property ( this , getChronology () . dayOfWeek () ) ;
+}
+private void writeObject ( ObjectOutputStream oos ) throws IOException {
+oos . writeObject ( iInstant ) ;
+oos . writeObject ( iField . getType () ) ;
+}
+private void readObject ( ObjectInputStream oos ) throws IOException , ClassNotFoundException {
+iInstant = ( DateMidnight ) oos . readObject () ;
+DateTimeFieldType type = ( DateTimeFieldType ) oos . readObject () ;
+iField = type . getField ( iInstant . getChronology () ) ;
+}
+public DateTimeField getField () {
+return iField ;
+}
+protected long getMillis () {
+return iInstant . getMillis () ;
+}
+protected Chronology getChronology () {
+return iInstant . getChronology () ;
+}
+public DateMidnight getDateMidnight () {
+return iInstant ;
+}
+public DateMidnight addToCopy ( int value ) {
+return iInstant . withMillis ( iField . add ( iInstant . getMillis () , value ) ) ;
+}
+public DateMidnight addToCopy ( long value ) {
+return iInstant . withMillis ( iField . add ( iInstant . getMillis () , value ) ) ;
+}
+public DateMidnight addWrapFieldToCopy ( int value ) {
+return iInstant . withMillis ( iField . addWrapField ( iInstant . getMillis () , value ) ) ;
+}
+public DateMidnight setCopy ( int value ) {
+return iInstant . withMillis ( iField . set ( iInstant . getMillis () , value ) ) ;
+}
+public DateMidnight setCopy ( String text , Locale locale ) {
+return iInstant . withMillis ( iField . set ( iInstant . getMillis () , text , locale ) ) ;
+}
+public DateMidnight setCopy ( String text ) {
+return setCopy ( text , null ) ;
+}
+public DateMidnight withMaximumValue () {
+return setCopy ( getMaximumValue () ) ;
+}
+public DateMidnight withMinimumValue () {
+return setCopy ( getMinimumValue () ) ;
+}
+public DateMidnight roundFloorCopy () {
+return iInstant . withMillis ( iField . roundFloor ( iInstant . getMillis () ) ) ;
+}
+public DateMidnight roundCeilingCopy () {
+return iInstant . withMillis ( iField . roundCeiling ( iInstant . getMillis () ) ) ;
+}
+public DateMidnight roundHalfFloorCopy () {
+return iInstant . withMillis ( iField . roundHalfFloor ( iInstant . getMillis () ) ) ;
+}
+public DateMidnight roundHalfCeilingCopy () {
+return iInstant . withMillis ( iField . roundHalfCeiling ( iInstant . getMillis () ) ) ;
+}
+public DateMidnight roundHalfEvenCopy () {
+return iInstant . withMillis ( iField . roundHalfEven ( iInstant . getMillis () ) ) ;
+}

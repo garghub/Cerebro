@@ -1,0 +1,105 @@
+public static EthiopicChronology getInstanceUTC () {
+return INSTANCE_UTC ;
+}
+public static EthiopicChronology getInstance () {
+return getInstance ( DateTimeZone . getDefault () , 4 ) ;
+}
+public static EthiopicChronology getInstance ( DateTimeZone zone ) {
+return getInstance ( zone , 4 ) ;
+}
+public static EthiopicChronology getInstance ( DateTimeZone zone , int minDaysInFirstWeek ) {
+if ( zone == null ) {
+zone = DateTimeZone . getDefault () ;
+}
+EthiopicChronology chrono ;
+EthiopicChronology [] chronos = cCache . get ( zone ) ;
+if ( chronos == null ) {
+chronos = new EthiopicChronology [ 7 ] ;
+EthiopicChronology [] oldChronos = cCache . putIfAbsent ( zone , chronos ) ;
+if ( oldChronos != null ) {
+chronos = oldChronos ;
+}
+}
+try {
+chrono = chronos [ minDaysInFirstWeek - 1 ] ;
+} catch ( ArrayIndexOutOfBoundsException e ) {
+throw new IllegalArgumentException
+( lr_1 + minDaysInFirstWeek ) ;
+}
+if ( chrono == null ) {
+synchronized ( chronos ) {
+chrono = chronos [ minDaysInFirstWeek - 1 ] ;
+if ( chrono == null ) {
+if ( zone == DateTimeZone . UTC ) {
+chrono = new EthiopicChronology ( null , null , minDaysInFirstWeek ) ;
+DateTime lowerLimit = new DateTime ( 1 , 1 , 1 , 0 , 0 , 0 , 0 , chrono ) ;
+chrono = new EthiopicChronology
+( LimitChronology . getInstance ( chrono , lowerLimit , null ) ,
+null , minDaysInFirstWeek ) ;
+} else {
+chrono = getInstance ( DateTimeZone . UTC , minDaysInFirstWeek ) ;
+chrono = new EthiopicChronology
+( ZonedChronology . getInstance ( chrono , zone ) , null , minDaysInFirstWeek ) ;
+}
+chronos [ minDaysInFirstWeek - 1 ] = chrono ;
+}
+}
+}
+return chrono ;
+}
+private Object readResolve () {
+Chronology base = getBase () ;
+return base == null ?
+getInstance ( DateTimeZone . UTC , getMinimumDaysInFirstWeek () ) :
+getInstance ( base . getZone () , getMinimumDaysInFirstWeek () ) ;
+}
+public Chronology withUTC () {
+return INSTANCE_UTC ;
+}
+public Chronology withZone ( DateTimeZone zone ) {
+if ( zone == null ) {
+zone = DateTimeZone . getDefault () ;
+}
+if ( zone == getZone () ) {
+return this ;
+}
+return getInstance ( zone ) ;
+}
+@Override
+boolean isLeapDay ( long instant ) {
+return dayOfMonth () . get ( instant ) == 6 && monthOfYear () . isLeap ( instant ) ;
+}
+long calculateFirstDayOfYearMillis ( int year ) {
+int relativeYear = year - 1963 ;
+int leapYears ;
+if ( relativeYear <= 0 ) {
+leapYears = ( relativeYear + 3 ) >> 2 ;
+} else {
+leapYears = relativeYear >> 2 ;
+if ( ! isLeapYear ( year ) ) {
+leapYears ++ ;
+}
+}
+long millis = ( relativeYear * 365L + leapYears )
+* ( long ) DateTimeConstants . MILLIS_PER_DAY ;
+return millis + ( 365L - 112 ) * DateTimeConstants . MILLIS_PER_DAY ;
+}
+int getMinYear () {
+return MIN_YEAR ;
+}
+int getMaxYear () {
+return MAX_YEAR ;
+}
+long getApproxMillisAtEpochDividedByTwo () {
+return ( 1962L * MILLIS_PER_YEAR + 112L * DateTimeConstants . MILLIS_PER_DAY ) / 2 ;
+}
+protected void assemble ( Fields fields ) {
+if ( getBase () == null ) {
+super . assemble ( fields ) ;
+fields . year = new SkipDateTimeField ( this , fields . year ) ;
+fields . weekyear = new SkipDateTimeField ( this , fields . weekyear ) ;
+fields . era = ERA_FIELD ;
+fields . monthOfYear = new BasicMonthOfYearDateTimeField ( this , 13 ) ;
+fields . months = fields . monthOfYear . getDurationField () ;
+}
+}

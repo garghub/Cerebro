@@ -1,0 +1,48 @@
+public final String translate ( final CharSequence input ) {
+if ( input == null ) {
+return null ;
+}
+try {
+final StringWriter writer = new StringWriter ( input . length () * 2 ) ;
+translate ( input , writer ) ;
+return writer . toString () ;
+} catch ( final IOException ioe ) {
+throw new RuntimeException ( ioe ) ;
+}
+}
+public final void translate ( final CharSequence input , final Writer out ) throws IOException {
+Validate . isTrue ( out != null , lr_1 ) ;
+if ( input == null ) {
+return;
+}
+int pos = 0 ;
+final int len = input . length () ;
+while ( pos < len ) {
+final int consumed = translate ( input , pos , out ) ;
+if ( consumed == 0 ) {
+final char c1 = input . charAt ( pos ) ;
+out . write ( c1 ) ;
+pos ++ ;
+if ( Character . isHighSurrogate ( c1 ) && pos < len ) {
+final char c2 = input . charAt ( pos ) ;
+if ( Character . isLowSurrogate ( c2 ) ) {
+out . write ( c2 ) ;
+pos ++ ;
+}
+}
+continue;
+}
+for ( int pt = 0 ; pt < consumed ; pt ++ ) {
+pos += Character . charCount ( Character . codePointAt ( input , pos ) ) ;
+}
+}
+}
+public final CharSequenceTranslator with ( final CharSequenceTranslator ... translators ) {
+final CharSequenceTranslator [] newArray = new CharSequenceTranslator [ translators . length + 1 ] ;
+newArray [ 0 ] = this ;
+System . arraycopy ( translators , 0 , newArray , 1 , translators . length ) ;
+return new AggregateTranslator ( newArray ) ;
+}
+public static String hex ( final int codepoint ) {
+return Integer . toHexString ( codepoint ) . toUpperCase ( Locale . ENGLISH ) ;
+}
