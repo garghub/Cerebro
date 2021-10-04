@@ -115,6 +115,22 @@ below is a sample usage for using the trained model available at location - (../
 
 ./test.sh ../smp-java-50-01/test ../smp-java-50-01/model genrhs-smp-java-50-01.txt
 
+note:
+
+please note that few models were larger than 100MB in size, hence they were split in 2 files to be able to check-in. below are those models:
+
+dataset/subsuming-mutant-prediction-java/smp/pa-smp-java-50-01/model/model.ckpt.data-00000-of-00001
+
+dataset/subsuming-mutant-prediction-java/smp/pa-smp-java-50-02/model/model.ckpt.data-00000-of-00001
+
+dataset/subsuming-mutant-prediction-java/smp/pa-smp-java-50-03/model/model.ckpt.data-00000-of-00001
+
+dataset/subsuming-mutant-prediction-java/smp/pa-smp-java-50-04/model/model.ckpt.data-00000-of-00001
+
+dataset/subsuming-mutant-prediction-java/smp/pa-smp-java-50-05/model/model.ckpt.data-00000-of-00001
+
+in aforementioned cases, model.ckpt.data-00000-of-00001 was divided in model.ckpt.data-00000-of-00001.001 and model.ckpt.data-00000-of-00001.002
+
 -----------------------------------------------------------------------------------------------------------------------------
 
 ## References
