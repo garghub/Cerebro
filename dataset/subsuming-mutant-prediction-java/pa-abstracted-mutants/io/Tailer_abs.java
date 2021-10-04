@@ -1,0 +1,159 @@
+public static Tailer create ( final File file , final TailerListener listener , final long delayMillis ,
+final boolean end , final int bufSize ) {
+return create ( file , listener , delayMillis , end , false , bufSize ) ;
+}
+public static Tailer create ( final File file , final TailerListener listener , final long delayMillis ,
+final boolean end , final boolean reOpen ,
+final int bufSize ) {
+return create ( file , DEFAULT_CHARSET , listener , delayMillis , end , reOpen , bufSize ) ;
+}
+public static Tailer create ( final File file , final Charset charset , final TailerListener listener ,
+final long delayMillis , final boolean end , final boolean reOpen
+, final int bufSize ) {
+final Tailer tailer = new Tailer ( file , charset , listener , delayMillis , end , reOpen , bufSize ) ;
+final Thread thread = new Thread ( tailer ) ;
+thread . setDaemon ( true ) ;
+thread . start () ;
+return tailer ;
+}
+public static Tailer create ( final File file , final TailerListener listener , final long delayMillis ,
+final boolean end ) {
+return create ( file , listener , delayMillis , end , DEFAULT_BUFSIZE ) ;
+}
+public static Tailer create ( final File file , final TailerListener listener , final long delayMillis ,
+final boolean end , final boolean reOpen ) {
+return create ( file , listener , delayMillis , end , reOpen , DEFAULT_BUFSIZE ) ;
+}
+public static Tailer create ( final File file , final TailerListener listener , final long delayMillis ) {
+return create ( file , listener , delayMillis , false ) ;
+}
+public static Tailer create ( final File file , final TailerListener listener ) {
+return create ( file , listener , DEFAULT_DELAY_MILLIS , false ) ;
+}
+public File getFile () {
+return file ;
+}
+protected boolean getRun () {
+return run ;
+}
+public long getDelay () {
+return delayMillis ;
+}
+@Override
+public void run () {
+RandomAccessFile reader = null ;
+try {
+long last = 0 ;
+long position = 0 ;
+while ( getRun () && reader == null ) {
+try {
+reader = new RandomAccessFile ( file , RAF_MODE ) ;
+} catch ( final FileNotFoundException e ) {
+listener . fileNotFound () ;
+}
+if ( reader == null ) {
+Thread . sleep ( delayMillis ) ;
+} else {
+position = end ? file . length () : 0 ;
+last = file . lastModified () ;
+reader . seek ( position ) ;
+}
+}
+while ( getRun () ) {
+final boolean newer = FileUtils . isFileNewer ( file , last ) ;
+final long length = file . length () ;
+if ( length < position ) {
+listener . fileRotated () ;
+try ( RandomAccessFile save = reader ) {
+reader = new RandomAccessFile ( file , RAF_MODE ) ;
+try {
+readLines ( save ) ;
+} catch ( final IOException ioe ) {
+listener . handle ( ioe ) ;
+}
+position = 0 ;
+} catch ( final FileNotFoundException e ) {
+listener . fileNotFound () ;
+Thread . sleep ( delayMillis ) ;
+}
+continue;
+}
+if ( length > position ) {
+position = readLines ( reader ) ;
+last = file . lastModified () ;
+} else if ( newer ) {
+position = 0 ;
+reader . seek ( position ) ;
+position = readLines ( reader ) ;
+last = file . lastModified () ;
+}
+if ( reOpen && reader != null ) {
+reader . close () ;
+}
+Thread . sleep ( delayMillis ) ;
+if ( getRun () && reOpen ) {
+reader = new RandomAccessFile ( file , RAF_MODE ) ;
+reader . seek ( position ) ;
+}
+}
+} catch ( final InterruptedException e ) {
+Thread . currentThread () . interrupt () ;
+listener . handle ( e ) ;
+} catch ( final Exception e ) {
+listener . handle ( e ) ;
+} finally {
+try {
+if ( reader != null ) {
+reader . close () ;
+}
+}
+catch ( final IOException e ) {
+listener . handle ( e ) ;
+}
+stop () ;
+}
+}
+public void stop () {
+this . run = false ;
+}
+private long readLines ( final RandomAccessFile reader ) throws IOException {
+try ( ByteArrayOutputStream lineBuf = new ByteArrayOutputStream ( 64 ) ) {
+long pos = reader . getFilePointer () ;
+long rePos = pos ;
+int num ;
+boolean seenCR = false ;
+while ( getRun () && ( ( num = reader . read ( inbuf ) ) != EOF ) ) {
+for ( int i = 0 ; i < num ; i ++ ) {
+final byte ch = inbuf [ i ] ;
+switch ( ch ) {
+case '\n' :
+seenCR = false ;
+listener . handle ( new String ( lineBuf . toByteArray () , charset ) ) ;
+lineBuf . reset () ;
+rePos = pos + i + 1 ;
+break;
+case '\r' :
+if ( seenCR ) {
+lineBuf . write ( '\r' ) ;
+}
+seenCR = true ;
+break;
+default:
+if ( seenCR ) {
+seenCR = false ;
+listener . handle ( new String ( lineBuf . toByteArray () , charset ) ) ;
+lineBuf . reset () ;
+rePos = pos + i + 1 ;
+}
+lineBuf . write ( ch ) ;
+}
+}
+pos = reader . getFilePointer () ;
+}
+reader . seek ( rePos ) ;
+if ( listener instanceof TailerListenerAdapter ) {
+( ( TailerListenerAdapter ) listener ) . endOfFileReached () ;
+}
+return rePos ;
+}
+}

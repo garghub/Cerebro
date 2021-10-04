@@ -1,0 +1,5 @@
+@Override
+public int read () {
+position = ( position + 1 ) % repeatedContent . length ;
+return repeatedContent [ position ] & 0xff ;
+}

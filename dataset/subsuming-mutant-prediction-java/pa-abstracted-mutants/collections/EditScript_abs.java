@@ -1,0 +1,23 @@
+public void append ( final KeepCommand < T > command ) {
+commands . add ( command ) ;
+++ lcsLength ;
+}
+public void append ( final InsertCommand < T > command ) {
+commands . add ( command ) ;
+++ modifications ;
+}
+public void append ( final DeleteCommand < T > command ) {
+commands . add ( command ) ;
+++ modifications ;
+}
+public void visit ( final CommandVisitor < T > visitor ) {
+for ( final EditCommand < T > command : commands ) {
+command . accept ( visitor ) ;
+}
+}
+public int getLCSLength () {
+return lcsLength ;
+}
+public int getModifications () {
+return modifications ;
+}

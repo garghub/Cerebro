@@ -1,0 +1,7 @@
+@Override
+public int compare ( final File file1 , final File file2 ) {
+return getType ( file1 ) - getType ( file2 ) ;
+}
+private int getType ( final File file ) {
+return file . isDirectory () ? TYPE_DIRECTORY : TYPE_FILE ;
+}

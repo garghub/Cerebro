@@ -1,0 +1,4 @@
+@Override
+public V setValue ( final V value ) {
+throw new UnsupportedOperationException ( lr_1 ) ;
+}

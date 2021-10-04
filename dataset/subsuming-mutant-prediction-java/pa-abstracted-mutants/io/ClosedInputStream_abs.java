@@ -1,0 +1,4 @@
+@Override
+public int read () {
+return EOF ;
+}

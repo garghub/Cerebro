@@ -1,0 +1,3 @@
+static long getSignature ( HashFunction hashFunction ) {
+return hashFunction . apply ( HashFunctionIdentity . prepareSignatureBuffer ( hashFunction ) , 0 ) ;
+}

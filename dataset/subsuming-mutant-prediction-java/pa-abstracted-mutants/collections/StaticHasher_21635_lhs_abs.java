@@ -1,0 +1,22 @@
+@Override
+public OfInt getBits ( final Shape shape ) {
+if ( ! this . shape . equals ( shape ) ) {
+throw new IllegalArgumentException (
+String . format ( lr_1 , shape , this . shape ) ) ; MST[ConstructorCallMutator]MSP[]
+}
+return Arrays . stream ( values ) . iterator () ;
+}
+@Override
+public HashFunctionIdentity getHashFunctionIdentity () {
+return shape . getHashFunctionIdentity () ;
+}
+public Shape getShape () {
+return shape ;
+}
+@Override
+public boolean isEmpty () {
+return values . length == 0 ;
+}
+public int size () {
+return values . length ;
+}

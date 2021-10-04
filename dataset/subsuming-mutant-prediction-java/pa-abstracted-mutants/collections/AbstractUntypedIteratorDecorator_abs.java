@@ -1,0 +1,11 @@
+protected Iterator < I > getIterator () {
+return iterator ;
+}
+@Override
+public boolean hasNext () {
+return iterator . hasNext () ;
+}
+@Override
+public void remove () {
+iterator . remove () ;
+}

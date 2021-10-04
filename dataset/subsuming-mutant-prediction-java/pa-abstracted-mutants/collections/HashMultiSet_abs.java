@@ -1,0 +1,9 @@
+private void writeObject ( final ObjectOutputStream out ) throws IOException {
+out . defaultWriteObject () ;
+super . doWriteObject ( out ) ;
+}
+private void readObject ( final ObjectInputStream in ) throws IOException , ClassNotFoundException {
+in . defaultReadObject () ;
+setMap ( new HashMap < E , MutableInteger > () ) ;
+super . doReadObject ( in ) ;
+}

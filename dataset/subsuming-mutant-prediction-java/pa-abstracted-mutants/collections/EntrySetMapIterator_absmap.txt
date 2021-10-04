@@ -1,0 +1,8 @@
+"Iterator getKey() can only be called after next() and before remove()"	,	lr_2
+"Iterator getValue() can only be called after next() and before remove()"	,	lr_3
+"MapIterator[]"	,	lr_8
+"MapIterator["	,	lr_5
+"="	,	lr_6
+"]"	,	lr_7
+"Iterator setValue() can only be called after next() and before remove()"	,	lr_4
+"Iterator remove() can only be called once after next()"	,	lr_1

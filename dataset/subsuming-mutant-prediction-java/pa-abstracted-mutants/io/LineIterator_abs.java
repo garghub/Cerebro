@@ -1,0 +1,64 @@
+@Override
+public boolean hasNext () {
+if ( cachedLine != null ) {
+return true ;
+} else if ( finished ) {
+return false ;
+} else {
+try {
+while ( true ) {
+final String line = bufferedReader . readLine () ;
+if ( line == null ) {
+finished = true ;
+return false ;
+} else if ( isValidLine ( line ) ) {
+cachedLine = line ;
+return true ;
+}
+}
+} catch( final IOException ioe ) {
+try {
+close () ;
+} catch ( final IOException e ) {
+ioe . addSuppressed ( e ) ;
+}
+throw new IllegalStateException ( ioe ) ;
+}
+}
+}
+protected boolean isValidLine ( final String line ) {
+return true ;
+}
+@Override
+public String next () {
+return nextLine () ;
+}
+public String nextLine () {
+if ( ! hasNext () ) {
+throw new NoSuchElementException ( lr_1 ) ;
+}
+final String currentLine = cachedLine ;
+cachedLine = null ;
+return currentLine ;
+}
+@Override
+public void close () throws IOException {
+finished = true ;
+cachedLine = null ;
+if ( this . bufferedReader != null ) {
+this . bufferedReader . close () ;
+}
+}
+@Override
+public void remove () {
+throw new UnsupportedOperationException ( lr_2 ) ;
+}
+@Deprecated
+public static void closeQuietly ( final LineIterator iterator ) {
+try {
+if ( iterator != null ) {
+iterator . close () ;
+}
+} catch( final IOException e ) {
+}
+}

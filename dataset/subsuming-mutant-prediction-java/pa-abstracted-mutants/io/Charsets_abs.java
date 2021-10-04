@@ -1,0 +1,16 @@
+public static SortedMap < String , Charset > requiredCharsets () {
+final TreeMap < String , Charset > m = new TreeMap <> ( String . CASE_INSENSITIVE_ORDER ) ;
+m . put ( StandardCharsets . ISO_8859_1 . name () , StandardCharsets . ISO_8859_1 ) ;
+m . put ( StandardCharsets . US_ASCII . name () , StandardCharsets . US_ASCII ) ;
+m . put ( StandardCharsets . UTF_16 . name () , StandardCharsets . UTF_16 ) ;
+m . put ( StandardCharsets . UTF_16BE . name () , StandardCharsets . UTF_16BE ) ;
+m . put ( StandardCharsets . UTF_16LE . name () , StandardCharsets . UTF_16LE ) ;
+m . put ( StandardCharsets . UTF_8 . name () , StandardCharsets . UTF_8 ) ;
+return Collections . unmodifiableSortedMap ( m ) ;
+}
+public static Charset toCharset ( final Charset charset ) {
+return charset == null ? Charset . defaultCharset () : charset ;
+}
+public static Charset toCharset ( final String charset ) {
+return charset == null ? Charset . defaultCharset () : Charset . forName ( charset ) ;
+}

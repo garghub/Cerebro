@@ -1,0 +1,10 @@
+@Override
+public void execute ( final E input ) {
+try {
+executeAndThrow ( input ) ;
+} catch ( final RuntimeException ex ) {
+throw ex ;
+} catch ( final Throwable t ) {
+throw new FunctorException ( t ) ;
+}
+}

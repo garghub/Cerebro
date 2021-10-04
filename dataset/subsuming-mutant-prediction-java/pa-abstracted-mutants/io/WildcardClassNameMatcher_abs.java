@@ -1,0 +1,4 @@
+@Override
+public boolean matches ( final String className ) {
+return FilenameUtils . wildcardMatch ( className , pattern ) ;
+}

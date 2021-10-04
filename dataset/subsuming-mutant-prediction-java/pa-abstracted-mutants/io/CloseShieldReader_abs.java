@@ -1,0 +1,4 @@
+@Override
+public void close () {
+in = ClosedReader . CLOSED_READER ;
+}

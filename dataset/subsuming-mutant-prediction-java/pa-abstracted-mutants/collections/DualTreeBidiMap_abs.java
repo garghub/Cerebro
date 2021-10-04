@@ -1,0 +1,195 @@
+@Override
+protected DualTreeBidiMap < V , K > createBidiMap ( final Map < V , K > normalMap , final Map < K , V > reverseMap ,
+final BidiMap < K , V > inverseMap ) {
+return new DualTreeBidiMap <> ( normalMap , reverseMap , inverseMap ) ;
+}
+@Override
+public Comparator < ? super K > comparator () {
+return ( ( SortedMap < K , V > ) normalMap ) . comparator () ;
+}
+@Override
+public Comparator < ? super V > valueComparator () {
+return ( ( SortedMap < V , K > ) reverseMap ) . comparator () ;
+}
+@Override
+public K firstKey () {
+return ( ( SortedMap < K , V > ) normalMap ) . firstKey () ;
+}
+@Override
+public K lastKey () {
+return ( ( SortedMap < K , V > ) normalMap ) . lastKey () ;
+}
+@Override
+public K nextKey ( final K key ) {
+if ( isEmpty () ) {
+return null ;
+}
+if ( normalMap instanceof OrderedMap ) {
+return ( ( OrderedMap < K , ? > ) normalMap ) . nextKey ( key ) ;
+}
+final SortedMap < K , V > sm = ( SortedMap < K , V > ) normalMap ;
+final Iterator < K > it = sm . tailMap ( key ) . keySet () . iterator () ;
+it . next () ;
+if ( it . hasNext () ) {
+return it . next () ;
+}
+return null ;
+}
+@Override
+public K previousKey ( final K key ) {
+if ( isEmpty () ) {
+return null ;
+}
+if ( normalMap instanceof OrderedMap ) {
+return ( ( OrderedMap < K , V > ) normalMap ) . previousKey ( key ) ;
+}
+final SortedMap < K , V > sm = ( SortedMap < K , V > ) normalMap ;
+final SortedMap < K , V > hm = sm . headMap ( key ) ;
+if ( hm . isEmpty () ) {
+return null ;
+}
+return hm . lastKey () ;
+}
+@Override
+public OrderedMapIterator < K , V > mapIterator () {
+return new BidiOrderedMapIterator <> ( this ) ;
+}
+public SortedBidiMap < V , K > inverseSortedBidiMap () {
+return inverseBidiMap () ;
+}
+public OrderedBidiMap < V , K > inverseOrderedBidiMap () {
+return inverseBidiMap () ;
+}
+@Override
+public SortedMap < K , V > headMap ( final K toKey ) {
+final SortedMap < K , V > sub = ( ( SortedMap < K , V > ) normalMap ) . headMap ( toKey ) ;
+return new ViewMap <> ( this , sub ) ;
+}
+@Override
+public SortedMap < K , V > tailMap ( final K fromKey ) {
+final SortedMap < K , V > sub = ( ( SortedMap < K , V > ) normalMap ) . tailMap ( fromKey ) ;
+return new ViewMap <> ( this , sub ) ;
+}
+@Override
+public SortedMap < K , V > subMap ( final K fromKey , final K toKey ) {
+final SortedMap < K , V > sub = ( ( SortedMap < K , V > ) normalMap ) . subMap ( fromKey , toKey ) ;
+return new ViewMap <> ( this , sub ) ;
+}
+@Override
+public SortedBidiMap < V , K > inverseBidiMap () {
+return ( SortedBidiMap < V , K > ) super . inverseBidiMap () ;
+}
+@Override
+public boolean containsValue ( final Object value ) {
+return decorated () . normalMap . containsValue ( value ) ;
+}
+@Override
+public void clear () {
+for ( final Iterator < K > it = keySet () . iterator () ; it . hasNext () ; ) {
+it . next () ;
+it . remove () ;
+}
+}
+@Override
+public SortedMap < K , V > headMap ( final K toKey ) {
+return new ViewMap <> ( decorated () , super . headMap ( toKey ) ) ;
+}
+@Override
+public SortedMap < K , V > tailMap ( final K fromKey ) {
+return new ViewMap <> ( decorated () , super . tailMap ( fromKey ) ) ;
+}
+@Override
+public SortedMap < K , V > subMap ( final K fromKey , final K toKey ) {
+return new ViewMap <> ( decorated () , super . subMap ( fromKey , toKey ) ) ;
+}
+@Override
+protected DualTreeBidiMap < K , V > decorated () {
+return ( DualTreeBidiMap < K , V > ) super . decorated () ;
+}
+@Override
+public K previousKey ( final K key ) {
+return decorated () . previousKey ( key ) ;
+}
+@Override
+public K nextKey ( final K key ) {
+return decorated () . nextKey ( key ) ;
+}
+@Override
+public boolean hasNext () {
+return iterator . hasNext () ;
+}
+@Override
+public K next () {
+last = iterator . next () ;
+return last . getKey () ;
+}
+@Override
+public boolean hasPrevious () {
+return iterator . hasPrevious () ;
+}
+@Override
+public K previous () {
+last = iterator . previous () ;
+return last . getKey () ;
+}
+@Override
+public void remove () {
+iterator . remove () ;
+parent . remove ( last . getKey () ) ;
+last = null ;
+}
+@Override
+public K getKey () {
+if ( last == null ) {
+throw new IllegalStateException (
+lr_1 ) ;
+}
+return last . getKey () ;
+}
+@Override
+public V getValue () {
+if ( last == null ) {
+throw new IllegalStateException (
+lr_2 ) ;
+}
+return last . getValue () ;
+}
+@Override
+public V setValue ( final V value ) {
+if ( last == null ) {
+throw new IllegalStateException (
+lr_3 ) ;
+}
+if ( parent . reverseMap . containsKey ( value ) &&
+parent . reverseMap . get ( value ) != last . getKey () ) {
+throw new IllegalArgumentException (
+lr_4 ) ;
+}
+final V oldValue = parent . put ( last . getKey () , value ) ;
+last . setValue ( value ) ;
+return oldValue ;
+}
+@Override
+public void reset () {
+iterator = new ArrayList <> ( parent . entrySet () ) . listIterator () ;
+last = null ;
+}
+@Override
+public String toString () {
+if ( last != null ) {
+return lr_5 + getKey () + lr_6 + getValue () + lr_7 ;
+}
+return lr_8 ;
+}
+private void writeObject ( final ObjectOutputStream out ) throws IOException {
+out . defaultWriteObject () ;
+out . writeObject ( normalMap ) ;
+}
+private void readObject ( final ObjectInputStream in ) throws IOException , ClassNotFoundException {
+in . defaultReadObject () ;
+normalMap = new TreeMap <> ( comparator ) ;
+reverseMap = new TreeMap <> ( valueComparator ) ;
+@SuppressWarnings ( lr_9 )
+final Map < K , V > map = ( Map < K , V > ) in . readObject () ;
+putAll ( map ) ;
+}

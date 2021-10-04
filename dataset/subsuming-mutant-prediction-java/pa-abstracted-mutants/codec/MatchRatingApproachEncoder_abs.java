@@ -1,0 +1,157 @@
+String cleanName ( final String name ) {
+String upperName = name . toUpperCase ( Locale . ENGLISH ) ;
+final String [] charsToTrim = { lr_1 , lr_2 , lr_3 , lr_4 , lr_5 } ;
+for ( final String str : charsToTrim ) {
+upperName = upperName . replaceAll ( str , EMPTY ) ;
+}
+upperName = removeAccents ( upperName ) ;
+upperName = upperName . replaceAll ( lr_6 , EMPTY ) ;
+return upperName ;
+}
+@Override
+public final Object encode ( final Object pObject ) throws EncoderException {
+if ( ! ( pObject instanceof String ) ) {
+throw new EncoderException (
+lr_7 ) ;
+}
+return encode ( ( String ) pObject ) ;
+}
+@Override
+public final String encode ( String name ) {
+if ( name == null || EMPTY . equalsIgnoreCase ( name ) || SPACE . equalsIgnoreCase ( name ) || name . length () == 1 ) {
+return EMPTY ;
+}
+name = cleanName ( name ) ;
+name = removeVowels ( name ) ;
+name = removeDoubleConsonants ( name ) ;
+name = getFirst3Last3 ( name ) ;
+return name ;
+}
+String getFirst3Last3 ( final String name ) {
+final int nameLength = name . length () ;
+if ( nameLength > SIX ) {
+final String firstThree = name . substring ( 0 , THREE ) ;
+final String lastThree = name . substring ( nameLength - THREE , nameLength ) ;
+return firstThree + lastThree ;
+}
+return name ;
+}
+int getMinRating ( final int sumLength ) {
+int minRating = 0 ;
+if ( sumLength <= FOUR ) {
+minRating = FIVE ;
+} else if ( sumLength <= SEVEN ) {
+minRating = FOUR ;
+} else if ( sumLength <= ELEVEN ) {
+minRating = THREE ;
+} else if ( sumLength == TWELVE ) {
+minRating = TWO ;
+} else {
+minRating = ONE ;
+}
+return minRating ;
+}
+public boolean isEncodeEquals ( String name1 , String name2 ) {
+if ( name1 == null || EMPTY . equalsIgnoreCase ( name1 ) || SPACE . equalsIgnoreCase ( name1 ) ) {
+return false ;
+} else if ( name2 == null || EMPTY . equalsIgnoreCase ( name2 ) || SPACE . equalsIgnoreCase ( name2 ) ) {
+return false ;
+} else if ( name1 . length () == 1 || name2 . length () == 1 ) {
+return false ;
+} else if ( name1 . equalsIgnoreCase ( name2 ) ) {
+return true ;
+}
+name1 = cleanName ( name1 ) ;
+name2 = cleanName ( name2 ) ;
+name1 = removeVowels ( name1 ) ;
+name2 = removeVowels ( name2 ) ;
+name1 = removeDoubleConsonants ( name1 ) ;
+name2 = removeDoubleConsonants ( name2 ) ;
+name1 = getFirst3Last3 ( name1 ) ;
+name2 = getFirst3Last3 ( name2 ) ;
+if ( Math . abs ( name1 . length () - name2 . length () ) >= THREE ) {
+return false ;
+}
+final int sumLength = Math . abs ( name1 . length () + name2 . length () ) ;
+int minRating = 0 ;
+minRating = getMinRating ( sumLength ) ;
+final int count = leftToRightThenRightToLeftProcessing ( name1 , name2 ) ;
+return count >= minRating ;
+}
+boolean isVowel ( final String letter ) {
+return letter . equalsIgnoreCase ( lr_8 ) || letter . equalsIgnoreCase ( lr_9 ) || letter . equalsIgnoreCase ( lr_10 ) ||
+letter . equalsIgnoreCase ( lr_11 ) || letter . equalsIgnoreCase ( lr_12 ) ;
+}
+int leftToRightThenRightToLeftProcessing ( final String name1 , final String name2 ) {
+final char [] name1Char = name1 . toCharArray () ;
+final char [] name2Char = name2 . toCharArray () ;
+final int name1Size = name1 . length () - 1 ;
+final int name2Size = name2 . length () - 1 ;
+String name1LtRStart = EMPTY ;
+String name1LtREnd = EMPTY ;
+String name2RtLStart = EMPTY ;
+String name2RtLEnd = EMPTY ;
+for ( int i = 0 ; i < name1Char . length ; i ++ ) {
+if ( i > name2Size ) {
+break;
+}
+name1LtRStart = name1 . substring ( i , i + 1 ) ;
+name1LtREnd = name1 . substring ( name1Size - i , name1Size - i + 1 ) ;
+name2RtLStart = name2 . substring ( i , i + 1 ) ;
+name2RtLEnd = name2 . substring ( name2Size - i , name2Size - i + 1 ) ;
+if ( name1LtRStart . equals ( name2RtLStart ) ) {
+name1Char [ i ] = ' ' ;
+name2Char [ i ] = ' ' ;
+}
+if ( name1LtREnd . equals ( name2RtLEnd ) ) {
+name1Char [ name1Size - i ] = ' ' ;
+name2Char [ name2Size - i ] = ' ' ;
+}
+}
+final String strA = new String ( name1Char ) . replaceAll ( lr_6 , EMPTY ) ;
+final String strB = new String ( name2Char ) . replaceAll ( lr_6 , EMPTY ) ;
+if ( strA . length () > strB . length () ) {
+return Math . abs ( SIX - strA . length () ) ;
+}
+return Math . abs ( SIX - strB . length () ) ;
+}
+String removeAccents ( final String accentedWord ) {
+if ( accentedWord == null ) {
+return null ;
+}
+final StringBuilder sb = new StringBuilder () ;
+final int n = accentedWord . length () ;
+for ( int i = 0 ; i < n ; i ++ ) {
+final char c = accentedWord . charAt ( i ) ;
+final int pos = UNICODE . indexOf ( c ) ;
+if ( pos > - 1 ) {
+sb . append ( PLAIN_ASCII . charAt ( pos ) ) ;
+} else {
+sb . append ( c ) ;
+}
+}
+return sb . toString () ;
+}
+String removeDoubleConsonants ( final String name ) {
+String replacedName = name . toUpperCase ( Locale . ENGLISH ) ;
+for ( final String dc : DOUBLE_CONSONANT ) {
+if ( replacedName . contains ( dc ) ) {
+final String singleLetter = dc . substring ( 0 , 1 ) ;
+replacedName = replacedName . replace ( dc , singleLetter ) ;
+}
+}
+return replacedName ;
+}
+String removeVowels ( String name ) {
+final String firstLetter = name . substring ( 0 , 1 ) ;
+name = name . replaceAll ( lr_9 , EMPTY ) ;
+name = name . replaceAll ( lr_8 , EMPTY ) ;
+name = name . replaceAll ( lr_11 , EMPTY ) ;
+name = name . replaceAll ( lr_10 , EMPTY ) ;
+name = name . replaceAll ( lr_12 , EMPTY ) ;
+name = name . replaceAll ( lr_13 , SPACE ) ;
+if ( isVowel ( firstLetter ) ) {
+return firstLetter + name ;
+}
+return name ;
+}

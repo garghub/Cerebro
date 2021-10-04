@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<unit xmlns="http://www.srcML.org/srcML/src" revision="1.0.0" language="Java" filename="D:\ag\github\file2mappedabsseqs\dataset\subsuming-mutant-prediction-java\pa-abstracted-mutants\cli\Option_5367_rhs_abs_temp.java">
+<function> <type> <specifier>public</specifier> <name>int</name> </type> <name>getId</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <call> <name>getKey</name> <argument_list>()</argument_list> </call> <operator>.</operator> <call> <name>charAt</name> <argument_list>(<argument> <expr> <literal type="number">0</literal> </expr> </argument>)</argument_list> </call> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <name>String</name> </type> <name>getKey</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        
+        <return>return <expr> <ternary> <condition> <expr> <operator>(</operator> <name>opt</name> <operator>==</operator> <literal type="null">null</literal> <operator>)</operator> </expr> ?</condition> <then> <expr> <name>longOpt</name> </expr> </then> <else>: <expr> <name>opt</name> </expr> </else> </ternary> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>String</name> </type> <name>getOpt</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <name>opt</name> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>Object</name> </type> <name>getType</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <name>type</name> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <annotation>@<name>Deprecated</name> </annotation>
+    <type> <specifier>public</specifier> <name>void</name> </type> <name>setType</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>Object</name> </type> <name>type</name> </decl> </parameter>)</parameter_list>
+    <block>{<block_content>
+        <expr_stmt> <expr> <call> <name>setType</name> <argument_list>(<argument> <expr> <operator>(</operator> <name> <name>Class</name> <argument_list type="generic">&lt;<argument> <name>?</name> </argument>&gt;</argument_list> </name> <operator>)</operator> <name>type</name> </expr> </argument>)</argument_list> </call> </expr>;</expr_stmt>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>void</name> </type> <name>setType</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name> <name>Class</name> <argument_list type="generic">&lt;<argument> <name>?</name> </argument>&gt;</argument_list> </name> </type> <name>type</name> </decl> </parameter>)</parameter_list>
+    <block>{<block_content>
+        <expr_stmt> <expr> <name> <name>this</name> <operator>.</operator> <name>type</name> </name> <operator>=</operator> <name>type</name> </expr>;</expr_stmt>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>String</name> </type> <name>getLongOpt</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <name>longOpt</name> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>void</name> </type> <name>setLongOpt</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>String</name> </type> <name>longOpt</name> </decl> </parameter>)</parameter_list>
+    <block>{<block_content>
+        <expr_stmt> <expr> <name> <name>this</name> <operator>.</operator> <name>longOpt</name> </name> <operator>=</operator> <name>longOpt</name> </expr>;</expr_stmt>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>void</name> </type> <name>setOptionalArg</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>boolean</name> </type> <name>optionalArg</name> </decl> </parameter>)</parameter_list>
+    <block>{<block_content>
+        <expr_stmt> <expr> <name> <name>this</name> <operator>.</operator> <name>optionalArg</name> </name> <operator>=</operator> <name>optionalArg</name> </expr>;</expr_stmt>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>boolean</name> </type> <name>hasOptionalArg</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <name>optionalArg</name> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>boolean</name> </type> <name>hasLongOpt</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <name>longOpt</name> <operator>!=</operator> <literal type="null">null</literal> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>boolean</name> </type> <name>hasArg</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <name>numberOfArgs</name> <operator>&gt;</operator> <literal type="number">0</literal> <operator>||</operator> <name>numberOfArgs</name> <operator>==</operator> <name>UNLIMITED_VALUES</name> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>String</name> </type> <name>getDescription</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <name>description</name> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>void</name> </type> <name>setDescription</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>String</name> </type> <name>description</name> </decl> </parameter>)</parameter_list>
+    <block>{<block_content>
+        <expr_stmt> <expr> <name> <name>this</name> <operator>.</operator> <name>description</name> </name> <operator>=</operator> <name>description</name> </expr>;</expr_stmt>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>boolean</name> </type> <name>isRequired</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <name>required</name> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>void</name> </type> <name>setRequired</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>boolean</name> </type> <name>required</name> </decl> </parameter>)</parameter_list>
+    <block>{<block_content>
+        <expr_stmt> <expr> <name> <name>this</name> <operator>.</operator> <name>required</name> </name> <operator>=</operator> <name>required</name> </expr>;</expr_stmt>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>void</name> </type> <name>setArgName</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>String</name> </type> <name>argName</name> </decl> </parameter>)</parameter_list>
+    <block>{<block_content>
+        <expr_stmt> <expr> <name> <name>this</name> <operator>.</operator> <name>argName</name> </name> <operator>=</operator> <name>argName</name> </expr>;</expr_stmt>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>String</name> </type> <name>getArgName</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <name>argName</name> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>boolean</name> </type> <name>hasArgName</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <name>argName</name> <operator>!=</operator> <literal type="null">null</literal> <operator>&amp;&amp;</operator> <call> <name> <name>argName</name> <operator>.</operator> <name>length</name> </name> <argument_list>()</argument_list> </call> <operator>&gt;</operator> <literal type="number">0</literal> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>boolean</name> </type> <name>hasArgs</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <name>numberOfArgs</name> <operator>&gt;</operator> <literal type="number">1</literal> <operator>||</operator> <name>numberOfArgs</name> <operator>==</operator> <name>UNLIMITED_VALUES</name> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>void</name> </type> <name>setArgs</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>int</name> </type> <name>num</name> </decl> </parameter>)</parameter_list>
+    <block>{<block_content>
+        <expr_stmt> <expr> <name> <name>this</name> <operator>.</operator> <name>numberOfArgs</name> </name> <operator>=</operator> <name>num</name> </expr>;</expr_stmt>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>void</name> </type> <name>setValueSeparator</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>char</name> </type> <name>sep</name> </decl> </parameter>)</parameter_list>
+    <block>{<block_content>
+        <expr_stmt> <expr> <name> <name>this</name> <operator>.</operator> <name>valuesep</name> </name> <operator>=</operator> <name>sep</name> </expr>;</expr_stmt>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>char</name> </type> <name>getValueSeparator</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <name>valuesep</name> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>boolean</name> </type> <name>hasValueSeparator</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <name>valuesep</name> <operator>&gt;</operator> <literal type="number">0</literal> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>int</name> </type> <name>getArgs</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <name>numberOfArgs</name> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <name>void</name> </type> <name>addValueForProcessing</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>String</name> </type> <name>value</name> </decl> </parameter>)</parameter_list>
+    <block>{<block_content>
+        <if_stmt> <if>if <condition>(<expr> <name>numberOfArgs</name> <operator>==</operator> <name>UNINITIALIZED</name> </expr>)</condition>
+        <block>{<block_content>
+            <throw>throw <expr> <operator>new</operator> <call> <name>RuntimeException</name> <argument_list>(<argument> <expr> <literal type="string">lr_1</literal> </expr> </argument>)</argument_list> </call> </expr>;</throw>
+        </block_content>}</block> </if> </if_stmt>
+        <expr_stmt> <expr> <call> <name>processValue</name> <argument_list>(<argument> <expr> <name>value</name> </expr> </argument>)</argument_list> </call> </expr>;</expr_stmt>
+    </block_content>}</block> </function>
+<function> <type> <specifier>private</specifier> <name>void</name> </type> <name>processValue</name> <parameter_list>(<parameter> <decl> <type> <name>String</name> </type> <name>value</name> </decl> </parameter>)</parameter_list>
+    <block>{<block_content>
+        
+        <if_stmt> <if>if <condition>(<expr> <call> <name>hasValueSeparator</name> <argument_list>()</argument_list> </call> </expr>)</condition>
+        <block>{<block_content>
+            
+            <decl_stmt> <decl> <type> <specifier>final</specifier> <name>char</name> </type> <name>sep</name> <init>= <expr> <call> <name>getValueSeparator</name> <argument_list>()</argument_list> </call> </expr> </init> </decl>;</decl_stmt>
+
+            
+            <decl_stmt> <decl> <type> <name>int</name> </type> <name>index</name> <init>= <expr> <call> <name> <name>value</name> <operator>.</operator> <name>indexOf</name> </name> <argument_list>(<argument> <expr> <name>sep</name> </expr> </argument>)</argument_list> </call> </expr> </init> </decl>;</decl_stmt>
+
+            
+            <while>while <condition>(<expr> <name>index</name> <operator>!=</operator> <operator>-</operator> <literal type="number">1</literal> </expr>)</condition>
+            <block>{<block_content>
+                
+                <if_stmt> <if>if <condition>(<expr> <call> <name> <name>values</name> <operator>.</operator> <name>size</name> </name> <argument_list>()</argument_list> </call> <operator>==</operator> <name>numberOfArgs</name> <operator>-</operator> <literal type="number">1</literal> </expr>)</condition>
+                <block>{<block_content>
+                    <break>break;</break>
+                </block_content>}</block> </if> </if_stmt>
+
+                
+                <expr_stmt> <expr> <call> <name>add</name> <argument_list>(<argument> <expr> <call> <name> <name>value</name> <operator>.</operator> <name>substring</name> </name> <argument_list>(<argument> <expr> <literal type="number">0</literal> </expr> </argument>, <argument> <expr> <name>index</name> </expr> </argument>)</argument_list> </call> </expr> </argument>)</argument_list> </call> </expr>;</expr_stmt>
+
+                
+                <expr_stmt> <expr> <name>value</name> <operator>=</operator> <call> <name> <name>value</name> <operator>.</operator> <name>substring</name> </name> <argument_list>(<argument> <expr> <name>index</name> <operator>+</operator> <literal type="number">1</literal> </expr> </argument>)</argument_list> </call> </expr>;</expr_stmt>
+
+                
+                <expr_stmt> <expr> <name>index</name> <operator>=</operator> <call> <name> <name>value</name> <operator>.</operator> <name>indexOf</name> </name> <argument_list>(<argument> <expr> <name>sep</name> </expr> </argument>)</argument_list> </call> </expr>;</expr_stmt>
+            </block_content>}</block> </while>
+        </block_content>}</block> </if> </if_stmt>
+
+        
+        <expr_stmt> <expr> <call> <name>add</name> <argument_list>(<argument> <expr> <name>value</name> </expr> </argument>)</argument_list> </call> </expr>;</expr_stmt>
+    </block_content>}</block> </function>
+<function> <type> <specifier>private</specifier> <name>void</name> </type> <name>add</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>String</name> </type> <name>value</name> </decl> </parameter>)</parameter_list>
+    <block>{<block_content>
+        <if_stmt> <if>if <condition>(<expr> <operator>!</operator> <call> <name>acceptsArg</name> <argument_list>()</argument_list> </call> </expr>)</condition>
+        <block>{<block_content>
+            <throw>throw <expr> <operator>new</operator> <call> <name>RuntimeException</name> <argument_list>(<argument> <expr> <literal type="string">lr_2</literal> </expr> </argument>)</argument_list> </call> </expr>;</throw>
+        </block_content>}</block> </if> </if_stmt>
+
+        
+        <expr_stmt> <expr> <call> <name> <name>values</name> <operator>.</operator> <name>add</name> </name> <argument_list>(<argument> <expr> <name>value</name> </expr> </argument>)</argument_list> </call> </expr>;</expr_stmt>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>String</name> </type> <name>getValue</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <ternary> <condition> <expr> <call> <name>hasNoValues</name> <argument_list>()</argument_list> </call> </expr> ?</condition> <then> <expr> <literal type="null">null</literal> </expr> </then> <else>: <expr> <call> <name> <name>values</name> <operator>.</operator> <name>get</name> </name> <argument_list>(<argument> <expr> <literal type="number">0</literal> </expr> </argument>)</argument_list> </call> </expr> </else> </ternary> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>String</name> </type> <name>getValue</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>int</name> </type> <name>index</name> </decl> </parameter>)</parameter_list> <throws>throws <argument> <expr> <name>IndexOutOfBoundsException</name> </expr> </argument> </throws>
+    <block>{<block_content>
+        <return>return <expr> <ternary> <condition> <expr> <call> <name>hasNoValues</name> <argument_list>()</argument_list> </call> </expr> ?</condition> <then> <expr> <literal type="null">null</literal> </expr> </then> <else>: <expr> <call> <name> <name>values</name> <operator>.</operator> <name>get</name> </name> <argument_list>(<argument> <expr> <name>index</name> </expr> </argument>)</argument_list> </call> </expr> </else> </ternary> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>String</name> </type> <name>getValue</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>String</name> </type> <name>defaultValue</name> </decl> </parameter>)</parameter_list>
+    <block>{<block_content>
+        <decl_stmt> <decl> <type> <specifier>final</specifier> <name>String</name> </type> <name>value</name> <init>= <expr> <call> <name>getValue</name> <argument_list>()</argument_list> </call> </expr> </init> </decl>;</decl_stmt>
+
+        <return>return <expr> <ternary> <condition> <expr> <operator>(</operator> <name>value</name> <operator>!=</operator> <literal type="null">null</literal> <operator>)</operator> </expr> ?</condition> <then> <expr> <name>value</name> </expr> </then> <else>: <expr> <name>defaultValue</name> </expr> </else> </ternary> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name> <name>String</name> <index>[]</index> </name> </type> <name>getValues</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <ternary> <condition> <expr> <call> <name>hasNoValues</name> <argument_list>()</argument_list> </call> </expr> ?</condition> <then> <expr> <literal type="null">null</literal> </expr> </then> <else>: <expr> <call> <name> <name>values</name> <operator>.</operator> <name>toArray</name> </name> <argument_list>(<argument> <expr> <operator>new</operator> <name> <name>String</name> <index>[<expr> <call> <name> <name>values</name> <operator>.</operator> <name>size</name> </name> <argument_list>()</argument_list> </call> </expr>]</index> </name> </expr> </argument>)</argument_list> </call> </expr> </else> </ternary> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name> <name>List</name> <argument_list type="generic">&lt;<argument> <name>String</name> </argument>&gt;</argument_list> </name> </type> <name>getValuesList</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <name>values</name> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <annotation>@<name>Override</name> </annotation>
+    <type> <specifier>public</specifier> <name>String</name> </type> <name>toString</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <decl_stmt> <decl> <type> <specifier>final</specifier> <name>StringBuilder</name> </type> <name>buf</name> <init>= <expr> <operator>new</operator> <call> <name>StringBuilder</name> <argument_list>()</argument_list> </call> <operator>.</operator> <call> <name>append</name> <argument_list>(<argument> <expr> <literal type="string">lr_3</literal> </expr> </argument>)</argument_list> </call> </expr> </init> </decl>;</decl_stmt>
+
+        <expr_stmt> <expr> <call> <name> <name>buf</name> <operator>.</operator> <name>append</name> </name> <argument_list>(<argument> <expr> <name>opt</name> </expr> </argument>)</argument_list> </call> </expr>;</expr_stmt>
+
+        <if_stmt> <if>if <condition>(<expr> <name>longOpt</name> <operator>!=</operator> <literal type="null">null</literal> </expr>)</condition>
+        <block>{<block_content>
+            <expr_stmt> <expr> <call> <name> <name>buf</name> <operator>.</operator> <name>append</name> </name> <argument_list>(<argument> <expr> <literal type="string">lr_4</literal> </expr> </argument>)</argument_list> </call> <operator>.</operator> <call> <name>append</name> <argument_list>(<argument> <expr> <name>longOpt</name> </expr> </argument>)</argument_list> </call> </expr>;</expr_stmt>
+        </block_content>}</block> </if> </if_stmt>
+
+        <expr_stmt> <expr> <call> <name> <name>buf</name> <operator>.</operator> <name>append</name> </name> <argument_list>(<argument> <expr> <literal type="string">lr_4</literal> </expr> </argument>)</argument_list> </call> </expr>;</expr_stmt>
+
+        <if_stmt> <if>if <condition>(<expr> <call> <name>hasArgs</name> <argument_list>()</argument_list> </call> </expr>)</condition>
+        <block>{<block_content>
+            <expr_stmt> <expr> <call> <name> <name>buf</name> <operator>.</operator> <name>append</name> </name> <argument_list>(<argument> <expr> <literal type="string">lr_5</literal> </expr> </argument>)</argument_list> </call> </expr>;</expr_stmt>
+        </block_content>}</block> </if>
+        <if type="elseif">else if <condition>(<expr> <call> <name>hasArg</name> <argument_list>()</argument_list> </call> </expr>)</condition>
+        <block>{<block_content>
+            <expr_stmt> <expr> <call> <name> <name>buf</name> <operator>.</operator> <name>append</name> </name> <argument_list>(<argument> <expr> <literal type="string">lr_6</literal> </expr> </argument>)</argument_list> </call> </expr>;</expr_stmt>
+        </block_content>}</block> </if> </if_stmt>
+
+        <expr_stmt> <expr> <call> <name> <name>buf</name> <operator>.</operator> <name>append</name> </name> <argument_list>(<argument> <expr> <literal type="string">lr_7</literal> </expr> </argument>)</argument_list> </call> <operator>.</operator> <call> <name>append</name> <argument_list>(<argument> <expr> <name>description</name> </expr> </argument>)</argument_list> </call> </expr>;</expr_stmt>
+
+        <if_stmt> <if>if <condition>(<expr> <name>type</name> <operator>!=</operator> <literal type="null">null</literal> </expr>)</condition>
+        <block>{<block_content>
+            <expr_stmt> <expr> <call> <name> <name>buf</name> <operator>.</operator> <name>append</name> </name> <argument_list>(<argument> <expr> <literal type="string">lr_7</literal> </expr> </argument>)</argument_list> </call> <operator>.</operator> <call> <name>append</name> <argument_list>(<argument> <expr> <name>type</name> </expr> </argument>)</argument_list> </call> </expr>;</expr_stmt>
+        </block_content>}</block> </if> </if_stmt>
+
+        <expr_stmt> <expr> <call> <name> <name>buf</name> <operator>.</operator> <name>append</name> </name> <argument_list>(<argument> <expr> <literal type="string">lr_8</literal> </expr> </argument>)</argument_list> </call> </expr>;</expr_stmt>
+
+        <return>return <expr> <call> <name> <name>buf</name> <operator>.</operator> <name>toString</name> </name> <argument_list>()</argument_list> </call> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <specifier>private</specifier> <name>boolean</name> </type> <name>hasNoValues</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <call> <name> <name>values</name> <operator>.</operator> <name>isEmpty</name> </name> <argument_list>()</argument_list> </call> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <annotation>@<name>Override</name> </annotation>
+    <type> <specifier>public</specifier> <name>boolean</name> </type> <name>equals</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>Object</name> </type> <name>o</name> </decl> </parameter>)</parameter_list>
+    <block>{<block_content>
+        <if_stmt> <if>if <condition>(<expr> <name>this</name> <operator>==</operator> <name>o</name> </expr>)</condition>
+        <block>{<block_content>
+            <return>return <expr> <literal type="boolean">true</literal> </expr>;</return>
+        </block_content>}</block> </if> </if_stmt>
+        <if_stmt> <if>if <condition>(<expr> <name>o</name> <operator>==</operator> <literal type="null">null</literal> <operator>||</operator> <call> <name>getClass</name> <argument_list>()</argument_list> </call> <operator>!=</operator> <call> <name> <name>o</name> <operator>.</operator> <name>getClass</name> </name> <argument_list>()</argument_list> </call> </expr>)</condition>
+        <block>{<block_content>
+            <return>return <expr> <literal type="boolean">false</literal> </expr>;</return>
+        </block_content>}</block> </if> </if_stmt>
+
+        <decl_stmt> <decl> <type> <specifier>final</specifier> <name>Option</name> </type> <name>option</name> <init>= <expr> <operator>(</operator> <name>Option</name> <operator>)</operator> <name>o</name> </expr> </init> </decl>;</decl_stmt>
+
+        <if_stmt> <if>if <condition>(<expr> <ternary> <condition> <expr> <name>opt</name> <operator>!=</operator> <literal type="null">null</literal> </expr> ?</condition> <then> <expr> <operator>!</operator> <call> <name> <name>opt</name> <operator>.</operator> <name>equals</name> </name> <argument_list>(<argument> <expr> <name> <name>option</name> <operator>.</operator> <name>opt</name> </name> </expr> </argument>)</argument_list> </call> </expr> </then> <else>: <expr> <name> <name>option</name> <operator>.</operator> <name>opt</name> </name> <operator>!=</operator> <literal type="null">null</literal> </expr> </else> </ternary> </expr>)</condition>
+        <block>{<block_content>
+            <return>return <expr> <literal type="boolean">false</literal> </expr>;</return>
+        </block_content>}</block> </if> </if_stmt>
+        <if_stmt> <if>if <condition>(<expr> <ternary> <condition> <expr> <name>longOpt</name> <operator>!=</operator> <literal type="null">null</literal> </expr> ?</condition> <then> <expr> <operator>!</operator> <call> <name> <name>longOpt</name> <operator>.</operator> <name>equals</name> </name> <argument_list>(<argument> <expr> <name> <name>option</name> <operator>.</operator> <name>longOpt</name> </name> </expr> </argument>)</argument_list> </call> </expr> </then> <else>: <expr> <name> <name>option</name> <operator>.</operator> <name>longOpt</name> </name> <operator>!=</operator> <literal type="null">null</literal> </expr> </else> </ternary> </expr>)</condition>
+        <block>{<block_content>
+            <return>return <expr> <literal type="boolean">false</literal> </expr>;</return>
+        </block_content>}</block> </if> </if_stmt>
+
+        <return>return <expr> <literal type="boolean">true</literal> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <annotation>@<name>Override</name> </annotation>
+    <type> <specifier>public</specifier> <name>int</name> </type> <name>hashCode</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <decl_stmt> <decl> <type> <name>int</name> </type> <name>result</name> </decl>;</decl_stmt>
+        <expr_stmt> <expr> <name>result</name> <operator>=</operator> <ternary> <condition> <expr> <name>opt</name> <operator>!=</operator> <literal type="null">null</literal> </expr> ?</condition> <then> <expr> <call> <name> <name>opt</name> <operator>.</operator> <name>hashCode</name> </name> <argument_list>()</argument_list> </call> </expr> </then> <else>: <expr> <literal type="number">0</literal> </expr> </else> </ternary> </expr>;</expr_stmt>
+        <expr_stmt> <expr> <name>result</name> <operator>=</operator> <literal type="number">31</literal> <operator>*</operator> <name>result</name> <operator>+</operator> <operator>(</operator> <ternary> <condition> <expr> <name>longOpt</name> <operator>!=</operator> <literal type="null">null</literal> </expr> ?</condition> <then> <expr> <call> <name> <name>longOpt</name> <operator>.</operator> <name>hashCode</name> </name> <argument_list>()</argument_list> </call> </expr> </then> <else>: <expr> <literal type="number">0</literal> </expr> </else> </ternary> <operator>)</operator> </expr>;</expr_stmt>
+        <return>return <expr> <name>result</name> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <annotation>@<name>Override</name> </annotation>
+    <type> <specifier>public</specifier> <name>Object</name> </type> <name>clone</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <try>try
+        <block>{<block_content>
+            <decl_stmt> <decl> <type> <specifier>final</specifier> <name>Option</name> </type> <name>option</name> <init>= <expr> <operator>(</operator> <name>Option</name> <operator>)</operator> <call> <name> <name>super</name> <operator>.</operator> <name>clone</name> </name> <argument_list>()</argument_list> </call> </expr> </init> </decl>;</decl_stmt>
+            <expr_stmt> <expr> <name> <name>option</name> <operator>.</operator> <name>values</name> </name> <operator>=</operator> <operator>new</operator> <call> <name> <name>ArrayList</name> <argument_list type="generic">&lt;<argument> <name>String</name> </argument>&gt;</argument_list> </name> <argument_list>(<argument> <expr> <name>values</name> </expr> </argument>)</argument_list> </call> </expr>;</expr_stmt>
+            <return>return <expr> <name>option</name> </expr>;</return>
+        </block_content>}</block>
+        <catch>catch <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>CloneNotSupportedException</name> </type> <name>cnse</name> </decl> </parameter>)</parameter_list>
+        <block>{<block_content>
+            <throw>throw <expr> <operator>new</operator> <call> <name>RuntimeException</name> <argument_list>(<argument> <expr> <literal type="string">lr_9</literal> <operator>+</operator> <call> <name> <name>cnse</name> <operator>.</operator> <name>getMessage</name> </name> <argument_list>()</argument_list> </call> </expr> </argument>)</argument_list> </call> </expr>;</throw>
+        </block_content>}</block> </catch> </try>
+    </block_content>}</block> </function>
+<function> <type> <name>void</name> </type> <name>clearValues</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <expr_stmt> <expr> <call> <name> <name>values</name> <operator>.</operator> <name>clear</name> </name> <argument_list>()</argument_list> </call> </expr>;</expr_stmt>
+    </block_content>}</block> </function>
+<function> <annotation>@<name>Deprecated</name> </annotation>
+    <type> <specifier>public</specifier> <name>boolean</name> </type> <name>addValue</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>String</name> </type> <name>value</name> </decl> </parameter>)</parameter_list>
+    <block>{<block_content>
+        <throw>throw <expr> <operator>new</operator> <call> <name>UnsupportedOperationException</name> <argument_list>(<argument> <expr> <literal type="string">lr_10</literal>
+                <operator>+</operator> <literal type="string">lr_11</literal> </expr> </argument>)</argument_list> </call> </expr>;</throw>
+    </block_content>}</block> </function>
+<function> <type> <name>boolean</name> </type> <name>acceptsArg</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <operator>(</operator> <call> <name>hasArg</name> <argument_list>()</argument_list> </call> <operator>||</operator> <call> <name>hasArgs</name> <argument_list>()</argument_list> </call> <operator>||</operator> <call> <name>hasOptionalArg</name> <argument_list>()</argument_list> </call> <operator>)</operator> <operator>&amp;&amp;</operator> <operator>(</operator> <name>numberOfArgs</name> <operator>&lt;=</operator> <literal type="number">0</literal> <operator>||</operator> <call> <name> <name>values</name> <operator>.</operator> <name>size</name> </name> <argument_list>()</argument_list> </call> <operator>&lt;</operator> <name>numberOfArgs</name> <operator>)</operator> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <name>boolean</name> </type> <name>requiresArg</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <if_stmt> <if>if <condition>(<expr> <name>optionalArg</name> </expr>)</condition>
+        <block>{<block_content>
+            <return>return <expr> <literal type="boolean">false</literal> </expr>;</return>
+        </block_content>}</block> </if> </if_stmt>
+        <if_stmt> <if>if <condition>(<expr> <name>numberOfArgs</name> <operator>==</operator> <name>UNLIMITED_VALUES</name> </expr>)</condition>
+        <block>{<block_content>
+            <return>return <expr> <call> <name> <name>values</name> <operator>.</operator> <name>isEmpty</name> </name> <argument_list>()</argument_list> </call> </expr>;</return>
+        </block_content>}</block> </if> </if_stmt>
+        <return>return <expr> <call> <name>acceptsArg</name> <argument_list>()</argument_list> </call> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <specifier>static</specifier> <name>Builder</name> </type> <name>builder</name> <parameter_list>()</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <call> <name>builder</name> <argument_list>(<argument> <expr> <literal type="null">null</literal> </expr> </argument>)</argument_list> </call> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <specifier>static</specifier> <name>Builder</name> </type> <name>builder</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>String</name> </type> <name>opt</name> </decl> </parameter>)</parameter_list>
+    <block>{<block_content>
+        <return>return <expr> <operator>new</operator> <call> <name>Builder</name> <argument_list>(<argument> <expr> <name>opt</name> </expr> </argument>)</argument_list> </call> </expr>;</return>
+    </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>Builder</name> </type> <name>argName</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>String</name> </type> <name>argName</name> </decl> </parameter>)</parameter_list>
+        <block>{<block_content>
+            <expr_stmt> <expr> <name> <name>this</name> <operator>.</operator> <name>argName</name> </name> <operator>=</operator> <name>argName</name> </expr>;</expr_stmt>
+            <return>return <expr> <name>this</name> </expr>;</return>
+        </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>Builder</name> </type> <name>desc</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>String</name> </type> <name>description</name> </decl> </parameter>)</parameter_list>
+        <block>{<block_content>
+            <expr_stmt> <expr> <name> <name>this</name> <operator>.</operator> <name>description</name> </name> <operator>=</operator> <name>description</name> </expr>;</expr_stmt>
+            <return>return <expr> <name>this</name> </expr>;</return>
+        </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>Builder</name> </type> <name>longOpt</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>String</name> </type> <name>longOpt</name> </decl> </parameter>)</parameter_list>
+        <block>{<block_content>
+            <expr_stmt> <expr> <name> <name>this</name> <operator>.</operator> <name>longOpt</name> </name> <operator>=</operator> <name>longOpt</name> </expr>;</expr_stmt>
+            <return>return <expr> <name>this</name> </expr>;</return>
+        </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>Builder</name> </type> <name>numberOfArgs</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>int</name> </type> <name>numberOfArgs</name> </decl> </parameter>)</parameter_list>
+        <block>{<block_content>
+            <expr_stmt> <expr> <name> <name>this</name> <operator>.</operator> <name>numberOfArgs</name> </name> <operator>=</operator> <name>numberOfArgs</name> </expr>;</expr_stmt>
+            <return>return <expr> <name>this</name> </expr>;</return>
+        </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>Builder</name> </type> <name>optionalArg</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>boolean</name> </type> <name>isOptional</name> </decl> </parameter>)</parameter_list>
+        <block>{<block_content>
+            <expr_stmt> <expr> <name> <name>this</name> <operator>.</operator> <name>optionalArg</name> </name> <operator>=</operator> <name>isOptional</name> </expr>;</expr_stmt>
+            <return>return <expr> <name>this</name> </expr>;</return>
+        </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>Builder</name> </type> <name>required</name> <parameter_list>()</parameter_list>
+        <block>{<block_content>
+            <return>return <expr> <call> <name>required</name> <argument_list>(<argument> <expr> <literal type="boolean">true</literal> </expr> </argument>)</argument_list> </call> </expr>;</return>
+        </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>Builder</name> </type> <name>required</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>boolean</name> </type> <name>required</name> </decl> </parameter>)</parameter_list>
+        <block>{<block_content>
+            <expr_stmt> <expr> <name> <name>this</name> <operator>.</operator> <name>required</name> </name> <operator>=</operator> <name>required</name> </expr>;</expr_stmt>
+            <return>return <expr> <name>this</name> </expr>;</return>
+        </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>Builder</name> </type> <name>type</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name> <name>Class</name> <argument_list type="generic">&lt;<argument> <name>?</name> </argument>&gt;</argument_list> </name> </type> <name>type</name> </decl> </parameter>)</parameter_list>
+        <block>{<block_content>
+            <expr_stmt> <expr> <name> <name>this</name> <operator>.</operator> <name>type</name> </name> <operator>=</operator> <name>type</name> </expr>;</expr_stmt>
+            <return>return <expr> <name>this</name> </expr>;</return>
+        </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>Builder</name> </type> <name>valueSeparator</name> <parameter_list>()</parameter_list>
+        <block>{<block_content>
+            <return>return <expr> <call> <name>valueSeparator</name> <argument_list>(<argument> <expr> <literal type="char">'='</literal> </expr> </argument>)</argument_list> </call> </expr>;</return>
+        </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>Builder</name> </type> <name>valueSeparator</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>char</name> </type> <name>sep</name> </decl> </parameter>)</parameter_list>
+        <block>{<block_content>
+            <expr_stmt> <expr> <name>valuesep</name> <operator>=</operator> <name>sep</name> </expr>;</expr_stmt>
+            <return>return <expr> <name>this</name> </expr>;</return>
+        </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>Builder</name> </type> <name>hasArg</name> <parameter_list>()</parameter_list>
+        <block>{<block_content>
+            <return>return <expr> <call> <name>hasArg</name> <argument_list>(<argument> <expr> <literal type="boolean">true</literal> </expr> </argument>)</argument_list> </call> </expr>;</return>
+        </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>Builder</name> </type> <name>hasArg</name> <parameter_list>(<parameter> <decl> <type> <specifier>final</specifier> <name>boolean</name> </type> <name>hasArg</name> </decl> </parameter>)</parameter_list>
+        <block>{<block_content>
+            
+            <expr_stmt> <expr> <name>numberOfArgs</name> <operator>=</operator> <ternary> <condition> <expr> <name>hasArg</name> </expr> ?</condition> <then> <expr> <literal type="number">1</literal> </expr> </then> <else>: <expr> <name> <name>Option</name> <operator>.</operator> <name>UNINITIALIZED</name> </name> </expr> </else> </ternary> </expr>;</expr_stmt>
+            <return>return <expr> <name>this</name> </expr>;</return>
+        </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>Builder</name> </type> <name>hasArgs</name> <parameter_list>()</parameter_list>
+        <block>{<block_content>
+            <expr_stmt> <expr> <name>numberOfArgs</name> <operator>=</operator> <name> <name>Option</name> <operator>.</operator> <name>UNLIMITED_VALUES</name> </name> </expr>;</expr_stmt>
+            <return>return <expr> <name>this</name> </expr>;</return>
+        </block_content>}</block> </function>
+<function> <type> <specifier>public</specifier> <name>Option</name> </type> <name>build</name> <parameter_list>()</parameter_list>
+        <block>{<block_content>
+            <if_stmt> <if>if <condition>(<expr> <name>opt</name> <operator>==</operator> <literal type="null">null</literal> <operator>&amp;&amp;</operator> <name>longOpt</name> <operator>==</operator> <literal type="null">null</literal> </expr>)</condition>
+            <block>{<block_content>
+                <throw>throw <expr> <operator>new</operator> <call> <name>IllegalArgumentException</name> <argument_list>(<argument> <expr> <literal type="string">lr_12</literal> </expr> </argument>)</argument_list> </call> </expr>;</throw>
+            </block_content>}</block> </if> </if_stmt>
+            <return>return <expr> <operator>new</operator> <call> <name>Option</name> <argument_list>(<argument> <expr> <name>this</name> </expr> </argument>)</argument_list> </call> </expr>;</return>
+        </block_content>}</block> </function>
+</unit>

@@ -1,0 +1,10 @@
+static int digit16 ( final byte b ) throws DecoderException {
+final int i = Character . digit ( ( char ) b , RADIX ) ;
+if ( i == - 1 ) {
+throw new DecoderException ( lr_1 + RADIX + lr_2 + b ) ;
+}
+return i ;
+}
+static char hexDigit ( final int b ) {
+return Character . toUpperCase ( Character . forDigit ( b & 0xF , RADIX ) ) ;
+}

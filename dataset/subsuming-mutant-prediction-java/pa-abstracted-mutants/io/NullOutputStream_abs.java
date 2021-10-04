@@ -1,0 +1,9 @@
+@Override
+public void write ( final byte [] b , final int off , final int len ) {
+}
+@Override
+public void write ( final int b ) {
+}
+@Override
+public void write ( final byte [] b ) throws IOException {
+}
