@@ -1,0 +1,23 @@
+public boolean fn_1 () { return false ; } public int get ( long vr_1 ) { return vr_2 . vr_3 ( vr_1 ) ;
+} public long add ( long vr_1 , int vr_4 ) { if ( vr_4 == 0 ) { return vr_1 ; }
+int vr_5 = get ( vr_1 ) ; int vr_6 = vr_7 . vr_8 ( vr_5 , vr_4 ) ;
+return fn_2 ( vr_1 , vr_6 ) ; } public long add ( long vr_1 , long vr_4 ) {
+return add ( vr_1 , vr_7 . vr_9 ( vr_4 ) ) ; } public long fn_3 ( long vr_1 , int vr_4 ) {
+if ( vr_4 == 0 ) { return vr_1 ; } int vr_5 = vr_2 . vr_3 ( vr_1 ) ;
+int vr_10 = vr_7 . vr_11 ( vr_5 , vr_4 , vr_2 . vr_12 () , vr_2 . vr_13 () ) ;
+return fn_2 ( vr_1 , vr_10 ) ; } public long fn_2 ( long vr_1 , int vr_14 ) { vr_7 . vr_15
+( this , vr_14 , vr_2 . vr_12 () , vr_2 . vr_13 () ) ;
+return vr_2 . vr_16 ( vr_1 , vr_14 ) ; } @Override public long fn_4 ( long vr_1 , int vr_14 ) {
+vr_7 . vr_15 ( this , vr_14 , vr_2 . vr_12 () - 1 , vr_2 . vr_13 () + 1 ) ;
+return vr_2 . vr_16 ( vr_1 , vr_14 ) ; } public long fn_5 ( long vr_17 , long vr_18 ) {
+if ( vr_17 < vr_18 ) { return - vr_2 . vr_19 ( vr_18 , vr_17 ) ; }
+return vr_2 . vr_19 ( vr_17 , vr_18 ) ; } public tp_1 fn_6 () { return null ; }
+public boolean fn_7 ( long vr_1 ) { return vr_2 . vr_20 ( get ( vr_1 ) ) ; }
+public int fn_8 ( long vr_1 ) { if ( vr_2 . vr_20 ( get ( vr_1 ) ) ) { return 1 ;
+} else { return 0 ; } } public tp_1 fn_9 () { return vr_2 . vr_21 () ; } public int fn_10 () {
+return vr_2 . vr_12 () ; } public int fn_11 () { return vr_2 . vr_13 () ; }
+public long fn_12 ( long vr_1 ) { return vr_2 . vr_22 ( get ( vr_1 ) ) ; }
+public long fn_13 ( long vr_1 ) { int vr_14 = get ( vr_1 ) ;
+long vr_23 = vr_2 . vr_22 ( vr_14 ) ; if ( vr_1 != vr_23 ) {
+vr_1 = vr_2 . vr_22 ( vr_14 + 1 ) ; } return vr_1 ; } public long fn_14 ( long vr_1 ) {
+return vr_1 - fn_12 ( vr_1 ) ; } private Object fn_15 () { return vr_2 . vr_14 () ; }

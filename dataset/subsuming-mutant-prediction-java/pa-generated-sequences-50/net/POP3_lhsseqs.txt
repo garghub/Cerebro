@@ -1,0 +1,1 @@
+public int sendCommand ( final String command , final String args ) throws IOException MST[ConstructorCallMutator]MSP[] { if ( writer == null ) { throw new IllegalStateException ( lr_4 ) ; } final StringBuilder __commandBuffer = new StringBuilder () ; __commandBuffer . append ( command ) ;

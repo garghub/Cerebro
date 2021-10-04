@@ -1,0 +1,23 @@
+@Override protected tp_1 fn_1 ( final String vr_1 , final tp_2 vr_2 , final tp_3 vr_3 ) { return new tp_1 ( vr_1 , vr_2 , vr_3 ) ; } public static tp_1 fn_2 () { return vr_4 . fn_2 () ; }
+public static tp_1 fn_2 ( final String vr_1 ) { return vr_4 . fn_2 ( vr_1 , null , null ) ; } public static tp_1 fn_2 ( final String vr_1 , final tp_2 vr_2 ) { return vr_4 . fn_2 ( vr_1 , vr_2 , null ) ; }
+public static tp_1 fn_2 ( final String vr_1 , final tp_3 vr_3 ) { return vr_4 . fn_2 ( vr_1 , null , vr_3 ) ; } public static tp_1 fn_2 ( final String vr_1 , final tp_2 vr_2 , final tp_3 vr_3 ) {
+return vr_4 . fn_2 ( vr_1 , vr_2 , vr_3 ) ; } public static tp_1 fn_3 ( final int vr_5 ) { return vr_4 . fn_3 ( vr_5 , null , null ) ; } public static tp_1 fn_3 ( final int vr_5 , final tp_3 vr_3 ) {
+return vr_4 . fn_3 ( vr_5 , null , vr_3 ) ; } public static tp_1 fn_3 ( final int vr_5 , final tp_2 vr_2 ) { return vr_4 . fn_3 ( vr_5 , vr_2 , null ) ; }
+public static tp_1 fn_3 ( final int vr_5 , final tp_2 vr_2 , final tp_3 vr_3 ) { return vr_4 . fn_3 ( vr_5 , vr_2 , vr_3 ) ; } public static tp_1 fn_4 ( final int vr_5 ) {
+return vr_4 . fn_4 ( vr_5 , null , null ) ; } public static tp_1 fn_4 ( final int vr_5 , final tp_3 vr_3 ) { return vr_4 . fn_4 ( vr_5 , null , vr_3 ) ; }
+public static tp_1 fn_4 ( final int vr_5 , final tp_2 vr_2 ) { return vr_4 . fn_4 ( vr_5 , vr_2 , null ) ; } public static tp_1 fn_4 ( final int vr_5 , final tp_2 vr_2 , final tp_3 vr_3 ) {
+return vr_4 . fn_4 ( vr_5 , vr_2 , vr_3 ) ; } public static tp_1 fn_5 ( final int vr_6 , final int vr_7 ) { return vr_4 . fn_5 ( vr_6 , vr_7 , null , null ) ; }
+public static tp_1 fn_5 ( final int vr_6 , final int vr_7 , final tp_3 vr_3 ) { return vr_4 . fn_5 ( vr_6 , vr_7 , null , vr_3 ) ; }
+public static tp_1 fn_5 ( final int vr_6 , final int vr_7 , final tp_2 vr_2 ) { return fn_5 ( vr_6 , vr_7 , vr_2 , null ) ; } public static tp_1 fn_5 (
+final int vr_6 , final int vr_7 , final tp_2 vr_2 , final tp_3 vr_3 ) { return vr_4 . fn_5 ( vr_6 , vr_7 , vr_2 , vr_3 ) ; } @Override public tp_4 fn_6 ( final Object vr_8 , final tp_4 vr_9 , final tp_5 vr_10 ) {
+return vr_9 . append ( vr_11 . fn_6 ( vr_8 ) ) ; } @Override public String fn_6 ( final long vr_12 ) { return vr_11 . fn_6 ( vr_12 ) ; } @Override public String fn_6 ( final tp_6 vr_13 ) {
+return vr_11 . fn_6 ( vr_13 ) ; } @Override public String fn_6 ( final tp_7 vr_14 ) { return vr_11 . fn_6 ( vr_14 ) ; } @Deprecated @Override public tp_4 fn_6 ( final long vr_12 , final tp_4 vr_15 ) {
+return vr_11 . fn_6 ( vr_12 , vr_15 ) ; } @Deprecated @Override public tp_4 fn_6 ( final tp_6 vr_13 , final tp_4 vr_15 ) { return vr_11 . fn_6 ( vr_13 , vr_15 ) ; } @Deprecated @Override
+public tp_4 fn_6 ( final tp_7 vr_14 , final tp_4 vr_15 ) { return vr_11 . fn_6 ( vr_14 , vr_15 ) ; } @Override public < vt_1 extends tp_8 > vt_1 fn_6 ( final long vr_12 , final vt_1 vr_15 ) {
+return vr_11 . fn_6 ( vr_12 , vr_15 ) ; } @Override public < vt_1 extends tp_8 > vt_1 fn_6 ( final tp_6 vr_13 , final vt_1 vr_15 ) { return vr_11 . fn_6 ( vr_13 , vr_15 ) ; } @Override
+public < vt_1 extends tp_8 > vt_1 fn_6 ( final tp_7 vr_14 , final vt_1 vr_15 ) { return vr_11 . fn_6 ( vr_14 , vr_15 ) ; } @Override public tp_6 fn_7 ( final String vr_16 ) throws ParseException { return vr_17 . fn_7 ( vr_16 ) ; }
+@Override public tp_6 fn_7 ( final String vr_16 , final tp_9 vr_10 ) { return vr_17 . fn_7 ( vr_16 , vr_10 ) ; } @Override public Object fn_8 ( final String vr_16 , final tp_9 vr_10 ) { return vr_17 . fn_8 ( vr_16 , vr_10 ) ; }
+@Override public String fn_9 () { return vr_11 . fn_9 () ; } @Override public tp_2 fn_10 () { return vr_11 . fn_10 () ; } @Override public tp_3 fn_11 () { return vr_11 . fn_11 () ; } public int fn_12 () { return vr_11 . fn_12 () ;
+} @Override public boolean equals ( final Object vr_8 ) { if ( vr_8 instanceof tp_1 == false ) { return false ; } final tp_1 vr_18 = ( tp_1 ) vr_8 ; return vr_11 . equals ( vr_18 . vr_11 ) ; } @Override public int fn_13 () {
+return vr_11 . fn_13 () ; } @Override public String toString () { return lr_1 + vr_11 . fn_9 () + lr_2 + vr_11 . fn_11 () + lr_2 + vr_11 . fn_10 () . fn_14 () + lr_3 ; } @Deprecated
+protected tp_4 fn_15 ( final tp_7 vr_14 , final tp_4 vr_15 ) { return vr_11 . fn_15 ( vr_14 , vr_15 ) ; }

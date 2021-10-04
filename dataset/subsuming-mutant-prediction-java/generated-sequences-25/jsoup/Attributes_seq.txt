@@ -1,0 +1,92 @@
+private void fn_1 ( int vr_1 ) { vr_2 . vr_3 ( vr_1 >= size ) ; int vr_4 = vr_5 . length ;
+if ( vr_4 >= vr_1 ) return; int vr_6 = vr_4 >= vl_1 ? size * vl_2 : vl_1 ;
+if ( vr_1 > vr_6 ) vr_6 = vr_1 ; vr_5 = fn_2 ( vr_5 , vr_6 ) ;
+vl_3 = fn_2 ( vl_3 , vr_6 ) ; } private static String [] fn_2 ( String [] vr_7 , int size ) {
+final String [] vr_8 = new String [ size ] ; System . vr_9 ( vr_7 , 0 , vr_8 , 0 ,
+vr_10 . vr_11 ( vr_7 . length , size ) ) ; return vr_8 ; } int fn_3 ( String vr_12 ) {
+vr_2 . vr_13 ( vr_12 ) ; for ( int vr_14 = 0 ; vr_14 < size ; vr_14 ++ ) {
+if ( vr_12 . equals ( vr_5 [ vr_14 ] ) ) return vr_14 ; } return vl_4 ; }
+private int fn_4 ( String vr_12 ) { vr_2 . vr_13 ( vr_12 ) ;
+for ( int vr_14 = 0 ; vr_14 < size ; vr_14 ++ ) {
+if ( vr_12 . equalsIgnoreCase ( vr_5 [ vr_14 ] ) ) return vr_14 ; } return vl_4 ; }
+static String fn_5 ( String vr_15 ) { return vr_15 == null ? vl_5 : vr_15 ; }
+public String get ( String vr_12 ) { int vr_14 = fn_3 ( vr_12 ) ;
+return vr_14 == vl_4 ? vl_5 : fn_5 ( vl_3 [ vr_14 ] ) ; } public String fn_6 ( String vr_12 ) {
+int vr_14 = fn_4 ( vr_12 ) ; return vr_14 == vl_4 ? vl_5 : fn_5 ( vl_3 [ vr_14 ] ) ; }
+public tp_1 add ( String vr_12 , String vr_16 ) { fn_1 ( size + 1 ) ; vr_5 [ size ] = vr_12 ;
+vl_3 [ size ] = vr_16 ; size ++ ; return this ; } public tp_1 fn_7 ( String vr_12 , String vr_16 ) {
+vr_2 . vr_13 ( vr_12 ) ; int vr_14 = fn_3 ( vr_12 ) ; if ( vr_14 != vl_4 )
+vl_3 [ vr_14 ] = vr_16 ; else add ( vr_12 , vr_16 ) ; return this ; }
+void fn_8 ( String vr_12 , String vr_16 ) { int vr_14 = fn_4 ( vr_12 ) ; if ( vr_14 != vl_4 ) {
+vl_3 [ vr_14 ] = vr_16 ; if ( ! vr_5 [ vr_14 ] . equals ( vr_12 ) )
+vr_5 [ vr_14 ] = vr_12 ; } else add ( vr_12 , vr_16 ) ; }
+public tp_1 fn_7 ( String vr_12 , boolean vr_16 ) { if ( vr_16 ) fn_8 ( vr_12 , null ) ; else
+remove ( vr_12 ) ; return this ; } public tp_1 fn_7 ( tp_2 vr_17 ) { vr_2 . vr_13 ( vr_17 ) ;
+fn_7 ( vr_17 . vr_18 () , vr_17 . vr_19 () ) ; vr_17 . vr_20 = this ; return this ; }
+private void remove ( int vr_21 ) { vr_2 . vr_22 ( vr_21 >= size ) ;
+int vr_23 = size - vr_21 - 1 ; if ( vr_23 > 0 ) {
+System . vr_9 ( vr_5 , vr_21 + 1 , vr_5 , vr_21 , vr_23 ) ;
+System . vr_9 ( vl_3 , vr_21 + 1 , vl_3 , vr_21 , vr_23 ) ; } size -- ;
+vr_5 [ size ] = null ; vl_3 [ size ] = null ; } public void remove ( String vr_12 ) {
+int vr_14 = fn_3 ( vr_12 ) ; if ( vr_14 != vl_4 ) remove ( vr_14 ) ; }
+public void fn_9 ( String vr_12 ) { int vr_14 = fn_4 ( vr_12 ) ; if ( vr_14 != vl_4 )
+remove ( vr_14 ) ; } public boolean fn_10 ( String vr_12 ) { return fn_3 ( vr_12 ) != vl_4 ; }
+public boolean fn_11 ( String vr_12 ) { return fn_4 ( vr_12 ) != vl_4 ; } public boolean fn_12 ( String vr_12 ) {
+int vr_14 = fn_3 ( vr_12 ) ; return vr_14 != vl_4 && vl_3 [ vr_14 ] != null ; }
+public boolean fn_13 ( String vr_12 ) { int vr_14 = fn_4 ( vr_12 ) ;
+return vr_14 != vl_4 && vl_3 [ vr_14 ] != null ; } public int size () { int vr_24 = 0 ;
+for ( int vr_14 = 0 ; vr_14 < size ; vr_14 ++ ) {
+if ( ! fn_14 ( vr_5 [ vr_14 ] ) ) vr_24 ++ ; } return vr_24 ; } public boolean isEmpty () {
+return size == 0 ; } public void fn_15 ( tp_1 vr_25 ) { if ( vr_25 . size () == 0 ) return;
+fn_1 ( size + vr_25 . size ) ; for ( tp_2 vr_26 : vr_25 ) { fn_7 ( vr_26 ) ; } } @Override
+public boolean hasNext () { while ( vr_14 < size ) { if ( fn_14 ( vr_5 [ vr_14 ] ) ) vr_14 ++ ;
+else break; } return vr_14 < size ; } @Override public tp_2 fn_16 () {
+final tp_2 vr_26 = new tp_2 ( vr_5 [ vr_14 ] , vl_3 [ vr_14 ] , tp_1 . this ) ; vr_14 ++ ;
+return vr_26 ; } @Override public void remove () { tp_1 . this . remove ( -- vr_14 ) ; }
+public List < tp_2 > fn_17 () { ArrayList < tp_2 > list = new ArrayList <> ( size ) ;
+for ( int vr_14 = 0 ; vr_14 < size ; vr_14 ++ ) { if ( fn_14 ( vr_5 [ vr_14 ] ) )
+continue; tp_2 vr_26 = new tp_2 ( vr_5 [ vr_14 ] , vl_3 [ vr_14 ] , tp_1 . this ) ;
+list . add ( vr_26 ) ; } return vr_27 . vr_28 ( list ) ; }
+public vr_29 < String , String > fn_18 () { return new fn_19 ( this ) ; } public String fn_20 () {
+StringBuilder vr_30 = vr_31 . vr_32 () ; try {
+fn_20 ( vr_30 , ( new fn_21 ( lr_1 ) ) . fn_22 () ) ; } catch ( IOException vr_33 ) {
+throw new fn_23 ( vr_33 ) ; } return vr_31 . vr_34 ( vr_30 ) ; }
+final void fn_20 ( final tp_3 vr_35 , final fn_21 . vr_36 out ) throws IOException { final int vr_37 = size ;
+for ( int vr_14 = 0 ; vr_14 < vr_37 ; vr_14 ++ ) { if ( fn_14 ( vr_5 [ vr_14 ] ) )
+continue; final String vr_12 = vr_5 [ vr_14 ] ; final String vr_15 = vl_3 [ vr_14 ] ;
+vr_35 . append ( ' ' ) . append ( vr_12 ) ;
+if ( ! tp_2 . vr_38 ( vr_12 , vr_15 , out ) ) { vr_35 . append ( lr_2 ) ;
+vr_39 . vr_40 ( vr_35 , vr_15 == null ? vl_5 : vr_15 , out , true , false , false ) ;
+vr_35 . append ( '"' ) ; } } } @Override public String toString () { return fn_20 () ; } @Override
+public boolean equals ( Object vr_41 ) { if ( this == vr_41 ) return true ;
+if ( vr_41 == null || getClass () != vr_41 . getClass () ) return false ; tp_1 vr_42 = ( tp_1 ) vr_41 ;
+if ( size != vr_42 . size ) return false ;
+if ( ! vr_43 . equals ( vr_5 , vr_42 . vr_5 ) ) return false ;
+return vr_43 . equals ( vl_3 , vr_42 . vl_3 ) ; } @Override public int fn_24 () { int vr_44 = size ;
+vr_44 = 31 * vr_44 + vr_43 . fn_24 ( vr_5 ) ;
+vr_44 = 31 * vr_44 + vr_43 . fn_24 ( vl_3 ) ; return vr_44 ; } @Override public tp_1 fn_25 () {
+tp_1 fn_25 ; try { fn_25 = ( tp_1 ) super . fn_25 () ; } catch ( tp_4 vr_33 ) {
+throw new fn_26 ( vr_33 ) ; } fn_25 . size = size ; vr_5 = fn_2 ( vr_5 , size ) ;
+vl_3 = fn_2 ( vl_3 , size ) ; return fn_25 ; } public void fn_27 () {
+for ( int vr_14 = 0 ; vr_14 < size ; vr_14 ++ ) {
+vr_5 [ vr_14 ] = fn_28 ( vr_5 [ vr_14 ] ) ; } } public int fn_29 ( tp_5 vr_45 ) {
+if ( isEmpty () ) return 0 ; boolean vr_46 = vr_45 . vr_47 () ; int vr_48 = 0 ;
+lb_1: for ( int vr_14 = 0 ; vr_14 < vr_5 . length ; vr_14 ++ ) {
+for ( int vr_49 = vr_14 + 1 ; vr_49 < vr_5 . length ; vr_49 ++ ) {
+if ( vr_5 [ vr_49 ] == null ) continue lb_1;
+if ( ( vr_46 && vr_5 [ vr_14 ] . equals ( vr_5 [ vr_49 ] ) ) || ( ! vr_46 && vr_5 [ vr_14 ] . equalsIgnoreCase ( vr_5 [ vr_49 ] ) ) ) {
+vr_48 ++ ; remove ( vr_49 ) ; vr_49 -- ; } } } return vr_48 ; } @Override
+public vr_50 < vr_51 < String , String > > fn_30 () { return new fn_31 () ; } @Override
+public String fn_7 ( String vr_12 , String vr_16 ) { String vr_52 = vr_52 ( vr_12 ) ;
+String vr_53 = vr_54 . fn_10 ( vr_52 ) ? vr_54 . get ( vr_52 ) : null ;
+vr_54 . fn_7 ( vr_52 , vr_16 ) ; return vr_53 ; } @Override
+public Iterator < vr_29 . vr_51 < String , String > > iterator () { return new fn_32 () ; } @Override
+public int size () { int vr_55 = 0 ; Iterator vr_56 = new fn_32 () ; while ( vr_56 . hasNext () )
+vr_55 ++ ; return vr_55 ; } public boolean hasNext () { while ( vr_57 . hasNext () ) {
+vr_26 = vr_57 . fn_16 () ; if ( vr_26 . vr_58 () ) return true ; } return false ; }
+public vr_51 < String , String > fn_16 () {
+return new tp_2 ( vr_26 . vr_18 () . fn_33 ( vr_59 . length () ) , vr_26 . vr_19 () ) ; }
+public void remove () { vr_54 . remove ( vr_26 . vr_18 () ) ; } private static String vr_52 ( String vr_12 ) {
+return vr_59 + vr_12 ; } static String fn_34 ( String vr_12 ) { return vl_6 + vr_12 ; }
+private boolean fn_14 ( String vr_12 ) {
+return vr_12 != null && vr_12 . length () > 1 && vr_12 . charAt ( 0 ) == vl_6 ; }

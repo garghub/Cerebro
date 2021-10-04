@@ -1,0 +1,4 @@
+@Override public int [] startSubnegotiationLocal () { final int nCompoundWindowSize = width * 0x10000 + height ; int nResponseSize = 5 ; int nIndex ; int nShift ; int nTurnedOnBits ; if ( width % 0x100 == 0xFF ) { nResponseSize += 1 ; }
+if ( width / 0x100 == 0xFF ) { nResponseSize += 1 ; } if ( height % 0x100 == 0xFF ) { nResponseSize += 1 ; } if ( height / 0x100 == 0xFF ) { nResponseSize += 1 ; }
+final int response [] = new int [ nResponseSize ] ; response [ 0 ] = WINDOW_SIZE ; for ( nIndex = 1 , nShift = 24 ; nIndex < nResponseSize ; nIndex ++ , nShift -= 8 ) { nTurnedOnBits = 0xFF ; nTurnedOnBits <<= nShift ;
+response [ nIndex ] = ( nCompoundWindowSize & nTurnedOnBits ) >>> nShift ; if ( response [ nIndex ] == 0xff ) { nIndex ++ ; response [ nIndex ] = 0xff ; } } return response ; }

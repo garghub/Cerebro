@@ -1,0 +1,10 @@
+public static < I , O > Transformer < I , O > factoryTransformer ( final Factory < ? extends O > factory ) { return new FactoryTransformer <> ( Objects . requireNonNull ( factory , lr_1 ) ) ; MST[ConstructorCallMutator]MSP[] } @Override
+public static < I , O > Transformer < I , O > factoryTransformer ( final Factory < ? extends O > factory ) { return new FactoryTransformer <> ( Objects . requireNonNull ( factory , lr_1 ) ) ; MST[NullReturnValsMutator]MSP[] } @Override
+public O transform ( final I input ) { return iFactory . create () ; MST[NonVoidMethodCallMutator]MSP[] } public Factory < ? extends O > getFactory () { return iFactory ; }
+public static < I , O > Transformer < I , O > factoryTransformer ( final Factory < ? extends O > factory ) { return new FactoryTransformer <> ( Objects . requireNonNull ( factory , lr_1 ) ) ; MST[ReturnValsMutator]MSP[] } @Override
+public static < I , O > Transformer < I , O > factoryTransformer ( final Factory < ? extends O > factory ) { return new FactoryTransformer <> ( Objects . requireNonNull ( factory , lr_1 ) ) ; MST[NonVoidMethodCallMutator]MSP[] } @Override
+public O transform ( final I input ) { return iFactory . create () ; MST[NullReturnValsMutator]MSP[] } public Factory < ? extends O > getFactory () { return iFactory ; }
+public O transform ( final I input ) { return iFactory . create () ; } public Factory < ? extends O > getFactory () { return iFactory ; MST[ReturnValsMutator]MSP[] }
+public static < I , O > Transformer < I , O > factoryTransformer ( final Factory < ? extends O > factory ) { return new FactoryTransformer <> ( Objects . requireNonNull ( factory , lr_1 ) ) ; MST[ArgumentPropagationMutator]MSP[] } @Override
+public O transform ( final I input ) { return iFactory . create () ; MST[ReturnValsMutator]MSP[] } public Factory < ? extends O > getFactory () { return iFactory ; }
+public O transform ( final I input ) { return iFactory . create () ; } public Factory < ? extends O > getFactory () { return iFactory ; MST[NullReturnValsMutator]MSP[] }

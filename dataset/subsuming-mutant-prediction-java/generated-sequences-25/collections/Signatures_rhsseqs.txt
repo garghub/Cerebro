@@ -1,0 +1,9 @@
+static long fn_1 ( tp_1 vr_1 ) { return vr_1 . vr_2 ( vr_3 . vr_4 ( vr_1 ) , 0 ) ; MST[rv.CRCR6Mutator]MSP[S] }
+static long fn_1 ( tp_1 vr_1 ) { return vr_1 . vr_2 ( vr_3 . vr_4 ( vr_1 ) , 0 ) ; MST[ReturnValsMutator]MSP[S] }
+static long fn_1 ( tp_1 vr_1 ) { return vr_1 . vr_2 ( vr_3 . vr_4 ( vr_1 ) , 0 ) ; MST[rv.CRCR5Mutator]MSP[S] }
+static long fn_1 ( tp_1 vr_1 ) { return vr_1 . vr_2 ( vr_3 . vr_4 ( vr_1 ) , 0 ) ; MST[PrimitiveReturnsMutator]MSP[S] }
+static long fn_1 ( tp_1 vr_1 ) { return vr_1 . vr_2 ( vr_3 . vr_4 ( vr_1 ) , 0 ) ; MST[InlineConstantMutator]MSP[S] }
+static long fn_1 ( tp_1 vr_1 ) { return vr_1 . vr_2 ( vr_3 . vr_4 ( vr_1 ) , 0 ) ; MST[rv.CRCR3Mutator]MSP[S] }
+static long fn_1 ( tp_1 vr_1 ) { return vr_1 . vr_2 ( vr_3 . vr_4 ( vr_1 ) , 0 ) ; MST[rv.CRCR1Mutator]MSP[S] }
+static long fn_1 ( tp_1 vr_1 ) { return vr_1 . vr_2 ( vr_3 . vr_4 ( vr_1 ) , 0 ) ; MST[NonVoidMethodCallMutator]MSP[S] }
+static long fn_1 ( tp_1 vr_1 ) { return vr_1 . vr_2 ( vr_3 . vr_4 ( vr_1 ) , 0 ) ; MST[NonVoidMethodCallMutator]MSP[N] }

@@ -1,0 +1,51 @@
+public boolean fn_1 () { return vl_1 != null ; } public String fn_2 ( String vr_1 ) { vr_2 . vr_3 ( vr_1 ) ; if ( ! fn_3 () ) return vl_2 ; String vr_4 = fn_4 () . fn_5 ( vr_1 ) ;
+if ( vr_4 . length () > 0 ) return vr_4 ; else if ( vr_1 . vr_5 ( lr_1 ) ) return fn_6 ( vr_1 . vr_6 ( lr_1 . length () ) ) ; else return lr_2 ; }
+public tp_1 fn_2 ( String vr_1 , String vr_7 ) { vr_1 = vr_8 . vr_9 ( this ) . fn_7 () . fn_8 ( vr_1 ) ; fn_4 () . fn_9 ( vr_1 , vr_7 ) ; return this ; } public boolean fn_10 ( String vr_1 ) {
+vr_2 . vr_3 ( vr_1 ) ; if ( vr_1 . vr_5 ( lr_1 ) ) { String vr_10 = vr_1 . vr_6 ( lr_1 . length () ) ;
+if ( fn_4 () . fn_11 ( vr_10 ) && ! fn_6 ( vr_10 ) . equals ( lr_2 ) ) return true ; } return fn_4 () . fn_11 ( vr_1 ) ; } public tp_1 fn_12 ( String vr_1 ) { vr_2 . vr_3 ( vr_1 ) ;
+fn_4 () . fn_13 ( vr_1 ) ; return this ; } public tp_1 fn_14 () { Iterator < vt_1 > vr_11 = fn_4 () . iterator () ; while ( vr_11 . hasNext () ) { vr_11 . vr_12 () ; vr_11 . remove () ; }
+return this ; } public void fn_15 ( final String vr_13 ) { vr_2 . vr_3 ( vr_13 ) ; fn_16 ( vr_13 ) ; } public String fn_6 ( String vr_1 ) { vr_2 . vr_14 ( vr_1 ) ; if ( ! fn_10 ( vr_1 ) ) {
+return lr_2 ; } else { return vr_15 . vr_16 ( vr_13 () , fn_2 ( vr_1 ) ) ; } } public tp_1 fn_17 ( int vr_17 ) { return fn_18 () . get ( vr_17 ) ; } public List < tp_1 > fn_19 () {
+return vr_18 . vr_19 ( fn_18 () ) ; } public List < tp_1 > fn_20 () { final List < tp_1 > vr_20 = fn_18 () ; final ArrayList < tp_1 > vr_21 = new ArrayList <> ( vr_20 . size () ) ;
+for ( tp_1 vr_22 : vr_20 ) { vr_21 . add ( vr_22 . vr_23 () ) ; } return vr_21 ; } protected tp_1 [] fn_21 () { return fn_18 () . toArray ( new tp_1 [ 0 ] ) ; } public tp_1 fn_22 () {
+return vl_1 ; } public final tp_1 vl_1 () { return vl_1 ; } public tp_1 fn_23 () { tp_1 vr_22 = this ; while ( vr_22 . vl_1 != null ) vr_22 = vr_22 . vl_1 ; return vr_22 ; } public tp_2 fn_24 () {
+tp_1 fn_23 = fn_23 () ; return ( fn_23 instanceof tp_2 ) ? ( tp_2 ) fn_23 : null ; } public void remove () { vr_2 . vr_3 ( vl_1 ) ; vl_1 . vr_24 ( this ) ; } public tp_1 fn_25 ( String vr_25 ) {
+fn_26 ( vl_3 , vr_25 ) ; return this ; } public tp_1 fn_25 ( tp_1 vr_22 ) { vr_2 . vr_3 ( vr_22 ) ; vr_2 . vr_3 ( vl_1 ) ; vl_1 . vr_26 ( vl_3 , vr_22 ) ; return this ; }
+public tp_1 fn_27 ( String vr_25 ) { fn_26 ( vl_3 + 1 , vr_25 ) ; return this ; } public tp_1 fn_27 ( tp_1 vr_22 ) { vr_2 . vr_3 ( vr_22 ) ; vr_2 . vr_3 ( vl_1 ) ;
+vl_1 . vr_26 ( vl_3 + 1 , vr_22 ) ; return this ; } private void fn_26 ( int vr_17 , String vr_25 ) { vr_2 . vr_3 ( vr_25 ) ; vr_2 . vr_3 ( vl_1 ) ;
+tp_3 vr_27 = fn_22 () instanceof tp_3 ? ( tp_3 ) fn_22 () : null ; List < tp_1 > vr_20 = vr_8 . vr_9 ( this ) . fn_28 ( vr_25 , vr_27 , vr_13 () ) ;
+vl_1 . vr_26 ( vr_17 , vr_20 . toArray ( new tp_1 [ 0 ] ) ) ; } public tp_1 fn_29 ( String vr_25 ) { vr_2 . vr_14 ( vr_25 ) ; tp_3 vr_27 = fn_22 () instanceof tp_3 ? ( tp_3 ) fn_22 () : null ;
+List < tp_1 > vr_28 = vr_8 . vr_9 ( this ) . fn_28 ( vr_25 , vr_27 , vr_13 () ) ; tp_1 vr_29 = vr_28 . get ( 0 ) ; if ( ! ( vr_29 instanceof tp_3 ) ) return null ;
+tp_3 fn_29 = ( tp_3 ) vr_29 ; tp_3 vr_30 = fn_30 ( fn_29 ) ; vl_1 . vr_31 ( this , fn_29 ) ; vr_30 . vr_26 ( this ) ; if ( vr_28 . size () > 0 ) {
+for ( int vr_32 = 0 ; vr_32 < vr_28 . size () ; vr_32 ++ ) { tp_1 vr_33 = vr_28 . get ( vr_32 ) ; vr_33 . vl_1 . vr_24 ( vr_33 ) ; fn_29 . vr_34 ( vr_33 ) ; } } return this ; }
+public tp_1 fn_31 () { vr_2 . vr_3 ( vl_1 ) ; final List < tp_1 > fn_19 = fn_18 () ; tp_1 vr_35 = fn_19 . size () > 0 ? fn_19 . get ( 0 ) : null ;
+vl_1 . vr_26 ( vl_3 , this . fn_21 () ) ; this . remove () ; return vr_35 ; } private tp_3 fn_30 ( tp_3 vr_36 ) { List < tp_3 > vr_21 = vr_36 . vr_21 () ; if ( vr_21 . size () > 0 )
+return fn_30 ( vr_21 . get ( 0 ) ) ; else return vr_36 ; } void fn_32 () { } public void fn_33 ( tp_1 vr_37 ) { vr_2 . vr_3 ( vr_37 ) ; vr_2 . vr_3 ( vl_1 ) ;
+vl_1 . vr_31 ( this , vr_37 ) ; } protected void fn_34 ( tp_1 vl_1 ) { vr_2 . vr_3 ( vl_1 ) ; if ( this . vl_1 != null ) this . vl_1 . vr_24 ( this ) ; this . vl_1 = vl_1 ; }
+protected void vr_31 ( tp_1 out , tp_1 vr_37 ) { vr_2 . vr_38 ( out . vl_1 == this ) ; vr_2 . vr_3 ( vr_37 ) ; if ( vr_37 . vl_1 != null ) vr_37 . vl_1 . vr_24 ( vr_37 ) ;
+final int vr_17 = out . vl_3 ; fn_18 () . fn_35 ( vr_17 , vr_37 ) ; vr_37 . vl_1 = this ; vr_37 . vr_39 ( vr_17 ) ; out . vl_1 = null ; } protected void vr_24 ( tp_1 out ) {
+vr_2 . vr_38 ( out . vl_1 == this ) ; final int vr_17 = out . vl_3 ; fn_18 () . remove ( vr_17 ) ; fn_36 ( vr_17 ) ; out . vl_1 = null ; } protected void vr_26 ( tp_1 ... vr_21 ) {
+final List < tp_1 > vr_20 = fn_18 () ; for ( tp_1 vr_40 : vr_21 ) { fn_37 ( vr_40 ) ; vr_20 . add ( vr_40 ) ; vr_40 . vr_39 ( vr_20 . size () - 1 ) ; } }
+protected void vr_26 ( int vr_17 , tp_1 ... vr_21 ) { vr_2 . vr_3 ( vr_21 ) ; if ( vr_21 . length == 0 ) { return; } final List < tp_1 > vr_20 = fn_18 () ;
+final tp_1 vr_41 = vr_21 [ 0 ] . fn_22 () ; if ( vr_41 != null && vr_41 . vr_42 () == vr_21 . length ) { boolean vr_43 = true ; final List < tp_1 > vr_44 = vr_41 . fn_19 () ;
+int vr_32 = vr_21 . length ; while ( vr_32 -- > 0 ) { if ( vr_21 [ vr_32 ] != vr_44 . get ( vr_32 ) ) { vr_43 = false ; break; } } vr_41 . vr_45 () ;
+vr_20 . vr_46 ( vr_17 , vr_47 . vr_48 ( vr_21 ) ) ; vr_32 = vr_21 . length ; while ( vr_32 -- > 0 ) { vr_21 [ vr_32 ] . vl_1 = this ; } fn_36 ( vr_17 ) ; return; }
+vr_2 . vr_49 ( vr_21 ) ; for ( tp_1 vr_40 : vr_21 ) { fn_37 ( vr_40 ) ; } vr_20 . vr_46 ( vr_17 , vr_47 . vr_48 ( vr_21 ) ) ; fn_36 ( vr_17 ) ; } protected void fn_37 ( tp_1 vr_40 ) {
+vr_40 . fn_34 ( this ) ; } private void fn_36 ( int vr_50 ) { final List < tp_1 > fn_19 = fn_18 () ; for ( int vr_32 = vr_50 ; vr_32 < fn_19 . size () ; vr_32 ++ ) {
+fn_19 . get ( vr_32 ) . vr_39 ( vr_32 ) ; } } public List < tp_1 > fn_38 () { if ( vl_1 == null ) return vr_18 . vr_51 () ; List < tp_1 > vr_20 = vl_1 . fn_18 () ;
+List < tp_1 > vr_52 = new ArrayList <> ( vr_20 . size () - 1 ) ; for ( tp_1 vr_22 : vr_20 ) if ( vr_22 != this ) vr_52 . add ( vr_22 ) ; return vr_52 ; } public tp_1 fn_39 () {
+if ( vl_1 == null ) return null ; final List < tp_1 > vr_52 = vl_1 . fn_18 () ; final int vr_17 = vl_3 + 1 ; if ( vr_52 . size () > vr_17 ) return vr_52 . get ( vr_17 ) ; else return null ;
+} public tp_1 fn_40 () { if ( vl_1 == null ) return null ; if ( vl_3 > 0 ) return vl_1 . fn_18 () . get ( vl_3 - 1 ) ; else return null ; } public int vl_3 () { return vl_3 ; }
+protected void vr_39 ( int vl_3 ) { this . vl_3 = vl_3 ; } public tp_1 fn_41 ( tp_4 vr_53 ) { vr_2 . vr_3 ( vr_53 ) ; vr_54 . fn_41 ( vr_53 , this ) ; return this ; }
+public tp_1 fn_42 ( tp_5 vr_55 ) { vr_2 . vr_3 ( vr_55 ) ; vr_54 . fn_42 ( vr_55 , this ) ; return this ; } public String fn_43 () { StringBuilder vr_56 = vr_15 . vr_57 () ; fn_43 ( vr_56 ) ;
+return vr_15 . vr_58 ( vr_56 ) ; } protected void fn_43 ( tp_6 vr_56 ) { vr_54 . fn_41 ( new fn_44 ( vr_56 , vr_8 . vr_59 ( this ) ) , this ) ; }
+public < vt_2 extends tp_6 > vt_2 vr_25 ( vt_2 vr_60 ) { fn_43 ( vr_60 ) ; return vr_60 ; } public String toString () { return fn_43 () ; } protected void fn_45 ( tp_6 vr_56 , int vr_61 , tp_2 . vr_62 out ) throws IOException {
+vr_56 . append ( '\n' ) . append ( vr_15 . vr_63 ( vr_61 * out . vr_64 () ) ) ; } @Override public boolean equals ( Object vr_65 ) { return this == vr_65 ; } public boolean fn_46 ( Object vr_65 ) {
+if ( this == vr_65 ) return true ; if ( vr_65 == null || getClass () != vr_65 . getClass () ) return false ; return this . fn_43 () . equals ( ( ( tp_1 ) vr_65 ) . fn_43 () ) ; } @Override
+public tp_1 vr_23 () { tp_1 vr_66 = fn_47 ( null ) ; final vr_67 < tp_1 > vr_68 = new vr_67 <> () ; vr_68 . add ( vr_66 ) ; while ( ! vr_68 . isEmpty () ) { tp_1 vr_69 = vr_68 . remove () ;
+final int size = vr_69 . vr_42 () ; for ( int vr_32 = 0 ; vr_32 < size ; vr_32 ++ ) { final List < tp_1 > fn_19 = vr_69 . fn_18 () ;
+tp_1 vr_70 = fn_19 . get ( vr_32 ) . fn_47 ( vr_69 ) ; fn_19 . fn_35 ( vr_32 , vr_70 ) ; vr_68 . add ( vr_70 ) ; } } return vr_66 ; } public tp_1 fn_48 () { return fn_47 ( null ) ; }
+protected tp_1 fn_47 ( tp_1 fn_22 ) { tp_1 vr_23 ; try { vr_23 = ( tp_1 ) super . vr_23 () ; } catch ( tp_7 vr_71 ) { throw new fn_49 ( vr_71 ) ; } vr_23 . vl_1 = fn_22 ;
+vr_23 . vl_3 = fn_22 == null ? 0 : vl_3 ; return vr_23 ; } public void fn_50 ( tp_1 vr_22 , int vr_61 ) { try { vr_22 . vr_72 ( vr_56 , vr_61 , out ) ; } catch ( IOException exception ) {
+throw new fn_51 ( exception ) ; } } public void fn_52 ( tp_1 vr_22 , int vr_61 ) { if ( ! vr_22 . vr_73 () . equals ( lr_3 ) ) { try { vr_22 . vr_74 ( vr_56 , vr_61 , out ) ;
+} catch ( IOException exception ) { throw new fn_51 ( exception ) ; } } }

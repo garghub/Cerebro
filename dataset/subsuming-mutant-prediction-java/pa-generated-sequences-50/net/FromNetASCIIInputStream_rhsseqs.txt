@@ -1,0 +1,287 @@
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; MST[ReturnValsMutator]MSP[S] } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; }
+unread ( _lineSeparatorBytes ) ; ch = super . read () ; -- length ; } else { if ( ch != - 1 ) { unread ( ch ) ; } return '\r' ; } } return ch ; } @Override public int read () throws IOException MST[rv.ROR4Mutator]MSP[N] {
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { MST[rv.UOI3Mutator]MSP[N] buffer [ offset ++ ] = ( byte ) ch ; }
+if ( ( ch = __read () ) == - 1 ) { MST[rv.ROR4Mutator]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+if ( ( ch = __read () ) == - 1 ) { MST[rv.CRCR4Mutator]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.UOI4Mutator]MSP[S] if ( this . length < 1 ) { this . length = 1 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[rv.AOR2Mutator]MSP[S]
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.ROR1Mutator]MSP[N] if ( this . length < 1 ) { this . length = 1 ; }
+int ch , off ; ch = available () ; MST[NonVoidMethodCallMutator]MSP[S] this . length = length > ch ? ch : length ; if ( this . length < 1 ) { this . length = 1 ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[NonVoidMethodCallMutator]MSP[S]
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[rv.CRCR4Mutator]MSP[S] return 0 ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[experimental.MemberVariableMutator]MSP[N]
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[rv.UOI3Mutator]MSP[S] this . length = 1 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[rv.AOR1Mutator]MSP[S]
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.ROR3Mutator]MSP[S]
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[PrimitiveReturnsMutator]MSP[S]
+if ( _noConversionRequired ) { return super . read () ; } return __read () ; MST[PrimitiveReturnsMutator]MSP[S] } @Override public int read ( final byte buffer [] ) throws IOException { return read ( buffer , 0 , buffer . length ) ; } @Override
+public static boolean isConversionRequired () { return ! _noConversionRequired ; MST[rv.CRCR3Mutator]MSP[N] } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[ReturnValsMutator]MSP[S] return 0 ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; MST[rv.UOI1Mutator]MSP[S] do { buffer [ offset ++ ] = ( byte ) ch ; }
+if ( ( ch = __read () ) == - 1 ) { MST[NonVoidMethodCallMutator]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[rv.CRCR5Mutator]MSP[N] this . length = 1 ; }
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[rv.UOI4Mutator]MSP[S] return 0 ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.UOI4Mutator]MSP[S] if ( this . length < 1 ) { this . length = 1 ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; MST[rv.ROR3Mutator]MSP[N] } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.UOI1Mutator]MSP[N] if ( this . length < 1 ) { this . length = 1 ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { MST[experimental.RemoveIncrementsMutator]MSP[S] buffer [ offset ++ ] = ( byte ) ch ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) MST[rv.ROR4Mutator]MSP[S] { ch = super . read () ; if ( ch == '\n' ) {
+public static boolean isConversionRequired () { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) MST[InlineConstantMutator]MSP[N] { ch = super . read () ; if ( ch == '\n' ) {
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[rv.CRCR3Mutator]MSP[N] this . length = 1 ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { MST[rv.UOI3Mutator]MSP[S] buffer [ offset ++ ] = ( byte ) ch ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) MST[rv.CRCR3Mutator]MSP[S] { ch = super . read () ; if ( ch == '\n' ) {
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[rv.ROR4Mutator]MSP[S] this . length = 1 ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) MST[rv.CRCR6Mutator]MSP[N] { ch = super . read () ; if ( ch == '\n' ) {
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[rv.ROR1Mutator]MSP[S] this . length = 1 ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.UOI1Mutator]MSP[N] if ( this . length < 1 ) { this . length = 1 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; MST[rv.UOI1Mutator]MSP[N] } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.UOI2Mutator]MSP[N] if ( this . length < 1 ) { this . length = 1 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; MST[rv.AOR1Mutator]MSP[N] } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; MST[InlineConstantMutator]MSP[N] } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.ROR1Mutator]MSP[S]
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[ReturnValsMutator]MSP[S]
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[N] this . length = 1 ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[experimental.MemberVariableMutator]MSP[S] if ( this . length < 1 ) { this . length = 1 ; }
+public static boolean isConversionRequired () MST[rv.CRCR3Mutator]MSP[N] { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+if ( _noConversionRequired ) { return super . read () ; } return __read () ; MST[ReturnValsMutator]MSP[S] } @Override public int read ( final byte buffer [] ) throws IOException { return read ( buffer , 0 , buffer . length ) ; } @Override
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { MST[rv.ABSMutator]MSP[S] buffer [ offset ++ ] = ( byte ) ch ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.UOI1Mutator]MSP[N]
+public static boolean isConversionRequired () { return ! _noConversionRequired ; MST[ReturnValsMutator]MSP[N] } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.AOR1Mutator]MSP[S]
+unread ( _lineSeparatorBytes ) ; ch = super . read () ; -- length ; } else { if ( ch != - 1 ) { unread ( ch ) ; } return '\r' ; } } return ch ; MST[rv.UOI3Mutator]MSP[S] } @Override public int read () throws IOException {
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { return 0 ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[NegateConditionalsMutator]MSP[S] this . length = 1 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; MST[rv.UOI1Mutator]MSP[N] } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) MST[rv.UOI2Mutator]MSP[S] { ch = super . read () ; if ( ch == '\n' ) {
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[rv.CRCR5Mutator]MSP[S] return 0 ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.ROR4Mutator]MSP[N]
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.ROR5Mutator]MSP[N] if ( this . length < 1 ) { this . length = 1 ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.ROR2Mutator]MSP[S]
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[rv.AOD1Mutator]MSP[S]
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.CRCR5Mutator]MSP[S]
+public static boolean isConversionRequired () { return ! _noConversionRequired ; MST[rv.ROR4Mutator]MSP[N] } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[rv.UOI4Mutator]MSP[S] this . length = 1 ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[NegateConditionalsMutator]MSP[S]
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[rv.ROR5Mutator]MSP[S] return 0 ; }
+if ( _noConversionRequired ) { return super . read () ; } return __read () ; } @Override public int read ( final byte buffer [] ) throws IOException MST[ArgumentPropagationMutator]MSP[S] { return read ( buffer , 0 , buffer . length ) ; } @Override
+public static boolean isConversionRequired () { return ! _noConversionRequired ; MST[rv.CRCR6Mutator]MSP[N] } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { MST[rv.UOI4Mutator]MSP[N] buffer [ offset ++ ] = ( byte ) ch ; }
+if ( _noConversionRequired ) { return super . read () ; } return __read () ; } @Override public int read ( final byte buffer [] ) throws IOException MST[InlineConstantMutator]MSP[S] { return read ( buffer , 0 , buffer . length ) ; } @Override
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException MST[NegateConditionalsMutator]MSP[N] { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { return 0 ; }
+if ( ( ch = __read () ) == - 1 ) { MST[rv.ROR1Mutator]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+if ( ( ch = __read () ) == - 1 ) { MST[rv.ROR3Mutator]MSP[N] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+if ( ( ch = __read () ) == - 1 ) { MST[rv.CRCR2Mutator]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[MathMutator]MSP[S]
+unread ( _lineSeparatorBytes ) ; ch = super . read () ; -- length ; } else { if ( ch != - 1 ) { unread ( ch ) ; } return '\r' ; } } return ch ; MST[PrimitiveReturnsMutator]MSP[S] } @Override public int read () throws IOException {
+if ( ( ch = __read () ) == - 1 ) { MST[rv.CRCR6Mutator]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.UOI1Mutator]MSP[N] if ( this . length < 1 ) { this . length = 1 ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[S] this . length = 1 ; }
+unread ( _lineSeparatorBytes ) ; ch = super . read () ; -- length ; } else { if ( ch != - 1 ) { unread ( ch ) ; } return '\r' ; } } return ch ; MST[rv.ABSMutator]MSP[S] } @Override public int read () throws IOException {
+if ( ( ch = __read () ) == - 1 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+if ( ( ch = __read () ) == - 1 ) { MST[rv.CRCR1Mutator]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[NonVoidMethodCallMutator]MSP[S]
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.ROR4Mutator]MSP[S] if ( this . length < 1 ) { this . length = 1 ; }
+unread ( _lineSeparatorBytes ) ; ch = super . read () ; -- length ; } else { if ( ch != - 1 ) { unread ( ch ) ; } return '\r' ; } } return ch ; } @Override public int read () throws IOException MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] {
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.CRCR4Mutator]MSP[S]
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[RemoveConditionalMutator_ORDER_ELSE]MSP[N] if ( this . length < 1 ) { this . length = 1 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[rv.AOR3Mutator]MSP[S]
+public static boolean isConversionRequired () { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) MST[rv.UOI3Mutator]MSP[S] { ch = super . read () ; if ( ch == '\n' ) {
+public static boolean isConversionRequired () { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; MST[NonVoidMethodCallMutator]MSP[S] if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[rv.ROR4Mutator]MSP[S] return 0 ; }
+unread ( _lineSeparatorBytes ) ; ch = super . read () ; -- length ; } else { if ( ch != - 1 ) { unread ( ch ) ; } return '\r' ; } } return ch ; } @Override public int read () throws IOException MST[rv.ROR1Mutator]MSP[N] {
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; MST[rv.ABSMutator]MSP[N] do { buffer [ offset ++ ] = ( byte ) ch ; }
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException MST[rv.ROR5Mutator]MSP[N] { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { return 0 ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[rv.CRCR4Mutator]MSP[N] this . length = 1 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; MST[PrimitiveReturnsMutator]MSP[S] } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; }
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[InlineConstantMutator]MSP[S] return 0 ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[InlineConstantMutator]MSP[S]
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[rv.UOI1Mutator]MSP[N]
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.AOR3Mutator]MSP[S]
+public static boolean isConversionRequired () { return ! _noConversionRequired ; MST[BooleanTrueReturnValsMutator]MSP[N] } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+public static boolean isConversionRequired () { return ! _noConversionRequired ; MST[rv.ROR2Mutator]MSP[N] } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[S] return 0 ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] { ch = super . read () ; if ( ch == '\n' ) {
+public static boolean isConversionRequired () MST[rv.CRCR6Mutator]MSP[N] { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[rv.AOR2Mutator]MSP[S]
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[rv.CRCR3Mutator]MSP[S] return 0 ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[RemoveConditionalMutator_EQUAL_IF]MSP[S]
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[ConditionalsBoundaryMutator]MSP[S]
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; MST[rv.UOI2Mutator]MSP[S] do { buffer [ offset ++ ] = ( byte ) ch ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.CRCR6Mutator]MSP[N]
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.CRCR2Mutator]MSP[S]
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[S] return 0 ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { MST[rv.UOI4Mutator]MSP[S] buffer [ offset ++ ] = ( byte ) ch ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) MST[rv.CRCR5Mutator]MSP[N] { ch = super . read () ; if ( ch == '\n' ) {
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[rv.CRCR2Mutator]MSP[N] this . length = 1 ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) MST[rv.ROR1Mutator]MSP[N] { ch = super . read () ; if ( ch == '\n' ) {
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[rv.ROR3Mutator]MSP[N] this . length = 1 ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[RemoveConditionalMutator_ORDER_IF]MSP[S] if ( this . length < 1 ) { this . length = 1 ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.ABSMutator]MSP[S] if ( this . length < 1 ) { this . length = 1 ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.UOI2Mutator]MSP[N] if ( this . length < 1 ) { this . length = 1 ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.UOI3Mutator]MSP[S] if ( this . length < 1 ) { this . length = 1 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; MST[rv.UOI2Mutator]MSP[N] } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; MST[rv.AOR2Mutator]MSP[S] } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; }
+if ( _noConversionRequired ) { return super . read () ; } return __read () ; } @Override public int read ( final byte buffer [] ) throws IOException MST[rv.CRCR3Mutator]MSP[S] { return read ( buffer , 0 , buffer . length ) ; } @Override
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.ROR3Mutator]MSP[N]
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[InlineConstantMutator]MSP[N] this . length = 1 ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) MST[rv.ABSMutator]MSP[N] { ch = super . read () ; if ( ch == '\n' ) {
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[NegateConditionalsMutator]MSP[S] if ( this . length < 1 ) { this . length = 1 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; MST[MathMutator]MSP[N] } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; }
+public static boolean isConversionRequired () MST[rv.CRCR1Mutator]MSP[N] { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[NegateConditionalsMutator]MSP[S] return 0 ; }
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException MST[rv.ROR4Mutator]MSP[N] { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { return 0 ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.CRCR1Mutator]MSP[N]
+unread ( _lineSeparatorBytes ) ; ch = super . read () ; -- length ; } else { if ( ch != - 1 ) { unread ( ch ) ; } return '\r' ; } } return ch ; MST[ReturnValsMutator]MSP[S] } @Override public int read () throws IOException {
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[rv.CRCR3Mutator]MSP[N] this . length = 1 ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.UOI2Mutator]MSP[N]
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.AOR2Mutator]MSP[S]
+unread ( _lineSeparatorBytes ) ; ch = super . read () ; -- length ; } else { if ( ch != - 1 ) { unread ( ch ) ; } return '\r' ; } } return ch ; MST[rv.UOI4Mutator]MSP[S] } @Override public int read () throws IOException {
+if ( _noConversionRequired ) { return super . read () ; } return __read () ; MST[NonVoidMethodCallMutator]MSP[S] } @Override public int read ( final byte buffer [] ) throws IOException { return read ( buffer , 0 , buffer . length ) ; } @Override
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; MST[rv.UOI2Mutator]MSP[N] } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.UOI1Mutator]MSP[S] if ( this . length < 1 ) { this . length = 1 ; }
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[rv.UOI1Mutator]MSP[S] return 0 ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[experimental.MemberVariableMutator]MSP[N] this . length = 1 ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; MST[rv.CRCR2Mutator]MSP[N] } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+if ( _noConversionRequired ) { return super . read () ; } return __read () ; } @Override public int read ( final byte buffer [] ) throws IOException MST[NonVoidMethodCallMutator]MSP[S] { return read ( buffer , 0 , buffer . length ) ; } @Override
+if ( ( ch = __read () ) == - 1 ) { MST[rv.ROR2Mutator]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { MST[rv.UOI1Mutator]MSP[N] buffer [ offset ++ ] = ( byte ) ch ; }
+unread ( _lineSeparatorBytes ) ; ch = super . read () ; -- length ; } else { if ( ch != - 1 ) { unread ( ch ) ; } return '\r' ; } } return ch ; } @Override public int read () throws IOException MST[rv.ROR2Mutator]MSP[N] {
+if ( ( ch = __read () ) == - 1 ) { MST[rv.CRCR1Mutator]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[MathMutator]MSP[S]
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.UOI2Mutator]MSP[N] if ( this . length < 1 ) { this . length = 1 ; }
+if ( ( ch = __read () ) == - 1 ) { MST[rv.CRCR5Mutator]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+if ( ( ch = __read () ) == - 1 ) { MST[rv.CRCR2Mutator]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+if ( ( ch = __read () ) == - 1 ) { MST[rv.CRCR6Mutator]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.ROR1Mutator]MSP[S]
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.ABSMutator]MSP[S] if ( this . length < 1 ) { this . length = 1 ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[rv.UOI1Mutator]MSP[S] this . length = 1 ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.ROR5Mutator]MSP[S]
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[rv.CRCR6Mutator]MSP[S] return 0 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[rv.AOR3Mutator]MSP[S]
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[rv.CRCR2Mutator]MSP[S] return 0 ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { MST[IncrementsMutator]MSP[S] buffer [ offset ++ ] = ( byte ) ch ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; MST[rv.CRCR5Mutator]MSP[N] } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; MST[rv.UOI3Mutator]MSP[S] do { buffer [ offset ++ ] = ( byte ) ch ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[MathMutator]MSP[S]
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[InlineConstantMutator]MSP[S] return 0 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[rv.UOI2Mutator]MSP[S]
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; MST[rv.AOD2Mutator]MSP[S] } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.AOR4Mutator]MSP[S]
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.UOI3Mutator]MSP[S]
+unread ( _lineSeparatorBytes ) ; ch = super . read () ; -- length ; } else { if ( ch != - 1 ) { unread ( ch ) ; } return '\r' ; } } return ch ; MST[rv.UOI1Mutator]MSP[N] } @Override public int read () throws IOException {
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; MST[rv.UOI3Mutator]MSP[S] } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.ROR3Mutator]MSP[S] if ( this . length < 1 ) { this . length = 1 ; }
+public static boolean isConversionRequired () MST[experimental.MemberVariableMutator]MSP[N] { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+if ( ( ch = __read () ) == - 1 ) { MST[PrimitiveReturnsMutator]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.ROR2Mutator]MSP[S]
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.CRCR3Mutator]MSP[S]
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[rv.CRCR3Mutator]MSP[S] return 0 ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) MST[rv.UOI4Mutator]MSP[S] { ch = super . read () ; if ( ch == '\n' ) {
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[NegateConditionalsMutator]MSP[S]
+if ( _noConversionRequired ) { return super . read () ; } return __read () ; } @Override public int read ( final byte buffer [] ) throws IOException MST[PrimitiveReturnsMutator]MSP[S] { return read ( buffer , 0 , buffer . length ) ; } @Override
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[rv.ROR3Mutator]MSP[S] return 0 ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+public static boolean isConversionRequired () { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) MST[rv.CRCR1Mutator]MSP[N] { ch = super . read () ; if ( ch == '\n' ) {
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { MST[rv.UOI1Mutator]MSP[S] buffer [ offset ++ ] = ( byte ) ch ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) MST[rv.CRCR4Mutator]MSP[N] { ch = super . read () ; if ( ch == '\n' ) {
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[rv.CRCR5Mutator]MSP[N] this . length = 1 ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[rv.CRCR6Mutator]MSP[N] this . length = 1 ; }
+if ( ( ch = __read () ) == - 1 ) { MST[InlineConstantMutator]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[rv.ROR2Mutator]MSP[S] this . length = 1 ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.UOI3Mutator]MSP[N] if ( this . length < 1 ) { this . length = 1 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; MST[rv.UOI3Mutator]MSP[S] } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; }
+if ( _noConversionRequired ) { return super . read () ; } return __read () ; } @Override public int read ( final byte buffer [] ) throws IOException MST[rv.CRCR6Mutator]MSP[S] { return read ( buffer , 0 , buffer . length ) ; } @Override
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.UOI4Mutator]MSP[S] if ( this . length < 1 ) { this . length = 1 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; MST[rv.AOR3Mutator]MSP[S] } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.ABSMutator]MSP[N] if ( this . length < 1 ) { this . length = 1 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; MST[rv.ABSMutator]MSP[S] } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; }
+if ( _noConversionRequired ) { return super . read () ; } return __read () ; } @Override public int read ( final byte buffer [] ) throws IOException MST[rv.CRCR1Mutator]MSP[S] { return read ( buffer , 0 , buffer . length ) ; } @Override
+public static boolean isConversionRequired () { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) MST[rv.ROR5Mutator]MSP[S] { ch = super . read () ; if ( ch == '\n' ) {
+public static boolean isConversionRequired () MST[rv.CRCR5Mutator]MSP[N] { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[rv.AOD2Mutator]MSP[S]
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.CRCR5Mutator]MSP[S]
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[ConditionalsBoundaryMutator]MSP[S] return 0 ; }
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[rv.UOI2Mutator]MSP[S] return 0 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[rv.UOI3Mutator]MSP[S]
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[rv.CRCR2Mutator]MSP[N] this . length = 1 ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; MST[rv.ROR1Mutator]MSP[N] } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.UOI2Mutator]MSP[S] if ( this . length < 1 ) { this . length = 1 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; MST[rv.ABSMutator]MSP[N] } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[InlineConstantMutator]MSP[N] this . length = 1 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[rv.AOR4Mutator]MSP[S]
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.ABSMutator]MSP[S]
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { return 0 ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; MST[NegateConditionalsMutator]MSP[N] } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+public static boolean isConversionRequired () { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) MST[rv.ROR2Mutator]MSP[N] { ch = super . read () ; if ( ch == '\n' ) {
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[RemoveConditionalMutator_ORDER_ELSE]MSP[S]
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; MST[rv.UOI4Mutator]MSP[S] do { buffer [ offset ++ ] = ( byte ) ch ; }
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException MST[rv.ROR3Mutator]MSP[N] { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { return 0 ; }
+unread ( _lineSeparatorBytes ) ; ch = super . read () ; -- length ; } else { if ( ch != - 1 ) { unread ( ch ) ; } return '\r' ; } } return ch ; } @Override public int read () throws IOException MST[rv.ROR5Mutator]MSP[N] {
+if ( ( ch = __read () ) == - 1 ) { MST[rv.ROR5Mutator]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { MST[rv.UOI2Mutator]MSP[N] buffer [ offset ++ ] = ( byte ) ch ; }
+unread ( _lineSeparatorBytes ) ; ch = super . read () ; -- length ; } else { if ( ch != - 1 ) { unread ( ch ) ; } return '\r' ; } } return ch ; } @Override public int read () throws IOException MST[rv.ROR3Mutator]MSP[N] {
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { MST[ConstructorCallMutator]MSP[S] throw new IOException ( lr_1 ) ; }
+if ( _noConversionRequired ) { return super . read () ; } return __read () ; } @Override public int read ( final byte buffer [] ) throws IOException MST[ReturnValsMutator]MSP[S] { return read ( buffer , 0 , buffer . length ) ; } @Override
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[rv.AOR1Mutator]MSP[S]
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.UOI3Mutator]MSP[N] if ( this . length < 1 ) { this . length = 1 ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.ROR2Mutator]MSP[S] if ( this . length < 1 ) { this . length = 1 ; }
+if ( ( ch = __read () ) == - 1 ) { MST[rv.CRCR4Mutator]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+if ( ( ch = __read () ) == - 1 ) { MST[rv.CRCR5Mutator]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[rv.CRCR6Mutator]MSP[S] return 0 ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.CRCR6Mutator]MSP[S]
+if ( ( ch = __read () ) == - 1 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.CRCR2Mutator]MSP[S]
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[rv.ROR2Mutator]MSP[S] return 0 ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) MST[rv.UOI1Mutator]MSP[S] { ch = super . read () ; if ( ch == '\n' ) {
+public static boolean isConversionRequired () MST[InlineConstantMutator]MSP[N] { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[InlineConstantMutator]MSP[S]
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { MST[rv.ABSMutator]MSP[N] buffer [ offset ++ ] = ( byte ) ch ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[ConditionalsBoundaryMutator]MSP[N] if ( this . length < 1 ) { this . length = 1 ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.AOD1Mutator]MSP[S]
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[rv.UOI3Mutator]MSP[S] return 0 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; MST[rv.AOD1Mutator]MSP[N] } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; }
+if ( ( ch = __read () ) == - 1 ) { MST[NegateConditionalsMutator]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[RemoveConditionalMutator_ORDER_IF]MSP[S]
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.UOI4Mutator]MSP[S]
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[rv.ABSMutator]MSP[S] this . length = 1 ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.UOI3Mutator]MSP[S] if ( this . length < 1 ) { this . length = 1 ; }
+unread ( _lineSeparatorBytes ) ; ch = super . read () ; -- length ; } else { if ( ch != - 1 ) { unread ( ch ) ; } return '\r' ; } } return ch ; MST[rv.UOI2Mutator]MSP[N] } @Override public int read () throws IOException {
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; MST[rv.UOI4Mutator]MSP[S] } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) MST[NegateConditionalsMutator]MSP[S] { ch = super . read () ; if ( ch == '\n' ) {
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[rv.UOI2Mutator]MSP[S] this . length = 1 ; }
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.ROR4Mutator]MSP[N]
+if ( ( ch = __read () ) == - 1 ) { MST[ReturnValsMutator]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+unread ( _lineSeparatorBytes ) ; ch = super . read () ; -- length ; } else { if ( ch != - 1 ) { unread ( ch ) ; } return '\r' ; } } return ch ; } @Override public int read () throws IOException MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] {
+public static boolean isConversionRequired () { return ! _noConversionRequired ; MST[rv.CRCR4Mutator]MSP[N] } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException MST[rv.ROR1Mutator]MSP[N] { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { return 0 ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) MST[rv.CRCR2Mutator]MSP[S] { ch = super . read () ; if ( ch == '\n' ) {
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N]
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { MST[rv.UOI2Mutator]MSP[S] buffer [ offset ++ ] = ( byte ) ch ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[rv.ABSMutator]MSP[S]
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[rv.CRCR4Mutator]MSP[N] this . length = 1 ; }
+if ( ( ch = __read () ) == - 1 ) { MST[InlineConstantMutator]MSP[S] return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[rv.ROR5Mutator]MSP[N] this . length = 1 ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.UOI4Mutator]MSP[N] if ( this . length < 1 ) { this . length = 1 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; MST[rv.UOI4Mutator]MSP[S] } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; MST[rv.AOR4Mutator]MSP[S] } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; }
+if ( _noConversionRequired ) { return super . read () ; } return __read () ; } @Override public int read ( final byte buffer [] ) throws IOException MST[rv.CRCR5Mutator]MSP[S] { return read ( buffer , 0 , buffer . length ) ; } @Override
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.ROR5Mutator]MSP[S]
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[rv.AOD2Mutator]MSP[S]
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[ConditionalsBoundaryMutator]MSP[N] this . length = 1 ; }
+public static boolean isConversionRequired () { return ! _noConversionRequired ; MST[rv.ROR5Mutator]MSP[N] } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) { ch = super . read () ; if ( ch == '\n' ) {
+public static boolean isConversionRequired () { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) MST[rv.ROR3Mutator]MSP[S] { ch = super . read () ; if ( ch == '\n' ) {
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException MST[rv.ROR2Mutator]MSP[N] { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { return 0 ; }
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; if ( this . length < 1 ) { MST[rv.CRCR6Mutator]MSP[N] this . length = 1 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[rv.UOI4Mutator]MSP[S]
+public static boolean isConversionRequired () { return ! _noConversionRequired ; } private int __read () throws IOException { int ch ; ch = super . read () ; if ( ch == '\r' ) MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] { ch = super . read () ; if ( ch == '\n' ) {
+int ch , off ; ch = available () ; this . length = length > ch ? ch : length ; MST[rv.ABSMutator]MSP[N] if ( this . length < 1 ) { this . length = 1 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[rv.AOR4Mutator]MSP[S]
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[rv.ROR1Mutator]MSP[S] return 0 ; }
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[rv.CRCR1Mutator]MSP[S] return 0 ; }
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[rv.CRCR5Mutator]MSP[S] return 0 ; }
+public int read ( final byte buffer [] , int offset , final int length ) throws IOException { if ( _noConversionRequired ) { return super . read ( buffer , offset , length ) ; } if ( length < 1 ) { MST[rv.ABSMutator]MSP[S] return 0 ; }
+while ( -- this . length > 0 && ( ch = __read () ) != - 1 ); return offset - off ; } @Override public int available () throws IOException { if ( in == null ) { throw new IOException ( lr_1 ) ; } MST[rv.AOD1Mutator]MSP[S]
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.AOD2Mutator]MSP[S]
+unread ( _lineSeparatorBytes ) ; ch = super . read () ; -- length ; } else { if ( ch != - 1 ) { unread ( ch ) ; } return '\r' ; } } return ch ; } @Override public int read () throws IOException MST[NegateConditionalsMutator]MSP[N] {
+if ( ( ch = __read () ) == - 1 ) { return - 1 ; } off = offset ; do { buffer [ offset ++ ] = ( byte ) ch ; } MST[rv.CRCR4Mutator]MSP[N]

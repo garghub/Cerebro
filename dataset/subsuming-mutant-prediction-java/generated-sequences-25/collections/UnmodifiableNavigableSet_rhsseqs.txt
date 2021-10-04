@@ -1,0 +1,11 @@
+if ( vr_2 instanceof vl_1 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] return vr_2 ; } return new vr_3 <> ( vr_2 ) ; } @Override
+if ( vr_2 instanceof vl_1 ) { return vr_2 ; } return new vr_3 <> ( vr_2 ) ; MST[NullReturnValsMutator]MSP[S] } @Override
+if ( vr_2 instanceof vl_1 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return vr_2 ; } return new vr_3 <> ( vr_2 ) ; } @Override
+if ( vr_2 instanceof vl_1 ) { MST[rv.ROR3Mutator]MSP[N] return vr_2 ; } return new vr_3 <> ( vr_2 ) ; } @Override
+if ( vr_2 instanceof vl_1 ) { MST[rv.ROR2Mutator]MSP[N] return vr_2 ; } return new vr_3 <> ( vr_2 ) ; } @Override
+if ( vr_2 instanceof vl_1 ) { MST[rv.ROR1Mutator]MSP[N] return vr_2 ; } return new vr_3 <> ( vr_2 ) ; } @Override
+if ( vr_2 instanceof vl_1 ) { MST[rv.ROR5Mutator]MSP[N] return vr_2 ; } return new vr_3 <> ( vr_2 ) ; } @Override
+if ( vr_2 instanceof vl_1 ) { MST[rv.ROR4Mutator]MSP[N] return vr_2 ; } return new vr_3 <> ( vr_2 ) ; } @Override
+if ( vr_2 instanceof vl_1 ) { return vr_2 ; } return new vr_3 <> ( vr_2 ) ; MST[ReturnValsMutator]MSP[S] } @Override
+if ( vr_2 instanceof vl_1 ) { return vr_2 ; } return new vr_3 <> ( vr_2 ) ; MST[ConstructorCallMutator]MSP[S] } @Override
+if ( vr_2 instanceof vl_1 ) { MST[NegateConditionalsMutator]MSP[N] return vr_2 ; } return new vr_3 <> ( vr_2 ) ; } @Override

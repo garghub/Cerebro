@@ -1,0 +1,5 @@
+public static boolean fn_1 ( final tp_1 vr_1 , final Object vr_2 ) { return vr_2 != null && vr_1 instanceof vl_1
+&& vr_2 . equals ( ( ( vl_1 ) vr_1 ) . vr_2 ) ; }
+public static void fn_2 ( final tp_1 vr_1 , final Object vr_2 ) throws IOException {
+if ( fn_1 ( vr_1 , vr_2 ) ) { throw ( ( vl_1 ) vr_1 ) . fn_3 () ; } }
+public tp_2 fn_4 () { return vr_2 ; } @Override public IOException fn_3 () { return ( IOException ) super . fn_3 () ; }

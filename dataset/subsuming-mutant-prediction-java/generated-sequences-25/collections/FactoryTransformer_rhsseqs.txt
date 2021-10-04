@@ -1,0 +1,10 @@
+return new vr_4 <> ( vr_5 . vr_6 ( vr_3 , lr_1 ) ) ; MST[ConstructorCallMutator]MSP[N] } @Override
+return new vr_4 <> ( vr_5 . vr_6 ( vr_3 , lr_1 ) ) ; MST[NullReturnValsMutator]MSP[N] } @Override
+public vt_2 fn_2 ( final vt_1 vr_7 ) { return vr_8 . vr_9 () ; MST[NonVoidMethodCallMutator]MSP[S] }
+return new vr_4 <> ( vr_5 . vr_6 ( vr_3 , lr_1 ) ) ; MST[ReturnValsMutator]MSP[N] } @Override
+return new vr_4 <> ( vr_5 . vr_6 ( vr_3 , lr_1 ) ) ; MST[NonVoidMethodCallMutator]MSP[N] } @Override
+public vt_2 fn_2 ( final vt_1 vr_7 ) { return vr_8 . vr_9 () ; MST[NullReturnValsMutator]MSP[S] }
+public vr_2 < ? extends vt_2 > fn_3 () { return vr_8 ; MST[ReturnValsMutator]MSP[N] }
+return new vr_4 <> ( vr_5 . vr_6 ( vr_3 , lr_1 ) ) ; MST[ArgumentPropagationMutator]MSP[S] } @Override
+public vt_2 fn_2 ( final vt_1 vr_7 ) { return vr_8 . vr_9 () ; MST[ReturnValsMutator]MSP[N] }
+public vr_2 < ? extends vt_2 > fn_3 () { return vr_8 ; MST[NullReturnValsMutator]MSP[S] }

@@ -1,0 +1,16 @@
+@Deprecated public static tp_1 fn_1 ( final char vr_1 ) { return tp_1 . valueOf ( vr_1 ) ; } public static tp_1 fn_1 ( final String vr_2 ) { if ( vr_3 . isEmpty ( vr_2 ) ) { return null ; }
+return tp_1 . valueOf ( vr_2 . charAt ( 0 ) ) ; } public static char fn_2 ( final tp_1 vr_1 ) { if ( vr_1 == null ) { throw new IllegalArgumentException ( lr_1 ) ; } return vr_1 . vr_4 () ; }
+public static char fn_2 ( final tp_1 vr_1 , final char vr_5 ) { if ( vr_1 == null ) { return vr_5 ; } return vr_1 . vr_4 () ; } public static char fn_2 ( final String vr_2 ) {
+if ( vr_3 . isEmpty ( vr_2 ) ) { throw new IllegalArgumentException ( lr_2 ) ; } return vr_2 . charAt ( 0 ) ; } public static char fn_2 ( final String vr_2 , final char vr_5 ) {
+if ( vr_3 . isEmpty ( vr_2 ) ) { return vr_5 ; } return vr_2 . charAt ( 0 ) ; } public static int fn_3 ( final char vr_1 ) { if ( fn_4 ( vr_1 ) == false ) {
+throw new IllegalArgumentException ( lr_3 + vr_1 + lr_4 ) ; } return vr_1 - 48 ; } public static int fn_3 ( final char vr_1 , final int vr_5 ) { if ( fn_4 ( vr_1 ) == false ) { return vr_5 ; }
+return vr_1 - 48 ; } public static int fn_3 ( final tp_1 vr_1 ) { if ( vr_1 == null ) { throw new IllegalArgumentException ( lr_5 ) ; } return fn_3 ( vr_1 . vr_4 () ) ; }
+public static int fn_3 ( final tp_1 vr_1 , final int vr_5 ) { if ( vr_1 == null ) { return vr_5 ; } return fn_3 ( vr_1 . vr_4 () , vr_5 ) ; } public static String toString ( final char vr_1 ) {
+if ( vr_1 < 128 ) { return vr_6 [ vr_1 ] ; } return new String ( new char [] { vr_1 } ) ; } public static String toString ( final tp_1 vr_1 ) { if ( vr_1 == null ) { return null ; }
+return toString ( vr_1 . vr_4 () ) ; } public static String fn_5 ( final char vr_1 ) { StringBuilder vr_7 = new StringBuilder ( 6 ) ; vr_7 . append ( lr_6 ) ;
+vr_7 . append ( vr_8 [ ( vr_1 >> 12 ) & 15 ] ) ; vr_7 . append ( vr_8 [ ( vr_1 >> 8 ) & 15 ] ) ; vr_7 . append ( vr_8 [ ( vr_1 >> 4 ) & 15 ] ) ;
+vr_7 . append ( vr_8 [ ( vr_1 ) & 15 ] ) ; return vr_7 . toString () ; } public static String fn_5 ( final tp_1 vr_1 ) { if ( vr_1 == null ) { return null ; }
+return fn_5 ( vr_1 . vr_4 () ) ; } public static boolean isAscii ( final char vr_1 ) { return vr_1 < 128 ; } public static boolean fn_6 ( final char vr_1 ) { return vr_1 >= 32 && vr_1 < 127 ; }
+public static boolean fn_7 ( final char vr_1 ) { return vr_1 < 32 || vr_1 == 127 ; } public static boolean fn_8 ( final char vr_1 ) { return fn_9 ( vr_1 ) || fn_10 ( vr_1 ) ; }
+public static boolean fn_9 ( final char vr_1 ) { return vr_1 >= 'A' && vr_1 <= 'Z' ; } public static boolean fn_10 ( final char vr_1 ) { return vr_1 >= 'a' && vr_1 <= 'z' ; } public static boolean fn_4 ( final char vr_1 ) {
+return vr_1 >= '0' && vr_1 <= '9' ; } public static boolean fn_11 ( final char vr_1 ) { return fn_8 ( vr_1 ) || fn_4 ( vr_1 ) ; } public static int fn_12 ( char vr_9 , char vr_10 ) { return vr_9 - vr_10 ; }

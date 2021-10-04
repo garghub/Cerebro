@@ -1,0 +1,4 @@
+@Override public boolean fn_1 ( final tp_1 vr_1 ) { return vr_1 . vr_2 () ; MST[BooleanFalseReturnValsMutator]MSP[S] }
+@Override public boolean fn_1 ( final tp_1 vr_1 ) { return vr_1 . vr_2 () ; MST[NonVoidMethodCallMutator]MSP[S] }
+@Override public boolean fn_1 ( final tp_1 vr_1 ) { return vr_1 . vr_2 () ; MST[BooleanTrueReturnValsMutator]MSP[S] }
+@Override public boolean fn_1 ( final tp_1 vr_1 ) { return vr_1 . vr_2 () ; MST[ReturnValsMutator]MSP[N] }

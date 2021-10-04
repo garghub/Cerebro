@@ -1,0 +1,45 @@
+public int fn_3 ( final vt_1 vr_5 ) { return vr_5 == null ? vl_1 : vr_5 . vr_6 () ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] }
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[rv.CRCR1Mutator]MSP[N] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[rv.CRCR2Mutator]MSP[N] } @Override
+public int fn_3 ( final vt_1 vr_5 ) { return vr_5 == null ? vl_1 : vr_5 . vr_6 () ; MST[rv.ROR5Mutator]MSP[S] }
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[InlineConstantMutator]MSP[N] } @Override
+public int fn_3 ( final vt_1 vr_5 ) { return vr_5 == null ? vl_1 : vr_5 . vr_6 () ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] }
+public int fn_3 ( final vt_1 vr_5 ) { return vr_5 == null ? vl_1 : vr_5 . vr_6 () ; MST[PrimitiveReturnsMutator]MSP[S] }
+public int fn_3 ( final vt_1 vr_5 ) { return vr_5 == null ? vl_1 : vr_5 . vr_6 () ; MST[NegateConditionalsMutator]MSP[S] }
+public int fn_3 ( final vt_1 vr_5 ) { return vr_5 == null ? vl_1 : vr_5 . vr_6 () ; MST[ReturnValsMutator]MSP[S] }
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[BooleanTrueReturnValsMutator]MSP[N] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[rv.ROR1Mutator]MSP[N] } @Override
+public int fn_3 ( final vt_1 vr_5 ) { return vr_5 == null ? vl_1 : vr_5 . vr_6 () ; MST[rv.CRCR5Mutator]MSP[S] }
+public int fn_3 ( final vt_1 vr_5 ) { return vr_5 == null ? vl_1 : vr_5 . vr_6 () ; MST[rv.CRCR6Mutator]MSP[S] }
+public int fn_3 ( final vt_1 vr_5 ) { return vr_5 == null ? vl_1 : vr_5 . vr_6 () ; MST[NonVoidMethodCallMutator]MSP[N] }
+public int fn_3 ( final vt_1 vr_5 ) { return vr_5 == null ? vl_1 : vr_5 . vr_6 () ; MST[rv.CRCR4Mutator]MSP[S] }
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[rv.ROR3Mutator]MSP[N] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[rv.ROR2Mutator]MSP[N] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[rv.ROR4Mutator]MSP[S] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[rv.CRCR6Mutator]MSP[N] } @Override
+public int fn_3 ( final vt_1 vr_5 ) { return vr_5 == null ? vl_1 : vr_5 . vr_6 () ; MST[rv.CRCR2Mutator]MSP[S] }
+public int fn_3 ( final vt_1 vr_5 ) { return vr_5 == null ? vl_1 : vr_5 . vr_6 () ; MST[rv.CRCR1Mutator]MSP[S] }
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[InlineConstantMutator]MSP[N] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[NonVoidMethodCallMutator]MSP[S] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[rv.CRCR5Mutator]MSP[N] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[rv.CRCR3Mutator]MSP[N] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[rv.CRCR4Mutator]MSP[N] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[rv.CRCR5Mutator]MSP[N] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[NegateConditionalsMutator]MSP[N] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[rv.CRCR3Mutator]MSP[N] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[rv.CRCR6Mutator]MSP[N] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[NegateConditionalsMutator]MSP[N] } @Override
+public static < vt_1 > vr_1 < vt_1 > fn_1 () { return vr_1 . vr_2 ; MST[NullReturnValsMutator]MSP[N] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[rv.ROR5Mutator]MSP[N] } @Override
+public int fn_3 ( final vt_1 vr_5 ) { return vr_5 == null ? vl_1 : vr_5 . vr_6 () ; MST[InlineConstantMutator]MSP[S] }
+public static < vt_1 > vr_1 < vt_1 > fn_1 () { return vr_1 . vr_2 ; MST[ReturnValsMutator]MSP[N] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[rv.ROR5Mutator]MSP[N] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[ReturnValsMutator]MSP[N] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[rv.ROR5Mutator]MSP[N] } @Override
+return vr_3 == vr_4 || vr_3 != null && vr_3 . equals ( vr_4 ) ; MST[NegateConditionalsMutator]MSP[N] } @Override

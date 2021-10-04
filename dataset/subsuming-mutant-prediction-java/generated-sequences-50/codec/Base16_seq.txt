@@ -1,0 +1,13 @@
+@Override void fn_1 ( final byte [] vr_1 , int vr_2 , final int length , final tp_1 vr_3 ) { if ( vr_3 . vr_4 || length < 0 ) { vr_3 . vr_4 = true ; if ( vr_3 . vr_5 != 0 ) { fn_2 () ;
+} return; } final int vr_6 = vr_7 . vr_8 ( vr_1 . length - vr_2 , length ) ; final int vr_9 = ( vr_3 . vr_5 != 0 ? 1 : 0 ) + vr_6 ; if ( vr_9 == 1 && vr_9 == vr_6 ) {
+vr_3 . vr_5 = fn_3 ( vr_1 [ vr_2 ] ) + 1 ; return; } final int vr_10 = vr_9 % vl_1 == 0 ? vr_9 : vr_9 - 1 ; final byte [] vr_11 = fn_4 ( vr_10 / vl_1 , vr_3 ) ; int vr_12 ;
+int vr_13 = 0 ; if ( vr_6 < vr_9 ) { vr_12 = ( vr_3 . vr_5 - 1 ) << vl_2 ; vr_12 |= fn_3 ( vr_1 [ vr_2 ++ ] ) ; vr_13 = 2 ;
+vr_11 [ vr_3 . vr_14 ++ ] = ( byte ) vr_12 ; vr_3 . vr_5 = 0 ; } while ( vr_13 < vr_10 ) { vr_12 = fn_3 ( vr_1 [ vr_2 ++ ] ) << vl_2 ;
+vr_12 |= fn_3 ( vr_1 [ vr_2 ++ ] ) ; vr_13 += 2 ; vr_11 [ vr_3 . vr_14 ++ ] = ( byte ) vr_12 ; } if ( vr_13 < vr_6 ) { vr_3 . vr_5 = fn_3 ( vr_1 [ vr_13 ] ) + 1 ;
+} } private int fn_3 ( final byte vr_15 ) { int vr_16 = - 1 ; if ( ( vr_15 & 0xff ) < vr_17 . length ) { vr_16 = vr_17 [ vr_15 ] ; } if ( vr_16 == - 1 ) {
+throw new IllegalArgumentException ( lr_1 + ( int ) vr_15 ) ; } return vr_16 ; } @Override void fn_5 ( final byte [] vr_1 , final int vr_2 , final int length , final tp_1 vr_3 ) { if ( vr_3 . vr_4 ) { return; }
+if ( length < 0 ) { vr_3 . vr_4 = true ; return; } final int size = length * vl_1 ; if ( size < 0 ) { throw new IllegalArgumentException ( lr_2 + length ) ; }
+final byte [] vr_11 = fn_4 ( size , vr_3 ) ; final int vr_18 = vr_2 + length ; for ( int vr_13 = vr_2 ; vr_13 < vr_18 ; vr_13 ++ ) { final int vr_19 = vr_1 [ vr_13 ] ;
+final int vr_20 = ( vr_19 >> vl_2 ) & vl_3 ; final int vr_21 = vr_19 & vl_3 ; vr_11 [ vr_3 . vr_14 ++ ] = vr_22 [ vr_20 ] ; vr_11 [ vr_3 . vr_14 ++ ] = vr_22 [ vr_21 ] ; } } @Override
+public boolean fn_6 ( final byte vr_15 ) { return ( vr_15 & 0xff ) < vr_17 . length && vr_17 [ vr_15 ] != - 1 ; } private void fn_2 () { if ( fn_7 () ) { throw new IllegalArgumentException ( lr_3 + lr_4 +
+lr_5 ) ; } }

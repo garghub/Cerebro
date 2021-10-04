@@ -1,0 +1,110 @@
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.UOI3Mutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+else if ( ! isInvisibleChar ( c ) ) { MST[rv.UOI4Mutator]MSP[] accum . appendCodePoint ( c ) ; lastWasWhite = false ; reachedNonWhite = true ; } } } public static boolean in ( final String needle , final String ... haystack ) {
+public static String normaliseWhitespace ( String string ) { StringBuilder sb = StringUtil . borrowBuilder () ; appendNormalisedWhitespace ( sb , string , false ) ; MST[rv.CRCR3Mutator]MSP[] return StringUtil . releaseBuilder ( sb ) ; } public static void appendNormalisedWhitespace ( StringBuilder accum , String string , boolean stripLeading ) {
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.UOI2Mutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.ROR2Mutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.CRCR5Mutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.CRCR4Mutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+for ( int i = 0 ; i < width ; i ++ ) out [ i ] = ' ' ; return String . valueOf ( out ) ; MST[ReturnValsMutator]MSP[] } public static boolean isBlank ( String string ) {
+if ( string == null || string . length () == 0 ) return true ; int l = string . length () ; for ( int i = 0 ; i < l ; i ++ ) { MST[rv.UOI1Mutator]MSP[]
+final int len = haystack . length ; for ( int i = 0 ; i < len ; i ++ ) { if ( haystack [ i ] . equals ( needle ) ) MST[rv.ROR4Mutator]MSP[] return true ; } return false ; }
+c = string . codePointAt ( i ) ; if ( isActuallyWhitespace ( c ) ) { if ( ( stripLeading && ! reachedNonWhite ) || lastWasWhite ) MST[rv.UOI3Mutator]MSP[] continue; accum . append ( ' ' ) ; lastWasWhite = true ; }
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[InlineConstantMutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+else if ( ! isInvisibleChar ( c ) ) { accum . appendCodePoint ( c ) ; lastWasWhite = false ; MST[rv.CRCR3Mutator]MSP[] reachedNonWhite = true ; } } } public static boolean in ( final String needle , final String ... haystack ) {
+final int len = haystack . length ; for ( int i = 0 ; i < len ; i ++ ) { MST[rv.ROR2Mutator]MSP[] if ( haystack [ i ] . equals ( needle ) ) return true ; } return false ; }
+final int len = haystack . length ; for ( int i = 0 ; i < len ; i ++ ) { if ( haystack [ i ] . equals ( needle ) ) return true ; MST[rv.CRCR4Mutator]MSP[] } return false ; }
+boolean lastWasWhite = false ; boolean reachedNonWhite = false ; int len = string . length () ; int c ; for ( int i = 0 ; i < len ; i += Character . charCount ( c ) ) { MST[rv.CRCR1Mutator]MSP[]
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.UOI2Mutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.UOI4Mutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+int l = string . length () ; for ( int i = 0 ; i < l ; i ++ ) { if ( ! Character . isDigit ( string . codePointAt ( i ) ) ) MST[rv.ROR1Mutator]MSP[] return false ; } return true ; }
+return abs . toExternalForm () ; } return resolve ( base , relUrl ) . toExternalForm () ; MST[NonVoidMethodCallMutator]MSP[] } catch ( MalformedURLException e ) { return lr_1 ; } } public static StringBuilder borrowBuilder () { synchronized ( builders ) { return builders . empty () ?
+int l = string . length () ; for ( int i = 0 ; i < l ; i ++ ) { if ( ! Character . isDigit ( string . codePointAt ( i ) ) ) return false ; MST[rv.CRCR1Mutator]MSP[] } return true ; }
+int l = string . length () ; for ( int i = 0 ; i < l ; i ++ ) { MST[rv.CRCR5Mutator]MSP[] if ( ! Character . isDigit ( string . codePointAt ( i ) ) ) return false ; } return true ; }
+if ( ! StringUtil . isWhitespace ( string . codePointAt ( i ) ) ) return false ; } return true ; } public static boolean isNumeric ( String string ) { if ( string == null || string . length () == 0 ) return false ; MST[rv.CRCR3Mutator]MSP[]
+if ( string == null || string . length () == 0 ) return true ; MST[rv.CRCR6Mutator]MSP[] int l = string . length () ; for ( int i = 0 ; i < l ; i ++ ) {
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.UOI1Mutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+boolean lastWasWhite = false ; boolean reachedNonWhite = false ; int len = string . length () ; int c ; for ( int i = 0 ; i < len ; i += Character . charCount ( c ) ) { MST[rv.UOI1Mutator]MSP[]
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.CRCR2Mutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+int l = string . length () ; for ( int i = 0 ; i < l ; i ++ ) { MST[ConditionalsBoundaryMutator]MSP[] if ( ! Character . isDigit ( string . codePointAt ( i ) ) ) return false ; } return true ; }
+for ( int i = 0 ; i < width ; i ++ ) out [ i ] = ' ' ; MST[rv.CRCR3Mutator]MSP[] return String . valueOf ( out ) ; } public static boolean isBlank ( String string ) {
+for ( int i = 0 ; i < width ; i ++ ) MST[rv.UOI1Mutator]MSP[] out [ i ] = ' ' ; return String . valueOf ( out ) ; } public static boolean isBlank ( String string ) {
+final int len = haystack . length ; for ( int i = 0 ; i < len ; i ++ ) { if ( haystack [ i ] . equals ( needle ) ) MST[rv.ABSMutator]MSP[] return true ; } return false ; }
+if ( ! StringUtil . isWhitespace ( string . codePointAt ( i ) ) ) return false ; } return true ; MST[rv.CRCR3Mutator]MSP[] } public static boolean isNumeric ( String string ) { if ( string == null || string . length () == 0 ) return false ;
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.ABSMutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+c = string . codePointAt ( i ) ; if ( isActuallyWhitespace ( c ) ) { if ( ( stripLeading && ! reachedNonWhite ) || lastWasWhite ) continue; accum . append ( ' ' ) ; MST[rv.CRCR5Mutator]MSP[] lastWasWhite = true ; }
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; MST[rv.CRCR4Mutator]MSP[] }
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; MST[rv.CRCR1Mutator]MSP[] }
+relUrl = base . getPath () + relUrl ; if ( relUrl . indexOf ( '.' ) == 0 && base . getFile () . indexOf ( '/' ) != 0 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.ROR4Mutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.ROR5Mutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+if ( ! StringUtil . isWhitespace ( string . codePointAt ( i ) ) ) MST[NonVoidMethodCallMutator]MSP[] return false ; } return true ; } public static boolean isNumeric ( String string ) { if ( string == null || string . length () == 0 ) return false ;
+int l = string . length () ; for ( int i = 0 ; i < l ; i ++ ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[] if ( ! Character . isDigit ( string . codePointAt ( i ) ) ) return false ; } return true ; }
+int l = string . length () ; for ( int i = 0 ; i < l ; i ++ ) { MST[rv.UOI2Mutator]MSP[] if ( ! Character . isDigit ( string . codePointAt ( i ) ) ) return false ; } return true ; }
+boolean lastWasWhite = false ; boolean reachedNonWhite = false ; int len = string . length () ; int c ; for ( int i = 0 ; i < len ; i += Character . charCount ( c ) ) { MST[rv.UOI2Mutator]MSP[]
+boolean lastWasWhite = false ; MST[rv.CRCR6Mutator]MSP[] boolean reachedNonWhite = false ; int len = string . length () ; int c ; for ( int i = 0 ; i < len ; i += Character . charCount ( c ) ) {
+if ( ! StringUtil . isWhitespace ( string . codePointAt ( i ) ) ) MST[rv.UOI3Mutator]MSP[] return false ; } return true ; } public static boolean isNumeric ( String string ) { if ( string == null || string . length () == 0 ) return false ;
+relUrl = base . getPath () + relUrl ; if ( relUrl . indexOf ( '.' ) == 0 && base . getFile () . indexOf ( '/' ) != 0 ) { MST[rv.ROR5Mutator]MSP[]
+if ( string == null || string . length () == 0 ) return true ; int l = string . length () ; for ( int i = 0 ; i < l ; i ++ ) { MST[rv.ROR3Mutator]MSP[]
+final int len = haystack . length ; for ( int i = 0 ; i < len ; i ++ ) { if ( haystack [ i ] . equals ( needle ) ) return true ; } return false ; MST[rv.CRCR6Mutator]MSP[] }
+if ( ! StringUtil . isWhitespace ( string . codePointAt ( i ) ) ) return false ; } return true ; MST[rv.CRCR6Mutator]MSP[] } public static boolean isNumeric ( String string ) { if ( string == null || string . length () == 0 ) return false ;
+if ( string == null || string . length () == 0 ) MST[rv.ROR5Mutator]MSP[] return true ; int l = string . length () ; for ( int i = 0 ; i < l ; i ++ ) {
+c = string . codePointAt ( i ) ; if ( isActuallyWhitespace ( c ) ) { if ( ( stripLeading && ! reachedNonWhite ) || lastWasWhite ) MST[rv.ROR4Mutator]MSP[] continue; accum . append ( ' ' ) ; lastWasWhite = true ; }
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[InlineConstantMutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+c = string . codePointAt ( i ) ; if ( isActuallyWhitespace ( c ) ) { if ( ( stripLeading && ! reachedNonWhite ) || lastWasWhite ) MST[rv.ROR1Mutator]MSP[] continue; accum . append ( ' ' ) ; lastWasWhite = true ; }
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+c = string . codePointAt ( i ) ; if ( isActuallyWhitespace ( c ) ) { if ( ( stripLeading && ! reachedNonWhite ) || lastWasWhite ) MST[rv.ROR2Mutator]MSP[] continue; accum . append ( ' ' ) ; lastWasWhite = true ; }
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; MST[rv.CRCR5Mutator]MSP[] }
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.ROR4Mutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.ABSMutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.ROR1Mutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+public static boolean inSorted ( String needle , String [] haystack ) { return Arrays . binarySearch ( haystack , needle ) >= 0 ; } public static URL resolve ( URL base , String relUrl ) throws MalformedURLException { if ( relUrl . startsWith ( lr_3 ) ) MST[NonVoidMethodCallMutator]MSP[]
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.ROR3Mutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+public static boolean inSorted ( String needle , String [] haystack ) { return Arrays . binarySearch ( haystack , needle ) >= 0 ; MST[rv.ROR2Mutator]MSP[] } public static URL resolve ( URL base , String relUrl ) throws MalformedURLException { if ( relUrl . startsWith ( lr_3 ) )
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; MST[rv.ABSMutator]MSP[] }
+else if ( ! isInvisibleChar ( c ) ) { accum . appendCodePoint ( c ) ; MST[NonVoidMethodCallMutator]MSP[] lastWasWhite = false ; reachedNonWhite = true ; } } } public static boolean in ( final String needle , final String ... haystack ) {
+c = string . codePointAt ( i ) ; if ( isActuallyWhitespace ( c ) ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] if ( ( stripLeading && ! reachedNonWhite ) || lastWasWhite ) continue; accum . append ( ' ' ) ; lastWasWhite = true ; }
+c = string . codePointAt ( i ) ; MST[rv.UOI4Mutator]MSP[] if ( isActuallyWhitespace ( c ) ) { if ( ( stripLeading && ! reachedNonWhite ) || lastWasWhite ) continue; accum . append ( ' ' ) ; lastWasWhite = true ; }
+if ( string == null || string . length () == 0 ) MST[rv.ROR2Mutator]MSP[] return true ; int l = string . length () ; for ( int i = 0 ; i < l ; i ++ ) {
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.CRCR4Mutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+final int len = haystack . length ; for ( int i = 0 ; i < len ; i ++ ) { MST[rv.ROR5Mutator]MSP[] if ( haystack [ i ] . equals ( needle ) ) return true ; } return false ; }
+for ( int i = 0 ; i < width ; i ++ ) MST[rv.UOI2Mutator]MSP[] out [ i ] = ' ' ; return String . valueOf ( out ) ; } public static boolean isBlank ( String string ) {
+if ( string == null || string . length () == 0 ) return true ; int l = string . length () ; for ( int i = 0 ; i < l ; i ++ ) { MST[rv.ABSMutator]MSP[]
+public static boolean inSorted ( String needle , String [] haystack ) { return Arrays . binarySearch ( haystack , needle ) >= 0 ; MST[InlineConstantMutator]MSP[] } public static URL resolve ( URL base , String relUrl ) throws MalformedURLException { if ( relUrl . startsWith ( lr_3 ) )
+for ( int i = 0 ; i < width ; i ++ ) MST[rv.CRCR5Mutator]MSP[] out [ i ] = ' ' ; return String . valueOf ( out ) ; } public static boolean isBlank ( String string ) {
+public static boolean isWhitespace ( int c ) { return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' ; MST[rv.CRCR3Mutator]MSP[] } public static boolean isActuallyWhitespace ( int c ) {
+relUrl = base . getPath () + relUrl ; if ( relUrl . indexOf ( '.' ) == 0 && base . getFile () . indexOf ( '/' ) != 0 ) { MST[rv.CRCR2Mutator]MSP[]
+public static boolean inSorted ( String needle , String [] haystack ) { return Arrays . binarySearch ( haystack , needle ) >= 0 ; } public static URL resolve ( URL base , String relUrl ) throws MalformedURLException { if ( relUrl . startsWith ( lr_3 ) ) MST[NegateConditionalsMutator]MSP[]
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.ROR5Mutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+if ( ! StringUtil . isWhitespace ( string . codePointAt ( i ) ) ) return false ; } return true ; } public static boolean isNumeric ( String string ) { if ( string == null || string . length () == 0 ) MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] return false ;
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; MST[InlineConstantMutator]MSP[] }
+c = string . codePointAt ( i ) ; if ( isActuallyWhitespace ( c ) ) { if ( ( stripLeading && ! reachedNonWhite ) || lastWasWhite ) continue; accum . append ( ' ' ) ; MST[InlineConstantMutator]MSP[] lastWasWhite = true ; }
+c = string . codePointAt ( i ) ; if ( isActuallyWhitespace ( c ) ) { MST[NegateConditionalsMutator]MSP[] if ( ( stripLeading && ! reachedNonWhite ) || lastWasWhite ) continue; accum . append ( ' ' ) ; lastWasWhite = true ; }
+boolean lastWasWhite = false ; boolean reachedNonWhite = false ; int len = string . length () ; int c ; for ( int i = 0 ; i < len ; i += Character . charCount ( c ) ) { MST[rv.UOI2Mutator]MSP[]
+boolean lastWasWhite = false ; boolean reachedNonWhite = false ; int len = string . length () ; int c ; for ( int i = 0 ; i < len ; i += Character . charCount ( c ) ) { MST[rv.UOI3Mutator]MSP[]
+boolean lastWasWhite = false ; boolean reachedNonWhite = false ; int len = string . length () ; int c ; for ( int i = 0 ; i < len ; i += Character . charCount ( c ) ) { MST[rv.ROR2Mutator]MSP[]
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; MST[rv.UOI2Mutator]MSP[] }
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; MST[rv.UOI1Mutator]MSP[] }
+c = string . codePointAt ( i ) ; if ( isActuallyWhitespace ( c ) ) { if ( ( stripLeading && ! reachedNonWhite ) || lastWasWhite ) continue; accum . append ( ' ' ) ; MST[NonVoidMethodCallMutator]MSP[] lastWasWhite = true ; }
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[InlineConstantMutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+else if ( ! isInvisibleChar ( c ) ) { accum . appendCodePoint ( c ) ; lastWasWhite = false ; reachedNonWhite = true ; MST[rv.CRCR3Mutator]MSP[] } } } public static boolean in ( final String needle , final String ... haystack ) {
+else if ( ! isInvisibleChar ( c ) ) { MST[rv.UOI1Mutator]MSP[] accum . appendCodePoint ( c ) ; lastWasWhite = false ; reachedNonWhite = true ; } } } public static boolean in ( final String needle , final String ... haystack ) {
+int l = string . length () ; for ( int i = 0 ; i < l ; i ++ ) { MST[rv.UOI1Mutator]MSP[] if ( ! Character . isDigit ( string . codePointAt ( i ) ) ) return false ; } return true ; }
+final int len = haystack . length ; for ( int i = 0 ; i < len ; i ++ ) { MST[NegateConditionalsMutator]MSP[] if ( haystack [ i ] . equals ( needle ) ) return true ; } return false ; }
+for ( int i = 0 ; i < width ; i ++ ) out [ i ] = ' ' ; MST[rv.UOI3Mutator]MSP[] return String . valueOf ( out ) ; } public static boolean isBlank ( String string ) {
+if ( ! StringUtil . isWhitespace ( string . codePointAt ( i ) ) ) MST[rv.ROR1Mutator]MSP[] return false ; } return true ; } public static boolean isNumeric ( String string ) { if ( string == null || string . length () == 0 ) return false ;
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.ROR4Mutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.ABSMutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+c = string . codePointAt ( i ) ; if ( isActuallyWhitespace ( c ) ) { MST[rv.ROR5Mutator]MSP[] if ( ( stripLeading && ! reachedNonWhite ) || lastWasWhite ) continue; accum . append ( ' ' ) ; lastWasWhite = true ; }
+if ( string == null || string . length () == 0 ) return true ; MST[rv.CRCR3Mutator]MSP[] int l = string . length () ; for ( int i = 0 ; i < l ; i ++ ) {
+relUrl = base . getPath () + relUrl ; if ( relUrl . indexOf ( '.' ) == 0 && base . getFile () . indexOf ( '/' ) != 0 ) { MST[rv.CRCR5Mutator]MSP[]
+public static boolean inSorted ( String needle , String [] haystack ) { return Arrays . binarySearch ( haystack , needle ) >= 0 ; MST[RemoveConditionalMutator_ORDER_IF]MSP[] } public static URL resolve ( URL base , String relUrl ) throws MalformedURLException { if ( relUrl . startsWith ( lr_3 ) )
+if ( string == null || string . length () == 0 ) return true ; int l = string . length () ; for ( int i = 0 ; i < l ; i ++ ) { MST[ConditionalsBoundaryMutator]MSP[]
+int l = string . length () ; for ( int i = 0 ; i < l ; i ++ ) { MST[NegateConditionalsMutator]MSP[] if ( ! Character . isDigit ( string . codePointAt ( i ) ) ) return false ; } return true ; }
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.CRCR2Mutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+relUrl = base . getPath () + relUrl ; if ( relUrl . indexOf ( '.' ) == 0 && base . getFile () . indexOf ( '/' ) != 0 ) { MST[rv.ROR1Mutator]MSP[]
+if ( string == null || string . length () == 0 ) MST[NegateConditionalsMutator]MSP[] return true ; int l = string . length () ; for ( int i = 0 ; i < l ; i ++ ) {
+int l = string . length () ; for ( int i = 0 ; i < l ; i ++ ) { if ( ! Character . isDigit ( string . codePointAt ( i ) ) ) return false ; } return true ; MST[rv.CRCR3Mutator]MSP[] }
+relUrl = base . getPath () + relUrl ; if ( relUrl . indexOf ( '.' ) == 0 && base . getFile () . indexOf ( '/' ) != 0 ) { MST[NonVoidMethodCallMutator]MSP[]
+return c == ' ' || c == '\t' || c == '\n' || c == '\f' || c == '\r' || c == 160 ; MST[rv.CRCR1Mutator]MSP[] } public static boolean isInvisibleChar ( int c ) { return c == 8203 || c == 173 ; }
+if ( ! StringUtil . isWhitespace ( string . codePointAt ( i ) ) ) return false ; MST[rv.CRCR1Mutator]MSP[] } return true ; } public static boolean isNumeric ( String string ) { if ( string == null || string . length () == 0 ) return false ;

@@ -1,0 +1,17 @@
+if ( vr_2 instanceof vl_1 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return vr_2 ; } return new vr_3 <> ( vr_2 ) ; } @Override
+if ( vr_2 instanceof vl_1 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] return vr_2 ; } return new vr_3 <> ( vr_2 ) ; } @Override
+if ( vr_2 instanceof vl_1 ) { return vr_2 ; } return new vr_3 <> ( vr_2 ) ; MST[NullReturnValsMutator]MSP[S] } @Override
+public Iterator < vt_1 > iterator () { return vr_4 . vr_5 ( fn_2 () . iterator () ) ; MST[NonVoidMethodCallMutator]MSP[S] } @Override
+public Iterator < vt_1 > iterator () { return vr_4 . vr_5 ( fn_2 () . iterator () ) ; MST[ArgumentPropagationMutator]MSP[N] } @Override
+if ( vr_2 instanceof vl_1 ) { MST[rv.ROR5Mutator]MSP[N] return vr_2 ; } return new vr_3 <> ( vr_2 ) ; } @Override
+if ( vr_2 instanceof vl_1 ) { MST[rv.ROR3Mutator]MSP[N] return vr_2 ; } return new vr_3 <> ( vr_2 ) ; } @Override
+if ( vr_2 instanceof vl_1 ) { MST[rv.ROR2Mutator]MSP[N] return vr_2 ; } return new vr_3 <> ( vr_2 ) ; } @Override
+if ( vr_2 instanceof vl_1 ) { MST[rv.ROR4Mutator]MSP[N] return vr_2 ; } return new vr_3 <> ( vr_2 ) ; } @Override
+if ( vr_2 instanceof vl_1 ) { return vr_2 ; } return new vr_3 <> ( vr_2 ) ; MST[ConstructorCallMutator]MSP[S] } @Override
+public Iterator < vt_1 > iterator () { return vr_4 . vr_5 ( fn_2 () . iterator () ) ; MST[NullReturnValsMutator]MSP[S] } @Override
+if ( vr_2 instanceof vl_1 ) { return vr_2 ; } return new vr_3 <> ( vr_2 ) ; MST[ReturnValsMutator]MSP[S] } @Override
+public Iterator < vt_1 > iterator () { return vr_4 . vr_5 ( fn_2 () . iterator () ) ; MST[NonVoidMethodCallMutator]MSP[S] } @Override
+if ( vr_2 instanceof vl_1 ) { MST[NegateConditionalsMutator]MSP[N] return vr_2 ; } return new vr_3 <> ( vr_2 ) ; } @Override
+public Iterator < vt_1 > iterator () { return vr_4 . vr_5 ( fn_2 () . iterator () ) ; MST[NonVoidMethodCallMutator]MSP[S] } @Override
+if ( vr_2 instanceof vl_1 ) { MST[rv.ROR1Mutator]MSP[N] return vr_2 ; } return new vr_3 <> ( vr_2 ) ; } @Override
+public Iterator < vt_1 > iterator () { return vr_4 . vr_5 ( fn_2 () . iterator () ) ; MST[ReturnValsMutator]MSP[S] } @Override

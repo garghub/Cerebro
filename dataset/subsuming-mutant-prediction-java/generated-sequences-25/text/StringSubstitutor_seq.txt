@@ -1,0 +1,118 @@
+public static < vt_1 > String fn_1 ( final Object vr_1 , final vr_2 < String , vt_1 > vr_3 ) {
+return new fn_2 ( vr_3 ) . fn_1 ( vr_1 ) ; }
+public static < vt_1 > String fn_1 ( final Object vr_1 , final vr_2 < String , vt_1 > vr_3 , final String vr_4 ,
+final String vr_5 ) { return new fn_2 ( vr_3 , vr_4 , vr_5 ) . fn_1 ( vr_1 ) ; }
+public static String fn_1 ( final Object vr_1 , final Properties vr_6 ) { if ( vr_6 == null ) {
+return vr_1 . toString () ; } final vr_2 < String , String > vr_3 = new vr_7 <> () ;
+final Enumeration < ? > vr_8 = vr_6 . propertyNames () ; while ( vr_8 . vr_9 () ) {
+final String vr_10 = ( String ) vr_8 . nextElement () ; final String vr_11 = vr_6 . getProperty ( vr_10 ) ;
+vr_3 . vr_12 ( vr_10 , vr_11 ) ; } return fn_2 . fn_1 ( vr_1 , vr_3 ) ; }
+public static String fn_3 ( final Object vr_1 ) {
+return new fn_2 ( vr_13 . vr_14 . vr_15 () ) . fn_1 ( vr_1 ) ; }
+private void fn_4 ( final String vr_16 , final List < String > vr_17 ) {
+if ( ! vr_17 . contains ( vr_16 ) ) { return; } final tp_1 vr_18 = new tp_1 ( 256 ) ;
+vr_18 . append ( lr_1 ) ; vr_18 . append ( vr_17 . remove ( 0 ) ) ;
+vr_18 . append ( lr_2 ) ; vr_18 . vr_19 ( vr_17 , lr_3 ) ;
+throw new fn_5 ( vr_18 . toString () ) ; } public char fn_6 () { return this . vr_20 ; }
+public tp_2 fn_7 () { return this . vr_21 ; } public tp_3 fn_8 () { return vl_1 ; } public tp_3 fn_9 () {
+return vl_2 ; } public tp_3 fn_10 () { return vl_3 ; } public boolean fn_11 () { return vl_4 ; }
+public boolean fn_12 () { return vl_5 ; } public boolean fn_13 () { return vl_6 ; }
+public String fn_1 ( final char [] vr_1 ) { if ( vr_1 == null ) { return null ; }
+final tp_1 vr_18 = new tp_1 ( vr_1 . length ) . append ( vr_1 ) ;
+fn_14 ( vr_18 , 0 , vr_1 . length ) ; return vr_18 . toString () ; }
+public String fn_1 ( final char [] vr_1 , final int vr_22 , final int length ) { if ( vr_1 == null ) {
+return null ; } final tp_1 vr_18 = new tp_1 ( length ) . append ( vr_1 , vr_22 , length ) ;
+fn_14 ( vr_18 , 0 , length ) ; return vr_18 . toString () ; } public String fn_1 ( final tp_4 vr_1 ) {
+if ( vr_1 == null ) { return null ; } return fn_1 ( vr_1 , 0 , vr_1 . length () ) ; }
+public String fn_1 ( final tp_4 vr_1 , final int vr_22 , final int length ) { if ( vr_1 == null ) {
+return null ; } final tp_1 vr_18 = new tp_1 ( length ) . append ( vr_1 , vr_22 , length ) ;
+fn_14 ( vr_18 , 0 , length ) ; return vr_18 . toString () ; } public String fn_1 ( final Object vr_1 ) {
+if ( vr_1 == null ) { return null ; } final tp_1 vr_18 = new tp_1 () . append ( vr_1 ) ;
+fn_14 ( vr_18 , 0 , vr_18 . length () ) ; return vr_18 . toString () ; }
+public String fn_1 ( final tp_1 vr_1 ) { if ( vr_1 == null ) { return null ; }
+final tp_1 vr_18 = new tp_1 ( vr_1 . length () ) . append ( vr_1 ) ;
+fn_14 ( vr_18 , 0 , vr_18 . length () ) ; return vr_18 . toString () ; }
+public String fn_1 ( final tp_1 vr_1 , final int vr_22 , final int length ) { if ( vr_1 == null ) {
+return null ; } final tp_1 vr_18 = new tp_1 ( length ) . append ( vr_1 , vr_22 , length ) ;
+fn_14 ( vr_18 , 0 , length ) ; return vr_18 . toString () ; } public String fn_1 ( final String vr_1 ) {
+if ( vr_1 == null ) { return null ; } final tp_1 vr_18 = new tp_1 ( vr_1 ) ;
+if ( ! fn_14 ( vr_18 , 0 , vr_1 . length () ) ) { return vr_1 ; }
+return vr_18 . toString () ; } public String fn_1 ( final String vr_1 , final int vr_22 , final int length ) {
+if ( vr_1 == null ) { return null ; }
+final tp_1 vr_18 = new tp_1 ( length ) . append ( vr_1 , vr_22 , length ) ;
+if ( ! fn_14 ( vr_18 , 0 , length ) ) { return vr_1 . vr_23 ( vr_22 , vr_22 + length ) ;
+} return vr_18 . toString () ; } public String fn_1 ( final tp_5 vr_1 ) { if ( vr_1 == null ) {
+return null ; } final tp_1 vr_18 = new tp_1 ( vr_1 . length () ) . append ( vr_1 ) ;
+fn_14 ( vr_18 , 0 , vr_18 . length () ) ; return vr_18 . toString () ; }
+public String fn_1 ( final tp_5 vr_1 , final int vr_22 , final int length ) { if ( vr_1 == null ) {
+return null ; } final tp_1 vr_18 = new tp_1 ( length ) . append ( vr_1 , vr_22 , length ) ;
+fn_14 ( vr_18 , 0 , length ) ; return vr_18 . toString () ; } public boolean fn_15 ( final tp_1 vr_1 ) {
+if ( vr_1 == null ) { return false ; } return fn_14 ( vr_1 , 0 , vr_1 . length () ) ; }
+public boolean fn_15 ( final tp_1 vr_1 , final int vr_22 , final int length ) { if ( vr_1 == null ) {
+return false ; } return fn_14 ( vr_1 , vr_22 , length ) ; } public boolean fn_15 ( final tp_5 vr_1 ) {
+if ( vr_1 == null ) { return false ; } return fn_15 ( vr_1 , 0 , vr_1 . length () ) ; }
+public boolean fn_15 ( final tp_5 vr_1 , final int vr_22 , final int length ) { if ( vr_1 == null ) {
+return false ; } final tp_1 vr_18 = new tp_1 ( length ) . append ( vr_1 , vr_22 , length ) ;
+if ( ! fn_14 ( vr_18 , 0 , length ) ) { return false ; }
+vr_1 . fn_1 ( vr_22 , vr_22 + length , vr_18 . toString () ) ; return true ; }
+public boolean fn_15 ( final StringBuilder vr_1 ) { if ( vr_1 == null ) { return false ; }
+return fn_15 ( vr_1 , 0 , vr_1 . length () ) ; }
+public boolean fn_15 ( final StringBuilder vr_1 , final int vr_22 , final int length ) { if ( vr_1 == null ) {
+return false ; } final tp_1 vr_18 = new tp_1 ( length ) . append ( vr_1 , vr_22 , length ) ;
+if ( ! fn_14 ( vr_18 , 0 , length ) ) { return false ; }
+vr_1 . fn_1 ( vr_22 , vr_22 + length , vr_18 . toString () ) ; return true ; }
+protected String fn_16 ( final String vr_24 , final tp_1 vr_18 , final int vr_25 , final int vr_26 ) {
+final tp_2 vr_27 = fn_7 () ; if ( vr_27 == null ) { return null ; }
+return vr_27 . vr_28 ( vr_24 ) ; } public fn_2 fn_17 ( final boolean vl_4 ) { this . vl_4 = vl_4 ;
+return this ; } public fn_2 fn_18 ( final boolean vl_5 ) { this . vl_5 = vl_5 ; return this ; }
+public fn_2 fn_19 ( final char vr_29 ) { this . vr_20 = vr_29 ; return this ; }
+public fn_2 fn_20 ( final boolean vl_6 ) { this . vl_6 = vl_6 ; return this ; }
+public fn_2 fn_21 ( final char vr_30 ) { return fn_22 ( vr_31 . vr_14 . vr_32 ( vr_30 ) ) ; }
+public fn_2 fn_21 ( final String vr_30 ) { if ( vr_30 == null || vr_30 . length () == 0 ) {
+fn_22 ( null ) ; return this ; } return fn_22 ( vr_31 . vr_14 . vr_33 ( vr_30 ) ) ; }
+public fn_2 fn_22 ( final tp_3 vl_1 ) { this . vl_1 = vl_1 ; return this ; }
+public fn_2 fn_23 ( final char vr_4 ) { return fn_24 ( vr_31 . vr_14 . vr_32 ( vr_4 ) ) ; }
+public fn_2 fn_23 ( final String vr_4 ) { vr_34 . vr_35 ( vr_4 != null , lr_4 ) ;
+return fn_24 ( vr_31 . vr_14 . vr_33 ( vr_4 ) ) ; } public fn_2 fn_24 ( final tp_3 vl_2 ) {
+vr_34 . vr_35 ( vl_2 != null , lr_5 ) ; this . vl_2 = vl_2 ; return this ; }
+public fn_2 fn_25 ( final tp_2 vr_21 ) { this . vr_21 = vr_21 ; return this ; }
+public fn_2 fn_26 ( final char vr_5 ) { return fn_27 ( vr_31 . vr_14 . vr_32 ( vr_5 ) ) ; }
+public fn_2 fn_26 ( final String vr_5 ) { vr_34 . vr_35 ( vr_5 != null , lr_6 ) ;
+return fn_27 ( vr_31 . vr_14 . vr_33 ( vr_5 ) ) ; } public fn_2 fn_27 ( final tp_3 vl_3 ) {
+vr_34 . vr_35 ( vl_3 != null , lr_7 ) ; this . vl_3 = vl_3 ; return this ; }
+protected boolean fn_14 ( final tp_1 vr_18 , final int vr_22 , final int length ) {
+return fn_14 ( vr_18 , vr_22 , length , null ) > 0 ; }
+private int fn_14 ( final tp_1 vr_18 , final int vr_22 , final int length , List < String > vr_17 ) {
+final tp_3 vr_36 = fn_9 () ; final tp_3 vr_37 = fn_10 () ; final char vr_38 = fn_6 () ;
+final tp_3 vr_39 = fn_8 () ; final boolean vr_40 = fn_12 () ; final boolean vr_41 = fn_11 () ;
+final boolean vr_42 = vr_17 == null ; boolean vr_43 = false ; int vr_44 = 0 ;
+char [] vr_45 = vr_18 . vr_46 ; int vr_47 = vr_22 + length ; int vr_48 = vr_22 ;
+while ( vr_48 < vr_47 ) { final int vr_49 = vr_36 . vr_50 ( vr_45 , vr_48 , vr_22 , vr_47 ) ;
+if ( vr_49 == 0 ) { vr_48 ++ ; } else {
+if ( vr_48 > vr_22 && vr_45 [ vr_48 - 1 ] == vr_38 ) { if ( vl_6 ) { vr_48 ++ ; continue;
+} vr_18 . vr_51 ( vr_48 - 1 ) ; vr_45 = vr_18 . vr_46 ; vr_44 -- ; vr_43 = true ;
+vr_47 -- ; } else { final int vr_25 = vr_48 ; vr_48 += vr_49 ; int vr_52 = 0 ;
+int vr_53 = 0 ; while ( vr_48 < vr_47 ) {
+if ( vr_40 && vr_36 . vr_50 ( vr_45 , vr_48 , vr_22 , vr_47 ) != 0 ) {
+vr_52 = vr_36 . vr_50 ( vr_45 , vr_48 , vr_22 , vr_47 ) ; vr_53 ++ ; vr_48 += vr_52 ; continue; }
+vr_52 = vr_37 . vr_50 ( vr_45 , vr_48 , vr_22 , vr_47 ) ; if ( vr_52 == 0 ) { vr_48 ++ ;
+} else { if ( vr_53 == 0 ) { String vr_54 = new String ( vr_45 , vr_25 + vr_49 ,
+vr_48 - vr_25 - vr_49 ) ; if ( vr_40 ) { final tp_1 vr_55 = new tp_1 ( vr_54 ) ;
+fn_14 ( vr_55 , 0 , vr_55 . length () ) ; vr_54 = vr_55 . toString () ; } vr_48 += vr_52 ;
+final int vr_26 = vr_48 ; String vr_16 = vr_54 ; String vr_56 = null ; if ( vr_39 != null ) {
+final char [] vr_57 = vr_54 . vr_58 () ; int vr_59 = 0 ;
+for ( int vr_60 = 0 ; vr_60 < vr_57 . length ; vr_60 ++ ) {
+if ( ! vr_40 && vr_36 . vr_50 ( vr_57 , vr_60 , vr_60 , vr_57 . length ) != 0 ) { break; }
+if ( vr_39 . vr_50 ( vr_57 , vr_60 , 0 , vr_57 . length ) != 0 ) {
+vr_59 = vr_39 . vr_50 ( vr_57 , vr_60 , 0 , vr_57 . length ) ;
+vr_16 = vr_54 . vr_23 ( 0 , vr_60 ) ; vr_56 = vr_54 . vr_23 ( vr_60 + vr_59 ) ; break; } }
+} if ( vr_17 == null ) { vr_17 = new ArrayList <> () ;
+vr_17 . add ( new String ( vr_45 , vr_22 , length ) ) ; } fn_4 ( vr_16 , vr_17 ) ;
+vr_17 . add ( vr_16 ) ; String vr_61 = fn_16 ( vr_16 , vr_18 , vr_25 , vr_26 ) ;
+if ( vr_61 == null ) { vr_61 = vr_56 ; } if ( vr_61 != null ) {
+final int vr_62 = vr_61 . length () ; vr_18 . fn_1 ( vr_25 , vr_26 , vr_61 ) ; vr_43 = true ;
+int vr_63 = 0 ; if ( ! vr_41 ) { vr_63 = fn_14 ( vr_18 , vr_25 , vr_62 , vr_17 ) ; }
+vr_63 = vr_63 + vr_62 - ( vr_26 - vr_25 ) ; vr_48 += vr_63 ; vr_47 += vr_63 ; vr_44 += vr_63 ;
+vr_45 = vr_18 . vr_46 ; } vr_17 . remove ( vr_17 . size () - 1 ) ; break; } vr_53 -- ;
+vr_48 += vr_52 ; } } } } } if ( vr_42 ) { return vr_43 ? 1 : 0 ; } return vr_44 ;
+}

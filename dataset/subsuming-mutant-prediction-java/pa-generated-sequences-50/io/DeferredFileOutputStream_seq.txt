@@ -1,0 +1,5 @@
+@Override protected OutputStream getStream () throws IOException { return currentOutputStream ; } @Override protected void thresholdReached () throws IOException { if ( prefix != null ) { outputFile = File . createTempFile ( prefix , suffix , directory ) ; } FileUtils . forceMkdirParent ( outputFile ) ;
+final FileOutputStream fos = new FileOutputStream ( outputFile ) ; try { memoryOutputStream . writeTo ( fos ) ; } catch ( final IOException e ) { fos . close () ; throw e ; } currentOutputStream = fos ; memoryOutputStream = null ; } public boolean isInMemory () {
+return ! isThresholdExceeded () ; } public byte [] getData () { if ( memoryOutputStream != null ) { return memoryOutputStream . toByteArray () ; } return null ; } public File getFile () { return outputFile ; } @Override public void close () throws IOException {
+super . close () ; closed = true ; } public void writeTo ( final OutputStream out ) throws IOException { if ( ! closed ) { throw new IOException ( lr_1 ) ; } if ( isInMemory () ) { memoryOutputStream . writeTo ( out ) ;
+} else { try ( FileInputStream fis = new FileInputStream ( outputFile ) ) { IOUtils . copy ( fis , out ) ; } } }

@@ -1,0 +1,10 @@
+@Override protected void fn_1 () { vl_1 = new fn_2 ( 4 ) ;
+vl_2 = new fn_2 ( 8 , true , true , true , true ) ;
+vl_3 = new fn_2 ( 91 , false , false , false , false ) ; } @Override public void fn_3 () {
+fn_4 ( vl_1 . vr_1 () , 4 ) ; fn_4 ( vl_2 . vr_1 () , 8 ) ;
+fn_4 ( vl_3 . vr_1 () , 91 ) ; super . fn_3 () ; } @Override public void fn_5 () {
+final int vr_2 [] = vl_1 . vr_3 () ; final int vr_4 [] = vl_1 . vr_5 () ;
+fn_4 ( vr_2 , null ) ; fn_4 ( vr_4 , null ) ; } @Override public void fn_6 () {
+final int vr_6 [] = { vr_7 . vr_8 , vr_7 . vr_9 , 4 ,
+1 , vr_7 . vr_8 , vr_7 . vr_10 , } ;
+final int vr_2 [] = vl_1 . vr_11 ( vr_6 , vr_6 . length ) ; fn_4 ( vr_2 , null ) ; }

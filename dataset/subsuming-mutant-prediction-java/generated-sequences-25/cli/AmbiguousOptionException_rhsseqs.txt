@@ -1,0 +1,39 @@
+return vr_2 . toString () ; MST[ReturnValsMutator]MSP[N] }
+final Iterator < String > vr_3 = vl_1 . iterator () ; while ( vr_3 . hasNext () ) MST[rv.ROR1Mutator]MSP[N] {
+final Iterator < String > vr_3 = vl_1 . iterator () ; while ( vr_3 . hasNext () ) MST[rv.ROR2Mutator]MSP[N] {
+if ( vr_3 . hasNext () ) MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] { vr_2 . append ( lr_4 ) ; } } vr_2 . append ( lr_5 ) ;
+final Iterator < String > vr_3 = vl_1 . iterator () ; MST[NonVoidMethodCallMutator]MSP[N] while ( vr_3 . hasNext () ) {
+final Iterator < String > vr_3 = vl_1 . iterator () ; while ( vr_3 . hasNext () ) MST[NonVoidMethodCallMutator]MSP[N] {
+vr_2 . append ( lr_3 ) ; vr_2 . append ( vr_3 . vr_4 () ) ; vr_2 . append ( lr_3 ) ; MST[experimental.NakedReceiverMutator]MSP[N]
+final StringBuilder vr_2 = new StringBuilder ( lr_1 ) ; vr_2 . append ( vr_1 ) ; vr_2 . append ( lr_2 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+final Iterator < String > vr_3 = vl_1 . iterator () ; while ( vr_3 . hasNext () ) MST[rv.ROR5Mutator]MSP[S] {
+final Iterator < String > vr_3 = vl_1 . iterator () ; while ( vr_3 . hasNext () ) MST[rv.ROR3Mutator]MSP[S] {
+final Iterator < String > vr_3 = vl_1 . iterator () ; while ( vr_3 . hasNext () ) MST[rv.ROR4Mutator]MSP[N] {
+if ( vr_3 . hasNext () ) { vr_2 . append ( lr_4 ) ; MST[experimental.NakedReceiverMutator]MSP[N] } } vr_2 . append ( lr_5 ) ;
+if ( vr_3 . hasNext () ) MST[rv.ROR5Mutator]MSP[N] { vr_2 . append ( lr_4 ) ; } } vr_2 . append ( lr_5 ) ;
+if ( vr_3 . hasNext () ) MST[rv.ROR4Mutator]MSP[N] { vr_2 . append ( lr_4 ) ; } } vr_2 . append ( lr_5 ) ;
+if ( vr_3 . hasNext () ) MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] { vr_2 . append ( lr_4 ) ; } } vr_2 . append ( lr_5 ) ;
+if ( vr_3 . hasNext () ) { vr_2 . append ( lr_4 ) ; } } vr_2 . append ( lr_5 ) ; MST[experimental.NakedReceiverMutator]MSP[N]
+vr_2 . append ( lr_3 ) ; vr_2 . append ( vr_3 . vr_4 () ) ; MST[NonVoidMethodCallMutator]MSP[N] vr_2 . append ( lr_3 ) ;
+if ( vr_3 . hasNext () ) MST[NegateConditionalsMutator]MSP[N] { vr_2 . append ( lr_4 ) ; } } vr_2 . append ( lr_5 ) ;
+public Collection < String > fn_1 () { return vl_1 ; MST[ReturnValsMutator]MSP[N] }
+final StringBuilder vr_2 = new StringBuilder ( lr_1 ) ; vr_2 . append ( vr_1 ) ; MST[experimental.NakedReceiverMutator]MSP[N] vr_2 . append ( lr_2 ) ;
+vr_2 . append ( lr_3 ) ; MST[NonVoidMethodCallMutator]MSP[N] vr_2 . append ( vr_3 . vr_4 () ) ; vr_2 . append ( lr_3 ) ;
+final StringBuilder vr_2 = new StringBuilder ( lr_1 ) ; MST[ConstructorCallMutator]MSP[N] vr_2 . append ( vr_1 ) ; vr_2 . append ( lr_2 ) ;
+if ( vr_3 . hasNext () ) { vr_2 . append ( lr_4 ) ; MST[NonVoidMethodCallMutator]MSP[N] } } vr_2 . append ( lr_5 ) ;
+final StringBuilder vr_2 = new StringBuilder ( lr_1 ) ; vr_2 . append ( vr_1 ) ; vr_2 . append ( lr_2 ) ; MST[experimental.NakedReceiverMutator]MSP[N]
+if ( vr_3 . hasNext () ) MST[rv.ROR2Mutator]MSP[N] { vr_2 . append ( lr_4 ) ; } } vr_2 . append ( lr_5 ) ;
+vr_2 . append ( lr_3 ) ; vr_2 . append ( vr_3 . vr_4 () ) ; vr_2 . append ( lr_3 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+if ( vr_3 . hasNext () ) MST[rv.ROR3Mutator]MSP[N] { vr_2 . append ( lr_4 ) ; } } vr_2 . append ( lr_5 ) ;
+if ( vr_3 . hasNext () ) MST[rv.ROR1Mutator]MSP[N] { vr_2 . append ( lr_4 ) ; } } vr_2 . append ( lr_5 ) ;
+public Collection < String > fn_1 () { return vl_1 ; MST[EmptyObjectReturnValsMutator]MSP[S] }
+if ( vr_3 . hasNext () ) MST[NonVoidMethodCallMutator]MSP[N] { vr_2 . append ( lr_4 ) ; } } vr_2 . append ( lr_5 ) ;
+final Iterator < String > vr_3 = vl_1 . iterator () ; while ( vr_3 . hasNext () ) MST[NegateConditionalsMutator]MSP[S] {
+vr_2 . append ( lr_3 ) ; MST[experimental.NakedReceiverMutator]MSP[N] vr_2 . append ( vr_3 . vr_4 () ) ; vr_2 . append ( lr_3 ) ;
+final StringBuilder vr_2 = new StringBuilder ( lr_1 ) ; vr_2 . append ( vr_1 ) ; MST[NonVoidMethodCallMutator]MSP[N] vr_2 . append ( lr_2 ) ;
+return vr_2 . toString () ; MST[NonVoidMethodCallMutator]MSP[N] }
+if ( vr_3 . hasNext () ) { vr_2 . append ( lr_4 ) ; } } vr_2 . append ( lr_5 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+return vr_2 . toString () ; MST[EmptyObjectReturnValsMutator]MSP[N] }
+final Iterator < String > vr_3 = vl_1 . iterator () ; while ( vr_3 . hasNext () ) MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] {
+final Iterator < String > vr_3 = vl_1 . iterator () ; while ( vr_3 . hasNext () ) MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] {
+vr_2 . append ( lr_3 ) ; vr_2 . append ( vr_3 . vr_4 () ) ; MST[experimental.NakedReceiverMutator]MSP[N] vr_2 . append ( lr_3 ) ;

@@ -1,0 +1,5 @@
+public static < T > Factory < T > exceptionFactory () { return INSTANCE ; MST[NullReturnValsMutator]MSP[] } @Override public T create () { throw new FunctorException ( lr_1 ) ; } private Object readResolve () { return INSTANCE ; }
+public static < T > Factory < T > exceptionFactory () { return INSTANCE ; } @Override public T create () { throw new FunctorException ( lr_1 ) ; } private Object readResolve () { return INSTANCE ; MST[NullReturnValsMutator]MSP[] }
+public static < T > Factory < T > exceptionFactory () { return INSTANCE ; } @Override public T create () { throw new FunctorException ( lr_1 ) ; } private Object readResolve () { return INSTANCE ; MST[ReturnValsMutator]MSP[] }
+public static < T > Factory < T > exceptionFactory () { return INSTANCE ; } @Override public T create () { throw new FunctorException ( lr_1 ) ; MST[ConstructorCallMutator]MSP[] } private Object readResolve () { return INSTANCE ; }
+public static < T > Factory < T > exceptionFactory () { return INSTANCE ; MST[ReturnValsMutator]MSP[] } @Override public T create () { throw new FunctorException ( lr_1 ) ; } private Object readResolve () { return INSTANCE ; }

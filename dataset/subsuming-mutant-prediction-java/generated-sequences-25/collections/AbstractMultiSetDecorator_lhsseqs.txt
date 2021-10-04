@@ -1,0 +1,7 @@
+@Override protected vr_1 < vt_1 > fn_1 () { return ( vr_1 < vt_1 > ) super . fn_1 () ; MST[NonVoidMethodCallMutator]MSP[] } @Override
+return fn_1 () . fn_3 ( object ) ; MST[NonVoidMethodCallMutator]MSP[] } @Override public int fn_4 ( final vt_1 object , final int vr_2 ) {
+return fn_1 () . fn_3 ( object ) ; MST[NonVoidMethodCallMutator]MSP[] } @Override public int fn_4 ( final vt_1 object , final int vr_2 ) {
+@Override protected vr_1 < vt_1 > fn_1 () { return ( vr_1 < vt_1 > ) super . fn_1 () ; MST[NullReturnValsMutator]MSP[] } @Override
+return fn_1 () . fn_3 ( object ) ; MST[PrimitiveReturnsMutator]MSP[] } @Override public int fn_4 ( final vt_1 object , final int vr_2 ) {
+@Override protected vr_1 < vt_1 > fn_1 () { return ( vr_1 < vt_1 > ) super . fn_1 () ; MST[ReturnValsMutator]MSP[] } @Override
+return fn_1 () . fn_3 ( object ) ; MST[ReturnValsMutator]MSP[] } @Override public int fn_4 ( final vt_1 object , final int vr_2 ) {

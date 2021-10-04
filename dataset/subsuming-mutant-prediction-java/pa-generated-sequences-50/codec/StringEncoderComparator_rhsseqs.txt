@@ -1,0 +1,22 @@
+final Comparable < Comparable < ? > > s1 = ( Comparable < Comparable < ? > > ) this . stringEncoder . encode ( o1 ) ; MST[ArgumentPropagationMutator]MSP[N] final Comparable < ? > s2 = ( Comparable < ? > ) this . stringEncoder . encode ( o2 ) ;
+compareCode = s1 . compareTo ( s2 ) ; } catch ( final EncoderException ee ) { compareCode = 0 ; MST[InlineConstantMutator]MSP[S] } return compareCode ; }
+@Override public int compare ( final Object o1 , final Object o2 ) { int compareCode = 0 ; MST[InlineConstantMutator]MSP[N] try { @SuppressWarnings ( lr_1 )
+final Comparable < Comparable < ? > > s1 = ( Comparable < Comparable < ? > > ) this . stringEncoder . encode ( o1 ) ; MST[NonVoidMethodCallMutator]MSP[S] final Comparable < ? > s2 = ( Comparable < ? > ) this . stringEncoder . encode ( o2 ) ;
+final Comparable < Comparable < ? > > s1 = ( Comparable < Comparable < ? > > ) this . stringEncoder . encode ( o1 ) ; final Comparable < ? > s2 = ( Comparable < ? > ) this . stringEncoder . encode ( o2 ) ; MST[NonVoidMethodCallMutator]MSP[S]
+final Comparable < Comparable < ? > > s1 = ( Comparable < Comparable < ? > > ) this . stringEncoder . encode ( o1 ) ; final Comparable < ? > s2 = ( Comparable < ? > ) this . stringEncoder . encode ( o2 ) ; MST[ArgumentPropagationMutator]MSP[N]
+compareCode = s1 . compareTo ( s2 ) ; } catch ( final EncoderException ee ) { compareCode = 0 ; } return compareCode ; MST[ReturnValsMutator]MSP[N] }
+compareCode = s1 . compareTo ( s2 ) ; } catch ( final EncoderException ee ) { compareCode = 0 ; } return compareCode ; MST[rv.UOI1Mutator]MSP[N] }
+compareCode = s1 . compareTo ( s2 ) ; } catch ( final EncoderException ee ) { compareCode = 0 ; } return compareCode ; MST[PrimitiveReturnsMutator]MSP[S] }
+compareCode = s1 . compareTo ( s2 ) ; MST[NonVoidMethodCallMutator]MSP[S] } catch ( final EncoderException ee ) { compareCode = 0 ; } return compareCode ; }
+compareCode = s1 . compareTo ( s2 ) ; } catch ( final EncoderException ee ) { compareCode = 0 ; } return compareCode ; MST[rv.ABSMutator]MSP[N] }
+@Override public int compare ( final Object o1 , final Object o2 ) { int compareCode = 0 ; MST[rv.CRCR1Mutator]MSP[N] try { @SuppressWarnings ( lr_1 )
+@Override public int compare ( final Object o1 , final Object o2 ) { int compareCode = 0 ; MST[rv.CRCR6Mutator]MSP[N] try { @SuppressWarnings ( lr_1 )
+compareCode = s1 . compareTo ( s2 ) ; } catch ( final EncoderException ee ) { compareCode = 0 ; } return compareCode ; MST[rv.UOI3Mutator]MSP[N] }
+@Override public int compare ( final Object o1 , final Object o2 ) { int compareCode = 0 ; MST[rv.CRCR3Mutator]MSP[N] try { @SuppressWarnings ( lr_1 )
+@Override public int compare ( final Object o1 , final Object o2 ) { int compareCode = 0 ; MST[rv.CRCR5Mutator]MSP[N] try { @SuppressWarnings ( lr_1 )
+compareCode = s1 . compareTo ( s2 ) ; } catch ( final EncoderException ee ) { compareCode = 0 ; } return compareCode ; MST[rv.UOI2Mutator]MSP[N] }
+compareCode = s1 . compareTo ( s2 ) ; } catch ( final EncoderException ee ) { compareCode = 0 ; } return compareCode ; MST[rv.UOI4Mutator]MSP[N] }
+compareCode = s1 . compareTo ( s2 ) ; } catch ( final EncoderException ee ) { compareCode = 0 ; MST[rv.CRCR3Mutator]MSP[S] } return compareCode ; }
+compareCode = s1 . compareTo ( s2 ) ; } catch ( final EncoderException ee ) { compareCode = 0 ; MST[rv.CRCR1Mutator]MSP[S] } return compareCode ; }
+compareCode = s1 . compareTo ( s2 ) ; } catch ( final EncoderException ee ) { compareCode = 0 ; MST[rv.CRCR5Mutator]MSP[S] } return compareCode ; }
+compareCode = s1 . compareTo ( s2 ) ; } catch ( final EncoderException ee ) { compareCode = 0 ; MST[rv.CRCR6Mutator]MSP[S] } return compareCode ; }

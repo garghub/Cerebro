@@ -1,0 +1,2 @@
+@Override public Double fn_1 ( final tp_1 vr_1 , final tp_1 vr_2 ) { if ( vr_1 == null || vr_2 == null ) { throw new IllegalArgumentException ( lr_1 ) ; }
+return vr_3 . vr_4 ( ( 1 - vr_5 . fn_1 ( vr_1 , vr_2 ) ) * 100d ) / 100d ; }

@@ -1,0 +1,8 @@
+} finally { if ( execFinally != null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] execFinally . shutdown () ; } } }
+private Callable < T > createTask ( final ExecutorService execDestroy ) { return new InitializationTask ( execDestroy ) ; } private ExecutorService createExecutor () { return Executors . newFixedThreadPool ( getTaskCount () ) ; } @Override public T call () throws Exception { try { return initialize () ; MST[ReturnValsMutator]MSP[]
+} finally { if ( execFinally != null ) { MST[rv.ROR5Mutator]MSP[] execFinally . shutdown () ; } } }
+private Callable < T > createTask ( final ExecutorService execDestroy ) { return new InitializationTask ( execDestroy ) ; } private ExecutorService createExecutor () { return Executors . newFixedThreadPool ( getTaskCount () ) ; } @Override public T call () throws Exception { try { return initialize () ; MST[NullReturnValsMutator]MSP[]
+} finally { if ( execFinally != null ) { execFinally . shutdown () ; MST[VoidMethodCallMutator]MSP[] } } }
+} finally { if ( execFinally != null ) { MST[NegateConditionalsMutator]MSP[] execFinally . shutdown () ; } } }
+private Callable < T > createTask ( final ExecutorService execDestroy ) { return new InitializationTask ( execDestroy ) ; } private ExecutorService createExecutor () { return Executors . newFixedThreadPool ( getTaskCount () ) ; } @Override public T call () throws Exception { try { return initialize () ; MST[NonVoidMethodCallMutator]MSP[]
+} finally { if ( execFinally != null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] execFinally . shutdown () ; } } }

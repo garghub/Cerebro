@@ -1,0 +1,2 @@
+public void fn_1 ( final byte [] vr_1 , final int length , final tp_1 vr_2 , final int vr_3 ) throws IOException { vr_4 . vr_5 ( vr_1 ) ; vr_4 . vr_6 ( length ) ; vr_4 . vr_7 ( vr_2 ) ; vr_4 . vr_8 ( vr_3 ) ; vr_9 . fn_1 ( vr_4 ) ; } public void fn_1 ( final byte [] vr_1 , final int length , final tp_1 vr_2 ) throws IOException { fn_1 ( vr_1 , length , vr_2 , vl_1 ) ; }
+public void fn_1 ( final byte [] vr_1 , final tp_1 vr_2 ) throws IOException { fn_1 ( vr_1 , vr_1 . length , vr_2 , vl_1 ) ; }

@@ -1,0 +1,61 @@
+for ( final vt_1 vr_7 : vr_6 ) { MST[rv.ABSMutator]MSP[] vr_5 . vr_5 () . add ( vr_4 . vr_8 ( vr_7 ) ) ; }
+public boolean add ( final vt_1 object ) { return vr_5 () . add ( vr_8 ( object ) ) ; MST[NonVoidMethodCallMutator]MSP[] } @Override
+for ( final vt_1 vr_7 : vr_6 ) { MST[rv.ABSMutator]MSP[] vr_5 . vr_5 () . add ( vr_4 . vr_8 ( vr_7 ) ) ; }
+public boolean add ( final vt_1 object ) { return vr_5 () . add ( vr_8 ( object ) ) ; MST[BooleanFalseReturnValsMutator]MSP[] } @Override
+for ( final vt_1 vr_7 : vr_6 ) { MST[rv.UOI1Mutator]MSP[] vr_5 . vr_5 () . add ( vr_4 . vr_8 ( vr_7 ) ) ; }
+for ( final vt_1 vr_7 : vr_6 ) { MST[rv.UOI2Mutator]MSP[] vr_5 . vr_5 () . add ( vr_4 . vr_8 ( vr_7 ) ) ; }
+return vr_5 () . fn_3 ( vr_8 ( vr_2 ) ) ; MST[NonVoidMethodCallMutator]MSP[] }
+final vr_3 < ? super vt_1 , ? extends vt_1 > vr_4 ) { return new vr_1 <> ( vr_2 , vr_4 ) ; MST[ReturnValsMutator]MSP[] }
+public boolean add ( final vt_1 object ) { return vr_5 () . add ( vr_8 ( object ) ) ; MST[NonVoidMethodCallMutator]MSP[] } @Override
+public boolean add ( final vt_1 object ) { return vr_5 () . add ( vr_8 ( object ) ) ; MST[ReturnValsMutator]MSP[] } @Override
+} return vr_5 ; MST[ReturnValsMutator]MSP[] } protected vt_1 vr_8 ( final vt_1 object ) { return vr_4 . vr_8 ( object ) ; }
+for ( final vt_1 vr_7 : vr_6 ) { vr_5 . vr_5 () . add ( vr_4 . vr_8 ( vr_7 ) ) ; MST[ArgumentPropagationMutator]MSP[] }
+for ( final vt_1 vr_7 : vr_6 ) { vr_5 . vr_5 () . add ( vr_4 . vr_8 ( vr_7 ) ) ; MST[NonVoidMethodCallMutator]MSP[] }
+} return vr_5 ; } protected vt_1 vr_8 ( final vt_1 object ) { return vr_4 . vr_8 ( object ) ; MST[NullReturnValsMutator]MSP[] }
+final List < vt_1 > list = new ArrayList <> ( vr_2 . size () ) ; MST[ConstructorCallMutator]MSP[]
+for ( final vt_1 vr_9 : vr_2 ) { list . add ( vr_8 ( vr_9 ) ) ; MST[NonVoidMethodCallMutator]MSP[] } return list ; } @Override
+for ( final vt_1 vr_9 : vr_2 ) { list . add ( vr_8 ( vr_9 ) ) ; MST[ArgumentPropagationMutator]MSP[] } return list ; } @Override
+if ( collection . size () > 0 ) { MST[ConditionalsBoundaryMutator]MSP[] @SuppressWarnings ( lr_1 )
+for ( final vt_1 vr_9 : vr_2 ) { list . add ( vr_8 ( vr_9 ) ) ; } return list ; MST[EmptyObjectReturnValsMutator]MSP[] } @Override
+for ( final vt_1 vr_7 : vr_6 ) { vr_5 . vr_5 () . add ( vr_4 . vr_8 ( vr_7 ) ) ; MST[NonVoidMethodCallMutator]MSP[] }
+final List < vt_1 > list = new ArrayList <> ( vr_2 . size () ) ; MST[NonVoidMethodCallMutator]MSP[]
+public boolean add ( final vt_1 object ) { return vr_5 () . add ( vr_8 ( object ) ) ; MST[ArgumentPropagationMutator]MSP[] } @Override
+if ( collection . size () > 0 ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[] @SuppressWarnings ( lr_1 )
+if ( collection . size () > 0 ) { MST[rv.ROR5Mutator]MSP[] @SuppressWarnings ( lr_1 )
+} return vr_5 ; MST[NullReturnValsMutator]MSP[] } protected vt_1 vr_8 ( final vt_1 object ) { return vr_4 . vr_8 ( object ) ; }
+if ( collection . size () > 0 ) { MST[rv.ROR3Mutator]MSP[] @SuppressWarnings ( lr_1 )
+return vr_5 () . fn_3 ( vr_8 ( vr_2 ) ) ; MST[ArgumentPropagationMutator]MSP[] }
+for ( final vt_1 vr_9 : vr_2 ) { list . add ( vr_8 ( vr_9 ) ) ; } return list ; MST[ReturnValsMutator]MSP[] } @Override
+if ( collection . size () > 0 ) { MST[rv.ROR1Mutator]MSP[] @SuppressWarnings ( lr_1 )
+for ( final vt_1 vr_7 : vr_6 ) { MST[rv.UOI3Mutator]MSP[] vr_5 . vr_5 () . add ( vr_4 . vr_8 ( vr_7 ) ) ; }
+for ( final vt_1 vr_7 : vr_6 ) { MST[rv.UOI4Mutator]MSP[] vr_5 . vr_5 () . add ( vr_4 . vr_8 ( vr_7 ) ) ; }
+final vt_1 [] vr_6 = ( vt_1 [] ) collection . toArray () ; MST[NonVoidMethodCallMutator]MSP[] collection . clear () ;
+final vt_1 [] vr_6 = ( vt_1 [] ) collection . toArray () ; collection . clear () ; MST[VoidMethodCallMutator]MSP[]
+for ( final vt_1 vr_7 : vr_6 ) { MST[rv.ABSMutator]MSP[] vr_5 . vr_5 () . add ( vr_4 . vr_8 ( vr_7 ) ) ; }
+public boolean add ( final vt_1 object ) { return vr_5 () . add ( vr_8 ( object ) ) ; MST[NonVoidMethodCallMutator]MSP[] } @Override
+} return vr_5 ; } protected vt_1 vr_8 ( final vt_1 object ) { return vr_4 . vr_8 ( object ) ; MST[ReturnValsMutator]MSP[] }
+return vr_5 () . fn_3 ( vr_8 ( vr_2 ) ) ; MST[BooleanTrueReturnValsMutator]MSP[] }
+for ( final vt_1 vr_7 : vr_6 ) { MST[rv.UOI1Mutator]MSP[] vr_5 . vr_5 () . add ( vr_4 . vr_8 ( vr_7 ) ) ; }
+for ( final vt_1 vr_7 : vr_6 ) { MST[rv.UOI3Mutator]MSP[] vr_5 . vr_5 () . add ( vr_4 . vr_8 ( vr_7 ) ) ; }
+return vr_5 () . fn_3 ( vr_8 ( vr_2 ) ) ; MST[NonVoidMethodCallMutator]MSP[] }
+final vr_3 < ? super vt_1 , ? extends vt_1 > vr_4 ) { return new vr_1 <> ( vr_2 , vr_4 ) ; MST[NullReturnValsMutator]MSP[] }
+for ( final vt_1 vr_7 : vr_6 ) { MST[rv.UOI4Mutator]MSP[] vr_5 . vr_5 () . add ( vr_4 . vr_8 ( vr_7 ) ) ; }
+return vr_5 () . fn_3 ( vr_8 ( vr_2 ) ) ; MST[BooleanFalseReturnValsMutator]MSP[] }
+for ( final vt_1 vr_7 : vr_6 ) { MST[rv.UOI1Mutator]MSP[] vr_5 . vr_5 () . add ( vr_4 . vr_8 ( vr_7 ) ) ; }
+if ( collection . size () > 0 ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[] @SuppressWarnings ( lr_1 )
+for ( final vt_1 vr_7 : vr_6 ) { vr_5 . vr_5 () . add ( vr_4 . vr_8 ( vr_7 ) ) ; MST[NonVoidMethodCallMutator]MSP[] }
+final vr_3 < ? super vt_1 , ? extends vt_1 > vr_4 ) { return new vr_1 <> ( vr_2 , vr_4 ) ; MST[ConstructorCallMutator]MSP[] }
+for ( final vt_1 vr_9 : vr_2 ) { list . add ( vr_8 ( vr_9 ) ) ; MST[NonVoidMethodCallMutator]MSP[] } return list ; } @Override
+if ( collection . size () > 0 ) { MST[NegateConditionalsMutator]MSP[] @SuppressWarnings ( lr_1 )
+final vr_1 < vt_1 > vr_5 = new vr_1 <> ( collection , vr_4 ) ; MST[ConstructorCallMutator]MSP[]
+if ( collection . size () > 0 ) { MST[rv.ROR4Mutator]MSP[] @SuppressWarnings ( lr_1 )
+if ( collection . size () > 0 ) { MST[rv.ROR2Mutator]MSP[] @SuppressWarnings ( lr_1 )
+if ( collection . size () > 0 ) { MST[NonVoidMethodCallMutator]MSP[] @SuppressWarnings ( lr_1 )
+return vr_5 () . fn_3 ( vr_8 ( vr_2 ) ) ; MST[NonVoidMethodCallMutator]MSP[] }
+for ( final vt_1 vr_7 : vr_6 ) { MST[rv.UOI3Mutator]MSP[] vr_5 . vr_5 () . add ( vr_4 . vr_8 ( vr_7 ) ) ; }
+for ( final vt_1 vr_7 : vr_6 ) { MST[rv.UOI4Mutator]MSP[] vr_5 . vr_5 () . add ( vr_4 . vr_8 ( vr_7 ) ) ; }
+for ( final vt_1 vr_7 : vr_6 ) { MST[rv.UOI2Mutator]MSP[] vr_5 . vr_5 () . add ( vr_4 . vr_8 ( vr_7 ) ) ; }
+return vr_5 () . fn_3 ( vr_8 ( vr_2 ) ) ; MST[ReturnValsMutator]MSP[] }
+public boolean add ( final vt_1 object ) { return vr_5 () . add ( vr_8 ( object ) ) ; MST[BooleanTrueReturnValsMutator]MSP[] } @Override
+} return vr_5 ; } protected vt_1 vr_8 ( final vt_1 object ) { return vr_4 . vr_8 ( object ) ; MST[ArgumentPropagationMutator]MSP[] }
+} return vr_5 ; } protected vt_1 vr_8 ( final vt_1 object ) { return vr_4 . vr_8 ( object ) ; MST[NonVoidMethodCallMutator]MSP[] }

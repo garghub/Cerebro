@@ -1,0 +1,391 @@
+for ( final Object vr_1 : vr_14 ) { if ( contains ( vr_1 ) == false ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] return false ; } }
+public boolean fn_6 ( final Collection < ? > vr_14 ) { if ( vr_15 . isEmpty ( vr_14 ) ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] return false ;
+public List < Collection < vt_1 > > fn_13 () { return vr_26 . vr_27 ( vl_1 ) ; MST[ReturnValsMutator]MSP[N] }
+vr_7 [ vr_8 ] = vr_9 . vr_10 () ; MST[rv.UOI2Mutator]MSP[N] } return vr_7 ; } @Override @SuppressWarnings ( lr_1 )
+public List < Collection < vt_1 > > fn_13 () { return vr_26 . vr_27 ( vl_1 ) ; MST[ArgumentPropagationMutator]MSP[N] }
+@Override MST[ConstructorCallMutator]MSP[N] public int size () { int size = 0 ; for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . contains ( vr_2 ) ) { MST[NonVoidMethodCallMutator]MSP[N] return true ;
+size += vr_1 . size () ; } return size ; MST[rv.ABSMutator]MSP[N] } @Override public boolean isEmpty () {
+vr_16 |= vr_1 . fn_7 ( vr_18 ) ; MST[rv.OBBN2Mutator]MSP[N] } return vr_16 ; } @Override
+public boolean fn_8 ( final Collection < ? > vr_14 ) { boolean vr_16 = false ; if ( vr_14 != null ) { MST[NegateConditionalsMutator]MSP[N]
+@Override MST[ConstructorCallMutator]MSP[S] public int size () { int size = 0 ; for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+for ( final Iterator < vt_1 > vr_9 = iterator () ; vr_9 . hasNext () ; vr_8 ++ ) { MST[rv.ROR2Mutator]MSP[N]
+vr_7 = ( Object [] ) Array . vr_11 ( array . getClass () . fn_2 () , size ) ; MST[NonVoidMethodCallMutator]MSP[N] }
+public boolean fn_4 ( final Collection < ? > vr_14 ) { if ( vr_14 == null ) { return false ; MST[rv.CRCR3Mutator]MSP[S] }
+public boolean fn_6 ( final Collection < ? > vr_14 ) { if ( vr_15 . isEmpty ( vr_14 ) ) { MST[rv.ROR5Mutator]MSP[S] return false ;
+public boolean fn_4 ( final Collection < ? > vr_14 ) { if ( vr_14 == null ) { return false ; MST[BooleanTrueReturnValsMutator]MSP[S] }
+for ( final Object vr_1 : vr_14 ) { if ( contains ( vr_1 ) == false ) { MST[rv.ROR5Mutator]MSP[N] return false ; } }
+for ( final Object vr_1 : vr_14 ) { if ( contains ( vr_1 ) == false ) { MST[rv.ROR1Mutator]MSP[S] return false ; } }
+size += vr_1 . size () ; MST[rv.UOI3Mutator]MSP[N] } return size ; } @Override public boolean isEmpty () {
+} } return false ; } @Override public Iterator < vt_1 > iterator () { if ( vl_1 . isEmpty () ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N]
+protected vr_21 < vt_1 > fn_14 () { return vl_2 ; MST[ReturnValsMutator]MSP[S] }
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . isEmpty () == false ) { MST[rv.ROR2Mutator]MSP[N] return false ;
+vr_7 = ( Object [] ) Array . vr_11 ( array . getClass () . fn_2 () , size ) ; MST[rv.UOI2Mutator]MSP[S] }
+if ( vl_2 == null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] throw new fn_3 ( lr_4 ) ; }
+public boolean fn_6 ( final Collection < ? > vr_14 ) { if ( vr_15 . isEmpty ( vr_14 ) ) { MST[rv.ROR1Mutator]MSP[S] return false ;
+if ( vr_24 != null ) { MST[NegateConditionalsMutator]MSP[N] vl_1 . add ( vr_24 ) ; } }
+Object [] vr_7 = null ; if ( array . length >= size ) { MST[rv.ROR4Mutator]MSP[N] vr_7 = array ; } else {
+} boolean vr_16 = false ; MST[rv.CRCR6Mutator]MSP[N] for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+return false ; } boolean vr_16 = false ; MST[rv.CRCR3Mutator]MSP[N] for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+for ( final Object vr_1 : vr_14 ) { if ( contains ( vr_1 ) == false ) { return false ; MST[ReturnValsMutator]MSP[N] } }
+vr_16 |= vr_1 . fn_6 ( vr_14 ) ; MST[rv.OBBN1Mutator]MSP[N] } return vr_16 ; } @Override
+Object [] vr_7 = null ; if ( array . length >= size ) { MST[rv.UOI3Mutator]MSP[N] vr_7 = array ; } else {
+} } return false ; } @Override public Iterator < vt_1 > iterator () { if ( vl_1 . isEmpty () ) { MST[rv.ROR1Mutator]MSP[N]
+Object [] vr_7 = null ; if ( array . length >= size ) { MST[ConditionalsBoundaryMutator]MSP[S] vr_7 = array ; } else {
+if ( vr_7 . length > size ) { MST[rv.UOI4Mutator]MSP[N] vr_7 [ size ] = null ; } return ( vt_2 [] ) vr_7 ; }
+return true ; MST[rv.CRCR3Mutator]MSP[N] } @Override public boolean fn_5 ( final Collection < ? extends vt_1 > vr_14 ) {
+public boolean fn_6 ( final Collection < ? > vr_14 ) { if ( vr_15 . isEmpty ( vr_14 ) ) { return false ; MST[rv.CRCR1Mutator]MSP[S]
+public void fn_10 ( final Collection < vt_1 > ... vr_25 ) { for ( final Collection < vt_1 > vr_22 : vr_25 ) { MST[rv.UOI1Mutator]MSP[N]
+public boolean fn_6 ( final Collection < ? > vr_14 ) { if ( vr_15 . isEmpty ( vr_14 ) ) { return false ; MST[rv.CRCR5Mutator]MSP[S]
+int vr_8 = 0 ; MST[InlineConstantMutator]MSP[N]
+} } return false ; } @Override public Iterator < vt_1 > iterator () { if ( vl_1 . isEmpty () ) { MST[rv.ROR5Mutator]MSP[N]
+vr_16 |= vr_1 . fn_6 ( vr_14 ) ; } return vr_16 ; MST[rv.ABSMutator]MSP[N] } @Override
+for ( final vt_1 vr_13 : vr_1 ) { vr_7 [ vr_12 ++ ] = vr_13 ; MST[rv.UOI4Mutator]MSP[N] } }
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { vr_16 |= vr_1 . fn_8 ( vr_14 ) ; MST[rv.UOI4Mutator]MSP[S] } }
+} } return true ; MST[rv.CRCR4Mutator]MSP[N] } @Override public boolean contains ( final Object vr_2 ) {
+return vr_3 . <vt_1 > fn_1 () ; MST[ReturnValsMutator]MSP[N] } final vr_4 < vt_1 > vr_5 = new vr_4 <> () ;
+vr_7 [ vr_8 ] = vr_9 . vr_10 () ; } return vr_7 ; MST[ReturnValsMutator]MSP[N] } @Override @SuppressWarnings ( lr_1 )
+public boolean fn_6 ( final Collection < ? > vr_14 ) { if ( vr_15 . isEmpty ( vr_14 ) ) { return false ; MST[ReturnValsMutator]MSP[S]
+return vr_16 ; MST[rv.UOI3Mutator]MSP[N] } @Override public void clear () { for ( final Collection < vt_1 > vr_14 : vl_1 ) {
+public boolean fn_6 ( final Collection < ? > vr_14 ) { if ( vr_15 . isEmpty ( vr_14 ) ) { MST[NegateConditionalsMutator]MSP[S] return false ;
+public boolean fn_8 ( final Collection < ? > vr_14 ) { boolean vr_16 = false ; MST[rv.CRCR3Mutator]MSP[N] if ( vr_14 != null ) {
+Object [] vr_7 = null ; if ( array . length >= size ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[N] vr_7 = array ; } else {
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { vr_16 |= vr_1 . fn_8 ( vr_14 ) ; MST[rv.OBBN3Mutator]MSP[N] } }
+if ( vl_2 == null ) { throw new fn_3 ( MST[ConstructorCallMutator]MSP[N] lr_4 ) ; }
+public boolean fn_8 ( final Collection < ? > vr_14 ) { boolean vr_16 = false ; if ( vr_14 != null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N]
+} } return false ; } @Override public Iterator < vt_1 > iterator () { if ( vl_1 . isEmpty () ) { MST[NegateConditionalsMutator]MSP[N]
+for ( final vt_1 vr_13 : vr_1 ) { vr_7 [ vr_12 ++ ] = vr_13 ; MST[IncrementsMutator]MSP[N] } }
+for ( final Object vr_1 : vr_14 ) { if ( contains ( vr_1 ) == false ) { return false ; MST[rv.CRCR5Mutator]MSP[N] } }
+vr_7 = ( Object [] ) Array . vr_11 ( array . getClass () . fn_2 () , size ) ; MST[rv.ABSMutator]MSP[N] }
+@Override public int size () { int size = 0 ; MST[InlineConstantMutator]MSP[N] for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+return vl_2 . fn_5 ( this , vl_1 , vr_14 ) ; MST[NonVoidMethodCallMutator]MSP[S] } @Override
+final Collection < vt_1 > vr_24 ) { if ( vr_23 != null ) { vl_1 . add ( vr_23 ) ; MST[NonVoidMethodCallMutator]MSP[N] }
+vr_7 = ( Object [] ) Array . vr_11 ( array . getClass () . fn_2 () , size ) ; MST[experimental.NakedReceiverMutator]MSP[N] }
+} boolean vr_16 = false ; MST[InlineConstantMutator]MSP[N] for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+int vr_8 = 0 ; MST[rv.CRCR6Mutator]MSP[N]
+@Override public int size () { int size = 0 ; MST[rv.CRCR3Mutator]MSP[N] for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+for ( final Object vr_1 : vr_14 ) { if ( contains ( vr_1 ) == false ) { return false ; MST[rv.CRCR1Mutator]MSP[N] } }
+if ( vr_22 != null ) { MST[NegateConditionalsMutator]MSP[N] vl_1 . add ( vr_22 ) ; } } }
+if ( vr_24 != null ) { MST[rv.ROR5Mutator]MSP[N] vl_1 . add ( vr_24 ) ; } }
+if ( vr_22 != null ) { MST[rv.ROR5Mutator]MSP[N] vl_1 . add ( vr_22 ) ; } } }
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . contains ( vr_2 ) ) { return true ; MST[BooleanFalseReturnValsMutator]MSP[N]
+return false ; } boolean vr_16 = false ; MST[InlineConstantMutator]MSP[N] for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . contains ( vr_2 ) ) { return true ; MST[rv.CRCR4Mutator]MSP[N]
+public boolean fn_4 ( final Collection < ? > vr_14 ) { if ( vr_14 == null ) { return false ; MST[InlineConstantMutator]MSP[S] }
+vr_16 |= vr_1 . fn_7 ( vr_18 ) ; MST[rv.UOI3Mutator]MSP[S] } return vr_16 ; } @Override
+for ( final Iterator < vt_1 > vr_9 = iterator () ; vr_9 . hasNext () ; vr_8 ++ ) { MST[experimental.RemoveIncrementsMutator]MSP[N]
+vr_16 |= vr_1 . fn_7 ( vr_18 ) ; } return vr_16 ; MST[rv.UOI2Mutator]MSP[N] } @Override
+@Override MST[experimental.MemberVariableMutator]MSP[S] public int size () { int size = 0 ; for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+size += vr_1 . size () ; MST[rv.AOR4Mutator]MSP[N] } return size ; } @Override public boolean isEmpty () {
+vr_16 |= vr_1 . fn_6 ( vr_14 ) ; MST[rv.UOI3Mutator]MSP[N] } return vr_16 ; } @Override
+if ( vr_7 . length > size ) { MST[rv.ROR1Mutator]MSP[N] vr_7 [ size ] = null ; } return ( vt_2 [] ) vr_7 ; }
+vr_16 |= vr_1 . fn_6 ( vr_14 ) ; } return vr_16 ; MST[ReturnValsMutator]MSP[N] } @Override
+if ( vr_7 . length > size ) { vr_7 [ size ] = null ; MST[rv.ABSMutator]MSP[N] } return ( vt_2 [] ) vr_7 ; }
+if ( vr_7 . length > size ) { vr_7 [ size ] = null ; MST[rv.UOI1Mutator]MSP[N] } return ( vt_2 [] ) vr_7 ; }
+public void fn_10 ( final Collection < vt_1 > ... vr_25 ) { for ( final Collection < vt_1 > vr_22 : vr_25 ) { MST[rv.UOI2Mutator]MSP[N]
+@Override public int size () { int size = 0 ; MST[rv.CRCR6Mutator]MSP[N] for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+return true ; MST[InlineConstantMutator]MSP[N] } @Override public boolean fn_5 ( final Collection < ? extends vt_1 > vr_14 ) {
+int vr_8 = 0 ; MST[rv.CRCR3Mutator]MSP[N]
+size += vr_1 . size () ; MST[MathMutator]MSP[N] } return size ; } @Override public boolean isEmpty () {
+int vr_12 = 0 ; MST[rv.CRCR5Mutator]MSP[N] for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+public boolean fn_7 ( final vr_17 < ? super vt_1 > vr_18 ) { if ( vr_19 . vr_20 ( vr_18 ) ) { MST[rv.ROR2Mutator]MSP[N]
+public void fn_10 ( final Collection < vt_1 > ... vr_25 ) { for ( final Collection < vt_1 > vr_22 : vr_25 ) { MST[rv.ABSMutator]MSP[N]
+} } return true ; MST[rv.CRCR5Mutator]MSP[N] } @Override public boolean contains ( final Object vr_2 ) {
+size += vr_1 . size () ; } return size ; MST[rv.UOI2Mutator]MSP[N] } @Override public boolean isEmpty () {
+final Collection < vt_1 > vr_24 ) { if ( vr_23 != null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] vl_1 . add ( vr_23 ) ; }
+vr_7 [ vr_8 ] = vr_9 . vr_10 () ; MST[rv.ABSMutator]MSP[N] } return vr_7 ; } @Override @SuppressWarnings ( lr_1 )
+return vr_16 ; MST[BooleanTrueReturnValsMutator]MSP[N] } @Override public void clear () { for ( final Collection < vt_1 > vr_14 : vl_1 ) {
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { vr_5 . vr_6 ( vr_1 . iterator () ) ; MST[VoidMethodCallMutator]MSP[N] }
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { vr_16 |= vr_1 . fn_8 ( vr_14 ) ; MST[rv.OBBN2Mutator]MSP[N] } }
+protected vr_21 < vt_1 > fn_14 () { return vl_2 ; MST[NullReturnValsMutator]MSP[N] }
+vr_16 |= vr_1 . fn_6 ( vr_14 ) ; MST[MathMutator]MSP[N] } return vr_16 ; } @Override
+size += vr_1 . size () ; } return size ; MST[ReturnValsMutator]MSP[N] } @Override public boolean isEmpty () {
+size += vr_1 . size () ; MST[rv.AOR1Mutator]MSP[N] } return size ; } @Override public boolean isEmpty () {
+@Override public boolean add ( final vt_1 vr_2 ) { if ( vl_2 == null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] throw new fn_3 ( lr_2 ) ; }
+public boolean fn_4 ( final Collection < ? > vr_14 ) { if ( vr_14 == null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] return false ; }
+vr_7 [ vr_8 ] = vr_9 . vr_10 () ; } return vr_7 ; MST[NullReturnValsMutator]MSP[N] } @Override @SuppressWarnings ( lr_1 )
+public void fn_10 ( final Collection < vt_1 > ... vr_25 ) { for ( final Collection < vt_1 > vr_22 : vr_25 ) { MST[rv.UOI2Mutator]MSP[N]
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . contains ( vr_2 ) ) { MST[rv.ROR4Mutator]MSP[N] return true ;
+@Override public boolean add ( final vt_1 vr_2 ) { if ( vl_2 == null ) { throw new fn_3 ( MST[ConstructorCallMutator]MSP[S] lr_2 ) ; }
+Object [] vr_7 = null ; if ( array . length >= size ) { MST[rv.ROR5Mutator]MSP[N] vr_7 = array ; } else {
+if ( vr_7 . length > size ) { MST[NegateConditionalsMutator]MSP[N] vr_7 [ size ] = null ; } return ( vt_2 [] ) vr_7 ; }
+vr_16 |= vr_1 . fn_6 ( vr_14 ) ; } return vr_16 ; MST[rv.UOI2Mutator]MSP[N] } @Override
+return vl_2 . remove ( this , vl_1 , vr_2 ) ; MST[NonVoidMethodCallMutator]MSP[S] } @Override
+public boolean fn_7 ( final vr_17 < ? super vt_1 > vr_18 ) { if ( vr_19 . vr_20 ( vr_18 ) ) { MST[NegateConditionalsMutator]MSP[N]
+for ( final Iterator < vt_1 > vr_9 = iterator () ; vr_9 . hasNext () ; vr_8 ++ ) { MST[rv.ROR5Mutator]MSP[N]
+public boolean fn_4 ( final Collection < ? > vr_14 ) { if ( vr_14 == null ) { return false ; MST[rv.CRCR6Mutator]MSP[S] }
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . isEmpty () == false ) { return false ; MST[ReturnValsMutator]MSP[S]
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . isEmpty () == false ) { return false ; MST[BooleanTrueReturnValsMutator]MSP[S]
+vr_16 |= vr_1 . fn_7 ( vr_18 ) ; MST[rv.OBBN3Mutator]MSP[N] } return vr_16 ; } @Override
+vr_7 [ vr_8 ] = vr_9 . vr_10 () ; MST[rv.UOI1Mutator]MSP[N] } return vr_7 ; } @Override @SuppressWarnings ( lr_1 )
+vr_16 |= vr_1 . fn_7 ( vr_18 ) ; MST[rv.OBBN1Mutator]MSP[N] } return vr_16 ; } @Override
+size += vr_1 . size () ; MST[rv.UOI2Mutator]MSP[N] } return size ; } @Override public boolean isEmpty () {
+for ( final Object vr_1 : vr_14 ) { if ( contains ( vr_1 ) == false ) { MST[rv.ROR4Mutator]MSP[N] return false ; } }
+for ( final Iterator < vt_1 > vr_9 = iterator () ; vr_9 . hasNext () ; vr_8 ++ ) { MST[rv.ROR1Mutator]MSP[N]
+return false ; } boolean vr_16 = false ; MST[rv.CRCR6Mutator]MSP[N] for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+public boolean fn_6 ( final Collection < ? > vr_14 ) { if ( vr_15 . isEmpty ( vr_14 ) ) { MST[rv.ROR4Mutator]MSP[S] return false ;
+public boolean fn_6 ( final Collection < ? > vr_14 ) { if ( vr_15 . isEmpty ( vr_14 ) ) { MST[rv.ROR2Mutator]MSP[N] return false ;
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . isEmpty () == false ) { MST[rv.ROR1Mutator]MSP[S] return false ;
+for ( final Iterator < vt_1 > vr_9 = iterator () ; vr_9 . hasNext () ; vr_8 ++ ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N]
+vr_14 . clear () ; } } public void fn_9 ( final vr_21 < vt_1 > vl_2 ) { this . vl_2 = vl_2 ; MST[experimental.MemberVariableMutator]MSP[N]
+vr_16 |= vr_1 . fn_6 ( vr_14 ) ; MST[rv.ABSMutator]MSP[N] } return vr_16 ; } @Override
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . isEmpty () == false ) { return false ; MST[rv.CRCR5Mutator]MSP[S]
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . isEmpty () == false ) { return false ; MST[rv.CRCR1Mutator]MSP[S]
+int vr_12 = 0 ; MST[rv.CRCR3Mutator]MSP[N] for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { vr_16 |= vr_1 . fn_8 ( vr_14 ) ; MST[rv.UOI3Mutator]MSP[S] } }
+size += vr_1 . size () ; MST[NonVoidMethodCallMutator]MSP[N] } return size ; } @Override public boolean isEmpty () {
+} } return true ; MST[rv.CRCR3Mutator]MSP[N] } @Override public boolean contains ( final Object vr_2 ) {
+size += vr_1 . size () ; } return size ; MST[rv.UOI1Mutator]MSP[N] } @Override public boolean isEmpty () {
+for ( final Iterator < vt_1 > vr_9 = iterator () ; vr_9 . hasNext () ; vr_8 ++ ) { MST[NonVoidMethodCallMutator]MSP[N]
+if ( vr_22 != null ) { vl_1 . add ( vr_22 ) ; MST[NonVoidMethodCallMutator]MSP[N] } } }
+return vr_3 . <vt_1 > fn_1 () ; } final vr_4 < vt_1 > vr_5 = new vr_4 <> () ; MST[ConstructorCallMutator]MSP[N]
+vr_16 |= vr_1 . fn_6 ( vr_14 ) ; } return vr_16 ; MST[BooleanTrueReturnValsMutator]MSP[N] } @Override
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . isEmpty () == false ) { MST[rv.ROR5Mutator]MSP[N] return false ;
+return vl_2 . add ( this , vl_1 , vr_2 ) ; MST[ReturnValsMutator]MSP[N] } @Override public boolean remove ( final Object vr_2 ) {
+return vr_16 ; MST[BooleanFalseReturnValsMutator]MSP[N] } @Override public void clear () { for ( final Collection < vt_1 > vr_14 : vl_1 ) {
+if ( vr_7 . length > size ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[S] vr_7 [ size ] = null ; } return ( vt_2 [] ) vr_7 ; }
+vr_7 = ( Object [] ) Array . vr_11 ( array . getClass () . fn_2 () , size ) ; MST[rv.UOI1Mutator]MSP[N] }
+size += vr_1 . size () ; MST[rv.AOR3Mutator]MSP[N] } return size ; } @Override public boolean isEmpty () {
+vr_16 |= vr_1 . fn_6 ( vr_14 ) ; MST[rv.UOI4Mutator]MSP[N] } return vr_16 ; } @Override
+Object [] vr_7 = null ; if ( array . length >= size ) { MST[rv.ROR3Mutator]MSP[N] vr_7 = array ; } else {
+vl_1 . add ( vr_22 ) ; MST[NonVoidMethodCallMutator]MSP[N] } } public void fn_10 ( final Collection < vt_1 > vr_23 ,
+return vr_5 ; MST[ReturnValsMutator]MSP[N] } @Override public Object [] toArray () { final Object [] vr_7 = new Object [ size () ] ;
+if ( vr_7 . length > size ) { vr_7 [ size ] = null ; MST[rv.UOI4Mutator]MSP[N] } return ( vt_2 [] ) vr_7 ; }
+return vl_2 . fn_5 ( this , vl_1 , vr_14 ) ; MST[BooleanTrueReturnValsMutator]MSP[N] } @Override
+Object [] vr_7 = null ; if ( array . length >= size ) { MST[rv.UOI2Mutator]MSP[N] vr_7 = array ; } else {
+} } return false ; } @Override public Iterator < vt_1 > iterator () { if ( vl_1 . isEmpty () ) { MST[rv.ROR4Mutator]MSP[N]
+public void fn_10 ( final Collection < vt_1 > ... vr_25 ) { for ( final Collection < vt_1 > vr_22 : vr_25 ) { MST[rv.UOI4Mutator]MSP[N]
+} public void fn_10 ( final Collection < vt_1 > vr_22 ) { if ( vr_22 != null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N]
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . contains ( vr_2 ) ) { return true ; MST[rv.CRCR6Mutator]MSP[N]
+public void fn_10 ( final Collection < vt_1 > ... vr_25 ) { for ( final Collection < vt_1 > vr_22 : vr_25 ) { MST[rv.ABSMutator]MSP[N]
+vr_16 |= vr_1 . fn_7 ( vr_18 ) ; } return vr_16 ; MST[BooleanTrueReturnValsMutator]MSP[N] } @Override
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . contains ( vr_2 ) ) { return true ; MST[rv.CRCR5Mutator]MSP[N]
+vr_16 |= vr_1 . fn_7 ( vr_18 ) ; MST[rv.UOI4Mutator]MSP[S] } return vr_16 ; } @Override
+vr_16 |= vr_1 . fn_7 ( vr_18 ) ; } return vr_16 ; MST[rv.ABSMutator]MSP[N] } @Override
+for ( final Object vr_1 : vr_14 ) { if ( contains ( vr_1 ) == false ) { MST[NonVoidMethodCallMutator]MSP[S] return false ; } }
+size += vr_1 . size () ; MST[rv.AOR2Mutator]MSP[N] } return size ; } @Override public boolean isEmpty () {
+if ( vr_7 . length > size ) { MST[rv.ROR5Mutator]MSP[N] vr_7 [ size ] = null ; } return ( vt_2 [] ) vr_7 ; }
+public boolean fn_8 ( final Collection < ? > vr_14 ) { boolean vr_16 = false ; MST[InlineConstantMutator]MSP[N] if ( vr_14 != null ) {
+} } return true ; MST[BooleanFalseReturnValsMutator]MSP[N] } @Override public boolean contains ( final Object vr_2 ) {
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . contains ( vr_2 ) ) { MST[rv.ROR5Mutator]MSP[N] return true ;
+vr_16 |= vr_1 . fn_6 ( vr_14 ) ; } return vr_16 ; MST[rv.UOI3Mutator]MSP[N] } @Override
+vr_16 |= vr_1 . fn_7 ( vr_18 ) ; } return vr_16 ; MST[BooleanFalseReturnValsMutator]MSP[N] } @Override
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . contains ( vr_2 ) ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] return true ;
+int vr_8 = 0 ; MST[rv.CRCR1Mutator]MSP[N]
+Object [] vr_7 = null ; if ( array . length >= size ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[N] vr_7 = array ; } else {
+public void fn_10 ( final Collection < vt_1 > ... vr_25 ) { for ( final Collection < vt_1 > vr_22 : vr_25 ) { MST[rv.UOI4Mutator]MSP[N]
+public boolean fn_6 ( final Collection < ? > vr_14 ) { if ( vr_15 . isEmpty ( vr_14 ) ) { return false ; MST[InlineConstantMutator]MSP[S]
+Object [] vr_7 = null ; if ( array . length >= size ) { MST[NegateConditionalsMutator]MSP[N] vr_7 = array ; } else {
+public boolean fn_7 ( final vr_17 < ? super vt_1 > vr_18 ) { if ( vr_19 . vr_20 ( vr_18 ) ) { MST[rv.ROR3Mutator]MSP[N]
+public boolean fn_8 ( final Collection < ? > vr_14 ) { boolean vr_16 = false ; if ( vr_14 != null ) { MST[rv.ROR5Mutator]MSP[N]
+public void fn_10 ( final Collection < vt_1 > ... vr_25 ) { for ( final Collection < vt_1 > vr_22 : vr_25 ) { MST[rv.ABSMutator]MSP[N]
+for ( final Object vr_1 : vr_14 ) { if ( contains ( vr_1 ) == false ) { MST[NegateConditionalsMutator]MSP[N] return false ; } }
+if ( vr_24 != null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] vl_1 . add ( vr_24 ) ; } }
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . isEmpty () == false ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] return false ;
+public boolean fn_7 ( final vr_17 < ? super vt_1 > vr_18 ) { if ( vr_19 . vr_20 ( vr_18 ) ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N]
+return vr_16 ; MST[rv.UOI2Mutator]MSP[N] } @Override public void clear () { for ( final Collection < vt_1 > vr_14 : vl_1 ) {
+return false ; MST[rv.CRCR3Mutator]MSP[S] } boolean vr_16 = false ; for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { vr_16 |= vr_1 . fn_8 ( vr_14 ) ; MST[rv.OBBN1Mutator]MSP[N] } }
+return false ; MST[InlineConstantMutator]MSP[S] } boolean vr_16 = false ; for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+vr_16 |= vr_1 . fn_7 ( vr_18 ) ; } return vr_16 ; MST[rv.UOI3Mutator]MSP[S] } @Override
+if ( vr_7 . length > size ) { MST[rv.UOI3Mutator]MSP[S] vr_7 [ size ] = null ; } return ( vt_2 [] ) vr_7 ; }
+vr_16 |= vr_1 . fn_6 ( vr_14 ) ; MST[rv.OBBN2Mutator]MSP[N] } return vr_16 ; } @Override
+if ( vr_22 != null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] vl_1 . add ( vr_22 ) ; } } }
+} } return false ; MST[rv.CRCR3Mutator]MSP[N] } @Override public Iterator < vt_1 > iterator () { if ( vl_1 . isEmpty () ) {
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { vr_16 |= vr_1 . fn_8 ( vr_14 ) ; MST[rv.ABSMutator]MSP[N] } }
+return true ; MST[rv.CRCR2Mutator]MSP[N] } @Override public boolean fn_5 ( final Collection < ? extends vt_1 > vr_14 ) {
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . isEmpty () == false ) { return false ; MST[rv.CRCR6Mutator]MSP[S]
+} } return false ; MST[InlineConstantMutator]MSP[N] } @Override public Iterator < vt_1 > iterator () { if ( vl_1 . isEmpty () ) {
+if ( vr_7 . length > size ) { MST[ConditionalsBoundaryMutator]MSP[N] vr_7 [ size ] = null ; } return ( vt_2 [] ) vr_7 ; }
+} boolean vr_16 = false ; MST[rv.CRCR5Mutator]MSP[N] for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+return vl_2 . fn_5 ( this , vl_1 , vr_14 ) ; MST[ReturnValsMutator]MSP[N] } @Override
+for ( final vt_1 vr_13 : vr_1 ) { vr_7 [ vr_12 ++ ] = vr_13 ; MST[rv.UOI3Mutator]MSP[N] } }
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . contains ( vr_2 ) ) { return true ; MST[ReturnValsMutator]MSP[N]
+public boolean fn_4 ( final Collection < ? > vr_14 ) { if ( vr_14 == null ) { return false ; MST[rv.CRCR5Mutator]MSP[S] }
+} } return false ; } @Override public Iterator < vt_1 > iterator () { if ( vl_1 . isEmpty () ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N]
+if ( vl_2 == null ) { MST[NegateConditionalsMutator]MSP[N] throw new fn_3 ( lr_4 ) ; }
+public boolean fn_6 ( final Collection < ? > vr_14 ) { if ( vr_15 . isEmpty ( vr_14 ) ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] return false ;
+for ( final Iterator < vt_1 > vr_9 = iterator () ; vr_9 . hasNext () ; vr_8 ++ ) { MST[rv.ROR4Mutator]MSP[N]
+vr_7 [ vr_8 ] = vr_9 . vr_10 () ; MST[rv.UOI4Mutator]MSP[N] } return vr_7 ; } @Override @SuppressWarnings ( lr_1 )
+public boolean fn_4 ( final Collection < ? > vr_14 ) { if ( vr_14 == null ) { return false ; MST[rv.CRCR1Mutator]MSP[S] }
+for ( final Object vr_1 : vr_14 ) { if ( contains ( vr_1 ) == false ) { MST[rv.ROR3Mutator]MSP[N] return false ; } }
+size += vr_1 . size () ; MST[rv.UOI1Mutator]MSP[N] } return size ; } @Override public boolean isEmpty () {
+return true ; MST[ReturnValsMutator]MSP[N] } @Override public boolean fn_5 ( final Collection < ? extends vt_1 > vr_14 ) {
+public boolean fn_6 ( final Collection < ? > vr_14 ) { if ( vr_15 . isEmpty ( vr_14 ) ) { MST[rv.ROR3Mutator]MSP[S] return false ;
+Object [] vr_7 = null ; if ( array . length >= size ) { MST[rv.ROR2Mutator]MSP[N] vr_7 = array ; } else {
+return vl_2 . add ( this , vl_1 , vr_2 ) ; MST[BooleanFalseReturnValsMutator]MSP[N] } @Override public boolean remove ( final Object vr_2 ) {
+int vr_12 = 0 ; MST[InlineConstantMutator]MSP[N] for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+return false ; } boolean vr_16 = false ; MST[rv.CRCR1Mutator]MSP[N] for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+return true ; MST[rv.CRCR5Mutator]MSP[N] } @Override public boolean fn_5 ( final Collection < ? extends vt_1 > vr_14 ) {
+vr_7 = ( Object [] ) Array . vr_11 ( array . getClass () . fn_2 () , size ) ; MST[rv.UOI4Mutator]MSP[N] }
+public boolean fn_4 ( final Collection < ? > vr_14 ) { if ( vr_14 == null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return false ; }
+return false ; } boolean vr_16 = false ; MST[rv.CRCR5Mutator]MSP[N] for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+if ( vr_7 . length > size ) { MST[rv.UOI2Mutator]MSP[N] vr_7 [ size ] = null ; } return ( vt_2 [] ) vr_7 ; }
+return vl_2 . fn_5 ( this , vl_1 , vr_14 ) ; MST[BooleanFalseReturnValsMutator]MSP[N] } @Override
+public boolean fn_6 ( final Collection < ? > vr_14 ) { if ( vr_15 . isEmpty ( vr_14 ) ) { return false ; MST[BooleanTrueReturnValsMutator]MSP[S]
+vr_16 |= vr_1 . fn_6 ( vr_14 ) ; MST[rv.OBBN3Mutator]MSP[N] } return vr_16 ; } @Override
+public void fn_10 ( final Collection < vt_1 > ... vr_25 ) { for ( final Collection < vt_1 > vr_22 : vr_25 ) { MST[rv.UOI3Mutator]MSP[N]
+Object [] vr_7 = null ; if ( array . length >= size ) { MST[rv.UOI1Mutator]MSP[S] vr_7 = array ; } else {
+public boolean fn_4 ( final Collection < ? > vr_14 ) { if ( vr_14 == null ) { return false ; MST[ReturnValsMutator]MSP[S] }
+public boolean fn_7 ( final vr_17 < ? super vt_1 > vr_18 ) { if ( vr_19 . vr_20 ( vr_18 ) ) { MST[NonVoidMethodCallMutator]MSP[S]
+} } return false ; } @Override public Iterator < vt_1 > iterator () { if ( vl_1 . isEmpty () ) { MST[rv.ROR3Mutator]MSP[N]
+public < vt_2 > vt_2 [] toArray ( final vt_2 [] array ) { final int size = size () ; MST[NonVoidMethodCallMutator]MSP[N]
+for ( final vt_1 vr_13 : vr_1 ) { vr_7 [ vr_12 ++ ] = vr_13 ; MST[rv.UOI2Mutator]MSP[S] } }
+public boolean fn_6 ( final Collection < ? > vr_14 ) { if ( vr_15 . isEmpty ( vr_14 ) ) { return false ; MST[rv.CRCR3Mutator]MSP[S]
+public boolean fn_7 ( final vr_17 < ? super vt_1 > vr_18 ) { if ( vr_19 . vr_20 ( vr_18 ) ) { MST[rv.ROR4Mutator]MSP[S]
+if ( vl_2 == null ) { MST[rv.ROR5Mutator]MSP[N] throw new fn_3 ( lr_3 ) ; }
+size += vr_1 . size () ; } return size ; MST[rv.UOI4Mutator]MSP[N] } @Override public boolean isEmpty () {
+vr_16 |= vr_1 . fn_6 ( vr_14 ) ; } return vr_16 ; MST[BooleanFalseReturnValsMutator]MSP[N] } @Override
+if ( vl_2 == null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] throw new fn_3 ( lr_3 ) ; }
+} public void fn_10 ( final Collection < vt_1 > vr_22 ) { if ( vr_22 != null ) { MST[NegateConditionalsMutator]MSP[N]
+vr_16 |= vr_1 . fn_7 ( vr_18 ) ; MST[NonVoidMethodCallMutator]MSP[N] } return vr_16 ; } @Override
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . isEmpty () == false ) { MST[rv.ROR4Mutator]MSP[S] return false ;
+if ( vr_7 . length > size ) { MST[rv.ABSMutator]MSP[N] vr_7 [ size ] = null ; } return ( vt_2 [] ) vr_7 ; }
+@Override MST[ConstructorCallMutator]MSP[S] public int size () { int size = 0 ; for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+} } return true ; MST[InlineConstantMutator]MSP[N] } @Override public boolean contains ( final Object vr_2 ) {
+public boolean fn_8 ( final Collection < ? > vr_14 ) { boolean vr_16 = false ; if ( vr_14 != null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S]
+vr_14 . clear () ; MST[VoidMethodCallMutator]MSP[S] } } public void fn_9 ( final vr_21 < vt_1 > vl_2 ) { this . vl_2 = vl_2 ;
+for ( final Object vr_1 : vr_14 ) { if ( contains ( vr_1 ) == false ) { return false ; MST[BooleanTrueReturnValsMutator]MSP[N] } }
+for ( final vt_1 vr_13 : vr_1 ) { vr_7 [ vr_12 ++ ] = vr_13 ; MST[rv.ABSMutator]MSP[N] } }
+vr_16 |= vr_1 . fn_6 ( vr_14 ) ; } return vr_16 ; MST[rv.UOI4Mutator]MSP[N] } @Override
+public void fn_10 ( final Collection < vt_1 > ... vr_25 ) { for ( final Collection < vt_1 > vr_22 : vr_25 ) { MST[rv.UOI3Mutator]MSP[N]
+return vr_16 ; MST[ReturnValsMutator]MSP[N] } @Override public void clear () { for ( final Collection < vt_1 > vr_14 : vl_1 ) {
+public boolean fn_4 ( final Collection < ? > vr_14 ) { if ( vr_14 == null ) { MST[rv.ROR5Mutator]MSP[N] return false ; }
+int vr_12 = 0 ; MST[rv.CRCR6Mutator]MSP[N] for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+public void fn_10 ( final Collection < vt_1 > ... vr_25 ) { for ( final Collection < vt_1 > vr_22 : vr_25 ) { MST[rv.UOI4Mutator]MSP[N]
+vr_16 |= vr_1 . fn_7 ( vr_18 ) ; } return vr_16 ; MST[ReturnValsMutator]MSP[S] } @Override
+@Override public int size () { int size = 0 ; MST[rv.CRCR1Mutator]MSP[N] for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . contains ( vr_2 ) ) { MST[rv.ROR1Mutator]MSP[N] return true ;
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . contains ( vr_2 ) ) { return true ; MST[rv.CRCR2Mutator]MSP[N]
+@Override MST[experimental.MemberVariableMutator]MSP[N] public int size () { int size = 0 ; for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+} public void fn_10 ( final Collection < vt_1 > vr_22 ) { if ( vr_22 != null ) { MST[rv.ROR5Mutator]MSP[N]
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . isEmpty () == false ) { MST[NegateConditionalsMutator]MSP[N] return false ;
+vr_16 |= vr_1 . fn_7 ( vr_18 ) ; MST[rv.UOI1Mutator]MSP[N] } return vr_16 ; } @Override
+@Override public boolean add ( final vt_1 vr_2 ) { if ( vl_2 == null ) { MST[rv.ROR5Mutator]MSP[N] throw new fn_3 ( lr_2 ) ; }
+vr_16 |= vr_1 . fn_7 ( vr_18 ) ; } return vr_16 ; MST[rv.UOI4Mutator]MSP[S] } @Override
+if ( vl_2 == null ) { MST[NegateConditionalsMutator]MSP[N] throw new fn_3 ( lr_3 ) ; }
+public boolean fn_6 ( final Collection < ? > vr_14 ) { if ( vr_15 . isEmpty ( vr_14 ) ) { MST[NonVoidMethodCallMutator]MSP[S] return false ;
+return vr_5 ; MST[NullReturnValsMutator]MSP[N] } @Override public Object [] toArray () { final Object [] vr_7 = new Object [ size () ] ;
+vr_16 |= vr_1 . fn_7 ( vr_18 ) ; MST[rv.ABSMutator]MSP[N] } return vr_16 ; } @Override
+return vl_2 . remove ( this , vl_1 , vr_2 ) ; MST[BooleanFalseReturnValsMutator]MSP[N] } @Override
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . isEmpty () == false ) { MST[NonVoidMethodCallMutator]MSP[S] return false ;
+if ( vr_7 . length > size ) { vr_7 [ size ] = null ; MST[rv.UOI3Mutator]MSP[S] } return ( vt_2 [] ) vr_7 ; }
+return false ; MST[BooleanTrueReturnValsMutator]MSP[S] } boolean vr_16 = false ; for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+for ( final Iterator < vt_1 > vr_9 = iterator () ; vr_9 . hasNext () ; vr_8 ++ ) { MST[NonVoidMethodCallMutator]MSP[N]
+vr_16 |= vr_1 . fn_6 ( vr_14 ) ; MST[rv.UOI1Mutator]MSP[N] } return vr_16 ; } @Override
+int vr_8 = 0 ; MST[rv.CRCR5Mutator]MSP[N]
+public Collection < vt_1 > fn_12 () { return new ArrayList <> ( this ) ; MST[EmptyObjectReturnValsMutator]MSP[S] }
+@Override public boolean add ( final vt_1 vr_2 ) { if ( vl_2 == null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] throw new fn_3 ( lr_2 ) ; }
+final Collection < vt_1 > vr_24 ) { if ( vr_23 != null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] vl_1 . add ( vr_23 ) ; }
+if ( vl_2 == null ) { MST[rv.ROR5Mutator]MSP[N] throw new fn_3 ( lr_4 ) ; }
+return vr_5 ; } @Override public Object [] toArray () { final Object [] vr_7 = new Object [ size () ] ; MST[NonVoidMethodCallMutator]MSP[N]
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { vr_16 |= vr_1 . fn_8 ( vr_14 ) ; MST[rv.UOI2Mutator]MSP[N] } }
+} } return true ; MST[rv.CRCR2Mutator]MSP[N] } @Override public boolean contains ( final Object vr_2 ) {
+public boolean fn_8 ( final Collection < ? > vr_14 ) { boolean vr_16 = false ; MST[rv.CRCR1Mutator]MSP[N] if ( vr_14 != null ) {
+public Collection < vt_1 > fn_12 () { return new ArrayList <> ( this ) ; MST[ConstructorCallMutator]MSP[N] }
+size += vr_1 . size () ; MST[rv.AOD1Mutator]MSP[N] } return size ; } @Override public boolean isEmpty () {
+size += vr_1 . size () ; MST[rv.ABSMutator]MSP[N] } return size ; } @Override public boolean isEmpty () {
+if ( vr_7 . length > size ) { MST[rv.ROR4Mutator]MSP[N] vr_7 [ size ] = null ; } return ( vt_2 [] ) vr_7 ; }
+return true ; MST[rv.CRCR6Mutator]MSP[N] } @Override public boolean fn_5 ( final Collection < ? extends vt_1 > vr_14 ) {
+return vr_16 ; MST[rv.UOI1Mutator]MSP[N] } @Override public void clear () { for ( final Collection < vt_1 > vr_14 : vl_1 ) {
+return vr_16 ; MST[rv.ABSMutator]MSP[N] } @Override public void clear () { for ( final Collection < vt_1 > vr_14 : vl_1 ) {
+public List < Collection < vt_1 > > fn_13 () { return vr_26 . vr_27 ( vl_1 ) ; MST[NonVoidMethodCallMutator]MSP[N] }
+} } return false ; } @Override public Iterator < vt_1 > iterator () { if ( vl_1 . isEmpty () ) { MST[NonVoidMethodCallMutator]MSP[N]
+for ( final Object vr_1 : vr_14 ) { if ( contains ( vr_1 ) == false ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] return false ; } }
+return vl_2 . add ( this , vl_1 , vr_2 ) ; MST[BooleanTrueReturnValsMutator]MSP[N] } @Override public boolean remove ( final Object vr_2 ) {
+} boolean vr_16 = false ; MST[rv.CRCR1Mutator]MSP[N] for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+if ( vr_7 . length > size ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[N] vr_7 [ size ] = null ; } return ( vt_2 [] ) vr_7 ; }
+public void fn_11 ( final Collection < vt_1 > vr_14 ) { vl_1 . remove ( vr_14 ) ; MST[NonVoidMethodCallMutator]MSP[S] }
+for ( final Object vr_1 : vr_14 ) { if ( contains ( vr_1 ) == false ) { return false ; MST[InlineConstantMutator]MSP[N] } }
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . contains ( vr_2 ) ) { MST[NegateConditionalsMutator]MSP[N] return true ;
+} } return false ; } @Override public Iterator < vt_1 > iterator () { if ( vl_1 . isEmpty () ) { MST[rv.ROR2Mutator]MSP[N]
+for ( final Object vr_1 : vr_14 ) { if ( contains ( vr_1 ) == false ) { return false ; MST[rv.CRCR3Mutator]MSP[N] } }
+for ( final Iterator < vt_1 > vr_9 = iterator () ; vr_9 . hasNext () ; vr_8 ++ ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N]
+if ( vr_7 . length > size ) { vr_7 [ size ] = null ; } return ( vt_2 [] ) vr_7 ; MST[NullReturnValsMutator]MSP[N] }
+for ( final Iterator < vt_1 > vr_9 = iterator () ; vr_9 . hasNext () ; vr_8 ++ ) { MST[rv.ROR3Mutator]MSP[N]
+vr_7 [ vr_8 ] = vr_9 . vr_10 () ; MST[rv.UOI3Mutator]MSP[N] } return vr_7 ; } @Override @SuppressWarnings ( lr_1 )
+vr_16 |= vr_1 . fn_7 ( vr_18 ) ; MST[MathMutator]MSP[N] } return vr_16 ; } @Override
+size += vr_1 . size () ; MST[rv.UOI4Mutator]MSP[N] } return size ; } @Override public boolean isEmpty () {
+for ( final Object vr_1 : vr_14 ) { if ( contains ( vr_1 ) == false ) { MST[rv.ROR2Mutator]MSP[N] return false ; } }
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . isEmpty () == false ) { MST[rv.ROR3Mutator]MSP[N] return false ;
+for ( final Object vr_1 : vr_14 ) { if ( contains ( vr_1 ) == false ) { return false ; MST[rv.CRCR6Mutator]MSP[N] } }
+final Collection < vt_1 > vr_24 ) { if ( vr_23 != null ) { MST[NegateConditionalsMutator]MSP[N] vl_1 . add ( vr_23 ) ; }
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . contains ( vr_2 ) ) { return true ; MST[InlineConstantMutator]MSP[N]
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . isEmpty () == false ) { return false ; MST[rv.CRCR3Mutator]MSP[S]
+int vr_12 = 0 ; MST[rv.CRCR1Mutator]MSP[N] for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+Object [] vr_7 = null ; if ( array . length >= size ) { MST[rv.ABSMutator]MSP[N] vr_7 = array ; } else {
+public void fn_10 ( final Collection < vt_1 > ... vr_25 ) { for ( final Collection < vt_1 > vr_22 : vr_25 ) { MST[rv.UOI1Mutator]MSP[N]
+public void fn_10 ( final Collection < vt_1 > ... vr_25 ) { for ( final Collection < vt_1 > vr_22 : vr_25 ) { MST[rv.UOI3Mutator]MSP[N]
+public boolean fn_7 ( final vr_17 < ? super vt_1 > vr_18 ) { if ( vr_19 . vr_20 ( vr_18 ) ) { MST[rv.ROR5Mutator]MSP[N]
+for ( final Iterator < vt_1 > vr_9 = iterator () ; vr_9 . hasNext () ; vr_8 ++ ) { MST[NegateConditionalsMutator]MSP[N]
+public boolean fn_8 ( final Collection < ? > vr_14 ) { boolean vr_16 = false ; MST[rv.CRCR6Mutator]MSP[N] if ( vr_14 != null ) {
+if ( vr_24 != null ) { vl_1 . add ( vr_24 ) ; MST[NonVoidMethodCallMutator]MSP[N] } }
+@Override MST[ConstructorCallMutator]MSP[S] public int size () { int size = 0 ; for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+return vr_16 ; MST[rv.UOI4Mutator]MSP[N] } @Override public void clear () { for ( final Collection < vt_1 > vr_14 : vl_1 ) {
+return false ; MST[rv.CRCR5Mutator]MSP[S] } boolean vr_16 = false ; for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+} } return false ; MST[BooleanTrueReturnValsMutator]MSP[N] } @Override public Iterator < vt_1 > iterator () { if ( vl_1 . isEmpty () ) {
+return false ; MST[rv.CRCR1Mutator]MSP[S] } boolean vr_16 = false ; for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+} } return true ; MST[ReturnValsMutator]MSP[N] } @Override public boolean contains ( final Object vr_2 ) {
+final Collection < vt_1 > vr_24 ) { if ( vr_23 != null ) { MST[rv.ROR5Mutator]MSP[N] vl_1 . add ( vr_23 ) ; }
+return true ; MST[BooleanFalseReturnValsMutator]MSP[N] } @Override public boolean fn_5 ( final Collection < ? extends vt_1 > vr_14 ) {
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . contains ( vr_2 ) ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return true ;
+vr_16 |= vr_1 . fn_7 ( vr_18 ) ; } return vr_16 ; MST[rv.UOI1Mutator]MSP[N] } @Override
+return true ; MST[rv.CRCR4Mutator]MSP[N] } @Override public boolean fn_5 ( final Collection < ? extends vt_1 > vr_14 ) {
+if ( vr_7 . length > size ) { MST[rv.UOI1Mutator]MSP[S] vr_7 [ size ] = null ; } return ( vt_2 [] ) vr_7 ; }
+if ( vr_7 . length > size ) { MST[rv.ROR2Mutator]MSP[N] vr_7 [ size ] = null ; } return ( vt_2 [] ) vr_7 ; }
+} boolean vr_16 = false ; MST[rv.CRCR3Mutator]MSP[N] for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+} } return false ; MST[rv.CRCR5Mutator]MSP[N] } @Override public Iterator < vt_1 > iterator () { if ( vl_1 . isEmpty () ) {
+} } return false ; MST[rv.CRCR1Mutator]MSP[N] } @Override public Iterator < vt_1 > iterator () { if ( vl_1 . isEmpty () ) {
+for ( final vt_1 vr_13 : vr_1 ) { vr_7 [ vr_12 ++ ] = vr_13 ; MST[rv.UOI1Mutator]MSP[N] } }
+public boolean fn_7 ( final vr_17 < ? super vt_1 > vr_18 ) { if ( vr_19 . vr_20 ( vr_18 ) ) { MST[rv.ROR1Mutator]MSP[N]
+vr_16 |= vr_1 . fn_6 ( vr_14 ) ; MST[NonVoidMethodCallMutator]MSP[S] } return vr_16 ; } @Override
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . contains ( vr_2 ) ) { MST[rv.ROR2Mutator]MSP[N] return true ;
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . contains ( vr_2 ) ) { MST[rv.ROR3Mutator]MSP[N] return true ;
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . contains ( vr_2 ) ) { return true ; MST[rv.CRCR3Mutator]MSP[N]
+return vr_3 . <vt_1 > fn_1 () ; MST[NullReturnValsMutator]MSP[N] } final vr_4 < vt_1 > vr_5 = new vr_4 <> () ;
+} public void fn_10 ( final Collection < vt_1 > vr_22 ) { if ( vr_22 != null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N]
+vr_7 = ( Object [] ) Array . vr_11 ( array . getClass () . fn_2 () , size ) ; MST[NonVoidMethodCallMutator]MSP[S] }
+return vl_2 . remove ( this , vl_1 , vr_2 ) ; MST[ReturnValsMutator]MSP[N] } @Override
+vr_16 |= vr_1 . fn_7 ( vr_18 ) ; MST[rv.UOI2Mutator]MSP[N] } return vr_16 ; } @Override
+for ( final vt_1 vr_13 : vr_1 ) { vr_7 [ vr_12 ++ ] = vr_13 ; MST[experimental.RemoveIncrementsMutator]MSP[S] } }
+if ( vr_22 != null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] vl_1 . add ( vr_22 ) ; } } }
+if ( vr_7 . length > size ) { MST[rv.ROR3Mutator]MSP[S] vr_7 [ size ] = null ; } return ( vt_2 [] ) vr_7 ; }
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { vr_16 |= vr_1 . fn_8 ( vr_14 ) ; MST[NonVoidMethodCallMutator]MSP[S] } }
+if ( vr_24 != null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] vl_1 . add ( vr_24 ) ; } }
+} } return false ; MST[ReturnValsMutator]MSP[N] } @Override public Iterator < vt_1 > iterator () { if ( vl_1 . isEmpty () ) {
+for ( final Iterator < vt_1 > vr_9 = iterator () ; vr_9 . hasNext () ; vr_8 ++ ) { MST[IncrementsMutator]MSP[N]
+return false ; MST[ReturnValsMutator]MSP[S] } boolean vr_16 = false ; for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+public boolean fn_4 ( final Collection < ? > vr_14 ) { if ( vr_14 == null ) { MST[NegateConditionalsMutator]MSP[N] return false ; }
+public List < Collection < vt_1 > > fn_13 () { return vr_26 . vr_27 ( vl_1 ) ; MST[EmptyObjectReturnValsMutator]MSP[N] }
+vr_16 |= vr_1 . fn_6 ( vr_14 ) ; } return vr_16 ; MST[rv.UOI1Mutator]MSP[N] } @Override
+@Override MST[experimental.MemberVariableMutator]MSP[S] public int size () { int size = 0 ; for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+} } return false ; MST[rv.CRCR6Mutator]MSP[N] } @Override public Iterator < vt_1 > iterator () { if ( vl_1 . isEmpty () ) {
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . isEmpty () == false ) { return false ; MST[InlineConstantMutator]MSP[S]
+@Override public boolean add ( final vt_1 vr_2 ) { if ( vl_2 == null ) { MST[NegateConditionalsMutator]MSP[N] throw new fn_3 ( lr_2 ) ; }
+if ( vr_7 . length > size ) { vr_7 [ size ] = null ; } return ( vt_2 [] ) vr_7 ; MST[ReturnValsMutator]MSP[N] }
+public boolean fn_8 ( final Collection < ? > vr_14 ) { boolean vr_16 = false ; MST[rv.CRCR5Mutator]MSP[N] if ( vr_14 != null ) {
+size += vr_1 . size () ; } return size ; MST[rv.UOI3Mutator]MSP[N] } @Override public boolean isEmpty () {
+} } return true ; MST[rv.CRCR6Mutator]MSP[N] } @Override public boolean contains ( final Object vr_2 ) {
+if ( vl_2 == null ) { throw new fn_3 ( MST[ConstructorCallMutator]MSP[S] lr_3 ) ; }
+if ( vl_2 == null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] throw new fn_3 ( lr_4 ) ; }
+return false ; MST[rv.CRCR6Mutator]MSP[S] } boolean vr_16 = false ; for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+size += vr_1 . size () ; MST[rv.AOD2Mutator]MSP[N] } return size ; } @Override public boolean isEmpty () {
+vr_7 = ( Object [] ) Array . vr_11 ( array . getClass () . fn_2 () , size ) ; MST[NonVoidMethodCallMutator]MSP[N] }
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { vr_16 |= vr_1 . fn_8 ( vr_14 ) ; MST[MathMutator]MSP[N] } }
+size += vr_1 . size () ; } return size ; MST[PrimitiveReturnsMutator]MSP[N] } @Override public boolean isEmpty () {
+public boolean fn_7 ( final vr_17 < ? super vt_1 > vr_18 ) { if ( vr_19 . vr_20 ( vr_18 ) ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S]
+Object [] vr_7 = null ; if ( array . length >= size ) { MST[rv.ROR1Mutator]MSP[S] vr_7 = array ; } else {
+return vl_2 . add ( this , vl_1 , vr_2 ) ; MST[NonVoidMethodCallMutator]MSP[S] } @Override public boolean remove ( final Object vr_2 ) {
+public boolean fn_6 ( final Collection < ? > vr_14 ) { if ( vr_15 . isEmpty ( vr_14 ) ) { return false ; MST[rv.CRCR6Mutator]MSP[S]
+if ( vl_2 == null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] throw new fn_3 ( lr_3 ) ; }
+return vl_2 . remove ( this , vl_1 , vr_2 ) ; MST[BooleanTrueReturnValsMutator]MSP[N] } @Override
+vr_16 |= vr_1 . fn_6 ( vr_14 ) ; MST[rv.UOI2Mutator]MSP[N] } return vr_16 ; } @Override
+vr_7 = ( Object [] ) Array . vr_11 ( array . getClass () . fn_2 () , size ) ; MST[rv.UOI3Mutator]MSP[S] }
+if ( vr_7 . length > size ) { vr_7 [ size ] = null ; MST[rv.UOI2Mutator]MSP[N] } return ( vt_2 [] ) vr_7 ; }
+public Collection < vt_1 > fn_12 () { return new ArrayList <> ( this ) ; MST[ReturnValsMutator]MSP[N] }
+public void fn_10 ( final Collection < vt_1 > ... vr_25 ) { for ( final Collection < vt_1 > vr_22 : vr_25 ) { MST[rv.UOI1Mutator]MSP[N]
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { if ( vr_1 . isEmpty () == false ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] return false ;
+@Override public int size () { int size = 0 ; MST[rv.CRCR5Mutator]MSP[N] for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+Object [] vr_7 = null ; if ( array . length >= size ) { MST[rv.UOI4Mutator]MSP[N] vr_7 = array ; } else {
+@Override MST[experimental.MemberVariableMutator]MSP[S] public int size () { int size = 0 ; for ( final Collection < vt_1 > vr_1 : vl_1 ) {
+for ( final Collection < vt_1 > vr_1 : vl_1 ) { vr_16 |= vr_1 . fn_8 ( vr_14 ) ; MST[rv.UOI1Mutator]MSP[N] } }

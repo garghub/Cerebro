@@ -1,0 +1,14 @@
+@Override public Short fn_1 () { return Short . valueOf ( this . vr_1 ) ; }
+public void fn_2 ( final short vr_1 ) { this . vr_1 = vr_1 ; } @Override
+public void fn_2 ( final tp_1 vr_1 ) { this . vr_1 = vr_1 . vr_2 () ; } public void fn_3 () {
+vr_1 ++ ; } public void fn_4 () { vr_1 -- ; } public void add ( final short vr_3 ) {
+this . vr_1 += vr_3 ; } public void add ( final tp_1 vr_3 ) { this . vr_1 += vr_3 . vr_2 () ;
+} public void fn_5 ( final short vr_3 ) { this . vr_1 -= vr_3 ; }
+public void fn_5 ( final tp_1 vr_3 ) { this . vr_1 -= vr_3 . vr_2 () ; } @Override public short vr_2 () {
+return vr_1 ; } @Override public int fn_6 () { return vr_1 ; } @Override public long fn_7 () { return vr_1 ; } @Override
+public float fn_8 () { return vr_1 ; } @Override public double fn_9 () { return vr_1 ; } public Short fn_10 () {
+return Short . valueOf ( vr_2 () ) ; } @Override public boolean equals ( final Object vr_4 ) {
+if ( vr_4 instanceof vl_1 ) { return vr_1 == ( ( vl_1 ) vr_4 ) . vr_2 () ; } return false ; }
+@Override public int fn_11 () { return vr_1 ; } @Override public int fn_12 ( final vl_1 vr_5 ) {
+return vr_6 . vr_7 ( this . vr_1 , vr_5 . vr_1 ) ; } @Override public String toString () {
+return String . valueOf ( vr_1 ) ; }

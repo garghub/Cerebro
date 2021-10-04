@@ -1,0 +1,1 @@
+@Override public boolean accept ( final File file ) { if ( file . isDirectory () ) { final File [] files = file . listFiles () ; return files == null || files . length == 0 ; } return file . length () == 0 ; }

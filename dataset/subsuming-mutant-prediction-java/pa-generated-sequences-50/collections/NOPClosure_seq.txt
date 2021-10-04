@@ -1,0 +1,1 @@
+public static < E > Closure < E > nopClosure () { return INSTANCE ; } @Override public void execute ( final E input ) { } private Object readResolve () { return INSTANCE ; }

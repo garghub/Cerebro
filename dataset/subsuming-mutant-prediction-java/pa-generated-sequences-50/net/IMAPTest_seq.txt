@@ -1,0 +1,3 @@
+@Test public void checkGenerator () { final IMAP imap = new IMAP () ; final String initial = imap . generateCommandID () ; int expected = 1 ; for( int j = 0 ; j < initial . length () ; j ++ ) { expected *= 26 ; }
+int i = 0 ; boolean matched = false ; while( i <= expected + 10 ) { i ++ ; final String s = imap . generateCommandID () ; matched = initial . equals ( s ) ; if ( matched ) { break; } }
+Assert . assertEquals ( expected , i ) ; Assert . assertTrue ( lr_1 , matched ) ; }

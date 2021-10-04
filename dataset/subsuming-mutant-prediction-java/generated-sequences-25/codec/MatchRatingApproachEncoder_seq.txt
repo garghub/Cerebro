@@ -1,0 +1,60 @@
+String fn_1 ( final String vr_1 ) { String vr_2 = vr_1 . vr_3 ( vr_4 . vr_5 ) ;
+final String [] vr_6 = { lr_1 , lr_2 , lr_3 , lr_4 , lr_5 } ;
+for ( final String vr_7 : vr_6 ) { vr_2 = vr_2 . vr_8 ( vr_7 , vl_1 ) ; }
+vr_2 = fn_2 ( vr_2 ) ; vr_2 = vr_2 . vr_8 ( lr_6 , vl_1 ) ; return vr_2 ; } @Override
+public final Object fn_3 ( final Object vr_9 ) throws vl_2 { if ( ! ( vr_9 instanceof String ) ) {
+throw new vl_2 ( lr_7 ) ; } return fn_3 ( ( String ) vr_9 ) ; } @Override
+public final String fn_3 ( String vr_1 ) {
+if ( vr_1 == null || vl_1 . equalsIgnoreCase ( vr_1 ) || vr_10 . equalsIgnoreCase ( vr_1 ) || vr_1 . length () == 1 ) {
+return vl_1 ; } vr_1 = fn_1 ( vr_1 ) ; vr_1 = fn_4 ( vr_1 ) ; vr_1 = fn_5 ( vr_1 ) ;
+vr_1 = fn_6 ( vr_1 ) ; return vr_1 ; } String fn_6 ( final String vr_1 ) {
+final int vr_11 = vr_1 . length () ; if ( vr_11 > vl_3 ) {
+final String vr_12 = vr_1 . vr_13 ( 0 , vl_4 ) ;
+final String vr_14 = vr_1 . vr_13 ( vr_11 - vl_4 , vr_11 ) ; return vr_12 + vr_14 ; } return vr_1 ; }
+int fn_7 ( final int vr_15 ) { int vr_16 = 0 ; if ( vr_15 <= vl_5 ) { vr_16 = vl_6 ;
+} else if ( vr_15 <= vl_7 ) { vr_16 = vl_5 ; } else if ( vr_15 <= vl_8 ) {
+vr_16 = vl_4 ; } else if ( vr_15 == vl_9 ) { vr_16 = vl_10 ; } else { vr_16 = vl_11 ; }
+return vr_16 ; } public boolean fn_8 ( String vr_17 , String vr_18 ) {
+if ( vr_17 == null || vl_1 . equalsIgnoreCase ( vr_17 ) || vr_10 . equalsIgnoreCase ( vr_17 ) ) { return false ;
+} else if ( vr_18 == null || vl_1 . equalsIgnoreCase ( vr_18 ) || vr_10 . equalsIgnoreCase ( vr_18 ) ) {
+return false ; } else if ( vr_17 . length () == 1 || vr_18 . length () == 1 ) { return false ;
+} else if ( vr_17 . equalsIgnoreCase ( vr_18 ) ) { return true ; } vr_17 = fn_1 ( vr_17 ) ;
+vr_18 = fn_1 ( vr_18 ) ; vr_17 = fn_4 ( vr_17 ) ; vr_18 = fn_4 ( vr_18 ) ;
+vr_17 = fn_5 ( vr_17 ) ; vr_18 = fn_5 ( vr_18 ) ; vr_17 = fn_6 ( vr_17 ) ;
+vr_18 = fn_6 ( vr_18 ) ;
+if ( vr_19 . abs ( vr_17 . length () - vr_18 . length () ) >= vl_4 ) { return false ; }
+final int vr_15 = vr_19 . abs ( vr_17 . length () + vr_18 . length () ) ; int vr_16 = 0 ;
+vr_16 = fn_7 ( vr_15 ) ; final int vr_20 = fn_9 ( vr_17 , vr_18 ) ; return vr_20 >= vr_16 ; }
+boolean fn_10 ( final String vr_21 ) {
+return vr_21 . equalsIgnoreCase ( lr_8 ) || vr_21 . equalsIgnoreCase ( lr_9 ) || vr_21 . equalsIgnoreCase ( lr_10 ) ||
+vr_21 . equalsIgnoreCase ( lr_11 ) || vr_21 . equalsIgnoreCase ( lr_12 ) ; }
+int fn_9 ( final String vr_17 , final String vr_18 ) { final char [] vr_22 = vr_17 . vr_23 () ;
+final char [] vr_24 = vr_18 . vr_23 () ; final int vr_25 = vr_17 . length () - 1 ;
+final int vr_26 = vr_18 . length () - 1 ; String vr_27 = vl_1 ; String vr_28 = vl_1 ;
+String vr_29 = vl_1 ; String vr_30 = vl_1 ;
+for ( int vr_31 = 0 ; vr_31 < vr_22 . length ; vr_31 ++ ) { if ( vr_31 > vr_26 ) { break;
+} vr_27 = vr_17 . vr_13 ( vr_31 , vr_31 + 1 ) ;
+vr_28 = vr_17 . vr_13 ( vr_25 - vr_31 , vr_25 - vr_31 + 1 ) ;
+vr_29 = vr_18 . vr_13 ( vr_31 , vr_31 + 1 ) ;
+vr_30 = vr_18 . vr_13 ( vr_26 - vr_31 , vr_26 - vr_31 + 1 ) ;
+if ( vr_27 . equals ( vr_29 ) ) { vr_22 [ vr_31 ] = ' ' ;
+vr_24 [ vr_31 ] = ' ' ; } if ( vr_28 . equals ( vr_30 ) ) {
+vr_22 [ vr_25 - vr_31 ] = ' ' ; vr_24 [ vr_26 - vr_31 ] = ' ' ; } }
+final String vr_32 = new String ( vr_22 ) . vr_8 ( lr_6 , vl_1 ) ;
+final String vr_33 = new String ( vr_24 ) . vr_8 ( lr_6 , vl_1 ) ;
+if ( vr_32 . length () > vr_33 . length () ) {
+return vr_19 . abs ( vl_3 - vr_32 . length () ) ; }
+return vr_19 . abs ( vl_3 - vr_33 . length () ) ; } String fn_2 ( final String vr_34 ) {
+if ( vr_34 == null ) { return null ; } final StringBuilder vr_35 = new StringBuilder () ;
+final int vr_36 = vr_34 . length () ; for ( int vr_31 = 0 ; vr_31 < vr_36 ; vr_31 ++ ) {
+final char vr_37 = vr_34 . charAt ( vr_31 ) ; final int vr_38 = vr_39 . indexOf ( vr_37 ) ;
+if ( vr_38 > - 1 ) { vr_35 . append ( vr_40 . charAt ( vr_38 ) ) ; } else {
+vr_35 . append ( vr_37 ) ; } } return vr_35 . toString () ; } String fn_5 ( final String vr_1 ) {
+String vr_41 = vr_1 . vr_3 ( vr_4 . vr_5 ) ; for ( final String vr_42 : vl_12 ) {
+if ( vr_41 . contains ( vr_42 ) ) { final String vr_43 = vr_42 . vr_13 ( 0 , 1 ) ;
+vr_41 = vr_41 . vr_44 ( vr_42 , vr_43 ) ; } } return vr_41 ; } String fn_4 ( String vr_1 ) {
+final String vr_45 = vr_1 . vr_13 ( 0 , 1 ) ; vr_1 = vr_1 . vr_8 ( lr_9 , vl_1 ) ;
+vr_1 = vr_1 . vr_8 ( lr_8 , vl_1 ) ; vr_1 = vr_1 . vr_8 ( lr_11 , vl_1 ) ;
+vr_1 = vr_1 . vr_8 ( lr_10 , vl_1 ) ; vr_1 = vr_1 . vr_8 ( lr_12 , vl_1 ) ;
+vr_1 = vr_1 . vr_8 ( lr_13 , vr_10 ) ; if ( fn_10 ( vr_45 ) ) { return vr_45 + vr_1 ; }
+return vr_1 ; }

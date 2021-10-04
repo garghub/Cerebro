@@ -1,0 +1,10 @@
+@Override protected tp_1 fn_1 () throws IOException { return vl_1 ; } @Override protected void fn_2 () throws IOException {
+if ( vl_2 != null ) { vl_3 = vr_1 . vr_2 ( vl_2 , vl_4 , vl_5 ) ; }
+vr_3 . vr_4 ( vl_3 ) ; final tp_2 vr_5 = new tp_2 ( vl_3 ) ; try {
+vr_6 . vr_7 ( vr_5 ) ; } catch ( final IOException vr_8 ) { vr_5 . vr_9 () ; throw vr_8 ; }
+vl_1 = vr_5 ; vr_6 = null ; } public boolean fn_3 () { return ! fn_4 () ; } public byte [] fn_5 ()
+{ if ( vr_6 != null ) { return vr_6 . vr_10 () ; } return null ; } public vr_1 fn_6 () {
+return vl_3 ; } @Override public void vr_9 () throws IOException { super . vr_9 () ; vl_6 = true ; }
+public void vr_7 ( final tp_1 out ) throws IOException { if ( ! vl_6 ) { throw new IOException ( lr_1 ) ; }
+if ( fn_3 () ) { vr_6 . vr_7 ( out ) ; } else {
+try ( tp_3 vr_11 = new tp_3 ( vl_3 ) ) { vr_12 . vr_13 ( vr_11 , out ) ; } } }

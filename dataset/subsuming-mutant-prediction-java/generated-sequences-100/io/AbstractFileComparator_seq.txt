@@ -1,0 +1,1 @@
+public vr_1 [] fn_1 ( final vr_1 ... vr_2 ) { if ( vr_2 != null ) { vr_3 . fn_1 ( vr_2 , this ) ; } return vr_2 ; } public List < vr_1 > fn_1 ( final List < vr_1 > vr_2 ) { if ( vr_2 != null ) { vr_4 . fn_1 ( vr_2 , this ) ; } return vr_2 ; } @Override public String toString () { return getClass () . fn_2 () ; }

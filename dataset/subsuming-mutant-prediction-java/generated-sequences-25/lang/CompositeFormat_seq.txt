@@ -1,0 +1,5 @@
+@Override public tp_1 fn_1 ( final Object vr_1 , final tp_1 vr_2 , final tp_2 vr_3 ) {
+return vr_4 . fn_1 ( vr_1 , vr_2 , vr_3 ) ; } @Override
+public Object fn_2 ( final String vr_5 , final tp_3 vr_3 ) { return vr_6 . fn_2 ( vr_5 , vr_3 ) ; }
+public tp_4 fn_3 () { return this . vr_6 ; } public tp_4 fn_4 () { return this . vr_4 ; }
+public String fn_5 ( final String vr_7 ) throws ParseException { return fn_1 ( fn_2 ( vr_7 ) ) ; }

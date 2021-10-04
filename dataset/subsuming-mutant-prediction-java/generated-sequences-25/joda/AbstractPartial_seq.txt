@@ -1,0 +1,45 @@
+public tp_1 fn_1 ( int vr_1 ) { return fn_2 ( vr_1 , fn_3 () ) . getType () ; }
+public tp_1 [] fn_4 () { tp_1 [] vr_2 = new tp_1 [ size () ] ;
+for ( int vr_3 = 0 ; vr_3 < vr_2 . length ; vr_3 ++ ) {
+vr_2 [ vr_3 ] = fn_1 ( vr_3 ) ; } return vr_2 ; } public tp_2 fn_2 ( int vr_1 ) {
+return fn_2 ( vr_1 , fn_3 () ) ; } public tp_2 [] fn_5 () {
+tp_2 [] vr_2 = new tp_2 [ size () ] ;
+for ( int vr_3 = 0 ; vr_3 < vr_2 . length ; vr_3 ++ ) {
+vr_2 [ vr_3 ] = fn_2 ( vr_3 ) ; } return vr_2 ; } public int [] getValues () {
+int [] vr_2 = new int [ size () ] ;
+for ( int vr_3 = 0 ; vr_3 < vr_2 . length ; vr_3 ++ ) {
+vr_2 [ vr_3 ] = fn_6 ( vr_3 ) ; } return vr_2 ; } public int get ( tp_1 type ) {
+return fn_6 ( fn_7 ( type ) ) ; } public boolean fn_8 ( tp_1 type ) {
+return ( indexOf ( type ) != - 1 ) ; } public int indexOf ( tp_1 type ) {
+for ( int vr_3 = 0 , vr_4 = size () ; vr_3 < vr_4 ; vr_3 ++ ) {
+if ( fn_1 ( vr_3 ) == type ) { return vr_3 ; } } return - 1 ; }
+protected int fn_7 ( tp_1 type ) { int vr_1 = indexOf ( type ) ; if ( vr_1 == - 1 ) {
+throw new IllegalArgumentException ( lr_1 + type + lr_2 ) ; } return vr_1 ; } protected int indexOf ( tp_3 type ) {
+for ( int vr_3 = 0 , vr_4 = size () ; vr_3 < vr_4 ; vr_3 ++ ) {
+if ( fn_1 ( vr_3 ) . fn_9 () == type ) { return vr_3 ; } } return - 1 ; }
+protected int fn_7 ( tp_3 type ) { int vr_1 = indexOf ( type ) ; if ( vr_1 == - 1 ) {
+throw new IllegalArgumentException ( lr_1 + type + lr_2 ) ; } return vr_1 ; } public tp_4 fn_10 ( tp_5 vr_5 ) {
+tp_6 vr_6 = vr_7 . vr_8 ( vr_5 ) ; long vr_9 = vr_7 . vr_10 ( vr_5 ) ;
+long vr_11 = vr_6 . vr_12 ( this , vr_9 ) ; return new tp_4 ( vr_11 , vr_6 ) ; }
+public boolean equals ( Object vr_13 ) { if ( this == vr_13 ) { return true ; }
+if ( vr_13 instanceof vl_1 == false ) { return false ; } vl_1 vr_14 = ( vl_1 ) vr_13 ;
+if ( size () != vr_14 . size () ) { return false ; }
+for ( int vr_3 = 0 , vr_4 = size () ; vr_3 < vr_4 ; vr_3 ++ ) {
+if ( fn_6 ( vr_3 ) != vr_14 . fn_6 ( vr_3 ) || fn_1 ( vr_3 ) != vr_14 . fn_1 ( vr_3 ) ) {
+return false ; } } return vr_15 . equals ( fn_3 () , vr_14 . fn_3 () ) ; } public int fn_11 () {
+int vr_16 = 157 ; for ( int vr_3 = 0 , vr_4 = size () ; vr_3 < vr_4 ; vr_3 ++ ) {
+vr_16 = 23 * vr_16 + fn_6 ( vr_3 ) ; vr_16 = 23 * vr_16 + fn_1 ( vr_3 ) . fn_11 () ;
+} vr_16 += fn_3 () . fn_11 () ; return vr_16 ; } public int fn_12 ( vl_1 vr_14 ) {
+if ( this == vr_14 ) { return 0 ; } if ( size () != vr_14 . size () ) {
+throw new fn_13 ( lr_3 ) ; }
+for ( int vr_3 = 0 , vr_4 = size () ; vr_3 < vr_4 ; vr_3 ++ ) {
+if ( fn_1 ( vr_3 ) != vr_14 . fn_1 ( vr_3 ) ) { throw new fn_13 ( lr_3 ) ; } }
+for ( int vr_3 = 0 , vr_4 = size () ; vr_3 < vr_4 ; vr_3 ++ ) {
+if ( fn_6 ( vr_3 ) > vr_14 . fn_6 ( vr_3 ) ) { return 1 ; }
+if ( fn_6 ( vr_3 ) < vr_14 . fn_6 ( vr_3 ) ) { return - 1 ; } } return 0 ; }
+public boolean fn_14 ( vl_1 vr_13 ) { if ( vr_13 == null ) { throw new IllegalArgumentException ( lr_4 ) ; }
+return fn_12 ( vr_13 ) > 0 ; } public boolean fn_15 ( vl_1 vr_13 ) { if ( vr_13 == null ) {
+throw new IllegalArgumentException ( lr_4 ) ; } return fn_12 ( vr_13 ) < 0 ; } public boolean fn_16 ( vl_1 vr_13 ) {
+if ( vr_13 == null ) { throw new IllegalArgumentException ( lr_4 ) ; } return fn_12 ( vr_13 ) == 0 ; }
+public String toString ( tp_7 vr_17 ) { if ( vr_17 == null ) { return toString () ; }
+return vr_17 . vr_18 ( this ) ; }

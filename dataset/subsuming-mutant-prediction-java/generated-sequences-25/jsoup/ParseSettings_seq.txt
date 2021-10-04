@@ -1,0 +1,6 @@
+public boolean fn_1 () { return fn_1 ; } public boolean fn_2 () { return fn_2 ; }
+public String fn_3 ( String vr_1 ) { vr_1 = vr_1 . trim () ; if ( ! fn_1 )
+vr_1 = fn_4 ( vr_1 ) ; return vr_1 ; } public String fn_5 ( String vr_1 ) {
+vr_1 = vr_1 . trim () ; if ( ! fn_2 ) vr_1 = fn_4 ( vr_1 ) ; return vr_1 ; }
+tp_1 fn_6 ( tp_1 vr_2 ) { if ( vr_2 != null && ! fn_2 ) { vr_2 . vr_3 () ; }
+return vr_2 ; }

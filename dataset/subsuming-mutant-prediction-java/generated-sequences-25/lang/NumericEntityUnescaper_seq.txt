@@ -1,0 +1,20 @@
+public boolean fn_1 ( final tp_1 vr_1 ) { return vl_1 == null ? false : vl_1 . contains ( vr_1 ) ; } @Override
+public int fn_2 ( final tp_2 vr_2 , final int vr_3 , final tp_3 out ) throws IOException {
+final int vr_4 = vr_2 . length () ;
+if( vr_2 . charAt ( vr_3 ) == '&' && vr_3 < vr_4 - 2 && vr_2 . charAt ( vr_3 + 1 ) == '#' ) {
+int vr_5 = vr_3 + 2 ; boolean vr_6 = false ; final char vr_7 = vr_2 . charAt ( vr_5 ) ;
+if( vr_7 == 'x' || vr_7 == 'X' ) { vr_5 ++ ; vr_6 = true ; if( vr_5 == vr_4 ) {
+return 0 ; } } int vr_8 = vr_5 ;
+while( vr_8 < vr_4 && ( vr_2 . charAt ( vr_8 ) >= '0' && vr_2 . charAt ( vr_8 ) <= '9' ||
+vr_2 . charAt ( vr_8 ) >= 'a' && vr_2 . charAt ( vr_8 ) <= 'f' ||
+vr_2 . charAt ( vr_8 ) >= 'A' && vr_2 . charAt ( vr_8 ) <= 'F' ) ) { vr_8 ++ ; }
+final boolean vr_9 = vr_8 != vr_4 && vr_2 . charAt ( vr_8 ) == ';' ; if( ! vr_9 ) {
+if( fn_1 ( tp_1 . vr_10 ) ) { return 0 ; } else if( fn_1 ( tp_1 . vr_11 ) ) {
+throw new IllegalArgumentException ( lr_1 ) ; } } int vr_12 ; try { if( vr_6 ) {
+vr_12 = Integer . vr_13 ( vr_2 . vr_14 ( vr_5 , vr_8 ) . toString () , 16 ) ; } else {
+vr_12 = Integer . vr_13 ( vr_2 . vr_14 ( vr_5 , vr_8 ) . toString () , 10 ) ; }
+} catch( final tp_4 vr_15 ) { return 0 ; } if( vr_12 > 0xFFFF ) {
+final char [] vr_16 = vr_17 . vr_18 ( vr_12 ) ; out . vr_19 ( vr_16 [ 0 ] ) ;
+out . vr_19 ( vr_16 [ 1 ] ) ; } else { out . vr_19 ( vr_12 ) ; }
+return 2 + vr_8 - vr_5 + ( vr_6 ? 1 : 0 ) + ( vr_9 ? 1 : 0 ) ; }
+return 0 ; }

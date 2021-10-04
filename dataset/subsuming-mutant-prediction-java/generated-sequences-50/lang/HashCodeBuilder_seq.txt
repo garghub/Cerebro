@@ -1,0 +1,39 @@
+static vr_1 < vt_1 > fn_1 () { return vr_2 . get () ; } static boolean fn_2 ( final Object vr_3 ) { final vr_1 < vt_1 > vr_4 = fn_1 () ; return vr_4 != null && vr_4 . contains ( new vt_1 ( vr_3 ) ) ;
+} private static void fn_3 ( final Object object , final Class < ? > vr_5 , final tp_1 builder , final boolean vr_6 , final String [] vr_7 ) { if ( fn_2 ( object ) ) { return; } try { register ( object ) ;
+final vr_8 [] vr_9 = vr_5 . vr_10 () ; vr_11 . vr_12 ( vr_9 , true ) ; for ( final vr_8 vr_13 : vr_9 ) { if ( ! vr_14 . contains ( vr_7 , vr_13 . vr_15 () )
+&& ! vr_13 . vr_15 () . contains ( lr_1 ) && ( vr_6 || ! vr_16 . vr_17 ( vr_13 . vr_18 () ) ) && ( ! vr_16 . vr_19 ( vr_13 . vr_18 () ) )
+&& ( ! vr_13 . vr_20 ( vr_21 . class ) ) ) { try { final Object vr_22 = vr_13 . get ( object ) ; builder . append ( vr_22 ) ; } catch ( final tp_2 vr_23 ) { throw new fn_4 ( lr_2 ) ; }
+} } } finally { fn_5 ( object ) ; } } public static int fn_6 ( final int vr_24 , final int vr_25 , final Object object ) { return fn_6 ( vr_24 , vr_25 , object , false , null ) ; }
+public static int fn_6 ( final int vr_24 , final int vr_25 , final Object object , final boolean vr_26 ) { return fn_6 ( vr_24 , vr_25 , object , vr_26 , null ) ; }
+public static < vt_2 > int fn_6 ( final int vr_24 , final int vr_25 , final vt_2 object , final boolean vr_26 , final Class < ? super vt_2 > vr_27 , final String ... vr_7 ) { if ( object == null ) {
+throw new IllegalArgumentException ( lr_3 ) ; } final tp_1 builder = new tp_1 ( vr_24 , vr_25 ) ; Class < ? > vr_5 = object . getClass () ; fn_3 ( object , vr_5 , builder , vr_26 , vr_7 ) ;
+while ( vr_5 . vr_28 () != null && vr_5 != vr_27 ) { vr_5 = vr_5 . vr_28 () ; fn_3 ( object , vr_5 , builder , vr_26 , vr_7 ) ; } return builder . vr_29 () ; }
+public static int fn_6 ( final Object object , final boolean vr_26 ) { return fn_6 ( vl_1 , vl_2 , object , vr_26 , null ) ; } public static int fn_6 ( final Object object , final Collection < String > vr_7 ) {
+return fn_6 ( object , vr_30 . vr_31 ( vr_7 ) ) ; } public static int fn_6 ( final Object object , final String ... vr_7 ) { return fn_6 ( vl_1 , vl_2 , object , false , null , vr_7 ) ; }
+static void register ( final Object vr_3 ) { synchronized ( tp_1 . class ) { if ( fn_1 () == null ) { vr_2 . vr_32 ( new vr_33 < vt_1 > () ) ; } } fn_1 () . add ( new vt_1 ( vr_3 ) ) ;
+} static void fn_5 ( final Object vr_3 ) { vr_1 < vt_1 > vr_4 = fn_1 () ; if ( vr_4 != null ) { vr_4 . remove ( new vt_1 ( vr_3 ) ) ; synchronized ( tp_1 . class ) { vr_4 = fn_1 () ;
+if ( vr_4 != null && vr_4 . isEmpty () ) { vr_2 . remove () ; } } } } public tp_1 append ( final boolean vr_3 ) { vl_3 = vl_3 * vl_4 + ( vr_3 ? 0 : 1 ) ; return this ; }
+public tp_1 append ( final boolean [] array ) { if ( array == null ) { vl_3 = vl_3 * vl_4 ; } else { for ( final boolean vr_34 : array ) { append ( vr_34 ) ; } } return this ; }
+public tp_1 append ( final byte vr_3 ) { vl_3 = vl_3 * vl_4 + vr_3 ; return this ; } public tp_1 append ( final byte [] array ) { if ( array == null ) { vl_3 = vl_3 * vl_4 ; } else {
+for ( final byte vr_34 : array ) { append ( vr_34 ) ; } } return this ; } public tp_1 append ( final char vr_3 ) { vl_3 = vl_3 * vl_4 + vr_3 ; return this ; }
+public tp_1 append ( final char [] array ) { if ( array == null ) { vl_3 = vl_3 * vl_4 ; } else { for ( final char vr_34 : array ) { append ( vr_34 ) ; } } return this ; }
+public tp_1 append ( final double vr_3 ) { return append ( Double . vr_35 ( vr_3 ) ) ; } public tp_1 append ( final double [] array ) { if ( array == null ) { vl_3 = vl_3 * vl_4 ; } else {
+for ( final double vr_34 : array ) { append ( vr_34 ) ; } } return this ; } public tp_1 append ( final float vr_3 ) { vl_3 = vl_3 * vl_4 + Float . vr_36 ( vr_3 ) ; return this ; }
+public tp_1 append ( final float [] array ) { if ( array == null ) { vl_3 = vl_3 * vl_4 ; } else { for ( final float vr_34 : array ) { append ( vr_34 ) ; } } return this ; }
+public tp_1 append ( final int vr_3 ) { vl_3 = vl_3 * vl_4 + vr_3 ; return this ; } public tp_1 append ( final int [] array ) { if ( array == null ) { vl_3 = vl_3 * vl_4 ; } else {
+for ( final int vr_34 : array ) { append ( vr_34 ) ; } } return this ; } public tp_1 append ( final long vr_3 ) { vl_3 = vl_3 * vl_4 + ( (int) ( vr_3 ^ ( vr_3 >> 32 ) ) ) ;
+return this ; } public tp_1 append ( final long [] array ) { if ( array == null ) { vl_3 = vl_3 * vl_4 ; } else { for ( final long vr_34 : array ) { append ( vr_34 ) ; } } return this ; }
+public tp_1 append ( final Object object ) { if ( object == null ) { vl_3 = vl_3 * vl_4 ; } else { if( object . getClass () . fn_7 () ) { if ( object instanceof long [] ) {
+append ( ( long [] ) object ) ; } else if ( object instanceof int [] ) { append ( ( int [] ) object ) ; } else if ( object instanceof short [] ) { append ( ( short [] ) object ) ;
+} else if ( object instanceof char [] ) { append ( ( char [] ) object ) ; } else if ( object instanceof byte [] ) { append ( ( byte [] ) object ) ; } else if ( object instanceof double [] ) {
+append ( ( double [] ) object ) ; } else if ( object instanceof float [] ) { append ( ( float [] ) object ) ; } else if ( object instanceof boolean [] ) { append ( ( boolean [] ) object ) ; } else {
+append ( ( Object [] ) object ) ; } } else { if ( object instanceof Long ) { append ( ( ( Long ) object ) . fn_8 () ) ; } else if ( object instanceof Integer ) {
+append ( ( ( Integer ) object ) . fn_9 () ) ; } else if ( object instanceof Short ) { append ( ( ( Short ) object ) . fn_10 () ) ; } else if ( object instanceof vl_5 ) {
+append ( ( ( vl_5 ) object ) . fn_11 () ) ; } else if ( object instanceof Byte ) { append ( ( ( Byte ) object ) . fn_12 () ) ; } else if ( object instanceof Double ) {
+append ( ( ( Double ) object ) . fn_13 () ) ; } else if ( object instanceof Float ) { append ( ( ( Float ) object ) . fn_14 () ) ; } else if ( object instanceof Boolean ) {
+append ( ( ( Boolean ) object ) . fn_15 () ) ; } else if ( object instanceof String ) { vl_3 = vl_3 * vl_4 + object . vr_37 () ; } else { if ( fn_2 ( object ) ) { return this ; } try {
+register ( object ) ; vl_3 = vl_3 * vl_4 + object . vr_37 () ; } finally { fn_5 ( object ) ; } } } } return this ; } public tp_1 append ( final Object [] array ) { if ( array == null ) {
+vl_3 = vl_3 * vl_4 ; } else { for ( final Object vr_34 : array ) { append ( vr_34 ) ; } } return this ; } public tp_1 append ( final short vr_3 ) { vl_3 = vl_3 * vl_4 + vr_3 ; return this ; }
+public tp_1 append ( final short [] array ) { if ( array == null ) { vl_3 = vl_3 * vl_4 ; } else { for ( final short vr_34 : array ) { append ( vr_34 ) ; } } return this ; }
+public tp_1 fn_16 ( final int vr_38 ) { vl_3 = vl_3 * vl_4 + vr_38 ; return this ; } public int vr_29 () { return vl_3 ; } @Override public Integer fn_17 () { return Integer . valueOf ( vr_29 () ) ; } @Override
+public int vr_37 () { return vr_29 () ; }

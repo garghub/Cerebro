@@ -1,0 +1,9 @@
+public static void main ( final String [] args ) throws IOException { if ( args . length != 1 ) {
+System . vr_1 . println ( lr_1 ) ; System . vr_1 . println ( lr_2 ) ; System . exit ( 1 ) ;
+} final tp_1 vr_2 = tp_1 . vr_3 ( args [ 0 ] ) ;
+final tp_2 vr_4 = vr_5 . vr_6 ( vr_2 , 10000 , null ) ;
+vr_4 . vr_7 ( new fn_1 ( System . out , true ) ) ; try { vr_4 . vr_8 ( 6000 ) ;
+vr_4 . vr_9 () ; vr_4 . vr_10 ( lr_3 ) ; vr_4 . vr_11 ( lr_3 ) ;
+vr_4 . vr_12 ( lr_3 , new String [] { lr_4 } ) ; vr_4 . list ( lr_5 , lr_6 ) ;
+} catch ( final IOException vr_13 ) { System . out . println ( vr_4 . vr_14 () ) ; vr_13 . vr_15 () ;
+System . exit ( 10 ) ; return; } finally { vr_4 . vr_16 () ; vr_4 . vr_17 () ; } }

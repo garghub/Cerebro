@@ -1,0 +1,9 @@
+@Override public tp_1 append ( final char vr_1 ) { builder . append ( vr_1 ) ; return this ; } @Override
+public tp_1 append ( final tp_2 vr_1 ) { builder . append ( vr_1 ) ; return this ; } @Override
+public tp_1 append ( final tp_2 vr_1 , final int vr_2 , final int vr_3 ) {
+builder . append ( vr_1 , vr_2 , vr_3 ) ; return this ; } @Override public void fn_1 () { } @Override
+public void fn_2 () { } @Override public void fn_3 ( final String vr_1 ) { if ( vr_1 != null ) {
+builder . append ( vr_1 ) ; } } @Override
+public void fn_3 ( final char [] vr_1 , final int vr_4 , final int length ) { if ( vr_1 != null ) {
+builder . append ( vr_1 , vr_4 , length ) ; } } public StringBuilder fn_4 () { return builder ; } @Override
+public String toString () { return builder . toString () ; }

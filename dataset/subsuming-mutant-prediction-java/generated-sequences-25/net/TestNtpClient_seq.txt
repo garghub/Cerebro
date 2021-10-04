@@ -1,0 +1,20 @@
+@df_1 public static void fn_1 () throws IOException { vl_1 = new fn_2 ( 0 ) ; vl_1 . vr_1 () ; try {
+vl_1 . vr_2 () ; } catch ( final IOException vr_3 ) { Assert . vr_4 ( lr_1 + vr_3 ) ; }
+Assert . vr_5 ( vl_1 . vr_6 () ) ; boolean vr_7 = false ;
+for ( int vr_8 = 0 ; vr_8 < 5 ; vr_8 ++ ) { vr_7 = vl_1 . vr_9 () ;
+if ( vr_7 ) { break; } try { vr_10 . vr_11 ( 2000 ) ; } catch ( final tp_1 vr_3 ) { }
+} Assert . vr_5 ( vr_7 ) ; } @df_2 public static void fn_3 () { if ( vl_1 != null ) {
+vl_1 . vr_12 () ; vl_1 = null ; } } @df_3 public void fn_4 () throws IOException {
+final long vr_13 = System . vr_14 () ; final tp_2 vr_15 = new tp_2 () ; vr_15 . vr_16 ( 2000 ) ;
+try {
+final tp_3 vr_17 = tp_3 . vr_18 ( lr_2 , new byte [] { 127 , 0 , 0 , 1 } ) ;
+final tp_4 vr_19 = vr_15 . vr_20 ( vr_17 , vl_1 . vr_21 () ) ; Assert . vr_22 ( vr_19 ) ;
+Assert . vr_5 ( vr_19 . vr_23 () >= vr_13 ) ; final tp_5 vr_24 = vr_19 . vr_25 () ;
+Assert . vr_22 ( vr_24 ) ; final tp_6 vr_26 = vr_24 . vr_27 () ; final tp_6 vr_28 = vr_24 . vr_29 () ;
+Assert . vr_5 ( vr_28 . vr_30 ( vr_26 ) >= 0 ) ; final tp_6 vr_31 = vr_24 . vr_32 () ;
+Assert . vr_22 ( vr_31 ) ; Assert . vr_5 ( vr_31 . vr_20 () >= vr_13 ) ;
+Assert . vr_33 ( tp_5 . vr_34 , vr_24 . vr_35 () ) ; final tp_6 vr_36 = vr_24 . vr_37 () ;
+Assert . vr_22 ( vr_36 ) ; Assert . vr_5 ( vr_36 . vr_20 () >= vr_13 ) ;
+Assert . vr_33 ( tp_5 . vr_38 , vr_24 . vr_39 () ) ;
+Assert . vr_33 ( 1 , vr_24 . vr_40 () ) ;
+Assert . vr_33 ( lr_3 , vr_41 . vr_42 ( vr_24 ) ) ; } finally { vr_15 . vr_43 () ; } }

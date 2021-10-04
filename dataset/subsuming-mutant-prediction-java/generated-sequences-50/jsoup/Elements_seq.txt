@@ -1,0 +1,32 @@
+@Override public tp_1 fn_1 () { tp_1 fn_1 = new tp_1 ( size () ) ; for( tp_2 vr_1 : this ) fn_1 . add ( vr_1 . fn_1 () ) ; return fn_1 ; } public String fn_2 ( String vr_2 ) {
+for ( tp_2 vr_3 : this ) { if ( vr_3 . vr_4 ( vr_2 ) ) return vr_3 . fn_2 ( vr_2 ) ; } return lr_1 ; } public boolean vr_4 ( String vr_2 ) { for ( tp_2 vr_3 : this ) {
+if ( vr_3 . vr_4 ( vr_2 ) ) return true ; } return false ; } public List < String > fn_3 ( String vr_2 ) { List < String > vr_5 = new ArrayList <> ( size () ) ; for ( tp_2 vr_3 : this ) {
+if ( vr_3 . vr_4 ( vr_2 ) ) vr_5 . add ( vr_3 . fn_2 ( vr_2 ) ) ; } return vr_5 ; } public tp_1 fn_2 ( String vr_2 , String vr_6 ) { for ( tp_2 vr_3 : this ) {
+vr_3 . fn_2 ( vr_2 , vr_6 ) ; } return this ; } public tp_1 fn_4 ( String vr_2 ) { for ( tp_2 vr_3 : this ) { vr_3 . fn_4 ( vr_2 ) ; } return this ; } public tp_1 fn_5 ( String vr_7 ) {
+for ( tp_2 vr_3 : this ) { vr_3 . fn_5 ( vr_7 ) ; } return this ; } public tp_1 fn_6 ( String vr_7 ) { for ( tp_2 vr_3 : this ) { vr_3 . fn_6 ( vr_7 ) ; } return this ; }
+public tp_1 fn_7 ( String vr_7 ) { for ( tp_2 vr_3 : this ) { vr_3 . fn_7 ( vr_7 ) ; } return this ; } public boolean fn_8 ( String vr_7 ) { for ( tp_2 vr_3 : this ) {
+if ( vr_3 . fn_8 ( vr_7 ) ) return true ; } return false ; } public String fn_9 () { if ( size () > 0 ) return fn_10 () . fn_9 () ; else return lr_1 ; } public tp_1 fn_9 ( String vr_8 ) {
+for ( tp_2 vr_3 : this ) vr_3 . fn_9 ( vr_8 ) ; return this ; } public String fn_11 () { StringBuilder vr_9 = vr_10 . vr_11 () ; for ( tp_2 vr_3 : this ) { if ( vr_9 . length () != 0 )
+vr_9 . append ( lr_2 ) ; vr_9 . append ( vr_3 . fn_11 () ) ; } return vr_10 . vr_12 ( vr_9 ) ; } public boolean fn_12 () { for ( tp_2 vr_3 : this ) { if ( vr_3 . fn_12 () ) return true ;
+} return false ; } public List < String > fn_13 () { ArrayList < String > vr_13 = new ArrayList <> ( size () ) ; for ( tp_2 vr_14 : this ) { if ( vr_14 . fn_12 () )
+vr_13 . add ( vr_14 . fn_11 () ) ; } return vr_13 ; } public String fn_14 () { StringBuilder vr_9 = vr_10 . vr_11 () ; for ( tp_2 vr_3 : this ) { if ( vr_9 . length () != 0 )
+vr_9 . append ( lr_3 ) ; vr_9 . append ( vr_3 . fn_14 () ) ; } return vr_10 . vr_12 ( vr_9 ) ; } public String fn_15 () { StringBuilder vr_9 = vr_10 . vr_11 () ; for ( tp_2 vr_3 : this ) {
+if ( vr_9 . length () != 0 ) vr_9 . append ( lr_3 ) ; vr_9 . append ( vr_3 . fn_15 () ) ; } return vr_10 . vr_12 ( vr_9 ) ; } @Override public String toString () { return fn_15 () ; }
+public tp_1 fn_16 ( String fn_16 ) { for ( tp_2 vr_3 : this ) { vr_3 . fn_16 ( fn_16 ) ; } return this ; } public tp_1 fn_14 ( String fn_14 ) { for ( tp_2 vr_3 : this ) {
+vr_3 . fn_14 ( fn_14 ) ; } return this ; } public tp_1 fn_17 ( String fn_14 ) { for ( tp_2 vr_3 : this ) { vr_3 . fn_17 ( fn_14 ) ; } return this ; } public tp_1 append ( String fn_14 ) {
+for ( tp_2 vr_3 : this ) { vr_3 . append ( fn_14 ) ; } return this ; } public tp_1 fn_18 ( String fn_14 ) { for ( tp_2 vr_3 : this ) { vr_3 . fn_18 ( fn_14 ) ; } return this ; }
+public tp_1 fn_19 ( String fn_14 ) { for ( tp_2 vr_3 : this ) { vr_3 . fn_19 ( fn_14 ) ; } return this ; } public tp_1 fn_20 ( String fn_14 ) { vr_15 . vr_16 ( fn_14 ) ;
+for ( tp_2 vr_3 : this ) { vr_3 . fn_20 ( fn_14 ) ; } return this ; } public tp_1 fn_21 () { for ( tp_2 vr_3 : this ) { vr_3 . fn_21 () ; } return this ; } public tp_1 fn_22 () {
+for ( tp_2 vr_3 : this ) { vr_3 . fn_22 () ; } return this ; } public tp_1 remove () { for ( tp_2 vr_3 : this ) { vr_3 . remove () ; } return this ; } public tp_1 fn_23 ( String vr_17 ) {
+return vr_18 . fn_23 ( vr_17 , this ) ; } public tp_1 fn_24 ( String vr_17 ) { tp_1 out = vr_18 . fn_23 ( vr_17 , this ) ; return vr_18 . vr_19 ( this , out ) ; } public tp_1 fn_25 ( int vr_20 ) {
+return size () > vr_20 ? new tp_1 ( get ( vr_20 ) ) : new tp_1 () ; } public boolean fn_26 ( String vr_17 ) { tp_3 vr_21 = vr_22 . vr_23 ( vr_17 ) ; for ( tp_2 vr_1 : this ) {
+if ( vr_1 . fn_26 ( vr_21 ) ) return true ; } return false ; } public tp_1 fn_27 () { return fn_28 ( null , true , false ) ; } public tp_1 fn_27 ( String vr_17 ) {
+return fn_28 ( vr_17 , true , false ) ; } public tp_1 fn_29 () { return fn_28 ( null , true , true ) ; } public tp_1 fn_29 ( String vr_17 ) { return fn_28 ( vr_17 , true , true ) ; }
+public tp_1 fn_30 () { return fn_28 ( null , false , false ) ; } public tp_1 fn_30 ( String vr_17 ) { return fn_28 ( vr_17 , false , false ) ; } public tp_1 fn_31 () { return fn_28 ( null , false , true ) ;
+} public tp_1 fn_31 ( String vr_17 ) { return fn_28 ( vr_17 , false , true ) ; } private tp_1 fn_28 ( String vr_17 , boolean fn_27 , boolean vr_24 ) { tp_1 vr_25 = new tp_1 () ;
+tp_3 vr_21 = vr_17 != null ? vr_22 . vr_23 ( vr_17 ) : null ; for ( tp_2 vr_1 : this ) { do { tp_2 vr_26 = fn_27 ? vr_1 . vr_27 () : vr_1 . vr_28 () ; if ( vr_26 == null ) break;
+if ( vr_21 == null ) vr_25 . add ( vr_26 ) ; else if ( vr_26 . fn_26 ( vr_21 ) ) vr_25 . add ( vr_26 ) ; vr_1 = vr_26 ; } while ( vr_24 ); } return vr_25 ; } public tp_1 fn_32 () {
+vr_29 < tp_2 > vr_30 = new vr_31 <> () ; for ( tp_2 vr_1 : this ) { vr_30 . vr_32 ( vr_1 . fn_32 () ) ; } return new tp_1 ( vr_30 ) ; } public tp_2 fn_10 () {
+return isEmpty () ? null : get ( 0 ) ; } public tp_2 fn_33 () { return isEmpty () ? null : get ( size () - 1 ) ; } public tp_1 fn_34 ( tp_4 vr_33 ) { vr_34 . fn_34 ( vr_33 , this ) ;
+return this ; } public tp_1 fn_35 ( tp_5 vr_35 ) { vr_34 . fn_35 ( vr_35 , this ) ; return this ; } public List < vt_1 > fn_36 () { ArrayList < vt_1 > fn_36 = new ArrayList <> () ;
+for ( tp_2 vr_14 : this ) if ( vr_14 instanceof vt_1 ) fn_36 . add ( ( vt_1 ) vr_14 ) ; return fn_36 ; }

@@ -1,0 +1,5 @@
+public long getDurationMillis ( Object object ) { return ( ( ( ReadableInterval ) object ) ) . toDurationMillis () ; } public void setInto ( ReadWritablePeriod writablePeriod , Object object , Chronology chrono ) { ReadableInterval interval = ( ReadableInterval ) object ;
+chrono = ( chrono != null ? chrono : DateTimeUtils . getIntervalChronology ( interval ) ) ; long start = interval . getStartMillis () ; long end = interval . getEndMillis () ; int [] values = chrono . get ( writablePeriod , start , end ) ;
+for ( int i = 0 ; i < values . length ; i ++ ) { writablePeriod . setValue ( i , values [ i ] ) ; } } public boolean isReadableInterval ( Object object , Chronology chrono ) { return true ; }
+public void setInto ( ReadWritableInterval writableInterval , Object object , Chronology chrono ) { ReadableInterval input = ( ReadableInterval ) object ; writableInterval . setInterval ( input ) ; if ( chrono != null ) { writableInterval . setChronology ( chrono ) ; } else {
+writableInterval . setChronology ( input . getChronology () ) ; } } public Class < ? > getSupportedType () { return ReadableInterval . class ; }

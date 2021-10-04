@@ -1,0 +1,116 @@
+return new vr_1 <> ( vr_2 ) ; MST[ReturnValsMutator]MSP[] } protected Collection < vt_2 > fn_2 () { return collection ; } @Override
+public boolean add ( final vt_2 object ) { synchronized ( vl_1 ) { return fn_2 () . add ( object ) ; MST[BooleanTrueReturnValsMutator]MSP[] } }
+synchronized ( vl_1 ) { return fn_2 () . toArray ( object ) ; MST[NullReturnValsMutator]MSP[] } } @Override
+public String toString () { synchronized ( vl_1 ) { return fn_2 () . toString () ; MST[ReturnValsMutator]MSP[] } }
+public boolean add ( final vt_2 object ) { synchronized ( vl_1 ) { return fn_2 () . add ( object ) ; MST[ReturnValsMutator]MSP[] } }
+if ( object == this ) { return true ; MST[ReturnValsMutator]MSP[] } return object == this || fn_2 () . equals ( object ) ; }
+if ( object == this ) { return true ; MST[BooleanTrueReturnValsMutator]MSP[] } return object == this || fn_2 () . equals ( object ) ; }
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[BooleanTrueReturnValsMutator]MSP[] }
+} @Override public int fn_8 () { synchronized ( vl_1 ) { return fn_2 () . fn_8 () ; MST[NonVoidMethodCallMutator]MSP[] } } @Override
+return fn_2 () . fn_5 ( vr_4 ) ; MST[NonVoidMethodCallMutator]MSP[] } } @Override public boolean fn_6 ( final Collection < ? > vr_2 ) {
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[BooleanFalseReturnValsMutator]MSP[] }
+return fn_2 () . fn_3 ( vr_2 ) ; MST[NonVoidMethodCallMutator]MSP[] } } @Override public void clear () { synchronized ( vl_1 ) {
+return fn_2 () . iterator () ; MST[NonVoidMethodCallMutator]MSP[] } @Override public Object [] toArray () { synchronized ( vl_1 ) {
+synchronized ( vl_1 ) { return fn_2 () . toArray ( object ) ; MST[NonVoidMethodCallMutator]MSP[] } } @Override
+return fn_2 () . contains ( object ) ; MST[NonVoidMethodCallMutator]MSP[] } } @Override public boolean fn_4 ( final Collection < ? > vr_2 ) {
+return fn_2 () . contains ( object ) ; MST[ReturnValsMutator]MSP[] } } @Override public boolean fn_4 ( final Collection < ? > vr_2 ) {
+synchronized ( vl_1 ) { return fn_2 () . fn_4 ( vr_2 ) ; MST[BooleanFalseReturnValsMutator]MSP[] } } @Override public boolean isEmpty () {
+if ( object == this ) { return true ; MST[InlineConstantMutator]MSP[] } return object == this || fn_2 () . equals ( object ) ; }
+synchronized ( vl_1 ) { return fn_2 () . fn_4 ( vr_2 ) ; MST[NonVoidMethodCallMutator]MSP[] } } @Override public boolean isEmpty () {
+return fn_2 () . size () ; MST[ReturnValsMutator]MSP[] } } @Override public boolean equals ( final Object object ) { synchronized ( vl_1 ) {
+public String toString () { synchronized ( vl_1 ) { return fn_2 () . toString () ; MST[NonVoidMethodCallMutator]MSP[] } }
+return new vr_1 <> ( vr_2 ) ; MST[ConstructorCallMutator]MSP[] } protected Collection < vt_2 > fn_2 () { return collection ; } @Override
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[] }
+return new vr_1 <> ( vr_2 ) ; } protected Collection < vt_2 > fn_2 () { return collection ; MST[ReturnValsMutator]MSP[] } @Override
+if ( object == this ) { return true ; MST[BooleanFalseReturnValsMutator]MSP[] } return object == this || fn_2 () . equals ( object ) ; }
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[rv.ROR4Mutator]MSP[] }
+synchronized ( vl_1 ) { return fn_2 () . fn_6 ( vr_2 ) ; MST[NonVoidMethodCallMutator]MSP[] } } @Override
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[NegateConditionalsMutator]MSP[] }
+synchronized ( vl_1 ) { return fn_2 () . isEmpty () ; MST[BooleanFalseReturnValsMutator]MSP[] } } @Override public Iterator < vt_2 > iterator () {
+return fn_2 () . fn_3 ( vr_2 ) ; MST[ReturnValsMutator]MSP[] } } @Override public void clear () { synchronized ( vl_1 ) {
+public boolean remove ( final Object object ) { synchronized ( vl_1 ) { return fn_2 () . remove ( object ) ; MST[ReturnValsMutator]MSP[] } }
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[rv.CRCR6Mutator]MSP[] }
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[rv.ROR3Mutator]MSP[] }
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[rv.CRCR3Mutator]MSP[] }
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[rv.CRCR6Mutator]MSP[] }
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[rv.CRCR2Mutator]MSP[] }
+synchronized ( vl_1 ) { return fn_2 () . toArray ( object ) ; MST[ReturnValsMutator]MSP[] } } @Override
+return fn_2 () . fn_5 ( vr_4 ) ; MST[ReturnValsMutator]MSP[] } } @Override public boolean fn_6 ( final Collection < ? > vr_2 ) {
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[NonVoidMethodCallMutator]MSP[] }
+return fn_2 () . contains ( object ) ; MST[BooleanFalseReturnValsMutator]MSP[] } } @Override public boolean fn_4 ( final Collection < ? > vr_2 ) {
+synchronized ( vl_1 ) { return fn_2 () . fn_4 ( vr_2 ) ; MST[ReturnValsMutator]MSP[] } } @Override public boolean isEmpty () {
+public boolean remove ( final Object object ) { synchronized ( vl_1 ) { return fn_2 () . remove ( object ) ; MST[BooleanFalseReturnValsMutator]MSP[] } }
+return new vr_1 <> ( vr_2 ) ; MST[NullReturnValsMutator]MSP[] } protected Collection < vt_2 > fn_2 () { return collection ; } @Override
+public boolean remove ( final Object object ) { synchronized ( vl_1 ) { return fn_2 () . remove ( object ) ; MST[BooleanTrueReturnValsMutator]MSP[] } }
+if ( object == this ) { return true ; MST[rv.CRCR5Mutator]MSP[] } return object == this || fn_2 () . equals ( object ) ; }
+synchronized ( vl_1 ) { return fn_2 () . isEmpty () ; MST[ReturnValsMutator]MSP[] } } @Override public Iterator < vt_2 > iterator () {
+if ( object == this ) { return true ; MST[rv.CRCR4Mutator]MSP[] } return object == this || fn_2 () . equals ( object ) ; }
+return fn_2 () . fn_7 ( vr_2 ) ; MST[NonVoidMethodCallMutator]MSP[] } } @Override public int size () { synchronized ( vl_1 ) {
+if ( object == this ) { MST[rv.ROR5Mutator]MSP[] return true ; } return object == this || fn_2 () . equals ( object ) ; }
+} @Override public int fn_8 () { synchronized ( vl_1 ) { return fn_2 () . fn_8 () ; MST[ReturnValsMutator]MSP[] } } @Override
+fn_2 () . clear () ; MST[NonVoidMethodCallMutator]MSP[] } } @Override public boolean contains ( final Object object ) { synchronized ( vl_1 ) {
+return fn_2 () . contains ( object ) ; MST[BooleanTrueReturnValsMutator]MSP[] } } @Override public boolean fn_4 ( final Collection < ? > vr_2 ) {
+return fn_2 () . fn_5 ( vr_4 ) ; MST[BooleanFalseReturnValsMutator]MSP[] } } @Override public boolean fn_6 ( final Collection < ? > vr_2 ) {
+public boolean remove ( final Object object ) { synchronized ( vl_1 ) { return fn_2 () . remove ( object ) ; MST[NonVoidMethodCallMutator]MSP[] } }
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[InlineConstantMutator]MSP[] }
+synchronized ( vl_1 ) { return fn_2 () . fn_6 ( vr_2 ) ; MST[ReturnValsMutator]MSP[] } } @Override
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[InlineConstantMutator]MSP[] }
+return fn_2 () . size () ; MST[NonVoidMethodCallMutator]MSP[] } } @Override public boolean equals ( final Object object ) { synchronized ( vl_1 ) {
+public boolean add ( final vt_2 object ) { synchronized ( vl_1 ) { return fn_2 () . add ( object ) ; MST[BooleanFalseReturnValsMutator]MSP[] } }
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] }
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[rv.CRCR3Mutator]MSP[] }
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[NegateConditionalsMutator]MSP[] }
+return fn_2 () . iterator () ; MST[NullReturnValsMutator]MSP[] } @Override public Object [] toArray () { synchronized ( vl_1 ) {
+public boolean add ( final vt_2 object ) { synchronized ( vl_1 ) { return fn_2 () . add ( object ) ; MST[NonVoidMethodCallMutator]MSP[] } }
+synchronized ( vl_1 ) { return fn_2 () . fn_6 ( vr_2 ) ; MST[BooleanFalseReturnValsMutator]MSP[] } } @Override
+return fn_2 () . toArray () ; MST[ReturnValsMutator]MSP[] } } @Override public < vt_1 > vt_1 [] toArray ( final vt_1 [] object ) {
+synchronized ( vl_1 ) { return fn_2 () . fn_6 ( vr_2 ) ; MST[BooleanTrueReturnValsMutator]MSP[] } } @Override
+return fn_2 () . fn_7 ( vr_2 ) ; MST[BooleanTrueReturnValsMutator]MSP[] } } @Override public int size () { synchronized ( vl_1 ) {
+synchronized ( vl_1 ) { return fn_2 () . toArray ( object ) ; MST[ArgumentPropagationMutator]MSP[] } } @Override
+return fn_2 () . fn_3 ( vr_2 ) ; MST[NonVoidMethodCallMutator]MSP[] } } @Override public void clear () { synchronized ( vl_1 ) {
+synchronized ( vl_1 ) { return fn_2 () . toArray ( object ) ; MST[NonVoidMethodCallMutator]MSP[] } } @Override
+return fn_2 () . fn_5 ( vr_4 ) ; MST[NonVoidMethodCallMutator]MSP[] } } @Override public boolean fn_6 ( final Collection < ? > vr_2 ) {
+return fn_2 () . fn_7 ( vr_2 ) ; MST[BooleanFalseReturnValsMutator]MSP[] } } @Override public int size () { synchronized ( vl_1 ) {
+if ( object == this ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] return true ; } return object == this || fn_2 () . equals ( object ) ; }
+return fn_2 () . contains ( object ) ; MST[NonVoidMethodCallMutator]MSP[] } } @Override public boolean fn_4 ( final Collection < ? > vr_2 ) {
+} @Override public int fn_8 () { synchronized ( vl_1 ) { return fn_2 () . fn_8 () ; MST[PrimitiveReturnsMutator]MSP[] } } @Override
+synchronized ( vl_1 ) { return fn_2 () . fn_4 ( vr_2 ) ; MST[NonVoidMethodCallMutator]MSP[] } } @Override public boolean isEmpty () {
+return fn_2 () . toArray () ; MST[NonVoidMethodCallMutator]MSP[] } } @Override public < vt_1 > vt_1 [] toArray ( final vt_1 [] object ) {
+return fn_2 () . toArray () ; MST[NullReturnValsMutator]MSP[] } } @Override public < vt_1 > vt_1 [] toArray ( final vt_1 [] object ) {
+return fn_2 () . size () ; MST[PrimitiveReturnsMutator]MSP[] } } @Override public boolean equals ( final Object object ) { synchronized ( vl_1 ) {
+public String toString () { synchronized ( vl_1 ) { return fn_2 () . toString () ; MST[EmptyObjectReturnValsMutator]MSP[] } }
+if ( object == this ) { MST[NegateConditionalsMutator]MSP[] return true ; } return object == this || fn_2 () . equals ( object ) ; }
+return fn_2 () . size () ; MST[NonVoidMethodCallMutator]MSP[] } } @Override public boolean equals ( final Object object ) { synchronized ( vl_1 ) {
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[rv.ROR5Mutator]MSP[] }
+synchronized ( vl_1 ) { return fn_2 () . isEmpty () ; MST[NonVoidMethodCallMutator]MSP[] } } @Override public Iterator < vt_2 > iterator () {
+return fn_2 () . iterator () ; MST[ReturnValsMutator]MSP[] } @Override public Object [] toArray () { synchronized ( vl_1 ) {
+return fn_2 () . fn_7 ( vr_2 ) ; MST[ReturnValsMutator]MSP[] } } @Override public int size () { synchronized ( vl_1 ) {
+synchronized ( vl_1 ) { return fn_2 () . fn_6 ( vr_2 ) ; MST[NonVoidMethodCallMutator]MSP[] } } @Override
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[rv.ROR1Mutator]MSP[] }
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[rv.ROR2Mutator]MSP[] }
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[rv.CRCR4Mutator]MSP[] }
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[rv.CRCR5Mutator]MSP[] }
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[NonVoidMethodCallMutator]MSP[] }
+return fn_2 () . fn_5 ( vr_4 ) ; MST[BooleanTrueReturnValsMutator]MSP[] } } @Override public boolean fn_6 ( final Collection < ? > vr_2 ) {
+return fn_2 () . fn_3 ( vr_2 ) ; MST[BooleanFalseReturnValsMutator]MSP[] } } @Override public void clear () { synchronized ( vl_1 ) {
+} @Override public int fn_8 () { synchronized ( vl_1 ) { return fn_2 () . fn_8 () ; MST[NonVoidMethodCallMutator]MSP[] } } @Override
+fn_2 () . clear () ; MST[VoidMethodCallMutator]MSP[] } } @Override public boolean contains ( final Object object ) { synchronized ( vl_1 ) {
+return fn_2 () . fn_3 ( vr_2 ) ; MST[BooleanTrueReturnValsMutator]MSP[] } } @Override public void clear () { synchronized ( vl_1 ) {
+return fn_2 () . iterator () ; MST[NonVoidMethodCallMutator]MSP[] } @Override public Object [] toArray () { synchronized ( vl_1 ) {
+if ( object == this ) { return true ; MST[rv.CRCR6Mutator]MSP[] } return object == this || fn_2 () . equals ( object ) ; }
+if ( object == this ) { return true ; MST[rv.CRCR3Mutator]MSP[] } return object == this || fn_2 () . equals ( object ) ; }
+if ( object == this ) { return true ; MST[rv.CRCR2Mutator]MSP[] } return object == this || fn_2 () . equals ( object ) ; }
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[] }
+return fn_2 () . toArray () ; MST[NonVoidMethodCallMutator]MSP[] } } @Override public < vt_1 > vt_1 [] toArray ( final vt_1 [] object ) {
+return fn_2 () . fn_7 ( vr_2 ) ; MST[NonVoidMethodCallMutator]MSP[] } } @Override public int size () { synchronized ( vl_1 ) {
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[ReturnValsMutator]MSP[] }
+public String toString () { synchronized ( vl_1 ) { return fn_2 () . toString () ; MST[NonVoidMethodCallMutator]MSP[] } }
+public boolean remove ( final Object object ) { synchronized ( vl_1 ) { return fn_2 () . remove ( object ) ; MST[NonVoidMethodCallMutator]MSP[] } }
+public boolean add ( final vt_2 object ) { synchronized ( vl_1 ) { return fn_2 () . add ( object ) ; MST[NonVoidMethodCallMutator]MSP[] } }
+synchronized ( vl_1 ) { return fn_2 () . fn_4 ( vr_2 ) ; MST[BooleanTrueReturnValsMutator]MSP[] } } @Override public boolean isEmpty () {
+synchronized ( vl_1 ) { return fn_2 () . isEmpty () ; MST[NonVoidMethodCallMutator]MSP[] } } @Override public Iterator < vt_2 > iterator () {
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[rv.ROR5Mutator]MSP[] }
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[rv.CRCR1Mutator]MSP[] }
+if ( object == this ) { return true ; } return object == this || fn_2 () . equals ( object ) ; MST[rv.CRCR5Mutator]MSP[] }
+return new vr_1 <> ( vr_2 ) ; } protected Collection < vt_2 > fn_2 () { return collection ; MST[EmptyObjectReturnValsMutator]MSP[] } @Override
+synchronized ( vl_1 ) { return fn_2 () . isEmpty () ; MST[BooleanTrueReturnValsMutator]MSP[] } } @Override public Iterator < vt_2 > iterator () {

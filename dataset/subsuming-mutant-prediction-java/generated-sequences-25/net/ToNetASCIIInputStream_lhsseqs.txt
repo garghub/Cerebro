@@ -1,0 +1,317 @@
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[rv.ROR5Mutator]MSP[] { int vr_1 , vr_5 ;
+while ( -- length > 0 && ( vr_1 = fn_1 () ) != - 1 ); return vr_4 - vr_5 ; MST[rv.UOI1Mutator]MSP[] } @Override
+length = vr_1 ; MST[rv.UOI4Mutator]MSP[] } if ( length < 1 ) { length = 1 ; }
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[rv.ROR3Mutator]MSP[] { int vr_1 , vr_5 ;
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) MST[rv.ROR1Mutator]MSP[] { vl_1 = vl_3 ; return '\n' ;
+if ( length < 1 ) { return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) { MST[rv.UOI1Mutator]MSP[]
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) MST[rv.ROR3Mutator]MSP[] { vl_1 = vl_3 ; return '\n' ;
+if ( length < 1 ) { return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) { MST[rv.UOI3Mutator]MSP[]
+while ( -- length > 0 && ( vr_1 = fn_1 () ) != - 1 ); return vr_4 - vr_5 ; MST[rv.UOI3Mutator]MSP[] } @Override
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[rv.CRCR6Mutator]MSP[] { int vr_1 , vr_5 ;
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[RemoveConditionalMutator_EQUAL_IF]MSP[] { int vr_1 , vr_5 ;
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; MST[rv.CRCR2Mutator]MSP[] } return vr_6 ; }
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) MST[RemoveConditionalMutator_EQUAL_IF]MSP[] { vl_1 = vl_3 ; return '\n' ;
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) { case '\r' : vl_1 = vl_4 ; MST[InlineConstantMutator]MSP[] return '\r' ;
+return vr_1 ; MST[PrimitiveReturnsMutator]MSP[] } } @Override public int fn_1 ( final byte vr_3 [] ) throws IOException {
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) MST[rv.CRCR4Mutator]MSP[] { vl_1 = vl_3 ; return '\n' ;
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) MST[rv.CRCR6Mutator]MSP[] { vl_1 = vl_3 ; return '\n' ;
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) MST[rv.CRCR2Mutator]MSP[] { vl_1 = vl_3 ; return '\n' ;
+case '\n' : if ( vl_1 != vl_4 ) MST[rv.ROR2Mutator]MSP[] { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ;
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[rv.ROR1Mutator]MSP[] { int vr_1 , vr_5 ;
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; MST[rv.AOD1Mutator]MSP[] } return vr_6 ; }
+if ( length < 1 ) { MST[rv.UOI1Mutator]MSP[] return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) {
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; MST[rv.CRCR6Mutator]MSP[] } return vr_6 ; }
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; MST[rv.CRCR4Mutator]MSP[] } return vr_6 ; }
+if ( length < 1 ) { MST[rv.UOI3Mutator]MSP[] return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) {
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] { int vr_1 , vr_5 ;
+while ( -- length > 0 && ( vr_1 = fn_1 () ) != - 1 ); return vr_4 - vr_5 ; MST[rv.AOR4Mutator]MSP[] } @Override
+if ( ( vr_1 = fn_1 () ) == - 1 ) { MST[rv.ROR4Mutator]MSP[] return - 1 ; } vr_5 = vr_4 ; do {
+if ( ( vr_1 = fn_1 () ) == - 1 ) { MST[rv.ROR2Mutator]MSP[] return - 1 ; } vr_5 = vr_4 ; do {
+while ( -- length > 0 && ( vr_1 = fn_1 () ) != - 1 ); return vr_4 - vr_5 ; MST[rv.AOR2Mutator]MSP[] } @Override
+if ( length < 1 ) { return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[]
+length = vr_1 ; } if ( length < 1 ) { MST[rv.UOI3Mutator]MSP[] length = 1 ; }
+length = vr_1 ; } if ( length < 1 ) { MST[rv.UOI1Mutator]MSP[] length = 1 ; }
+length = vr_1 ; MST[rv.UOI2Mutator]MSP[] } if ( length < 1 ) { length = 1 ; }
+if ( length < 1 ) { return 0 ; MST[InlineConstantMutator]MSP[] } vr_1 = fn_2 () ; if ( length > vr_1 ) {
+case '\n' : if ( vl_1 != vl_4 ) MST[rv.CRCR3Mutator]MSP[] { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ;
+public boolean fn_3 () { return false ; MST[BooleanTrueReturnValsMutator]MSP[] } @Override public int fn_2 () throws IOException { int vr_6 ;
+case '\n' : if ( vl_1 != vl_4 ) MST[rv.CRCR5Mutator]MSP[] { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ;
+return fn_1 ( vr_3 , 0 , vr_3 . length ) ; MST[rv.CRCR6Mutator]MSP[] } @Override
+while ( -- length > 0 && ( vr_1 = fn_1 () ) != - 1 ); return vr_4 - vr_5 ; MST[MathMutator]MSP[] } @Override
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; MST[rv.CRCR2Mutator]MSP[] return '\r' ; } default: vl_1 = vl_3 ;
+while ( -- length > 0 && ( vr_1 = fn_1 () ) != - 1 ); return vr_4 - vr_5 ; MST[rv.UOI1Mutator]MSP[] } @Override
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; return '\r' ; MST[rv.CRCR5Mutator]MSP[] } default: vl_1 = vl_3 ;
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; return '\r' ; MST[rv.CRCR1Mutator]MSP[] } default: vl_1 = vl_3 ;
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { MST[rv.CRCR5Mutator]MSP[] return vr_6 + 1 ; } return vr_6 ; }
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ; MST[rv.CRCR3Mutator]MSP[]
+if ( ( vr_1 = fn_1 () ) == - 1 ) { return - 1 ; MST[rv.CRCR4Mutator]MSP[] } vr_5 = vr_4 ; do {
+vr_3 [ vr_4 ++ ] = ( byte ) vr_1 ; MST[IncrementsMutator]MSP[] }
+public boolean fn_3 () { return false ; MST[rv.CRCR5Mutator]MSP[] } @Override public int fn_2 () throws IOException { int vr_6 ;
+if ( length < 1 ) { return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) { MST[rv.UOI3Mutator]MSP[]
+public boolean fn_3 () { return false ; MST[rv.CRCR1Mutator]MSP[] } @Override public int fn_2 () throws IOException { int vr_6 ;
+if ( ( vr_1 = fn_1 () ) == - 1 ) { MST[rv.CRCR1Mutator]MSP[] return - 1 ; } vr_5 = vr_4 ; do {
+if ( ( vr_1 = fn_1 () ) == - 1 ) { MST[rv.CRCR5Mutator]MSP[] return - 1 ; } vr_5 = vr_4 ; do {
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { MST[rv.ROR2Mutator]MSP[] return vr_6 + 1 ; } return vr_6 ; }
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; MST[rv.ABSMutator]MSP[] } return vr_6 ; }
+public boolean fn_3 () { return false ; MST[ReturnValsMutator]MSP[] } @Override public int fn_2 () throws IOException { int vr_6 ;
+vr_3 [ vr_4 ++ ] = ( byte ) vr_1 ; MST[rv.UOI3Mutator]MSP[] }
+vr_3 [ vr_4 ++ ] = ( byte ) vr_1 ; MST[rv.UOI2Mutator]MSP[] }
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { MST[rv.CRCR1Mutator]MSP[] return vr_6 + 1 ; } return vr_6 ; }
+return fn_1 ( vr_3 , 0 , vr_3 . length ) ; MST[NonVoidMethodCallMutator]MSP[] } @Override
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) { vl_1 = vl_3 ; MST[rv.CRCR5Mutator]MSP[] return '\n' ;
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) { vl_1 = vl_3 ; MST[rv.CRCR1Mutator]MSP[] return '\n' ;
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[rv.UOI2Mutator]MSP[] { int vr_1 , vr_5 ;
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) { vl_1 = vl_3 ; return '\n' ; MST[rv.CRCR6Mutator]MSP[]
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) { vl_1 = vl_3 ; return '\n' ; MST[rv.CRCR2Mutator]MSP[]
+if ( length < 1 ) { return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) { MST[ConditionalsBoundaryMutator]MSP[]
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[NegateConditionalsMutator]MSP[] { int vr_1 , vr_5 ;
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] { vl_1 = vl_3 ; return '\n' ;
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; MST[rv.AOR1Mutator]MSP[] } return vr_6 ; }
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; MST[PrimitiveReturnsMutator]MSP[] } return vr_6 ; }
+if ( ( vr_1 = fn_1 () ) == - 1 ) { return - 1 ; } vr_5 = vr_4 ; MST[rv.UOI3Mutator]MSP[] do {
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { MST[rv.UOI2Mutator]MSP[] return vr_6 + 1 ; } return vr_6 ; }
+if ( length < 1 ) { return 0 ; MST[rv.CRCR6Mutator]MSP[] } vr_1 = fn_2 () ; if ( length > vr_1 ) {
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[rv.CRCR4Mutator]MSP[] { int vr_1 , vr_5 ;
+if ( length < 1 ) { return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) { MST[rv.ROR4Mutator]MSP[]
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) MST[experimental.SwitchMutator]MSP[] { case '\r' : vl_1 = vl_4 ; return '\r' ;
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) { case '\r' : vl_1 = vl_4 ; return '\r' ; MST[rv.CRCR5Mutator]MSP[]
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) { case '\r' : vl_1 = vl_4 ; return '\r' ; MST[rv.CRCR1Mutator]MSP[]
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ; MST[InlineConstantMutator]MSP[]
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[RemoveConditionalMutator_ORDER_ELSE]MSP[] { int vr_1 , vr_5 ;
+if ( length < 1 ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[] return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) {
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[rv.ROR2Mutator]MSP[] { int vr_1 , vr_5 ;
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[rv.ROR3Mutator]MSP[] { int vr_1 , vr_5 ;
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; } return vr_6 ; MST[rv.ABSMutator]MSP[] }
+if ( length < 1 ) { return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[]
+while ( -- length > 0 && ( vr_1 = fn_1 () ) != - 1 ); return vr_4 - vr_5 ; MST[rv.ABSMutator]MSP[] } @Override
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) { case '\r' : vl_1 = vl_4 ; return '\r' ; MST[PrimitiveReturnsMutator]MSP[]
+if ( length < 1 ) { return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) { MST[NegateConditionalsMutator]MSP[]
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) MST[rv.UOI4Mutator]MSP[] { vl_1 = vl_3 ; return '\n' ;
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) MST[InlineConstantMutator]MSP[] { vl_1 = vl_3 ; return '\n' ;
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) MST[rv.UOI1Mutator]MSP[] { vl_1 = vl_3 ; return '\n' ;
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; MST[experimental.MemberVariableMutator]MSP[] return '\r' ; } default: vl_1 = vl_3 ;
+length = vr_1 ; } if ( length < 1 ) { length = 1 ; MST[rv.CRCR2Mutator]MSP[] }
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; MST[InlineConstantMutator]MSP[] } return vr_6 ; }
+return vr_1 ; MST[rv.UOI4Mutator]MSP[] } } @Override public int fn_1 ( final byte vr_3 [] ) throws IOException {
+return fn_1 ( vr_3 , 0 , vr_3 . length ) ; MST[ArgumentPropagationMutator]MSP[] } @Override
+length = vr_1 ; } if ( length < 1 ) { length = 1 ; MST[rv.CRCR4Mutator]MSP[] }
+return vr_1 ; MST[rv.UOI1Mutator]MSP[] } } @Override public int fn_1 ( final byte vr_3 [] ) throws IOException {
+length = vr_1 ; } if ( length < 1 ) { MST[rv.CRCR3Mutator]MSP[] length = 1 ; }
+length = vr_1 ; } if ( length < 1 ) { MST[rv.CRCR5Mutator]MSP[] length = 1 ; }
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[rv.ROR5Mutator]MSP[] { int vr_1 , vr_5 ;
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; return '\r' ; MST[PrimitiveReturnsMutator]MSP[] } default: vl_1 = vl_3 ;
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) { case '\r' : vl_1 = vl_4 ; MST[experimental.MemberVariableMutator]MSP[] return '\r' ;
+length = vr_1 ; } if ( length < 1 ) { MST[rv.CRCR6Mutator]MSP[] length = 1 ; }
+while ( -- length > 0 && ( vr_1 = fn_1 () ) != - 1 ); return vr_4 - vr_5 ; MST[rv.AOD1Mutator]MSP[] } @Override
+while ( -- length > 0 && ( vr_1 = fn_1 () ) != - 1 ); return vr_4 - vr_5 ; MST[ReturnValsMutator]MSP[] } @Override
+length = vr_1 ; } if ( length < 1 ) { MST[rv.ROR1Mutator]MSP[] length = 1 ; }
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; MST[rv.AOR2Mutator]MSP[] } return vr_6 ; }
+case '\n' : if ( vl_1 != vl_4 ) MST[rv.UOI3Mutator]MSP[] { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ;
+length = vr_1 ; } if ( length < 1 ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[] length = 1 ; }
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; MST[MathMutator]MSP[] } return vr_6 ; }
+length = vr_1 ; } if ( length < 1 ) { MST[rv.ABSMutator]MSP[] length = 1 ; }
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) { case '\r' : vl_1 = vl_4 ; MST[rv.CRCR6Mutator]MSP[] return '\r' ;
+if ( length < 1 ) { return 0 ; MST[rv.CRCR1Mutator]MSP[] } vr_1 = fn_2 () ; if ( length > vr_1 ) {
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; MST[rv.AOR4Mutator]MSP[] } return vr_6 ; }
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; } return vr_6 ; MST[ReturnValsMutator]MSP[] }
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { MST[rv.UOI3Mutator]MSP[] return vr_6 + 1 ; } return vr_6 ; }
+if ( length < 1 ) { MST[rv.CRCR3Mutator]MSP[] return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) {
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; MST[rv.UOI4Mutator]MSP[] } return vr_6 ; }
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; MST[rv.UOI2Mutator]MSP[] } return vr_6 ; }
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) MST[rv.UOI3Mutator]MSP[] { case '\r' : vl_1 = vl_4 ; return '\r' ;
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) { case '\r' : vl_1 = vl_4 ; return '\r' ; MST[rv.CRCR2Mutator]MSP[]
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) { case '\r' : vl_1 = vl_4 ; return '\r' ; MST[rv.CRCR4Mutator]MSP[]
+if ( length < 1 ) { return 0 ; } vr_1 = fn_2 () ; MST[NonVoidMethodCallMutator]MSP[] if ( length > vr_1 ) {
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[InlineConstantMutator]MSP[] { int vr_1 , vr_5 ;
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; MST[rv.CRCR6Mutator]MSP[] return '\r' ; } default: vl_1 = vl_3 ;
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; } return vr_6 ; MST[rv.UOI1Mutator]MSP[] }
+vr_3 [ vr_4 ++ ] = ( byte ) vr_1 ; MST[experimental.RemoveIncrementsMutator]MSP[] }
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ; MST[rv.CRCR6Mutator]MSP[]
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) MST[rv.ABSMutator]MSP[] { vl_1 = vl_3 ; return '\n' ;
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) { vl_1 = vl_3 ; return '\n' ; MST[InlineConstantMutator]MSP[]
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { MST[rv.CRCR4Mutator]MSP[] return vr_6 + 1 ; } return vr_6 ; }
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; return '\r' ; MST[rv.CRCR4Mutator]MSP[] } default: vl_1 = vl_3 ;
+if ( length < 1 ) { return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) { MST[rv.UOI1Mutator]MSP[]
+while ( -- length > 0 && ( vr_1 = fn_1 () ) != - 1 ); return vr_4 - vr_5 ; MST[rv.ABSMutator]MSP[] } @Override
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { MST[rv.ROR3Mutator]MSP[] return vr_6 + 1 ; } return vr_6 ; }
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) MST[NegateConditionalsMutator]MSP[] { vl_1 = vl_3 ; return '\n' ;
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ; MST[rv.CRCR1Mutator]MSP[]
+while ( -- length > 0 && ( vr_1 = fn_1 () ) != - 1 ); return vr_4 - vr_5 ; MST[rv.UOI4Mutator]MSP[] } @Override
+if ( ( vr_1 = fn_1 () ) == - 1 ) { MST[rv.CRCR2Mutator]MSP[] return - 1 ; } vr_5 = vr_4 ; do {
+if ( length < 1 ) { return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) { MST[rv.ABSMutator]MSP[]
+vr_3 [ vr_4 ++ ] = ( byte ) vr_1 ; MST[rv.UOI1Mutator]MSP[] }
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[rv.UOI3Mutator]MSP[] { int vr_1 , vr_5 ;
+vr_3 [ vr_4 ++ ] = ( byte ) vr_1 ; MST[rv.UOI3Mutator]MSP[] }
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) { vl_1 = vl_3 ; return '\n' ; MST[rv.CRCR3Mutator]MSP[]
+length = vr_1 ; } if ( length < 1 ) { MST[InlineConstantMutator]MSP[] length = 1 ; }
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) MST[experimental.RemoveSwitchMutator_0]MSP[] { case '\r' : vl_1 = vl_4 ; return '\r' ;
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) MST[experimental.RemoveSwitchMutator_1]MSP[] { case '\r' : vl_1 = vl_4 ; return '\r' ;
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; MST[InlineConstantMutator]MSP[] return '\r' ; } default: vl_1 = vl_3 ;
+return fn_1 ( vr_3 , 0 , vr_3 . length ) ; MST[ReturnValsMutator]MSP[] } @Override
+if ( ( vr_1 = fn_1 () ) == - 1 ) { MST[rv.ROR3Mutator]MSP[] return - 1 ; } vr_5 = vr_4 ; do {
+if ( ( vr_1 = fn_1 () ) == - 1 ) { return - 1 ; } vr_5 = vr_4 ; MST[rv.UOI1Mutator]MSP[] do {
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) { vl_1 = vl_3 ; return '\n' ; MST[ReturnValsMutator]MSP[]
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) { case '\r' : vl_1 = vl_4 ; MST[rv.CRCR3Mutator]MSP[] return '\r' ;
+if ( ( vr_1 = fn_1 () ) == - 1 ) { return - 1 ; } vr_5 = vr_4 ; MST[rv.ABSMutator]MSP[] do {
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[ConditionalsBoundaryMutator]MSP[] { int vr_1 , vr_5 ;
+length = vr_1 ; } if ( length < 1 ) { MST[NegateConditionalsMutator]MSP[] length = 1 ; }
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; } return vr_6 ; MST[rv.UOI4Mutator]MSP[] }
+length = vr_1 ; } if ( length < 1 ) { MST[rv.ROR4Mutator]MSP[] length = 1 ; }
+length = vr_1 ; } if ( length < 1 ) { MST[rv.UOI4Mutator]MSP[] length = 1 ; }
+if ( ( vr_1 = fn_1 () ) == - 1 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] return - 1 ; } vr_5 = vr_4 ; do {
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; MST[rv.CRCR3Mutator]MSP[] return '\r' ; } default: vl_1 = vl_3 ;
+case '\n' : if ( vl_1 != vl_4 ) MST[rv.CRCR4Mutator]MSP[] { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ;
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) MST[rv.ROR4Mutator]MSP[] { vl_1 = vl_3 ; return '\n' ;
+if ( length < 1 ) { return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) { MST[rv.UOI4Mutator]MSP[]
+while ( -- length > 0 && ( vr_1 = fn_1 () ) != - 1 ); return vr_4 - vr_5 ; MST[rv.UOI2Mutator]MSP[] } @Override
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ; MST[experimental.MemberVariableMutator]MSP[]
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[rv.ROR4Mutator]MSP[] { int vr_1 , vr_5 ;
+length = vr_1 ; } if ( length < 1 ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[] length = 1 ; }
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[rv.ROR2Mutator]MSP[] { int vr_1 , vr_5 ;
+length = vr_1 ; MST[rv.UOI3Mutator]MSP[] } if ( length < 1 ) { length = 1 ; }
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) MST[rv.ROR2Mutator]MSP[] { vl_1 = vl_3 ; return '\n' ;
+if ( length < 1 ) { return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) { MST[rv.UOI2Mutator]MSP[]
+while ( -- length > 0 && ( vr_1 = fn_1 () ) != - 1 ); return vr_4 - vr_5 ; MST[rv.UOI4Mutator]MSP[] } @Override
+if ( length < 1 ) { return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) { MST[rv.ABSMutator]MSP[]
+while ( -- length > 0 && ( vr_1 = fn_1 () ) != - 1 ); return vr_4 - vr_5 ; MST[rv.AOR1Mutator]MSP[] } @Override
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; MST[rv.CRCR3Mutator]MSP[] } return vr_6 ; }
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { MST[NegateConditionalsMutator]MSP[] return vr_6 + 1 ; } return vr_6 ; }
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; MST[rv.AOD2Mutator]MSP[] } return vr_6 ; }
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) MST[rv.CRCR5Mutator]MSP[] { vl_1 = vl_3 ; return '\n' ;
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) MST[rv.CRCR3Mutator]MSP[] { vl_1 = vl_3 ; return '\n' ;
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) MST[rv.CRCR1Mutator]MSP[] { vl_1 = vl_3 ; return '\n' ;
+case '\n' : if ( vl_1 != vl_4 ) MST[rv.ROR3Mutator]MSP[] { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ;
+case '\n' : if ( vl_1 != vl_4 ) MST[rv.ROR1Mutator]MSP[] { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ;
+vr_3 [ vr_4 ++ ] = ( byte ) vr_1 ; MST[rv.ABSMutator]MSP[] }
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; MST[rv.CRCR5Mutator]MSP[] } return vr_6 ; }
+if ( length < 1 ) { MST[rv.UOI2Mutator]MSP[] return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) {
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] return vr_6 + 1 ; } return vr_6 ; }
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) { vl_1 = vl_3 ; return '\n' ; MST[rv.CRCR1Mutator]MSP[]
+if ( ( vr_1 = fn_1 () ) == - 1 ) { return - 1 ; } vr_5 = vr_4 ; MST[rv.UOI4Mutator]MSP[] do {
+if ( ( vr_1 = fn_1 () ) == - 1 ) { MST[NegateConditionalsMutator]MSP[] return - 1 ; } vr_5 = vr_4 ; do {
+case '\n' : if ( vl_1 != vl_4 ) MST[rv.ROR5Mutator]MSP[] { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ;
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] return vr_6 + 1 ; } return vr_6 ; }
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[rv.CRCR1Mutator]MSP[] { int vr_1 , vr_5 ;
+case '\n' : if ( vl_1 != vl_4 ) MST[rv.ABSMutator]MSP[] { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ;
+if ( length < 1 ) { return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) { MST[rv.ROR1Mutator]MSP[]
+if ( ( vr_1 = fn_1 () ) == - 1 ) { return - 1 ; } vr_5 = vr_4 ; MST[rv.UOI2Mutator]MSP[] do {
+public boolean fn_3 () { return false ; MST[InlineConstantMutator]MSP[] } @Override public int fn_2 () throws IOException { int vr_6 ;
+if ( ( vr_1 = fn_1 () ) == - 1 ) { MST[rv.CRCR6Mutator]MSP[] return - 1 ; } vr_5 = vr_4 ; do {
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[rv.CRCR5Mutator]MSP[] { int vr_1 , vr_5 ;
+if ( length < 1 ) { MST[InlineConstantMutator]MSP[] return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) {
+if ( length < 1 ) { return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) { MST[rv.ROR5Mutator]MSP[]
+if ( length < 1 ) { return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) { MST[rv.ROR3Mutator]MSP[]
+if ( ( vr_1 = fn_1 () ) == - 1 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] return - 1 ; } vr_5 = vr_4 ; do {
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[experimental.RemoveIncrementsMutator]MSP[] { int vr_1 , vr_5 ;
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) MST[rv.ABSMutator]MSP[] { case '\r' : vl_1 = vl_4 ; return '\r' ;
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; MST[rv.CRCR1Mutator]MSP[] return '\r' ; } default: vl_1 = vl_3 ;
+if ( length < 1 ) { return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) { MST[rv.UOI4Mutator]MSP[]
+while ( -- length > 0 && ( vr_1 = fn_1 () ) != - 1 ); return vr_4 - vr_5 ; MST[rv.UOI2Mutator]MSP[] } @Override
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { MST[rv.CRCR6Mutator]MSP[] return vr_6 + 1 ; } return vr_6 ; }
+if ( ( vr_1 = fn_1 () ) == - 1 ) { return - 1 ; MST[rv.CRCR1Mutator]MSP[] } vr_5 = vr_4 ; do {
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; return '\r' ; MST[rv.CRCR2Mutator]MSP[] } default: vl_1 = vl_3 ;
+case '\n' : if ( vl_1 != vl_4 ) MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ;
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; return '\r' ; MST[rv.CRCR6Mutator]MSP[] } default: vl_1 = vl_3 ;
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { MST[rv.CRCR2Mutator]MSP[] return vr_6 + 1 ; } return vr_6 ; }
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { MST[rv.ROR5Mutator]MSP[] return vr_6 + 1 ; } return vr_6 ; }
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { MST[rv.ROR1Mutator]MSP[] return vr_6 + 1 ; } return vr_6 ; }
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) { vl_1 = vl_3 ; MST[rv.CRCR6Mutator]MSP[] return '\n' ;
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { MST[rv.UOI1Mutator]MSP[] return vr_6 + 1 ; } return vr_6 ; }
+vr_3 [ vr_4 ++ ] = ( byte ) vr_1 ; MST[rv.UOI1Mutator]MSP[] }
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; MST[ReturnValsMutator]MSP[] } return vr_6 ; }
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) { vl_1 = vl_3 ; return '\n' ; MST[rv.CRCR5Mutator]MSP[]
+vr_3 [ vr_4 ++ ] = ( byte ) vr_1 ; MST[rv.UOI4Mutator]MSP[] }
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[rv.UOI1Mutator]MSP[] { int vr_1 , vr_5 ;
+return fn_1 ( vr_3 , 0 , vr_3 . length ) ; MST[rv.CRCR1Mutator]MSP[] } @Override
+if ( ( vr_1 = fn_1 () ) == - 1 ) { MST[rv.ROR5Mutator]MSP[] return - 1 ; } vr_5 = vr_4 ; do {
+case '\n' : if ( vl_1 != vl_4 ) MST[rv.UOI2Mutator]MSP[] { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ;
+length = vr_1 ; } if ( length < 1 ) { length = 1 ; MST[rv.CRCR6Mutator]MSP[] }
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) { case '\r' : vl_1 = vl_4 ; MST[rv.CRCR5Mutator]MSP[] return '\r' ;
+while ( -- length > 0 && ( vr_1 = fn_1 () ) != - 1 ); return vr_4 - vr_5 ; MST[rv.AOR3Mutator]MSP[] } @Override
+case '\n' : if ( vl_1 != vl_4 ) MST[rv.CRCR6Mutator]MSP[] { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ;
+length = vr_1 ; } if ( length < 1 ) { MST[rv.UOI2Mutator]MSP[] length = 1 ; }
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; MST[rv.UOI1Mutator]MSP[] } return vr_6 ; }
+if ( length < 1 ) { MST[rv.CRCR2Mutator]MSP[] return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) {
+if ( ( vr_1 = fn_1 () ) == - 1 ) { MST[rv.ROR1Mutator]MSP[] return - 1 ; } vr_5 = vr_4 ; do {
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) MST[rv.UOI2Mutator]MSP[] { case '\r' : vl_1 = vl_4 ; return '\r' ;
+if ( length < 1 ) { MST[rv.CRCR6Mutator]MSP[] return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) {
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; MST[rv.CRCR5Mutator]MSP[] return '\r' ; } default: vl_1 = vl_3 ;
+return fn_1 ( vr_3 , 0 , vr_3 . length ) ; MST[rv.CRCR5Mutator]MSP[] } @Override
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; } return vr_6 ; MST[rv.UOI2Mutator]MSP[] }
+case '\n' : if ( vl_1 != vl_4 ) MST[rv.CRCR2Mutator]MSP[] { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ;
+case '\n' : if ( vl_1 != vl_4 ) MST[RemoveConditionalMutator_EQUAL_IF]MSP[] { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ;
+length = vr_1 ; } if ( length < 1 ) { MST[rv.ROR2Mutator]MSP[] length = 1 ; }
+return fn_1 ( vr_3 , 0 , vr_3 . length ) ; MST[InlineConstantMutator]MSP[] } @Override
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) MST[rv.UOI2Mutator]MSP[] { vl_1 = vl_3 ; return '\n' ;
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { MST[rv.ABSMutator]MSP[] return vr_6 + 1 ; } return vr_6 ; }
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) MST[rv.UOI3Mutator]MSP[] { vl_1 = vl_3 ; return '\n' ;
+return vr_1 ; MST[rv.UOI2Mutator]MSP[] } } @Override public int fn_1 ( final byte vr_3 [] ) throws IOException {
+vr_3 [ vr_4 ++ ] = ( byte ) vr_1 ; MST[rv.ABSMutator]MSP[] }
+length = vr_1 ; } if ( length < 1 ) { length = 1 ; MST[rv.CRCR3Mutator]MSP[] }
+length = vr_1 ; } if ( length < 1 ) { length = 1 ; MST[rv.CRCR5Mutator]MSP[] }
+length = vr_1 ; } if ( length < 1 ) { MST[rv.CRCR4Mutator]MSP[] length = 1 ; }
+length = vr_1 ; } if ( length < 1 ) { MST[rv.CRCR2Mutator]MSP[] length = 1 ; }
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[rv.ROR4Mutator]MSP[] { int vr_1 , vr_5 ;
+while ( -- length > 0 && ( vr_1 = fn_1 () ) != - 1 ); return vr_4 - vr_5 ; MST[rv.AOD2Mutator]MSP[] } @Override
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[rv.ABSMutator]MSP[] { int vr_1 , vr_5 ;
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[rv.ROR1Mutator]MSP[] { int vr_1 , vr_5 ;
+case '\n' : if ( vl_1 != vl_4 ) MST[rv.UOI1Mutator]MSP[] { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ;
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; } return vr_6 ; MST[PrimitiveReturnsMutator]MSP[] }
+case '\n' : if ( vl_1 != vl_4 ) MST[InlineConstantMutator]MSP[] { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ;
+} vr_1 = vr_2 . fn_1 () ; MST[NonVoidMethodCallMutator]MSP[] switch ( vr_1 ) { case '\r' : vl_1 = vl_4 ; return '\r' ;
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) { case '\r' : vl_1 = vl_4 ; MST[rv.CRCR4Mutator]MSP[] return '\r' ;
+if ( length < 1 ) { return 0 ; MST[rv.CRCR3Mutator]MSP[] } vr_1 = fn_2 () ; if ( length > vr_1 ) {
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) { vl_1 = vl_3 ; MST[experimental.MemberVariableMutator]MSP[] return '\n' ;
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) MST[rv.UOI1Mutator]MSP[] { case '\r' : vl_1 = vl_4 ; return '\r' ;
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) { case '\r' : vl_1 = vl_4 ; MST[rv.CRCR2Mutator]MSP[] return '\r' ;
+if ( length < 1 ) { return 0 ; MST[rv.CRCR5Mutator]MSP[] } vr_1 = fn_2 () ; if ( length > vr_1 ) {
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) { case '\r' : vl_1 = vl_4 ; return '\r' ; MST[rv.CRCR6Mutator]MSP[]
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) { case '\r' : vl_1 = vl_4 ; return '\r' ; MST[ReturnValsMutator]MSP[]
+length = vr_1 ; } if ( length < 1 ) { MST[rv.ROR5Mutator]MSP[] length = 1 ; }
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; MST[rv.CRCR4Mutator]MSP[] return '\r' ; } default: vl_1 = vl_3 ;
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; } return vr_6 ; MST[rv.UOI3Mutator]MSP[] }
+length = vr_1 ; } if ( length < 1 ) { MST[rv.ROR3Mutator]MSP[] length = 1 ; }
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; return '\r' ; MST[rv.CRCR3Mutator]MSP[] } default: vl_1 = vl_3 ;
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ; MST[rv.CRCR5Mutator]MSP[]
+public boolean fn_3 () { return false ; MST[rv.CRCR6Mutator]MSP[] } @Override public int fn_2 () throws IOException { int vr_6 ;
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) { vl_1 = vl_3 ; MST[InlineConstantMutator]MSP[] return '\n' ;
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[NonVoidMethodCallMutator]MSP[] { int vr_1 , vr_5 ;
+vr_6 = vr_2 . fn_2 () ; MST[NonVoidMethodCallMutator]MSP[] if ( vl_1 == vl_2 ) { return vr_6 + 1 ; } return vr_6 ; }
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; return '\r' ; MST[ReturnValsMutator]MSP[] } default: vl_1 = vl_3 ;
+public boolean fn_3 () { return false ; MST[rv.CRCR3Mutator]MSP[] } @Override public int fn_2 () throws IOException { int vr_6 ;
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { MST[rv.CRCR3Mutator]MSP[] return vr_6 + 1 ; } return vr_6 ; }
+if ( length < 1 ) { return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) { MST[rv.UOI2Mutator]MSP[]
+while ( -- length > 0 && ( vr_1 = fn_1 () ) != - 1 ); return vr_4 - vr_5 ; MST[rv.UOI3Mutator]MSP[] } @Override
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { MST[rv.ROR4Mutator]MSP[] return vr_6 + 1 ; } return vr_6 ; }
+length = vr_1 ; } if ( length < 1 ) { length = 1 ; MST[InlineConstantMutator]MSP[] }
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[rv.UOI4Mutator]MSP[] { int vr_1 , vr_5 ;
+vr_3 [ vr_4 ++ ] = ( byte ) vr_1 ; MST[rv.UOI2Mutator]MSP[] }
+length = vr_1 ; } if ( length < 1 ) { MST[ConditionalsBoundaryMutator]MSP[] length = 1 ; }
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[NegateConditionalsMutator]MSP[] { int vr_1 , vr_5 ;
+return fn_1 ( vr_3 , 0 , vr_3 . length ) ; MST[PrimitiveReturnsMutator]MSP[] } @Override
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[IncrementsMutator]MSP[] { int vr_1 , vr_5 ;
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) { vl_1 = vl_3 ; MST[rv.CRCR3Mutator]MSP[] return '\n' ;
+vr_3 [ vr_4 ++ ] = ( byte ) vr_1 ; MST[rv.UOI4Mutator]MSP[] }
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[RemoveConditionalMutator_ORDER_IF]MSP[] { int vr_1 , vr_5 ;
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) { vl_1 = vl_3 ; return '\n' ; MST[rv.CRCR4Mutator]MSP[]
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; MST[rv.AOR3Mutator]MSP[] } return vr_6 ; }
+while ( -- length > 0 && ( vr_1 = fn_1 () ) != - 1 ); return vr_4 - vr_5 ; MST[PrimitiveReturnsMutator]MSP[] } @Override
+case '\n' : if ( vl_1 != vl_4 ) MST[rv.ROR4Mutator]MSP[] { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ;
+if ( length < 1 ) { return 0 ; MST[ReturnValsMutator]MSP[] } vr_1 = fn_2 () ; if ( length > vr_1 ) {
+case '\n' : if ( vl_1 != vl_4 ) MST[rv.UOI4Mutator]MSP[] { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ;
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { MST[rv.UOI4Mutator]MSP[] return vr_6 + 1 ; } return vr_6 ; }
+@Override public int fn_1 () throws IOException { int vr_1 ; if ( vl_1 == vl_2 ) { vl_1 = vl_3 ; return '\n' ; MST[PrimitiveReturnsMutator]MSP[]
+if ( ( vr_1 = fn_1 () ) == - 1 ) { MST[InlineConstantMutator]MSP[] return - 1 ; } vr_5 = vr_4 ; do {
+public int fn_1 ( final byte vr_3 [] , int vr_4 , int length ) throws IOException MST[rv.CRCR2Mutator]MSP[] { int vr_1 , vr_5 ;
+if ( length < 1 ) { return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) { MST[rv.ROR2Mutator]MSP[]
+length = vr_1 ; MST[rv.ABSMutator]MSP[] } if ( length < 1 ) { length = 1 ; }
+case '\n' : if ( vl_1 != vl_4 ) MST[NegateConditionalsMutator]MSP[] { vl_1 = vl_2 ; return '\r' ; } default: vl_1 = vl_3 ;
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) { case '\r' : vl_1 = vl_4 ; return '\r' ; MST[InlineConstantMutator]MSP[]
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { MST[InlineConstantMutator]MSP[] return vr_6 + 1 ; } return vr_6 ; }
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) { case '\r' : vl_1 = vl_4 ; return '\r' ; MST[rv.CRCR3Mutator]MSP[]
+if ( length < 1 ) { MST[rv.CRCR4Mutator]MSP[] return 0 ; } vr_1 = fn_2 () ; if ( length > vr_1 ) {
+vr_6 = vr_2 . fn_2 () ; if ( vl_1 == vl_2 ) { return vr_6 + 1 ; MST[rv.UOI3Mutator]MSP[] } return vr_6 ; }
+length = vr_1 ; MST[rv.UOI1Mutator]MSP[] } if ( length < 1 ) { length = 1 ; }
+} vr_1 = vr_2 . fn_1 () ; switch ( vr_1 ) MST[rv.UOI4Mutator]MSP[] { case '\r' : vl_1 = vl_4 ; return '\r' ;
+return fn_1 ( vr_3 , 0 , vr_3 . length ) ; MST[rv.CRCR3Mutator]MSP[] } @Override
+case '\n' : if ( vl_1 != vl_4 ) { vl_1 = vl_2 ; return '\r' ; MST[InlineConstantMutator]MSP[] } default: vl_1 = vl_3 ;

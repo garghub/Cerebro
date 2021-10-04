@@ -1,0 +1,6 @@
+private static String fn_1 ( long vr_1 , String vr_2 ) {
+String vr_3 = vr_4 . vr_5 ( lr_1 ) . fn_2 ( new fn_3 ( vr_1 ) ) ;
+String vr_6 = ( vr_2 != null ? lr_2 + vr_2 + lr_3 : lr_4 ) ; return lr_5 + vr_3 + vr_6 ; }
+public static boolean fn_4 ( tp_1 vr_7 ) { if ( vr_7 instanceof vl_1 ) { return true ; }
+while ( vr_7 . vr_8 () != null && vr_7 . vr_8 () != vr_7 ) {
+return fn_4 ( vr_7 . vr_8 () ) ; } return false ; }

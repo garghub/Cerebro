@@ -1,0 +1,12 @@
+return vr_3 . fn_1 ( vr_2 ) ; MST[NullReturnValsMutator]MSP[] }
+return vr_4 . fn_2 ( vr_2 ) ; MST[NonVoidMethodCallMutator]MSP[] }
+return vr_4 . fn_2 ( vr_2 ) ; MST[ReturnValsMutator]MSP[] }
+public static < vt_1 > vr_1 < vt_1 > fn_4 () { return vl_1 ; MST[NullReturnValsMutator]MSP[] }
+final vr_5 < ? super vt_1 > vr_6 ) { return vr_7 . fn_3 ( vr_2 , vr_6 ) ; MST[ReturnValsMutator]MSP[] } @SuppressWarnings ( lr_1 )
+return vr_3 . fn_1 ( vr_2 ) ; MST[ReturnValsMutator]MSP[] }
+final vr_5 < ? super vt_1 > vr_6 ) { return vr_7 . fn_3 ( vr_2 , vr_6 ) ; MST[NullReturnValsMutator]MSP[] } @SuppressWarnings ( lr_1 )
+return vr_3 . fn_1 ( vr_2 ) ; MST[NonVoidMethodCallMutator]MSP[] }
+return vr_4 . fn_2 ( vr_2 ) ; MST[NullReturnValsMutator]MSP[] }
+return vr_4 . fn_2 ( vr_2 ) ; MST[ArgumentPropagationMutator]MSP[] }
+final vr_5 < ? super vt_1 > vr_6 ) { return vr_7 . fn_3 ( vr_2 , vr_6 ) ; MST[NonVoidMethodCallMutator]MSP[] } @SuppressWarnings ( lr_1 )
+public static < vt_1 > vr_1 < vt_1 > fn_4 () { return vl_1 ; MST[ReturnValsMutator]MSP[] }

@@ -1,0 +1,18 @@
+public static < vt_1 , vt_2 , vt_3 > vr_1 < vt_1 , vt_2 , vt_3 > fn_1 ( final vt_1 vr_2 , final vt_2 vr_3 , final vt_3 vr_4 ) {
+return new vr_5 < vt_1 , vt_2 , vt_3 > ( vr_2 , vr_3 , vr_4 ) ; } @Override
+public int fn_2 ( final vr_1 < vt_1 , vt_2 , vt_3 > vr_6 ) {
+return new fn_3 () . append ( fn_4 () , vr_6 . fn_4 () )
+. append ( fn_5 () , vr_6 . fn_5 () )
+. append ( fn_6 () , vr_6 . fn_6 () ) . fn_7 () ; } @SuppressWarnings ( lr_1 ) @Override
+public boolean equals ( final Object vr_7 ) { if ( vr_7 == this ) { return true ; }
+if ( vr_7 instanceof vr_1 < ? , ? , ? > ) {
+final vr_1 < ? , ? , ? > vr_6 = ( vr_1 < ? , ? , ? > ) vr_7 ;
+return vr_8 . equals ( fn_4 () , vr_6 . fn_4 () )
+&& vr_8 . equals ( fn_5 () , vr_6 . fn_5 () )
+&& vr_8 . equals ( fn_6 () , vr_6 . fn_6 () ) ; } return false ; } @Override public int fn_8 () {
+return ( fn_4 () == null ? 0 : fn_4 () . fn_8 () ) ^
+( fn_5 () == null ? 0 : fn_5 () . fn_8 () ) ^
+( fn_6 () == null ? 0 : fn_6 () . fn_8 () ) ; } @Override public String toString () {
+return lr_2 + fn_4 () + lr_3 + fn_5 () + lr_3 + fn_6 () + lr_4 ; }
+public String toString ( final String vr_9 ) {
+return String . vr_9 ( vr_9 , fn_4 () , fn_5 () , fn_6 () ) ; }

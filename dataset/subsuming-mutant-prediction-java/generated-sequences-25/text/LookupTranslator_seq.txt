@@ -1,0 +1,7 @@
+@Override public int fn_1 ( final tp_1 vr_1 , final int vr_2 , final tp_2 out ) throws IOException {
+if ( vr_3 . contains ( vr_1 . charAt ( vr_2 ) ) ) { int vr_4 = vl_1 ;
+if ( vr_2 + vl_1 > vr_1 . length () ) { vr_4 = vr_1 . length () - vr_2 ; }
+for ( int vr_5 = vr_4 ; vr_5 >= vl_2 ; vr_5 -- ) {
+final tp_1 vr_6 = vr_1 . vr_7 ( vr_2 , vr_2 + vr_5 ) ;
+final String vr_8 = vr_9 . get ( vr_6 . toString () ) ; if ( vr_8 != null ) {
+out . vr_10 ( vr_8 ) ; return vr_5 ; } } } return 0 ; }

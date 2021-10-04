@@ -1,0 +1,172 @@
+return new Properties () ; MST[ConstructorCallMutator]MSP[N] }
+return new Properties () ; MST[ReturnValsMutator]MSP[N] }
+return new Properties () ; MST[NullReturnValsMutator]MSP[N] }
+public synchronized boolean fn_21 ( final Object vr_1 , final Object vr_23 , final Object vr_24 ) { vr_4 . vr_5 ( vr_1 ) ; MST[ArgumentPropagationMutator]MSP[N]
+vr_4 . vr_5 ( vr_8 ) ; MST[ArgumentPropagationMutator]MSP[N] throw new fn_2 () ; } @Override protected void fn_20 () { } @Override
+vr_4 . vr_5 ( vr_8 ) ; throw new fn_2 () ; MST[ConstructorCallMutator]MSP[S] } @Override
+return false ; MST[InlineConstantMutator]MSP[S] } @Override public synchronized Enumeration < Object > fn_7 () { return vr_9 . vr_10 () ; } @Override
+super . fn_26 ( vr_28 , vr_29 , vr_30 ) ; MST[VoidMethodCallMutator]MSP[N] } @Override public vr_11 < String > fn_27 () {
+throw new fn_2 () ; MST[ConstructorCallMutator]MSP[S] } @Override public synchronized Object fn_4 ( final Object vr_1 ,
+return 0 ; MST[rv.CRCR1Mutator]MSP[N] } @Override public synchronized boolean isEmpty () { return true ; } @Override public synchronized Enumeration < Object > fn_12 () {
+return vr_9 . vr_13 () ; MST[ReturnValsMutator]MSP[S] } @Override public synchronized String toString () { return super . toString () ; } @Override
+public void list ( final tp_1 out ) { super . list ( out ) ; MST[VoidMethodCallMutator]MSP[S] } @Override
+public synchronized Object remove ( final Object vr_1 ) { vr_4 . vr_5 ( vr_1 ) ; MST[NonVoidMethodCallMutator]MSP[N] throw new fn_2 () ; } @Override
+public String getProperty ( final String vr_1 , final String vr_17 ) { return vr_17 ; MST[EmptyObjectReturnValsMutator]MSP[S] } @Override public synchronized int fn_11 () {
+vr_4 . vr_5 ( vr_1 ) ; vr_4 . vr_5 ( vr_8 ) ; MST[ArgumentPropagationMutator]MSP[N] throw new fn_2 () ; } @Override
+public synchronized Object fn_10 ( final Object vr_1 , final Object vr_17 ) { return vr_17 ; MST[ReturnValsMutator]MSP[S] } @Override
+return false ; } @Override public synchronized Enumeration < Object > fn_7 () { return vr_9 . vr_10 () ; MST[NonVoidMethodCallMutator]MSP[S] } @Override
+public synchronized void fn_14 ( final tp_2 vr_18 ) throws IOException { vr_4 . vr_5 ( vr_18 ) ; MST[ArgumentPropagationMutator]MSP[N] throw new fn_2 () ; }
+final vr_2 < ? super Object , ? super Object , ? extends Object > vr_3 ) { vr_4 . vr_5 ( vr_1 ) ; MST[ArgumentPropagationMutator]MSP[N]
+vr_4 . vr_5 ( vr_8 ) ; throw new fn_2 () ; MST[ConstructorCallMutator]MSP[S] } @Override public Enumeration < ? > propertyNames () {
+public void list ( final PrintWriter out ) { super . list ( out ) ; MST[VoidMethodCallMutator]MSP[N] } @Override
+return 0 ; MST[rv.CRCR6Mutator]MSP[N] } @Override public synchronized boolean isEmpty () { return true ; } @Override public synchronized Enumeration < Object > fn_12 () {
+vr_4 . vr_5 ( vr_25 ) ; throw new fn_2 () ; MST[ConstructorCallMutator]MSP[S] } @SuppressWarnings ( lr_1 ) @Override
+return vr_9 . vr_13 () ; } @Override public synchronized String toString () { return super . toString () ; MST[ReturnValsMutator]MSP[S] } @Override
+return vr_9 . vr_10 () ; MST[NullReturnValsMutator]MSP[S] } @Override public synchronized Object fn_17 ( final Object vr_1 , final Object vr_8 ) {
+vr_4 . vr_5 ( vr_8 ) ; throw new fn_2 () ; } @Override public synchronized int size () { return 0 ; MST[ReturnValsMutator]MSP[N] } @Override
+return 0 ; } @Override public synchronized boolean isEmpty () { return true ; MST[InlineConstantMutator]MSP[N] } @Override public synchronized Enumeration < Object > fn_12 () {
+public vr_11 < vr_12 < Object , Object > > fn_8 () { return vr_9 . vr_13 () ; MST[NonVoidMethodCallMutator]MSP[N] } @Override
+return 0 ; MST[ReturnValsMutator]MSP[N] } @Override public synchronized boolean isEmpty () { return true ; } @Override public synchronized Enumeration < Object > fn_12 () {
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[BooleanTrueReturnValsMutator]MSP[S] } @Override
+vr_4 . vr_5 ( vr_23 ) ; MST[NonVoidMethodCallMutator]MSP[N] vr_4 . vr_5 ( vr_24 ) ; throw new fn_2 () ; } @Override
+vr_4 . vr_5 ( vr_8 ) ; throw new fn_2 () ; } @Override public synchronized int size () { return 0 ; MST[rv.CRCR6Mutator]MSP[N] } @Override
+public synchronized Object fn_21 ( final Object vr_1 , final Object vr_8 ) { vr_4 . vr_5 ( vr_1 ) ; MST[ArgumentPropagationMutator]MSP[N]
+public String getProperty ( final String vr_1 ) { return null ; MST[ReturnValsMutator]MSP[S] } @Override
+public synchronized boolean remove ( final Object vr_1 , final Object vr_8 ) { vr_4 . vr_5 ( vr_1 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+vr_4 . vr_5 ( vr_8 ) ; MST[ArgumentPropagationMutator]MSP[N] throw new fn_2 () ; } @Override public Enumeration < ? > propertyNames () {
+public synchronized void fn_14 ( final tp_2 vr_18 ) throws IOException { vr_4 . vr_5 ( vr_18 ) ; throw new fn_2 () ; MST[ConstructorCallMutator]MSP[S] }
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[rv.ROR1Mutator]MSP[S] } @Override
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[rv.ROR4Mutator]MSP[S] } @Override
+return vr_9 . vr_10 () ; MST[ReturnValsMutator]MSP[S] } @Override public synchronized Object fn_17 ( final Object vr_1 , final Object vr_8 ) {
+vr_4 . vr_5 ( vr_22 ) ; throw new fn_2 () ; MST[ConstructorCallMutator]MSP[S] } @Override
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[rv.CRCR6Mutator]MSP[S] } @Override
+final vr_6 < ? super Object , ? extends Object > vr_7 ) { vr_4 . vr_5 ( vr_1 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+vr_4 . vr_5 ( vr_25 ) ; MST[ArgumentPropagationMutator]MSP[N] throw new fn_2 () ; } @SuppressWarnings ( lr_1 ) @Override
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[rv.CRCR6Mutator]MSP[S] } @Override
+return vr_9 . vr_10 () ; } @Override public vr_11 < Object > fn_13 () { return vr_9 . vr_13 () ; MST[ReturnValsMutator]MSP[S] } @Override
+public synchronized Object fn_10 ( final Object vr_1 , final Object vr_17 ) { return vr_17 ; MST[NullReturnValsMutator]MSP[S] } @Override
+vr_4 . vr_5 ( vr_1 ) ; MST[ArgumentPropagationMutator]MSP[N] vr_4 . vr_5 ( vr_8 ) ; throw new fn_2 () ; } @Override
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[rv.ROR4Mutator]MSP[S] } @Override
+} @Override public synchronized void fn_15 ( final tp_2 vr_20 ) throws IOException , vl_1 { vr_4 . vr_5 ( vr_20 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[rv.ROR5Mutator]MSP[S] } @Override
+public void fn_25 ( final tp_4 out , final String vr_26 ) throws IOException { super . fn_25 ( out , vr_26 ) ; MST[VoidMethodCallMutator]MSP[N] }
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[rv.ROR5Mutator]MSP[S] } @Override
+throw new fn_2 () ; } @Override public synchronized boolean contains ( final Object vr_8 ) { return false ; MST[InlineConstantMutator]MSP[S] } @Override
+public synchronized Object fn_24 ( final String vr_1 , final String vr_8 ) { vr_4 . vr_5 ( vr_1 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[rv.ROR1Mutator]MSP[S] } @Override
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[ReturnValsMutator]MSP[S] } @Override
+return 0 ; } @Override public synchronized boolean isEmpty () { return true ; MST[ReturnValsMutator]MSP[N] } @Override public synchronized Enumeration < Object > fn_12 () {
+return false ; MST[ReturnValsMutator]MSP[S] } @Override public synchronized Enumeration < Object > fn_7 () { return vr_9 . vr_10 () ; } @Override
+return vr_9 . vr_13 () ; } @Override public synchronized String toString () { return super . toString () ; MST[EmptyObjectReturnValsMutator]MSP[S] } @Override
+final vr_6 < ? super Object , ? extends Object > vr_7 ) { vr_4 . vr_5 ( vr_1 ) ; MST[ArgumentPropagationMutator]MSP[N]
+vr_4 . vr_5 ( vr_25 ) ; MST[NonVoidMethodCallMutator]MSP[N] throw new fn_2 () ; } @SuppressWarnings ( lr_1 ) @Override
+vr_4 . vr_5 ( vr_23 ) ; vr_4 . vr_5 ( vr_24 ) ; throw new fn_2 () ; MST[ConstructorCallMutator]MSP[S] } @Override
+vr_4 . vr_5 ( vr_16 ) ; } @Override public synchronized Object get ( final Object vr_1 ) { return null ; MST[ReturnValsMutator]MSP[S] } @Override
+return 0 ; MST[rv.CRCR5Mutator]MSP[N] } @Override public synchronized boolean isEmpty () { return true ; } @Override public synchronized Enumeration < Object > fn_12 () {
+return vr_9 . vr_10 () ; MST[ReturnValsMutator]MSP[N] } @Override public vr_11 < Object > fn_13 () { return vr_9 . vr_13 () ; } @Override
+return 0 ; } @Override public synchronized boolean isEmpty () { return true ; MST[rv.CRCR4Mutator]MSP[N] } @Override public synchronized Enumeration < Object > fn_12 () {
+vr_4 . vr_5 ( vr_22 ) ; MST[NonVoidMethodCallMutator]MSP[N] throw new fn_2 () ; } @Override
+vr_4 . vr_5 ( vr_22 ) ; MST[ArgumentPropagationMutator]MSP[N] throw new fn_2 () ; } @Override
+public synchronized boolean fn_5 ( final Object vr_1 ) { return false ; MST[BooleanTrueReturnValsMutator]MSP[S] } @Override public boolean fn_6 ( final Object vr_8 ) {
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[rv.CRCR2Mutator]MSP[S] } @Override
+vr_4 . vr_5 ( vr_23 ) ; vr_4 . vr_5 ( vr_24 ) ; MST[NonVoidMethodCallMutator]MSP[N] throw new fn_2 () ; } @Override
+vr_4 . vr_5 ( vr_8 ) ; throw new fn_2 () ; } @Override public synchronized int size () { return 0 ; MST[InlineConstantMutator]MSP[N] } @Override
+public Collection < Object > fn_28 () { return vr_9 . vr_31 () ; MST[ReturnValsMutator]MSP[S] } @Override protected Properties fn_29 () {
+final vr_2 < ? super Object , ? super Object , ? extends Object > vr_3 ) { vr_4 . vr_5 ( vr_1 ) ; MST[ArgumentPropagationMutator]MSP[N]
+final vr_2 < ? super Object , ? super Object , ? extends Object > vr_3 ) { vr_4 . vr_5 ( vr_1 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+throw new fn_2 () ; MST[ConstructorCallMutator]MSP[S] } @Override public synchronized Object fn_16 ( final Object vr_1 , final Object vr_8 ,
+vr_4 . vr_5 ( vr_8 ) ; throw new fn_2 () ; } @Override public synchronized int size () { return 0 ; MST[rv.CRCR3Mutator]MSP[N] } @Override
+@Override public synchronized void fn_14 ( final tp_3 vr_19 ) throws IOException { vr_4 . vr_5 ( vr_19 ) ; throw new fn_2 () ; MST[ConstructorCallMutator]MSP[S]
+return vr_9 . vr_13 () ; } @Override public synchronized String toString () { return super . toString () ; MST[NonVoidMethodCallMutator]MSP[S] } @Override
+public synchronized boolean fn_5 ( final Object vr_1 ) { return false ; MST[ReturnValsMutator]MSP[S] } @Override public boolean fn_6 ( final Object vr_8 ) {
+public String getProperty ( final String vr_1 ) { return null ; MST[EmptyObjectReturnValsMutator]MSP[S] } @Override
+public synchronized Object remove ( final Object vr_1 ) { vr_4 . vr_5 ( vr_1 ) ; MST[ArgumentPropagationMutator]MSP[N] throw new fn_2 () ; } @Override
+vr_4 . vr_5 ( vr_23 ) ; vr_4 . vr_5 ( vr_24 ) ; MST[ArgumentPropagationMutator]MSP[N] throw new fn_2 () ; } @Override
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[NegateConditionalsMutator]MSP[S] } @Override
+return false ; MST[rv.CRCR6Mutator]MSP[S] } @Override public synchronized Enumeration < Object > fn_7 () { return vr_9 . vr_10 () ; } @Override
+return false ; MST[rv.CRCR5Mutator]MSP[S] } @Override public synchronized Enumeration < Object > fn_7 () { return vr_9 . vr_10 () ; } @Override
+public synchronized Object fn_24 ( final String vr_1 , final String vr_8 ) { vr_4 . vr_5 ( vr_1 ) ; MST[ArgumentPropagationMutator]MSP[N]
+throw new fn_2 () ; } @Override public synchronized boolean contains ( final Object vr_8 ) { return false ; MST[rv.CRCR1Mutator]MSP[S] } @Override
+vr_4 . vr_5 ( vr_8 ) ; throw new fn_2 () ; MST[ConstructorCallMutator]MSP[S] } @Override
+throw new fn_2 () ; MST[ConstructorCallMutator]MSP[S] } @Override public synchronized boolean contains ( final Object vr_8 ) { return false ; } @Override
+return vr_9 . vr_10 () ; MST[NonVoidMethodCallMutator]MSP[N] } @Override public vr_11 < Object > fn_13 () { return vr_9 . vr_13 () ; } @Override
+throw new fn_2 () ; } @Override public synchronized boolean contains ( final Object vr_8 ) { return false ; MST[rv.CRCR3Mutator]MSP[S] } @Override
+public synchronized boolean fn_5 ( final Object vr_1 ) { return false ; MST[rv.CRCR5Mutator]MSP[S] } @Override public boolean fn_6 ( final Object vr_8 ) {
+public synchronized boolean fn_5 ( final Object vr_1 ) { return false ; MST[rv.CRCR6Mutator]MSP[S] } @Override public boolean fn_6 ( final Object vr_8 ) {
+} @Override public synchronized void fn_15 ( final tp_2 vr_20 ) throws IOException , vl_1 { vr_4 . vr_5 ( vr_20 ) ; MST[ArgumentPropagationMutator]MSP[N]
+return false ; MST[rv.CRCR1Mutator]MSP[S] } @Override public synchronized Enumeration < Object > fn_7 () { return vr_9 . vr_10 () ; } @Override
+return false ; MST[rv.CRCR3Mutator]MSP[S] } @Override public synchronized Enumeration < Object > fn_7 () { return vr_9 . vr_10 () ; } @Override
+vr_4 . vr_5 ( vr_8 ) ; throw new fn_2 () ; MST[ConstructorCallMutator]MSP[S] } @Override protected void fn_20 () { } @Override
+vr_4 . vr_5 ( vr_8 ) ; MST[NonVoidMethodCallMutator]MSP[N] throw new fn_2 () ; } @Override public synchronized int size () { return 0 ; } @Override
+return vr_9 . vr_13 () ; MST[NonVoidMethodCallMutator]MSP[S] } @Override public synchronized String toString () { return super . toString () ; } @Override
+return 0 ; } @Override public synchronized boolean isEmpty () { return true ; MST[BooleanFalseReturnValsMutator]MSP[N] } @Override public synchronized Enumeration < Object > fn_12 () {
+public vr_11 < vr_12 < Object , Object > > fn_8 () { return vr_9 . vr_13 () ; MST[ReturnValsMutator]MSP[N] } @Override
+public synchronized void fn_14 ( final tp_2 vr_18 ) throws IOException { vr_4 . vr_5 ( vr_18 ) ; MST[NonVoidMethodCallMutator]MSP[N] throw new fn_2 () ; }
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[NegateConditionalsMutator]MSP[S] } @Override
+public synchronized boolean fn_5 ( final Object vr_1 ) { return false ; MST[rv.CRCR3Mutator]MSP[S] } @Override public boolean fn_6 ( final Object vr_8 ) {
+public synchronized boolean fn_5 ( final Object vr_1 ) { return false ; MST[rv.CRCR1Mutator]MSP[S] } @Override public boolean fn_6 ( final Object vr_8 ) {
+vr_4 . vr_5 ( vr_1 ) ; MST[NonVoidMethodCallMutator]MSP[N] vr_4 . vr_5 ( vr_8 ) ; throw new fn_2 () ; } @Override
+vr_4 . vr_5 ( vr_8 ) ; MST[NonVoidMethodCallMutator]MSP[N] throw new fn_2 () ; } @Override public Enumeration < ? > propertyNames () {
+throw new fn_2 () ; } @Override public synchronized boolean contains ( final Object vr_8 ) { return false ; MST[rv.CRCR6Mutator]MSP[S] } @Override
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] } @Override
+throw new fn_2 () ; } @Override public synchronized boolean contains ( final Object vr_8 ) { return false ; MST[BooleanTrueReturnValsMutator]MSP[S] } @Override
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] } @Override
+return vr_9 . vr_10 () ; MST[NullReturnValsMutator]MSP[N] } @Override public vr_11 < Object > fn_13 () { return vr_9 . vr_13 () ; } @Override
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[rv.CRCR1Mutator]MSP[S] } @Override
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[rv.CRCR3Mutator]MSP[S] } @Override
+throw new fn_2 () ; } @Override public synchronized boolean contains ( final Object vr_8 ) { return false ; MST[ReturnValsMutator]MSP[S] } @Override
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[InlineConstantMutator]MSP[S] } @Override
+return 0 ; } @Override public synchronized boolean isEmpty () { return true ; MST[rv.CRCR3Mutator]MSP[N] } @Override public synchronized Enumeration < Object > fn_12 () {
+return 0 ; } @Override public synchronized boolean isEmpty () { return true ; MST[rv.CRCR5Mutator]MSP[N] } @Override public synchronized Enumeration < Object > fn_12 () {
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[rv.CRCR3Mutator]MSP[N] } @Override
+return false ; } @Override public synchronized Enumeration < Object > fn_7 () { return vr_9 . vr_10 () ; MST[ReturnValsMutator]MSP[S] } @Override
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[InlineConstantMutator]MSP[S] } @Override
+public synchronized boolean remove ( final Object vr_1 , final Object vr_8 ) { vr_4 . vr_5 ( vr_1 ) ; MST[ArgumentPropagationMutator]MSP[N]
+vr_4 . vr_5 ( vr_8 ) ; MST[NonVoidMethodCallMutator]MSP[N] throw new fn_2 () ; } @Override protected void fn_20 () { } @Override
+public String getProperty ( final String vr_1 , final String vr_17 ) { return vr_17 ; MST[ReturnValsMutator]MSP[S] } @Override public synchronized int fn_11 () {
+public synchronized Object fn_21 ( final Object vr_1 , final Object vr_8 ) { vr_4 . vr_5 ( vr_1 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+vr_4 . vr_5 ( vr_8 ) ; MST[NonVoidMethodCallMutator]MSP[N] throw new fn_2 () ; } @Override
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[rv.ROR2Mutator]MSP[N] } @Override
+final vr_2 < ? super Object , ? super Object , ? extends Object > vr_3 ) { vr_4 . vr_5 ( vr_1 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[rv.ROR3Mutator]MSP[S] } @Override
+final vr_2 < ? super Object , ? super Object , ? extends Object > vr_3 ) { vr_4 . vr_5 ( vr_1 ) ; MST[ArgumentPropagationMutator]MSP[N]
+vr_4 . vr_5 ( vr_23 ) ; MST[ArgumentPropagationMutator]MSP[N] vr_4 . vr_5 ( vr_24 ) ; throw new fn_2 () ; } @Override
+@Override public synchronized void fn_14 ( final tp_3 vr_19 ) throws IOException { vr_4 . vr_5 ( vr_19 ) ; MST[NonVoidMethodCallMutator]MSP[N] throw new fn_2 () ;
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[rv.CRCR5Mutator]MSP[S] } @Override
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[NonVoidMethodCallMutator]MSP[S] } @Override
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[rv.CRCR5Mutator]MSP[S] } @Override
+public synchronized boolean fn_5 ( final Object vr_1 ) { return false ; MST[InlineConstantMutator]MSP[S] } @Override public boolean fn_6 ( final Object vr_8 ) {
+return 0 ; MST[InlineConstantMutator]MSP[N] } @Override public synchronized boolean isEmpty () { return true ; } @Override public synchronized Enumeration < Object > fn_12 () {
+super . fn_26 ( vr_28 , vr_29 ) ; MST[VoidMethodCallMutator]MSP[S] } @Override
+vr_4 . vr_5 ( vr_1 ) ; vr_4 . vr_5 ( vr_8 ) ; MST[NonVoidMethodCallMutator]MSP[N] throw new fn_2 () ; } @Override
+vr_4 . vr_5 ( vr_8 ) ; MST[ArgumentPropagationMutator]MSP[N] throw new fn_2 () ; } @Override public synchronized int size () { return 0 ; } @Override
+throw new fn_2 () ; MST[ConstructorCallMutator]MSP[S] } @Override public synchronized Object fn_3 ( final Object vr_1 ,
+public void fn_23 ( final tp_4 out , final String vr_26 ) { super . fn_23 ( out , vr_26 ) ; MST[VoidMethodCallMutator]MSP[S] } @Override
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[rv.ROR2Mutator]MSP[N] } @Override
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[rv.ROR3Mutator]MSP[S] } @Override
+final vr_2 < ? super Object , ? super Object , ? extends Object > vr_3 ) { vr_4 . vr_5 ( vr_1 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+throw new fn_2 () ; } @Override public synchronized boolean contains ( final Object vr_8 ) { return false ; MST[rv.CRCR5Mutator]MSP[S] } @Override
+vr_4 . vr_5 ( vr_8 ) ; MST[ArgumentPropagationMutator]MSP[N] throw new fn_2 () ; } @Override
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] } @Override
+@Override public synchronized void fn_14 ( final tp_3 vr_19 ) throws IOException { vr_4 . vr_5 ( vr_19 ) ; MST[ArgumentPropagationMutator]MSP[N] throw new fn_2 () ;
+public Collection < Object > fn_28 () { return vr_9 . vr_31 () ; MST[NonVoidMethodCallMutator]MSP[S] } @Override protected Properties fn_29 () {
+return vr_9 . vr_10 () ; } @Override public vr_11 < Object > fn_13 () { return vr_9 . vr_13 () ; MST[NonVoidMethodCallMutator]MSP[S] } @Override
+return vr_9 . vr_10 () ; MST[NonVoidMethodCallMutator]MSP[S] } @Override public synchronized Object fn_17 ( final Object vr_1 , final Object vr_8 ) {
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] } @Override
+return 0 ; MST[rv.CRCR3Mutator]MSP[N] } @Override public synchronized boolean isEmpty () { return true ; } @Override public synchronized Enumeration < Object > fn_12 () {
+public synchronized Object remove ( final Object vr_1 ) { vr_4 . vr_5 ( vr_1 ) ; throw new fn_2 () ; MST[ConstructorCallMutator]MSP[S] } @Override
+return ( vr_14 instanceof Properties ) && ( ( Properties ) vr_14 ) . isEmpty () ; MST[rv.CRCR4Mutator]MSP[N] } @Override
+return 0 ; } @Override public synchronized boolean isEmpty () { return true ; MST[rv.CRCR2Mutator]MSP[N] } @Override public synchronized Enumeration < Object > fn_12 () {
+return false ; MST[BooleanTrueReturnValsMutator]MSP[S] } @Override public synchronized Enumeration < Object > fn_7 () { return vr_9 . vr_10 () ; } @Override
+vr_4 . vr_5 ( vr_8 ) ; throw new fn_2 () ; MST[ConstructorCallMutator]MSP[S] } @Override public synchronized int size () { return 0 ; } @Override
+return false ; } @Override public synchronized Enumeration < Object > fn_7 () { return vr_9 . vr_10 () ; MST[NullReturnValsMutator]MSP[S] } @Override
+vr_4 . vr_5 ( vr_1 ) ; vr_4 . vr_5 ( vr_8 ) ; throw new fn_2 () ; MST[ConstructorCallMutator]MSP[S] } @Override
+public synchronized Object fn_19 ( final Object vr_1 , final Object vr_8 ) { vr_4 . vr_5 ( vr_1 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+vr_4 . vr_5 ( vr_8 ) ; MST[ArgumentPropagationMutator]MSP[N] throw new fn_2 () ; } @Override
+vr_4 . vr_5 ( vr_8 ) ; MST[NonVoidMethodCallMutator]MSP[N] throw new fn_2 () ; } @Override
+return 0 ; } @Override public synchronized boolean isEmpty () { return true ; MST[rv.CRCR6Mutator]MSP[N] } @Override public synchronized Enumeration < Object > fn_12 () {
+public synchronized boolean fn_21 ( final Object vr_1 , final Object vr_23 , final Object vr_24 ) { vr_4 . vr_5 ( vr_1 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+public synchronized Object fn_19 ( final Object vr_1 , final Object vr_8 ) { vr_4 . vr_5 ( vr_1 ) ; MST[ArgumentPropagationMutator]MSP[N]
+vr_4 . vr_5 ( vr_8 ) ; throw new fn_2 () ; } @Override public synchronized int size () { return 0 ; MST[rv.CRCR5Mutator]MSP[N] } @Override
+vr_4 . vr_5 ( vr_8 ) ; throw new fn_2 () ; } @Override public synchronized int size () { return 0 ; MST[rv.CRCR1Mutator]MSP[N] } @Override
+@Override public void fn_25 ( final tp_5 vr_27 , final String vr_26 ) throws IOException { super . fn_25 ( vr_27 , vr_26 ) ; MST[VoidMethodCallMutator]MSP[S]

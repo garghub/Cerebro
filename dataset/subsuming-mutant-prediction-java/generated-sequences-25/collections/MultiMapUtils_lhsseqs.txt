@@ -1,0 +1,112 @@
+if ( vr_4 instanceof List ) { return ( List < vt_2 > ) vr_4 ; MST[EmptyObjectReturnValsMutator]MSP[] } return new ArrayList <> ( vr_4 ) ;
+if ( vr_4 instanceof vr_5 ) { return ( vr_5 < vt_2 > ) vr_4 ; MST[EmptyObjectReturnValsMutator]MSP[] } return new vr_6 <> ( vr_4 ) ;
+if ( vr_2 != null ) { return vr_2 . get ( vr_3 ) ; MST[EmptyObjectReturnValsMutator]MSP[] } return null ; }
+if ( vr_2 != null ) { MST[NegateConditionalsMutator]MSP[] final Collection < vt_2 > vr_4 = vr_2 . get ( vr_3 ) ;
+if ( vr_4 instanceof vr_5 ) { return ( vr_5 < vt_2 > ) vr_4 ; } return new vr_6 <> ( vr_4 ) ; MST[EmptyObjectReturnValsMutator]MSP[]
+return vr_2 == null || vr_2 . isEmpty () ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] }
+return vr_2 == null || vr_2 . isEmpty () ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[] }
+if ( vr_2 != null ) { MST[NegateConditionalsMutator]MSP[] final Collection < vt_2 > vr_4 = vr_2 . get ( vr_3 ) ;
+return vr_2 == null ? vl_1 : vr_2 ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[] } public static boolean isEmpty ( final vr_1 < ? , ? > vr_2 ) {
+return vr_17 . vr_18 ( vr_2 , vr_15 , vr_16 ) ; MST[NonVoidMethodCallMutator]MSP[] }
+if ( vr_2 != null ) { MST[NegateConditionalsMutator]MSP[] final Collection < vt_2 > vr_4 = vr_2 . get ( vr_3 ) ;
+return vr_2 == null ? vl_1 : vr_2 ; MST[ReturnValsMutator]MSP[] } public static boolean isEmpty ( final vr_1 < ? , ? > vr_2 ) {
+if ( vr_2 != null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] final Collection < vt_2 > vr_4 = vr_2 . get ( vr_3 ) ;
+if ( vr_2 != null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] final Collection < vt_2 > vr_4 = vr_2 . get ( vr_3 ) ;
+return vr_17 . vr_18 ( vr_2 , vr_15 , vr_16 ) ; MST[NullReturnValsMutator]MSP[] }
+if ( vr_4 instanceof List ) { return ( List < vt_2 > ) vr_4 ; } return new ArrayList <> ( vr_4 ) ; MST[EmptyObjectReturnValsMutator]MSP[]
+if ( vr_2 != null ) { return vr_2 . get ( vr_3 ) ; MST[NonVoidMethodCallMutator]MSP[] } return null ; }
+if ( vr_2 != null ) { return vr_2 . get ( vr_3 ) ; } return null ; MST[EmptyObjectReturnValsMutator]MSP[] }
+return vr_2 == null || vr_2 . isEmpty () ; MST[rv.ROR5Mutator]MSP[] }
+return vr_2 == null || vr_2 . isEmpty () ; MST[rv.ROR1Mutator]MSP[] }
+return vr_2 == null || vr_2 . isEmpty () ; MST[rv.ROR3Mutator]MSP[] }
+return vr_2 == null || vr_2 . isEmpty () ; MST[rv.CRCR1Mutator]MSP[] }
+if ( vr_2 != null ) { MST[rv.ROR5Mutator]MSP[] final Collection < vt_2 > vr_4 = vr_2 . get ( vr_3 ) ;
+if ( vr_4 instanceof List ) { MST[NegateConditionalsMutator]MSP[] return ( List < vt_2 > ) vr_4 ; } return new ArrayList <> ( vr_4 ) ;
+return new vr_10 <> () ; MST[ReturnValsMutator]MSP[] } public static < vt_1 , vt_2 > vr_11 < vt_1 , vt_2 > fn_8 () {
+return vr_2 == null || vr_2 . isEmpty () ; MST[rv.CRCR2Mutator]MSP[] }
+if ( vr_2 != null ) { MST[rv.ROR5Mutator]MSP[] final Collection < vt_2 > vr_4 = vr_2 . get ( vr_3 ) ;
+return vr_2 == null || vr_2 . isEmpty () ; MST[rv.CRCR5Mutator]MSP[] }
+return vr_2 == null || vr_2 . isEmpty () ; MST[rv.CRCR6Mutator]MSP[] }
+if ( vr_2 != null ) { final Collection < vt_2 > vr_4 = vr_2 . get ( vr_3 ) ; MST[NonVoidMethodCallMutator]MSP[]
+return vr_2 == null || vr_2 . isEmpty () ; MST[rv.CRCR6Mutator]MSP[] }
+return vr_13 . <vt_1 , vt_2 > fn_9 ( vr_2 ) ; MST[ReturnValsMutator]MSP[] }
+return vr_2 == null || vr_2 . isEmpty () ; MST[rv.CRCR5Mutator]MSP[] }
+if ( vr_2 != null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] return vr_2 . get ( vr_3 ) ; } return null ; }
+if ( vr_2 != null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] return vr_2 . get ( vr_3 ) ; } return null ; }
+return vr_2 == null ? vl_1 : vr_2 ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] } public static boolean isEmpty ( final vr_1 < ? , ? > vr_2 ) {
+return vr_2 == null || vr_2 . isEmpty () ; MST[rv.ROR5Mutator]MSP[] }
+if ( vr_2 != null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] final Collection < vt_2 > vr_4 = vr_2 . get ( vr_3 ) ;
+if ( vr_2 != null ) { return vr_2 . get ( vr_3 ) ; } return null ; MST[ReturnValsMutator]MSP[] }
+return vr_13 . <vt_1 , vt_2 > fn_9 ( vr_2 ) ; MST[NullReturnValsMutator]MSP[] }
+if ( vr_4 instanceof vr_5 ) { MST[rv.ROR2Mutator]MSP[] return ( vr_5 < vt_2 > ) vr_4 ; } return new vr_6 <> ( vr_4 ) ;
+return vr_2 == null ? vl_1 : vr_2 ; MST[NullReturnValsMutator]MSP[] } public static boolean isEmpty ( final vr_1 < ? , ? > vr_2 ) {
+} return null ; MST[ReturnValsMutator]MSP[] } public static < vt_1 , vt_2 > vr_9 < vt_1 , vt_2 > fn_7 () {
+if ( vr_4 instanceof vr_7 ) { MST[rv.ROR2Mutator]MSP[] return ( vr_7 < vt_2 > ) vr_4 ; } return new vr_8 <> ( vr_4 ) ;
+return vr_2 == null || vr_2 . isEmpty () ; MST[NonVoidMethodCallMutator]MSP[] }
+} return null ; MST[ReturnValsMutator]MSP[] }
+return vr_2 == null || vr_2 . isEmpty () ; MST[ReturnValsMutator]MSP[] }
+} return null ; MST[EmptyObjectReturnValsMutator]MSP[] }
+return vr_17 . vr_18 ( vr_2 , vr_15 , vr_16 ) ; MST[ReturnValsMutator]MSP[] }
+return new vr_10 <> () ; MST[ConstructorCallMutator]MSP[] } public static < vt_1 , vt_2 > vr_11 < vt_1 , vt_2 > fn_8 () {
+return vr_2 == null || vr_2 . isEmpty () ; MST[rv.ROR2Mutator]MSP[] }
+if ( vr_2 != null ) { MST[NegateConditionalsMutator]MSP[] return vr_2 . get ( vr_3 ) ; } return null ; }
+if ( vr_4 instanceof List ) { MST[rv.ROR3Mutator]MSP[] return ( List < vt_2 > ) vr_4 ; } return new ArrayList <> ( vr_4 ) ;
+if ( vr_4 instanceof vr_7 ) { MST[rv.ROR5Mutator]MSP[] return ( vr_7 < vt_2 > ) vr_4 ; } return new vr_8 <> ( vr_4 ) ;
+if ( vr_4 instanceof List ) { MST[rv.ROR2Mutator]MSP[] return ( List < vt_2 > ) vr_4 ; } return new ArrayList <> ( vr_4 ) ;
+if ( vr_4 instanceof List ) { MST[rv.ROR4Mutator]MSP[] return ( List < vt_2 > ) vr_4 ; } return new ArrayList <> ( vr_4 ) ;
+if ( vr_4 instanceof vr_5 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] return ( vr_5 < vt_2 > ) vr_4 ; } return new vr_6 <> ( vr_4 ) ;
+if ( vr_4 instanceof List ) { MST[rv.ROR1Mutator]MSP[] return ( List < vt_2 > ) vr_4 ; } return new ArrayList <> ( vr_4 ) ;
+if ( vr_4 instanceof List ) { MST[rv.ROR5Mutator]MSP[] return ( List < vt_2 > ) vr_4 ; } return new ArrayList <> ( vr_4 ) ;
+if ( vr_4 instanceof List ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] return ( List < vt_2 > ) vr_4 ; } return new ArrayList <> ( vr_4 ) ;
+if ( vr_4 instanceof List ) { return ( List < vt_2 > ) vr_4 ; } return new ArrayList <> ( vr_4 ) ; MST[ReturnValsMutator]MSP[]
+if ( vr_4 instanceof vr_7 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] return ( vr_7 < vt_2 > ) vr_4 ; } return new vr_8 <> ( vr_4 ) ;
+if ( vr_4 instanceof vr_7 ) { return ( vr_7 < vt_2 > ) vr_4 ; } return new vr_8 <> ( vr_4 ) ; MST[ConstructorCallMutator]MSP[]
+@SuppressWarnings ( lr_1 ) public static < vt_1 , vt_2 > vr_1 < vt_1 , vt_2 > fn_1 () { return vl_1 ; MST[ReturnValsMutator]MSP[] }
+return vr_2 == null || vr_2 . isEmpty () ; MST[InlineConstantMutator]MSP[] }
+if ( vr_4 instanceof List ) { return ( List < vt_2 > ) vr_4 ; MST[ReturnValsMutator]MSP[] } return new ArrayList <> ( vr_4 ) ;
+@SuppressWarnings ( lr_1 ) public static < vt_1 , vt_2 > vr_1 < vt_1 , vt_2 > fn_1 () { return vl_1 ; MST[NullReturnValsMutator]MSP[] }
+if ( vr_4 instanceof List ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] return ( List < vt_2 > ) vr_4 ; } return new ArrayList <> ( vr_4 ) ;
+if ( vr_4 instanceof List ) { return ( List < vt_2 > ) vr_4 ; } return new ArrayList <> ( vr_4 ) ; MST[ConstructorCallMutator]MSP[]
+if ( vr_4 instanceof vr_7 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] return ( vr_7 < vt_2 > ) vr_4 ; } return new vr_8 <> ( vr_4 ) ;
+if ( vr_2 != null ) { return vr_2 . get ( vr_3 ) ; MST[ReturnValsMutator]MSP[] } return null ; }
+return vr_2 == null || vr_2 . isEmpty () ; MST[InlineConstantMutator]MSP[] }
+return vr_2 == null || vr_2 . isEmpty () ; MST[NegateConditionalsMutator]MSP[] }
+if ( vr_4 instanceof vr_5 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] return ( vr_5 < vt_2 > ) vr_4 ; } return new vr_6 <> ( vr_4 ) ;
+if ( vr_4 instanceof vr_7 ) { return ( vr_7 < vt_2 > ) vr_4 ; } return new vr_8 <> ( vr_4 ) ; MST[ReturnValsMutator]MSP[]
+return new vr_12 <> () ; MST[ReturnValsMutator]MSP[] } public static < vt_1 , vt_2 > vr_1 < vt_1 , vt_2 > fn_9 (
+if ( vr_2 != null ) { final Collection < vt_2 > vr_4 = vr_2 . get ( vr_3 ) ; MST[NonVoidMethodCallMutator]MSP[]
+if ( vr_4 instanceof vr_7 ) { MST[rv.ROR1Mutator]MSP[] return ( vr_7 < vt_2 > ) vr_4 ; } return new vr_8 <> ( vr_4 ) ;
+if ( vr_4 instanceof vr_5 ) { MST[rv.ROR1Mutator]MSP[] return ( vr_5 < vt_2 > ) vr_4 ; } return new vr_6 <> ( vr_4 ) ;
+if ( vr_4 instanceof vr_5 ) { MST[rv.ROR3Mutator]MSP[] return ( vr_5 < vt_2 > ) vr_4 ; } return new vr_6 <> ( vr_4 ) ;
+if ( vr_4 instanceof vr_5 ) { return ( vr_5 < vt_2 > ) vr_4 ; } return new vr_6 <> ( vr_4 ) ; MST[ConstructorCallMutator]MSP[]
+if ( vr_4 instanceof vr_7 ) { MST[rv.ROR3Mutator]MSP[] return ( vr_7 < vt_2 > ) vr_4 ; } return new vr_8 <> ( vr_4 ) ;
+if ( vr_2 != null ) { final Collection < vt_2 > vr_4 = vr_2 . get ( vr_3 ) ; MST[NonVoidMethodCallMutator]MSP[]
+if ( vr_4 instanceof vr_5 ) { return ( vr_5 < vt_2 > ) vr_4 ; MST[ReturnValsMutator]MSP[] } return new vr_6 <> ( vr_4 ) ;
+return new vr_12 <> () ; MST[ConstructorCallMutator]MSP[] } public static < vt_1 , vt_2 > vr_1 < vt_1 , vt_2 > fn_9 (
+return new vr_10 <> () ; MST[NullReturnValsMutator]MSP[] } public static < vt_1 , vt_2 > vr_11 < vt_1 , vt_2 > fn_8 () {
+return vr_2 == null ? vl_1 : vr_2 ; MST[NegateConditionalsMutator]MSP[] } public static boolean isEmpty ( final vr_1 < ? , ? > vr_2 ) {
+if ( vr_4 instanceof vr_5 ) { MST[rv.ROR5Mutator]MSP[] return ( vr_5 < vt_2 > ) vr_4 ; } return new vr_6 <> ( vr_4 ) ;
+if ( vr_4 instanceof vr_5 ) { return ( vr_5 < vt_2 > ) vr_4 ; } return new vr_6 <> ( vr_4 ) ; MST[ReturnValsMutator]MSP[]
+return vr_2 == null || vr_2 . isEmpty () ; MST[BooleanTrueReturnValsMutator]MSP[] }
+return vr_2 == null || vr_2 . isEmpty () ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] }
+if ( vr_4 instanceof vr_5 ) { MST[NegateConditionalsMutator]MSP[] return ( vr_5 < vt_2 > ) vr_4 ; } return new vr_6 <> ( vr_4 ) ;
+return vr_2 == null || vr_2 . isEmpty () ; MST[rv.CRCR3Mutator]MSP[] }
+return vr_2 == null || vr_2 . isEmpty () ; MST[rv.CRCR3Mutator]MSP[] }
+if ( vr_2 != null ) { MST[rv.ROR5Mutator]MSP[] return vr_2 . get ( vr_3 ) ; } return null ; }
+if ( vr_4 instanceof vr_7 ) { MST[NegateConditionalsMutator]MSP[] return ( vr_7 < vt_2 > ) vr_4 ; } return new vr_8 <> ( vr_4 ) ;
+} return null ; MST[ReturnValsMutator]MSP[] }
+return vr_2 == null || vr_2 . isEmpty () ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[] }
+if ( vr_2 != null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] final Collection < vt_2 > vr_4 = vr_2 . get ( vr_3 ) ;
+if ( vr_2 != null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] final Collection < vt_2 > vr_4 = vr_2 . get ( vr_3 ) ;
+return vr_2 == null || vr_2 . isEmpty () ; MST[rv.CRCR4Mutator]MSP[] }
+} return null ; MST[EmptyObjectReturnValsMutator]MSP[] }
+if ( vr_2 != null ) { MST[rv.ROR5Mutator]MSP[] final Collection < vt_2 > vr_4 = vr_2 . get ( vr_3 ) ;
+if ( vr_2 != null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] final Collection < vt_2 > vr_4 = vr_2 . get ( vr_3 ) ;
+return vr_13 . <vt_1 , vt_2 > fn_9 ( vr_2 ) ; MST[NonVoidMethodCallMutator]MSP[] }
+return vr_2 == null || vr_2 . isEmpty () ; MST[NegateConditionalsMutator]MSP[] }
+if ( vr_4 instanceof vr_7 ) { return ( vr_7 < vt_2 > ) vr_4 ; } return new vr_8 <> ( vr_4 ) ; MST[NullReturnValsMutator]MSP[]
+if ( vr_4 instanceof vr_7 ) { MST[rv.ROR4Mutator]MSP[] return ( vr_7 < vt_2 > ) vr_4 ; } return new vr_8 <> ( vr_4 ) ;
+return vr_2 == null ? vl_1 : vr_2 ; MST[rv.ROR5Mutator]MSP[] } public static boolean isEmpty ( final vr_1 < ? , ? > vr_2 ) {
+if ( vr_4 instanceof vr_5 ) { MST[rv.ROR4Mutator]MSP[] return ( vr_5 < vt_2 > ) vr_4 ; } return new vr_6 <> ( vr_4 ) ;
+return new vr_12 <> () ; MST[NullReturnValsMutator]MSP[] } public static < vt_1 , vt_2 > vr_1 < vt_1 , vt_2 > fn_9 (
+return vr_2 == null || vr_2 . isEmpty () ; MST[rv.ROR4Mutator]MSP[] }

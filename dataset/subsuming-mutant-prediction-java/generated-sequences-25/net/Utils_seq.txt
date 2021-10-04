@@ -1,0 +1,8 @@
+static String fn_1 ( final String vr_1 , String vr_2 ) throws IOException { if ( lr_1 . equals ( vr_2 ) ) {
+final BufferedReader vr_3 = new BufferedReader ( new fn_2 ( System . vr_3 ) ) ; vr_2 = vr_3 . readLine () ;
+} else if ( lr_2 . equals ( vr_2 ) ) { final tp_1 vr_4 = System . vr_5 () ;
+if ( vr_4 != null ) { final char [] vr_6 = vr_4 . vr_7 ( lr_3 + vr_1 + lr_4 ) ;
+vr_2 = new String ( vr_6 ) ; } else { throw new IOException ( lr_5 ) ; }
+} else if ( vr_2 . equals ( vr_2 . vr_8 ( vr_9 . vr_10 ) ) ) {
+final String vr_11 = System . getenv ( vr_2 ) ; if ( vr_11 != null ) { vr_2 = vr_11 ; } }
+return vr_2 ; }

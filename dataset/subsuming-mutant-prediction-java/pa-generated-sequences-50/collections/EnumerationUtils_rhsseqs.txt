@@ -1,0 +1,79 @@
+if ( i == - 1 ) { MST[NegateConditionalsMutator]MSP[N] return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+public static < T > Iterable < T > asIterable ( final Enumeration < T > enumeration ) { return new IteratorIterable <> ( new EnumerationIterator <> ( enumeration ) ) ; MST[NullReturnValsMutator]MSP[N] }
+if ( i == - 1 ) { MST[rv.ABSMutator]MSP[N] return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; int i = index ; MST[rv.UOI1Mutator]MSP[N] while ( e . hasMoreElements () ) { i -- ;
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; int i = index ; while ( e . hasMoreElements () ) { MST[NegateConditionalsMutator]MSP[N] i -- ;
+if ( i == - 1 ) { return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; MST[experimental.NakedReceiverMutator]MSP[N] }
+final List < String > result = new ArrayList <> ( stringTokenizer . countTokens () ) ; while ( stringTokenizer . hasMoreTokens () ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] result . add ( stringTokenizer . nextToken () ) ; } return result ; }
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; int i = index ; MST[rv.UOI2Mutator]MSP[N] while ( e . hasMoreElements () ) { i -- ;
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; int i = index ; MST[rv.UOI4Mutator]MSP[N] while ( e . hasMoreElements () ) { i -- ;
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; int i = index ; MST[rv.UOI3Mutator]MSP[N] while ( e . hasMoreElements () ) { i -- ;
+public static < T > Iterable < T > asIterable ( final Enumeration < T > enumeration ) { return new IteratorIterable <> ( new EnumerationIterator <> ( enumeration ) ) ; MST[ConstructorCallMutator]MSP[N] }
+final List < String > result = new ArrayList <> ( stringTokenizer . countTokens () ) ; while ( stringTokenizer . hasMoreTokens () ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] result . add ( stringTokenizer . nextToken () ) ; } return result ; }
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; MST[rv.UOI2Mutator]MSP[N] int i = index ; while ( e . hasMoreElements () ) { i -- ;
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; MST[rv.UOI4Mutator]MSP[N] int i = index ; while ( e . hasMoreElements () ) { i -- ;
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; MST[rv.UOI1Mutator]MSP[N] int i = index ; while ( e . hasMoreElements () ) { i -- ;
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; MST[rv.UOI3Mutator]MSP[N] int i = index ; while ( e . hasMoreElements () ) { i -- ;
+public static < E > List < E > toList ( final Enumeration < ? extends E > enumeration ) { return IteratorUtils . toList ( new EnumerationIterator <> ( enumeration ) ) ; MST[ConstructorCallMutator]MSP[S] } public static List < String > toList ( final StringTokenizer stringTokenizer ) {
+if ( i == - 1 ) { return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; MST[NonVoidMethodCallMutator]MSP[N] }
+if ( i == - 1 ) { return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; MST[ConstructorCallMutator]MSP[N] }
+public static < E > List < E > toList ( final Enumeration < ? extends E > enumeration ) { return IteratorUtils . toList ( new EnumerationIterator <> ( enumeration ) ) ; MST[NonVoidMethodCallMutator]MSP[S] } public static List < String > toList ( final StringTokenizer stringTokenizer ) {
+final List < String > result = new ArrayList <> ( stringTokenizer . countTokens () ) ; while ( stringTokenizer . hasMoreTokens () ) { MST[rv.ROR5Mutator]MSP[N] result . add ( stringTokenizer . nextToken () ) ; } return result ; }
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; MST[VoidMethodCallMutator]MSP[N] int i = index ; while ( e . hasMoreElements () ) { i -- ;
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; int i = index ; while ( e . hasMoreElements () ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] i -- ;
+if ( i == - 1 ) { return e . nextElement () ; MST[ReturnValsMutator]MSP[N] } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+if ( i == - 1 ) { return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; MST[rv.UOI2Mutator]MSP[N] }
+if ( i == - 1 ) { return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; MST[ConstructorCallMutator]MSP[N] }
+if ( i == - 1 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; int i = index ; while ( e . hasMoreElements () ) { i -- ; MST[IncrementsMutator]MSP[N]
+if ( i == - 1 ) { return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; MST[rv.UOI4Mutator]MSP[N] }
+if ( i == - 1 ) { return e . nextElement () ; } e . nextElement () ; MST[NonVoidMethodCallMutator]MSP[N] } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+if ( i == - 1 ) { MST[rv.ROR1Mutator]MSP[N] return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+final List < String > result = new ArrayList <> ( stringTokenizer . countTokens () ) ; while ( stringTokenizer . hasMoreTokens () ) { result . add ( stringTokenizer . nextToken () ) ; MST[NonVoidMethodCallMutator]MSP[S] } return result ; }
+if ( i == - 1 ) { MST[rv.ROR3Mutator]MSP[N] return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+if ( i == - 1 ) { return e . nextElement () ; MST[NonVoidMethodCallMutator]MSP[N] } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+if ( i == - 1 ) { MST[rv.ROR5Mutator]MSP[N] return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+final List < String > result = new ArrayList <> ( stringTokenizer . countTokens () ) ; while ( stringTokenizer . hasMoreTokens () ) { MST[rv.ROR3Mutator]MSP[N] result . add ( stringTokenizer . nextToken () ) ; } return result ; }
+final List < String > result = new ArrayList <> ( stringTokenizer . countTokens () ) ; while ( stringTokenizer . hasMoreTokens () ) { MST[rv.ROR1Mutator]MSP[S] result . add ( stringTokenizer . nextToken () ) ; } return result ; }
+final List < String > result = new ArrayList <> ( stringTokenizer . countTokens () ) ; while ( stringTokenizer . hasMoreTokens () ) { result . add ( stringTokenizer . nextToken () ) ; } return result ; MST[ReturnValsMutator]MSP[S] }
+final List < String > result = new ArrayList <> ( stringTokenizer . countTokens () ) ; MST[NonVoidMethodCallMutator]MSP[N] while ( stringTokenizer . hasMoreTokens () ) { result . add ( stringTokenizer . nextToken () ) ; } return result ; }
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; int i = index ; while ( e . hasMoreElements () ) { MST[rv.ROR5Mutator]MSP[N] i -- ;
+if ( i == - 1 ) { MST[rv.UOI2Mutator]MSP[N] return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; int i = index ; while ( e . hasMoreElements () ) { MST[rv.ROR4Mutator]MSP[N] i -- ;
+if ( i == - 1 ) { MST[rv.UOI4Mutator]MSP[N] return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+if ( i == - 1 ) { MST[InlineConstantMutator]MSP[N] return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+if ( i == - 1 ) { MST[rv.UOI3Mutator]MSP[N] return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+if ( i == - 1 ) { MST[rv.UOI1Mutator]MSP[N] return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; int i = index ; MST[rv.ABSMutator]MSP[N] while ( e . hasMoreElements () ) { i -- ;
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; int i = index ; while ( e . hasMoreElements () ) { MST[rv.ROR1Mutator]MSP[S] i -- ;
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; int i = index ; while ( e . hasMoreElements () ) { MST[rv.ROR2Mutator]MSP[N] i -- ;
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; int i = index ; while ( e . hasMoreElements () ) { MST[rv.ROR3Mutator]MSP[N] i -- ;
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; int i = index ; while ( e . hasMoreElements () ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] i -- ;
+public static < T > Iterable < T > asIterable ( final Enumeration < T > enumeration ) { return new IteratorIterable <> ( new EnumerationIterator <> ( enumeration ) ) ; MST[ConstructorCallMutator]MSP[S] }
+public static < E > List < E > toList ( final Enumeration < ? extends E > enumeration ) { return IteratorUtils . toList ( new EnumerationIterator <> ( enumeration ) ) ; MST[ReturnValsMutator]MSP[S] } public static List < String > toList ( final StringTokenizer stringTokenizer ) {
+if ( i == - 1 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+if ( i == - 1 ) { return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; MST[NonVoidMethodCallMutator]MSP[N] }
+if ( i == - 1 ) { return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; MST[NonVoidMethodCallMutator]MSP[N] }
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; MST[rv.ABSMutator]MSP[N] int i = index ; while ( e . hasMoreElements () ) { i -- ;
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; int i = index ; while ( e . hasMoreElements () ) { i -- ; MST[experimental.RemoveIncrementsMutator]MSP[N]
+final List < String > result = new ArrayList <> ( stringTokenizer . countTokens () ) ; MST[ConstructorCallMutator]MSP[S] while ( stringTokenizer . hasMoreTokens () ) { result . add ( stringTokenizer . nextToken () ) ; } return result ; }
+if ( i == - 1 ) { MST[rv.CRCR6Mutator]MSP[N] return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+if ( i == - 1 ) { MST[rv.CRCR5Mutator]MSP[N] return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+if ( i == - 1 ) { MST[rv.CRCR2Mutator]MSP[N] return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+if ( i == - 1 ) { MST[rv.CRCR4Mutator]MSP[N] return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+if ( i == - 1 ) { MST[rv.CRCR1Mutator]MSP[N] return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+final List < String > result = new ArrayList <> ( stringTokenizer . countTokens () ) ; while ( stringTokenizer . hasMoreTokens () ) { MST[NegateConditionalsMutator]MSP[N] result . add ( stringTokenizer . nextToken () ) ; } return result ; }
+if ( i == - 1 ) { return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; MST[rv.UOI3Mutator]MSP[N] }
+public static < T > Iterable < T > asIterable ( final Enumeration < T > enumeration ) { return new IteratorIterable <> ( new EnumerationIterator <> ( enumeration ) ) ; MST[ReturnValsMutator]MSP[N] }
+final List < String > result = new ArrayList <> ( stringTokenizer . countTokens () ) ; while ( stringTokenizer . hasMoreTokens () ) { result . add ( stringTokenizer . nextToken () ) ; } return result ; MST[EmptyObjectReturnValsMutator]MSP[S] }
+if ( i == - 1 ) { return e . nextElement () ; MST[NullReturnValsMutator]MSP[N] } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+if ( i == - 1 ) { return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; MST[rv.UOI1Mutator]MSP[N] }
+if ( i == - 1 ) { return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; MST[rv.ABSMutator]MSP[N] }
+if ( i == - 1 ) { MST[rv.ROR2Mutator]MSP[N] return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+if ( i == - 1 ) { return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; MST[experimental.NakedReceiverMutator]MSP[N] }
+final List < String > result = new ArrayList <> ( stringTokenizer . countTokens () ) ; while ( stringTokenizer . hasMoreTokens () ) { MST[NonVoidMethodCallMutator]MSP[S] result . add ( stringTokenizer . nextToken () ) ; } return result ; }
+final List < String > result = new ArrayList <> ( stringTokenizer . countTokens () ) ; while ( stringTokenizer . hasMoreTokens () ) { MST[rv.ROR2Mutator]MSP[N] result . add ( stringTokenizer . nextToken () ) ; } return result ; }
+public static < T > T get ( final Enumeration < T > e , final int index ) { CollectionUtils . checkIndexBounds ( index ) ; int i = index ; while ( e . hasMoreElements () ) { MST[NonVoidMethodCallMutator]MSP[N] i -- ;
+if ( i == - 1 ) { MST[rv.ROR4Mutator]MSP[N] return e . nextElement () ; } e . nextElement () ; } throw new IndexOutOfBoundsException ( lr_1 + i ) ; }
+public static < E > List < E > toList ( final Enumeration < ? extends E > enumeration ) { return IteratorUtils . toList ( new EnumerationIterator <> ( enumeration ) ) ; MST[EmptyObjectReturnValsMutator]MSP[S] } public static List < String > toList ( final StringTokenizer stringTokenizer ) {
+final List < String > result = new ArrayList <> ( stringTokenizer . countTokens () ) ; while ( stringTokenizer . hasMoreTokens () ) { MST[rv.ROR4Mutator]MSP[S] result . add ( stringTokenizer . nextToken () ) ; } return result ; }

@@ -1,0 +1,19 @@
+@Override public int compare ( final FTPFile o1 , final FTPFile o2 ) { final String n1 = o1 . getName () ; final String n2 = o2 . getName () ; return n1 . compareTo ( n2 ) ; } @Override
+public boolean accept ( final File dir , final String name ) { return name . endsWith ( lr_1 ) ; } private void compareSortedLists ( final FTPFile [] lst , final FTPFile [] mlst ) { Arrays . sort ( lst , cmp ) ;
+Arrays . sort ( mlst , cmp ) ; FTPFile first , second ; final int firstl = lst . length ; final int secondl = mlst . length ; int one = 0 , two = 0 ; first = lst [ one ++ ] ;
+second = mlst [ two ++ ] ; int cmp ; while ( one < firstl || two < secondl ) { final String rl1 = first . getRawListing () ; final String rl2 = second . getRawListing () ;
+cmp = first . getName () . compareTo ( second . getName () ) ; if ( cmp == 0 ) { if ( first . getName () . endsWith ( lr_2 ) ) { cmp = 0 ; }
+if ( ! areEquivalent ( first , second ) ) { final long tdiff = first . getTimestamp () . getTimeInMillis () - second . getTimestamp () . getTimeInMillis () ; System . out . println ( lr_3 + tdiff / ( 1000 * 60 ) ) ; }
+if ( one < firstl ) { first = lst [ one ++ ] ; } if ( two < secondl ) { second = mlst [ two ++ ] ; } } else if ( cmp < 0 ) {
+if ( ! first . getName () . startsWith ( lr_4 ) ) { System . out . println ( lr_5 + rl1 ) ; } if ( one < firstl ) { first = lst [ one ++ ] ; } } else {
+System . out . println ( lr_6 + rl2 ) ; if ( two < secondl ) { second = mlst [ two ++ ] ; } } } } public boolean areEquivalent ( final FTPFile a , final FTPFile b ) { return
+a . getName () . equals ( b . getName () ) && areSame ( a . getSize () , b . getSize () , - 1L ) && areSame ( a . getTimestamp () , b . getTimestamp () ) && true ; }
+private boolean areSame ( final Calendar a , final Calendar b ) { return a == null || b == null || areSameDateTime ( a , b ) ; } private boolean areSameDateTime ( final Calendar a , final Calendar b ) {
+final TimeZone UTC = TimeZone . getTimeZone ( lr_7 ) ; final Calendar ac = Calendar . getInstance ( UTC ) ; ac . setTime ( a . getTime () ) ; final Calendar bc = Calendar . getInstance ( UTC ) ;
+bc . setTime ( b . getTime () ) ; return isSameDay ( ac , bc ) && isSameTime ( ac , bc ) ; } private boolean isSameDay ( final Calendar a , final Calendar b ) {
+final int ad = a . get ( Calendar . DAY_OF_MONTH ) ; final int bd = b . get ( Calendar . DAY_OF_MONTH ) ; return a . get ( Calendar . YEAR ) == b . get ( Calendar . YEAR ) &&
+a . get ( Calendar . MONTH ) == b . get ( Calendar . MONTH ) && ad == bd ; } private boolean isSameTime ( final Calendar a , final Calendar b ) { final int ah = a . get ( Calendar . HOUR_OF_DAY ) ;
+final int bh = b . get ( Calendar . HOUR_OF_DAY ) ; final int am = a . get ( Calendar . MINUTE ) ; final int bm = b . get ( Calendar . MINUTE ) ;
+final int as = a . get ( Calendar . SECOND ) ; final int bs = b . get ( Calendar . SECOND ) ; return ( ah == 0 && am == 0 && as == 0 ) ||
+( bh == 0 && bm == 0 && bs == 0 ) || ( ah == bh && am == bm ) ; } private boolean areSame ( final long a , final long b , final long d ) {
+return a == d || b == d || a == b ; }

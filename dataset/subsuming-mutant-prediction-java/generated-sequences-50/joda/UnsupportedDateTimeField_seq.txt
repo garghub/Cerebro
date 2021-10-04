@@ -1,0 +1,21 @@
+public static synchronized tp_1 fn_1 ( tp_2 type , tp_3 vr_1 ) { tp_1 vr_2 ; if ( vl_1 == null ) { vl_1 = new vr_3 < tp_2 , tp_1 > ( 7 ) ; vr_2 = null ; } else {
+vr_2 = vl_1 . get ( type ) ; if ( vr_2 != null && vr_2 . vr_4 () != vr_1 ) { vr_2 = null ; } } if ( vr_2 == null ) { vr_2 = new tp_1 ( type , vr_1 ) ;
+vl_1 . vr_5 ( type , vr_2 ) ; } return vr_2 ; } public tp_2 getType () { return vl_2 ; } public String fn_2 () { return vl_2 . fn_2 () ; } public boolean fn_3 () { return false ; } public boolean fn_4 () {
+return false ; } public int get ( long vr_6 ) { throw fn_5 () ; } public String fn_6 ( long vr_6 , tp_4 vr_7 ) { throw fn_5 () ; } public String fn_6 ( long vr_6 ) { throw fn_5 () ; }
+public String fn_6 ( tp_5 vr_8 , int vr_9 , tp_4 vr_7 ) { throw fn_5 () ; } public String fn_6 ( tp_5 vr_8 , tp_4 vr_7 ) { throw fn_5 () ; } public String fn_6 ( int vr_9 , tp_4 vr_7 ) { throw fn_5 () ;
+} public String fn_7 ( long vr_6 , tp_4 vr_7 ) { throw fn_5 () ; } public String fn_7 ( long vr_6 ) { throw fn_5 () ; } public String fn_7 ( tp_5 vr_8 , int vr_9 , tp_4 vr_7 ) { throw fn_5 () ; }
+public String fn_7 ( tp_5 vr_8 , tp_4 vr_7 ) { throw fn_5 () ; } public String fn_7 ( int vr_9 , tp_4 vr_7 ) { throw fn_5 () ; } public long add ( long vr_6 , int vr_10 ) {
+return vr_4 () . add ( vr_6 , vr_10 ) ; } public long add ( long vr_6 , long vr_10 ) { return vr_4 () . add ( vr_6 , vr_10 ) ; }
+public int [] add ( tp_5 vr_6 , int vr_11 , int [] vr_12 , int vr_13 ) { throw fn_5 () ; } public int [] fn_8 ( tp_5 vr_6 , int vr_11 , int [] vr_12 , int vr_13 ) { throw fn_5 () ; }
+public long fn_9 ( long vr_6 , int vr_10 ) { throw fn_5 () ; } public int [] fn_9 ( tp_5 vr_6 , int vr_11 , int [] vr_12 , int vr_13 ) { throw fn_5 () ; }
+public int fn_10 ( long vr_14 , long vr_15 ) { return vr_4 () . fn_10 ( vr_14 , vr_15 ) ; } public long fn_11 ( long vr_14 , long vr_15 ) { return vr_4 () . fn_11 ( vr_14 , vr_15 ) ; }
+public long fn_12 ( long vr_6 , int vr_10 ) { throw fn_5 () ; } public int [] fn_12 ( tp_5 vr_6 , int vr_11 , int [] vr_12 , int vr_16 ) { throw fn_5 () ; }
+public long fn_12 ( long vr_6 , String vr_17 , tp_4 vr_7 ) { throw fn_5 () ; } public long fn_12 ( long vr_6 , String vr_17 ) { throw fn_5 () ; }
+public int [] fn_12 ( tp_5 vr_6 , int vr_11 , int [] vr_12 , String vr_17 , tp_4 vr_7 ) { throw fn_5 () ; } public tp_3 vr_4 () { return vl_3 ; } public tp_3 fn_13 () { return null ; }
+public boolean fn_14 ( long vr_6 ) { throw fn_5 () ; } public int fn_15 ( long vr_6 ) { throw fn_5 () ; } public tp_3 fn_16 () { return null ; } public int fn_17 () { throw fn_5 () ; }
+public int fn_17 ( long vr_6 ) { throw fn_5 () ; } public int fn_17 ( tp_5 vr_6 ) { throw fn_5 () ; } public int fn_17 ( tp_5 vr_6 , int [] vr_12 ) { throw fn_5 () ; } public int fn_18 () {
+throw fn_5 () ; } public int fn_18 ( long vr_6 ) { throw fn_5 () ; } public int fn_18 ( tp_5 vr_6 ) { throw fn_5 () ; } public int fn_18 ( tp_5 vr_6 , int [] vr_12 ) { throw fn_5 () ; }
+public int fn_19 ( tp_4 vr_7 ) { throw fn_5 () ; } public int fn_20 ( tp_4 vr_7 ) { throw fn_5 () ; } public long fn_21 ( long vr_6 ) { throw fn_5 () ; } public long fn_22 ( long vr_6 ) {
+throw fn_5 () ; } public long fn_23 ( long vr_6 ) { throw fn_5 () ; } public long fn_24 ( long vr_6 ) { throw fn_5 () ; } public long fn_25 ( long vr_6 ) { throw fn_5 () ; }
+public long fn_26 ( long vr_6 ) { throw fn_5 () ; } public String toString () { return lr_1 ; } private Object fn_27 () { return fn_1 ( vl_2 , vl_3 ) ; } private tp_6 fn_5 () { return new tp_6 ( vl_2 + lr_2 ) ;
+}

@@ -1,0 +1,9 @@
+@Override public boolean fn_1 () { return iterator . hasNext () ; MST[NonVoidMethodCallMutator]MSP[] } @Override public tp_1 nextElement () { return iterator . vr_1 () ;
+@Override public boolean fn_1 () { return iterator . hasNext () ; } @Override public tp_1 nextElement () { return iterator . vr_1 () ; MST[NullReturnValsMutator]MSP[]
+@Override public boolean fn_1 () { return iterator . hasNext () ; } @Override public tp_1 nextElement () { return iterator . vr_1 () ; MST[ReturnValsMutator]MSP[]
+public void fn_3 ( final Iterator < ? extends tp_1 > iterator ) { this . iterator = iterator ; MST[experimental.MemberVariableMutator]MSP[] }
+@Override public boolean fn_1 () { return iterator . hasNext () ; MST[ReturnValsMutator]MSP[] } @Override public tp_1 nextElement () { return iterator . vr_1 () ;
+@Override public boolean fn_1 () { return iterator . hasNext () ; MST[BooleanTrueReturnValsMutator]MSP[] } @Override public tp_1 nextElement () { return iterator . vr_1 () ;
+} public Iterator < ? extends tp_1 > fn_2 () { return iterator ; MST[NullReturnValsMutator]MSP[] }
+@Override public boolean fn_1 () { return iterator . hasNext () ; MST[BooleanFalseReturnValsMutator]MSP[] } @Override public tp_1 nextElement () { return iterator . vr_1 () ;
+} public Iterator < ? extends tp_1 > fn_2 () { return iterator ; MST[ReturnValsMutator]MSP[] }

@@ -1,0 +1,862 @@
+throw new fn_45 ( lr_15 + vr_86 ) ; MST[experimental.NakedReceiverMutator]MSP[] }
+final vr_40 < ? super vt_1 , String > vr_41 ) { return toString ( iterator , vr_41 , vl_3 , MST[NonVoidMethodCallMutator]MSP[]
+final List < ? > list = fn_34 ( iterator , 100 ) ; MST[rv.CRCR2Mutator]MSP[] return list . toArray () ; }
+if ( vr_71 instanceof tp_2 ) { MST[NegateConditionalsMutator]MSP[] return new tp_1 ( ( tp_2 ) vr_71 ) ; } if ( vr_71 instanceof tp_3 ) {
+while ( iterator . hasNext () ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] iterator . vr_70 () ; size ++ ; } } return size ; }
+vr_43 . vr_44 ( iterator , lr_2 ) ; if ( vr_69 < 1 ) { MST[rv.UOI2Mutator]MSP[] throw new IllegalArgumentException ( lr_13 ) ; }
+if ( vr_47 . vr_82 ( vr_80 ) ) { return vr_83 ; } } } return - 1 ; MST[rv.CRCR5Mutator]MSP[] }
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[] }
+while ( iterator . hasNext () ) { MST[rv.ROR5Mutator]MSP[] iterator . vr_70 () ; size ++ ; } } return size ; }
+vr_43 . vr_44 ( iterator , lr_2 ) ; if ( vr_69 < 1 ) { MST[InlineConstantMutator]MSP[] throw new IllegalArgumentException ( lr_13 ) ; }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( iterator . hasNext () ) { vr_79 . vr_81 ( vr_80 ) ; MST[VoidMethodCallMutator]MSP[]
+if ( vr_47 . vr_82 ( vr_80 ) ) { return vr_83 ; } } } return - 1 ; MST[ReturnValsMutator]MSP[] }
+return new vr_18 <> ( array , vr_16 , vr_17 ) ; MST[ReturnValsMutator]MSP[] }
+} else if ( vr_71 . getClass () . fn_38 () ) { return new vr_15 <> ( vr_71 ) ; MST[NullReturnValsMutator]MSP[] } try {
+stringBuilder . append ( vr_91 ) ; } if ( stringBuilder . length () > vr_92 . length () ) { MST[rv.ROR2Mutator]MSP[]
+final List < vt_1 > list = new ArrayList <> ( vr_69 ) ; MST[rv.ABSMutator]MSP[] while ( iterator . hasNext () ) {
+if ( vr_71 instanceof tp_2 ) { return new tp_1 ( ( tp_2 ) vr_71 ) ; } if ( vr_71 instanceof tp_3 ) { MST[rv.ROR4Mutator]MSP[]
+final vr_40 < ? super vt_1 , String > vr_41 ) { return toString ( iterator , vr_41 , vl_3 , MST[EmptyObjectReturnValsMutator]MSP[]
+return new vr_63 <> ( vr_43 . vr_44 ( iterator , lr_2 ) ) ; MST[NullReturnValsMutator]MSP[] }
+return new vr_19 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI3Mutator]MSP[] }
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; return new vr_49 <> ( vr_24 , vr_47 ) ; MST[ReturnValsMutator]MSP[] }
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[NegateConditionalsMutator]MSP[]
+return fn_34 ( iterator , 10 ) ; MST[rv.CRCR3Mutator]MSP[] }
+return new vr_14 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI2Mutator]MSP[] }
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[rv.ROR5Mutator]MSP[] }
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; MST[ArgumentPropagationMutator]MSP[] if ( iterator != null ) { while ( iterator . hasNext () ) {
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR1Mutator]MSP[]
+vr_87 . vr_88 ( vr_86 ) ; while ( iterator . hasNext () ) { MST[NonVoidMethodCallMutator]MSP[] vr_86 -- ;
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+while ( iterator . hasNext () ) { MST[NegateConditionalsMutator]MSP[] iterator . vr_70 () ; size ++ ; } } return size ; }
+if ( vr_71 instanceof tp_2 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] return new tp_1 ( ( tp_2 ) vr_71 ) ; } if ( vr_71 instanceof tp_3 ) {
+return toString ( iterator , vr_89 . vr_90 () , MST[EmptyObjectReturnValsMutator]MSP[] vl_3 , vl_4 , vl_5 ) ; }
+final List < ? > list = fn_34 ( iterator , 100 ) ; MST[NonVoidMethodCallMutator]MSP[] return list . toArray () ; }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR4Mutator]MSP[]
+final vt_1 vr_80 = iterator . vr_70 () ; if ( ! vr_47 . vr_82 ( vr_80 ) ) { return false ; MST[rv.CRCR3Mutator]MSP[] } }
+vr_43 . vr_44 ( vr_62 , lr_11 ) ) ; MST[ConstructorCallMutator]MSP[] }
+for ( int vr_83 = 0 ; iterator . hasNext () ; vr_83 ++ ) { MST[NonVoidMethodCallMutator]MSP[] final vt_1 vr_80 = iterator . vr_70 () ;
+return new vr_15 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI2Mutator]MSP[] }
+if ( vr_47 . vr_82 ( vr_80 ) ) { return vr_83 ; MST[rv.UOI2Mutator]MSP[] } } } return - 1 ; }
+return vr_10 . <vt_2 , vt_3 > fn_7 () ; MST[NonVoidMethodCallMutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; if ( vr_69 < 1 ) { MST[rv.CRCR2Mutator]MSP[] throw new IllegalArgumentException ( lr_13 ) ; }
+return fn_8 ( vr_71 ) ; MST[ReturnValsMutator]MSP[] }
+return iterator == null || ! iterator . hasNext () ; MST[InlineConstantMutator]MSP[] }
+public static int size ( final Iterator < ? > iterator ) { int size = 0 ; MST[rv.CRCR1Mutator]MSP[] if ( iterator != null ) {
+if ( vr_47 . vr_82 ( vr_80 ) ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] return vr_83 ; } } } return - 1 ; }
+final Collection < ? super vt_1 > vr_62 ) { return new vr_61 <> ( vr_43 . vr_44 ( enumeration , lr_10 ) , MST[NullReturnValsMutator]MSP[]
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; MST[ArgumentPropagationMutator]MSP[] return new vr_48 <> ( iterator , vr_47 ) ; }
+vr_43 . vr_44 ( iterator , lr_2 ) ; MST[NonVoidMethodCallMutator]MSP[] return new vr_66 <> ( iterator ) ; }
+vr_43 . vr_44 ( vr_92 , lr_17 ) ; vr_43 . vr_44 ( vr_93 , lr_18 ) ; MST[ArgumentPropagationMutator]MSP[]
+return iterator == null || ! iterator . hasNext () ; MST[BooleanTrueReturnValsMutator]MSP[] }
+final List < ? > list = fn_34 ( iterator , 100 ) ; MST[InlineConstantMutator]MSP[] return list . toArray () ; }
+return fn_43 ( iterator , vr_84 . vr_85 ( object ) ) ; MST[NonVoidMethodCallMutator]MSP[] }
+return new vr_14 <> ( array , vr_16 , vr_17 ) ; MST[rv.ABSMutator]MSP[] }
+return fn_12 ( iterator , 0 , vr_21 ) ; MST[rv.CRCR1Mutator]MSP[] }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( vr_47 . vr_82 ( vr_80 ) ) { MST[rv.ROR2Mutator]MSP[] return vr_80 ; } } }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( ! vr_47 . vr_82 ( vr_80 ) ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] return false ; } }
+} else if ( vr_71 . getClass () . fn_38 () ) { MST[rv.ROR4Mutator]MSP[] return new vr_15 <> ( vr_71 ) ; } try {
+return new vr_14 <> ( array , vr_16 , vr_17 ) ; MST[ConstructorCallMutator]MSP[] }
+return new vr_61 <> ( ( Enumeration < ? > ) vr_71 ) ; } if ( vr_71 instanceof vl_1 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+return new tp_1 ( ( tp_3 ) vr_71 ) ; } if ( vr_71 instanceof vl_2 ) { MST[rv.ROR3Mutator]MSP[]
+if ( vr_47 . vr_82 ( vr_80 ) ) { MST[rv.ROR3Mutator]MSP[] return vr_83 ; } } } return - 1 ; }
+return new vr_14 <> ( array , vr_16 ) ; MST[rv.UOI3Mutator]MSP[] }
+if ( vr_71 instanceof Iterator ) { return ( Iterator < ? > ) vr_71 ; MST[NullReturnValsMutator]MSP[] } if ( vr_71 instanceof vr_64 ) {
+final vt_1 vr_80 = iterator . vr_70 () ; if ( ! vr_47 . vr_82 ( vr_80 ) ) { MST[rv.ROR3Mutator]MSP[] return false ; } }
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[rv.CRCR5Mutator]MSP[] }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( vr_47 . vr_82 ( vr_80 ) ) { return vr_80 ; MST[ReturnValsMutator]MSP[] } } }
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; MST[NonVoidMethodCallMutator]MSP[] return new vr_49 <> ( vr_24 , vr_47 ) ; }
+throw new fn_45 ( lr_15 + vr_86 ) ; MST[rv.ABSMutator]MSP[] }
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { MST[rv.ROR5Mutator]MSP[] while ( iterator . hasNext () ) {
+vr_43 . vr_44 ( iterator , lr_2 ) ; if ( vr_69 < 1 ) { MST[rv.ROR4Mutator]MSP[] throw new IllegalArgumentException ( lr_13 ) ; }
+return new vr_18 <> ( array , vr_16 ) ; MST[ReturnValsMutator]MSP[] }
+public static < vt_1 > vt_1 fn_46 ( final Iterator < vt_1 > iterator ) { return get ( iterator , 0 ) ; MST[NullReturnValsMutator]MSP[] }
+public static < vt_1 > vr_3 < vt_1 > fn_3 () { return vr_4 . <vt_1 > fn_4 () ; MST[ReturnValsMutator]MSP[] }
+} return true ; MST[rv.CRCR6Mutator]MSP[] } public static boolean isEmpty ( final Iterator < ? > iterator ) {
+return fn_12 ( iterator , 0 , vr_21 ) ; MST[rv.UOI1Mutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; if ( vr_69 < 1 ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[] throw new IllegalArgumentException ( lr_13 ) ; }
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] while ( iterator . hasNext () ) {
+return new vr_18 <> ( array , vr_16 , vr_17 ) ; MST[NullReturnValsMutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; if ( vr_69 < 1 ) { MST[rv.ABSMutator]MSP[] throw new IllegalArgumentException ( lr_13 ) ; }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( iterator . hasNext () ) { MST[NonVoidMethodCallMutator]MSP[] vr_79 . vr_81 ( vr_80 ) ;
+if ( vr_86 == - 1 ) { MST[rv.CRCR5Mutator]MSP[] return iterator . vr_70 () ; } iterator . vr_70 () ; }
+stringBuilder . append ( vr_91 ) ; MST[experimental.NakedReceiverMutator]MSP[] } if ( stringBuilder . length () > vr_92 . length () ) {
+stringBuilder . vr_95 ( stringBuilder . length () - vr_91 . length () ) ; MST[rv.AOD1Mutator]MSP[] } } stringBuilder . append ( vr_93 ) ;
+vr_87 . vr_88 ( vr_86 ) ; MST[rv.UOI2Mutator]MSP[] while ( iterator . hasNext () ) { vr_86 -- ;
+final Iterator < ? extends vt_1 > ... vr_32 ) { @SuppressWarnings ( lr_1 ) final vr_33 < vt_1 > vr_35 = MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[]
+for ( int vr_83 = 0 ; iterator . hasNext () ; vr_83 ++ ) { MST[rv.CRCR5Mutator]MSP[] final vt_1 vr_80 = iterator . vr_70 () ;
+if ( vr_71 instanceof Iterator ) { return ( Iterator < ? > ) vr_71 ; MST[ReturnValsMutator]MSP[] } if ( vr_71 instanceof vr_64 ) {
+if ( vr_86 == - 1 ) { return iterator . vr_70 () ; } iterator . vr_70 () ; MST[NonVoidMethodCallMutator]MSP[] }
+public static < vt_1 > vt_1 fn_46 ( final Iterator < vt_1 > iterator ) { return get ( iterator , 0 ) ; MST[ReturnValsMutator]MSP[] }
+return new vr_14 <> ( array , vr_16 ) ; MST[ConstructorCallMutator]MSP[] }
+while ( iterator . hasNext () ) { iterator . vr_70 () ; size ++ ; } } return size ; MST[rv.UOI3Mutator]MSP[] }
+return new vr_18 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI4Mutator]MSP[] }
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; return new vr_49 <> ( vr_24 , vr_47 ) ; MST[NullReturnValsMutator]MSP[] }
+if ( vr_71 instanceof tp_2 ) { MST[rv.ROR5Mutator]MSP[] return new tp_1 ( ( tp_2 ) vr_71 ) ; } if ( vr_71 instanceof tp_3 ) {
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { MST[rv.ROR5Mutator]MSP[]
+final vt_1 vr_80 = iterator . vr_70 () ; if ( vr_47 . vr_82 ( vr_80 ) ) { MST[rv.ROR5Mutator]MSP[] return vr_80 ; } } }
+return new vr_18 <> ( array , vr_16 ) ; MST[NullReturnValsMutator]MSP[] }
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR5Mutator]MSP[]
+final Collection < ? super vt_1 > vr_62 ) { return new vr_61 <> ( vr_43 . vr_44 ( enumeration , lr_10 ) , MST[NonVoidMethodCallMutator]MSP[]
+} else if ( vr_71 . getClass () . fn_38 () ) { return new vr_15 <> ( vr_71 ) ; MST[ConstructorCallMutator]MSP[] } try {
+return new vr_15 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI3Mutator]MSP[] }
+vr_87 . vr_88 ( vr_86 ) ; while ( iterator . hasNext () ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] vr_86 -- ;
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[InlineConstantMutator]MSP[] }
+return new vr_56 <> ( iterator , vr_22 ) ; MST[ConstructorCallMutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; return new vr_65 <> ( iterator , true ) ; MST[ReturnValsMutator]MSP[] }
+return new vr_14 <> ( ( Object [] ) vr_71 ) ; } if ( vr_71 instanceof Enumeration ) { MST[rv.ROR3Mutator]MSP[]
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; MST[NonVoidMethodCallMutator]MSP[] if ( iterator != null ) {
+return new tp_1 ( ( tp_3 ) vr_71 ) ; } if ( vr_71 instanceof vl_2 ) { MST[NegateConditionalsMutator]MSP[]
+return iterator == null || ! iterator . hasNext () ; MST[NegateConditionalsMutator]MSP[] }
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[rv.CRCR5Mutator]MSP[] }
+final vr_46 < ? super vt_1 > vr_47 ) { vr_43 . vr_44 ( vr_24 , lr_5 ) ; MST[NonVoidMethodCallMutator]MSP[]
+for ( int vr_83 = 0 ; iterator . hasNext () ; vr_83 ++ ) { MST[rv.ROR3Mutator]MSP[] final vt_1 vr_80 = iterator . vr_70 () ;
+for ( int vr_83 = 0 ; iterator . hasNext () ; vr_83 ++ ) { MST[rv.ROR5Mutator]MSP[] final vt_1 vr_80 = iterator . vr_70 () ;
+vr_87 . vr_88 ( vr_86 ) ; while ( iterator . hasNext () ) { MST[NegateConditionalsMutator]MSP[] vr_86 -- ;
+return new vr_19 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI4Mutator]MSP[] }
+final Iterator < ? extends vt_1 > vr_59 ) { return new vr_57 <> ( vr_58 , vr_59 ) ; MST[ConstructorCallMutator]MSP[] }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( vr_47 . vr_82 ( vr_80 ) ) { MST[NegateConditionalsMutator]MSP[] return vr_80 ; } } }
+return new vr_18 <> ( array , vr_16 , vr_17 ) ; MST[rv.ABSMutator]MSP[] }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { MST[rv.ROR5Mutator]MSP[] while ( iterator . hasNext () ) {
+return new vr_14 <> ( array , vr_16 ) ; MST[NullReturnValsMutator]MSP[] }
+return new tp_1 ( ( tp_3 ) vr_71 ) ; } if ( vr_71 instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[]
+return new vr_15 <> ( array , vr_16 ) ; MST[rv.UOI3Mutator]MSP[] }
+if ( vr_86 == - 1 ) { MST[rv.CRCR2Mutator]MSP[] return iterator . vr_70 () ; } iterator . vr_70 () ; }
+if ( vr_86 == - 1 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] return iterator . vr_70 () ; } iterator . vr_70 () ; }
+} else if ( vr_71 . getClass () . fn_38 () ) { return new vr_15 <> ( vr_71 ) ; MST[ReturnValsMutator]MSP[] } try {
+vr_43 . vr_44 ( iterator , lr_2 ) ; return new vr_65 <> ( iterator , false ) ; MST[ConstructorCallMutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; return new vr_65 <> ( iterator , false ) ; MST[rv.CRCR5Mutator]MSP[] }
+if ( vr_71 instanceof tp_2 ) { return new tp_1 ( ( tp_2 ) vr_71 ) ; } if ( vr_71 instanceof tp_3 ) { MST[rv.ROR1Mutator]MSP[]
+throw new fn_45 ( lr_15 + vr_86 ) ; MST[NonVoidMethodCallMutator]MSP[] }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( iterator . hasNext () ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] vr_79 . vr_81 ( vr_80 ) ;
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { MST[NegateConditionalsMutator]MSP[] while ( iterator . hasNext () ) {
+return new vr_19 <> ( array , vr_16 , vr_17 ) ; MST[rv.ABSMutator]MSP[] }
+} public static < vt_1 > vr_3 < vt_1 > fn_11 ( final Object array ) { return new vr_19 <> ( array ) ; MST[ConstructorCallMutator]MSP[]
+return new vr_63 <> ( vr_43 . vr_44 ( iterator , lr_2 ) ) ; MST[ReturnValsMutator]MSP[] }
+final long vr_22 , final long vr_21 ) { return new vr_20 <> ( iterator , vr_22 , vr_21 ) ; MST[rv.UOI1Mutator]MSP[] }
+for ( int vr_83 = 0 ; iterator . hasNext () ; vr_83 ++ ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] final vt_1 vr_80 = iterator . vr_70 () ;
+if ( vr_86 == - 1 ) { return iterator . vr_70 () ; MST[NonVoidMethodCallMutator]MSP[] } iterator . vr_70 () ; }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( ! vr_47 . vr_82 ( vr_80 ) ) { MST[NegateConditionalsMutator]MSP[] return false ; } }
+if ( vr_71 instanceof Iterator ) { return ( Iterator < ? > ) vr_71 ; } if ( vr_71 instanceof vr_64 ) { MST[rv.ROR4Mutator]MSP[]
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[rv.ROR2Mutator]MSP[] }
+vr_43 . vr_44 ( vr_41 , lr_3 ) ; return new vr_45 <> ( iterator , vr_41 ) ; MST[ReturnValsMutator]MSP[] }
+public static < vt_1 > vr_3 < vt_1 > fn_11 ( final vt_1 ... array ) { return new vr_18 <> ( array ) ; MST[ReturnValsMutator]MSP[]
+} return true ; MST[rv.CRCR3Mutator]MSP[] } public static boolean isEmpty ( final Iterator < ? > iterator ) {
+return new vr_15 <> ( array , vr_16 , vr_17 ) ; MST[rv.ABSMutator]MSP[] }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { MST[NegateConditionalsMutator]MSP[] while ( iterator . hasNext () ) {
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { MST[NegateConditionalsMutator]MSP[] while ( iterator . hasNext () ) {
+return new vr_19 <> ( array , vr_16 ) ; MST[rv.UOI4Mutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; MST[NonVoidMethodCallMutator]MSP[] return new vr_65 <> ( iterator , true ) ; }
+return new vr_18 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI3Mutator]MSP[] }
+public static int size ( final Iterator < ? > iterator ) { int size = 0 ; if ( iterator != null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+return new vr_61 <> ( ( Enumeration < ? > ) vr_71 ) ; } if ( vr_71 instanceof vl_1 ) { MST[rv.ROR2Mutator]MSP[]
+throw new fn_45 ( lr_15 + vr_86 ) ; MST[rv.UOI2Mutator]MSP[] }
+return new vr_63 <> ( vr_43 . vr_44 ( iterator , lr_2 ) ) ; MST[NonVoidMethodCallMutator]MSP[] }
+return fn_12 ( iterator , 0 , vr_21 ) ; MST[rv.CRCR6Mutator]MSP[] }
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; return new vr_48 <> ( iterator , vr_47 ) ; MST[ConstructorCallMutator]MSP[] }
+stringBuilder . vr_95 ( stringBuilder . length () - vr_91 . length () ) ; MST[rv.AOR3Mutator]MSP[] } } stringBuilder . append ( vr_93 ) ;
+final List < vt_1 > list = fn_34 ( iterator , 100 ) ; MST[rv.CRCR3Mutator]MSP[] @SuppressWarnings ( lr_1 )
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] while ( iterator . hasNext () ) {
+return new vr_38 <> ( vr_35 , vr_32 ) ; MST[ReturnValsMutator]MSP[] }
+final Collection < ? super vt_1 > vr_62 ) { return new vr_61 <> ( vr_43 . vr_44 ( enumeration , lr_10 ) , MST[ArgumentPropagationMutator]MSP[]
+final vt_1 vr_80 = iterator . vr_70 () ; if ( ! vr_47 . vr_82 ( vr_80 ) ) { MST[rv.ROR5Mutator]MSP[] return false ; } }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( vr_47 . vr_82 ( vr_80 ) ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] return vr_80 ; } } }
+return ( ( vr_64 < ? > ) vr_71 ) . iterator () ; } if ( vr_71 instanceof Object [] ) { MST[rv.ROR3Mutator]MSP[]
+vr_43 . vr_44 ( iterator , lr_2 ) ; if ( vr_69 < 1 ) { MST[rv.ROR2Mutator]MSP[] throw new IllegalArgumentException ( lr_13 ) ; }
+return new vr_14 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI1Mutator]MSP[] }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( ! vr_47 . vr_82 ( vr_80 ) ) { return false ; MST[rv.CRCR5Mutator]MSP[] } }
+public static < vt_1 > vt_1 fn_46 ( final Iterator < vt_1 > iterator ) { return get ( iterator , 0 ) ; MST[rv.CRCR6Mutator]MSP[] }
+public static int size ( final Iterator < ? > iterator ) { int size = 0 ; MST[rv.CRCR6Mutator]MSP[] if ( iterator != null ) {
+return new vr_18 <> ( array , vr_16 ) ; MST[ConstructorCallMutator]MSP[] }
+if ( vr_86 == - 1 ) { MST[rv.ROR2Mutator]MSP[] return iterator . vr_70 () ; } iterator . vr_70 () ; }
+return ( ( vl_1 < ? , ? > ) vr_71 ) . fn_36 () . iterator () ; MST[NonVoidMethodCallMutator]MSP[] }
+return iterator == null || ! iterator . hasNext () ; MST[rv.CRCR5Mutator]MSP[] }
+return new vr_19 <> ( array , vr_16 ) ; MST[rv.ABSMutator]MSP[] }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR3Mutator]MSP[]
+vr_43 . vr_44 ( iterator , lr_2 ) ; return new vr_65 <> ( iterator , true ) ; MST[rv.CRCR6Mutator]MSP[] }
+} else if ( vr_71 . getClass () . fn_38 () ) { MST[NonVoidMethodCallMutator]MSP[] return new vr_15 <> ( vr_71 ) ; } try {
+public static Iterator < ? > fn_35 ( final Object vr_71 ) { if ( vr_71 == null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] return fn_1 () ; }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR1Mutator]MSP[]
+return new vr_15 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI4Mutator]MSP[] }
+final vt_1 vr_80 = iterator . vr_70 () ; vr_79 . vr_81 ( vr_80 ) ; MST[VoidMethodCallMutator]MSP[] } } }
+return new vr_15 <> ( array , vr_16 , vr_17 ) ; MST[ReturnValsMutator]MSP[] }
+return new vr_61 <> ( vr_43 . vr_44 ( enumeration , lr_10 ) ) ; MST[ArgumentPropagationMutator]MSP[] }
+return iterator == null || ! iterator . hasNext () ; MST[rv.ROR5Mutator]MSP[] }
+return new tp_1 ( ( tp_3 ) vr_71 ) ; } if ( vr_71 instanceof vl_2 ) { MST[rv.ROR5Mutator]MSP[]
+for ( int vr_83 = 0 ; iterator . hasNext () ; vr_83 ++ ) { MST[NegateConditionalsMutator]MSP[] final vt_1 vr_80 = iterator . vr_70 () ;
+final List < vt_1 > list = new ArrayList <> ( vr_69 ) ; while ( iterator . hasNext () ) { MST[rv.ROR4Mutator]MSP[]
+return toString ( iterator , vr_89 . vr_90 () , MST[NonVoidMethodCallMutator]MSP[] vl_3 , vl_4 , vl_5 ) ; }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( ! vr_47 . vr_82 ( vr_80 ) ) { MST[NonVoidMethodCallMutator]MSP[] return false ; } }
+final vr_33 < vt_1 > vr_35 = MST[rv.ROR5Mutator]MSP[] vr_34 == null ? vr_36 . vr_37 : ( vr_33 < vt_1 > ) vr_34 ;
+vr_43 . vr_44 ( vr_92 , lr_17 ) ; MST[ArgumentPropagationMutator]MSP[] vr_43 . vr_44 ( vr_93 , lr_18 ) ;
+if ( vr_71 instanceof Iterator ) { MST[rv.ROR1Mutator]MSP[] return ( Iterator < ? > ) vr_71 ; } if ( vr_71 instanceof vr_64 ) {
+return new vr_38 <> ( vr_35 , vr_32 ) ; MST[NullReturnValsMutator]MSP[] }
+vr_87 . vr_88 ( vr_86 ) ; while ( iterator . hasNext () ) { MST[rv.ROR5Mutator]MSP[] vr_86 -- ;
+while ( iterator . hasNext () ) { MST[NonVoidMethodCallMutator]MSP[] iterator . vr_70 () ; size ++ ; } } return size ; }
+vr_43 . vr_44 ( iterator , lr_2 ) ; MST[ArgumentPropagationMutator]MSP[] if ( vr_69 < 1 ) { throw new IllegalArgumentException ( lr_13 ) ; }
+public static < vt_1 > vt_1 fn_46 ( final Iterator < vt_1 > iterator ) { return get ( iterator , 0 ) ; MST[rv.CRCR1Mutator]MSP[] }
+final StringBuilder stringBuilder = new StringBuilder ( vr_92 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR3Mutator]MSP[]
+final vr_40 < ? super vt_4 , ? extends vt_5 > vr_41 ) { vr_43 . vr_44 ( iterator , lr_2 ) ; MST[ArgumentPropagationMutator]MSP[]
+return vr_55 . fn_26 ( iterator ) ; MST[NullReturnValsMutator]MSP[] }
+final List < ? > list = fn_34 ( iterator , 100 ) ; MST[rv.CRCR4Mutator]MSP[] return list . toArray () ; }
+stringBuilder . append ( vr_91 ) ; } if ( stringBuilder . length () > vr_92 . length () ) { MST[rv.ROR4Mutator]MSP[]
+return fn_34 ( iterator , 10 ) ; MST[rv.CRCR1Mutator]MSP[] }
+final StringBuilder stringBuilder = new StringBuilder ( vr_92 ) ; if ( iterator != null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] while ( iterator . hasNext () ) {
+return new vr_14 <> ( ( Object [] ) vr_71 ) ; } if ( vr_71 instanceof Enumeration ) { MST[rv.ROR4Mutator]MSP[]
+while ( iterator . hasNext () ) { MST[rv.ROR3Mutator]MSP[] iterator . vr_70 () ; size ++ ; } } return size ; }
+return new vr_61 <> ( ( Enumeration < ? > ) vr_71 ) ; MST[ReturnValsMutator]MSP[] } if ( vr_71 instanceof vl_1 ) {
+stringBuilder . append ( vr_91 ) ; } if ( stringBuilder . length () > vr_92 . length () ) { MST[NonVoidMethodCallMutator]MSP[]
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; MST[ArgumentPropagationMutator]MSP[] return new vr_49 <> ( vr_24 , vr_47 ) ; }
+public static Iterator < ? > fn_35 ( final Object vr_71 ) { if ( vr_71 == null ) { return fn_1 () ; MST[NullReturnValsMutator]MSP[] }
+if ( vr_71 instanceof tp_2 ) { return new tp_1 ( ( tp_2 ) vr_71 ) ; } if ( vr_71 instanceof tp_3 ) { MST[rv.ROR2Mutator]MSP[]
+return list . toArray ( array ) ; MST[NullReturnValsMutator]MSP[] }
+if ( vr_47 . vr_82 ( vr_80 ) ) { MST[NegateConditionalsMutator]MSP[] return vr_83 ; } } } return - 1 ; }
+vr_43 . vr_44 ( vr_62 , lr_11 ) ) ; MST[ArgumentPropagationMutator]MSP[] }
+vr_87 . vr_88 ( vr_86 ) ; MST[rv.UOI3Mutator]MSP[] while ( iterator . hasNext () ) { vr_86 -- ;
+return vr_28 . fn_15 ( vr_27 ) ; MST[ReturnValsMutator]MSP[] }
+final Iterator < ? extends vt_1 > ... vr_32 ) { @SuppressWarnings ( lr_1 ) final vr_33 < vt_1 > vr_35 = MST[NegateConditionalsMutator]MSP[]
+return new vr_19 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI1Mutator]MSP[] }
+final vr_33 < vt_1 > vr_35 = MST[RemoveConditionalMutator_EQUAL_IF]MSP[] vr_34 == null ? vr_36 . vr_37 : ( vr_33 < vt_1 > ) vr_34 ;
+return new vr_56 <> ( iterator , vr_22 ) ; MST[rv.UOI4Mutator]MSP[] }
+return iterator == null || ! iterator . hasNext () ; MST[rv.CRCR4Mutator]MSP[] }
+return new vr_18 <> ( array , vr_16 , vr_17 ) ; MST[ConstructorCallMutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; return new vr_65 <> ( iterator , true ) ; MST[rv.CRCR4Mutator]MSP[] }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; MST[NonVoidMethodCallMutator]MSP[] if ( iterator != null ) { while ( iterator . hasNext () ) {
+return new vr_38 <> ( vr_35 , vr_29 , vr_30 ) ; MST[NullReturnValsMutator]MSP[] }
+vr_43 . vr_44 ( vr_41 , lr_3 ) ; return new vr_45 <> ( iterator , vr_41 ) ; MST[NullReturnValsMutator]MSP[] }
+return fn_12 ( iterator , 0 , vr_21 ) ; MST[NullReturnValsMutator]MSP[] }
+final vt_1 vr_80 = iterator . vr_70 () ; stringBuilder . append ( vr_41 . vr_94 ( vr_80 ) ) ; MST[NonVoidMethodCallMutator]MSP[]
+return new vr_38 <> ( vr_35 , vr_32 ) ; MST[ConstructorCallMutator]MSP[] }
+if ( vr_86 == - 1 ) { MST[InlineConstantMutator]MSP[] return iterator . vr_70 () ; } iterator . vr_70 () ; }
+public static tp_1 fn_24 ( final tp_3 vr_53 ) { return new tp_1 ( vr_43 . vr_44 ( vr_53 , lr_9 ) ) ; MST[ReturnValsMutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; return new vr_65 <> ( iterator , false ) ; MST[NullReturnValsMutator]MSP[] }
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[rv.CRCR2Mutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; return new vr_65 <> ( iterator , true ) ; MST[NullReturnValsMutator]MSP[] }
+return iterator == null || ! iterator . hasNext () ; MST[rv.ROR4Mutator]MSP[] }
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+return ( ( vr_64 < ? > ) vr_71 ) . iterator () ; } if ( vr_71 instanceof Object [] ) { MST[rv.ROR4Mutator]MSP[]
+for ( int vr_83 = 0 ; iterator . hasNext () ; vr_83 ++ ) { MST[rv.ROR2Mutator]MSP[] final vt_1 vr_80 = iterator . vr_70 () ;
+public static tp_1 fn_24 ( final tp_2 vr_52 ) { return new tp_1 ( vr_43 . vr_44 ( vr_52 , lr_8 ) ) ; MST[NonVoidMethodCallMutator]MSP[] }
+final vt_1 vr_80 = iterator . vr_70 () ; stringBuilder . append ( vr_41 . vr_94 ( vr_80 ) ) ; MST[experimental.NakedReceiverMutator]MSP[]
+vr_43 . vr_44 ( iterator , lr_2 ) ; MST[ArgumentPropagationMutator]MSP[] return new vr_66 <> ( iterator ) ; }
+if ( vr_71 instanceof tp_2 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] return new tp_1 ( ( tp_2 ) vr_71 ) ; } if ( vr_71 instanceof tp_3 ) {
+return new vr_14 <> ( array , vr_16 , vr_17 ) ; MST[ReturnValsMutator]MSP[] }
+if ( vr_71 instanceof tp_2 ) { MST[rv.ROR3Mutator]MSP[] return new tp_1 ( ( tp_2 ) vr_71 ) ; } if ( vr_71 instanceof tp_3 ) {
+final long vr_22 , final long vr_21 ) { return new vr_20 <> ( iterator , vr_22 , vr_21 ) ; MST[rv.UOI2Mutator]MSP[] }
+final Iterator < ? extends vt_1 > ... vr_32 ) { @SuppressWarnings ( lr_1 ) final vr_33 < vt_1 > vr_35 = MST[rv.ROR5Mutator]MSP[]
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; MST[NonVoidMethodCallMutator]MSP[] return new vr_48 <> ( iterator , vr_47 ) ; }
+while ( iterator . hasNext () ) { iterator . vr_70 () ; size ++ ; } } return size ; MST[rv.UOI1Mutator]MSP[] }
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { MST[rv.ROR5Mutator]MSP[] while ( iterator . hasNext () ) {
+public static < vt_1 > vr_12 < vt_1 > fn_9 ( final vt_1 object ) { return new vr_13 <> ( object ) ; MST[NullReturnValsMutator]MSP[] }
+final long vr_22 , final long vr_21 ) { return new vr_20 <> ( iterator , vr_22 , vr_21 ) ; MST[rv.ABSMutator]MSP[] }
+return new vr_14 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI4Mutator]MSP[] }
+} public static < vt_1 > vr_1 < vt_1 > fn_10 ( final Object array ) { return new vr_15 <> ( array ) ; MST[NullReturnValsMutator]MSP[]
+} public static < vt_1 > vr_3 < vt_1 > fn_11 ( final Object array ) { return new vr_19 <> ( array ) ; MST[NullReturnValsMutator]MSP[]
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; MST[ArgumentPropagationMutator]MSP[] if ( iterator != null ) {
+if ( vr_86 == - 1 ) { MST[rv.ABSMutator]MSP[] return iterator . vr_70 () ; } iterator . vr_70 () ; }
+public static Iterator < ? > fn_35 ( final Object vr_71 ) { if ( vr_71 == null ) { MST[NegateConditionalsMutator]MSP[] return fn_1 () ; }
+return new vr_18 <> ( array , vr_16 ) ; MST[rv.ABSMutator]MSP[] }
+return new vr_18 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI2Mutator]MSP[] }
+if ( vr_71 instanceof Iterator ) { return ( Iterator < ? > ) vr_71 ; } if ( vr_71 instanceof vr_64 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+return new vr_61 <> ( ( Enumeration < ? > ) vr_71 ) ; } if ( vr_71 instanceof vl_1 ) { MST[rv.ROR3Mutator]MSP[]
+if ( vr_71 instanceof tp_2 ) { return new tp_1 ( ( tp_2 ) vr_71 ) ; MST[ConstructorCallMutator]MSP[] } if ( vr_71 instanceof tp_3 ) {
+return new tp_1 ( ( tp_3 ) vr_71 ) ; } if ( vr_71 instanceof vl_2 ) { MST[rv.ROR1Mutator]MSP[]
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; return new vr_48 <> ( iterator , vr_47 ) ; MST[ReturnValsMutator]MSP[] }
+final List < vt_1 > list = fn_34 ( iterator , 100 ) ; MST[rv.CRCR1Mutator]MSP[] @SuppressWarnings ( lr_1 )
+final List < vt_1 > list = fn_34 ( iterator , 100 ) ; MST[rv.CRCR4Mutator]MSP[] @SuppressWarnings ( lr_1 )
+return new vr_51 <> ( vr_43 . vr_44 ( list , lr_7 ) ) ; MST[ReturnValsMutator]MSP[] }
+return new vr_61 <> ( vr_43 . vr_44 ( enumeration , lr_10 ) ) ; MST[NonVoidMethodCallMutator]MSP[] }
+return fn_12 ( iterator , 0 , vr_21 ) ; MST[rv.UOI3Mutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; if ( vr_69 < 1 ) { MST[rv.CRCR5Mutator]MSP[] throw new IllegalArgumentException ( lr_13 ) ; }
+final StringBuilder stringBuilder = new StringBuilder ( vr_92 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[NegateConditionalsMutator]MSP[]
+} else if ( vr_71 . getClass () . fn_38 () ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] return new vr_15 <> ( vr_71 ) ; } try {
+final long vr_22 , final long vr_21 ) { return new vr_20 <> ( iterator , vr_22 , vr_21 ) ; MST[ConstructorCallMutator]MSP[] }
+if ( vr_71 instanceof Iterator ) { MST[rv.ROR2Mutator]MSP[] return ( Iterator < ? > ) vr_71 ; } if ( vr_71 instanceof vr_64 ) {
+public static < vt_1 > vr_3 < vt_1 > fn_11 ( final vt_1 ... array ) { return new vr_18 <> ( array ) ; MST[NullReturnValsMutator]MSP[]
+final vt_1 [] array = ( vt_1 [] ) Array . vr_68 ( vr_67 , list . size () ) ; MST[NonVoidMethodCallMutator]MSP[]
+final List < vt_1 > list = new ArrayList <> ( vr_69 ) ; MST[rv.UOI3Mutator]MSP[] while ( iterator . hasNext () ) {
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR2Mutator]MSP[]
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] while ( iterator . hasNext () ) {
+return toString ( iterator , vr_89 . vr_90 () , MST[ArgumentPropagationMutator]MSP[] vl_3 , vl_4 , vl_5 ) ; }
+return vr_25 . vr_26 ( vr_24 ) ; MST[NonVoidMethodCallMutator]MSP[] }
+vr_87 . vr_88 ( vr_86 ) ; while ( iterator . hasNext () ) { MST[rv.ROR1Mutator]MSP[] vr_86 -- ;
+final List < vt_1 > list = new ArrayList <> ( vr_69 ) ; while ( iterator . hasNext () ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[]
+public static < vt_1 > vr_1 < vt_1 > fn_1 () { return vr_2 . <vt_1 > fn_2 () ; MST[ReturnValsMutator]MSP[] }
+for ( int vr_83 = 0 ; iterator . hasNext () ; vr_83 ++ ) { MST[IncrementsMutator]MSP[] final vt_1 vr_80 = iterator . vr_70 () ;
+return new vr_15 <> ( array , vr_16 ) ; MST[rv.UOI4Mutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; if ( vr_69 < 1 ) { MST[NegateConditionalsMutator]MSP[] throw new IllegalArgumentException ( lr_13 ) ; }
+final long vr_22 , final long vr_21 ) { return new vr_20 <> ( iterator , vr_22 , vr_21 ) ; MST[rv.UOI3Mutator]MSP[] }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR5Mutator]MSP[]
+final Collection < Iterator < ? extends vt_1 > > vr_32 ) { @SuppressWarnings ( lr_1 ) final vr_33 < vt_1 > vr_35 = MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[]
+return iterator == null || ! iterator . hasNext () ; MST[ReturnValsMutator]MSP[] }
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[rv.CRCR2Mutator]MSP[] }
+public static < vt_1 > vt_1 get ( final Iterator < vt_1 > iterator , final int vr_83 ) { int vr_86 = vr_83 ; MST[rv.ABSMutator]MSP[]
+stringBuilder . append ( vr_91 ) ; } if ( stringBuilder . length () > vr_92 . length () ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[]
+final vt_1 vr_80 = iterator . vr_70 () ; if ( iterator . hasNext () ) { MST[rv.ROR2Mutator]MSP[] vr_79 . vr_81 ( vr_80 ) ;
+vr_43 . vr_44 ( iterator , lr_2 ) ; MST[NonVoidMethodCallMutator]MSP[] if ( vr_69 < 1 ) { throw new IllegalArgumentException ( lr_13 ) ; }
+while ( iterator . hasNext () ) { iterator . vr_70 () ; size ++ ; MST[IncrementsMutator]MSP[] } } return size ; }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { MST[rv.ROR5Mutator]MSP[] while ( iterator . hasNext () ) {
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; MST[ArgumentPropagationMutator]MSP[] if ( iterator != null ) { while ( iterator . hasNext () ) {
+final vt_1 vr_80 = iterator . vr_70 () ; if ( ! vr_47 . vr_82 ( vr_80 ) ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] return false ; } }
+return new vr_31 <> ( vr_32 ) ; MST[ReturnValsMutator]MSP[] }
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR4Mutator]MSP[]
+while ( iterator . hasNext () ) { iterator . vr_70 () ; size ++ ; } } return size ; MST[PrimitiveReturnsMutator]MSP[] }
+throw new fn_45 ( lr_15 + vr_86 ) ; MST[ConstructorCallMutator]MSP[] }
+return new vr_15 <> ( array , vr_16 ) ; MST[ReturnValsMutator]MSP[] }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[NegateConditionalsMutator]MSP[]
+vr_43 . vr_44 ( iterator , lr_2 ) ; if ( vr_69 < 1 ) { MST[rv.UOI3Mutator]MSP[] throw new IllegalArgumentException ( lr_13 ) ; }
+return stringBuilder . toString () ; MST[ReturnValsMutator]MSP[] }
+return new vr_14 <> ( ( Object [] ) vr_71 ) ; } if ( vr_71 instanceof Enumeration ) { MST[rv.ROR1Mutator]MSP[]
+stringBuilder . append ( vr_91 ) ; } if ( stringBuilder . length () > vr_92 . length () ) { MST[rv.ROR1Mutator]MSP[]
+public static < vt_1 > vt_1 get ( final Iterator < vt_1 > iterator , final int vr_83 ) { int vr_86 = vr_83 ; MST[rv.UOI3Mutator]MSP[]
+return iterator == null || ! iterator . hasNext () ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[] }
+} else { return vr_80 ; MST[NullReturnValsMutator]MSP[] } } } return null ; }
+return ( ( vl_1 < ? , ? > ) vr_71 ) . fn_36 () . iterator () ; MST[ReturnValsMutator]MSP[] }
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[NonVoidMethodCallMutator]MSP[]
+public static < vt_1 > vt_1 get ( final Iterator < vt_1 > iterator , final int vr_83 ) { int vr_86 = vr_83 ; MST[rv.UOI1Mutator]MSP[]
+return new vr_15 <> ( array , vr_16 ) ; MST[rv.UOI1Mutator]MSP[] }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( iterator . hasNext () ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] vr_79 . vr_81 ( vr_80 ) ;
+if ( vr_47 . vr_82 ( vr_80 ) ) { return vr_83 ; } } } return - 1 ; MST[rv.CRCR4Mutator]MSP[] }
+if ( vr_47 . vr_82 ( vr_80 ) ) { return vr_83 ; } } } return - 1 ; MST[rv.CRCR2Mutator]MSP[] }
+while ( iterator . hasNext () ) { iterator . vr_70 () ; size ++ ; } } return size ; MST[rv.UOI4Mutator]MSP[] }
+if ( vr_86 == - 1 ) { MST[NegateConditionalsMutator]MSP[] return iterator . vr_70 () ; } iterator . vr_70 () ; }
+return new vr_19 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI2Mutator]MSP[] }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { MST[NegateConditionalsMutator]MSP[] while ( iterator . hasNext () ) {
+for ( int vr_83 = 0 ; iterator . hasNext () ; vr_83 ++ ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] final vt_1 vr_80 = iterator . vr_70 () ;
+public static Iterator < ? > fn_35 ( final Object vr_71 ) { if ( vr_71 == null ) { MST[rv.ROR5Mutator]MSP[] return fn_1 () ; }
+public static < vt_1 > vr_3 < vt_1 > fn_3 () { return vr_4 . <vt_1 > fn_4 () ; MST[NonVoidMethodCallMutator]MSP[] }
+return new vr_18 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI1Mutator]MSP[] }
+vr_87 . vr_88 ( vr_86 ) ; while ( iterator . hasNext () ) { MST[rv.ROR3Mutator]MSP[] vr_86 -- ;
+return list . toArray ( array ) ; MST[ArgumentPropagationMutator]MSP[] }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR3Mutator]MSP[]
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+if ( vr_47 . vr_82 ( vr_80 ) ) { return vr_83 ; MST[PrimitiveReturnsMutator]MSP[] } } } return - 1 ; }
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[BooleanTrueReturnValsMutator]MSP[] }
+return fn_8 ( vr_71 ) ; MST[NullReturnValsMutator]MSP[] }
+return new vr_15 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI1Mutator]MSP[] }
+return new vr_61 <> ( ( Enumeration < ? > ) vr_71 ) ; } if ( vr_71 instanceof vl_1 ) { MST[NegateConditionalsMutator]MSP[]
+vr_43 . vr_44 ( vr_41 , lr_3 ) ; return new vr_45 <> ( iterator , vr_41 ) ; MST[ConstructorCallMutator]MSP[] }
+return new vr_61 <> ( ( Enumeration < ? > ) vr_71 ) ; } if ( vr_71 instanceof vl_1 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[]
+public static < vt_1 > vr_3 < vt_1 > fn_11 ( final vt_1 ... array ) { return new vr_18 <> ( array ) ; MST[ConstructorCallMutator]MSP[]
+return new vr_50 <> ( vr_43 . vr_44 ( collection , lr_6 ) ) ; MST[NonVoidMethodCallMutator]MSP[] }
+final StringBuilder stringBuilder = new StringBuilder ( vr_92 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR5Mutator]MSP[]
+if ( vr_71 instanceof tp_2 ) { return new tp_1 ( ( tp_2 ) vr_71 ) ; MST[NullReturnValsMutator]MSP[] } if ( vr_71 instanceof tp_3 ) {
+return vr_28 . fn_15 ( vr_27 ) ; MST[NonVoidMethodCallMutator]MSP[] }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( vr_47 . vr_82 ( vr_80 ) ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] return vr_80 ; } } }
+return new vr_31 <> ( vr_32 ) ; MST[ReturnValsMutator]MSP[] }
+return ( ( vr_64 < ? > ) vr_71 ) . iterator () ; MST[NonVoidMethodCallMutator]MSP[] } if ( vr_71 instanceof Object [] ) {
+if ( vr_86 == - 1 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] return iterator . vr_70 () ; } iterator . vr_70 () ; }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( vr_47 . vr_82 ( vr_80 ) ) { return vr_80 ; MST[NullReturnValsMutator]MSP[] } } }
+vr_43 . vr_44 ( iterator , lr_2 ) ; if ( vr_69 < 1 ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[] throw new IllegalArgumentException ( lr_13 ) ; }
+return new vr_50 <> ( vr_43 . vr_44 ( collection , lr_6 ) ) ; MST[ReturnValsMutator]MSP[] }
+if ( vr_86 == - 1 ) { MST[rv.UOI3Mutator]MSP[] return iterator . vr_70 () ; } iterator . vr_70 () ; }
+final List < vt_1 > list = new ArrayList <> ( vr_69 ) ; while ( iterator . hasNext () ) { MST[rv.ROR2Mutator]MSP[]
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR2Mutator]MSP[]
+return new vr_63 <> ( vr_43 . vr_44 ( iterator , lr_2 ) ) ; MST[ConstructorCallMutator]MSP[] }
+return new vr_19 <> ( array , vr_16 ) ; MST[rv.UOI1Mutator]MSP[] }
+final StringBuilder stringBuilder = new StringBuilder ( vr_92 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[]
+return fn_12 ( iterator , 0 , vr_21 ) ; MST[rv.CRCR3Mutator]MSP[] }
+} else if ( vr_71 . getClass () . fn_38 () ) { MST[rv.ROR2Mutator]MSP[] return new vr_15 <> ( vr_71 ) ; } try {
+throw new fn_45 ( lr_15 + vr_86 ) ; MST[experimental.NakedReceiverMutator]MSP[] }
+return new vr_61 <> ( ( Enumeration < ? > ) vr_71 ) ; } if ( vr_71 instanceof vl_1 ) { MST[rv.ROR5Mutator]MSP[]
+final List < vt_1 > list = fn_34 ( iterator , 100 ) ; MST[rv.CRCR6Mutator]MSP[] @SuppressWarnings ( lr_1 )
+} public static < vt_1 > vr_1 < vt_1 > fn_10 ( final Object array ) { return new vr_15 <> ( array ) ; MST[ConstructorCallMutator]MSP[]
+return new vr_14 <> ( array , vr_16 ) ; MST[rv.UOI1Mutator]MSP[] }
+final vr_46 < ? super vt_1 > vr_47 ) { vr_43 . vr_44 ( vr_24 , lr_5 ) ; MST[ArgumentPropagationMutator]MSP[]
+if ( vr_47 . vr_82 ( vr_80 ) ) { MST[rv.ROR5Mutator]MSP[] return vr_83 ; } } } return - 1 ; }
+stringBuilder . append ( vr_91 ) ; } if ( stringBuilder . length () > vr_92 . length () ) { MST[NonVoidMethodCallMutator]MSP[]
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] while ( iterator . hasNext () ) {
+vr_43 . vr_44 ( iterator , lr_2 ) ; if ( vr_69 < 1 ) { MST[ConditionalsBoundaryMutator]MSP[] throw new IllegalArgumentException ( lr_13 ) ; }
+return vr_23 . fn_13 ( iterator ) ; MST[ArgumentPropagationMutator]MSP[] }
+return ( ( vr_64 < ? > ) vr_71 ) . iterator () ; } if ( vr_71 instanceof Object [] ) { MST[rv.ROR1Mutator]MSP[]
+if ( vr_71 instanceof Iterator ) { MST[rv.ROR4Mutator]MSP[] return ( Iterator < ? > ) vr_71 ; } if ( vr_71 instanceof vr_64 ) {
+return vr_25 . vr_26 ( vr_24 ) ; MST[ReturnValsMutator]MSP[] }
+return fn_43 ( iterator , vr_84 . vr_85 ( object ) ) ; MST[NonVoidMethodCallMutator]MSP[] }
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR4Mutator]MSP[]
+return iterator == null || ! iterator . hasNext () ; MST[rv.CRCR2Mutator]MSP[] }
+return new vr_56 <> ( iterator , vr_22 ) ; MST[rv.UOI2Mutator]MSP[] }
+return new vr_38 <> ( vr_35 , vr_29 , vr_30 ) ; MST[ConstructorCallMutator]MSP[] }
+if ( vr_71 instanceof tp_2 ) { return new tp_1 ( ( tp_2 ) vr_71 ) ; } if ( vr_71 instanceof tp_3 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+final vt_1 vr_80 = iterator . vr_70 () ; stringBuilder . append ( vr_41 . vr_94 ( vr_80 ) ) ; MST[NonVoidMethodCallMutator]MSP[]
+return iterator == null || ! iterator . hasNext () ; MST[rv.ROR2Mutator]MSP[] }
+vr_87 . vr_88 ( vr_86 ) ; MST[rv.ABSMutator]MSP[] while ( iterator . hasNext () ) { vr_86 -- ;
+public static Object [] toArray ( final Iterator < ? > iterator ) { vr_43 . vr_44 ( iterator , lr_2 ) ; MST[ArgumentPropagationMutator]MSP[]
+vr_43 . vr_44 ( vr_41 , lr_3 ) ; MST[NonVoidMethodCallMutator]MSP[] vr_43 . vr_44 ( vr_91 , lr_16 ) ;
+return vr_10 . <vt_2 , vt_3 > fn_7 () ; MST[NullReturnValsMutator]MSP[] }
+if ( vr_47 . vr_82 ( vr_80 ) ) { return vr_83 ; MST[rv.UOI4Mutator]MSP[] } } } return - 1 ; }
+return fn_12 ( iterator , 0 , vr_21 ) ; MST[InlineConstantMutator]MSP[] }
+final vr_40 < ? super vt_1 , String > vr_41 ) { return toString ( iterator , vr_41 , vl_3 , MST[ArgumentPropagationMutator]MSP[]
+public static Iterator < ? > fn_35 ( final Object vr_71 ) { if ( vr_71 == null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] return fn_1 () ; }
+if ( vr_86 == - 1 ) { return iterator . vr_70 () ; MST[ReturnValsMutator]MSP[] } iterator . vr_70 () ; }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( ! vr_47 . vr_82 ( vr_80 ) ) { MST[rv.ROR2Mutator]MSP[] return false ; } }
+if ( vr_71 instanceof Iterator ) { return ( Iterator < ? > ) vr_71 ; } if ( vr_71 instanceof vr_64 ) { MST[rv.ROR2Mutator]MSP[]
+final vr_46 < ? super vt_1 > vr_47 ) { vr_43 . vr_44 ( iterator , lr_2 ) ; MST[ArgumentPropagationMutator]MSP[]
+return new vr_18 <> ( array , vr_16 ) ; MST[rv.UOI3Mutator]MSP[] }
+return new vr_38 <> ( vr_35 , vr_32 ) ; MST[ReturnValsMutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; if ( vr_69 < 1 ) { MST[rv.ROR5Mutator]MSP[] throw new IllegalArgumentException ( lr_13 ) ; }
+return fn_34 ( iterator , 10 ) ; MST[rv.CRCR6Mutator]MSP[] }
+public static < vt_1 > vr_5 < vt_1 > fn_5 () { return vr_6 . <vt_1 > fn_5 () ; MST[NonVoidMethodCallMutator]MSP[] }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[]
+for ( int vr_83 = 0 ; iterator . hasNext () ; vr_83 ++ ) { MST[experimental.RemoveIncrementsMutator]MSP[] final vt_1 vr_80 = iterator . vr_70 () ;
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[ReturnValsMutator]MSP[] }
+final List < ? > list = fn_34 ( iterator , 100 ) ; MST[rv.CRCR1Mutator]MSP[] return list . toArray () ; }
+} return true ; MST[rv.CRCR5Mutator]MSP[] } public static boolean isEmpty ( final Iterator < ? > iterator ) {
+return new vr_14 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI3Mutator]MSP[] }
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[rv.ROR4Mutator]MSP[] }
+final long vr_22 , final long vr_21 ) { return new vr_20 <> ( iterator , vr_22 , vr_21 ) ; MST[NullReturnValsMutator]MSP[] }
+if ( vr_86 == - 1 ) { MST[rv.ROR5Mutator]MSP[] return iterator . vr_70 () ; } iterator . vr_70 () ; }
+vr_43 . vr_44 ( vr_41 , lr_3 ) ; MST[ArgumentPropagationMutator]MSP[] return new vr_45 <> ( iterator , vr_41 ) ; }
+} else if ( vr_71 . getClass () . fn_38 () ) { MST[NonVoidMethodCallMutator]MSP[] return new vr_15 <> ( vr_71 ) ; } try {
+if ( vr_71 instanceof Iterator ) { MST[NegateConditionalsMutator]MSP[] return ( Iterator < ? > ) vr_71 ; } if ( vr_71 instanceof vr_64 ) {
+final List < ? > list = fn_34 ( iterator , 100 ) ; MST[rv.CRCR6Mutator]MSP[] return list . toArray () ; }
+final long vr_22 , final long vr_21 ) { return new vr_20 <> ( iterator , vr_22 , vr_21 ) ; MST[rv.UOI4Mutator]MSP[] }
+stringBuilder . vr_95 ( stringBuilder . length () - vr_91 . length () ) ; MST[NonVoidMethodCallMutator]MSP[] } } stringBuilder . append ( vr_93 ) ;
+return new vr_15 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI2Mutator]MSP[] }
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[]
+final List < vt_1 > list = fn_34 ( iterator , 100 ) ; MST[InlineConstantMutator]MSP[] @SuppressWarnings ( lr_1 )
+return iterator == null || ! iterator . hasNext () ; MST[rv.ROR5Mutator]MSP[] }
+return new vr_14 <> ( ( Object [] ) vr_71 ) ; } if ( vr_71 instanceof Enumeration ) { MST[rv.ROR2Mutator]MSP[]
+throw new fn_45 ( lr_15 + vr_86 ) ; MST[NonVoidMethodCallMutator]MSP[] }
+final StringBuilder stringBuilder = new StringBuilder ( vr_92 ) ; if ( iterator != null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] while ( iterator . hasNext () ) {
+stringBuilder . vr_95 ( stringBuilder . length () - vr_91 . length () ) ; MST[rv.AOD2Mutator]MSP[] } } stringBuilder . append ( vr_93 ) ;
+return new vr_50 <> ( vr_43 . vr_44 ( collection , lr_6 ) ) ; MST[NullReturnValsMutator]MSP[] }
+while ( iterator . hasNext () ) { MST[rv.ROR1Mutator]MSP[] iterator . vr_70 () ; size ++ ; } } return size ; }
+vr_87 . vr_88 ( vr_86 ) ; MST[rv.UOI1Mutator]MSP[] while ( iterator . hasNext () ) { vr_86 -- ;
+final StringBuilder stringBuilder = new StringBuilder ( vr_92 ) ; if ( iterator != null ) { MST[NegateConditionalsMutator]MSP[] while ( iterator . hasNext () ) {
+final tp_4 vr_72 = vr_71 . getClass () . fn_39 ( lr_2 , ( Class [] ) null ) ; MST[NonVoidMethodCallMutator]MSP[]
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR3Mutator]MSP[]
+return new vr_57 <> ( vr_32 ) ; MST[ConstructorCallMutator]MSP[] }
+return new tp_1 ( ( tp_3 ) vr_71 ) ; MST[ReturnValsMutator]MSP[] } if ( vr_71 instanceof vl_2 ) {
+return fn_12 ( iterator , 0 , vr_21 ) ; MST[rv.ABSMutator]MSP[] }
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[rv.ROR1Mutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; vr_43 . vr_44 ( vr_67 , lr_12 ) ; MST[ArgumentPropagationMutator]MSP[]
+final List < vt_1 > list = fn_34 ( iterator , 100 ) ; MST[NonVoidMethodCallMutator]MSP[] @SuppressWarnings ( lr_1 )
+return vr_8 . <vt_2 , vt_3 > fn_6 () ; MST[ReturnValsMutator]MSP[] }
+public static tp_1 fn_24 ( final tp_3 vr_53 ) { return new tp_1 ( vr_43 . vr_44 ( vr_53 , lr_9 ) ) ; MST[NonVoidMethodCallMutator]MSP[] }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( iterator . hasNext () ) { MST[rv.ROR4Mutator]MSP[] vr_79 . vr_81 ( vr_80 ) ;
+stringBuilder . append ( vr_91 ) ; MST[NonVoidMethodCallMutator]MSP[] } if ( stringBuilder . length () > vr_92 . length () ) {
+return vr_55 . fn_26 ( iterator ) ; MST[NonVoidMethodCallMutator]MSP[] }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR5Mutator]MSP[]
+return iterator == null || ! iterator . hasNext () ; MST[rv.CRCR3Mutator]MSP[] }
+vr_43 . vr_44 ( vr_41 , lr_3 ) ; vr_43 . vr_44 ( vr_91 , lr_16 ) ; MST[NonVoidMethodCallMutator]MSP[]
+if ( vr_71 instanceof Iterator ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] return ( Iterator < ? > ) vr_71 ; } if ( vr_71 instanceof vr_64 ) {
+return new vr_57 <> ( vr_58 , vr_59 , vr_60 ) ; MST[NullReturnValsMutator]MSP[] }
+public static < vt_1 > vt_1 get ( final Iterator < vt_1 > iterator , final int vr_83 ) { int vr_86 = vr_83 ; MST[rv.UOI4Mutator]MSP[]
+vr_43 . vr_44 ( iterator , lr_2 ) ; if ( vr_69 < 1 ) { MST[rv.CRCR6Mutator]MSP[] throw new IllegalArgumentException ( lr_13 ) ; }
+return stringBuilder . toString () ; MST[NonVoidMethodCallMutator]MSP[] }
+} else { return vr_80 ; MST[ReturnValsMutator]MSP[] } } } return null ; }
+return iterator == null || ! iterator . hasNext () ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; return new vr_66 <> ( iterator ) ; MST[NullReturnValsMutator]MSP[] }
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[rv.CRCR4Mutator]MSP[] }
+return list . toArray ( array ) ; MST[NonVoidMethodCallMutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; if ( vr_69 < 1 ) { MST[rv.ROR3Mutator]MSP[] throw new IllegalArgumentException ( lr_13 ) ; }
+public static < vt_1 > vr_1 < vt_1 > fn_1 () { return vr_2 . <vt_1 > fn_2 () ; MST[NonVoidMethodCallMutator]MSP[] }
+final List < vt_1 > list = new ArrayList <> ( vr_69 ) ; while ( iterator . hasNext () ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+public static int size ( final Iterator < ? > iterator ) { int size = 0 ; MST[rv.CRCR5Mutator]MSP[] if ( iterator != null ) {
+return new vr_15 <> ( array , vr_16 ) ; MST[rv.UOI2Mutator]MSP[] }
+return new vr_56 <> ( iterator , vr_22 ) ; MST[rv.ABSMutator]MSP[] }
+return vr_23 . fn_13 ( iterator ) ; MST[NullReturnValsMutator]MSP[] }
+if ( vr_47 . vr_82 ( vr_80 ) ) { return vr_83 ; } } } return - 1 ; MST[rv.CRCR1Mutator]MSP[] }
+final vr_33 < vt_1 > vr_35 = MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] vr_34 == null ? vr_36 . vr_37 : ( vr_33 < vt_1 > ) vr_34 ;
+return new vr_19 <> ( array , vr_16 ) ; MST[NullReturnValsMutator]MSP[] }
+throw new fn_45 ( lr_15 + vr_86 ) ; MST[ConstructorCallMutator]MSP[] }
+public static tp_1 fn_24 ( final tp_2 vr_52 ) { return new tp_1 ( vr_43 . vr_44 ( vr_52 , lr_8 ) ) ; MST[ReturnValsMutator]MSP[] }
+return new vr_15 <> ( array , vr_16 , vr_17 ) ; MST[ConstructorCallMutator]MSP[] }
+} else if ( vr_71 . getClass () . fn_38 () ) { MST[rv.ROR3Mutator]MSP[] return new vr_15 <> ( vr_71 ) ; } try {
+return stringBuilder . toString () ; MST[EmptyObjectReturnValsMutator]MSP[] }
+return new vr_61 <> ( ( ( vl_2 < ? , ? > ) vr_71 ) . fn_37 () ) ; MST[NullReturnValsMutator]MSP[]
+return new vr_61 <> ( ( Enumeration < ? > ) vr_71 ) ; } if ( vr_71 instanceof vl_1 ) { MST[rv.ROR1Mutator]MSP[]
+public static tp_1 fn_24 ( final tp_3 vr_53 ) { return new tp_1 ( vr_43 . vr_44 ( vr_53 , lr_9 ) ) ; MST[ConstructorCallMutator]MSP[] }
+final List < vt_1 > list = fn_34 ( iterator , 100 ) ; MST[rv.CRCR2Mutator]MSP[] @SuppressWarnings ( lr_1 )
+return new tp_1 ( ( tp_3 ) vr_71 ) ; } if ( vr_71 instanceof vl_2 ) { MST[rv.ROR4Mutator]MSP[]
+return new vr_14 <> ( array , vr_16 ) ; MST[rv.UOI2Mutator]MSP[] }
+stringBuilder . vr_95 ( stringBuilder . length () - vr_91 . length () ) ; MST[rv.AOR4Mutator]MSP[] } } stringBuilder . append ( vr_93 ) ;
+return new vr_19 <> ( array , vr_16 , vr_17 ) ; MST[ConstructorCallMutator]MSP[] }
+return fn_34 ( iterator , 10 ) ; MST[EmptyObjectReturnValsMutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; return new vr_66 <> ( iterator ) ; MST[ReturnValsMutator]MSP[] }
+final List < vt_1 > list = new ArrayList <> ( vr_69 ) ; while ( iterator . hasNext () ) { MST[rv.ROR5Mutator]MSP[]
+vr_43 . vr_44 ( iterator , lr_2 ) ; if ( vr_69 < 1 ) { MST[rv.CRCR3Mutator]MSP[] throw new IllegalArgumentException ( lr_13 ) ; }
+return new vr_31 <> ( vr_32 ) ; MST[NullReturnValsMutator]MSP[] }
+final Collection < Iterator < ? extends vt_1 > > vr_32 ) { @SuppressWarnings ( lr_1 ) final vr_33 < vt_1 > vr_35 = MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+return new vr_18 <> ( array , vr_16 ) ; MST[rv.UOI4Mutator]MSP[] }
+return new vr_15 <> ( array , vr_16 ) ; MST[rv.ABSMutator]MSP[] }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; MST[ArgumentPropagationMutator]MSP[] if ( iterator != null ) { while ( iterator . hasNext () ) {
+final Collection < Iterator < ? extends vt_1 > > vr_32 ) { @SuppressWarnings ( lr_1 ) final vr_33 < vt_1 > vr_35 = MST[rv.ROR5Mutator]MSP[]
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[NegateConditionalsMutator]MSP[]
+public static < vt_1 > vr_1 < vt_1 > fn_8 ( final vt_1 object ) { return new vr_11 <> ( object ) ; MST[NullReturnValsMutator]MSP[] }
+public static tp_1 fn_24 ( final tp_2 vr_52 ) { return new tp_1 ( vr_43 . vr_44 ( vr_52 , lr_8 ) ) ; MST[NullReturnValsMutator]MSP[] }
+return new vr_18 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI4Mutator]MSP[] }
+if ( vr_71 instanceof tp_2 ) { return new tp_1 ( ( tp_2 ) vr_71 ) ; } if ( vr_71 instanceof tp_3 ) { MST[NegateConditionalsMutator]MSP[]
+if ( vr_86 == - 1 ) { MST[rv.UOI4Mutator]MSP[] return iterator . vr_70 () ; } iterator . vr_70 () ; }
+if ( vr_71 instanceof Iterator ) { return ( Iterator < ? > ) vr_71 ; } if ( vr_71 instanceof vr_64 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[]
+stringBuilder . vr_95 ( stringBuilder . length () - vr_91 . length () ) ; MST[MathMutator]MSP[] } } stringBuilder . append ( vr_93 ) ;
+final List < vt_1 > list = new ArrayList <> ( vr_69 ) ; MST[rv.UOI1Mutator]MSP[] while ( iterator . hasNext () ) {
+if ( vr_71 instanceof Iterator ) { return ( Iterator < ? > ) vr_71 ; } if ( vr_71 instanceof vr_64 ) { MST[rv.ROR3Mutator]MSP[]
+final StringBuilder stringBuilder = new StringBuilder ( vr_92 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR2Mutator]MSP[]
+public static < vt_1 > vr_12 < vt_1 > fn_9 ( final vt_1 object ) { return new vr_13 <> ( object ) ; MST[ConstructorCallMutator]MSP[] }
+return new vr_14 <> ( ( Object [] ) vr_71 ) ; MST[ConstructorCallMutator]MSP[] } if ( vr_71 instanceof Enumeration ) {
+return new vr_19 <> ( array , vr_16 ) ; MST[ConstructorCallMutator]MSP[] }
+vr_87 . vr_88 ( vr_86 ) ; while ( iterator . hasNext () ) { MST[rv.ROR4Mutator]MSP[] vr_86 -- ;
+return new vr_61 <> ( ( ( vl_2 < ? , ? > ) vr_71 ) . fn_37 () ) ; MST[ReturnValsMutator]MSP[]
+return iterator == null || ! iterator . hasNext () ; MST[rv.CRCR6Mutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; return new vr_65 <> ( iterator , true ) ; MST[rv.CRCR2Mutator]MSP[] }
+final vr_46 < ? super vt_1 > vr_47 ) { vr_43 . vr_44 ( iterator , lr_2 ) ; MST[NonVoidMethodCallMutator]MSP[]
+vr_43 . vr_44 ( iterator , lr_2 ) ; return new vr_65 <> ( iterator , true ) ; MST[rv.CRCR5Mutator]MSP[] }
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[rv.CRCR1Mutator]MSP[] }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[NonVoidMethodCallMutator]MSP[]
+stringBuilder . vr_95 ( stringBuilder . length () - vr_91 . length () ) ; MST[VoidMethodCallMutator]MSP[] } } stringBuilder . append ( vr_93 ) ;
+return new vr_15 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI3Mutator]MSP[] }
+return iterator == null || ! iterator . hasNext () ; MST[rv.ROR1Mutator]MSP[] }
+return new vr_51 <> ( vr_43 . vr_44 ( list , lr_7 ) ) ; MST[NullReturnValsMutator]MSP[] }
+if ( vr_47 . vr_82 ( vr_80 ) ) { return vr_83 ; } } } return - 1 ; MST[PrimitiveReturnsMutator]MSP[] }
+vr_87 . vr_88 ( vr_86 ) ; while ( iterator . hasNext () ) { vr_86 -- ; MST[experimental.RemoveIncrementsMutator]MSP[]
+public static < vt_1 > vr_1 < vt_1 > fn_8 ( final vt_1 object ) { return new vr_11 <> ( object ) ; MST[ReturnValsMutator]MSP[] }
+return vr_54 . fn_25 ( iterator ) ; MST[NonVoidMethodCallMutator]MSP[] }
+vr_43 . vr_44 ( vr_41 , lr_3 ) ; MST[ArgumentPropagationMutator]MSP[] vr_43 . vr_44 ( vr_91 , lr_16 ) ;
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[rv.CRCR4Mutator]MSP[] }
+final StringBuilder stringBuilder = new StringBuilder ( vr_92 ) ; if ( iterator != null ) { MST[rv.ROR5Mutator]MSP[] while ( iterator . hasNext () ) {
+return ( ( vr_64 < ? > ) vr_71 ) . iterator () ; } if ( vr_71 instanceof Object [] ) { MST[rv.ROR2Mutator]MSP[]
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[rv.CRCR6Mutator]MSP[] }
+public static < vt_1 > vt_1 fn_46 ( final Iterator < vt_1 > iterator ) { return get ( iterator , 0 ) ; MST[rv.CRCR5Mutator]MSP[] }
+return new tp_1 ( ( tp_3 ) vr_71 ) ; MST[NullReturnValsMutator]MSP[] } if ( vr_71 instanceof vl_2 ) {
+return new vr_14 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI2Mutator]MSP[] }
+return new vr_19 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI3Mutator]MSP[] }
+if ( vr_71 instanceof Iterator ) { MST[rv.ROR5Mutator]MSP[] return ( Iterator < ? > ) vr_71 ; } if ( vr_71 instanceof vr_64 ) {
+if ( vr_86 == - 1 ) { MST[rv.UOI1Mutator]MSP[] return iterator . vr_70 () ; } iterator . vr_70 () ; }
+if ( vr_86 == - 1 ) { MST[rv.ROR1Mutator]MSP[] return iterator . vr_70 () ; } iterator . vr_70 () ; }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] while ( iterator . hasNext () ) {
+stringBuilder . append ( vr_91 ) ; } if ( stringBuilder . length () > vr_92 . length () ) { MST[rv.ROR3Mutator]MSP[]
+return new vr_31 <> ( vr_32 ) ; MST[ConstructorCallMutator]MSP[] }
+return fn_34 ( iterator , 10 ) ; MST[rv.CRCR2Mutator]MSP[] }
+final List < ? > list = fn_34 ( iterator , 100 ) ; MST[rv.CRCR3Mutator]MSP[] return list . toArray () ; }
+public static < vt_1 > vr_5 < vt_1 > fn_5 () { return vr_6 . <vt_1 > fn_5 () ; MST[ReturnValsMutator]MSP[] }
+if ( vr_47 . vr_82 ( vr_80 ) ) { return vr_83 ; } } } return - 1 ; MST[rv.CRCR6Mutator]MSP[] }
+return fn_12 ( iterator , 0 , vr_21 ) ; MST[ReturnValsMutator]MSP[] }
+return iterator == null || ! iterator . hasNext () ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] }
+while ( iterator . hasNext () ) { MST[rv.ROR4Mutator]MSP[] iterator . vr_70 () ; size ++ ; } } return size ; }
+vr_43 . vr_44 ( iterator , lr_2 ) ; if ( vr_69 < 1 ) { MST[rv.UOI1Mutator]MSP[] throw new IllegalArgumentException ( lr_13 ) ; }
+return vr_8 . <vt_2 , vt_3 > fn_6 () ; MST[NullReturnValsMutator]MSP[] }
+return new vr_50 <> ( vr_43 . vr_44 ( collection , lr_6 ) ) ; MST[ConstructorCallMutator]MSP[] }
+while ( iterator . hasNext () ) { iterator . vr_70 () ; size ++ ; MST[experimental.RemoveIncrementsMutator]MSP[] } } return size ; }
+return new vr_14 <> ( ( Object [] ) vr_71 ) ; } if ( vr_71 instanceof Enumeration ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+return new vr_19 <> ( array , vr_16 , vr_17 ) ; MST[rv.ABSMutator]MSP[] }
+return vr_54 . fn_25 ( iterator ) ; MST[NullReturnValsMutator]MSP[] }
+return new vr_19 <> ( array , vr_16 ) ; MST[ReturnValsMutator]MSP[] }
+return new vr_56 <> ( iterator , vr_22 ) ; MST[ReturnValsMutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; MST[ArgumentPropagationMutator]MSP[] return new vr_65 <> ( iterator , true ) ; }
+final long vr_22 , final long vr_21 ) { return new vr_20 <> ( iterator , vr_22 , vr_21 ) ; MST[rv.UOI1Mutator]MSP[] }
+while ( iterator . hasNext () ) { iterator . vr_70 () ; size ++ ; } } return size ; MST[rv.UOI2Mutator]MSP[] }
+final tp_4 vr_72 = vr_71 . getClass () . fn_39 ( lr_2 , ( Class [] ) null ) ; MST[NonVoidMethodCallMutator]MSP[]
+public static tp_1 fn_24 ( final tp_3 vr_53 ) { return new tp_1 ( vr_43 . vr_44 ( vr_53 , lr_9 ) ) ; MST[ArgumentPropagationMutator]MSP[] }
+return new vr_57 <> ( vr_58 , vr_59 , vr_60 ) ; MST[ConstructorCallMutator]MSP[] }
+return new vr_61 <> ( vr_43 . vr_44 ( enumeration , lr_10 ) ) ; MST[ConstructorCallMutator]MSP[] }
+if ( vr_86 == - 1 ) { MST[rv.ROR3Mutator]MSP[] return iterator . vr_70 () ; } iterator . vr_70 () ; }
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[]
+return new vr_14 <> ( ( Object [] ) vr_71 ) ; MST[NullReturnValsMutator]MSP[] } if ( vr_71 instanceof Enumeration ) {
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR2Mutator]MSP[]
+final Iterator < ? extends vt_1 > vr_59 ) { return new vr_57 <> ( vr_58 , vr_59 ) ; MST[ReturnValsMutator]MSP[] }
+return new vr_63 <> ( vr_43 . vr_44 ( iterator , lr_2 ) ) ; MST[ArgumentPropagationMutator]MSP[] }
+} else if ( vr_71 . getClass () . fn_38 () ) { MST[NegateConditionalsMutator]MSP[] return new vr_15 <> ( vr_71 ) ; } try {
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[rv.CRCR1Mutator]MSP[] }
+final vt_1 vr_80 = iterator . vr_70 () ; stringBuilder . append ( vr_41 . vr_94 ( vr_80 ) ) ; MST[ArgumentPropagationMutator]MSP[]
+} else if ( vr_71 . getClass () . fn_38 () ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] return new vr_15 <> ( vr_71 ) ; } try {
+if ( vr_86 == - 1 ) { MST[rv.CRCR6Mutator]MSP[] return iterator . vr_70 () ; } iterator . vr_70 () ; }
+vr_43 . vr_44 ( iterator , lr_2 ) ; return new vr_65 <> ( iterator , false ) ; MST[rv.CRCR1Mutator]MSP[] }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( ! vr_47 . vr_82 ( vr_80 ) ) { MST[rv.ROR4Mutator]MSP[] return false ; } }
+} return true ; MST[InlineConstantMutator]MSP[] } public static boolean isEmpty ( final Iterator < ? > iterator ) {
+return new vr_57 <> ( vr_58 , vr_59 , vr_60 ) ; MST[ReturnValsMutator]MSP[] }
+public static tp_1 fn_24 ( final tp_2 vr_52 ) { return new tp_1 ( vr_43 . vr_44 ( vr_52 , lr_8 ) ) ; MST[ConstructorCallMutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; return new vr_65 <> ( iterator , false ) ; MST[ReturnValsMutator]MSP[] }
+final List < vt_1 > list = new ArrayList <> ( vr_69 ) ; MST[ConstructorCallMutator]MSP[] while ( iterator . hasNext () ) {
+if ( vr_71 instanceof tp_2 ) { return new tp_1 ( ( tp_2 ) vr_71 ) ; } if ( vr_71 instanceof tp_3 ) { MST[rv.ROR5Mutator]MSP[]
+return new vr_18 <> ( array , vr_16 ) ; MST[rv.UOI1Mutator]MSP[] }
+final List < vt_1 > list = new ArrayList <> ( vr_69 ) ; while ( iterator . hasNext () ) { MST[NonVoidMethodCallMutator]MSP[]
+return new vr_14 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI1Mutator]MSP[] }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] while ( iterator . hasNext () ) {
+return fn_34 ( iterator , 10 ) ; MST[rv.CRCR4Mutator]MSP[] }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[]
+return ( ( vl_1 < ? , ? > ) vr_71 ) . fn_36 () . iterator () ; MST[NonVoidMethodCallMutator]MSP[] }
+if ( vr_71 instanceof Iterator ) { return ( Iterator < ? > ) vr_71 ; } if ( vr_71 instanceof vr_64 ) { MST[NegateConditionalsMutator]MSP[]
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[NonVoidMethodCallMutator]MSP[]
+} return true ; MST[rv.CRCR2Mutator]MSP[] } public static boolean isEmpty ( final Iterator < ? > iterator ) {
+final vt_1 vr_80 = iterator . vr_70 () ; if ( vr_47 . vr_82 ( vr_80 ) ) { MST[rv.ROR4Mutator]MSP[] return vr_80 ; } } }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( vr_47 . vr_82 ( vr_80 ) ) { MST[rv.ROR3Mutator]MSP[] return vr_80 ; } } }
+return new vr_19 <> ( array , vr_16 ) ; MST[rv.UOI3Mutator]MSP[] }
+for ( int vr_83 = 0 ; iterator . hasNext () ; vr_83 ++ ) { MST[rv.CRCR1Mutator]MSP[] final vt_1 vr_80 = iterator . vr_70 () ;
+return new vr_14 <> ( ( Object [] ) vr_71 ) ; MST[ReturnValsMutator]MSP[] } if ( vr_71 instanceof Enumeration ) {
+return new vr_19 <> ( array , vr_16 , vr_17 ) ; MST[ReturnValsMutator]MSP[] }
+stringBuilder . vr_95 ( stringBuilder . length () - vr_91 . length () ) ; } } stringBuilder . append ( vr_93 ) ; MST[experimental.NakedReceiverMutator]MSP[]
+public static < vt_1 > vr_1 < vt_1 > fn_10 ( final vt_1 ... array ) { return new vr_14 <> ( array ) ; MST[NullReturnValsMutator]MSP[]
+final StringBuilder stringBuilder = new StringBuilder ( vr_92 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+stringBuilder . vr_95 ( stringBuilder . length () - vr_91 . length () ) ; MST[NonVoidMethodCallMutator]MSP[] } } stringBuilder . append ( vr_93 ) ;
+if ( vr_47 . vr_82 ( vr_80 ) ) { MST[rv.ROR2Mutator]MSP[] return vr_83 ; } } } return - 1 ; }
+} else if ( vr_71 . getClass () . fn_38 () ) { MST[rv.ROR5Mutator]MSP[] return new vr_15 <> ( vr_71 ) ; } try {
+throw new fn_45 ( lr_15 + vr_86 ) ; MST[rv.UOI3Mutator]MSP[] }
+return new vr_15 <> ( array , vr_16 , vr_17 ) ; MST[NullReturnValsMutator]MSP[] }
+return fn_12 ( iterator , 0 , vr_21 ) ; MST[rv.CRCR5Mutator]MSP[] }
+final List < ? > list = fn_34 ( iterator , 100 ) ; return list . toArray () ; MST[ReturnValsMutator]MSP[] }
+public static tp_1 fn_24 ( final tp_3 vr_53 ) { return new tp_1 ( vr_43 . vr_44 ( vr_53 , lr_9 ) ) ; MST[NullReturnValsMutator]MSP[] }
+return new vr_14 <> ( array , vr_16 ) ; MST[rv.UOI4Mutator]MSP[] }
+stringBuilder . vr_95 ( stringBuilder . length () - vr_91 . length () ) ; MST[rv.AOR2Mutator]MSP[] } } stringBuilder . append ( vr_93 ) ;
+throw new fn_45 ( lr_15 + vr_86 ) ; MST[NonVoidMethodCallMutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; MST[ArgumentPropagationMutator]MSP[] vr_43 . vr_44 ( vr_67 , lr_12 ) ;
+return new vr_61 <> ( vr_43 . vr_44 ( enumeration , lr_10 ) ) ; MST[ReturnValsMutator]MSP[] }
+final Iterator < ? extends vt_1 > vr_30 ) { return new vr_31 <> ( vr_29 , vr_30 ) ; MST[ReturnValsMutator]MSP[] }
+for ( int vr_83 = 0 ; iterator . hasNext () ; vr_83 ++ ) { MST[rv.CRCR6Mutator]MSP[] final vt_1 vr_80 = iterator . vr_70 () ;
+public static < vt_1 > vr_1 < vt_1 > fn_10 ( final vt_1 ... array ) { return new vr_14 <> ( array ) ; MST[ReturnValsMutator]MSP[]
+public static Iterator < ? > fn_35 ( final Object vr_71 ) { if ( vr_71 == null ) { return fn_1 () ; MST[NonVoidMethodCallMutator]MSP[] }
+if ( vr_71 instanceof Iterator ) { return ( Iterator < ? > ) vr_71 ; } if ( vr_71 instanceof vr_64 ) { MST[rv.ROR5Mutator]MSP[]
+final vr_40 < ? super vt_1 , ? extends vt_1 > vr_41 ) { return new vr_42 <> ( vr_39 , vr_41 ) ; MST[NullReturnValsMutator]MSP[] }
+return ( ( vr_64 < ? > ) vr_71 ) . iterator () ; MST[NullReturnValsMutator]MSP[] } if ( vr_71 instanceof Object [] ) {
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+return fn_34 ( iterator , 10 ) ; MST[InlineConstantMutator]MSP[] }
+final List < ? > list = fn_34 ( iterator , 100 ) ; return list . toArray () ; MST[NullReturnValsMutator]MSP[] }
+return new vr_18 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI3Mutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; return new vr_65 <> ( iterator , true ) ; MST[ConstructorCallMutator]MSP[] }
+return iterator == null || ! iterator . hasNext () ; MST[rv.CRCR1Mutator]MSP[] }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; MST[NonVoidMethodCallMutator]MSP[] if ( iterator != null ) { while ( iterator . hasNext () ) {
+return iterator == null || ! iterator . hasNext () ; MST[rv.CRCR6Mutator]MSP[] }
+vr_87 . vr_88 ( vr_86 ) ; while ( iterator . hasNext () ) { vr_86 -- ; MST[IncrementsMutator]MSP[]
+return new vr_19 <> ( array , vr_16 , vr_17 ) ; MST[NullReturnValsMutator]MSP[] }
+if ( vr_47 . vr_82 ( vr_80 ) ) { return vr_83 ; MST[rv.UOI1Mutator]MSP[] } } } return - 1 ; }
+return new vr_14 <> ( array , vr_16 ) ; MST[rv.ABSMutator]MSP[] }
+return iterator == null || ! iterator . hasNext () ; MST[NonVoidMethodCallMutator]MSP[] }
+return fn_34 ( iterator , 10 ) ; MST[NonVoidMethodCallMutator]MSP[] }
+final Collection < Iterator < ? extends vt_1 > > vr_32 ) { @SuppressWarnings ( lr_1 ) final vr_33 < vt_1 > vr_35 = MST[NegateConditionalsMutator]MSP[]
+final vt_1 vr_80 = iterator . vr_70 () ; if ( iterator . hasNext () ) { MST[rv.ROR1Mutator]MSP[] vr_79 . vr_81 ( vr_80 ) ;
+return new vr_15 <> ( array , vr_16 , vr_17 ) ; MST[rv.ABSMutator]MSP[] }
+if ( vr_86 == - 1 ) { MST[rv.CRCR1Mutator]MSP[] return iterator . vr_70 () ; } iterator . vr_70 () ; }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( ! vr_47 . vr_82 ( vr_80 ) ) { return false ; MST[BooleanTrueReturnValsMutator]MSP[] } }
+vr_43 . vr_44 ( iterator , lr_2 ) ; return new vr_65 <> ( iterator , false ) ; MST[rv.CRCR6Mutator]MSP[] }
+final vr_40 < ? super vt_1 , ? extends vt_1 > vr_41 ) { return new vr_42 <> ( vr_39 , vr_41 ) ; MST[ReturnValsMutator]MSP[] }
+return new vr_56 <> ( iterator , vr_22 ) ; MST[NullReturnValsMutator]MSP[] }
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[rv.CRCR6Mutator]MSP[] }
+return iterator == null || ! iterator . hasNext () ; MST[NegateConditionalsMutator]MSP[] }
+for ( int vr_83 = 0 ; iterator . hasNext () ; vr_83 ++ ) { MST[rv.ROR4Mutator]MSP[] final vt_1 vr_80 = iterator . vr_70 () ;
+return new vr_14 <> ( array , vr_16 ) ; MST[ReturnValsMutator]MSP[] }
+if ( vr_71 instanceof tp_2 ) { MST[rv.ROR1Mutator]MSP[] return new tp_1 ( ( tp_2 ) vr_71 ) ; } if ( vr_71 instanceof tp_3 ) {
+final Iterator < ? extends vt_1 > vr_30 ) { return new vr_31 <> ( vr_29 , vr_30 ) ; MST[NullReturnValsMutator]MSP[] }
+return ( ( vr_64 < ? > ) vr_71 ) . iterator () ; } if ( vr_71 instanceof Object [] ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+return new vr_61 <> ( ( ( vl_2 < ? , ? > ) vr_71 ) . fn_37 () ) ; MST[ConstructorCallMutator]MSP[]
+return new vr_19 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI4Mutator]MSP[] }
+return new vr_51 <> ( vr_43 . vr_44 ( list , lr_7 ) ) ; MST[NonVoidMethodCallMutator]MSP[] }
+return new vr_61 <> ( vr_43 . vr_44 ( enumeration , lr_10 ) ) ; MST[NullReturnValsMutator]MSP[] }
+return ( ( vr_64 < ? > ) vr_71 ) . iterator () ; MST[ReturnValsMutator]MSP[] } if ( vr_71 instanceof Object [] ) {
+return new vr_57 <> ( vr_32 ) ; MST[NullReturnValsMutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; MST[NonVoidMethodCallMutator]MSP[] return new vr_65 <> ( iterator , false ) ; }
+if ( vr_71 instanceof tp_2 ) { return new tp_1 ( ( tp_2 ) vr_71 ) ; } if ( vr_71 instanceof tp_3 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[]
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR1Mutator]MSP[]
+final List < vt_1 > list = new ArrayList <> ( vr_69 ) ; while ( iterator . hasNext () ) { MST[NegateConditionalsMutator]MSP[]
+stringBuilder . append ( vr_91 ) ; } if ( stringBuilder . length () > vr_92 . length () ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[]
+return vr_28 . fn_15 ( vr_27 ) ; MST[ArgumentPropagationMutator]MSP[] }
+return new vr_61 <> ( ( ( vl_2 < ? , ? > ) vr_71 ) . fn_37 () ) ; MST[NonVoidMethodCallMutator]MSP[]
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( vr_47 . vr_82 ( vr_80 ) ) { MST[NonVoidMethodCallMutator]MSP[] return vr_80 ; } } }
+vr_43 . vr_44 ( iterator , lr_2 ) ; if ( vr_69 < 1 ) { MST[rv.UOI4Mutator]MSP[] throw new IllegalArgumentException ( lr_13 ) ; }
+return new vr_31 <> ( vr_32 ) ; MST[NullReturnValsMutator]MSP[] }
+return ( ( vl_1 < ? , ? > ) vr_71 ) . fn_36 () . iterator () ; MST[NullReturnValsMutator]MSP[] }
+return new vr_15 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI4Mutator]MSP[] }
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[InlineConstantMutator]MSP[] }
+while ( iterator . hasNext () ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] iterator . vr_70 () ; size ++ ; } } return size ; }
+return new tp_1 ( ( tp_3 ) vr_71 ) ; MST[ConstructorCallMutator]MSP[] } if ( vr_71 instanceof vl_2 ) {
+final vr_33 < vt_1 > vr_35 = MST[NegateConditionalsMutator]MSP[] vr_34 == null ? vr_36 . vr_37 : ( vr_33 < vt_1 > ) vr_34 ;
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR5Mutator]MSP[]
+final long vr_22 , final long vr_21 ) { return new vr_20 <> ( iterator , vr_22 , vr_21 ) ; MST[rv.UOI2Mutator]MSP[] }
+final long vr_22 , final long vr_21 ) { return new vr_20 <> ( iterator , vr_22 , vr_21 ) ; MST[rv.ABSMutator]MSP[] }
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; return new vr_49 <> ( vr_24 , vr_47 ) ; MST[ConstructorCallMutator]MSP[] }
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[rv.ROR3Mutator]MSP[] }
+return new vr_57 <> ( vr_32 ) ; MST[ReturnValsMutator]MSP[] }
+return fn_34 ( iterator , 10 ) ; MST[rv.CRCR5Mutator]MSP[] }
+return new vr_14 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI4Mutator]MSP[] }
+final Iterator < ? extends vt_1 > vr_30 ) { return new vr_31 <> ( vr_29 , vr_30 ) ; MST[ConstructorCallMutator]MSP[] }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[NonVoidMethodCallMutator]MSP[]
+vr_87 . vr_88 ( vr_86 ) ; while ( iterator . hasNext () ) { MST[rv.ROR2Mutator]MSP[] vr_86 -- ;
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR1Mutator]MSP[]
+return new vr_18 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI2Mutator]MSP[] }
+return fn_34 ( iterator , 10 ) ; MST[ReturnValsMutator]MSP[] }
+return iterator == null || ! iterator . hasNext () ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] }
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[]
+public static < vt_1 > vt_1 fn_46 ( final Iterator < vt_1 > iterator ) { return get ( iterator , 0 ) ; MST[NonVoidMethodCallMutator]MSP[] }
+public static < vt_1 > vr_5 < vt_1 > fn_5 () { return vr_6 . <vt_1 > fn_5 () ; MST[NullReturnValsMutator]MSP[] }
+} public static < vt_1 > vr_1 < vt_1 > fn_10 ( final Object array ) { return new vr_15 <> ( array ) ; MST[ReturnValsMutator]MSP[]
+return fn_12 ( iterator , 0 , vr_21 ) ; MST[rv.UOI4Mutator]MSP[] }
+final vt_1 vr_80 = iterator . vr_70 () ; MST[NonVoidMethodCallMutator]MSP[] if ( ! vr_47 . vr_82 ( vr_80 ) ) { return false ; } }
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[rv.CRCR6Mutator]MSP[] }
+return ( ( vr_64 < ? > ) vr_71 ) . iterator () ; } if ( vr_71 instanceof Object [] ) { MST[NegateConditionalsMutator]MSP[]
+if ( vr_71 instanceof Iterator ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] return ( Iterator < ? > ) vr_71 ; } if ( vr_71 instanceof vr_64 ) {
+final Iterator < ? extends vt_1 > vr_59 ) { return new vr_57 <> ( vr_58 , vr_59 ) ; MST[NullReturnValsMutator]MSP[] }
+return vr_54 . fn_25 ( iterator ) ; MST[ReturnValsMutator]MSP[] }
+if ( vr_71 instanceof Iterator ) { MST[rv.ROR3Mutator]MSP[] return ( Iterator < ? > ) vr_71 ; } if ( vr_71 instanceof vr_64 ) {
+final vt_1 [] array = ( vt_1 [] ) Array . vr_68 ( vr_67 , list . size () ) ; MST[NonVoidMethodCallMutator]MSP[]
+return new vr_19 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI1Mutator]MSP[] }
+public static < vt_1 > vt_1 fn_46 ( final Iterator < vt_1 > iterator ) { return get ( iterator , 0 ) ; MST[InlineConstantMutator]MSP[] }
+final List < vt_1 > list = new ArrayList <> ( vr_69 ) ; MST[rv.UOI4Mutator]MSP[] while ( iterator . hasNext () ) {
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR3Mutator]MSP[]
+final vt_1 vr_80 = iterator . vr_70 () ; if ( ! vr_47 . vr_82 ( vr_80 ) ) { return false ; MST[ReturnValsMutator]MSP[] } }
+return new vr_18 <> ( array , vr_16 , vr_17 ) ; MST[rv.ABSMutator]MSP[] }
+return new vr_19 <> ( array , vr_16 ) ; MST[rv.UOI2Mutator]MSP[] }
+return new vr_50 <> ( vr_43 . vr_44 ( collection , lr_6 ) ) ; MST[ArgumentPropagationMutator]MSP[] }
+} else if ( vr_71 . getClass () . fn_38 () ) { MST[rv.ROR1Mutator]MSP[] return new vr_15 <> ( vr_71 ) ; } try {
+throw new fn_45 ( lr_15 + vr_86 ) ; MST[rv.UOI4Mutator]MSP[] }
+return new vr_14 <> ( array , vr_16 , vr_17 ) ; MST[NullReturnValsMutator]MSP[] }
+return new vr_61 <> ( ( Enumeration < ? > ) vr_71 ) ; } if ( vr_71 instanceof vl_1 ) { MST[rv.ROR4Mutator]MSP[]
+if ( vr_47 . vr_82 ( vr_80 ) ) { MST[rv.ROR4Mutator]MSP[] return vr_83 ; } } } return - 1 ; }
+throw new fn_45 ( lr_15 + vr_86 ) ; MST[rv.UOI1Mutator]MSP[] }
+} else { return vr_80 ; } } } return null ; MST[ReturnValsMutator]MSP[] }
+for ( int vr_83 = 0 ; iterator . hasNext () ; vr_83 ++ ) { MST[rv.CRCR3Mutator]MSP[] final vt_1 vr_80 = iterator . vr_70 () ;
+stringBuilder . vr_95 ( stringBuilder . length () - vr_91 . length () ) ; MST[rv.AOR1Mutator]MSP[] } } stringBuilder . append ( vr_93 ) ;
+public static < vt_1 > vr_1 < vt_1 > fn_1 () { return vr_2 . <vt_1 > fn_2 () ; MST[NullReturnValsMutator]MSP[] }
+public static < vt_1 > vr_1 < vt_1 > fn_10 ( final vt_1 ... array ) { return new vr_14 <> ( array ) ; MST[ConstructorCallMutator]MSP[]
+} return true ; MST[BooleanFalseReturnValsMutator]MSP[] } public static boolean isEmpty ( final Iterator < ? > iterator ) {
+if ( vr_47 . vr_82 ( vr_80 ) ) { MST[rv.ROR1Mutator]MSP[] return vr_83 ; } } } return - 1 ; }
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; return new vr_48 <> ( iterator , vr_47 ) ; MST[NullReturnValsMutator]MSP[] }
+final Iterator < ? extends vt_1 > ... vr_32 ) { @SuppressWarnings ( lr_1 ) final vr_33 < vt_1 > vr_35 = MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+return ( ( vr_64 < ? > ) vr_71 ) . iterator () ; } if ( vr_71 instanceof Object [] ) { MST[rv.ROR5Mutator]MSP[]
+if ( vr_47 . vr_82 ( vr_80 ) ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] return vr_83 ; } } } return - 1 ; }
+final StringBuilder stringBuilder = new StringBuilder ( vr_92 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR4Mutator]MSP[]
+if ( vr_71 instanceof Iterator ) { return ( Iterator < ? > ) vr_71 ; } if ( vr_71 instanceof vr_64 ) { MST[rv.ROR1Mutator]MSP[]
+final vt_1 vr_80 = iterator . vr_70 () ; if ( ! vr_47 . vr_82 ( vr_80 ) ) { MST[rv.ROR1Mutator]MSP[] return false ; } }
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[rv.CRCR3Mutator]MSP[] }
+return new vr_18 <> ( array , vr_16 ) ; MST[rv.UOI2Mutator]MSP[] }
+if ( vr_71 instanceof tp_2 ) { MST[rv.ROR2Mutator]MSP[] return new tp_1 ( ( tp_2 ) vr_71 ) ; } if ( vr_71 instanceof tp_3 ) {
+list . add ( iterator . vr_70 () ) ; } return list ; MST[ReturnValsMutator]MSP[] }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] while ( iterator . hasNext () ) {
+final List < vt_1 > list = new ArrayList <> ( vr_69 ) ; while ( iterator . hasNext () ) { MST[rv.ROR3Mutator]MSP[]
+return new tp_1 ( ( tp_3 ) vr_71 ) ; } if ( vr_71 instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+} return true ; MST[rv.CRCR4Mutator]MSP[] } public static boolean isEmpty ( final Iterator < ? > iterator ) {
+return new vr_15 <> ( array , vr_16 ) ; MST[NullReturnValsMutator]MSP[] }
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; MST[NonVoidMethodCallMutator]MSP[] if ( iterator != null ) { while ( iterator . hasNext () ) {
+final vt_1 vr_80 = iterator . vr_70 () ; if ( iterator . hasNext () ) { MST[rv.ROR5Mutator]MSP[] vr_79 . vr_81 ( vr_80 ) ;
+final vr_40 < ? super vt_1 , ? extends vt_1 > vr_41 ) { return new vr_42 <> ( vr_39 , vr_41 ) ; MST[ConstructorCallMutator]MSP[] }
+if ( vr_86 == - 1 ) { MST[rv.ROR4Mutator]MSP[] return iterator . vr_70 () ; } iterator . vr_70 () ; }
+vr_43 . vr_44 ( iterator , lr_2 ) ; MST[NonVoidMethodCallMutator]MSP[] vr_43 . vr_44 ( vr_67 , lr_12 ) ;
+return new vr_56 <> ( iterator , vr_22 ) ; MST[rv.UOI3Mutator]MSP[] }
+return new vr_61 <> ( ( Enumeration < ? > ) vr_71 ) ; MST[NullReturnValsMutator]MSP[] } if ( vr_71 instanceof vl_1 ) {
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR4Mutator]MSP[]
+return vr_23 . fn_13 ( iterator ) ; MST[NonVoidMethodCallMutator]MSP[] }
+stringBuilder . append ( vr_91 ) ; } if ( stringBuilder . length () > vr_92 . length () ) { MST[NegateConditionalsMutator]MSP[]
+return vr_55 . fn_26 ( iterator ) ; MST[ReturnValsMutator]MSP[] }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( ! vr_47 . vr_82 ( vr_80 ) ) { return false ; MST[rv.CRCR1Mutator]MSP[] } }
+return iterator == null || ! iterator . hasNext () ; MST[rv.CRCR5Mutator]MSP[] }
+return fn_43 ( iterator , vr_84 . vr_85 ( object ) ) ; MST[ReturnValsMutator]MSP[] }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR2Mutator]MSP[]
+public static Object [] toArray ( final Iterator < ? > iterator ) { vr_43 . vr_44 ( iterator , lr_2 ) ; MST[NonVoidMethodCallMutator]MSP[]
+list . add ( iterator . vr_70 () ) ; MST[NonVoidMethodCallMutator]MSP[] } return list ; }
+return new vr_14 <> ( ( Object [] ) vr_71 ) ; } if ( vr_71 instanceof Enumeration ) { MST[NegateConditionalsMutator]MSP[]
+return new vr_38 <> ( vr_35 , vr_32 ) ; MST[ConstructorCallMutator]MSP[] }
+public static int size ( final Iterator < ? > iterator ) { int size = 0 ; if ( iterator != null ) { MST[NegateConditionalsMutator]MSP[]
+vr_43 . vr_44 ( iterator , lr_2 ) ; if ( vr_69 < 1 ) { MST[rv.ROR1Mutator]MSP[] throw new IllegalArgumentException ( lr_13 ) ; }
+return vr_28 . fn_15 ( vr_27 ) ; MST[NullReturnValsMutator]MSP[] }
+vr_87 . vr_88 ( vr_86 ) ; MST[VoidMethodCallMutator]MSP[] while ( iterator . hasNext () ) { vr_86 -- ;
+return toString ( iterator , vr_89 . vr_90 () , MST[NonVoidMethodCallMutator]MSP[] vl_3 , vl_4 , vl_5 ) ; }
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[NegateConditionalsMutator]MSP[]
+vr_43 . vr_44 ( vr_92 , lr_17 ) ; MST[NonVoidMethodCallMutator]MSP[] vr_43 . vr_44 ( vr_93 , lr_18 ) ;
+return vr_8 . <vt_2 , vt_3 > fn_6 () ; MST[NonVoidMethodCallMutator]MSP[] }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( ! vr_47 . vr_82 ( vr_80 ) ) { return false ; MST[rv.CRCR6Mutator]MSP[] } }
+return new vr_51 <> ( vr_43 . vr_44 ( list , lr_7 ) ) ; MST[ArgumentPropagationMutator]MSP[] }
+public static < vt_1 > vr_3 < vt_1 > fn_3 () { return vr_4 . <vt_1 > fn_4 () ; MST[NullReturnValsMutator]MSP[] }
+vr_43 . vr_44 ( vr_41 , lr_3 ) ; MST[NonVoidMethodCallMutator]MSP[] return new vr_45 <> ( iterator , vr_41 ) ; }
+vr_43 . vr_44 ( iterator , lr_2 ) ; MST[ArgumentPropagationMutator]MSP[] return new vr_65 <> ( iterator , false ) ; }
+return null ; MST[ReturnValsMutator]MSP[] }
+return fn_8 ( vr_71 ) ; MST[NonVoidMethodCallMutator]MSP[] }
+final List < ? > list = fn_34 ( iterator , 100 ) ; MST[rv.CRCR5Mutator]MSP[] return list . toArray () ; }
+final long vr_22 , final long vr_21 ) { return new vr_20 <> ( iterator , vr_22 , vr_21 ) ; MST[rv.UOI3Mutator]MSP[] }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( iterator . hasNext () ) { MST[NegateConditionalsMutator]MSP[] vr_79 . vr_81 ( vr_80 ) ;
+final List < ? > list = fn_34 ( iterator , 100 ) ; return list . toArray () ; MST[NonVoidMethodCallMutator]MSP[] }
+return new vr_14 <> ( ( Object [] ) vr_71 ) ; } if ( vr_71 instanceof Enumeration ) { MST[rv.ROR5Mutator]MSP[]
+while ( iterator . hasNext () ) { MST[rv.ROR2Mutator]MSP[] iterator . vr_70 () ; size ++ ; } } return size ; }
+return new vr_15 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI1Mutator]MSP[] }
+return new vr_38 <> ( vr_35 , vr_29 , vr_30 ) ; MST[ReturnValsMutator]MSP[] }
+public static tp_1 fn_24 ( final tp_2 vr_52 ) { return new tp_1 ( vr_43 . vr_44 ( vr_52 , lr_8 ) ) ; MST[ArgumentPropagationMutator]MSP[] }
+if ( vr_47 . vr_82 ( vr_80 ) ) { MST[NonVoidMethodCallMutator]MSP[] return vr_83 ; } } } return - 1 ; }
+vr_43 . vr_44 ( iterator , lr_2 ) ; if ( vr_69 < 1 ) { throw new IllegalArgumentException ( lr_13 ) ; MST[ConstructorCallMutator]MSP[] }
+stringBuilder . append ( vr_91 ) ; } if ( stringBuilder . length () > vr_92 . length () ) { MST[rv.ROR5Mutator]MSP[]
+public static Iterator < ? > fn_35 ( final Object vr_71 ) { if ( vr_71 == null ) { return fn_1 () ; MST[ReturnValsMutator]MSP[] }
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] while ( iterator . hasNext () ) {
+final Collection < ? super vt_1 > vr_62 ) { return new vr_61 <> ( vr_43 . vr_44 ( enumeration , lr_10 ) , MST[ReturnValsMutator]MSP[]
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; MST[ArgumentPropagationMutator]MSP[] if ( iterator != null ) { while ( iterator . hasNext () ) {
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[NonVoidMethodCallMutator]MSP[] }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( ! vr_47 . vr_82 ( vr_80 ) ) { return false ; MST[InlineConstantMutator]MSP[] } }
+for ( int vr_83 = 0 ; iterator . hasNext () ; vr_83 ++ ) { MST[rv.ROR1Mutator]MSP[] final vt_1 vr_80 = iterator . vr_70 () ;
+vr_43 . vr_44 ( vr_79 , lr_14 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+final StringBuilder stringBuilder = new StringBuilder ( vr_92 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[NonVoidMethodCallMutator]MSP[]
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; if ( iterator != null ) { MST[NegateConditionalsMutator]MSP[]
+return iterator == null || ! iterator . hasNext () ; MST[rv.CRCR3Mutator]MSP[] }
+return new vr_56 <> ( iterator , vr_22 ) ; MST[rv.UOI1Mutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; return new vr_65 <> ( iterator , true ) ; MST[rv.CRCR3Mutator]MSP[] }
+return iterator == null || ! iterator . hasNext () ; MST[rv.ROR3Mutator]MSP[] }
+} public static < vt_1 > vr_3 < vt_1 > fn_11 ( final Object array ) { return new vr_19 <> ( array ) ; MST[ReturnValsMutator]MSP[]
+for ( int vr_83 = 0 ; iterator . hasNext () ; vr_83 ++ ) { MST[InlineConstantMutator]MSP[] final vt_1 vr_80 = iterator . vr_70 () ;
+if ( vr_47 . vr_82 ( vr_80 ) ) { return vr_83 ; MST[rv.UOI3Mutator]MSP[] } } } return - 1 ; }
+final vt_1 vr_80 = iterator . vr_70 () ; if ( iterator . hasNext () ) { MST[rv.ROR3Mutator]MSP[] vr_79 . vr_81 ( vr_80 ) ;
+vr_87 . vr_88 ( vr_86 ) ; while ( iterator . hasNext () ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] vr_86 -- ;
+return toString ( iterator , vr_89 . vr_90 () , MST[ReturnValsMutator]MSP[] vl_3 , vl_4 , vl_5 ) ; }
+return iterator == null || ! iterator . hasNext () ; MST[InlineConstantMutator]MSP[] }
+final vr_40 < ? super vt_4 , ? extends vt_5 > vr_41 ) { vr_43 . vr_44 ( iterator , lr_2 ) ; MST[NonVoidMethodCallMutator]MSP[]
+while ( iterator . hasNext () ) { iterator . vr_70 () ; size ++ ; } } return size ; MST[rv.ABSMutator]MSP[] }
+vr_43 . vr_44 ( vr_92 , lr_17 ) ; vr_43 . vr_44 ( vr_93 , lr_18 ) ; MST[NonVoidMethodCallMutator]MSP[]
+return fn_43 ( iterator , vr_84 . vr_85 ( object ) ) ; MST[BooleanTrueReturnValsMutator]MSP[] }
+vr_43 . vr_44 ( vr_41 , lr_3 ) ; vr_43 . vr_44 ( vr_91 , lr_16 ) ; MST[ArgumentPropagationMutator]MSP[]
+vr_87 . vr_88 ( vr_86 ) ; MST[rv.UOI4Mutator]MSP[] while ( iterator . hasNext () ) { vr_86 -- ;
+vr_43 . vr_44 ( iterator , lr_2 ) ; return new vr_65 <> ( iterator , true ) ; MST[InlineConstantMutator]MSP[] }
+final StringBuilder stringBuilder = new StringBuilder ( vr_92 ) ; if ( iterator != null ) { while ( iterator . hasNext () ) { MST[rv.ROR1Mutator]MSP[]
+return new vr_19 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI2Mutator]MSP[] }
+return vr_25 . vr_26 ( vr_24 ) ; MST[NullReturnValsMutator]MSP[] }
+public static < vt_1 > vt_1 fn_46 ( final Iterator < vt_1 > iterator ) { return get ( iterator , 0 ) ; MST[rv.CRCR3Mutator]MSP[] }
+return ( ( vr_64 < ? > ) vr_71 ) . iterator () ; } if ( vr_71 instanceof Object [] ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[]
+final vt_1 vr_80 = iterator . vr_70 () ; if ( vr_47 . vr_82 ( vr_80 ) ) { MST[rv.ROR1Mutator]MSP[] return vr_80 ; } } }
+public static < vt_1 > vr_1 < vt_1 > fn_8 ( final vt_1 object ) { return new vr_11 <> ( object ) ; MST[ConstructorCallMutator]MSP[] }
+} return true ; MST[ReturnValsMutator]MSP[] } public static boolean isEmpty ( final Iterator < ? > iterator ) {
+public static int size ( final Iterator < ? > iterator ) { int size = 0 ; if ( iterator != null ) { MST[rv.ROR5Mutator]MSP[]
+return new vr_18 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI1Mutator]MSP[] }
+return fn_12 ( iterator , 0 , vr_21 ) ; MST[NonVoidMethodCallMutator]MSP[] }
+if ( vr_47 . vr_82 ( vr_80 ) ) { return vr_83 ; MST[ReturnValsMutator]MSP[] } } } return - 1 ; }
+vr_43 . vr_44 ( vr_62 , lr_11 ) ) ; MST[NonVoidMethodCallMutator]MSP[] }
+final List < vt_1 > list = fn_34 ( iterator , 100 ) ; MST[rv.CRCR5Mutator]MSP[] @SuppressWarnings ( lr_1 )
+return new tp_1 ( ( tp_3 ) vr_71 ) ; } if ( vr_71 instanceof vl_2 ) { MST[rv.ROR2Mutator]MSP[]
+final vr_40 < ? super vt_1 , String > vr_41 ) { return toString ( iterator , vr_41 , vl_3 , MST[ReturnValsMutator]MSP[]
+if ( vr_47 . vr_82 ( vr_80 ) ) { return vr_83 ; MST[rv.ABSMutator]MSP[] } } } return - 1 ; }
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[InlineConstantMutator]MSP[] }
+return vr_10 . <vt_2 , vt_3 > fn_7 () ; MST[ReturnValsMutator]MSP[] }
+return vr_25 . vr_26 ( vr_24 ) ; MST[ArgumentPropagationMutator]MSP[] }
+return new vr_51 <> ( vr_43 . vr_44 ( list , lr_7 ) ) ; MST[ConstructorCallMutator]MSP[] }
+return fn_43 ( iterator , vr_84 . vr_85 ( object ) ) ; MST[BooleanFalseReturnValsMutator]MSP[] }
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[rv.CRCR5Mutator]MSP[] }
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[rv.CRCR3Mutator]MSP[] }
+stringBuilder . vr_95 ( stringBuilder . length () - vr_91 . length () ) ; } } stringBuilder . append ( vr_93 ) ; MST[NonVoidMethodCallMutator]MSP[]
+public static < vt_1 > vr_12 < vt_1 > fn_9 ( final vt_1 object ) { return new vr_13 <> ( object ) ; MST[ReturnValsMutator]MSP[] }
+if ( vr_86 == - 1 ) { return iterator . vr_70 () ; MST[NullReturnValsMutator]MSP[] } iterator . vr_70 () ; }
+final long vr_22 , final long vr_21 ) { return new vr_20 <> ( iterator , vr_22 , vr_21 ) ; MST[ReturnValsMutator]MSP[] }
+final List < vt_1 > list = new ArrayList <> ( vr_69 ) ; while ( iterator . hasNext () ) { MST[rv.ROR1Mutator]MSP[]
+if ( vr_71 instanceof tp_2 ) { return new tp_1 ( ( tp_2 ) vr_71 ) ; MST[ReturnValsMutator]MSP[] } if ( vr_71 instanceof tp_3 ) {
+vr_43 . vr_44 ( iterator , lr_2 ) ; vr_43 . vr_44 ( vr_67 , lr_12 ) ; MST[NonVoidMethodCallMutator]MSP[]
+return vr_23 . fn_13 ( iterator ) ; MST[ReturnValsMutator]MSP[] }
+return new vr_14 <> ( array , vr_16 , vr_17 ) ; MST[rv.UOI3Mutator]MSP[] }
+if ( vr_86 == - 1 ) { MST[rv.UOI2Mutator]MSP[] return iterator . vr_70 () ; } iterator . vr_70 () ; }
+if ( vr_71 instanceof tp_2 ) { MST[rv.ROR4Mutator]MSP[] return new tp_1 ( ( tp_2 ) vr_71 ) ; } if ( vr_71 instanceof tp_3 ) {
+return new vr_14 <> ( array , vr_16 , vr_17 ) ; MST[rv.ABSMutator]MSP[] }
+final long vr_22 , final long vr_21 ) { return new vr_20 <> ( iterator , vr_22 , vr_21 ) ; MST[rv.UOI4Mutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; return new vr_66 <> ( iterator ) ; MST[ConstructorCallMutator]MSP[] }
+while ( iterator . hasNext () ) { iterator . vr_70 () ; size ++ ; } } return size ; MST[ReturnValsMutator]MSP[] }
+return new vr_61 <> ( ( Enumeration < ? > ) vr_71 ) ; MST[ConstructorCallMutator]MSP[] } if ( vr_71 instanceof vl_1 ) {
+return new vr_14 <> ( ( Object [] ) vr_71 ) ; } if ( vr_71 instanceof Enumeration ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[]
+return new vr_38 <> ( vr_35 , vr_32 ) ; MST[NullReturnValsMutator]MSP[] }
+if ( vr_86 == - 1 ) { MST[rv.CRCR4Mutator]MSP[] return iterator . vr_70 () ; } iterator . vr_70 () ; }
+final StringBuilder stringBuilder = new StringBuilder ( vr_92 ) ; MST[ConstructorCallMutator]MSP[] if ( iterator != null ) { while ( iterator . hasNext () ) {
+vr_43 . vr_44 ( iterator , lr_2 ) ; return new vr_65 <> ( iterator , false ) ; MST[InlineConstantMutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; return new vr_65 <> ( iterator , false ) ; MST[rv.CRCR3Mutator]MSP[] }
+vr_43 . vr_44 ( iterator , lr_2 ) ; if ( vr_69 < 1 ) { MST[rv.CRCR4Mutator]MSP[] throw new IllegalArgumentException ( lr_13 ) ; }
+if ( vr_71 instanceof tp_2 ) { return new tp_1 ( ( tp_2 ) vr_71 ) ; } if ( vr_71 instanceof tp_3 ) { MST[rv.ROR3Mutator]MSP[]
+public static < vt_1 > vt_1 get ( final Iterator < vt_1 > iterator , final int vr_83 ) { int vr_86 = vr_83 ; MST[rv.UOI2Mutator]MSP[]
+list . add ( iterator . vr_70 () ) ; } return list ; MST[EmptyObjectReturnValsMutator]MSP[] }
+public static int size ( final Iterator < ? > iterator ) { int size = 0 ; if ( iterator != null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[]
+vr_43 . vr_44 ( vr_47 , lr_4 ) ; MST[NonVoidMethodCallMutator]MSP[] if ( iterator != null ) { while ( iterator . hasNext () ) {
+if ( vr_47 . vr_82 ( vr_80 ) ) { return vr_83 ; } } } return - 1 ; MST[InlineConstantMutator]MSP[] }
+return indexOf ( iterator , vr_47 ) != - 1 ; MST[NegateConditionalsMutator]MSP[] }
+return new vr_15 <> ( array , vr_16 ) ; MST[ConstructorCallMutator]MSP[] }
+public static int size ( final Iterator < ? > iterator ) { int size = 0 ; MST[rv.CRCR3Mutator]MSP[] if ( iterator != null ) {
+stringBuilder . append ( vr_91 ) ; } if ( stringBuilder . length () > vr_92 . length () ) { MST[ConditionalsBoundaryMutator]MSP[]
+return list . toArray ( array ) ; MST[ReturnValsMutator]MSP[] }
+final List < vt_1 > list = new ArrayList <> ( vr_69 ) ; MST[rv.UOI2Mutator]MSP[] while ( iterator . hasNext () ) {
+public static int size ( final Iterator < ? > iterator ) { int size = 0 ; MST[InlineConstantMutator]MSP[] if ( iterator != null ) {
+return fn_12 ( iterator , 0 , vr_21 ) ; MST[rv.UOI2Mutator]MSP[] }
+return new vr_31 <> ( vr_32 ) ; MST[ConstructorCallMutator]MSP[] }

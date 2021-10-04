@@ -1,0 +1,170 @@
+public static tp_1 fn_1 () { return new tp_1 () ; } public static tp_1 fn_1 ( tp_2 vr_1 ) {
+if ( vr_1 == null ) { throw new fn_2 ( lr_1 ) ; } return new tp_1 ( vr_1 ) ; }
+public static tp_1 fn_1 ( tp_3 vr_2 ) { if ( vr_2 == null ) { throw new fn_2 ( lr_2 ) ; }
+return new tp_1 ( vr_2 ) ; } @df_1 public static tp_1 fn_3 ( String vr_3 ) {
+return fn_3 ( vr_3 , vr_4 . vr_5 () . fn_4 () ) ; }
+public static tp_1 fn_3 ( String vr_3 , tp_4 vr_6 ) { return vr_6 . vr_7 ( vr_3 ) ; }
+public tp_1 fn_5 () { return this ; } public tp_1 fn_6 () { if ( fn_7 () == vr_8 . vr_9 () ) {
+return this ; } return super . fn_6 () ; } public tp_1 fn_5 ( tp_2 vr_1 ) {
+vr_1 = vr_10 . vr_11 ( vr_1 ) ; if ( vr_11 () == vr_1 ) { return this ; }
+return super . fn_5 ( vr_1 ) ; } public tp_1 fn_5 ( tp_3 vr_2 ) {
+vr_2 = vr_10 . fn_7 ( vr_2 ) ; if ( fn_7 () == vr_2 ) { return this ; }
+return super . fn_5 ( vr_2 ) ; } public tp_1 fn_8 ( long vr_12 ) {
+return ( vr_12 == fn_9 () ? this : new tp_1 ( vr_12 , fn_7 () ) ) ; }
+public tp_1 fn_10 ( tp_3 vr_13 ) { vr_13 = vr_10 . fn_7 ( vr_13 ) ;
+return ( vr_13 == fn_7 () ? this : new tp_1 ( fn_9 () , vr_13 ) ) ; }
+public tp_1 fn_11 ( tp_2 vr_14 ) { return fn_10 ( fn_7 () . fn_11 ( vr_14 ) ) ; }
+public tp_1 fn_12 ( tp_2 vr_14 ) { vr_14 = vr_10 . vr_11 ( vr_14 ) ;
+tp_2 vr_15 = vr_10 . vr_11 ( vr_11 () ) ; if ( vr_14 == vr_15 ) { return this ; }
+long vr_16 = vr_15 . vr_17 ( vr_14 , fn_9 () ) ;
+return new tp_1 ( vr_16 , fn_7 () . fn_11 ( vr_14 ) ) ; } public tp_1 fn_13 () {
+long vr_12 = vr_11 () . fn_14 ( fn_9 () , false ) ; return fn_8 ( vr_12 ) ; }
+public tp_1 fn_15 () { long vr_12 = vr_11 () . fn_14 ( fn_9 () , true ) ; return fn_8 ( vr_12 ) ;
+} public tp_1 fn_16 ( int vr_18 , int vr_19 , int vr_20 ) { tp_3 vr_21 = fn_7 () ;
+long vr_22 = vr_21 . vr_23 () . fn_17 ( vr_18 , vr_19 , vr_20 , fn_18 () ) ;
+return fn_8 ( vr_21 . vr_11 () . fn_19 ( vr_22 , false , fn_9 () ) ) ; }
+public tp_1 fn_16 ( tp_5 vr_24 ) { return fn_16 (
+vr_24 . vr_25 () , vr_24 . vr_26 () , vr_24 . vr_27 () ) ; }
+public tp_1 fn_20 ( int vr_28 , int vr_29 , int vr_30 , int vr_31 ) { tp_3 vr_21 = fn_7 () ;
+long vr_22 = vr_21 . vr_23 () . fn_17 (
+vr_25 () , vr_26 () , vr_27 () , vr_28 , vr_29 , vr_30 , vr_31 ) ;
+return fn_8 ( vr_21 . vr_11 () . fn_19 ( vr_22 , false , fn_9 () ) ) ; }
+public tp_1 fn_20 ( LocalTime time ) { return fn_20 (
+time . vr_32 () , time . vr_33 () , time . vr_34 () , time . vr_35 () ) ; }
+public tp_1 fn_21 () { return fn_22 () . fn_23 ( vr_11 () ) ; } public tp_1 fn_24 ( tp_6 vr_36 ) {
+if ( vr_36 == null ) { return this ; }
+return fn_8 ( fn_7 () . fn_25 ( vr_36 , fn_9 () ) ) ; }
+public tp_1 fn_26 ( tp_7 vr_37 , int vr_38 ) { if ( vr_37 == null ) { throw new IllegalArgumentException ( lr_3 ) ;
+} long vr_39 = vr_37 . vr_40 ( fn_7 () ) . fn_25 ( fn_9 () , vr_38 ) ;
+return fn_8 ( vr_39 ) ; } public tp_1 fn_27 ( tp_8 vr_37 , int vr_41 ) { if ( vr_37 == null ) {
+throw new IllegalArgumentException ( lr_3 ) ; } if ( vr_41 == 0 ) { return this ; }
+long vr_39 = vr_37 . vr_40 ( fn_7 () ) . add ( fn_9 () , vr_41 ) ; return fn_8 ( vr_39 ) ;
+} public tp_1 fn_28 ( long vr_42 , int vr_43 ) { if ( vr_42 == 0 || vr_43 == 0 ) {
+return this ; } long vr_39 = fn_7 () . add ( fn_9 () , vr_42 , vr_43 ) ;
+return fn_8 ( vr_39 ) ; } public tp_1 fn_28 ( tp_9 vr_42 , int vr_43 ) {
+if ( vr_42 == null || vr_43 == 0 ) { return this ; }
+return fn_28 ( vr_42 . fn_9 () , vr_43 ) ; } public tp_1 fn_29 ( tp_10 vr_44 , int vr_43 ) {
+if ( vr_44 == null || vr_43 == 0 ) { return this ; }
+long vr_39 = fn_7 () . add ( vr_44 , fn_9 () , vr_43 ) ; return fn_8 ( vr_39 ) ; }
+public tp_1 fn_30 ( long vr_45 ) { return fn_28 ( vr_45 , 1 ) ; } public tp_1 fn_30 ( tp_9 vr_45 ) {
+return fn_28 ( vr_45 , 1 ) ; } public tp_1 fn_30 ( tp_10 vr_44 ) { return fn_29 ( vr_44 , 1 ) ;
+} public tp_1 fn_31 ( int vr_46 ) { if ( vr_46 == 0 ) { return this ; }
+long vr_39 = fn_7 () . vr_46 () . add ( fn_9 () , vr_46 ) ; return fn_8 ( vr_39 ) ; }
+public tp_1 fn_32 ( int vr_47 ) { if ( vr_47 == 0 ) { return this ; }
+long vr_39 = fn_7 () . vr_47 () . add ( fn_9 () , vr_47 ) ; return fn_8 ( vr_39 ) ; }
+public tp_1 fn_33 ( int vr_48 ) { if ( vr_48 == 0 ) { return this ; }
+long vr_39 = fn_7 () . vr_48 () . add ( fn_9 () , vr_48 ) ; return fn_8 ( vr_39 ) ; }
+public tp_1 fn_34 ( int vr_49 ) { if ( vr_49 == 0 ) { return this ; }
+long vr_39 = fn_7 () . vr_49 () . add ( fn_9 () , vr_49 ) ; return fn_8 ( vr_39 ) ; }
+public tp_1 fn_35 ( int vr_50 ) { if ( vr_50 == 0 ) { return this ; }
+long vr_39 = fn_7 () . vr_50 () . add ( fn_9 () , vr_50 ) ; return fn_8 ( vr_39 ) ; }
+public tp_1 fn_36 ( int vr_51 ) { if ( vr_51 == 0 ) { return this ; }
+long vr_39 = fn_7 () . vr_51 () . add ( fn_9 () , vr_51 ) ; return fn_8 ( vr_39 ) ; }
+public tp_1 fn_37 ( int vr_52 ) { if ( vr_52 == 0 ) { return this ; }
+long vr_39 = fn_7 () . vr_52 () . add ( fn_9 () , vr_52 ) ; return fn_8 ( vr_39 ) ; }
+public tp_1 fn_38 ( int vr_16 ) { if ( vr_16 == 0 ) { return this ; }
+long vr_39 = fn_7 () . vr_16 () . add ( fn_9 () , vr_16 ) ; return fn_8 ( vr_39 ) ; }
+public tp_1 fn_39 ( long vr_45 ) { return fn_28 ( vr_45 , - 1 ) ; }
+public tp_1 fn_39 ( tp_9 vr_45 ) { return fn_28 ( vr_45 , - 1 ) ; }
+public tp_1 fn_39 ( tp_10 vr_44 ) { return fn_29 ( vr_44 , - 1 ) ; }
+public tp_1 fn_40 ( int vr_46 ) { if ( vr_46 == 0 ) { return this ; }
+long vr_39 = fn_7 () . vr_46 () . fn_41 ( fn_9 () , vr_46 ) ; return fn_8 ( vr_39 ) ; }
+public tp_1 fn_42 ( int vr_47 ) { if ( vr_47 == 0 ) { return this ; }
+long vr_39 = fn_7 () . vr_47 () . fn_41 ( fn_9 () , vr_47 ) ; return fn_8 ( vr_39 ) ; }
+public tp_1 fn_43 ( int vr_48 ) { if ( vr_48 == 0 ) { return this ; }
+long vr_39 = fn_7 () . vr_48 () . fn_41 ( fn_9 () , vr_48 ) ; return fn_8 ( vr_39 ) ; }
+public tp_1 fn_44 ( int vr_49 ) { if ( vr_49 == 0 ) { return this ; }
+long vr_39 = fn_7 () . vr_49 () . fn_41 ( fn_9 () , vr_49 ) ; return fn_8 ( vr_39 ) ; }
+public tp_1 fn_45 ( int vr_50 ) { if ( vr_50 == 0 ) { return this ; }
+long vr_39 = fn_7 () . vr_50 () . fn_41 ( fn_9 () , vr_50 ) ; return fn_8 ( vr_39 ) ; }
+public tp_1 fn_46 ( int vr_51 ) { if ( vr_51 == 0 ) { return this ; }
+long vr_39 = fn_7 () . vr_51 () . fn_41 ( fn_9 () , vr_51 ) ; return fn_8 ( vr_39 ) ; }
+public tp_1 fn_47 ( int vr_52 ) { if ( vr_52 == 0 ) { return this ; }
+long vr_39 = fn_7 () . vr_52 () . fn_41 ( fn_9 () , vr_52 ) ; return fn_8 ( vr_39 ) ; }
+public tp_1 fn_48 ( int vr_16 ) { if ( vr_16 == 0 ) { return this ; }
+long vr_39 = fn_7 () . vr_16 () . fn_41 ( fn_9 () , vr_16 ) ; return fn_8 ( vr_39 ) ; }
+public tp_11 fn_49 ( tp_7 type ) { if ( type == null ) { throw new IllegalArgumentException ( lr_4 ) ; }
+tp_12 vr_53 = type . vr_40 ( fn_7 () ) ; if ( vr_53 . vr_54 () == false ) {
+throw new IllegalArgumentException ( lr_5 + type + lr_6 ) ; } return new tp_11 ( this , vr_53 ) ; } @Deprecated
+public tp_13 fn_50 () { return new tp_13 ( fn_9 () , fn_7 () ) ; } @Deprecated public tp_14 fn_51 () {
+return new tp_14 ( fn_9 () , fn_7 () ) ; } @Deprecated public tp_15 fn_52 () {
+return new tp_15 ( fn_9 () , fn_7 () ) ; } public tp_16 fn_53 () {
+return new tp_16 ( fn_9 () , fn_7 () ) ; } public tp_5 fn_22 () {
+return new tp_5 ( fn_9 () , fn_7 () ) ; } public LocalTime fn_54 () {
+return new LocalTime ( fn_9 () , fn_7 () ) ; } public tp_1 fn_55 ( int vr_55 ) {
+return fn_8 ( fn_7 () . vr_55 () . fn_25 ( fn_9 () , vr_55 ) ) ; }
+public tp_1 fn_56 ( int vr_56 ) {
+return fn_8 ( fn_7 () . vr_56 () . fn_25 ( fn_9 () , vr_56 ) ) ; }
+public tp_1 fn_57 ( int vr_57 ) {
+return fn_8 ( fn_7 () . vr_57 () . fn_25 ( fn_9 () , vr_57 ) ) ; }
+public tp_1 fn_58 ( int vr_58 ) {
+return fn_8 ( fn_7 () . vr_58 () . fn_25 ( fn_9 () , vr_58 ) ) ; }
+public tp_1 fn_59 ( int vr_18 ) {
+return fn_8 ( fn_7 () . vr_18 () . fn_25 ( fn_9 () , vr_18 ) ) ; }
+public tp_1 fn_60 ( int vr_59 ) {
+return fn_8 ( fn_7 () . vr_59 () . fn_25 ( fn_9 () , vr_59 ) ) ; }
+public tp_1 fn_61 ( int vr_19 ) {
+return fn_8 ( fn_7 () . vr_19 () . fn_25 ( fn_9 () , vr_19 ) ) ; }
+public tp_1 fn_62 ( int vr_60 ) {
+return fn_8 ( fn_7 () . vr_60 () . fn_25 ( fn_9 () , vr_60 ) ) ; }
+public tp_1 fn_63 ( int vr_61 ) {
+return fn_8 ( fn_7 () . vr_61 () . fn_25 ( fn_9 () , vr_61 ) ) ; }
+public tp_1 fn_64 ( int vr_20 ) {
+return fn_8 ( fn_7 () . vr_20 () . fn_25 ( fn_9 () , vr_20 ) ) ; }
+public tp_1 fn_65 ( int vr_62 ) {
+return fn_8 ( fn_7 () . vr_62 () . fn_25 ( fn_9 () , vr_62 ) ) ; }
+public tp_1 fn_66 ( int vr_63 ) {
+return fn_8 ( fn_7 () . vr_28 () . fn_25 ( fn_9 () , vr_63 ) ) ; }
+public tp_1 fn_67 ( int vr_64 ) {
+return fn_8 ( fn_7 () . vr_29 () . fn_25 ( fn_9 () , vr_64 ) ) ; }
+public tp_1 fn_68 ( int vr_65 ) {
+return fn_8 ( fn_7 () . vr_30 () . fn_25 ( fn_9 () , vr_65 ) ) ; }
+public tp_1 fn_69 ( int vr_16 ) {
+return fn_8 ( fn_7 () . vr_31 () . fn_25 ( fn_9 () , vr_16 ) ) ; }
+public tp_1 fn_70 ( int vr_16 ) {
+return fn_8 ( fn_7 () . fn_71 () . fn_25 ( fn_9 () , vr_16 ) ) ; } public tp_11 vr_55 () {
+return new tp_11 ( this , fn_7 () . vr_55 () ) ; } public tp_11 vr_56 () {
+return new tp_11 ( this , fn_7 () . vr_56 () ) ; } public tp_11 vr_58 () {
+return new tp_11 ( this , fn_7 () . vr_58 () ) ; } public tp_11 vr_57 () {
+return new tp_11 ( this , fn_7 () . vr_57 () ) ; } public tp_11 vr_18 () {
+return new tp_11 ( this , fn_7 () . vr_18 () ) ; } public tp_11 vr_59 () {
+return new tp_11 ( this , fn_7 () . vr_59 () ) ; } public tp_11 vr_19 () {
+return new tp_11 ( this , fn_7 () . vr_19 () ) ; } public tp_11 vr_60 () {
+return new tp_11 ( this , fn_7 () . vr_60 () ) ; } public tp_11 vr_61 () {
+return new tp_11 ( this , fn_7 () . vr_61 () ) ; } public tp_11 vr_20 () {
+return new tp_11 ( this , fn_7 () . vr_20 () ) ; } public tp_11 vr_62 () {
+return new tp_11 ( this , fn_7 () . vr_62 () ) ; } public tp_11 vr_28 () {
+return new tp_11 ( this , fn_7 () . vr_28 () ) ; } public tp_11 fn_72 () {
+return new tp_11 ( this , fn_7 () . fn_72 () ) ; } public tp_11 vr_29 () {
+return new tp_11 ( this , fn_7 () . vr_29 () ) ; } public tp_11 fn_73 () {
+return new tp_11 ( this , fn_7 () . fn_73 () ) ; } public tp_11 vr_30 () {
+return new tp_11 ( this , fn_7 () . vr_30 () ) ; } public tp_11 fn_71 () {
+return new tp_11 ( this , fn_7 () . fn_71 () ) ; } public tp_11 vr_31 () {
+return new tp_11 ( this , fn_7 () . vr_31 () ) ; } private void fn_74 ( tp_17 vr_66 ) throws IOException {
+vr_66 . fn_74 ( vl_1 ) ; vr_66 . fn_74 ( vr_67 . getType () ) ; }
+private void fn_75 ( tp_18 vr_66 ) throws IOException , vl_2 { vl_1 = ( tp_1 ) vr_66 . fn_75 () ;
+tp_7 type = ( tp_7 ) vr_66 . fn_75 () ; vr_67 = type . vr_40 ( vl_1 . fn_7 () ) ; }
+public tp_12 vr_40 () { return vr_67 ; } protected long fn_9 () { return vl_1 . fn_9 () ; }
+protected tp_3 fn_7 () { return vl_1 . fn_7 () ; } public tp_1 fn_76 () { return vl_1 ; }
+public tp_1 fn_77 ( int vr_38 ) {
+return vl_1 . fn_8 ( vr_67 . add ( vl_1 . fn_9 () , vr_38 ) ) ; }
+public tp_1 fn_77 ( long vr_38 ) {
+return vl_1 . fn_8 ( vr_67 . add ( vl_1 . fn_9 () , vr_38 ) ) ; }
+public tp_1 fn_78 ( int vr_38 ) {
+return vl_1 . fn_8 ( vr_67 . vr_68 ( vl_1 . fn_9 () , vr_38 ) ) ; }
+public tp_1 fn_79 ( int vr_38 ) {
+return vl_1 . fn_8 ( vr_67 . fn_25 ( vl_1 . fn_9 () , vr_38 ) ) ; }
+public tp_1 fn_79 ( String vr_69 , tp_19 vr_70 ) {
+return vl_1 . fn_8 ( vr_67 . fn_25 ( vl_1 . fn_9 () , vr_69 , vr_70 ) ) ; }
+public tp_1 fn_79 ( String vr_69 ) { return fn_79 ( vr_69 , null ) ; } public tp_1 fn_80 () { try {
+return fn_79 ( fn_81 () ) ; } catch ( tp_20 vr_71 ) { if ( vr_72 . vr_73 ( vr_71 ) ) {
+long vr_74 = fn_7 () . vr_11 () . fn_82 ( fn_9 () + vr_75 . vr_76 ) ;
+return new tp_1 ( vr_74 , fn_7 () ) ; } throw vr_71 ; } } public tp_1 fn_83 () { try {
+return fn_79 ( fn_84 () ) ; } catch ( tp_20 vr_71 ) { if ( vr_72 . vr_73 ( vr_71 ) ) {
+long vr_77 = fn_7 () . vr_11 () . fn_85 ( fn_9 () - vr_75 . vr_76 ) ;
+return new tp_1 ( vr_77 , fn_7 () ) ; } throw vr_71 ; } } public tp_1 fn_86 () {
+return vl_1 . fn_8 ( vr_67 . vr_78 ( vl_1 . fn_9 () ) ) ; } public tp_1 fn_87 () {
+return vl_1 . fn_8 ( vr_67 . vr_79 ( vl_1 . fn_9 () ) ) ; } public tp_1 fn_88 () {
+return vl_1 . fn_8 ( vr_67 . vr_80 ( vl_1 . fn_9 () ) ) ; } public tp_1 fn_89 () {
+return vl_1 . fn_8 ( vr_67 . vr_81 ( vl_1 . fn_9 () ) ) ; } public tp_1 fn_90 () {
+return vl_1 . fn_8 ( vr_67 . vr_82 ( vl_1 . fn_9 () ) ) ; }

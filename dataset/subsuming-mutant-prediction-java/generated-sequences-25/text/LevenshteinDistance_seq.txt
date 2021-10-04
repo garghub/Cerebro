@@ -1,0 +1,39 @@
+@Override public Integer fn_1 ( final tp_1 vr_1 , final tp_1 vr_2 ) { if ( vl_1 != null ) {
+return fn_2 ( vr_1 , vr_2 , vl_1 ) ; } return fn_3 ( vr_1 , vr_2 ) ; }
+public static tp_2 fn_4 () { return vl_2 ; } public Integer fn_5 () { return vl_1 ; }
+private static int fn_2 ( tp_1 vr_1 , tp_1 vr_2 , final int vl_1 ) {
+if ( vr_1 == null || vr_2 == null ) { throw new IllegalArgumentException ( lr_1 ) ; }
+if ( vl_1 < 0 ) { throw new IllegalArgumentException ( lr_2 ) ; } int vr_3 = vr_1 . length () ;
+int vr_4 = vr_2 . length () ; if ( vr_3 == 0 ) { return vr_4 <= vl_1 ? vr_4 : - 1 ;
+} else if ( vr_4 == 0 ) { return vr_3 <= vl_1 ? vr_3 : - 1 ; }
+if ( vr_3 > vr_4 ) { final tp_1 vr_5 = vr_1 ; vr_1 = vr_2 ; vr_2 = vr_5 ; vr_3 = vr_4 ;
+vr_4 = vr_2 . length () ; } int [] vr_6 = new int [ vr_3 + 1 ] ;
+int [] vr_7 = new int [ vr_3 + 1 ] ; int [] vr_8 ;
+final int vr_9 = vr_10 . vr_11 ( vr_3 , vl_1 ) + 1 ;
+for ( int vr_12 = 0 ; vr_12 < vr_9 ; vr_12 ++ ) { vr_6 [ vr_12 ] = vr_12 ; }
+vr_13 . vr_14 ( vr_6 , vr_9 , vr_6 . length , Integer . vr_15 ) ;
+vr_13 . vr_14 ( vr_7 , Integer . vr_15 ) ;
+for ( int vr_16 = 1 ; vr_16 <= vr_4 ; vr_16 ++ ) {
+final char vr_17 = vr_2 . charAt ( vr_16 - 1 ) ; vr_7 [ 0 ] = vr_16 ;
+final int vr_11 = vr_10 . vr_18 ( 1 , vr_16 - vl_1 ) ;
+final int vr_18 = vr_16 > Integer . vr_15 - vl_1 ? vr_3 : vr_10 . vr_11 ( vr_3 , vr_16 + vl_1 ) ;
+if ( vr_11 > vr_18 ) { return - 1 ; } if ( vr_11 > 1 ) {
+vr_7 [ vr_11 - 1 ] = Integer . vr_15 ; }
+for ( int vr_12 = vr_11 ; vr_12 <= vr_18 ; vr_12 ++ ) {
+if ( vr_1 . charAt ( vr_12 - 1 ) == vr_17 ) {
+vr_7 [ vr_12 ] = vr_6 [ vr_12 - 1 ] ; } else {
+vr_7 [ vr_12 ] = 1 + vr_10 . vr_11 ( vr_10 . vr_11 ( vr_7 [ vr_12 - 1 ] , vr_6 [ vr_12 ] ) , vr_6 [ vr_12 - 1 ] ) ;
+} } vr_8 = vr_6 ; vr_6 = vr_7 ; vr_7 = vr_8 ; } if ( vr_6 [ vr_3 ] <= vl_1 ) {
+return vr_6 [ vr_3 ] ; } return - 1 ; } private static int fn_3 ( tp_1 vr_1 , tp_1 vr_2 ) {
+if ( vr_1 == null || vr_2 == null ) { throw new IllegalArgumentException ( lr_1 ) ; }
+int vr_3 = vr_1 . length () ; int vr_4 = vr_2 . length () ; if ( vr_3 == 0 ) {
+return vr_4 ; } else if ( vr_4 == 0 ) { return vr_3 ; } if ( vr_3 > vr_4 ) {
+final tp_1 vr_5 = vr_1 ; vr_1 = vr_2 ; vr_2 = vr_5 ; vr_3 = vr_4 ; vr_4 = vr_2 . length () ;
+} final int [] vr_6 = new int [ vr_3 + 1 ] ; int vr_12 ; int vr_16 ; int vr_19 ;
+int vr_20 ; char vr_17 ; int vr_21 ; for ( vr_12 = 0 ; vr_12 <= vr_3 ; vr_12 ++ ) {
+vr_6 [ vr_12 ] = vr_12 ; } for ( vr_16 = 1 ; vr_16 <= vr_4 ; vr_16 ++ ) {
+vr_19 = vr_6 [ 0 ] ; vr_17 = vr_2 . charAt ( vr_16 - 1 ) ; vr_6 [ 0 ] = vr_16 ;
+for ( vr_12 = 1 ; vr_12 <= vr_3 ; vr_12 ++ ) { vr_20 = vr_6 [ vr_12 ] ;
+vr_21 = vr_1 . charAt ( vr_12 - 1 ) == vr_17 ? 0 : 1 ;
+vr_6 [ vr_12 ] = vr_10 . vr_11 ( vr_10 . vr_11 ( vr_6 [ vr_12 - 1 ] + 1 , vr_6 [ vr_12 ] + 1 ) , vr_19 + vr_21 ) ;
+vr_19 = vr_20 ; } } return vr_6 [ vr_3 ] ; }

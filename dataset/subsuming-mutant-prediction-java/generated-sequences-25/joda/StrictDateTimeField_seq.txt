@@ -1,0 +1,6 @@
+public static tp_1 fn_1 ( tp_1 vr_1 ) { if ( vr_1 == null ) { return null ; }
+if ( vr_1 instanceof vl_1 ) { vr_1 = ( ( vl_1 ) vr_1 ) . fn_2 () ; }
+if ( ! vr_1 . vr_2 () ) { return vr_1 ; } return new fn_3 ( vr_1 ) ; }
+public final boolean vr_2 () { return false ; } public long fn_4 ( long vr_3 , int vr_4 ) { vr_5 . vr_6
+( this , vr_4 , fn_5 ( vr_3 ) , fn_6 ( vr_3 ) ) ;
+return super . fn_4 ( vr_3 , vr_4 ) ; }

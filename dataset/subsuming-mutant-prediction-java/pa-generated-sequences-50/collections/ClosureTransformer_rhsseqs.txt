@@ -1,0 +1,10 @@
+public static < T > Transformer < T , T > closureTransformer ( final Closure < ? super T > closure ) { return new ClosureTransformer <> ( Objects . requireNonNull ( closure , lr_1 ) ) ; MST[NonVoidMethodCallMutator]MSP[S] } @Override public T transform ( final T input ) {
+public static < T > Transformer < T , T > closureTransformer ( final Closure < ? super T > closure ) { return new ClosureTransformer <> ( Objects . requireNonNull ( closure , lr_1 ) ) ; MST[ArgumentPropagationMutator]MSP[S] } @Override public T transform ( final T input ) {
+iClosure . execute ( input ) ; MST[VoidMethodCallMutator]MSP[N] return input ; } public Closure < ? super T > getClosure () { return iClosure ; }
+public static < T > Transformer < T , T > closureTransformer ( final Closure < ? super T > closure ) { return new ClosureTransformer <> ( Objects . requireNonNull ( closure , lr_1 ) ) ; MST[ConstructorCallMutator]MSP[N] } @Override public T transform ( final T input ) {
+iClosure . execute ( input ) ; return input ; } public Closure < ? super T > getClosure () { return iClosure ; MST[ReturnValsMutator]MSP[N] }
+public static < T > Transformer < T , T > closureTransformer ( final Closure < ? super T > closure ) { return new ClosureTransformer <> ( Objects . requireNonNull ( closure , lr_1 ) ) ; MST[NullReturnValsMutator]MSP[N] } @Override public T transform ( final T input ) {
+iClosure . execute ( input ) ; return input ; MST[NullReturnValsMutator]MSP[N] } public Closure < ? super T > getClosure () { return iClosure ; }
+iClosure . execute ( input ) ; return input ; } public Closure < ? super T > getClosure () { return iClosure ; MST[NullReturnValsMutator]MSP[S] }
+public static < T > Transformer < T , T > closureTransformer ( final Closure < ? super T > closure ) { return new ClosureTransformer <> ( Objects . requireNonNull ( closure , lr_1 ) ) ; MST[ReturnValsMutator]MSP[N] } @Override public T transform ( final T input ) {
+iClosure . execute ( input ) ; return input ; MST[ReturnValsMutator]MSP[N] } public Closure < ? super T > getClosure () { return iClosure ; }

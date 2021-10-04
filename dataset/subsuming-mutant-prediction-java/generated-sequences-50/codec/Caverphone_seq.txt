@@ -1,0 +1,3 @@
+public String fn_1 ( final String vr_1 ) { return this . vr_2 . vr_3 ( vr_1 ) ; } @Override public Object vr_3 ( final Object vr_4 ) throws vl_1 { if ( ! ( vr_4 instanceof String ) ) { throw new vl_1 ( lr_1 ) ; }
+return this . fn_1 ( ( String ) vr_4 ) ; } @Override public String vr_3 ( final String vr_5 ) { return this . fn_1 ( vr_5 ) ; } public boolean fn_2 ( final String vr_6 , final String vr_7 ) {
+return this . fn_1 ( vr_6 ) . equals ( this . fn_1 ( vr_7 ) ) ; }

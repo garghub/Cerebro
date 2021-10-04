@@ -1,0 +1,3 @@
+public void fn_1 () { fn_2 ( ! vr_1 . vr_2 () ) ; fn_2 ( ! vr_1 . vr_3 () ) ; fn_2 ( ! vr_1 . vr_4 () ) ; fn_2 ( ! vr_1 . vr_5 () ) ; fn_2 ( vr_6 . vr_2 () ) ; fn_2 ( vr_6 . vr_3 () ) ; fn_2 ( vr_6 . vr_4 () ) ; fn_2 ( vr_6 . vr_5 () ) ; fn_2 ( ! vr_7 . vr_2 () ) ; fn_2 ( ! vr_7 . vr_3 () ) ; fn_2 ( ! vr_7 . vr_4 () ) ;
+fn_2 ( ! vr_7 . vr_5 () ) ; } public void fn_3 () { vr_6 . vr_8 ( true ) ; vr_7 . vr_8 ( false ) ; fn_2 ( ! vr_1 . vr_9 () ) ; fn_2 ( vr_6 . vr_9 () ) ; fn_2 ( ! vr_7 . vr_9 () ) ; } public void fn_4 () { vr_6 . vr_10 ( true ) ; vr_7 . vr_10 ( false ) ; fn_2 ( ! vr_1 . vr_11 () ) ; fn_2 ( vr_6 . vr_11 () ) ;
+fn_2 ( ! vr_7 . vr_11 () ) ; }

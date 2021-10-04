@@ -1,0 +1,759 @@
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[NegateConditionalsMutator]MSP[]
+final Map < K , V > [] temp = new Map [ size - 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , i ) ; MST[rv.UOI4Mutator]MSP[]
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[InlineConstantMutator]MSP[]
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI4Mutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.UOI4Mutator]MSP[] return this . composite [ i ] . remove ( key ) ; }
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; MST[rv.AOR3Mutator]MSP[] }
+final Map < ? , ? > map = ( Map < ? , ? > ) obj ; return this . entrySet () . equals ( map . entrySet () ) ; } return false ; MST[rv.CRCR6Mutator]MSP[] } @Override public int hashCode () { int code = 0 ;
+} return this . mutator . put ( this , this . composite , key , value ) ; MST[ReturnValsMutator]MSP[] } @Override public void putAll ( final Map < ? extends K , ? extends V > map ) { if ( this . mutator == null ) {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.UOI3Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( final Map . Entry < K , V > entry : entrySet () ) { code += entry . hashCode () ; MST[rv.UOI2Mutator]MSP[] } return code ; }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( ! this . composite [ i ] . isEmpty () ) { MST[rv.UOI3Mutator]MSP[] return false ; }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR6Mutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+for ( final Map . Entry < K , V > entry : entrySet () ) { code += entry . hashCode () ; MST[NonVoidMethodCallMutator]MSP[] } return code ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR2Mutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD2Mutator]MSP[] size += this . composite [ i ] . size () ; }
+keys . addComposited ( this . composite [ i ] . keySet () ) ; MST[rv.ABSMutator]MSP[] } return keys ; } @Override public V put ( final K key , final V value ) { if ( this . mutator == null ) { throw new UnsupportedOperationException ( lr_3 ) ;
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI3Mutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR3Mutator]MSP[] size += this . composite [ i ] . size () ; }
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[rv.ABSMutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; MST[ArgumentPropagationMutator]MSP[] }
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.CRCR6Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+keys . addComposited ( this . composite [ i ] . keySet () ) ; MST[NonVoidMethodCallMutator]MSP[] } return keys ; } @Override public V put ( final K key , final V value ) { if ( this . mutator == null ) { throw new UnsupportedOperationException ( lr_3 ) ;
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; MST[rv.CRCR6Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ;
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR1Mutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR1Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD1Mutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[ConditionalsBoundaryMutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { if ( this . composite [ i ] . equals ( map ) ) { MST[rv.ROR1Mutator]MSP[]
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR5Mutator]MSP[]
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR1Mutator]MSP[] size += this . composite [ i ] . size () ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR2Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; MST[rv.AOD1Mutator]MSP[] }
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[rv.CRCR5Mutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD2Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+} return null ; } @Override public int size () { int size = 0 ; MST[rv.CRCR5Mutator]MSP[] for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[ConditionalsBoundaryMutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+final Map < K , V > [] temp = new Map [ size - 1 ] ; MST[rv.CRCR5Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , i ) ;
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD2Mutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[InlineConstantMutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI4Mutator]MSP[]
+if ( intersect . size () != 0 ) { MST[rv.ROR1Mutator]MSP[] if ( this . mutator == null ) { throw new IllegalArgumentException ( lr_2 ) ; } this . mutator . resolveCollision ( this , this . composite [ i ] , map , intersect ) ; } }
+values . addComposited ( composite [ i ] . values () ) ; MST[rv.ABSMutator]MSP[] } return values ; } @Override public boolean equals ( final Object obj ) { if ( obj instanceof Map ) {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.UOI3Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR6Mutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.UOI1Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.AOR2Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; MST[rv.ABSMutator]MSP[] }
+keys . addComposited ( this . composite [ i ] . keySet () ) ; } return keys ; } @Override public V put ( final K key , final V value ) { if ( this . mutator == null ) { MST[NegateConditionalsMutator]MSP[] throw new UnsupportedOperationException ( lr_3 ) ;
+for ( final Map . Entry < K , V > entry : entrySet () ) { code += entry . hashCode () ; MST[rv.AOD2Mutator]MSP[] } return code ; }
+keys . addComposited ( this . composite [ i ] . keySet () ) ; } return keys ; } @Override public V put ( final K key , final V value ) { if ( this . mutator == null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] throw new UnsupportedOperationException ( lr_3 ) ;
+final Map < K , V > [] temp = new Map [ size - 1 ] ; MST[rv.CRCR2Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , i ) ;
+public void setMutator ( final MapMutator < K , V > mutator ) { this . mutator = mutator ; } @SuppressWarnings ( lr_1 ) public synchronized void addComposited ( final Map < K , V > map ) throws IllegalArgumentException { if ( map != null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[]
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR4Mutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+final Map < K , V > [] temp = new Map [ size - 1 ] ; MST[rv.AOD1Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , i ) ;
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; MST[rv.CRCR6Mutator]MSP[] } @Override
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD1Mutator]MSP[]
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR4Mutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ; MST[rv.CRCR5Mutator]MSP[]
+final Map < ? , ? > map = ( Map < ? , ? > ) obj ; return this . entrySet () . equals ( map . entrySet () ) ; MST[ReturnValsMutator]MSP[] } return false ; } @Override public int hashCode () { int code = 0 ;
+final Map < K , V > [] temp = new Map [ size - 1 ] ; MST[rv.ABSMutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , i ) ;
+} return this . mutator . put ( this , this . composite , key , value ) ; MST[NullReturnValsMutator]MSP[] } @Override public void putAll ( final Map < ? extends K , ? extends V > map ) { if ( this . mutator == null ) {
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+keys . addComposited ( this . composite [ i ] . keySet () ) ; MST[rv.UOI2Mutator]MSP[] } return keys ; } @Override public V put ( final K key , final V value ) { if ( this . mutator == null ) { throw new UnsupportedOperationException ( lr_3 ) ;
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ; MST[NonVoidMethodCallMutator]MSP[]
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR2Mutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR5Mutator]MSP[]
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR2Mutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR5Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+} return true ; MST[rv.CRCR3Mutator]MSP[] } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) {
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[NegateConditionalsMutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.AOR3Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ABSMutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+if ( intersect . size () != 0 ) { if ( this . mutator == null ) { throw new IllegalArgumentException ( lr_2 ) ; MST[ConstructorCallMutator]MSP[] } this . mutator . resolveCollision ( this , this . composite [ i ] , map , intersect ) ; } }
+temp [ temp . length - 1 ] = map ; MST[rv.AOD1Mutator]MSP[] this . composite = temp ; } } @SuppressWarnings ( lr_1 ) public synchronized Map < K , V > removeComposited ( final Map < K , V > map ) {
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI4Mutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR1Mutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR2Mutator]MSP[]
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR3Mutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.ROR1Mutator]MSP[] return this . composite [ i ] . remove ( key ) ; }
+temp [ temp . length - 1 ] = map ; MST[InlineConstantMutator]MSP[] this . composite = temp ; } } @SuppressWarnings ( lr_1 ) public synchronized Map < K , V > removeComposited ( final Map < K , V > map ) {
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { if ( this . composite [ i ] . equals ( map ) ) { MST[rv.UOI4Mutator]MSP[]
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsValue ( value ) ) { MST[rv.ABSMutator]MSP[] return true ; } }
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR4Mutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[rv.UOI2Mutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+final Map < K , V > [] temp = new Map [ size - 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , i ) ; MST[rv.UOI1Mutator]MSP[]
+final Map < ? , ? > map = ( Map < ? , ? > ) obj ; return this . entrySet () . equals ( map . entrySet () ) ; } return false ; MST[rv.CRCR1Mutator]MSP[] } @Override public int hashCode () { int code = 0 ;
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; MST[rv.UOI2Mutator]MSP[] }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.ROR5Mutator]MSP[] return this . composite [ i ] . get ( key ) ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI2Mutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.ROR3Mutator]MSP[] return this . composite [ i ] . get ( key ) ; }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR3Mutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+final Map < K , V > [] temp = new Map [ size - 1 ] ; MST[InlineConstantMutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , i ) ;
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR4Mutator]MSP[]
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR1Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+} return this . mutator . put ( this , this . composite , key , value ) ; } @Override public void putAll ( final Map < ? extends K , ? extends V > map ) { if ( this . mutator == null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.AOD1Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( final Map . Entry < K , V > entry : entrySet () ) { code += entry . hashCode () ; } return code ; MST[PrimitiveReturnsMutator]MSP[] }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] return this . composite [ i ] . get ( key ) ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[NegateConditionalsMutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.ABSMutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[ConditionalsBoundaryMutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return true ; MST[rv.CRCR2Mutator]MSP[] } } return false ; } @Override
+final Map < K , V > [] temp = new Map [ size - 1 ] ; MST[rv.UOI2Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , i ) ;
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.ROR2Mutator]MSP[] return true ; } } return false ; } @Override
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsValue ( value ) ) { MST[rv.UOI2Mutator]MSP[] return true ; } }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[InlineConstantMutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( ! this . composite [ i ] . isEmpty () ) { return false ; MST[rv.CRCR6Mutator]MSP[] }
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ; MST[rv.CRCR5Mutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.UOI2Mutator]MSP[] return true ; } } return false ; } @Override
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { if ( this . composite [ i ] . equals ( map ) ) { MST[rv.ROR4Mutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR5Mutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD1Mutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ; MST[rv.UOI3Mutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR3Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.UOI4Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[ConditionalsBoundaryMutator]MSP[]
+values . addComposited ( composite [ i ] . values () ) ; } return values ; } @Override public boolean equals ( final Object obj ) { if ( obj instanceof Map ) { MST[rv.ROR2Mutator]MSP[]
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI1Mutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+} return this . mutator . put ( this , this . composite , key , value ) ; } @Override public void putAll ( final Map < ? extends K , ? extends V > map ) { if ( this . mutator == null ) { MST[NegateConditionalsMutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[InlineConstantMutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI1Mutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.ROR3Mutator]MSP[] return this . composite [ i ] . remove ( key ) ; }
+final Map < K , V > [] temp = new Map [ size - 1 ] ; MST[rv.AOR3Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , i ) ;
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[IncrementsMutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+return size ; MST[rv.UOI2Mutator]MSP[] } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR5Mutator]MSP[]
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR4Mutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR6Mutator]MSP[] size += this . composite [ i ] . size () ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.ABSMutator]MSP[] return true ; } } return false ; } @Override
+final Map < K , V > [] temp = new Map [ size - 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , i ) ; MST[rv.CRCR1Mutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR4Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[NonVoidMethodCallMutator]MSP[] return this . composite [ i ] . get ( key ) ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI2Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { this . composite [ i ] . clear () ; MST[rv.UOI4Mutator]MSP[] } } @Override public boolean containsKey ( final Object key ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR4Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[NegateConditionalsMutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[InlineConstantMutator]MSP[]
+if ( intersect . size () != 0 ) { MST[rv.ROR3Mutator]MSP[] if ( this . mutator == null ) { throw new IllegalArgumentException ( lr_2 ) ; } this . mutator . resolveCollision ( this , this . composite [ i ] , map , intersect ) ; } }
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; MST[MathMutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ;
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; MST[rv.AOR2Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ;
+values . addComposited ( composite [ i ] . values () ) ; MST[NonVoidMethodCallMutator]MSP[] } return values ; } @Override public boolean equals ( final Object obj ) { if ( obj instanceof Map ) {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.UOI3Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR2Mutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+temp [ temp . length - 1 ] = map ; MST[rv.AOR3Mutator]MSP[] this . composite = temp ; } } @SuppressWarnings ( lr_1 ) public synchronized Map < K , V > removeComposited ( final Map < K , V > map ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR4Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR4Mutator]MSP[]
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR6Mutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; MST[rv.UOI4Mutator]MSP[] }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; MST[rv.UOI3Mutator]MSP[] }
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { if ( this . composite [ i ] . equals ( map ) ) { MST[rv.ROR3Mutator]MSP[]
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR4Mutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( ! this . composite [ i ] . isEmpty () ) { return false ; MST[rv.CRCR1Mutator]MSP[] }
+temp [ temp . length - 1 ] = map ; MST[rv.CRCR4Mutator]MSP[] this . composite = temp ; } } @SuppressWarnings ( lr_1 ) public synchronized Map < K , V > removeComposited ( final Map < K , V > map ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR2Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR2Mutator]MSP[]
+for ( final Map . Entry < K , V > entry : entrySet () ) { code += entry . hashCode () ; MST[rv.AOR4Mutator]MSP[] } return code ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[NegateConditionalsMutator]MSP[] return this . composite [ i ] . get ( key ) ; }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR5Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+for ( final Map . Entry < K , V > entry : entrySet () ) { code += entry . hashCode () ; } return code ; MST[rv.UOI2Mutator]MSP[] }
+for ( final Map . Entry < K , V > entry : entrySet () ) { code += entry . hashCode () ; MST[rv.ABSMutator]MSP[] } return code ; }
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR3Mutator]MSP[] size += this . composite [ i ] . size () ; }
+values . addComposited ( composite [ i ] . values () ) ; MST[rv.UOI2Mutator]MSP[] } return values ; } @Override public boolean equals ( final Object obj ) { if ( obj instanceof Map ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR6Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR4Mutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( ! this . composite [ i ] . isEmpty () ) { MST[rv.ROR1Mutator]MSP[] return false ; }
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[rv.CRCR3Mutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR4Mutator]MSP[] size += this . composite [ i ] . size () ; }
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[InlineConstantMutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR2Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[IncrementsMutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI4Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR3Mutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.ROR1Mutator]MSP[] return true ; } } return false ; } @Override
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; MST[rv.UOI2Mutator]MSP[] }
+} return null ; } @Override public int size () { int size = 0 ; MST[InlineConstantMutator]MSP[] for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; }
+final Map < K , V > [] temp = new Map [ size - 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , i ) ; MST[rv.CRCR1Mutator]MSP[]
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; MST[rv.CRCR3Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ;
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[rv.UOI3Mutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+if ( intersect . size () != 0 ) { if ( this . mutator == null ) { MST[NegateConditionalsMutator]MSP[] throw new IllegalArgumentException ( lr_2 ) ; } this . mutator . resolveCollision ( this , this . composite [ i ] , map , intersect ) ; } }
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI2Mutator]MSP[] size += this . composite [ i ] . size () ; }
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsValue ( value ) ) { MST[rv.ROR1Mutator]MSP[] return true ; } }
+final Map < K , V > [] temp = new Map [ size - 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , i ) ; MST[rv.UOI2Mutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; MST[ArgumentPropagationMutator]MSP[] }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI1Mutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.UOI2Mutator]MSP[] return this . composite [ i ] . remove ( key ) ; }
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsValue ( value ) ) { return true ; MST[rv.CRCR5Mutator]MSP[] } }
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.UOI1Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR2Mutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR4Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.ROR4Mutator]MSP[] return this . composite [ i ] . remove ( key ) ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR4Mutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+final Map < K , V > [] temp = new Map [ size - 1 ] ; MST[rv.AOR4Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , i ) ;
+final Map < K , V > [] temp = new Map [ size - 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , i ) ; MST[rv.CRCR6Mutator]MSP[]
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR3Mutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI1Mutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[MathMutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR3Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return true ; MST[ReturnValsMutator]MSP[] } } return false ; } @Override
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] return true ; } } return false ; } @Override
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR3Mutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+keys . addComposited ( this . composite [ i ] . keySet () ) ; MST[rv.UOI4Mutator]MSP[] } return keys ; } @Override public V put ( final K key , final V value ) { if ( this . mutator == null ) { throw new UnsupportedOperationException ( lr_3 ) ;
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( ! this . composite [ i ] . isEmpty () ) { return false ; MST[BooleanTrueReturnValsMutator]MSP[] }
+values . addComposited ( composite [ i ] . values () ) ; } return values ; } @Override public boolean equals ( final Object obj ) { if ( obj instanceof Map ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; MST[rv.UOI2Mutator]MSP[] }
+} return true ; MST[ReturnValsMutator]MSP[] } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR5Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.CRCR6Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.CRCR2Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.UOI4Mutator]MSP[] return this . composite [ i ] . get ( key ) ; }
+final Map < K , V > [] temp = new Map [ size - 1 ] ; MST[rv.UOI3Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , i ) ;
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR1Mutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+final Map < ? , ? > map = ( Map < ? , ? > ) obj ; return this . entrySet () . equals ( map . entrySet () ) ; MST[NonVoidMethodCallMutator]MSP[] } return false ; } @Override public int hashCode () { int code = 0 ;
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsValue ( value ) ) { MST[rv.ROR5Mutator]MSP[] return true ; } }
+public void setMutator ( final MapMutator < K , V > mutator ) { this . mutator = mutator ; } @SuppressWarnings ( lr_1 ) public synchronized void addComposited ( final Map < K , V > map ) throws IllegalArgumentException { if ( map != null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[rv.ROR5Mutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[rv.ROR1Mutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.UOI4Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR5Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR2Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD1Mutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[MathMutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; MST[ConstructorCallMutator]MSP[] for ( int i = composite . length - 1 ; i >= 0 ; -- i ) {
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI1Mutator]MSP[]
+} return this . mutator . put ( this , this . composite , key , value ) ; MST[NonVoidMethodCallMutator]MSP[] } @Override public void putAll ( final Map < ? extends K , ? extends V > map ) { if ( this . mutator == null ) {
+final Map < ? , ? > map = ( Map < ? , ? > ) obj ; return this . entrySet () . equals ( map . entrySet () ) ; } return false ; } @Override public int hashCode () { int code = 0 ; MST[rv.CRCR3Mutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { this . composite [ i ] . clear () ; MST[rv.UOI3Mutator]MSP[] } } @Override public boolean containsKey ( final Object key ) {
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR4Mutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.AOD1Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ABSMutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR4Mutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[rv.UOI4Mutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[NegateConditionalsMutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[IncrementsMutator]MSP[] size += this . composite [ i ] . size () ; }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ABSMutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD2Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+} return null ; MST[ReturnValsMutator]MSP[] } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR3Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+public void setMutator ( final MapMutator < K , V > mutator ) { this . mutator = mutator ; } @SuppressWarnings ( lr_1 ) public synchronized void addComposited ( final Map < K , V > map ) throws IllegalArgumentException { if ( map != null ) { MST[rv.ROR5Mutator]MSP[]
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR2Mutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI2Mutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR6Mutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsValue ( value ) ) { MST[NegateConditionalsMutator]MSP[] return true ; } }
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { if ( this . composite [ i ] . equals ( map ) ) { MST[NonVoidMethodCallMutator]MSP[]
+return false ; } @Override public Set < Map . Entry < K , V > > entrySet () { final CompositeSet < Map . Entry < K , V > > entries = new CompositeSet <> () ; MST[ConstructorCallMutator]MSP[]
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ABSMutator]MSP[]
+for ( final Map . Entry < K , V > entry : entrySet () ) { code += entry . hashCode () ; } return code ; MST[rv.UOI3Mutator]MSP[] }
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[IncrementsMutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; MST[NullReturnValsMutator]MSP[] }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR1Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+} return true ; MST[rv.CRCR6Mutator]MSP[] } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) {
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR5Mutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.ABSMutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.CRCR3Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+final Map < K , V > [] temp = new Map [ size - 1 ] ; MST[rv.AOR1Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , i ) ;
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ; MST[VoidMethodCallMutator]MSP[]
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[ConditionalsBoundaryMutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[ConditionalsBoundaryMutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR4Mutator]MSP[] size += this . composite [ i ] . size () ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; MST[rv.CRCR3Mutator]MSP[] } @Override
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI4Mutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; MST[rv.UOI4Mutator]MSP[] }
+final Map < ? , ? > map = ( Map < ? , ? > ) obj ; return this . entrySet () . equals ( map . entrySet () ) ; } return false ; MST[rv.CRCR3Mutator]MSP[] } @Override public int hashCode () { int code = 0 ;
+return size ; MST[PrimitiveReturnsMutator]MSP[] } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) {
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.ROR1Mutator]MSP[] return this . composite [ i ] . get ( key ) ; }
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI1Mutator]MSP[]
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[MathMutator]MSP[]
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR6Mutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { this . composite [ i ] . clear () ; MST[VoidMethodCallMutator]MSP[] } } @Override public boolean containsKey ( final Object key ) {
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR3Mutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+for ( final Map . Entry < K , V > entry : entrySet () ) { code += entry . hashCode () ; } return code ; MST[rv.ABSMutator]MSP[] }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[NegateConditionalsMutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD1Mutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return true ; MST[rv.CRCR4Mutator]MSP[] } } return false ; } @Override
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.ROR4Mutator]MSP[] return true ; } } return false ; } @Override
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { entries . addComposited ( composite [ i ] . entrySet () ) ; MST[rv.UOI4Mutator]MSP[] } return entries ; } @Override public V get ( final Object key ) {
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[IncrementsMutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; MST[MathMutator]MSP[] }
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsValue ( value ) ) { MST[rv.UOI4Mutator]MSP[] return true ; } }
+} return null ; } @Override public int size () { int size = 0 ; MST[rv.CRCR6Mutator]MSP[] for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; }
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[] size += this . composite [ i ] . size () ; }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[MathMutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; MST[rv.AOD2Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ;
+values . addComposited ( composite [ i ] . values () ) ; MST[rv.UOI4Mutator]MSP[] } return values ; } @Override public boolean equals ( final Object obj ) { if ( obj instanceof Map ) {
+temp [ temp . length - 1 ] = map ; MST[rv.CRCR6Mutator]MSP[] this . composite = temp ; } } @SuppressWarnings ( lr_1 ) public synchronized Map < K , V > removeComposited ( final Map < K , V > map ) {
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR4Mutator]MSP[]
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR4Mutator]MSP[]
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( ! this . composite [ i ] . isEmpty () ) { MST[NonVoidMethodCallMutator]MSP[] return false ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR3Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR2Mutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+throw new UnsupportedOperationException ( lr_3 ) ; MST[ConstructorCallMutator]MSP[] } this . mutator . putAll ( this , this . composite , map ) ; } @Override public V remove ( final Object key ) {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.AOR3Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR3Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.AOR1Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( final Map . Entry < K , V > entry : entrySet () ) { code += entry . hashCode () ; MST[rv.AOR2Mutator]MSP[] } return code ; }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[InlineConstantMutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; MST[rv.CRCR1Mutator]MSP[] } @Override
+temp [ temp . length - 1 ] = map ; this . composite = temp ; MST[experimental.MemberVariableMutator]MSP[] } } @SuppressWarnings ( lr_1 ) public synchronized Map < K , V > removeComposited ( final Map < K , V > map ) {
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR2Mutator]MSP[] size += this . composite [ i ] . size () ; }
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[rv.UOI1Mutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; MST[rv.CRCR5Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ;
+keys . addComposited ( this . composite [ i ] . keySet () ) ; } return keys ; } @Override public V put ( final K key , final V value ) { if ( this . mutator == null ) { throw new UnsupportedOperationException ( lr_3 ) ; MST[ConstructorCallMutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI3Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD2Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+} return null ; MST[ReturnValsMutator]MSP[] } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; }
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; MST[rv.AOR4Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ;
+final Map < ? , ? > map = ( Map < ? , ? > ) obj ; return this . entrySet () . equals ( map . entrySet () ) ; } return false ; } @Override public int hashCode () { int code = 0 ; MST[rv.CRCR6Mutator]MSP[]
+if ( intersect . size () != 0 ) { MST[rv.ROR5Mutator]MSP[] if ( this . mutator == null ) { throw new IllegalArgumentException ( lr_2 ) ; } this . mutator . resolveCollision ( this , this . composite [ i ] , map , intersect ) ; } }
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[]
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsValue ( value ) ) { return true ; MST[InlineConstantMutator]MSP[] } }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI2Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+public void setMutator ( final MapMutator < K , V > mutator ) { this . mutator = mutator ; MST[experimental.MemberVariableMutator]MSP[] } @SuppressWarnings ( lr_1 ) public synchronized void addComposited ( final Map < K , V > map ) throws IllegalArgumentException { if ( map != null ) {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.UOI1Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+if ( intersect . size () != 0 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] if ( this . mutator == null ) { throw new IllegalArgumentException ( lr_2 ) ; } this . mutator . resolveCollision ( this , this . composite [ i ] , map , intersect ) ; } }
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR2Mutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR1Mutator]MSP[] size += this . composite [ i ] . size () ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[NonVoidMethodCallMutator]MSP[] return this . composite [ i ] . remove ( key ) ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR2Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI4Mutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[MathMutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+final Map < ? , ? > map = ( Map < ? , ? > ) obj ; return this . entrySet () . equals ( map . entrySet () ) ; } return false ; MST[InlineConstantMutator]MSP[] } @Override public int hashCode () { int code = 0 ;
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR4Mutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR5Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; MST[NonVoidMethodCallMutator]MSP[] }
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[ConditionalsBoundaryMutator]MSP[] size += this . composite [ i ] . size () ; }
+for ( final Map . Entry < K , V > entry : entrySet () ) { code += entry . hashCode () ; MST[MathMutator]MSP[] } return code ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR3Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR2Mutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[InlineConstantMutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( ! this . composite [ i ] . isEmpty () ) { MST[rv.ROR4Mutator]MSP[] return false ; }
+for ( final Map . Entry < K , V > entry : entrySet () ) { code += entry . hashCode () ; } return code ; MST[ReturnValsMutator]MSP[] }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return true ; MST[BooleanFalseReturnValsMutator]MSP[] } } return false ; } @Override
+values . addComposited ( composite [ i ] . values () ) ; } return values ; } @Override public boolean equals ( final Object obj ) { if ( obj instanceof Map ) { MST[rv.ROR4Mutator]MSP[]
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.UOI2Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI3Mutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[ConditionalsBoundaryMutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR3Mutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.CRCR4Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+final Map < ? , ? > map = ( Map < ? , ? > ) obj ; return this . entrySet () . equals ( map . entrySet () ) ; } return false ; } @Override public int hashCode () { int code = 0 ; MST[rv.CRCR1Mutator]MSP[]
+final Map < K , V > [] temp = new Map [ size - 1 ] ; MST[rv.AOD2Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , i ) ;
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR1Mutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+return size ; MST[rv.UOI4Mutator]MSP[] } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) {
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsValue ( value ) ) { MST[rv.ROR3Mutator]MSP[] return true ; } }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ABSMutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[rv.ROR3Mutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI3Mutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; MST[rv.UOI1Mutator]MSP[] }
+final Map < K , V > [] temp = new Map [ size - 1 ] ; MST[rv.UOI1Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , i ) ;
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[VoidMethodCallMutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.ROR4Mutator]MSP[] return this . composite [ i ] . get ( key ) ; }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ; MST[NonVoidMethodCallMutator]MSP[]
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsValue ( value ) ) { return true ; MST[rv.CRCR3Mutator]MSP[] } }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.UOI2Mutator]MSP[] return this . composite [ i ] . get ( key ) ; }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR4Mutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; MST[rv.ABSMutator]MSP[] }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( ! this . composite [ i ] . isEmpty () ) { MST[NegateConditionalsMutator]MSP[] return false ; }
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI4Mutator]MSP[] size += this . composite [ i ] . size () ; }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR2Mutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR2Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ; MST[rv.ABSMutator]MSP[]
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD2Mutator]MSP[]
+final Map < K , V > [] temp = new Map [ size - 1 ] ; MST[rv.AOR2Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , i ) ;
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.CRCR2Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; MST[ReturnValsMutator]MSP[] }
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.AOD1Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.AOD2Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[InlineConstantMutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; MST[NonVoidMethodCallMutator]MSP[] }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.ROR2Mutator]MSP[] return this . composite [ i ] . remove ( key ) ; }
+} return this . mutator . put ( this , this . composite , key , value ) ; MST[ArgumentPropagationMutator]MSP[] } @Override public void putAll ( final Map < ? extends K , ? extends V > map ) { if ( this . mutator == null ) {
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR3Mutator]MSP[]
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR1Mutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR6Mutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR3Mutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI4Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+if ( intersect . size () != 0 ) { if ( this . mutator == null ) { throw new IllegalArgumentException ( lr_2 ) ; } this . mutator . resolveCollision ( this , this . composite [ i ] , map , intersect ) ; MST[rv.ABSMutator]MSP[] } }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR5Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR5Mutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[NegateConditionalsMutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; MST[rv.UOI2Mutator]MSP[] }
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[MathMutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR5Mutator]MSP[] size += this . composite [ i ] . size () ; }
+values . addComposited ( composite [ i ] . values () ) ; } return values ; } @Override public boolean equals ( final Object obj ) { if ( obj instanceof Map ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[]
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[InlineConstantMutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR1Mutator]MSP[]
+temp [ temp . length - 1 ] = map ; MST[rv.AOD2Mutator]MSP[] this . composite = temp ; } } @SuppressWarnings ( lr_1 ) public synchronized Map < K , V > removeComposited ( final Map < K , V > map ) {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.ABSMutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.AOR4Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR4Mutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+for ( final Map . Entry < K , V > entry : entrySet () ) { MST[NonVoidMethodCallMutator]MSP[] code += entry . hashCode () ; } return code ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR4Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ABSMutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+for ( final Map . Entry < K , V > entry : entrySet () ) { code += entry . hashCode () ; } return code ; MST[rv.UOI1Mutator]MSP[] }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR3Mutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+for ( final Map . Entry < K , V > entry : entrySet () ) { code += entry . hashCode () ; MST[rv.AOR3Mutator]MSP[] } return code ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR4Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+values . addComposited ( composite [ i ] . values () ) ; } return values ; } @Override public boolean equals ( final Object obj ) { if ( obj instanceof Map ) { MST[rv.ROR3Mutator]MSP[]
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[rv.CRCR1Mutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( ! this . composite [ i ] . isEmpty () ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] return false ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return true ; MST[rv.CRCR3Mutator]MSP[] } } return false ; } @Override
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[MathMutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD1Mutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[MathMutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.ROR3Mutator]MSP[] return true ; } } return false ; } @Override
+} return null ; } @Override public int size () { int size = 0 ; MST[rv.CRCR1Mutator]MSP[] for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; }
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[rv.ABSMutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] return true ; } } return false ; } @Override
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR3Mutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+final Map < K , V > [] temp = new Map [ size - 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , i ) ; MST[rv.CRCR3Mutator]MSP[]
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR3Mutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI3Mutator]MSP[]
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ; MST[NonVoidMethodCallMutator]MSP[]
+final Map < ? , ? > map = ( Map < ? , ? > ) obj ; return this . entrySet () . equals ( map . entrySet () ) ; } return false ; } @Override public int hashCode () { int code = 0 ; MST[rv.CRCR5Mutator]MSP[]
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsValue ( value ) ) { MST[NonVoidMethodCallMutator]MSP[] return true ; } }
+if ( intersect . size () != 0 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] if ( this . mutator == null ) { throw new IllegalArgumentException ( lr_2 ) ; } this . mutator . resolveCollision ( this , this . composite [ i ] , map , intersect ) ; } }
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; MST[rv.AOR3Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ;
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.UOI2Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[NegateConditionalsMutator]MSP[] size += this . composite [ i ] . size () ; }
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR3Mutator]MSP[] size += this . composite [ i ] . size () ; }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR1Mutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI4Mutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+return false ; MST[ReturnValsMutator]MSP[] } @Override public Set < Map . Entry < K , V > > entrySet () { final CompositeSet < Map . Entry < K , V > > entries = new CompositeSet <> () ;
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.CRCR3Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[NonVoidMethodCallMutator]MSP[] return true ; } } return false ; } @Override
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR2Mutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[NegateConditionalsMutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR6Mutator]MSP[]
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { if ( this . composite [ i ] . equals ( map ) ) { MST[rv.ROR5Mutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; MST[ReturnValsMutator]MSP[] } @Override
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[rv.UOI2Mutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( ! this . composite [ i ] . isEmpty () ) { return false ; MST[rv.CRCR5Mutator]MSP[] }
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; MST[rv.CRCR2Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ;
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[MathMutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+if ( intersect . size () != 0 ) { MST[NegateConditionalsMutator]MSP[] if ( this . mutator == null ) { throw new IllegalArgumentException ( lr_2 ) ; } this . mutator . resolveCollision ( this , this . composite [ i ] , map , intersect ) ; } }
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { if ( this . composite [ i ] . equals ( map ) ) { MST[rv.ROR2Mutator]MSP[]
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.AOR1Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR1Mutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD2Mutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+} return true ; MST[InlineConstantMutator]MSP[] } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) {
+temp [ temp . length - 1 ] = map ; MST[rv.CRCR3Mutator]MSP[] this . composite = temp ; } } @SuppressWarnings ( lr_1 ) public synchronized Map < K , V > removeComposited ( final Map < K , V > map ) {
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( ! this . composite [ i ] . isEmpty () ) { MST[rv.ROR5Mutator]MSP[] return false ; }
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.AOR4Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( ! this . composite [ i ] . isEmpty () ) { return false ; MST[ReturnValsMutator]MSP[] }
+if ( intersect . size () != 0 ) { if ( this . mutator == null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] throw new IllegalArgumentException ( lr_2 ) ; } this . mutator . resolveCollision ( this , this . composite [ i ] , map , intersect ) ; } }
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.UOI3Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+final Map < K , V > [] temp = new Map [ size - 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , i ) ; MST[VoidMethodCallMutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR2Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR1Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { entries . addComposited ( composite [ i ] . entrySet () ) ; MST[rv.ABSMutator]MSP[] } return entries ; } @Override public V get ( final Object key ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR3Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+temp [ temp . length - 1 ] = map ; MST[rv.AOR4Mutator]MSP[] this . composite = temp ; } } @SuppressWarnings ( lr_1 ) public synchronized Map < K , V > removeComposited ( final Map < K , V > map ) {
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[NegateConditionalsMutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR3Mutator]MSP[]
+return false ; MST[rv.CRCR5Mutator]MSP[] } @Override public Set < Map . Entry < K , V > > entrySet () { final CompositeSet < Map . Entry < K , V > > entries = new CompositeSet <> () ;
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR6Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR5Mutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; MST[InlineConstantMutator]MSP[] } @Override
+temp [ temp . length - 1 ] = map ; MST[MathMutator]MSP[] this . composite = temp ; } } @SuppressWarnings ( lr_1 ) public synchronized Map < K , V > removeComposited ( final Map < K , V > map ) {
+final Map < K , V > [] temp = new Map [ size - 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , i ) ; MST[rv.CRCR3Mutator]MSP[]
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI4Mutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[InlineConstantMutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI1Mutator]MSP[] size += this . composite [ i ] . size () ; }
+final Map < ? , ? > map = ( Map < ? , ? > ) obj ; return this . entrySet () . equals ( map . entrySet () ) ; } return false ; MST[rv.CRCR5Mutator]MSP[] } @Override public int hashCode () { int code = 0 ;
+return false ; MST[InlineConstantMutator]MSP[] } @Override public Set < Map . Entry < K , V > > entrySet () { final CompositeSet < Map . Entry < K , V > > entries = new CompositeSet <> () ;
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsValue ( value ) ) { return true ; MST[rv.CRCR6Mutator]MSP[] } }
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI3Mutator]MSP[]
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; MST[rv.AOR2Mutator]MSP[] }
+values . addComposited ( composite [ i ] . values () ) ; } return values ; MST[ReturnValsMutator]MSP[] } @Override public boolean equals ( final Object obj ) { if ( obj instanceof Map ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; MST[NullReturnValsMutator]MSP[] }
+final Map < ? , ? > map = ( Map < ? , ? > ) obj ; return this . entrySet () . equals ( map . entrySet () ) ; } return false ; } @Override public int hashCode () { int code = 0 ; MST[InlineConstantMutator]MSP[]
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; this . composite = temp ; return map ; MST[ReturnValsMutator]MSP[] } } return null ; } @Override public void clear () {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.UOI4Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( final Map . Entry < K , V > entry : entrySet () ) { code += entry . hashCode () ; MST[rv.UOI3Mutator]MSP[] } return code ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] return this . composite [ i ] . remove ( key ) ; }
+final Map < ? , ? > map = ( Map < ? , ? > ) obj ; return this . entrySet () . equals ( map . entrySet () ) ; } return false ; MST[ReturnValsMutator]MSP[] } @Override public int hashCode () { int code = 0 ;
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( ! this . composite [ i ] . isEmpty () ) { MST[rv.UOI4Mutator]MSP[] return false ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return true ; MST[rv.CRCR6Mutator]MSP[] } } return false ; } @Override
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR2Mutator]MSP[]
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR4Mutator]MSP[]
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; MST[rv.AOR4Mutator]MSP[] }
+final Map < ? , ? > map = ( Map < ? , ? > ) obj ; return this . entrySet () . equals ( map . entrySet () ) ; MST[BooleanFalseReturnValsMutator]MSP[] } return false ; } @Override public int hashCode () { int code = 0 ;
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; MST[rv.UOI3Mutator]MSP[] }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; MST[rv.UOI1Mutator]MSP[] }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { entries . addComposited ( composite [ i ] . entrySet () ) ; MST[rv.UOI2Mutator]MSP[] } return entries ; } @Override public V get ( final Object key ) {
+final Map < ? , ? > map = ( Map < ? , ? > ) obj ; return this . entrySet () . equals ( map . entrySet () ) ; } return false ; MST[BooleanTrueReturnValsMutator]MSP[] } @Override public int hashCode () { int code = 0 ;
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[rv.UOI3Mutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+if ( intersect . size () != 0 ) { if ( this . mutator == null ) { throw new IllegalArgumentException ( lr_2 ) ; } this . mutator . resolveCollision ( this , this . composite [ i ] , map , intersect ) ; MST[VoidMethodCallMutator]MSP[] } }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR4Mutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ABSMutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { this . composite [ i ] . clear () ; MST[rv.ABSMutator]MSP[] } } @Override public boolean containsKey ( final Object key ) {
+} return true ; MST[rv.CRCR4Mutator]MSP[] } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) {
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR2Mutator]MSP[] size += this . composite [ i ] . size () ; }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( ! this . composite [ i ] . isEmpty () ) { MST[rv.ROR2Mutator]MSP[] return false ; }
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.ABSMutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+temp [ temp . length - 1 ] = map ; MST[rv.AOR2Mutator]MSP[] this . composite = temp ; } } @SuppressWarnings ( lr_1 ) public synchronized Map < K , V > removeComposited ( final Map < K , V > map ) {
+throw new UnsupportedOperationException ( lr_3 ) ; } this . mutator . putAll ( this , this . composite , map ) ; MST[VoidMethodCallMutator]MSP[] } @Override public V remove ( final Object key ) {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.CRCR5Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { entries . addComposited ( composite [ i ] . entrySet () ) ; MST[NonVoidMethodCallMutator]MSP[] } return entries ; } @Override public V get ( final Object key ) {
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR1Mutator]MSP[]
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { if ( this . composite [ i ] . equals ( map ) ) { MST[NegateConditionalsMutator]MSP[]
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR2Mutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; MST[rv.UOI3Mutator]MSP[] }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[IncrementsMutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; MST[rv.CRCR5Mutator]MSP[] } @Override
+keys . addComposited ( this . composite [ i ] . keySet () ) ; MST[VoidMethodCallMutator]MSP[] } return keys ; } @Override public V put ( final K key , final V value ) { if ( this . mutator == null ) { throw new UnsupportedOperationException ( lr_3 ) ;
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI1Mutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ; MST[rv.CRCR1Mutator]MSP[]
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR3Mutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; MST[NonVoidMethodCallMutator]MSP[] }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD2Mutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+} return true ; MST[BooleanFalseReturnValsMutator]MSP[] } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) {
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD1Mutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; MST[rv.ABSMutator]MSP[] }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI3Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR3Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD2Mutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+final Map < K , V > [] temp = new Map [ size - 1 ] ; MST[rv.CRCR4Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , i ) ;
+if ( intersect . size () != 0 ) { MST[rv.ROR2Mutator]MSP[] if ( this . mutator == null ) { throw new IllegalArgumentException ( lr_2 ) ; } this . mutator . resolveCollision ( this , this . composite [ i ] , map , intersect ) ; } }
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; MST[rv.AOR1Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ;
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; MST[BooleanTrueReturnValsMutator]MSP[] } @Override
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.AOD2Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.UOI4Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR5Mutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR3Mutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.AOR3Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI2Mutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+values . addComposited ( composite [ i ] . values () ) ; } return values ; } @Override public boolean equals ( final Object obj ) { if ( obj instanceof Map ) { MST[rv.ROR1Mutator]MSP[]
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR2Mutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR2Mutator]MSP[]
+final Map < ? , ? > map = ( Map < ? , ? > ) obj ; return this . entrySet () . equals ( map . entrySet () ) ; MST[NonVoidMethodCallMutator]MSP[] } return false ; } @Override public int hashCode () { int code = 0 ;
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD1Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+final Map < K , V > [] temp = new Map [ size - 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , i ) ; MST[rv.CRCR6Mutator]MSP[]
+return size ; MST[rv.UOI1Mutator]MSP[] } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) {
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[IncrementsMutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[MathMutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.UOI3Mutator]MSP[] return true ; } } return false ; } @Override
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ; MST[rv.CRCR6Mutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR1Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ABSMutator]MSP[]
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( ! this . composite [ i ] . isEmpty () ) { MST[rv.ABSMutator]MSP[] return false ; }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ; MST[rv.UOI2Mutator]MSP[]
+public void setMutator ( final MapMutator < K , V > mutator ) { this . mutator = mutator ; } @SuppressWarnings ( lr_1 ) public synchronized void addComposited ( final Map < K , V > map ) throws IllegalArgumentException { if ( map != null ) { MST[NegateConditionalsMutator]MSP[]
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR5Mutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[NegateConditionalsMutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; MST[InlineConstantMutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ;
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { if ( this . composite [ i ] . equals ( map ) ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[]
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD1Mutator]MSP[] size += this . composite [ i ] . size () ; }
+for ( final Map . Entry < K , V > entry : entrySet () ) { code += entry . hashCode () ; MST[rv.AOD1Mutator]MSP[] } return code ; }
+if ( intersect . size () != 0 ) { if ( this . mutator == null ) { throw new IllegalArgumentException ( lr_2 ) ; } this . mutator . resolveCollision ( this , this . composite [ i ] , map , intersect ) ; MST[rv.UOI2Mutator]MSP[] } }
+keys . addComposited ( this . composite [ i ] . keySet () ) ; } return keys ; MST[ReturnValsMutator]MSP[] } @Override public V put ( final K key , final V value ) { if ( this . mutator == null ) { throw new UnsupportedOperationException ( lr_3 ) ;
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsValue ( value ) ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] return true ; } }
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ; MST[rv.CRCR1Mutator]MSP[]
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR5Mutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+} return null ; } @Override public int size () { int size = 0 ; MST[rv.CRCR3Mutator]MSP[] for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI1Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; this . composite = temp ; MST[experimental.MemberVariableMutator]MSP[] return map ; } } return null ; } @Override public void clear () {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.ROR2Mutator]MSP[] return this . composite [ i ] . get ( key ) ; }
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI2Mutator]MSP[]
+for ( final Map . Entry < K , V > entry : entrySet () ) { code += entry . hashCode () ; MST[rv.UOI4Mutator]MSP[] } return code ; }
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; MST[rv.UOI3Mutator]MSP[] }
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; MST[ConstructorCallMutator]MSP[] for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; MST[ReturnValsMutator]MSP[] }
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; MST[rv.AOR1Mutator]MSP[] }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( ! this . composite [ i ] . isEmpty () ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] return false ; }
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR5Mutator]MSP[]
+values . addComposited ( composite [ i ] . values () ) ; } return values ; } @Override public boolean equals ( final Object obj ) { if ( obj instanceof Map ) { MST[NegateConditionalsMutator]MSP[]
+values . addComposited ( composite [ i ] . values () ) ; MST[VoidMethodCallMutator]MSP[] } return values ; } @Override public boolean equals ( final Object obj ) { if ( obj instanceof Map ) {
+final Map < K , V > [] temp = new Map [ size - 1 ] ; MST[MathMutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , i ) ;
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR4Mutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.CRCR4Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+final Map < ? , ? > map = ( Map < ? , ? > ) obj ; return this . entrySet () . equals ( map . entrySet () ) ; MST[NonVoidMethodCallMutator]MSP[] } return false ; } @Override public int hashCode () { int code = 0 ;
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsValue ( value ) ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] return true ; } }
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsValue ( value ) ) { return true ; MST[ReturnValsMutator]MSP[] } }
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR5Mutator]MSP[] size += this . composite [ i ] . size () ; }
+if ( intersect . size () != 0 ) { MST[NonVoidMethodCallMutator]MSP[] if ( this . mutator == null ) { throw new IllegalArgumentException ( lr_2 ) ; } this . mutator . resolveCollision ( this , this . composite [ i ] , map , intersect ) ; } }
+keys . addComposited ( this . composite [ i ] . keySet () ) ; } return keys ; MST[EmptyObjectReturnValsMutator]MSP[] } @Override public V put ( final K key , final V value ) { if ( this . mutator == null ) { throw new UnsupportedOperationException ( lr_3 ) ;
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; MST[rv.CRCR4Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ;
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI2Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ; MST[rv.CRCR6Mutator]MSP[]
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { entries . addComposited ( composite [ i ] . entrySet () ) ; MST[VoidMethodCallMutator]MSP[] } return entries ; } @Override public V get ( final Object key ) {
+if ( intersect . size () != 0 ) { if ( this . mutator == null ) { MST[rv.ROR5Mutator]MSP[] throw new IllegalArgumentException ( lr_2 ) ; } this . mutator . resolveCollision ( this , this . composite [ i ] , map , intersect ) ; } }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( ! this . composite [ i ] . isEmpty () ) { return false ; MST[rv.CRCR3Mutator]MSP[] }
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR3Mutator]MSP[]
+temp [ temp . length - 1 ] = map ; MST[rv.CRCR5Mutator]MSP[] this . composite = temp ; } } @SuppressWarnings ( lr_1 ) public synchronized Map < K , V > removeComposited ( final Map < K , V > map ) {
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( ! this . composite [ i ] . isEmpty () ) { MST[rv.ROR3Mutator]MSP[] return false ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.ABSMutator]MSP[] return this . composite [ i ] . remove ( key ) ; }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ; MST[rv.UOI4Mutator]MSP[]
+} return true ; MST[rv.CRCR5Mutator]MSP[] } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) {
+if ( intersect . size () != 0 ) { if ( this . mutator == null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] throw new IllegalArgumentException ( lr_2 ) ; } this . mutator . resolveCollision ( this , this . composite [ i ] , map , intersect ) ; } }
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.AOR2Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.UOI1Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI2Mutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ABSMutator]MSP[] size += this . composite [ i ] . size () ; }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[InlineConstantMutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR1Mutator]MSP[]
+final Map < K , V > [] temp = new Map [ size - 1 ] ; MST[rv.CRCR3Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , i ) ;
+if ( intersect . size () != 0 ) { if ( this . mutator == null ) { throw new IllegalArgumentException ( lr_2 ) ; } this . mutator . resolveCollision ( this , this . composite [ i ] , map , intersect ) ; MST[rv.UOI4Mutator]MSP[] } }
+return false ; MST[rv.CRCR3Mutator]MSP[] } @Override public Set < Map . Entry < K , V > > entrySet () { final CompositeSet < Map . Entry < K , V > > entries = new CompositeSet <> () ;
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ABSMutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; MST[rv.UOI4Mutator]MSP[] }
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsValue ( value ) ) { MST[rv.UOI3Mutator]MSP[] return true ; } }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR1Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR3Mutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+final Map < ? , ? > map = ( Map < ? , ? > ) obj ; return this . entrySet () . equals ( map . entrySet () ) ; MST[BooleanTrueReturnValsMutator]MSP[] } return false ; } @Override public int hashCode () { int code = 0 ;
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { entries . addComposited ( composite [ i ] . entrySet () ) ; MST[rv.UOI3Mutator]MSP[] } return entries ; } @Override public V get ( final Object key ) {
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ; MST[InlineConstantMutator]MSP[]
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[rv.UOI4Mutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI4Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+keys . addComposited ( this . composite [ i ] . keySet () ) ; } return keys ; } @Override public V put ( final K key , final V value ) { if ( this . mutator == null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] throw new UnsupportedOperationException ( lr_3 ) ;
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD1Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI1Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+final Map < K , V > [] temp = new Map [ size - 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , i ) ; MST[InlineConstantMutator]MSP[]
+if ( intersect . size () != 0 ) { MST[rv.ROR4Mutator]MSP[] if ( this . mutator == null ) { throw new IllegalArgumentException ( lr_2 ) ; } this . mutator . resolveCollision ( this , this . composite [ i ] , map , intersect ) ; } }
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[] size += this . composite [ i ] . size () ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI3Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+return false ; MST[BooleanTrueReturnValsMutator]MSP[] } @Override public Set < Map . Entry < K , V > > entrySet () { final CompositeSet < Map . Entry < K , V > > entries = new CompositeSet <> () ;
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR2Mutator]MSP[] size += this . composite [ i ] . size () ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[MathMutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.AOR1Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.AOR4Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.CRCR5Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+temp [ temp . length - 1 ] = map ; MST[rv.AOR1Mutator]MSP[] this . composite = temp ; } } @SuppressWarnings ( lr_1 ) public synchronized Map < K , V > removeComposited ( final Map < K , V > map ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR4Mutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { if ( this . composite [ i ] . equals ( map ) ) { MST[rv.UOI1Mutator]MSP[]
+return size ; MST[rv.UOI3Mutator]MSP[] } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) {
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( ! this . composite [ i ] . isEmpty () ) { return false ; MST[InlineConstantMutator]MSP[] }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; MST[ReturnValsMutator]MSP[] } @Override public V get ( final Object key ) {
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { if ( this . composite [ i ] . equals ( map ) ) { MST[rv.ABSMutator]MSP[]
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; MST[rv.UOI4Mutator]MSP[] }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.UOI4Mutator]MSP[] return true ; } } return false ; } @Override
+values . addComposited ( composite [ i ] . values () ) ; MST[rv.UOI3Mutator]MSP[] } return values ; } @Override public boolean equals ( final Object obj ) { if ( obj instanceof Map ) {
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.ROR5Mutator]MSP[] return true ; } } return false ; } @Override
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR3Mutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ABSMutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR3Mutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[NegateConditionalsMutator]MSP[] return this . composite [ i ] . remove ( key ) ; }
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR4Mutator]MSP[] size += this . composite [ i ] . size () ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] return this . composite [ i ] . get ( key ) ; }
+values . addComposited ( composite [ i ] . values () ) ; } return values ; } @Override public boolean equals ( final Object obj ) { if ( obj instanceof Map ) { MST[rv.ROR5Mutator]MSP[]
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; this . composite = temp ; return map ; MST[NullReturnValsMutator]MSP[] } } return null ; } @Override public void clear () {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return true ; MST[rv.CRCR5Mutator]MSP[] } } return false ; } @Override
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI3Mutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[IncrementsMutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR3Mutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+final Map < K , V > [] temp = new Map [ size - 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , i ) ; MST[rv.CRCR5Mutator]MSP[]
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR2Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsValue ( value ) ) { return true ; MST[BooleanFalseReturnValsMutator]MSP[] } }
+final Map < K , V > [] temp = new Map [ size - 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , i ) ; MST[rv.UOI3Mutator]MSP[]
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsValue ( value ) ) { MST[rv.ROR2Mutator]MSP[] return true ; } }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[ConditionalsBoundaryMutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+} return this . mutator . put ( this , this . composite , key , value ) ; } @Override public void putAll ( final Map < ? extends K , ? extends V > map ) { if ( this . mutator == null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.UOI3Mutator]MSP[] return this . composite [ i ] . remove ( key ) ; }
+final Map < K , V > [] temp = new Map [ size - 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , i ) ; MST[InlineConstantMutator]MSP[]
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsValue ( value ) ) { return true ; MST[rv.CRCR4Mutator]MSP[] } }
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsValue ( value ) ) { return true ; MST[rv.CRCR2Mutator]MSP[] } }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR1Mutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+for ( final Map . Entry < K , V > entry : entrySet () ) { code += entry . hashCode () ; MST[rv.UOI1Mutator]MSP[] } return code ; }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[IncrementsMutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.UOI2Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR3Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] return this . composite [ i ] . remove ( key ) ; }
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI3Mutator]MSP[] size += this . composite [ i ] . size () ; }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( ! this . composite [ i ] . isEmpty () ) { MST[rv.UOI2Mutator]MSP[] return false ; }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD2Mutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+return size ; MST[rv.ABSMutator]MSP[] } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR1Mutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.UOI3Mutator]MSP[] return this . composite [ i ] . get ( key ) ; }
+final Map < K , V > [] temp = new Map [ size - 1 ] ; MST[rv.UOI4Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , i ) ;
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[MathMutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsValue ( value ) ) { MST[rv.ROR4Mutator]MSP[] return true ; } }
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR2Mutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[rv.UOI1Mutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[InlineConstantMutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[rv.ROR4Mutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+} return this . mutator . put ( this , this . composite , key , value ) ; } @Override public void putAll ( final Map < ? extends K , ? extends V > map ) { if ( this . mutator == null ) { MST[rv.ROR5Mutator]MSP[]
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR2Mutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[rv.ROR2Mutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+keys . addComposited ( this . composite [ i ] . keySet () ) ; MST[rv.UOI3Mutator]MSP[] } return keys ; } @Override public V put ( final K key , final V value ) { if ( this . mutator == null ) { throw new UnsupportedOperationException ( lr_3 ) ;
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ; MST[rv.CRCR3Mutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return true ; MST[InlineConstantMutator]MSP[] } } return false ; } @Override
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR4Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+for ( final Map . Entry < K , V > entry : entrySet () ) { code += entry . hashCode () ; } return code ; MST[rv.UOI4Mutator]MSP[] }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[MathMutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; MST[rv.ABSMutator]MSP[] }
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { MST[rv.CRCR6Mutator]MSP[] if ( this . composite [ i ] . equals ( map ) ) {
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { size += this . composite [ i ] . size () ; MST[rv.AOD2Mutator]MSP[] }
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.AOD2Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD1Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR4Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[IncrementsMutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR5Mutator]MSP[] this . composite [ i ] . clear () ; } } @Override public boolean containsKey ( final Object key ) {
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI2Mutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOD2Mutator]MSP[]
+final Map < K , V > [] temp = new Map [ size - 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , i ) ; MST[rv.CRCR5Mutator]MSP[]
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[ConditionalsBoundaryMutator]MSP[]
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[NegateConditionalsMutator]MSP[]
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI2Mutator]MSP[]
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; this . composite = temp ; return map ; } } return null ; MST[ReturnValsMutator]MSP[] } @Override public void clear () {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR6Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+final Map < K , V > [] temp = new Map [ size - 1 ] ; MST[rv.CRCR6Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , i ) ;
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[ConditionalsBoundaryMutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI1Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { this . composite [ i ] . clear () ; MST[rv.UOI2Mutator]MSP[] } } @Override public boolean containsKey ( final Object key ) {
+values . addComposited ( composite [ i ] . values () ) ; } return values ; MST[EmptyObjectReturnValsMutator]MSP[] } @Override public boolean equals ( final Object obj ) { if ( obj instanceof Map ) {
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.UOI2Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR3Mutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR5Mutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+} return true ; } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR4Mutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[IncrementsMutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return true ; } } return false ; } @Override
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[IncrementsMutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.CRCR2Mutator]MSP[]
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[MathMutator]MSP[] size += this . composite [ i ] . size () ; }
+temp [ temp . length - 1 ] = map ; MST[rv.CRCR2Mutator]MSP[] this . composite = temp ; } } @SuppressWarnings ( lr_1 ) public synchronized Map < K , V > removeComposited ( final Map < K , V > map ) {
+return false ; MST[rv.CRCR6Mutator]MSP[] } @Override public Set < Map . Entry < K , V > > entrySet () { final CompositeSet < Map . Entry < K , V > > entries = new CompositeSet <> () ;
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { if ( this . composite [ i ] . equals ( map ) ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[]
+final int size = this . composite . length ; for ( int i = 0 ; i < size ; ++ i ) { if ( this . composite [ i ] . equals ( map ) ) { MST[rv.UOI3Mutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[NegateConditionalsMutator]MSP[] return true ; } } return false ; } @Override
+} return null ; } @Override public int size () { int size = 0 ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[InlineConstantMutator]MSP[] size += this . composite [ i ] . size () ; }
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; MST[rv.AOD1Mutator]MSP[] System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ;
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ; MST[rv.CRCR3Mutator]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; MST[rv.UOI1Mutator]MSP[] }
+final Map < K , V > [] temp = new Map [ size - 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , i ) ; MST[rv.ABSMutator]MSP[]
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR1Mutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.ABSMutator]MSP[] return this . composite [ i ] . get ( key ) ; }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.AOR2Mutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+return size ; } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[]
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR2Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . remove ( key ) ; }
+} return null ; } @Override public boolean isEmpty () { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR1Mutator]MSP[] if ( ! this . composite [ i ] . isEmpty () ) { return false ; }
+} return true ; MST[rv.CRCR2Mutator]MSP[] } @Override public Set < K > keySet () { final CompositeSet < K > keys = new CompositeSet <> () ; for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) {
+return size ; MST[ReturnValsMutator]MSP[] } @Override public Collection < V > values () { final CompositeCollection < V > values = new CompositeCollection <> () ; for ( int i = composite . length - 1 ; i >= 0 ; -- i ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR4Mutator]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+System . arraycopy ( this . composite , i + 1 , temp , i , size - i - 1 ) ; MST[rv.AOR2Mutator]MSP[] this . composite = temp ; return map ; } } return null ; } @Override public void clear () {
+for ( final Map . Entry < K , V > entry : entrySet () ) { code += entry . hashCode () ; MST[rv.AOR1Mutator]MSP[] } return code ; }
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[] if ( this . composite [ i ] . containsKey ( key ) ) { return this . composite [ i ] . get ( key ) ; }
+keys . addComposited ( this . composite [ i ] . keySet () ) ; } return keys ; } @Override public V put ( final K key , final V value ) { if ( this . mutator == null ) { MST[rv.ROR5Mutator]MSP[] throw new UnsupportedOperationException ( lr_3 ) ;
+public boolean containsValue ( final Object value ) { for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.UOI3Mutator]MSP[] if ( this . composite [ i ] . containsValue ( value ) ) { return true ; } }
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[ConditionalsBoundaryMutator]MSP[] final Collection < K > intersect = CollectionUtils . intersection ( this . composite [ i ] . keySet () , map . keySet () ) ;
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; MST[EmptyObjectReturnValsMutator]MSP[] } @Override public V get ( final Object key ) {
+for ( int i = this . composite . length - 1 ; i >= 0 ; -- i ) { if ( this . composite [ i ] . containsKey ( key ) ) { MST[rv.ROR5Mutator]MSP[] return this . composite [ i ] . remove ( key ) ; }
+return false ; MST[rv.CRCR1Mutator]MSP[] } @Override public Set < Map . Entry < K , V > > entrySet () { final CompositeSet < Map . Entry < K , V > > entries = new CompositeSet <> () ;
+for ( int i = composite . length - 1 ; i >= 0 ; -- i ) { MST[rv.ROR5Mutator]MSP[] entries . addComposited ( composite [ i ] . entrySet () ) ; } return entries ; } @Override public V get ( final Object key ) {
+final Map < K , V > [] temp = new Map [ this . composite . length + 1 ] ; System . arraycopy ( this . composite , 0 , temp , 0 , this . composite . length ) ; MST[InlineConstantMutator]MSP[]

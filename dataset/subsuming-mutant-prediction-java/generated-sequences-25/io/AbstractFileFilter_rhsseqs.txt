@@ -1,0 +1,16 @@
+@Override public boolean fn_1 ( final tp_1 vr_1 ) { return fn_1 ( vr_1 . vr_2 () , vr_1 . vr_3 () ) ; MST[NonVoidMethodCallMutator]MSP[S] }
+@Override public boolean fn_1 ( final tp_1 vr_1 ) { return fn_1 ( vr_1 . vr_2 () , vr_1 . vr_3 () ) ; MST[NonVoidMethodCallMutator]MSP[S] }
+@Override public boolean fn_1 ( final tp_1 vr_1 ) { return fn_1 ( vr_1 . vr_2 () , vr_1 . vr_3 () ) ; MST[NonVoidMethodCallMutator]MSP[S] }
+@Override public boolean fn_1 ( final tp_1 vr_1 ) { return fn_1 ( vr_1 . vr_2 () , vr_1 . vr_3 () ) ; MST[experimental.NakedReceiverMutator]MSP[S] }
+@Override public boolean fn_1 ( final tp_1 vr_1 ) { return fn_1 ( vr_1 . vr_2 () , vr_1 . vr_3 () ) ; MST[BooleanFalseReturnValsMutator]MSP[S] }
+return fn_1 ( new tp_1 ( vr_4 , vr_5 ) ) ; MST[ReturnValsMutator]MSP[N] } @Override public String toString () {
+return fn_1 ( new tp_1 ( vr_4 , vr_5 ) ) ; MST[BooleanTrueReturnValsMutator]MSP[S] } @Override public String toString () {
+return fn_1 ( new tp_1 ( vr_4 , vr_5 ) ) ; MST[ConstructorCallMutator]MSP[N] } @Override public String toString () {
+return getClass () . fn_2 () ; MST[EmptyObjectReturnValsMutator]MSP[N] }
+return fn_1 ( new tp_1 ( vr_4 , vr_5 ) ) ; MST[NonVoidMethodCallMutator]MSP[N] } @Override public String toString () {
+return fn_1 ( new tp_1 ( vr_4 , vr_5 ) ) ; MST[BooleanFalseReturnValsMutator]MSP[N] } @Override public String toString () {
+return getClass () . fn_2 () ; MST[ReturnValsMutator]MSP[N] }
+return getClass () . fn_2 () ; MST[NonVoidMethodCallMutator]MSP[N] }
+@Override public boolean fn_1 ( final tp_1 vr_1 ) { return fn_1 ( vr_1 . vr_2 () , vr_1 . vr_3 () ) ; MST[ReturnValsMutator]MSP[N] }
+@Override public boolean fn_1 ( final tp_1 vr_1 ) { return fn_1 ( vr_1 . vr_2 () , vr_1 . vr_3 () ) ; MST[BooleanTrueReturnValsMutator]MSP[S] }
+return getClass () . fn_2 () ; MST[NonVoidMethodCallMutator]MSP[N] }

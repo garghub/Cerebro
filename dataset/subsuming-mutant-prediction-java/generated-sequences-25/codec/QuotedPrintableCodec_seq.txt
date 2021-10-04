@@ -1,0 +1,60 @@
+private static final int fn_1 ( final int vr_1 , final tp_1 vr_2 ) { vr_2 . vr_3 ( vl_1 ) ;
+final char vr_4 = vr_5 . vr_6 ( vr_1 >> 4 ) ; final char vr_7 = vr_5 . vr_6 ( vr_1 ) ;
+vr_2 . vr_3 ( vr_4 ) ; vr_2 . vr_3 ( vr_7 ) ; return 3 ; }
+private static int fn_2 ( final int vr_8 , final byte [] vr_9 ) { int vr_1 = vr_9 [ vr_8 ] ;
+if ( vr_1 < 0 ) { vr_1 = 256 + vr_1 ; } return vr_1 ; }
+private static int fn_3 ( final int vr_1 , final boolean vr_10 , final tp_1 vr_2 ) { if ( vr_10 ) {
+return fn_1 ( vr_1 , vr_2 ) ; } vr_2 . vr_3 ( vr_1 ) ; return 1 ; }
+private static boolean fn_4 ( final int vr_1 ) { return vr_1 == vl_2 || vr_1 == vl_3 ; }
+public static final byte [] fn_1 ( final tp_2 vr_11 , final byte [] vr_9 ) {
+return fn_1 ( vr_11 , vr_9 , false ) ; }
+public static final byte [] fn_1 ( tp_2 vr_11 , final byte [] vr_9 , final boolean vr_12 ) {
+if ( vr_9 == null ) { return null ; } if ( vr_11 == null ) { vr_11 = vl_4 ; }
+final tp_1 vr_2 = new tp_1 () ; if ( vr_12 ) { int vr_13 = 1 ;
+for ( int vr_14 = 0 ; vr_14 < vr_9 . length - 3 ; vr_14 ++ ) {
+final int vr_1 = fn_2 ( vr_14 , vr_9 ) ; if ( vr_13 < vl_5 ) {
+vr_13 += fn_3 ( vr_1 , ! vr_11 . get ( vr_1 ) , vr_2 ) ; } else {
+fn_3 ( vr_1 , ! vr_11 . get ( vr_1 ) || fn_4 ( vr_1 ) , vr_2 ) ;
+vr_2 . vr_3 ( vl_1 ) ; vr_2 . vr_3 ( vl_6 ) ; vr_2 . vr_3 ( vl_7 ) ; vr_13 = 1 ;
+} } int vr_1 = fn_2 ( vr_9 . length - 3 , vr_9 ) ;
+boolean vr_10 = ! vr_11 . get ( vr_1 ) || ( fn_4 ( vr_1 ) && vr_13 > vl_5 - 5 ) ;
+vr_13 += fn_3 ( vr_1 , vr_10 , vr_2 ) ; if ( vr_13 > vl_5 - 2 ) {
+vr_2 . vr_3 ( vl_1 ) ; vr_2 . vr_3 ( vl_6 ) ; vr_2 . vr_3 ( vl_7 ) ; }
+for ( int vr_14 = vr_9 . length - 2 ; vr_14 < vr_9 . length ; vr_14 ++ ) {
+vr_1 = fn_2 ( vr_14 , vr_9 ) ;
+vr_10 = ! vr_11 . get ( vr_1 ) || ( vr_14 > vr_9 . length - 2 && fn_4 ( vr_1 ) ) ;
+fn_3 ( vr_1 , vr_10 , vr_2 ) ; } } else { for ( final byte vr_15 : vr_9 ) {
+int vr_1 = vr_15 ; if ( vr_1 < 0 ) { vr_1 = 256 + vr_1 ; }
+if ( vr_11 . get ( vr_1 ) ) { vr_2 . vr_3 ( vr_1 ) ; } else {
+fn_1 ( vr_1 , vr_2 ) ; } } } return vr_2 . vr_16 () ; }
+public static final byte [] fn_5 ( final byte [] vr_9 ) throws vl_8 { if ( vr_9 == null ) { return null ;
+} final tp_1 vr_2 = new tp_1 () ;
+for ( int vr_14 = 0 ; vr_14 < vr_9 . length ; vr_14 ++ ) {
+final int vr_1 = vr_9 [ vr_14 ] ; if ( vr_1 == vl_1 ) { try {
+if ( vr_9 [ ++ vr_14 ] == vl_6 ) { continue; }
+final int vr_17 = vr_5 . vr_18 ( vr_9 [ vr_14 ] ) ;
+final int vr_19 = vr_5 . vr_18 ( vr_9 [ ++ vr_14 ] ) ;
+vr_2 . vr_3 ( (char) ( ( vr_17 << 4 ) + vr_19 ) ) ; } catch ( final tp_3 vr_20 ) {
+throw new vl_8 ( lr_1 , vr_20 ) ; } } else if ( vr_1 != vl_6 && vr_1 != vl_7 ) {
+vr_2 . vr_3 ( vr_1 ) ; } } return vr_2 . vr_16 () ; } @Override
+public byte [] vr_10 ( final byte [] vr_9 ) { return fn_1 ( vl_4 , vr_9 , vr_12 ) ; } @Override
+public byte [] fn_6 ( final byte [] vr_9 ) throws vl_8 { return fn_5 ( vr_9 ) ; } @Override
+public String vr_10 ( final String vr_21 ) throws vl_9 { return this . vr_10 ( vr_21 , fn_7 () ) ; }
+public String fn_6 ( final String vr_21 , final tp_4 vr_22 ) throws vl_8 { if ( vr_21 == null ) { return null ;
+} return new String ( this . fn_6 ( vr_23 . vr_24 ( vr_21 ) ) , vr_22 ) ; }
+public String fn_6 ( final String vr_21 , final String vr_22 ) throws vl_8 , vl_10 { if ( vr_21 == null ) {
+return null ; } return new String ( fn_6 ( vr_23 . vr_24 ( vr_21 ) ) , vr_22 ) ; } @Override
+public String fn_6 ( final String vr_21 ) throws vl_8 { return this . fn_6 ( vr_21 , this . fn_7 () ) ; }
+@Override public Object vr_10 ( final Object vr_25 ) throws vl_9 { if ( vr_25 == null ) { return null ;
+} else if ( vr_25 instanceof byte [] ) { return vr_10 ( ( byte [] ) vr_25 ) ;
+} else if ( vr_25 instanceof String ) { return vr_10 ( ( String ) vr_25 ) ; } else {
+throw new vl_9 ( lr_2 + vr_25 . getClass () . fn_8 () + lr_3 ) ; } } @Override
+public Object fn_6 ( final Object vr_25 ) throws vl_8 { if ( vr_25 == null ) { return null ;
+} else if ( vr_25 instanceof byte [] ) { return fn_6 ( ( byte [] ) vr_25 ) ;
+} else if ( vr_25 instanceof String ) { return fn_6 ( ( String ) vr_25 ) ; } else {
+throw new vl_8 ( lr_2 + vr_25 . getClass () . fn_8 () + lr_4 ) ; } } public tp_4 fn_7 () {
+return this . vr_26 ; } public String fn_9 () { return this . vr_26 . vr_27 () ; }
+public String vr_10 ( final String vr_21 , final tp_4 vr_22 ) { if ( vr_21 == null ) { return null ; }
+return vr_23 . vr_28 ( this . vr_10 ( vr_21 . vr_29 ( vr_22 ) ) ) ; }
+public String vr_10 ( final String vr_21 , final String vr_22 ) throws vl_10 { if ( vr_21 == null ) { return null ;
+} return vr_23 . vr_28 ( vr_10 ( vr_21 . vr_29 ( vr_22 ) ) ) ; }

@@ -1,0 +1,51 @@
+public static int fn_1 ( int vr_1 ) { if ( vr_1 == Integer . vr_2 ) { throw new fn_2 ( lr_1 ) ;
+} return - vr_1 ; } public static int fn_3 ( int vr_3 , int vr_4 ) { int vr_5 = vr_3 + vr_4 ;
+if ( ( vr_3 ^ vr_5 ) < 0 && ( vr_3 ^ vr_4 ) >= 0 ) { throw new fn_2
+( lr_2 + vr_3 + lr_3 + vr_4 ) ; } return vr_5 ; }
+public static long fn_3 ( long vr_3 , long vr_4 ) { long vr_5 = vr_3 + vr_4 ;
+if ( ( vr_3 ^ vr_5 ) < 0 && ( vr_3 ^ vr_4 ) >= 0 ) { throw new fn_2
+( lr_2 + vr_3 + lr_3 + vr_4 ) ; } return vr_5 ; }
+public static long fn_4 ( long vr_3 , long vr_4 ) { long vr_6 = vr_3 - vr_4 ;
+if ( ( vr_3 ^ vr_6 ) < 0 && ( vr_3 ^ vr_4 ) < 0 ) { throw new fn_2
+( lr_2 + vr_3 + lr_4 + vr_4 ) ; } return vr_6 ; }
+public static int fn_5 ( int vr_3 , int vr_4 ) { long vr_7 = ( long ) vr_3 * ( long ) vr_4 ;
+if ( vr_7 < Integer . vr_2 || vr_7 > Integer . vr_8 ) {
+throw new fn_2 ( lr_5 + vr_3 + lr_6 + vr_4 ) ; } return ( int ) vr_7 ; }
+public static long fn_5 ( long vr_3 , int vr_4 ) { switch ( vr_4 ) { case - 1 :
+if ( vr_3 == Long . vr_2 ) { throw new fn_2 ( lr_7 + vr_3 + lr_6 + vr_4 ) ; }
+return - vr_3 ; case 0 : return 0L ; case 1 : return vr_3 ; } long vr_7 = vr_3 * vr_4 ;
+if ( vr_7 / vr_4 != vr_3 ) { throw new fn_2 ( lr_7 + vr_3 + lr_6 + vr_4 ) ; }
+return vr_7 ; } public static long fn_5 ( long vr_3 , long vr_4 ) { if ( vr_4 == 1 ) {
+return vr_3 ; } if ( vr_3 == 1 ) { return vr_4 ; }
+if ( vr_3 == 0 || vr_4 == 0 ) { return 0 ; } long vr_7 = vr_3 * vr_4 ;
+if ( vr_7 / vr_4 != vr_3 || vr_3 == Long . vr_2 && vr_4 == - 1 || vr_4 == Long . vr_2 && vr_3 == - 1 ) {
+throw new fn_2 ( lr_7 + vr_3 + lr_6 + vr_4 ) ; } return vr_7 ; }
+public static long fn_6 ( long vr_9 , long vr_10 ) {
+if ( vr_9 == Long . vr_2 && vr_10 == - 1L ) {
+throw new fn_2 ( lr_7 + vr_9 + lr_8 + vr_10 ) ; } return vr_9 / vr_10 ; }
+public static long fn_6 ( long vr_9 , long vr_10 , tp_1 vr_11 ) {
+if ( vr_9 == Long . vr_2 && vr_10 == - 1L ) {
+throw new fn_2 ( lr_7 + vr_9 + lr_8 + vr_10 ) ; } tp_2 vr_12 = new tp_2 ( vr_9 ) ;
+tp_2 vr_13 = new tp_2 ( vr_10 ) ; return vr_12 . vr_14 ( vr_13 , vr_11 ) . fn_7 () ; }
+public static int fn_8 ( long vr_1 ) { if ( Integer . vr_2 <= vr_1 && vr_1 <= Integer . vr_8 ) {
+return ( int ) vr_1 ; } throw new fn_2 ( lr_9 + vr_1 ) ; }
+public static int fn_9 ( long vr_3 , long vr_4 ) { long vr_15 = vr_16 . fn_5 ( vr_3 , vr_4 ) ;
+return vr_16 . fn_8 ( vr_15 ) ; } public static void fn_10 ( tp_3 vr_17 ,
+int vr_1 , int vr_18 , int vr_19 ) { if ( ( vr_1 < vr_18 ) || ( vr_1 > vr_19 ) ) {
+throw new fn_11 ( vr_17 . getType () , Integer . valueOf ( vr_1 ) ,
+Integer . valueOf ( vr_18 ) , Integer . valueOf ( vr_19 ) ) ; } } public static void fn_10 ( tp_4 vr_20 ,
+int vr_1 , int vr_18 , int vr_19 ) { if ( ( vr_1 < vr_18 ) || ( vr_1 > vr_19 ) ) {
+throw new fn_11 ( vr_20 , Integer . valueOf ( vr_1 ) ,
+Integer . valueOf ( vr_18 ) , Integer . valueOf ( vr_19 ) ) ; } } public static void fn_10 ( String vr_21 ,
+int vr_1 , int vr_18 , int vr_19 ) { if ( ( vr_1 < vr_18 ) || ( vr_1 > vr_19 ) ) {
+throw new fn_11 ( vr_21 , Integer . valueOf ( vr_1 ) ,
+Integer . valueOf ( vr_18 ) , Integer . valueOf ( vr_19 ) ) ; } }
+public static int fn_12 ( int vr_22 , int vr_23 , int vr_24 , int vr_25 ) {
+return fn_12 ( vr_22 + vr_23 , vr_24 , vr_25 ) ; }
+public static int fn_12 ( int vr_1 , int vr_24 , int vr_25 ) { if ( vr_24 >= vr_25 ) {
+throw new IllegalArgumentException ( lr_10 ) ; } int vr_26 = vr_25 - vr_24 + 1 ; vr_1 -= vr_24 ;
+if ( vr_1 >= 0 ) { return ( vr_1 % vr_26 ) + vr_24 ; }
+int vr_27 = ( - vr_1 ) % vr_26 ; if ( vr_27 == 0 ) { return 0 + vr_24 ; }
+return ( vr_26 - vr_27 ) + vr_24 ; } public static boolean equals ( Object vr_28 , Object vr_29 ) {
+if ( vr_28 == vr_29 ) { return true ; } if ( vr_28 == null || vr_29 == null ) { return false ;
+} return vr_28 . equals ( vr_29 ) ; }

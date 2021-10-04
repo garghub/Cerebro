@@ -1,0 +1,351 @@
+public tp_1 fn_1 () { tp_1 vr_1 = fn_1 ( vl_1 , vl_2 , vl_3 ) ; for ( tp_2 vr_2 : vl_4 ) {
+if ( vr_2 != null ) { vr_2 . vr_3 ( vl_4 ) ; } }
+vl_4 = ( tp_2 [] ) vl_4 . vr_4 () ; return vr_1 ; } public tp_3 fn_2 () { if ( vl_2 ) {
+return null ; } return fn_1 () . fn_3 () ; } public tp_4 fn_4 () { if ( vl_3 ) { return null ;
+} return fn_1 () . fn_5 () ; } public void clear () { vl_5 = 1 ; vl_6 = vl_7 ;
+vl_8 = 10 ; vl_9 = false ; vl_10 = null ; if ( vl_1 == null ) {
+vl_1 = new ArrayList < Object > () ; } else { vl_1 . clear () ; } vl_2 = false ;
+vl_3 = false ; vl_4 = new tp_2 [ 10 ] ; } public tp_5 append ( tp_1 vr_1 ) {
+if ( vr_1 == null ) { throw new IllegalArgumentException ( lr_1 ) ; } fn_6 () ;
+fn_7 ( vr_1 . fn_3 () , vr_1 . fn_5 () ) ; return this ; }
+public tp_5 append ( tp_3 vr_5 , tp_4 vr_6 ) { if ( vr_5 == null && vr_6 == null ) {
+throw new IllegalArgumentException ( lr_2 ) ; } fn_6 () ; fn_7 ( vr_5 , vr_6 ) ; return this ; }
+public tp_5 fn_8 ( String vr_7 ) { if ( vr_7 == null ) { throw new IllegalArgumentException ( lr_3 ) ; }
+fn_6 () ; tp_6 vr_8 = new tp_6 ( vr_7 ) ; fn_7 ( vr_8 , vr_8 ) ; return this ; }
+public tp_5 fn_9 ( int vr_9 ) { vl_5 = vr_9 ; return this ; } public tp_5 fn_10 ( int vr_10 ) {
+vl_8 = vr_10 ; return this ; } public tp_5 fn_11 ( boolean vr_11 ) { vl_9 = vr_11 ; return this ; }
+public tp_5 fn_12 () { vl_6 = vl_7 ; return this ; } public tp_5 fn_13 () { vl_6 = vl_11 ; return this ;
+} public tp_5 fn_14 () { vl_6 = vl_12 ; return this ; } public tp_5 fn_15 () { vl_6 = vl_13 ;
+return this ; } public tp_5 fn_16 () { vl_6 = vl_14 ; return this ; } public tp_5 fn_17 ( String vr_7 ) {
+if ( vr_7 == null ) { throw new IllegalArgumentException () ; } return fn_17 ( new fn_18 ( vr_7 ) ) ; }
+public tp_5 fn_17 ( String vr_12 , String vr_13 ) { if ( vr_12 == null || vr_13 == null ) {
+throw new IllegalArgumentException () ; } return fn_17 ( new fn_19 ( vr_12 , vr_13 ) ) ; }
+public tp_5 fn_17 ( String [] vr_14 , String [] vr_15 ) { if ( vr_14 == null || vr_15 == null ||
+vr_14 . length < 1 || vr_14 . length != vr_15 . length ) { throw new IllegalArgumentException () ; }
+return fn_17 ( new fn_20 ( vr_14 , vr_15 ) ) ; } private tp_5 fn_17 ( tp_7 vr_16 ) {
+if ( vr_16 == null ) { throw new IllegalArgumentException () ; } if ( vl_10 != null ) {
+vr_16 = new fn_21 ( vl_10 , vr_16 ) ; } vl_10 = vr_16 ; return this ; } public tp_5 fn_22 () {
+fn_23 ( vl_15 ) ; return this ; } public tp_5 fn_24 () { fn_23 ( vl_16 ) ; return this ; }
+public tp_5 fn_25 () { fn_23 ( vl_17 ) ; return this ; } public tp_5 fn_26 () { fn_23 ( vl_18 ) ;
+return this ; } public tp_5 fn_27 () { fn_23 ( vl_19 ) ; return this ; } public tp_5 fn_28 () {
+fn_23 ( vl_20 ) ; return this ; } public tp_5 fn_29 () { fn_23 ( vl_21 ) ; return this ; }
+public tp_5 fn_30 () { fn_23 ( vl_22 ) ; return this ; } public tp_5 fn_31 () { fn_23 ( vl_23 ) ;
+return this ; } public tp_5 fn_32 () { fn_23 ( vl_24 ) ; return this ; } public tp_5 fn_33 () {
+fn_23 ( 7 , 3 ) ; return this ; } private void fn_23 ( int type ) {
+fn_23 ( type , vl_5 ) ; } private void fn_23 ( int type , int vr_17 ) {
+tp_2 vr_18 = new tp_2 ( vr_17 , vl_6 , vl_8 , vl_9 , type , vl_4 , vl_10 , null ) ;
+fn_7 ( vr_18 , vr_18 ) ; vl_4 [ type ] = vr_18 ; vl_10 = null ; }
+public tp_5 fn_34 ( String vr_7 ) { if ( vr_7 == null ) { throw new IllegalArgumentException () ; }
+return fn_34 ( new fn_18 ( vr_7 ) ) ; } public tp_5 fn_34 ( String vr_12 , String vr_13 ) {
+if ( vr_12 == null || vr_13 == null ) { throw new IllegalArgumentException () ; }
+return fn_34 ( new fn_19 ( vr_12 , vr_13 ) ) ; }
+public tp_5 fn_34 ( String [] vr_14 , String [] vr_19 ) { if ( vr_14 == null || vr_19 == null ||
+vr_14 . length < 1 || vr_14 . length != vr_19 . length ) { throw new IllegalArgumentException () ; }
+return fn_34 ( new fn_20 ( vr_14 , vr_19 ) ) ; } private tp_5 fn_34 ( tp_7 vr_20 ) { final Object vr_21 ;
+final Object vr_22 ; if ( vl_1 . size () > 0 ) {
+vr_21 = vl_1 . get ( vl_1 . size () - 2 ) ;
+vr_22 = vl_1 . get ( vl_1 . size () - 1 ) ; } else { vr_21 = null ; vr_22 = null ;
+} if ( vr_21 == null || vr_22 == null || vr_21 != vr_22 || ! ( vr_21 instanceof tp_2 ) ) {
+throw new fn_35 ( lr_4 ) ; } fn_6 () ; tp_2 vr_23 = new tp_2 ( ( tp_2 ) vr_21 , vr_20 ) ;
+vl_1 . vr_24 ( vl_1 . size () - 2 , vr_23 ) ;
+vl_1 . vr_24 ( vl_1 . size () - 1 , vr_23 ) ; vl_4 [ vr_23 . vr_25 () ] = vr_23 ;
+return this ; } public tp_5 fn_36 ( String vr_7 ) {
+return fn_36 ( vr_7 , vr_7 , null , true , true ) ; } public tp_5 fn_37 ( String vr_7 ) {
+return fn_36 ( vr_7 , vr_7 , null , false , true ) ; } public tp_5 fn_38 ( String vr_7 ) {
+return fn_36 ( vr_7 , vr_7 , null , true , false ) ; }
+public tp_5 fn_36 ( String vr_7 , String vr_26 ) { return fn_36 ( vr_7 , vr_26 , null , true , true ) ;
+} public tp_5 fn_36 ( String vr_7 , String vr_26 , String [] vr_27 ) {
+return fn_36 ( vr_7 , vr_26 , vr_27 , true , true ) ; } private tp_5 fn_36 ( String vr_7 , String vr_26 ,
+String [] vr_27 , boolean vr_28 , boolean vr_29 ) { if ( vr_7 == null || vr_26 == null ) {
+throw new IllegalArgumentException () ; } fn_6 () ; List < Object > vr_30 = vl_1 ;
+if ( vr_30 . size () == 0 ) { if ( vr_29 && vr_28 == false ) { tp_8 vr_31 = new tp_8 (
+vr_7 , vr_26 , vr_27 , tp_6 . vr_32 , tp_6 . vr_32 , vr_28 , vr_29 ) ;
+fn_7 ( vr_31 , vr_31 ) ; } return this ; } int vr_33 ; tp_8 vr_34 = null ;
+for ( vr_33 = vr_30 . size () ; -- vr_33 >= 0 ; ) {
+if ( vr_30 . get ( vr_33 ) instanceof tp_8 ) { vr_34 = ( tp_8 ) vr_30 . get ( vr_33 ) ;
+vr_30 = vr_30 . vr_35 ( vr_33 + 1 , vr_30 . size () ) ; break; } vr_33 -- ; }
+if ( vr_34 != null && vr_30 . size () == 0 ) { throw new fn_35 ( lr_5 ) ; } else {
+Object [] vr_36 = fn_39 ( vr_30 ) ; vr_30 . clear () ; tp_8 vr_31 = new tp_8 (
+vr_7 , vr_26 , vr_27 , ( tp_3 ) vr_36 [ 0 ] , ( tp_4 ) vr_36 [ 1 ] ,
+vr_28 , vr_29 ) ; vr_30 . add ( vr_31 ) ; vr_30 . add ( vr_31 ) ; } return this ; }
+private void fn_6 () throws fn_35 { if ( vl_10 != null ) { throw new fn_35 ( lr_6 ) ; }
+vl_10 = null ; } private tp_5 fn_7 ( tp_3 vr_5 , tp_4 vr_6 ) { vl_1 . add ( vr_5 ) ;
+vl_1 . add ( vr_6 ) ; vl_2 |= ( vr_5 == null ) ; vl_3 |= ( vr_6 == null ) ;
+return this ; } private static tp_1 fn_1 ( List < Object > vr_37 , boolean vr_38 , boolean vr_39 ) {
+if ( vr_38 && vr_39 ) { throw new fn_35 ( lr_7 ) ; } int size = vr_37 . size () ;
+if ( size >= 2 && vr_37 . get ( 0 ) instanceof tp_8 ) {
+tp_8 vr_40 = ( tp_8 ) vr_37 . get ( 0 ) ;
+if ( vr_40 . vr_41 == null && vr_40 . vr_42 == null ) {
+tp_1 vr_43 = fn_1 ( vr_37 . vr_35 ( 2 , size ) , vr_38 , vr_39 ) ;
+vr_40 = vr_40 . vr_3 ( vr_43 . fn_3 () , vr_43 . fn_5 () ) ;
+return new tp_1 ( vr_40 , vr_40 ) ; } } Object [] vr_36 = fn_39 ( vr_37 ) ; if ( vr_38 ) {
+return new tp_1 ( null , ( tp_4 ) vr_36 [ 1 ] ) ; } else if ( vr_39 ) {
+return new tp_1 ( ( tp_3 ) vr_36 [ 0 ] , null ) ; } else {
+return new tp_1 ( ( tp_3 ) vr_36 [ 0 ] , ( tp_4 ) vr_36 [ 1 ] ) ; } }
+private static Object [] fn_39 ( List < Object > vr_37 ) { switch ( vr_37 . size () ) { case 0 :
+return new Object [] { tp_6 . vr_32 , tp_6 . vr_32 } ; case 1 :
+return new Object [] { vr_37 . get ( 0 ) , vr_37 . get ( 1 ) } ; default:
+tp_9 vr_36 = new tp_9 ( vr_37 ) ; return new Object [] { vr_36 , vr_36 } ; } }
+public void vr_3 ( vr_44 < tp_7 > vr_45 ) { if ( vl_25 == null ) { int vr_46 = Integer . vr_47 ;
+String vr_48 = null ; for ( String vr_49 : fn_40 () ) { if ( vr_49 . length () < vr_46 ) {
+vr_46 = vr_49 . length () ; vr_48 = vr_49 ; } }
+vr_44 < String > vr_50 = new vr_51 < String > () ; for ( tp_7 vr_52 : vr_45 ) {
+if ( vr_52 != null ) { for ( String vr_53 : vr_52 . fn_40 () ) {
+if ( vr_53 . length () > vr_46 ||
+( vr_53 . equalsIgnoreCase ( vr_48 ) && ! vr_53 . equals ( vr_48 ) ) ) { vr_50 . add ( vr_53 ) ;
+} } } } vl_25 = vr_50 . toArray ( new String [ vr_50 . size () ] ) ; } }
+protected boolean fn_41 ( int vr_54 , String vr_55 , int vr_56 ) { if ( vl_25 != null ) {
+for ( String vr_53 : vl_25 ) { int vr_57 = vr_53 . length () ;
+if ( ( vr_54 < vr_57 && vr_55 . vr_58 ( true , vr_56 , vr_53 , 0 , vr_57 ) ) ||
+( vr_54 == vr_57 && vr_55 . vr_58 ( false , vr_56 , vr_53 , 0 , vr_57 ) ) ) { return true ;
+} } } return false ; } public int fn_42 ( int vr_59 ) { return vr_60 . length () ; }
+public void fn_43 ( tp_10 vr_61 , int vr_59 ) { vr_61 . append ( vr_60 ) ; }
+public void fn_43 ( tp_11 out , int vr_59 ) throws IOException { out . vr_62 ( vr_60 ) ; }
+public int fn_44 ( String vr_55 , int vr_56 ) { String vr_7 = vr_60 ; int vr_54 = vr_7 . length () ;
+if ( vr_55 . vr_58 ( true , vr_56 , vr_7 , 0 , vr_54 ) ) {
+if ( ! fn_41 ( vr_54 , vr_55 , vr_56 ) ) { return vr_56 + vr_54 ; } } return ~ vr_56 ; }
+public int fn_45 ( String vr_55 , final int vr_56 ) { String vr_7 = vr_60 ; int vr_54 = vr_7 . length () ;
+int vr_63 = vr_55 . length () ; lb_1: for ( int vr_64 = vr_56 ; vr_64 < vr_63 ; vr_64 ++ ) {
+if ( vr_55 . vr_58 ( true , vr_64 , vr_7 , 0 , vr_54 ) ) {
+if ( ! fn_41 ( vr_54 , vr_55 , vr_64 ) ) { return vr_64 ; } }
+switch ( vr_55 . charAt ( vr_64 ) ) { case '0' : case '1' : case '2' : case '3' : case '4' :
+case '5' : case '6' : case '7' : case '8' : case '9' :
+case '.' : case ',' : case '+' : case '-' : break; default: break lb_1; } } return ~ vr_56 ; }
+public String [] fn_40 () { return new String [] { vr_60 } ; } public int fn_42 ( int vr_59 ) {
+return ( vr_59 == 1 ? vl_26 : vl_27 ) . length () ; }
+public void fn_43 ( tp_10 vr_61 , int vr_59 ) { vr_61 . append ( vr_59 == 1 ? vl_26 : vl_27 ) ; }
+public void fn_43 ( tp_11 out , int vr_59 ) throws IOException {
+out . vr_62 ( vr_59 == 1 ? vl_26 : vl_27 ) ; } public int fn_44 ( String vr_55 , int vr_56 ) {
+String vr_65 = vl_27 ; String vr_66 = vl_26 ; if ( vr_65 . length () < vr_66 . length () ) {
+String vr_67 = vr_65 ; vr_65 = vr_66 ; vr_66 = vr_67 ; }
+if ( vr_55 . vr_58 ( true , vr_56 , vr_65 , 0 , vr_65 . length () ) ) {
+if ( ! fn_41 ( vr_65 . length () , vr_55 , vr_56 ) ) { return vr_56 + vr_65 . length () ; }
+} if ( vr_55 . vr_58 ( true , vr_56 , vr_66 , 0 , vr_66 . length () ) ) {
+if ( ! fn_41 ( vr_66 . length () , vr_55 , vr_56 ) ) { return vr_56 + vr_66 . length () ; }
+} return ~ vr_56 ; } public int fn_45 ( String vr_55 , final int vr_56 ) { String vr_65 = vl_27 ;
+String vr_66 = vl_26 ; if ( vr_65 . length () < vr_66 . length () ) { String vr_67 = vr_65 ;
+vr_65 = vr_66 ; vr_66 = vr_67 ; } int vr_68 = vr_65 . length () ; int vr_69 = vr_66 . length () ;
+int vr_63 = vr_55 . length () ; for ( int vr_64 = vr_56 ; vr_64 < vr_63 ; vr_64 ++ ) {
+if ( vr_55 . vr_58 ( true , vr_64 , vr_65 , 0 , vr_68 ) ) {
+if ( ! fn_41 ( vr_65 . length () , vr_55 , vr_64 ) ) { return vr_64 ; } }
+if ( vr_55 . vr_58 ( true , vr_64 , vr_66 , 0 , vr_69 ) ) {
+if ( ! fn_41 ( vr_66 . length () , vr_55 , vr_64 ) ) { return vr_64 ; } } }
+return ~ vr_56 ; } public String [] fn_40 () { return new String [] { vl_26 , vl_27 } ; }
+public int fn_46 ( String vr_70 , String vr_71 ) { return vr_71 . length () - vr_70 . length () ; }
+private int fn_47 ( int vr_59 ) { String vr_72 = String . valueOf ( vr_59 ) ;
+for ( int vr_33 = 0 ; vr_33 < vr_73 . length ; vr_33 ++ ) {
+if ( vr_73 [ vr_33 ] . fn_48 ( vr_72 ) . fn_49 () ) { return vr_33 ; } }
+return vr_73 . length - 1 ; } public int fn_42 ( int vr_59 ) {
+return vr_74 [ fn_47 ( vr_59 ) ] . length () ; } public void fn_43 ( tp_10 vr_61 , int vr_59 ) {
+vr_61 . append ( vr_74 [ fn_47 ( vr_59 ) ] ) ; }
+public void fn_43 ( tp_11 out , int vr_59 ) throws IOException {
+out . vr_62 ( vr_74 [ fn_47 ( vr_59 ) ] ) ; } public int fn_44 ( String vr_55 , int vr_56 ) {
+for ( String vr_7 : vl_28 ) {
+if ( vr_55 . vr_58 ( true , vr_56 , vr_7 , 0 , vr_7 . length () ) ) {
+if ( ! fn_41 ( vr_7 . length () , vr_55 , vr_56 ) ) { return vr_56 + vr_7 . length () ; }
+} } return ~ vr_56 ; } public int fn_45 ( String vr_55 , final int vr_56 ) {
+int vr_63 = vr_55 . length () ; for ( int vr_64 = vr_56 ; vr_64 < vr_63 ; vr_64 ++ ) {
+for ( String vr_7 : vl_28 ) {
+if ( vr_55 . vr_58 ( true , vr_64 , vr_7 , 0 , vr_7 . length () ) ) {
+if ( ! fn_41 ( vr_7 . length () , vr_55 , vr_64 ) ) { return vr_64 ; } } } }
+return ~ vr_56 ; } public String [] fn_40 () { return vr_74 . vr_4 () ; }
+public int fn_42 ( int vr_59 ) { return vr_75 . fn_42 ( vr_59 ) + vr_76 . fn_42 ( vr_59 ) ; }
+public void fn_43 ( tp_10 vr_61 , int vr_59 ) { vr_75 . fn_43 ( vr_61 , vr_59 ) ;
+vr_76 . fn_43 ( vr_61 , vr_59 ) ; } public void fn_43 ( tp_11 out , int vr_59 ) throws IOException {
+vr_75 . fn_43 ( out , vr_59 ) ; vr_76 . fn_43 ( out , vr_59 ) ; }
+public int fn_44 ( String vr_55 , int vr_56 ) { int vr_64 = vr_75 . fn_44 ( vr_55 , vr_56 ) ;
+if ( vr_64 >= 0 ) { vr_64 = vr_76 . fn_44 ( vr_55 , vr_64 ) ;
+if ( vr_64 >= 0 && fn_41 ( fn_44 ( vr_55 , vr_64 ) - vr_64 , vr_55 , vr_56 ) ) {
+return ~ vr_56 ; } } return vr_64 ; } public int fn_45 ( String vr_55 , final int vr_56 ) {
+int vr_77 = vr_75 . fn_45 ( vr_55 , vr_56 ) ; if ( vr_77 >= 0 ) {
+int vr_78 = vr_76 . fn_45 ( vr_55 , vr_75 . fn_44 ( vr_55 , vr_77 ) ) ;
+if ( ! ( vr_78 >= 0 && fn_41 ( vr_76 . fn_44 ( vr_55 , vr_78 ) - vr_77 , vr_55 , vr_56 ) ) ) {
+if ( vr_77 > 0 ) { return vr_77 ; } else { return vr_78 ; } } } return ~ vr_56 ; }
+public String [] fn_40 () { return vr_79 . vr_4 () ; } public void vr_3 ( tp_2 [] vr_80 ) {
+vr_44 < tp_7 > vr_81 = new vr_51 < tp_7 > () ;
+vr_44 < tp_7 > vr_82 = new vr_51 < tp_7 > () ; for ( tp_2 vr_2 : vr_80 ) {
+if ( vr_2 != null && ! this . equals ( vr_2 ) ) { vr_81 . add ( vr_2 . vl_10 ) ;
+vr_82 . add ( vr_2 . vr_83 ) ; } } if ( vl_10 != null ) { vl_10 . vr_3 ( vr_81 ) ;
+} if ( vr_83 != null ) { vr_83 . vr_3 ( vr_82 ) ; } }
+public int fn_50 ( tp_12 vr_84 , int vr_85 , tp_13 vr_86 ) { if ( vr_85 <= 0 ) { return 0 ; }
+if ( vl_6 == vl_13 || fn_51 ( vr_84 ) != Long . vr_47 ) { return 1 ; } return 0 ; }
+public int fn_42 ( tp_12 vr_84 , tp_13 vr_86 ) { long vr_87 = fn_51 ( vr_84 ) ;
+if ( vr_87 == Long . vr_47 ) { return 0 ; }
+int vr_88 = vr_89 . vr_90 ( vr_91 . vr_92 ( vr_87 ) , vl_5 ) ; if ( vl_29 >= vl_22 ) {
+vr_88 = ( vr_87 < 0 ? vr_89 . vr_90 ( vr_88 , 5 ) : vr_89 . vr_90 ( vr_88 , 4 ) ) ;
+vr_88 ++ ; if ( vl_29 == vl_23 && ( vr_89 . abs ( vr_87 ) % vr_93 . vr_94 ) == 0 ) {
+vr_88 -= 4 ; } vr_87 = vr_87 / vr_93 . vr_94 ; } int vr_59 = ( int ) vr_87 ;
+if ( vl_10 != null ) { vr_88 += vl_10 . fn_42 ( vr_59 ) ; } if ( vr_83 != null ) {
+vr_88 += vr_83 . fn_42 ( vr_59 ) ; } return vr_88 ; }
+public void fn_43 ( tp_10 vr_61 , tp_12 vr_84 , tp_13 vr_86 ) { long vr_87 = fn_51 ( vr_84 ) ;
+if ( vr_87 == Long . vr_47 ) { return; } int vr_59 = ( int ) vr_87 ;
+if ( vl_29 >= vl_22 ) { vr_59 = (int) ( vr_87 / vr_93 . vr_94 ) ; }
+if ( vl_10 != null ) { vl_10 . fn_43 ( vr_61 , vr_59 ) ; } int vr_95 = vr_61 . length () ;
+int vr_9 = vl_5 ; if ( vr_9 <= 1 ) { vr_91 . vr_96 ( vr_61 , vr_59 ) ; } else {
+vr_91 . vr_97 ( vr_61 , vr_59 , vr_9 ) ; } if ( vl_29 >= vl_22 ) {
+int vr_98 = (int) ( vr_89 . abs ( vr_87 ) % vr_93 . vr_94 ) ;
+if ( vl_29 == vl_22 || vr_98 > 0 ) { if ( vr_87 < 0 && vr_87 > - vr_93 . vr_94 ) {
+vr_61 . vr_99 ( vr_95 , '-' ) ; } vr_61 . append ( '.' ) ;
+vr_91 . vr_97 ( vr_61 , vr_98 , 3 ) ; } } if ( vr_83 != null ) {
+vr_83 . fn_43 ( vr_61 , vr_59 ) ; } }
+public void fn_43 ( tp_11 out , tp_12 vr_84 , tp_13 vr_86 ) throws IOException { long vr_87 = fn_51 ( vr_84 ) ;
+if ( vr_87 == Long . vr_47 ) { return; } int vr_59 = ( int ) vr_87 ;
+if ( vl_29 >= vl_22 ) { vr_59 = (int) ( vr_87 / vr_93 . vr_94 ) ; }
+if ( vl_10 != null ) { vl_10 . fn_43 ( out , vr_59 ) ; } int vr_9 = vl_5 ;
+if ( vr_9 <= 1 ) { vr_91 . vr_100 ( out , vr_59 ) ; } else {
+vr_91 . vr_101 ( out , vr_59 , vr_9 ) ; } if ( vl_29 >= vl_22 ) {
+int vr_98 = (int) ( vr_89 . abs ( vr_87 ) % vr_93 . vr_94 ) ;
+if ( vl_29 == vl_22 || vr_98 > 0 ) { out . vr_62 ( '.' ) ;
+vr_91 . vr_101 ( out , vr_98 , 3 ) ; } } if ( vr_83 != null ) {
+vr_83 . fn_43 ( out , vr_59 ) ; } } public int fn_52 ( tp_14 vr_84 , String vr_7 ,
+int vr_56 , tp_13 vr_86 ) { boolean vr_102 = ( vl_6 == vl_13 ) ;
+if ( vr_56 >= vr_7 . length () ) { return vr_102 ? ~ vr_56 : vr_56 ; }
+if ( vl_10 != null ) { vr_56 = vl_10 . fn_44 ( vr_7 , vr_56 ) ; if ( vr_56 >= 0 ) {
+vr_102 = true ; } else { if ( ! vr_102 ) { return ~ vr_56 ; } return vr_56 ; } }
+int vr_103 = - 1 ; if ( vr_83 != null && ! vr_102 ) {
+vr_103 = vr_83 . fn_45 ( vr_7 , vr_56 ) ; if ( vr_103 >= 0 ) { vr_102 = true ; } else {
+if ( ! vr_102 ) { return ~ vr_103 ; } return vr_103 ; } }
+if ( ! vr_102 && ! fn_53 ( vr_84 . vr_104 () , vl_29 ) ) { return vr_56 ; } int vr_105 ;
+if ( vr_103 > 0 ) { vr_105 = vr_89 . vr_106 ( vl_8 , vr_103 - vr_56 ) ; } else {
+vr_105 = vr_89 . vr_106 ( vl_8 , vr_7 . length () - vr_56 ) ; } int length = 0 ;
+int vr_107 = - 1 ; boolean vr_108 = false ; boolean vr_109 = false ; while ( length < vr_105 ) {
+char vr_110 = vr_7 . charAt ( vr_56 + length ) ;
+if ( length == 0 && ( vr_110 == '-' || vr_110 == '+' ) && ! vl_9 ) {
+vr_109 = vr_110 == '-' ; if ( length + 1 >= vr_105 ||
+( vr_110 = vr_7 . charAt ( vr_56 + length + 1 ) ) < '0' || vr_110 > '9' ) { break; }
+if ( vr_109 ) { length ++ ; } else { vr_56 ++ ; }
+vr_105 = vr_89 . vr_106 ( vr_105 + 1 , vr_7 . length () - vr_56 ) ; continue; }
+if ( vr_110 >= '0' && vr_110 <= '9' ) { vr_108 = true ; } else {
+if ( ( vr_110 == '.' || vr_110 == ',' ) && ( vl_29 == vl_22 || vl_29 == vl_23 ) ) {
+if ( vr_107 >= 0 ) { break; } vr_107 = vr_56 + length + 1 ;
+vr_105 = vr_89 . vr_106 ( vr_105 + 1 , vr_7 . length () - vr_56 ) ; } else { break; } }
+length ++ ; } if ( ! vr_108 ) { return ~ vr_56 ; }
+if ( vr_103 >= 0 && vr_56 + length != vr_103 ) { return vr_56 ; }
+if ( vl_29 != vl_22 && vl_29 != vl_23 ) {
+fn_54 ( vr_84 , vl_29 , fn_55 ( vr_7 , vr_56 , length ) ) ; } else if ( vr_107 < 0 ) {
+fn_54 ( vr_84 , vl_21 , fn_55 ( vr_7 , vr_56 , length ) ) ; fn_54 ( vr_84 , vl_24 , 0 ) ;
+} else { int vr_111 = fn_55 ( vr_7 , vr_56 , vr_107 - vr_56 - 1 ) ;
+fn_54 ( vr_84 , vl_21 , vr_111 ) ; int vr_112 = vr_56 + length - vr_107 ; int vr_113 ;
+if ( vr_112 <= 0 ) { vr_113 = 0 ; } else { if ( vr_112 >= 3 ) {
+vr_113 = fn_55 ( vr_7 , vr_107 , 3 ) ; } else { vr_113 = fn_55 ( vr_7 , vr_107 , vr_112 ) ;
+if ( vr_112 == 1 ) { vr_113 *= 100 ; } else { vr_113 *= 10 ; } }
+if ( vr_109 || vr_111 < 0 ) { vr_113 = - vr_113 ; } } fn_54 ( vr_84 , vl_24 , vr_113 ) ;
+} vr_56 += length ; if ( vr_56 >= 0 && vr_83 != null ) {
+vr_56 = vr_83 . fn_44 ( vr_7 , vr_56 ) ; } return vr_56 ; }
+private int fn_55 ( String vr_7 , int vr_56 , int length ) { if ( length >= 10 ) {
+return Integer . fn_55 ( vr_7 . vr_114 ( vr_56 , vr_56 + length ) ) ; } if ( length <= 0 ) {
+return 0 ; } int vr_59 = vr_7 . charAt ( vr_56 ++ ) ; length -- ; boolean vr_109 ;
+if ( vr_59 == '-' ) { if ( -- length < 0 ) { return 0 ; } vr_109 = true ;
+vr_59 = vr_7 . charAt ( vr_56 ++ ) ; } else { vr_109 = false ; } vr_59 -= '0' ;
+while ( length -- > 0 ) {
+vr_59 = ( ( vr_59 << 3 ) + ( vr_59 << 1 ) ) + vr_7 . charAt ( vr_56 ++ ) - '0' ;
+} return vr_109 ? - vr_59 : vr_59 ; } long fn_51 ( tp_12 vr_84 ) { tp_15 type ;
+if ( vl_6 == vl_13 ) { type = null ; } else { type = vr_84 . vr_104 () ; }
+if ( type != null && fn_53 ( type , vl_29 ) == false ) { return Long . vr_47 ; } long vr_59 ;
+switch ( vl_29 ) { default: return Long . vr_47 ; case vl_15 :
+vr_59 = vr_84 . get ( vr_115 . vr_116 () ) ; break; case vl_16 :
+vr_59 = vr_84 . get ( vr_115 . vr_117 () ) ; break; case vl_17 :
+vr_59 = vr_84 . get ( vr_115 . vr_118 () ) ; break; case vl_18 :
+vr_59 = vr_84 . get ( vr_115 . vr_119 () ) ; break; case vl_19 :
+vr_59 = vr_84 . get ( vr_115 . vr_120 () ) ; break; case vl_20 :
+vr_59 = vr_84 . get ( vr_115 . vr_121 () ) ; break; case vl_21 :
+vr_59 = vr_84 . get ( vr_115 . vr_122 () ) ; break; case vl_24 :
+vr_59 = vr_84 . get ( vr_115 . vr_123 () ) ; break; case vl_22 : case vl_23 :
+int vr_122 = vr_84 . get ( vr_115 . vr_122 () ) ;
+int vr_123 = vr_84 . get ( vr_115 . vr_123 () ) ;
+vr_59 = ( vr_122 * ( long ) vr_93 . vr_94 ) + vr_123 ; break; } if ( vr_59 == 0 ) {
+switch ( vl_6 ) { case vl_14 : return Long . vr_47 ; case vl_7 :
+if ( fn_56 ( vr_84 ) && vl_4 [ vl_29 ] == this ) {
+for ( int vr_33 = vl_29 + 1 ; vr_33 <= vl_30 ; vr_33 ++ ) {
+if ( fn_53 ( type , vr_33 ) && vl_4 [ vr_33 ] != null ) { return Long . vr_47 ; } }
+} else { return Long . vr_47 ; } break; case vl_11 :
+if ( fn_56 ( vr_84 ) && vl_4 [ vl_29 ] == this ) {
+int vr_33 = vr_89 . vr_106 ( vl_29 , 8 ) ; vr_33 -- ;
+for (; vr_33 >= 0 && vr_33 <= vl_30 ; vr_33 -- ) {
+if ( fn_53 ( type , vr_33 ) && vl_4 [ vr_33 ] != null ) { return Long . vr_47 ; } }
+} else { return Long . vr_47 ; } break; } } return vr_59 ; } boolean fn_56 ( tp_12 vr_84 ) {
+for ( int vr_33 = 0 , vr_124 = vr_84 . size () ; vr_33 < vr_124 ; vr_33 ++ ) {
+if ( vr_84 . vr_125 ( vr_33 ) != 0 ) { return false ; } } return true ; }
+boolean fn_53 ( tp_15 type , int vr_18 ) { switch ( vr_18 ) { default: return false ; case vl_15 :
+return type . fn_53 ( vr_115 . vr_116 () ) ; case vl_16 : return type . fn_53 ( vr_115 . vr_117 () ) ;
+case vl_17 : return type . fn_53 ( vr_115 . vr_118 () ) ; case vl_18 :
+return type . fn_53 ( vr_115 . vr_119 () ) ; case vl_19 : return type . fn_53 ( vr_115 . vr_120 () ) ;
+case vl_20 : return type . fn_53 ( vr_115 . vr_121 () ) ; case vl_21 :
+return type . fn_53 ( vr_115 . vr_122 () ) ; case vl_24 : return type . fn_53 ( vr_115 . vr_123 () ) ;
+case vl_22 : case vl_23 : return type . fn_53 ( vr_115 . vr_122 () ) ||
+type . fn_53 ( vr_115 . vr_123 () ) ; } } void fn_54 ( tp_14 vr_84 , int vr_18 , int vr_59 ) {
+switch ( vr_18 ) { default: break; case vl_15 : vr_84 . vr_126 ( vr_59 ) ; break; case vl_16 :
+vr_84 . vr_127 ( vr_59 ) ; break; case vl_17 : vr_84 . vr_128 ( vr_59 ) ; break; case vl_18 :
+vr_84 . vr_129 ( vr_59 ) ; break; case vl_19 : vr_84 . vr_130 ( vr_59 ) ; break; case vl_20 :
+vr_84 . vr_131 ( vr_59 ) ; break; case vl_21 : vr_84 . vr_132 ( vr_59 ) ; break; case vl_24 :
+vr_84 . vr_133 ( vr_59 ) ; break; } } int vr_25 () { return vl_29 ; }
+public int fn_50 ( tp_12 vr_84 , int vr_85 , tp_13 vr_86 ) { return 0 ; }
+public int fn_42 ( tp_12 vr_84 , tp_13 vr_86 ) { return vr_60 . length () ; }
+public void fn_43 ( tp_10 vr_61 , tp_12 vr_84 , tp_13 vr_86 ) { vr_61 . append ( vr_60 ) ; }
+public void fn_43 ( tp_11 out , tp_12 vr_84 , tp_13 vr_86 ) throws IOException { out . vr_62 ( vr_60 ) ; }
+public int fn_52 ( tp_14 vr_84 , String vr_55 , int vr_56 , tp_13 vr_86 ) {
+if ( vr_55 . vr_58 ( true , vr_56 , vr_60 , 0 , vr_60 . length () ) ) {
+return vr_56 + vr_60 . length () ; } return ~ vr_56 ; }
+public int fn_50 ( tp_12 vr_84 , int vr_85 , tp_13 vr_86 ) {
+int vr_88 = vr_134 . fn_50 ( vr_84 , vr_85 , vr_86 ) ; if ( vr_88 < vr_85 ) {
+vr_88 += vr_42 . fn_50 ( vr_84 , vr_85 , vr_86 ) ; } return vr_88 ; }
+public int fn_42 ( tp_12 vr_84 , tp_13 vr_86 ) { tp_3 vr_135 = vr_134 ; tp_3 vr_136 = vr_42 ;
+int vr_88 = vr_135 . fn_42 ( vr_84 , vr_86 ) + vr_136 . fn_42 ( vr_84 , vr_86 ) ;
+if ( vl_31 ) { if ( vr_135 . fn_50 ( vr_84 , 1 , vr_86 ) > 0 ) {
+if ( vl_32 ) { int vr_137 = vr_136 . fn_50 ( vr_84 , 2 , vr_86 ) ;
+if ( vr_137 > 0 ) { vr_88 += ( vr_137 > 1 ? vr_60 : vl_33 ) . length () ; }
+} else { vr_88 += vr_60 . length () ; } }
+} else if ( vl_32 && vr_136 . fn_50 ( vr_84 , 1 , vr_86 ) > 0 ) {
+vr_88 += vr_60 . length () ; } return vr_88 ; }
+public void fn_43 ( tp_10 vr_61 , tp_12 vr_84 , tp_13 vr_86 ) { tp_3 vr_135 = vr_134 ; tp_3 vr_136 = vr_42 ;
+vr_135 . fn_43 ( vr_61 , vr_84 , vr_86 ) ; if ( vl_31 ) {
+if ( vr_135 . fn_50 ( vr_84 , 1 , vr_86 ) > 0 ) { if ( vl_32 ) {
+int vr_137 = vr_136 . fn_50 ( vr_84 , 2 , vr_86 ) ; if ( vr_137 > 0 ) {
+vr_61 . append ( vr_137 > 1 ? vr_60 : vl_33 ) ; } } else { vr_61 . append ( vr_60 ) ; }
+} } else if ( vl_32 && vr_136 . fn_50 ( vr_84 , 1 , vr_86 ) > 0 ) {
+vr_61 . append ( vr_60 ) ; } vr_136 . fn_43 ( vr_61 , vr_84 , vr_86 ) ; }
+public void fn_43 ( tp_11 out , tp_12 vr_84 , tp_13 vr_86 ) throws IOException { tp_3 vr_135 = vr_134 ;
+tp_3 vr_136 = vr_42 ; vr_135 . fn_43 ( out , vr_84 , vr_86 ) ; if ( vl_31 ) {
+if ( vr_135 . fn_50 ( vr_84 , 1 , vr_86 ) > 0 ) { if ( vl_32 ) {
+int vr_137 = vr_136 . fn_50 ( vr_84 , 2 , vr_86 ) ; if ( vr_137 > 0 ) {
+out . vr_62 ( vr_137 > 1 ? vr_60 : vl_33 ) ; } } else { out . vr_62 ( vr_60 ) ; }
+} } else if ( vl_32 && vr_136 . fn_50 ( vr_84 , 1 , vr_86 ) > 0 ) {
+out . vr_62 ( vr_60 ) ; } vr_136 . fn_43 ( out , vr_84 , vr_86 ) ; } public int fn_52 (
+tp_14 vr_84 , String vr_55 , int vr_56 , tp_13 vr_86 ) { int vr_138 = vr_56 ;
+vr_56 = vr_139 . fn_52 ( vr_84 , vr_55 , vr_56 , vr_86 ) ; if ( vr_56 < 0 ) { return vr_56 ;
+} boolean vr_140 = false ; int vr_141 = - 1 ; if ( vr_56 > vr_138 ) { String [] vr_142 = vl_34 ;
+int length = vr_142 . length ; for ( int vr_33 = 0 ; vr_33 < length ; vr_33 ++ ) {
+String vr_143 = vr_142 [ vr_33 ] ; if ( ( vr_143 == null || vr_143 . length () == 0 ) ||
+vr_55 . vr_58 ( true , vr_56 , vr_143 , 0 , vr_143 . length () ) ) {
+vr_141 = ( vr_143 == null ? 0 : vr_143 . length () ) ; vr_56 += vr_141 ; vr_140 = true ; break; }
+} } vr_138 = vr_56 ; vr_56 = vr_41 . fn_52 ( vr_84 , vr_55 , vr_56 , vr_86 ) ;
+if ( vr_56 < 0 ) { return vr_56 ; } if ( vr_140 && vr_56 == vr_138 && vr_141 > 0 ) {
+return ~ vr_138 ; } if ( vr_56 > vr_138 && ! vr_140 && ! vl_31 ) { return ~ vr_138 ; }
+return vr_56 ; } tp_8 vr_3 ( tp_3 vr_144 , tp_4 vr_145 ) { vr_42 = vr_144 ; vr_41 = vr_145 ; return this ;
+} public int fn_50 ( tp_12 vr_84 , int vr_85 , tp_13 vr_86 ) { int vr_88 = 0 ;
+tp_3 [] vr_146 = vl_35 ;
+for ( int vr_33 = vr_146 . length ; vr_88 < vr_85 && -- vr_33 >= 0 ; ) {
+vr_88 += vr_146 [ vr_33 ] . fn_50 ( vr_84 , Integer . vr_47 , vr_86 ) ; } return vr_88 ; }
+public int fn_42 ( tp_12 vr_84 , tp_13 vr_86 ) { int vr_88 = 0 ; tp_3 [] vr_146 = vl_35 ;
+for ( int vr_33 = vr_146 . length ; -- vr_33 >= 0 ; ) {
+vr_88 += vr_146 [ vr_33 ] . fn_42 ( vr_84 , vr_86 ) ; } return vr_88 ; }
+public void fn_43 ( tp_10 vr_61 , tp_12 vr_84 , tp_13 vr_86 ) { tp_3 [] vr_146 = vl_35 ;
+int vr_147 = vr_146 . length ; for ( int vr_33 = 0 ; vr_33 < vr_147 ; vr_33 ++ ) {
+vr_146 [ vr_33 ] . fn_43 ( vr_61 , vr_84 , vr_86 ) ; } }
+public void fn_43 ( tp_11 out , tp_12 vr_84 , tp_13 vr_86 ) throws IOException { tp_3 [] vr_146 = vl_35 ;
+int vr_147 = vr_146 . length ; for ( int vr_33 = 0 ; vr_33 < vr_147 ; vr_33 ++ ) {
+vr_146 [ vr_33 ] . fn_43 ( out , vr_84 , vr_86 ) ; } } public int fn_52 (
+tp_14 vr_84 , String vr_55 , int vr_56 , tp_13 vr_86 ) { tp_4 [] vr_148 = vl_36 ;
+if ( vr_148 == null ) { throw new fn_57 () ; } int vr_147 = vr_148 . length ;
+for ( int vr_33 = 0 ; vr_33 < vr_147 && vr_56 >= 0 ; vr_33 ++ ) {
+vr_56 = vr_148 [ vr_33 ] . fn_52 ( vr_84 , vr_55 , vr_56 , vr_86 ) ; } return vr_56 ; }
+private void fn_58 ( List < Object > vr_37 , List < Object > vr_149 , List < Object > vr_150 ) {
+int size = vr_37 . size () ; for ( int vr_33 = 0 ; vr_33 < size ; vr_33 += 2 ) {
+Object vr_151 = vr_37 . get ( vr_33 ) ; if ( vr_151 instanceof tp_3 ) { if ( vr_151 instanceof tp_9 ) {
+fn_59 ( vr_149 , ( ( tp_9 ) vr_151 ) . vl_35 ) ; } else { vr_149 . add ( vr_151 ) ; }
+} vr_151 = vr_37 . get ( vr_33 + 1 ) ; if ( vr_151 instanceof tp_4 ) {
+if ( vr_151 instanceof tp_9 ) { fn_59 ( vr_150 , ( ( tp_9 ) vr_151 ) . vl_36 ) ; } else {
+vr_150 . add ( vr_151 ) ; } } } }
+private void fn_59 ( List < Object > list , Object [] array ) { if ( array != null ) {
+for ( int vr_33 = 0 ; vr_33 < array . length ; vr_33 ++ ) {
+list . add ( array [ vr_33 ] ) ; } } }

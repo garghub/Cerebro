@@ -1,0 +1,16 @@
+@Override public String encode ( final String source ) { String txt = source ; if ( txt == null || txt . length () == 0 ) { return TEN_1 ; } txt = txt . toLowerCase ( java . util . Locale . ENGLISH ) ;
+txt = txt . replaceAll ( lr_1 , lr_2 ) ; txt = txt . replaceAll ( lr_3 , lr_2 ) ; txt = txt . replaceAll ( lr_4 , lr_5 ) ; txt = txt . replaceAll ( lr_6 , lr_7 ) ;
+txt = txt . replaceAll ( lr_8 , lr_9 ) ; txt = txt . replaceAll ( lr_10 , lr_11 ) ; txt = txt . replaceAll ( lr_12 , lr_13 ) ; txt = txt . replaceAll ( lr_14 , lr_15 ) ;
+txt = txt . replaceAll ( lr_16 , lr_17 ) ; txt = txt . replaceAll ( lr_18 , lr_19 ) ; txt = txt . replaceAll ( lr_20 , lr_21 ) ; txt = txt . replaceAll ( lr_22 , lr_23 ) ;
+txt = txt . replaceAll ( lr_24 , lr_25 ) ; txt = txt . replaceAll ( lr_26 , lr_27 ) ; txt = txt . replaceAll ( lr_28 , lr_29 ) ; txt = txt . replaceAll ( lr_30 , lr_29 ) ;
+txt = txt . replaceAll ( lr_31 , lr_29 ) ; txt = txt . replaceAll ( lr_32 , lr_33 ) ; txt = txt . replaceAll ( lr_34 , lr_35 ) ; txt = txt . replaceAll ( lr_36 , lr_37 ) ;
+txt = txt . replaceAll ( lr_38 , lr_39 ) ; txt = txt . replaceAll ( lr_40 , lr_41 ) ; txt = txt . replaceAll ( lr_42 , lr_43 ) ; txt = txt . replaceAll ( lr_44 , lr_45 ) ;
+txt = txt . replaceAll ( lr_46 , lr_47 ) ; txt = txt . replaceAll ( lr_48 , lr_49 ) ; txt = txt . replaceAll ( lr_50 , lr_51 ) ; txt = txt . replaceAll ( lr_52 , lr_53 ) ;
+txt = txt . replaceAll ( lr_54 , lr_55 ) ; txt = txt . replaceAll ( lr_56 , lr_57 ) ; txt = txt . replaceAll ( lr_58 , lr_51 ) ; txt = txt . replaceAll ( lr_55 , lr_53 ) ;
+txt = txt . replaceAll ( lr_59 , lr_60 ) ; txt = txt . replaceAll ( lr_61 , lr_62 ) ; txt = txt . replaceAll ( lr_63 , lr_29 ) ; txt = txt . replaceAll ( lr_64 , lr_65 ) ;
+txt = txt . replaceAll ( lr_66 , lr_67 ) ; txt = txt . replaceAll ( lr_68 , lr_69 ) ; txt = txt . replaceAll ( lr_70 , lr_71 ) ; txt = txt . replaceAll ( lr_72 , lr_73 ) ;
+txt = txt . replaceAll ( lr_74 , lr_75 ) ; txt = txt . replaceAll ( lr_76 , lr_77 ) ; txt = txt . replaceAll ( lr_78 , lr_79 ) ; txt = txt . replaceAll ( lr_80 , lr_81 ) ;
+txt = txt . replaceAll ( lr_82 , lr_53 ) ; txt = txt . replaceAll ( lr_83 , lr_84 ) ; txt = txt . replaceAll ( lr_85 , lr_51 ) ; txt = txt . replaceAll ( lr_86 , lr_84 ) ;
+txt = txt . replaceAll ( lr_87 , lr_88 ) ; txt = txt . replaceAll ( lr_89 , lr_53 ) ; txt = txt . replaceAll ( lr_90 , lr_84 ) ; txt = txt . replaceAll ( lr_91 , lr_92 ) ;
+txt = txt . replaceAll ( lr_93 , lr_53 ) ; txt = txt . replaceAll ( lr_94 , lr_84 ) ; txt = txt . replaceAll ( lr_84 , lr_2 ) ; txt = txt . replaceAll ( lr_95 , lr_51 ) ;
+txt = txt . replaceAll ( lr_53 , lr_2 ) ; txt = txt + TEN_1 ; return txt . substring ( 0 , TEN_1 . length () ) ; }

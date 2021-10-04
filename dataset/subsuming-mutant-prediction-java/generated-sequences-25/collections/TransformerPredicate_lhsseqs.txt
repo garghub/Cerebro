@@ -1,0 +1,18 @@
+public boolean fn_2 ( final vt_1 object ) { final Boolean vr_7 = vr_8 . vr_9 ( object ) ; MST[NonVoidMethodCallMutator]MSP[]
+public boolean fn_2 ( final vt_1 object ) { final Boolean vr_7 = vr_8 . vr_9 ( object ) ; MST[ArgumentPropagationMutator]MSP[]
+if ( vr_7 == null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[] throw new fn_3 ( lr_2 ) ; } return vr_7 . vr_10 () ; }
+if ( vr_7 == null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[] throw new fn_3 ( lr_2 ) ; } return vr_7 . vr_10 () ; }
+return new vr_4 <> ( vr_5 . vr_6 ( vr_3 , lr_1 ) ) ; MST[ConstructorCallMutator]MSP[] } @Override
+return new vr_4 <> ( vr_5 . vr_6 ( vr_3 , lr_1 ) ) ; MST[NonVoidMethodCallMutator]MSP[] } @Override
+if ( vr_7 == null ) { throw new fn_3 ( MST[ConstructorCallMutator]MSP[] lr_2 ) ; } return vr_7 . vr_10 () ; }
+return new vr_4 <> ( vr_5 . vr_6 ( vr_3 , lr_1 ) ) ; MST[ArgumentPropagationMutator]MSP[] } @Override
+if ( vr_7 == null ) { MST[NegateConditionalsMutator]MSP[] throw new fn_3 ( lr_2 ) ; } return vr_7 . vr_10 () ; }
+return new vr_4 <> ( vr_5 . vr_6 ( vr_3 , lr_1 ) ) ; MST[NullReturnValsMutator]MSP[] } @Override
+public vr_2 < ? super vt_1 , Boolean > fn_4 () { return vr_8 ; MST[NullReturnValsMutator]MSP[] }
+if ( vr_7 == null ) { throw new fn_3 ( lr_2 ) ; } return vr_7 . vr_10 () ; MST[NonVoidMethodCallMutator]MSP[] }
+return new vr_4 <> ( vr_5 . vr_6 ( vr_3 , lr_1 ) ) ; MST[ReturnValsMutator]MSP[] } @Override
+if ( vr_7 == null ) { throw new fn_3 ( lr_2 ) ; } return vr_7 . vr_10 () ; MST[BooleanTrueReturnValsMutator]MSP[] }
+public vr_2 < ? super vt_1 , Boolean > fn_4 () { return vr_8 ; MST[ReturnValsMutator]MSP[] }
+if ( vr_7 == null ) { MST[rv.ROR5Mutator]MSP[] throw new fn_3 ( lr_2 ) ; } return vr_7 . vr_10 () ; }
+if ( vr_7 == null ) { throw new fn_3 ( lr_2 ) ; } return vr_7 . vr_10 () ; MST[BooleanFalseReturnValsMutator]MSP[] }
+if ( vr_7 == null ) { throw new fn_3 ( lr_2 ) ; } return vr_7 . vr_10 () ; MST[ReturnValsMutator]MSP[] }

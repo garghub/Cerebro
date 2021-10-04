@@ -1,0 +1,61 @@
+int fn_1 ( final String vr_1 ) { int vr_2 = vr_3 . vr_4 ( vl_1 , vr_1 ) ;
+return vr_2 >= 0 ? vr_5 [ vr_2 ] : vl_2 ; } String fn_2 ( final int vr_6 ) {
+final int vr_2 = vr_3 . vr_4 ( vl_3 , vr_6 ) ; if ( vr_2 >= 0 ) {
+return ( vr_2 < vr_7 . length - 1 && vl_3 [ vr_2 + 1 ] == vr_6 ) ?
+vr_7 [ vr_2 + 1 ] : vr_7 [ vr_2 ] ; } return vl_4 ; } private int size () {
+return vl_1 . length ; } public static boolean fn_3 ( final String vr_1 ) {
+return vr_8 . fn_1 ( vr_1 ) != vl_2 ; } public static boolean fn_4 ( final String vr_1 ) {
+return vr_9 . fn_1 ( vr_1 ) != vl_2 ; } public static String fn_5 ( String vr_1 ) {
+String vr_10 = vr_11 . get ( vr_1 ) ; if ( vr_10 != null ) return vr_10 ;
+int vr_6 = vr_8 . fn_1 ( vr_1 ) ; if ( vr_6 != vl_2 )
+return new String ( new int [] { vr_6 } , 0 , 1 ) ; return vl_4 ; }
+public static int fn_6 ( final String vr_1 , final int [] vr_12 ) { String vr_10 = vr_11 . get ( vr_1 ) ;
+if ( vr_10 != null ) { vr_12 [ 0 ] = vr_10 . vr_13 ( 0 ) ;
+vr_12 [ 1 ] = vr_10 . vr_13 ( 1 ) ; return 2 ; }
+int vr_6 = vr_8 . fn_1 ( vr_1 ) ; if ( vr_6 != vl_2 ) { vr_12 [ 0 ] = vr_6 ;
+return 1 ; } return 0 ; } public static String fn_7 ( String string , vr_14 . vr_15 out ) {
+if ( string == null ) return lr_1 ; StringBuilder vr_16 = vr_17 . vr_18 () ; try {
+fn_7 ( vr_16 , string , out , false , false , false ) ; } catch ( IOException vr_19 ) {
+throw new fn_8 ( vr_19 ) ; } return vr_17 . vr_20 ( vr_16 ) ; }
+public static String fn_7 ( String string ) { return fn_7 ( string , vl_5 ) ; }
+static void fn_7 ( tp_1 vr_16 , String string , vr_14 . vr_15 out ,
+boolean vr_21 , boolean vr_22 , boolean vr_23 ) throws IOException { boolean vr_24 = false ; boolean vr_25 = false ;
+final tp_2 vr_26 = out . vr_26 () ; final tp_3 vr_27 = out . vr_27 () ;
+final tp_4 vr_28 = out . vr_28 ; final int length = string . length () ; int vr_29 ;
+for ( int vr_30 = 0 ; vr_30 < length ; vr_30 += vr_31 . vr_32 ( vr_29 ) ) {
+vr_29 = string . vr_13 ( vr_30 ) ; if ( vr_22 ) { if ( vr_17 . vr_33 ( vr_29 ) ) {
+if ( ( vr_23 && ! vr_25 ) || vr_24 ) continue; vr_16 . append ( ' ' ) ; vr_24 = true ; continue;
+} else { vr_24 = false ; vr_25 = true ; } } if ( vr_29 < vr_31 . vr_34 ) {
+final char vr_35 = ( char ) vr_29 ; switch ( vr_35 ) { case '&' : vr_16 . append ( lr_2 ) ; break;
+case 0xA0 : if ( vr_26 != tp_2 . vr_36 ) vr_16 . append ( lr_3 ) ; else
+vr_16 . append ( lr_4 ) ; break; case '<' : if ( ! vr_21 || vr_26 == tp_2 . vr_36 )
+vr_16 . append ( lr_5 ) ; else vr_16 . append ( vr_35 ) ; break; case '>' : if ( ! vr_21 )
+vr_16 . append ( lr_6 ) ; else vr_16 . append ( vr_35 ) ; break; case '"' : if ( vr_21 )
+vr_16 . append ( lr_7 ) ; else vr_16 . append ( vr_35 ) ; break; default:
+if ( fn_9 ( vr_28 , vr_35 , vr_27 ) ) vr_16 . append ( vr_35 ) ; else
+fn_10 ( vr_16 , vr_26 , vr_29 ) ; } } else {
+final String vr_35 = new String ( vr_31 . vr_37 ( vr_29 ) ) ; if ( vr_27 . fn_9 ( vr_35 ) )
+vr_16 . append ( vr_35 ) ; else fn_10 ( vr_16 , vr_26 , vr_29 ) ; } } }
+private static void fn_10 ( tp_1 vr_16 , tp_2 vr_26 , int vr_29 ) throws IOException {
+final String vr_1 = vr_26 . fn_2 ( vr_29 ) ; if ( ! vl_4 . equals ( vr_1 ) )
+vr_16 . append ( '&' ) . append ( vr_1 ) . append ( ';' ) ; else
+vr_16 . append ( lr_8 ) . append ( Integer . vr_38 ( vr_29 ) ) . append ( ';' ) ; }
+public static String fn_11 ( String string ) { return fn_11 ( string , false ) ; }
+static String fn_11 ( String string , boolean vr_39 ) { return vr_40 . vr_41 ( string , vr_39 ) ; }
+private static boolean fn_9 ( final tp_4 vr_42 , final char vr_35 , final tp_3 vr_43 ) { switch ( vr_42 ) {
+case vl_6 : return vr_35 < 0x80 ; case vl_7 : return true ; default: return vr_43 . fn_9 ( vr_35 ) ; } }
+static tp_4 fn_12 ( final String vr_1 ) { if ( vr_1 . equals ( lr_9 ) ) return vl_6 ;
+if ( vr_1 . vr_44 ( lr_10 ) ) return vl_7 ; return vr_43 ; }
+private static void fn_13 ( tp_2 vr_19 , String vr_45 , int size ) { vr_19 . vl_1 = new String [ size ] ;
+vr_19 . vr_5 = new int [ size ] ; vr_19 . vl_3 = new int [ size ] ;
+vr_19 . vr_7 = new String [ size ] ; int vr_46 = 0 ; tp_5 vr_47 = new tp_5 ( vr_45 ) ;
+while ( ! vr_47 . isEmpty () ) { final String vr_1 = vr_47 . vr_48 ( '=' ) ; vr_47 . vr_49 () ;
+final int vr_50 = Integer . vr_51 ( vr_47 . vr_52 ( vl_8 ) , vl_9 ) ;
+final char vr_53 = vr_47 . vr_54 () ; vr_47 . vr_49 () ; final int vr_55 ; if ( vr_53 == ',' ) {
+vr_55 = Integer . vr_51 ( vr_47 . vr_48 ( ';' ) , vl_9 ) ; vr_47 . vr_49 () ; } else {
+vr_55 = vl_2 ; } final String vr_56 = vr_47 . vr_48 ( '&' ) ;
+final int vr_2 = Integer . vr_51 ( vr_56 , vl_9 ) ; vr_47 . vr_49 () ;
+vr_19 . vl_1 [ vr_46 ] = vr_1 ; vr_19 . vr_5 [ vr_46 ] = vr_50 ;
+vr_19 . vl_3 [ vr_2 ] = vr_50 ; vr_19 . vr_7 [ vr_2 ] = vr_1 ; if ( vr_55 != vl_2 ) {
+vr_11 . vr_57 ( vr_1 , new String ( new int [] { vr_50 , vr_55 } , 0 , 2 ) ) ; }
+vr_46 ++ ; } vr_58 . vr_59 ( vr_46 == size , lr_11 ) ; }

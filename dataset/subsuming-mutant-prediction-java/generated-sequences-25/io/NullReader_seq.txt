@@ -1,0 +1,21 @@
+public long fn_1 () { return vl_1 ; } public long fn_2 () { return size ; } @Override
+public void fn_3 () throws IOException { vl_2 = false ; vl_1 = 0 ; vl_3 = - 1 ; } @Override
+public synchronized void vl_3 ( final int vr_1 ) { if ( ! vl_4 ) { throw new fn_4 ( lr_1 ) ; }
+vl_3 = vl_1 ; this . vr_1 = vr_1 ; } @Override public boolean vl_4 () { return vl_4 ; } @Override
+public int fn_5 () throws IOException { if ( vl_2 ) { throw new IOException ( lr_2 ) ; }
+if ( vl_1 == size ) { return fn_6 () ; } vl_1 ++ ; return fn_7 () ; } @Override
+public int fn_5 ( final char [] vr_2 ) throws IOException { return fn_5 ( vr_2 , 0 , vr_2 . length ) ; }
+@Override public int fn_5 ( final char [] vr_2 , final int vr_3 , final int length ) throws IOException {
+if ( vl_2 ) { throw new IOException ( lr_2 ) ; } if ( vl_1 == size ) { return fn_6 () ; }
+vl_1 += length ; int vr_4 = length ; if ( vl_1 > size ) {
+vr_4 = length - (int)( vl_1 - size ) ; vl_1 = size ; } fn_8 ( vr_2 , vr_3 , vr_4 ) ;
+return vr_4 ; } @Override public synchronized void fn_9 () throws IOException { if ( ! vl_4 ) {
+throw new fn_4 ( lr_1 ) ; } if ( vl_3 < 0 ) { throw new IOException ( lr_3 ) ; }
+if ( vl_1 > vl_3 + vr_1 ) { throw new IOException ( lr_4 + vl_3 + lr_5 + vr_1 + lr_6 ) ; }
+vl_1 = vl_3 ; vl_2 = false ; } @Override public long fn_10 ( final long vr_5 ) throws IOException {
+if ( vl_2 ) { throw new IOException ( lr_7 ) ; } if ( vl_1 == size ) { return fn_6 () ; }
+vl_1 += vr_5 ; long vr_4 = vr_5 ; if ( vl_1 > size ) {
+vr_4 = vr_5 - ( vl_1 - size ) ; vl_1 = size ; } return vr_4 ; } protected int fn_7 () {
+return 0 ; } protected void fn_8 ( final char [] vr_2 , final int vr_3 , final int length ) { }
+private int fn_6 () throws vl_5 { vl_2 = true ; if ( vl_6 ) { throw new vl_5 () ; } return vl_7 ;
+}

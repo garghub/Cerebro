@@ -1,0 +1,4 @@
+@Override public vr_1 < vt_1 , vt_2 > fn_1 () { return new vr_2 <> ( fn_2 () ) ; MST[NonVoidMethodCallMutator]MSP[] }
+@Override public vr_1 < vt_1 , vt_2 > fn_1 () { return new vr_2 <> ( fn_2 () ) ; MST[ReturnValsMutator]MSP[] }
+@Override public vr_1 < vt_1 , vt_2 > fn_1 () { return new vr_2 <> ( fn_2 () ) ; MST[ConstructorCallMutator]MSP[] }
+@Override public vr_1 < vt_1 , vt_2 > fn_1 () { return new vr_2 <> ( fn_2 () ) ; MST[NullReturnValsMutator]MSP[] }

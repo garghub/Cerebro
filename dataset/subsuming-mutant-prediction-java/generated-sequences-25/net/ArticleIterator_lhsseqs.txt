@@ -1,0 +1,9 @@
+final String line = vr_1 . fn_1 () ; return vr_2 . vr_3 ( line ) ; MST[NonVoidMethodCallMutator]MSP[] } @Override public void remove () {
+@Override public boolean hasNext () { return vr_1 . hasNext () ; MST[BooleanTrueReturnValsMutator]MSP[] } @Override public tp_1 fn_1 () {
+@Override public boolean hasNext () { return vr_1 . hasNext () ; MST[ReturnValsMutator]MSP[] } @Override public tp_1 fn_1 () {
+vr_1 . remove () ; MST[VoidMethodCallMutator]MSP[] } @Override public Iterator < tp_1 > iterator () { return this ; }
+final String line = vr_1 . fn_1 () ; MST[NonVoidMethodCallMutator]MSP[] return vr_2 . vr_3 ( line ) ; } @Override public void remove () {
+@Override public boolean hasNext () { return vr_1 . hasNext () ; MST[BooleanFalseReturnValsMutator]MSP[] } @Override public tp_1 fn_1 () {
+final String line = vr_1 . fn_1 () ; return vr_2 . vr_3 ( line ) ; MST[ReturnValsMutator]MSP[] } @Override public void remove () {
+@Override public boolean hasNext () { return vr_1 . hasNext () ; MST[NonVoidMethodCallMutator]MSP[] } @Override public tp_1 fn_1 () {
+final String line = vr_1 . fn_1 () ; return vr_2 . vr_3 ( line ) ; MST[NullReturnValsMutator]MSP[] } @Override public void remove () {

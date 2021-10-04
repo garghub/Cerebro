@@ -1,0 +1,22 @@
+public static synchronized tp_1 fn_1 ( tp_2 type ) { tp_1 vr_1 ; if ( vl_1 == null ) {
+vl_1 = new vr_2 < tp_2 , tp_1 > ( 7 ) ; vr_1 = null ; } else {
+vr_1 = vl_1 . get ( type ) ; } if ( vr_1 == null ) { vr_1 = new tp_1 ( type ) ;
+vl_1 . vr_3 ( type , vr_1 ) ; } return vr_1 ; } public final tp_2 getType () { return vl_2 ; }
+public String fn_2 () { return vl_2 . fn_2 () ; } public boolean fn_3 () { return false ; }
+public boolean fn_4 () { return true ; } public int fn_5 ( long vr_4 ) { throw fn_6 () ; }
+public long fn_7 ( long vr_4 ) { throw fn_6 () ; } public int fn_5 ( long vr_4 , long vr_5 ) {
+throw fn_6 () ; } public long fn_7 ( long vr_4 , long vr_5 ) { throw fn_6 () ; }
+public long fn_8 ( int vr_6 ) { throw fn_6 () ; } public long fn_8 ( long vr_6 ) { throw fn_6 () ;
+} public long fn_8 ( int vr_6 , long vr_5 ) { throw fn_6 () ; }
+public long fn_8 ( long vr_6 , long vr_5 ) { throw fn_6 () ; }
+public long add ( long vr_5 , int vr_6 ) { throw fn_6 () ; }
+public long add ( long vr_5 , long vr_6 ) { throw fn_6 () ; }
+public int fn_9 ( long vr_7 , long vr_8 ) { throw fn_6 () ; }
+public long fn_10 ( long vr_7 , long vr_8 ) { throw fn_6 () ; } public long fn_11 () { return 0 ; }
+public int fn_12 ( tp_3 vr_9 ) { return 0 ; } public boolean equals ( Object vr_10 ) {
+if ( this == vr_10 ) { return true ; } else if ( vr_10 instanceof tp_1 ) {
+tp_1 vr_11 = ( tp_1 ) vr_10 ; if ( vr_11 . fn_2 () == null ) {
+return ( fn_2 () == null ) ; } return ( vr_11 . fn_2 () . equals ( fn_2 () ) ) ; }
+return false ; } public int fn_13 () { return fn_2 () . fn_13 () ; } public String toString () {
+return lr_1 + fn_2 () + ']' ; } private Object fn_14 () { return fn_1 ( vl_2 ) ; }
+private tp_4 fn_6 () { return new tp_4 ( vl_2 + lr_2 ) ; }

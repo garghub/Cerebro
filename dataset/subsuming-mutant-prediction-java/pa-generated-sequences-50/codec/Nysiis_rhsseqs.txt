@@ -1,0 +1,1050 @@
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.CRCR3Mutator]MSP[N]
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { MST[rv.UOI2Mutator]MSP[N] if ( next == 'N' ) {
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.CRCR4Mutator]MSP[S] return CHARS_FF ; }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.CRCR1Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.ROR2Mutator]MSP[N] return new char [] { prev } ;
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[NegateConditionalsMutator]MSP[N]
+final StringBuilder key = new StringBuilder ( str . length () ) ; key . append ( str . charAt ( 0 ) ) ; final char [] chars = str . toCharArray () ; MST[NonVoidMethodCallMutator]MSP[N] final int len = chars . length ;
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[rv.ROR5Mutator]MSP[N] }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.UOI1Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+} return new char [] { curr } ; MST[rv.CRCR4Mutator]MSP[N] } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { throw new EncoderException ( lr_1 ) ; }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { MST[rv.UOI1Mutator]MSP[N] return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { MST[InlineConstantMutator]MSP[N] return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { key . append ( chars [ i ] ) ; MST[rv.ABSMutator]MSP[N] } }
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { MST[rv.ROR4Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ; } }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.ROR5Mutator]MSP[S] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { key . append ( chars [ i ] ) ; MST[rv.UOI1Mutator]MSP[N] } }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR2Mutator]MSP[S] }
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.ABSMutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( curr == 'Q' ) { MST[rv.ROR1Mutator]MSP[N] return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; MST[rv.CRCR2Mutator]MSP[N] } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+for ( int i = 1 ; i < len ; i ++ ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; MST[rv.CRCR3Mutator]MSP[N] } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.UOI4Mutator]MSP[N] return CHARS_FF ; }
+str = PAT_SCH . matcher ( str ) . replaceFirst ( lr_6 ) ; MST[ArgumentPropagationMutator]MSP[N] str = PAT_EE_IE . matcher ( str ) . replaceFirst ( lr_7 ) ; str = PAT_DT_ETC . matcher ( str ) . replaceFirst ( lr_8 ) ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ; MST[InlineConstantMutator]MSP[N]
+for ( int i = 1 ; i < len ; i ++ ) { MST[rv.UOI2Mutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.UOI3Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.CRCR6Mutator]MSP[N] if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[InlineConstantMutator]MSP[N]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.CRCR5Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.ROR3Mutator]MSP[N] return new char [] { prev } ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.CRCR6Mutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.CRCR2Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( str == null ) { MST[rv.ROR5Mutator]MSP[N] return null ; } str = SoundexUtils . clean ( str ) ; if ( str . length () == 0 ) { return str ; } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] return new char [] { prev } ;
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.ROR1Mutator]MSP[N]
+} return new char [] { curr } ; MST[rv.ABSMutator]MSP[N] } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { throw new EncoderException ( lr_1 ) ; }
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.ABSMutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ; MST[rv.CRCR3Mutator]MSP[N]
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { MST[rv.CRCR6Mutator]MSP[N] final char last2Char = key . charAt ( key . length () - 2 ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.UOI2Mutator]MSP[N] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+} return new char [] { curr } ; MST[rv.UOI1Mutator]MSP[N] } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { throw new EncoderException ( lr_1 ) ; }
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.UOI1Mutator]MSP[N] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[experimental.NakedReceiverMutator]MSP[N] }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.ROR1Mutator]MSP[N] return CHARS_FF ; }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.ROR2Mutator]MSP[N] return CHARS_FF ; }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.UOI4Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+final StringBuilder key = new StringBuilder ( str . length () ) ; key . append ( str . charAt ( 0 ) ) ; MST[NonVoidMethodCallMutator]MSP[N] final char [] chars = str . toCharArray () ; final int len = chars . length ;
+for ( int i = 1 ; i < len ; i ++ ) { MST[rv.UOI3Mutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { MST[rv.CRCR5Mutator]MSP[N] return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.CRCR6Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[NegateConditionalsMutator]MSP[S] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { MST[rv.CRCR3Mutator]MSP[N] return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.ROR1Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ; MST[rv.UOI4Mutator]MSP[N]
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[NonVoidMethodCallMutator]MSP[N] }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.UOI3Mutator]MSP[N]
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.AOR4Mutator]MSP[N] } }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; MST[ReturnValsMutator]MSP[N] }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.ROR4Mutator]MSP[S] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+} return new char [] { curr } ; MST[InlineConstantMutator]MSP[N] } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { throw new EncoderException ( lr_1 ) ; }
+str = PAT_KN . matcher ( str ) . replaceFirst ( lr_3 ) ; str = PAT_K . matcher ( str ) . replaceFirst ( lr_4 ) ; MST[NonVoidMethodCallMutator]MSP[N] str = PAT_PH_PF . matcher ( str ) . replaceFirst ( lr_5 ) ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { MST[rv.ROR1Mutator]MSP[N] if ( next == 'N' ) {
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.CRCR3Mutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.CRCR5Mutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( str == null ) { return null ; } str = SoundexUtils . clean ( str ) ; if ( str . length () == 0 ) { return str ; } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ; MST[ArgumentPropagationMutator]MSP[N]
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.ROR1Mutator]MSP[N] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[MathMutator]MSP[N]
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.AOR1Mutator]MSP[N]
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.UOI1Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.ROR2Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.ROR2Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+final StringBuilder key = new StringBuilder ( str . length () ) ; key . append ( str . charAt ( 0 ) ) ; MST[InlineConstantMutator]MSP[N] final char [] chars = str . toCharArray () ; final int len = chars . length ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.UOI2Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR4Mutator]MSP[N] }
+if ( str == null ) { return null ; } str = SoundexUtils . clean ( str ) ; if ( str . length () == 0 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] return str ; } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR5Mutator]MSP[N] }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR3Mutator]MSP[N] }
+if ( str == null ) { return null ; } str = SoundexUtils . clean ( str ) ; MST[NonVoidMethodCallMutator]MSP[N] if ( str . length () == 0 ) { return str ; } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ;
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[rv.CRCR1Mutator]MSP[N] }
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.CRCR5Mutator]MSP[N]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.UOI3Mutator]MSP[N] }
+if ( str == null ) { return null ; } str = SoundexUtils . clean ( str ) ; if ( str . length () == 0 ) { MST[rv.ROR5Mutator]MSP[N] return str ; } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.AOD2Mutator]MSP[N] } }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.UOI1Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.CRCR3Mutator]MSP[N]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.UOI4Mutator]MSP[N] }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.ROR3Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.AOD1Mutator]MSP[N] if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+if ( str == null ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] return null ; } str = SoundexUtils . clean ( str ) ; if ( str . length () == 0 ) { return str ; } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ;
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.UOI4Mutator]MSP[N]
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.UOI3Mutator]MSP[N] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.ROR5Mutator]MSP[N] return new char [] { prev } ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.CRCR3Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; MST[ReturnValsMutator]MSP[S] } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; MST[NullReturnValsMutator]MSP[N] } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { return CHARS_AF ; } if ( isVowel ( curr ) ) { MST[rv.UOI2Mutator]MSP[N] return CHARS_A ; }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[InlineConstantMutator]MSP[N]
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.CRCR4Mutator]MSP[N] if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; MST[experimental.NakedReceiverMutator]MSP[S] } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { MST[rv.ROR1Mutator]MSP[N] final char last2Char = key . charAt ( key . length () - 2 ) ;
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) { MST[rv.ROR2Mutator]MSP[N]
+if ( key . length () > 1 ) { MST[InlineConstantMutator]MSP[N] char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.CRCR4Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ; MST[rv.AOD2Mutator]MSP[S]
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.CRCR4Mutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { return CHARS_AF ; } if ( isVowel ( curr ) ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return CHARS_A ; }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { return CHARS_AF ; MST[NullReturnValsMutator]MSP[N] } if ( isVowel ( curr ) ) { return CHARS_A ; }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { return CHARS_AF ; } if ( isVowel ( curr ) ) { MST[NonVoidMethodCallMutator]MSP[N] return CHARS_A ; }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[NegateConditionalsMutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.AOR2Mutator]MSP[N]
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ; MST[rv.CRCR5Mutator]MSP[N]
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ; MST[rv.CRCR6Mutator]MSP[N]
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[NegateConditionalsMutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.UOI2Mutator]MSP[N]
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { MST[rv.CRCR4Mutator]MSP[S] final char last2Char = key . charAt ( key . length () - 2 ) ;
+if ( curr == 'Q' ) { MST[rv.UOI4Mutator]MSP[N] return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { MST[rv.ROR1Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.UOI3Mutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+str = PAT_SCH . matcher ( str ) . replaceFirst ( lr_6 ) ; str = PAT_EE_IE . matcher ( str ) . replaceFirst ( lr_7 ) ; str = PAT_DT_ETC . matcher ( str ) . replaceFirst ( lr_8 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.CRCR2Mutator]MSP[N]
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { MST[rv.CRCR6Mutator]MSP[N] if ( next == 'N' ) {
+if ( key . length () > 1 ) { MST[rv.ROR3Mutator]MSP[N] char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+for ( int i = 1 ; i < len ; i ++ ) { MST[rv.CRCR2Mutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR1Mutator]MSP[N] }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.UOI2Mutator]MSP[N] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR5Mutator]MSP[N] }
+for ( int i = 1 ; i < len ; i ++ ) { MST[ConditionalsBoundaryMutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { MST[rv.CRCR2Mutator]MSP[N] return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.UOI4Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.CRCR2Mutator]MSP[S] return CHARS_FF ; }
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { MST[rv.CRCR2Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.ROR3Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return new char [] { prev } ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { MST[rv.CRCR4Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { MST[rv.UOI4Mutator]MSP[N] if ( next == 'N' ) {
+str = PAT_KN . matcher ( str ) . replaceFirst ( lr_3 ) ; str = PAT_K . matcher ( str ) . replaceFirst ( lr_4 ) ; MST[NonVoidMethodCallMutator]MSP[N] str = PAT_PH_PF . matcher ( str ) . replaceFirst ( lr_5 ) ;
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.ABSMutator]MSP[S] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[MathMutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.UOI3Mutator]MSP[N]
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; MST[rv.CRCR2Mutator]MSP[N] } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+} return new char [] { curr } ; MST[rv.CRCR2Mutator]MSP[N] } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { throw new EncoderException ( lr_1 ) ; }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.CRCR5Mutator]MSP[N]
+for ( int i = 1 ; i < len ; i ++ ) { MST[rv.ROR5Mutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+if ( curr == 'Q' ) { MST[rv.CRCR1Mutator]MSP[N] return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'Q' ) { MST[rv.CRCR6Mutator]MSP[N] return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[InlineConstantMutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.CRCR2Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[rv.ROR2Mutator]MSP[N] }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[NegateConditionalsMutator]MSP[N] return new char [] { prev } ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.AOD2Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[experimental.NakedReceiverMutator]MSP[N] } }
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] key . deleteCharAt ( key . length () - 1 ) ;
+if ( key . length () > 1 ) { MST[NegateConditionalsMutator]MSP[N] char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.UOI1Mutator]MSP[N] }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.UOI2Mutator]MSP[N] }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { MST[rv.UOI3Mutator]MSP[N] return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ; MST[rv.CRCR2Mutator]MSP[N]
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.ROR4Mutator]MSP[S] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.ROR3Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ABSMutator]MSP[N] }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N]
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.AOR3Mutator]MSP[N] if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[rv.CRCR2Mutator]MSP[N] }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; MST[rv.CRCR4Mutator]MSP[N] } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; MST[rv.CRCR5Mutator]MSP[N] } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { key . append ( chars [ i ] ) ; MST[NonVoidMethodCallMutator]MSP[N] } }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.ABSMutator]MSP[N]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR2Mutator]MSP[N] }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; MST[NullReturnValsMutator]MSP[N] } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; MST[rv.ABSMutator]MSP[N] } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR6Mutator]MSP[N] }
+} return new char [] { curr } ; } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { MST[rv.ROR5Mutator]MSP[N] throw new EncoderException ( lr_1 ) ; }
+final StringBuilder key = new StringBuilder ( str . length () ) ; key . append ( str . charAt ( 0 ) ) ; MST[rv.CRCR3Mutator]MSP[N] final char [] chars = str . toCharArray () ; final int len = chars . length ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.UOI1Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR3Mutator]MSP[N] }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.ROR2Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.UOI1Mutator]MSP[N]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[InlineConstantMutator]MSP[N] }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.UOI4Mutator]MSP[N]
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.CRCR1Mutator]MSP[S] return CHARS_FF ; }
+} return new char [] { curr } ; MST[rv.CRCR3Mutator]MSP[N] } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { throw new EncoderException ( lr_1 ) ; }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.AOD2Mutator]MSP[N]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR4Mutator]MSP[N] }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; MST[rv.UOI1Mutator]MSP[N] if ( chars [ i ] != chars [ i - 1 ] ) { key . append ( chars [ i ] ) ; } }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.UOI4Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[InlineConstantMutator]MSP[N] }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.CRCR2Mutator]MSP[N] return new char [] { prev } ;
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.CRCR4Mutator]MSP[S] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { return CHARS_AF ; } if ( isVowel ( curr ) ) { MST[rv.ROR4Mutator]MSP[N] return CHARS_A ; }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[NegateConditionalsMutator]MSP[N] }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return CHARS_FF ; }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.CRCR5Mutator]MSP[S] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+str = PAT_SCH . matcher ( str ) . replaceFirst ( lr_6 ) ; str = PAT_EE_IE . matcher ( str ) . replaceFirst ( lr_7 ) ; str = PAT_DT_ETC . matcher ( str ) . replaceFirst ( lr_8 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.ROR5Mutator]MSP[N] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.AOR2Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] return CHARS_FF ; }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) { MST[rv.ABSMutator]MSP[S]
+for ( int i = 1 ; i < len ; i ++ ) { MST[rv.UOI4Mutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ; MST[rv.UOI1Mutator]MSP[N]
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.CRCR1Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.ROR1Mutator]MSP[N] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.UOI4Mutator]MSP[N]
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.CRCR4Mutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.UOI2Mutator]MSP[N] return new char [] { prev } ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[NonVoidMethodCallMutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.AOR3Mutator]MSP[N] } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[MathMutator]MSP[N]
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ; MST[rv.CRCR1Mutator]MSP[N]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] }
+return CHARS_NN ; } return CHARS_C ; MST[NullReturnValsMutator]MSP[N] } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.ABSMutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { MST[rv.ROR5Mutator]MSP[N] return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { MST[InlineConstantMutator]MSP[N] return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[NegateConditionalsMutator]MSP[N] }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.CRCR6Mutator]MSP[N]
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.UOI3Mutator]MSP[N]
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) { MST[rv.CRCR2Mutator]MSP[S]
+for ( int i = 1 ; i < len ; i ++ ) { MST[rv.CRCR3Mutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.AOD2Mutator]MSP[N]
+if ( key . length () > 1 ) { MST[rv.ROR4Mutator]MSP[N] char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+if ( curr == 'Q' ) { MST[rv.UOI1Mutator]MSP[N] return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[InlineConstantMutator]MSP[N] return new char [] { prev } ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { MST[rv.CRCR1Mutator]MSP[N] if ( next == 'N' ) {
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[InlineConstantMutator]MSP[N] }
+if ( curr == 'Q' ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR5Mutator]MSP[N] }
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.CRCR6Mutator]MSP[N] } }
+} return new char [] { curr } ; MST[InlineConstantMutator]MSP[N] } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { throw new EncoderException ( lr_1 ) ; }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.UOI1Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.CRCR4Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { MST[rv.ABSMutator]MSP[N] return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.CRCR1Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.CRCR6Mutator]MSP[S] return CHARS_FF ; }
+lastChar = key . charAt ( key . length () - 1 ) ; MST[NonVoidMethodCallMutator]MSP[N] } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ;
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[ReturnValsMutator]MSP[N] }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[InlineConstantMutator]MSP[S] return CHARS_FF ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.ABSMutator]MSP[N] return new char [] { prev } ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) { MST[rv.UOI2Mutator]MSP[N]
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] key . append ( chars [ i ] ) ; } }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.ROR4Mutator]MSP[N] return CHARS_FF ; }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.UOI3Mutator]MSP[N] }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.CRCR2Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.CRCR3Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+} return new char [] { curr } ; MST[NullReturnValsMutator]MSP[N] } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { throw new EncoderException ( lr_1 ) ; }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.ROR3Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[RemoveConditionalMutator_ORDER_IF]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+} return new char [] { curr } ; MST[rv.UOI3Mutator]MSP[N] } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { throw new EncoderException ( lr_1 ) ; }
+return this . nysiis ( ( String ) obj ) ; } @Override public String encode ( final String str ) { return this . nysiis ( str ) ; MST[ArgumentPropagationMutator]MSP[N] } public boolean isStrict () { return this . strict ; } public String nysiis ( String str ) {
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.UOI2Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.UOI4Mutator]MSP[N] }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.ROR3Mutator]MSP[N] return CHARS_FF ; }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.ROR4Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR4Mutator]MSP[N] }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.UOI4Mutator]MSP[N] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.ROR4Mutator]MSP[N] return new char [] { prev } ;
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[RemoveConditionalMutator_ORDER_IF]MSP[N]
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { MST[rv.CRCR3Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ;
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { MST[rv.CRCR6Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ;
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.UOI1Mutator]MSP[N]
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.AOD2Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; MST[rv.AOD2Mutator]MSP[S] } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { MST[rv.ROR4Mutator]MSP[N] return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[NonVoidMethodCallMutator]MSP[N] }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[InlineConstantMutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.ABSMutator]MSP[N]
+for ( int i = 1 ; i < len ; i ++ ) { MST[rv.ROR1Mutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.CRCR6Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.CRCR1Mutator]MSP[N]
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; MST[rv.CRCR6Mutator]MSP[S] } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; MST[rv.CRCR3Mutator]MSP[N] } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR1Mutator]MSP[N] }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.CRCR3Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { return CHARS_AF ; MST[ReturnValsMutator]MSP[N] } if ( isVowel ( curr ) ) { return CHARS_A ; }
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[rv.ROR3Mutator]MSP[N] }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.CRCR6Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ; MST[rv.CRCR6Mutator]MSP[S]
+lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.AOD1Mutator]MSP[N] } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { MST[rv.ROR2Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ; } }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; MST[rv.CRCR6Mutator]MSP[N] if ( chars [ i ] != chars [ i - 1 ] ) { key . append ( chars [ i ] ) ; } }
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; MST[NonVoidMethodCallMutator]MSP[S] } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.UOI4Mutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[rv.CRCR6Mutator]MSP[N] }
+if ( curr == 'Q' ) { MST[rv.ROR3Mutator]MSP[N] return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; MST[rv.AOR4Mutator]MSP[N] } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.UOI3Mutator]MSP[N] return new char [] { prev } ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.CRCR3Mutator]MSP[N] } }
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { MST[rv.ROR2Mutator]MSP[N] final char last2Char = key . charAt ( key . length () - 2 ) ;
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.ROR2Mutator]MSP[N] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.ROR4Mutator]MSP[N]
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[MathMutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[BooleanTrueReturnValsMutator]MSP[N] }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR6Mutator]MSP[N] }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.ABSMutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[InlineConstantMutator]MSP[N] }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.ROR5Mutator]MSP[N] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; MST[MathMutator]MSP[N] } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR2Mutator]MSP[S] }
+str = PAT_KN . matcher ( str ) . replaceFirst ( lr_3 ) ; MST[ArgumentPropagationMutator]MSP[N] str = PAT_K . matcher ( str ) . replaceFirst ( lr_4 ) ; str = PAT_PH_PF . matcher ( str ) . replaceFirst ( lr_5 ) ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR3Mutator]MSP[N] }
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[NonVoidMethodCallMutator]MSP[N] } }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) { MST[rv.ROR4Mutator]MSP[N]
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.ROR1Mutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ; MST[NonVoidMethodCallMutator]MSP[S]
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.ROR2Mutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ; MST[rv.CRCR3Mutator]MSP[N]
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.CRCR4Mutator]MSP[N]
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { MST[rv.UOI2Mutator]MSP[N] return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.ABSMutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; MST[rv.CRCR3Mutator]MSP[N] if ( chars [ i ] != chars [ i - 1 ] ) { key . append ( chars [ i ] ) ; } }
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[rv.CRCR3Mutator]MSP[S] }
+if ( key . length () > 1 ) { MST[NonVoidMethodCallMutator]MSP[N] char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+str = PAT_SCH . matcher ( str ) . replaceFirst ( lr_6 ) ; str = PAT_EE_IE . matcher ( str ) . replaceFirst ( lr_7 ) ; MST[ArgumentPropagationMutator]MSP[N] str = PAT_DT_ETC . matcher ( str ) . replaceFirst ( lr_8 ) ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { MST[rv.CRCR4Mutator]MSP[N] if ( next == 'N' ) {
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.UOI2Mutator]MSP[N] return CHARS_FF ; }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { MST[NegateConditionalsMutator]MSP[N] return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) { MST[InlineConstantMutator]MSP[S]
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.UOI1Mutator]MSP[N] return CHARS_FF ; }
+lastChar = key . charAt ( key . length () - 1 ) ; MST[InlineConstantMutator]MSP[N] } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { MST[rv.ROR3Mutator]MSP[N] if ( next == 'N' ) {
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.CRCR4Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+for ( int i = 1 ; i < len ; i ++ ) { MST[rv.UOI1Mutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ; MST[MathMutator]MSP[N]
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[NonVoidMethodCallMutator]MSP[N] }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.UOI4Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+final StringBuilder key = new StringBuilder ( str . length () ) ; MST[NonVoidMethodCallMutator]MSP[N] key . append ( str . charAt ( 0 ) ) ; final char [] chars = str . toCharArray () ; final int len = chars . length ;
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ; MST[rv.AOR4Mutator]MSP[N]
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ; MST[rv.AOR2Mutator]MSP[N]
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.CRCR1Mutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.UOI1Mutator]MSP[N]
+if ( key . length () > 1 ) { MST[rv.CRCR4Mutator]MSP[N] char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; MST[rv.ABSMutator]MSP[N] if ( chars [ i ] != chars [ i - 1 ] ) { key . append ( chars [ i ] ) ; } }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.AOD1Mutator]MSP[N]
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[NegateConditionalsMutator]MSP[N] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { MST[NegateConditionalsMutator]MSP[N] final char last2Char = key . charAt ( key . length () - 2 ) ;
+str = PAT_KN . matcher ( str ) . replaceFirst ( lr_3 ) ; MST[NonVoidMethodCallMutator]MSP[N] str = PAT_K . matcher ( str ) . replaceFirst ( lr_4 ) ; str = PAT_PH_PF . matcher ( str ) . replaceFirst ( lr_5 ) ;
+return this . nysiis ( ( String ) obj ) ; MST[ReturnValsMutator]MSP[N] } @Override public String encode ( final String str ) { return this . nysiis ( str ) ; } public boolean isStrict () { return this . strict ; } public String nysiis ( String str ) {
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.CRCR1Mutator]MSP[S] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { return CHARS_AF ; } if ( isVowel ( curr ) ) { MST[rv.ROR1Mutator]MSP[N] return CHARS_A ; }
+if ( str == null ) { return null ; } str = SoundexUtils . clean ( str ) ; if ( str . length () == 0 ) { return str ; MST[EmptyObjectReturnValsMutator]MSP[N] } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { MST[NegateConditionalsMutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[MathMutator]MSP[N] } }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.CRCR5Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.UOI3Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ABSMutator]MSP[N] }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { return CHARS_AF ; } if ( isVowel ( curr ) ) { MST[rv.ABSMutator]MSP[N] return CHARS_A ; }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.ROR4Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.ROR3Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( str == null ) { return null ; } str = SoundexUtils . clean ( str ) ; if ( str . length () == 0 ) { MST[rv.ROR3Mutator]MSP[N] return str ; } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR2Mutator]MSP[N] }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR1Mutator]MSP[N] }
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[rv.CRCR5Mutator]MSP[N] }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.AOR2Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; MST[rv.AOR2Mutator]MSP[N] } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.UOI1Mutator]MSP[N] }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.AOR4Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.UOI2Mutator]MSP[N] }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.ROR1Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.CRCR6Mutator]MSP[N]
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.UOI3Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR5Mutator]MSP[N] }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.AOR3Mutator]MSP[N]
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.ROR4Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.UOI2Mutator]MSP[N]
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.CRCR3Mutator]MSP[S] return CHARS_FF ; }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.ROR1Mutator]MSP[S] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.ABSMutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.CRCR3Mutator]MSP[N]
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.AOR2Mutator]MSP[N] } }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) { MST[rv.CRCR5Mutator]MSP[S]
+for ( int i = 1 ; i < len ; i ++ ) { MST[rv.CRCR6Mutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.CRCR5Mutator]MSP[N] } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[NegateConditionalsMutator]MSP[N] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { MST[rv.ROR2Mutator]MSP[N] return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.UOI4Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( str == null ) { return null ; MST[EmptyObjectReturnValsMutator]MSP[N] } str = SoundexUtils . clean ( str ) ; if ( str . length () == 0 ) { return str ; } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR5Mutator]MSP[N] }
+str = PAT_SCH . matcher ( str ) . replaceFirst ( lr_6 ) ; str = PAT_EE_IE . matcher ( str ) . replaceFirst ( lr_7 ) ; MST[NonVoidMethodCallMutator]MSP[N] str = PAT_DT_ETC . matcher ( str ) . replaceFirst ( lr_8 ) ;
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[MathMutator]MSP[N]
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { MST[rv.CRCR5Mutator]MSP[N] return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.UOI2Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { MST[rv.ROR1Mutator]MSP[N] return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { MST[rv.CRCR2Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ; } }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.CRCR5Mutator]MSP[S] return CHARS_FF ; }
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { MST[rv.ROR5Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ;
+if ( curr == 'Q' ) { MST[rv.CRCR4Mutator]MSP[N] return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'Q' ) { MST[rv.CRCR3Mutator]MSP[N] return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.AOR2Mutator]MSP[N]
+for ( int i = 1 ; i < len ; i ++ ) { MST[rv.ROR3Mutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.UOI1Mutator]MSP[N]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] }
+str = PAT_KN . matcher ( str ) . replaceFirst ( lr_3 ) ; MST[NonVoidMethodCallMutator]MSP[N] str = PAT_K . matcher ( str ) . replaceFirst ( lr_4 ) ; str = PAT_PH_PF . matcher ( str ) . replaceFirst ( lr_5 ) ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { MST[rv.UOI1Mutator]MSP[N] if ( next == 'N' ) {
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.ROR1Mutator]MSP[N] return new char [] { prev } ;
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.CRCR2Mutator]MSP[S] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.CRCR3Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.UOI1Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.UOI2Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.CRCR5Mutator]MSP[N] return new char [] { prev } ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[NegateConditionalsMutator]MSP[N] }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.AOR1Mutator]MSP[N] if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.CRCR4Mutator]MSP[N] } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.ROR1Mutator]MSP[N] return CHARS_FF ; }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR3Mutator]MSP[N] }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.ABSMutator]MSP[S] return CHARS_FF ; }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR4Mutator]MSP[N] }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[MathMutator]MSP[N] key . append ( chars [ i ] ) ; } }
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.CRCR2Mutator]MSP[N] if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.UOI2Mutator]MSP[N]
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.CRCR1Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { return CHARS_AF ; } if ( isVowel ( curr ) ) { MST[rv.UOI4Mutator]MSP[N] return CHARS_A ; }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.UOI4Mutator]MSP[N]
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+} return new char [] { curr } ; } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { MST[rv.ROR2Mutator]MSP[N] throw new EncoderException ( lr_1 ) ; }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.CRCR3Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.CRCR4Mutator]MSP[S] return CHARS_FF ; }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.ROR5Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.CRCR2Mutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.ROR5Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.AOR2Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[InlineConstantMutator]MSP[N] }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; MST[rv.UOI4Mutator]MSP[N] if ( chars [ i ] != chars [ i - 1 ] ) { key . append ( chars [ i ] ) ; } }
+} return new char [] { curr } ; MST[rv.CRCR6Mutator]MSP[N] } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { throw new EncoderException ( lr_1 ) ; }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.UOI3Mutator]MSP[N] }
+} return new char [] { curr } ; MST[rv.CRCR5Mutator]MSP[N] } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { throw new EncoderException ( lr_1 ) ; }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.UOI4Mutator]MSP[N] }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.ABSMutator]MSP[N]
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.AOR4Mutator]MSP[N]
+return this . nysiis ( ( String ) obj ) ; MST[NullReturnValsMutator]MSP[N] } @Override public String encode ( final String str ) { return this . nysiis ( str ) ; } public boolean isStrict () { return this . strict ; } public String nysiis ( String str ) {
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { MST[rv.UOI3Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ;
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { MST[rv.CRCR2Mutator]MSP[S] final char last2Char = key . charAt ( key . length () - 2 ) ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.ROR5Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.UOI3Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+str = PAT_SCH . matcher ( str ) . replaceFirst ( lr_6 ) ; str = PAT_EE_IE . matcher ( str ) . replaceFirst ( lr_7 ) ; MST[NonVoidMethodCallMutator]MSP[N] str = PAT_DT_ETC . matcher ( str ) . replaceFirst ( lr_8 ) ;
+if ( key . length () > 1 ) { MST[rv.ROR1Mutator]MSP[N] char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] key . deleteCharAt ( key . length () - 1 ) ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.CRCR3Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+for ( int i = 1 ; i < len ; i ++ ) { MST[rv.UOI2Mutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ; MST[rv.UOI3Mutator]MSP[N]
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; MST[NonVoidMethodCallMutator]MSP[N] if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { MST[rv.CRCR6Mutator]MSP[N] return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { MST[rv.CRCR2Mutator]MSP[N] return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return CHARS_FF ; }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.UOI2Mutator]MSP[N]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.ROR3Mutator]MSP[N] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.AOR1Mutator]MSP[N] } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.UOI4Mutator]MSP[N] return new char [] { prev } ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.CRCR6Mutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.CRCR2Mutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.CRCR4Mutator]MSP[N]
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ; MST[rv.CRCR3Mutator]MSP[N]
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.AOR3Mutator]MSP[N]
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[NegateConditionalsMutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.UOI4Mutator]MSP[N] }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ; MST[rv.CRCR6Mutator]MSP[N]
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ; MST[rv.CRCR2Mutator]MSP[N]
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.UOI1Mutator]MSP[N]
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { MST[rv.UOI4Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { MST[rv.CRCR3Mutator]MSP[N] if ( next == 'N' ) {
+for ( int i = 1 ; i < len ; i ++ ) { MST[rv.CRCR5Mutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+return this . nysiis ( ( String ) obj ) ; } @Override public String encode ( final String str ) { return this . nysiis ( str ) ; MST[EmptyObjectReturnValsMutator]MSP[N] } public boolean isStrict () { return this . strict ; } public String nysiis ( String str ) {
+if ( key . length () > 1 ) { MST[rv.ROR2Mutator]MSP[N] char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+if ( curr == 'Q' ) { MST[rv.UOI3Mutator]MSP[N] return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.UOI4Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) { MST[rv.ROR5Mutator]MSP[N]
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.AOD1Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.CRCR5Mutator]MSP[N]
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { MST[ConditionalsBoundaryMutator]MSP[N] final char last2Char = key . charAt ( key . length () - 2 ) ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR4Mutator]MSP[N] }
+if ( curr == 'Q' ) { return CHARS_G ; MST[NullReturnValsMutator]MSP[N] } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.CRCR3Mutator]MSP[N] if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.CRCR1Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.ROR4Mutator]MSP[N] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.UOI3Mutator]MSP[N]
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.ROR2Mutator]MSP[N] return new char [] { prev } ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) { MST[rv.ROR1Mutator]MSP[S]
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.CRCR5Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.CRCR3Mutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { MST[rv.UOI2Mutator]MSP[N] return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.CRCR4Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR5Mutator]MSP[N] }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.AOR2Mutator]MSP[N]
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { MST[NonVoidMethodCallMutator]MSP[S] final char last2Char = key . charAt ( key . length () - 2 ) ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { MST[rv.UOI4Mutator]MSP[N] return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR2Mutator]MSP[N] }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.UOI1Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR1Mutator]MSP[N] }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR3Mutator]MSP[N] }
+if ( str == null ) { return null ; } str = SoundexUtils . clean ( str ) ; if ( str . length () == 0 ) { MST[rv.ROR4Mutator]MSP[S] return str ; } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { MST[rv.ABSMutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ; } }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.UOI4Mutator]MSP[S] return CHARS_FF ; }
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.CRCR6Mutator]MSP[N]
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.CRCR2Mutator]MSP[N]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR4Mutator]MSP[N] }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.UOI3Mutator]MSP[N] return CHARS_FF ; }
+return this . nysiis ( ( String ) obj ) ; } @Override public String encode ( final String str ) { return this . nysiis ( str ) ; MST[NonVoidMethodCallMutator]MSP[N] } public boolean isStrict () { return this . strict ; } public String nysiis ( String str ) {
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.UOI1Mutator]MSP[N] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.ROR5Mutator]MSP[N] return new char [] { prev } ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR6Mutator]MSP[N] }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[InlineConstantMutator]MSP[S] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.UOI4Mutator]MSP[N]
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.CRCR1Mutator]MSP[S] return CHARS_FF ; }
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; MST[rv.CRCR1Mutator]MSP[S] } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { MST[rv.CRCR1Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.ROR2Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.UOI4Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { MST[rv.ROR1Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { MST[rv.CRCR3Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[InlineConstantMutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { MST[rv.ROR5Mutator]MSP[N] return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { MST[rv.UOI3Mutator]MSP[N] if ( next == 'N' ) {
+for ( int i = 1 ; i < len ; i ++ ) { MST[rv.ROR4Mutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.UOI2Mutator]MSP[N]
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[NegateConditionalsMutator]MSP[N] key . append ( chars [ i ] ) ; } }
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; MST[MathMutator]MSP[N] if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) { MST[NegateConditionalsMutator]MSP[N]
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.CRCR6Mutator]MSP[N]
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.CRCR1Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; MST[rv.UOI2Mutator]MSP[N] } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[NegateConditionalsMutator]MSP[N] }
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; MST[InlineConstantMutator]MSP[N] if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[InlineConstantMutator]MSP[N] }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.ROR5Mutator]MSP[N] return CHARS_FF ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.UOI3Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.CRCR4Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+return this . nysiis ( ( String ) obj ) ; } @Override public String encode ( final String str ) { return this . nysiis ( str ) ; } public boolean isStrict () { return this . strict ; MST[BooleanFalseReturnValsMutator]MSP[N] } public String nysiis ( String str ) {
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.CRCR1Mutator]MSP[N] return new char [] { prev } ;
+final StringBuilder key = new StringBuilder ( str . length () ) ; key . append ( str . charAt ( 0 ) ) ; MST[experimental.NakedReceiverMutator]MSP[N] final char [] chars = str . toCharArray () ; final int len = chars . length ;
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.CRCR6Mutator]MSP[N] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.UOI4Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { MST[rv.CRCR3Mutator]MSP[S] final char last2Char = key . charAt ( key . length () - 2 ) ;
+if ( str == null ) { return null ; } str = SoundexUtils . clean ( str ) ; MST[ArgumentPropagationMutator]MSP[N] if ( str . length () == 0 ) { return str ; } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { MST[rv.CRCR1Mutator]MSP[N] return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[ReturnValsMutator]MSP[N] }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.AOR3Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.AOD2Mutator]MSP[N] if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+} return new char [] { curr } ; } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { MST[rv.ROR1Mutator]MSP[S] throw new EncoderException ( lr_1 ) ; }
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { MST[InlineConstantMutator]MSP[S] final char last2Char = key . charAt ( key . length () - 2 ) ;
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.UOI3Mutator]MSP[N]
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.CRCR2Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.UOI2Mutator]MSP[N] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.ROR1Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[NegateConditionalsMutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( str == null ) { return null ; } str = SoundexUtils . clean ( str ) ; if ( str . length () == 0 ) { MST[NonVoidMethodCallMutator]MSP[N] return str ; } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.CRCR4Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+str = PAT_KN . matcher ( str ) . replaceFirst ( lr_3 ) ; str = PAT_K . matcher ( str ) . replaceFirst ( lr_4 ) ; MST[ArgumentPropagationMutator]MSP[N] str = PAT_PH_PF . matcher ( str ) . replaceFirst ( lr_5 ) ;
+} return new char [] { curr } ; MST[ReturnValsMutator]MSP[N] } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { throw new EncoderException ( lr_1 ) ; }
+if ( curr == 'Q' ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.ABSMutator]MSP[S] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { return CHARS_AF ; } if ( isVowel ( curr ) ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] return CHARS_A ; }
+} return new char [] { curr } ; } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] throw new EncoderException ( lr_1 ) ; }
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR5Mutator]MSP[N] }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) { MST[rv.UOI4Mutator]MSP[S]
+for ( int i = 1 ; i < len ; i ++ ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { MST[InlineConstantMutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ; } }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.ROR3Mutator]MSP[S] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.ROR1Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.ROR1Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.ROR2Mutator]MSP[S] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.AOD1Mutator]MSP[N]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ABSMutator]MSP[N] }
+str = PAT_SCH . matcher ( str ) . replaceFirst ( lr_6 ) ; str = PAT_EE_IE . matcher ( str ) . replaceFirst ( lr_7 ) ; str = PAT_DT_ETC . matcher ( str ) . replaceFirst ( lr_8 ) ; MST[ArgumentPropagationMutator]MSP[N]
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[S] final char last2Char = key . charAt ( key . length () - 2 ) ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { MST[rv.ROR4Mutator]MSP[N] return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.UOI2Mutator]MSP[N] }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.UOI1Mutator]MSP[N] }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; MST[rv.CRCR6Mutator]MSP[N] } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; MST[rv.CRCR5Mutator]MSP[N] } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.UOI3Mutator]MSP[N] }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.ROR2Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR2Mutator]MSP[N] }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.ABSMutator]MSP[N]
+if ( str == null ) { return null ; MST[ReturnValsMutator]MSP[S] } str = SoundexUtils . clean ( str ) ; if ( str . length () == 0 ) { return str ; } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ;
+if ( str == null ) { return null ; } str = SoundexUtils . clean ( str ) ; if ( str . length () == 0 ) { return str ; } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+if ( key . length () > 1 ) { MST[rv.CRCR2Mutator]MSP[N] char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[InlineConstantMutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.UOI1Mutator]MSP[N] return new char [] { prev } ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR4Mutator]MSP[N] }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] if ( next == 'N' ) {
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.ROR4Mutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.CRCR1Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[InlineConstantMutator]MSP[N]
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.CRCR5Mutator]MSP[S] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.ROR2Mutator]MSP[N]
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.CRCR3Mutator]MSP[S] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { return CHARS_AF ; } if ( isVowel ( curr ) ) { MST[rv.ROR3Mutator]MSP[N] return CHARS_A ; }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { MST[rv.UOI1Mutator]MSP[N] return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( str == null ) { return null ; } str = SoundexUtils . clean ( str ) ; if ( str . length () == 0 ) { MST[rv.ROR1Mutator]MSP[N] return str ; } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ;
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { MST[NegateConditionalsMutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.ABSMutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.ROR5Mutator]MSP[N] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.UOI1Mutator]MSP[N] return CHARS_FF ; }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.ROR2Mutator]MSP[N] return CHARS_FF ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+for ( int i = 1 ; i < len ; i ++ ) { MST[InlineConstantMutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR3Mutator]MSP[N] }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR1Mutator]MSP[N] }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.UOI4Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.UOI2Mutator]MSP[N] return new char [] { prev } ;
+} return new char [] { curr } ; } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { MST[rv.ROR4Mutator]MSP[S] throw new EncoderException ( lr_1 ) ; }
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { MST[rv.ROR5Mutator]MSP[S] final char last2Char = key . charAt ( key . length () - 2 ) ;
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.UOI2Mutator]MSP[N]
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return new char [] { prev } ;
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[NonVoidMethodCallMutator]MSP[N] }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[NonVoidMethodCallMutator]MSP[N] return new char [] { prev } ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.CRCR6Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ; MST[rv.ABSMutator]MSP[N]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] }
+return CHARS_NN ; } return CHARS_C ; MST[ReturnValsMutator]MSP[N] } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[NegateConditionalsMutator]MSP[N] return new char [] { prev } ;
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; MST[rv.UOI2Mutator]MSP[N] if ( chars [ i ] != chars [ i - 1 ] ) { key . append ( chars [ i ] ) ; } }
+} return new char [] { curr } ; } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { throw new EncoderException ( lr_1 ) ; MST[ConstructorCallMutator]MSP[N] }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) { MST[rv.UOI1Mutator]MSP[N]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.UOI1Mutator]MSP[N] }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.UOI2Mutator]MSP[N] }
+str = PAT_SCH . matcher ( str ) . replaceFirst ( lr_6 ) ; MST[NonVoidMethodCallMutator]MSP[N] str = PAT_EE_IE . matcher ( str ) . replaceFirst ( lr_7 ) ; str = PAT_DT_ETC . matcher ( str ) . replaceFirst ( lr_8 ) ;
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[rv.CRCR1Mutator]MSP[N] }
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ; MST[rv.CRCR1Mutator]MSP[S]
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.CRCR2Mutator]MSP[N]
+lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.AOD2Mutator]MSP[N] } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { MST[rv.ROR5Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ; } }
+final StringBuilder key = new StringBuilder ( str . length () ) ; MST[ConstructorCallMutator]MSP[N] key . append ( str . charAt ( 0 ) ) ; final char [] chars = str . toCharArray () ; final int len = chars . length ;
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { MST[rv.UOI1Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { MST[NegateConditionalsMutator]MSP[N] return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; MST[InlineConstantMutator]MSP[N] } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.AOR4Mutator]MSP[N] if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+if ( str == null ) { return null ; } str = SoundexUtils . clean ( str ) ; if ( str . length () == 0 ) { return str ; MST[ReturnValsMutator]MSP[N] } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.ROR5Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) { MST[rv.CRCR1Mutator]MSP[S]
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; MST[rv.CRCR1Mutator]MSP[N] if ( chars [ i ] != chars [ i - 1 ] ) { key . append ( chars [ i ] ) ; } }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ABSMutator]MSP[S] }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[NegateConditionalsMutator]MSP[N] return CHARS_FF ; }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.UOI1Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; MST[rv.CRCR3Mutator]MSP[N] } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( str == null ) { return null ; } str = SoundexUtils . clean ( str ) ; if ( str . length () == 0 ) { return str ; } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.UOI3Mutator]MSP[N] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.UOI3Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { MST[rv.CRCR5Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { MST[rv.ROR3Mutator]MSP[N] return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { MST[rv.ROR3Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; MST[rv.UOI4Mutator]MSP[N] } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { return CHARS_AF ; } if ( isVowel ( curr ) ) { MST[NegateConditionalsMutator]MSP[N] return CHARS_A ; }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; MST[VoidMethodCallMutator]MSP[N] if ( chars [ i ] != chars [ i - 1 ] ) { key . append ( chars [ i ] ) ; } }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.UOI4Mutator]MSP[N]
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.CRCR2Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.ROR3Mutator]MSP[N] return new char [] { prev } ;
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.CRCR4Mutator]MSP[N]
+for ( int i = 1 ; i < len ; i ++ ) { MST[rv.ABSMutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[rv.ROR1Mutator]MSP[N] }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.AOD1Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.ABSMutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+for ( int i = 1 ; i < len ; i ++ ) { MST[IncrementsMutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { MST[rv.CRCR5Mutator]MSP[S] final char last2Char = key . charAt ( key . length () - 2 ) ;
+} return new char [] { curr } ; MST[rv.UOI2Mutator]MSP[N] } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { throw new EncoderException ( lr_1 ) ; }
+return this . nysiis ( ( String ) obj ) ; MST[NonVoidMethodCallMutator]MSP[N] } @Override public String encode ( final String str ) { return this . nysiis ( str ) ; } public boolean isStrict () { return this . strict ; } public String nysiis ( String str ) {
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.UOI2Mutator]MSP[N] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { return CHARS_AF ; } if ( isVowel ( curr ) ) { MST[rv.UOI1Mutator]MSP[N] return CHARS_A ; }
+if ( key . length () > 1 ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[N] char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.UOI3Mutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.CRCR2Mutator]MSP[N] } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR1Mutator]MSP[N] }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR2Mutator]MSP[N] }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.ROR3Mutator]MSP[N] return CHARS_FF ; }
+final StringBuilder key = new StringBuilder ( str . length () ) ; key . append ( str . charAt ( 0 ) ) ; MST[NonVoidMethodCallMutator]MSP[N] final char [] chars = str . toCharArray () ; final int len = chars . length ;
+for ( int i = 1 ; i < len ; i ++ ) { MST[rv.UOI3Mutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { MST[rv.ABSMutator]MSP[N] if ( next == 'N' ) {
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.ROR4Mutator]MSP[N] return new char [] { prev } ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.CRCR3Mutator]MSP[N]
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.AOR1Mutator]MSP[N]
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.CRCR5Mutator]MSP[N] if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.ABSMutator]MSP[N] key . append ( chars [ i ] ) ; } }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR2Mutator]MSP[N] }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.ROR1Mutator]MSP[N] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.CRCR5Mutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.CRCR3Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) { MST[rv.ROR3Mutator]MSP[N]
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ; MST[NullReturnValsMutator]MSP[N]
+str = PAT_SCH . matcher ( str ) . replaceFirst ( lr_6 ) ; MST[NonVoidMethodCallMutator]MSP[N] str = PAT_EE_IE . matcher ( str ) . replaceFirst ( lr_7 ) ; str = PAT_DT_ETC . matcher ( str ) . replaceFirst ( lr_8 ) ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.UOI2Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { MST[rv.UOI3Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; MST[ReturnValsMutator]MSP[N] } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.CRCR6Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR5Mutator]MSP[N] }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR4Mutator]MSP[N] }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR3Mutator]MSP[N] }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; MST[ReturnValsMutator]MSP[N] } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.CRCR4Mutator]MSP[N]
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( curr == 'Q' ) { MST[rv.ROR2Mutator]MSP[N] return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { MST[rv.ROR2Mutator]MSP[N] if ( next == 'N' ) {
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { MST[rv.CRCR4Mutator]MSP[N] return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.CRCR5Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ; MST[rv.AOR3Mutator]MSP[N]
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.ROR2Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ; MST[InlineConstantMutator]MSP[S]
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; MST[NullReturnValsMutator]MSP[S] } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( key . length () > 1 ) { MST[rv.CRCR3Mutator]MSP[N] char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.ROR5Mutator]MSP[N] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.AOD2Mutator]MSP[N]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR3Mutator]MSP[N] }
+if ( key . length () > 1 ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[N] char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.AOR1Mutator]MSP[N]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.UOI2Mutator]MSP[N] }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[InlineConstantMutator]MSP[N] }
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { MST[rv.UOI4Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ; } }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.CRCR3Mutator]MSP[N]
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ; MST[rv.CRCR5Mutator]MSP[N]
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.CRCR2Mutator]MSP[N]
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[InlineConstantMutator]MSP[N] } }
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.AOR3Mutator]MSP[N] } }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ; MST[rv.CRCR4Mutator]MSP[N]
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { MST[rv.UOI2Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ;
+if ( key . length () > 1 ) { MST[ConditionalsBoundaryMutator]MSP[N] char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { MST[rv.ROR1Mutator]MSP[N] return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) { MST[rv.CRCR6Mutator]MSP[S]
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.UOI2Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { MST[rv.CRCR5Mutator]MSP[N] if ( next == 'N' ) {
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[MathMutator]MSP[N]
+for ( int i = 1 ; i < len ; i ++ ) { MST[rv.UOI4Mutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.CRCR2Mutator]MSP[N] } }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.UOI4Mutator]MSP[S] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[InlineConstantMutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.UOI1Mutator]MSP[N]
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.ABSMutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.ROR3Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+} return new char [] { curr } ; } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { MST[rv.ROR3Mutator]MSP[N] throw new EncoderException ( lr_1 ) ; }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.UOI3Mutator]MSP[N]
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[NegateConditionalsMutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.CRCR5Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.CRCR2Mutator]MSP[S] return CHARS_FF ; }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR1Mutator]MSP[S] }
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ; MST[ReturnValsMutator]MSP[N]
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.AOD1Mutator]MSP[N]
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; MST[rv.UOI3Mutator]MSP[N] if ( chars [ i ] != chars [ i - 1 ] ) { key . append ( chars [ i ] ) ; } }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.CRCR6Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.ABSMutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[ConditionalsBoundaryMutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.ROR4Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.ROR3Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.ROR3Mutator]MSP[N]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ABSMutator]MSP[N] }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.UOI4Mutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { MST[rv.ABSMutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; MST[NonVoidMethodCallMutator]MSP[N] } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[rv.CRCR6Mutator]MSP[S] }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.AOR4Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.UOI1Mutator]MSP[N] }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { MST[rv.CRCR3Mutator]MSP[N] return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { MST[rv.CRCR6Mutator]MSP[N] return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.AOD1Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; MST[rv.AOD1Mutator]MSP[N] } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { MST[rv.ROR4Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.UOI1Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { MST[rv.CRCR1Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ; } }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.ABSMutator]MSP[N] key . append ( chars [ i ] ) ; } }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.CRCR6Mutator]MSP[S] return CHARS_FF ; }
+for ( int i = 1 ; i < len ; i ++ ) { MST[rv.ROR2Mutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.AOR3Mutator]MSP[N]
+if ( curr == 'Q' ) { MST[rv.CRCR5Mutator]MSP[N] return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+lastChar = key . charAt ( key . length () - 1 ) ; MST[NonVoidMethodCallMutator]MSP[S] } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.ROR4Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+return this . nysiis ( ( String ) obj ) ; } @Override public String encode ( final String str ) { return this . nysiis ( str ) ; } public boolean isStrict () { return this . strict ; MST[BooleanTrueReturnValsMutator]MSP[N] } public String nysiis ( String str ) {
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.CRCR3Mutator]MSP[S] return CHARS_FF ; }
+} return new char [] { curr } ; } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] throw new EncoderException ( lr_1 ) ; }
+} return new char [] { curr } ; MST[rv.CRCR3Mutator]MSP[N] } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { throw new EncoderException ( lr_1 ) ; }
+if ( curr == 'Q' ) { MST[rv.CRCR2Mutator]MSP[N] return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[InlineConstantMutator]MSP[S] return CHARS_FF ; }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.UOI3Mutator]MSP[N] }
+if ( curr == 'Q' ) { MST[rv.ABSMutator]MSP[N] return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.UOI4Mutator]MSP[N] }
+} return new char [] { curr } ; MST[rv.CRCR6Mutator]MSP[N] } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { throw new EncoderException ( lr_1 ) ; }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR4Mutator]MSP[N] }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.CRCR4Mutator]MSP[S] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.CRCR5Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { MST[rv.CRCR1Mutator]MSP[N] final char last2Char = key . charAt ( key . length () - 2 ) ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR5Mutator]MSP[N] }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; MST[rv.CRCR1Mutator]MSP[N] } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[NegateConditionalsMutator]MSP[N] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.AOR1Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { key . append ( chars [ i ] ) ; MST[rv.UOI3Mutator]MSP[N] } }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.CRCR3Mutator]MSP[N] return new char [] { prev } ;
+} return new char [] { curr } ; MST[rv.UOI4Mutator]MSP[N] } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { throw new EncoderException ( lr_1 ) ; }
+lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.CRCR6Mutator]MSP[N] } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.UOI3Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR6Mutator]MSP[N] }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.CRCR4Mutator]MSP[N]
+str = PAT_KN . matcher ( str ) . replaceFirst ( lr_3 ) ; str = PAT_K . matcher ( str ) . replaceFirst ( lr_4 ) ; str = PAT_PH_PF . matcher ( str ) . replaceFirst ( lr_5 ) ; MST[ArgumentPropagationMutator]MSP[N]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR3Mutator]MSP[N] }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { return CHARS_AF ; } if ( isVowel ( curr ) ) { MST[rv.UOI3Mutator]MSP[N] return CHARS_A ; }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.UOI2Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.ABSMutator]MSP[N]
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.AOR3Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.CRCR5Mutator]MSP[S] return CHARS_FF ; }
+return this . nysiis ( ( String ) obj ) ; } @Override public String encode ( final String str ) { return this . nysiis ( str ) ; MST[ReturnValsMutator]MSP[N] } public boolean isStrict () { return this . strict ; } public String nysiis ( String str ) {
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ; MST[rv.AOD1Mutator]MSP[N]
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; MST[NullReturnValsMutator]MSP[N] }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[InlineConstantMutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; MST[InlineConstantMutator]MSP[S] } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[RemoveConditionalMutator_ORDER_ELSE]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+for ( int i = 1 ; i < len ; i ++ ) { MST[NegateConditionalsMutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.CRCR1Mutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[NegateConditionalsMutator]MSP[N] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.ABSMutator]MSP[S] return CHARS_FF ; }
+if ( key . length () > 1 ) { MST[rv.ROR5Mutator]MSP[N] char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { MST[rv.UOI4Mutator]MSP[N] return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.AOR4Mutator]MSP[N]
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.UOI2Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.CRCR5Mutator]MSP[N]
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.CRCR2Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.CRCR1Mutator]MSP[S] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.UOI1Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { MST[InlineConstantMutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ;
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.AOR2Mutator]MSP[N] if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.CRCR6Mutator]MSP[N] return new char [] { prev } ;
+lastChar = key . charAt ( key . length () - 1 ) ; MST[MathMutator]MSP[N] } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ;
+if ( str == null ) { return null ; } str = SoundexUtils . clean ( str ) ; if ( str . length () == 0 ) { MST[rv.ROR2Mutator]MSP[N] return str ; } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) { MST[rv.CRCR3Mutator]MSP[S]
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.UOI3Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.CRCR3Mutator]MSP[N] } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ;
+for ( int i = 1 ; i < len ; i ++ ) { MST[rv.CRCR4Mutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.AOD1Mutator]MSP[N] } }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR3Mutator]MSP[N] }
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[InlineConstantMutator]MSP[N] }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR1Mutator]MSP[N] }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.ROR2Mutator]MSP[N] }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; MST[InlineConstantMutator]MSP[N] if ( chars [ i ] != chars [ i - 1 ] ) { key . append ( chars [ i ] ) ; } }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { MST[rv.CRCR1Mutator]MSP[N] return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.CRCR2Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.ABSMutator]MSP[N]
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ; MST[rv.UOI2Mutator]MSP[N]
+if ( key . length () > 1 ) { MST[rv.CRCR6Mutator]MSP[N] char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.ROR2Mutator]MSP[N] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.UOI3Mutator]MSP[N] return new char [] { prev } ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.ABSMutator]MSP[N] return new char [] { prev } ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { MST[rv.ROR5Mutator]MSP[N] if ( next == 'N' ) {
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR6Mutator]MSP[N] }
+lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.AOR4Mutator]MSP[N] } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ;
+lastChar = key . charAt ( key . length () - 1 ) ; MST[rv.AOR2Mutator]MSP[N] } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.ROR4Mutator]MSP[N] return CHARS_FF ; }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[InlineConstantMutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.ROR3Mutator]MSP[N] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.CRCR3Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.ROR2Mutator]MSP[N] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { MST[rv.UOI3Mutator]MSP[N] return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.AOR3Mutator]MSP[N]
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.ROR5Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.ROR4Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+return this . nysiis ( ( String ) obj ) ; MST[ArgumentPropagationMutator]MSP[N] } @Override public String encode ( final String str ) { return this . nysiis ( str ) ; } public boolean isStrict () { return this . strict ; } public String nysiis ( String str ) {
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.AOD2Mutator]MSP[N]
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[rv.CRCR3Mutator]MSP[S] }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.UOI3Mutator]MSP[S] return CHARS_FF ; }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; MST[NullReturnValsMutator]MSP[N] } if ( curr == 'K' ) { if ( next == 'N' ) {
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.UOI3Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.ROR5Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+final StringBuilder key = new StringBuilder ( str . length () ) ; key . append ( str . charAt ( 0 ) ) ; MST[rv.CRCR6Mutator]MSP[N] final char [] chars = str . toCharArray () ; final int len = chars . length ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR4Mutator]MSP[S] }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] return CHARS_FF ; }
+for ( int i = 1 ; i < len ; i ++ ) { MST[rv.UOI1Mutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.CRCR5Mutator]MSP[N] } }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.AOR1Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; MST[NonVoidMethodCallMutator]MSP[N] if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.CRCR2Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.ROR3Mutator]MSP[N] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.ROR1Mutator]MSP[N] return new char [] { prev } ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR5Mutator]MSP[N] }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[NonVoidMethodCallMutator]MSP[N]
+if ( str == null ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return null ; } str = SoundexUtils . clean ( str ) ; if ( str . length () == 0 ) { return str ; } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ;
+if ( curr == 'Q' ) { MST[InlineConstantMutator]MSP[N] return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'Q' ) { MST[rv.ROR4Mutator]MSP[N] return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.CRCR6Mutator]MSP[N]
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ; MST[rv.CRCR5Mutator]MSP[S]
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { MST[rv.UOI1Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.UOI2Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+str = PAT_KN . matcher ( str ) . replaceFirst ( lr_3 ) ; str = PAT_K . matcher ( str ) . replaceFirst ( lr_4 ) ; str = PAT_PH_PF . matcher ( str ) . replaceFirst ( lr_5 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; MST[rv.CRCR5Mutator]MSP[N] if ( chars [ i ] != chars [ i - 1 ] ) { key . append ( chars [ i ] ) ; } }
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[rv.CRCR5Mutator]MSP[N] }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { MST[rv.CRCR2Mutator]MSP[N] if ( next == 'N' ) {
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] if ( next == 'N' ) {
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[RemoveConditionalMutator_ORDER_ELSE]MSP[N]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[NegateConditionalsMutator]MSP[N] }
+if ( str == null ) { return null ; } str = SoundexUtils . clean ( str ) ; if ( str . length () == 0 ) { MST[NegateConditionalsMutator]MSP[N] return str ; } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ;
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { MST[rv.CRCR5Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ; MST[InlineConstantMutator]MSP[N]
+if ( curr == 'Q' ) { return CHARS_G ; MST[ReturnValsMutator]MSP[N] } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[InlineConstantMutator]MSP[N]
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { MST[rv.CRCR4Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[NonVoidMethodCallMutator]MSP[N] } }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.UOI1Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.UOI2Mutator]MSP[N]
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.ROR1Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.UOI3Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.CRCR5Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; MST[rv.CRCR5Mutator]MSP[S] } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.CRCR4Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.CRCR2Mutator]MSP[N]
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; MST[rv.CRCR4Mutator]MSP[N] } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; MST[rv.UOI1Mutator]MSP[N] } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR2Mutator]MSP[N] }
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[rv.ROR4Mutator]MSP[N] }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[InlineConstantMutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.ROR2Mutator]MSP[S] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] return new char [] { prev } ;
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ; MST[rv.CRCR4Mutator]MSP[N]
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.ROR1Mutator]MSP[S] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.ABSMutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( str == null ) { MST[NegateConditionalsMutator]MSP[N] return null ; } str = SoundexUtils . clean ( str ) ; if ( str . length () == 0 ) { return str ; } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { MST[InlineConstantMutator]MSP[N] if ( next == 'N' ) {
+return this . nysiis ( ( String ) obj ) ; } @Override public String encode ( final String str ) { return this . nysiis ( str ) ; } public boolean isStrict () { return this . strict ; MST[ReturnValsMutator]MSP[N] } public String nysiis ( String str ) {
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.UOI1Mutator]MSP[N] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; MST[NullReturnValsMutator]MSP[N] }
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[rv.CRCR4Mutator]MSP[S] }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.UOI2Mutator]MSP[N] return CHARS_FF ; }
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[experimental.NakedReceiverMutator]MSP[N]
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; MST[rv.CRCR6Mutator]MSP[N] } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( curr == 'Q' ) { MST[rv.ROR5Mutator]MSP[N] return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[InlineConstantMutator]MSP[N] key . append ( chars [ i ] ) ; } }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.AOD2Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[ConditionalsBoundaryMutator]MSP[N]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR3Mutator]MSP[S] }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.UOI1Mutator]MSP[N] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.CRCR4Mutator]MSP[N] } }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { MST[NegateConditionalsMutator]MSP[N] if ( next == 'N' ) {
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR6Mutator]MSP[N] }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.AOR4Mutator]MSP[N]
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.ROR5Mutator]MSP[N]
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { MST[rv.ROR3Mutator]MSP[N] final char last2Char = key . charAt ( key . length () - 2 ) ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.CRCR6Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.UOI1Mutator]MSP[N]
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[NegateConditionalsMutator]MSP[N] }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[NonVoidMethodCallMutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.UOI4Mutator]MSP[N] return new char [] { prev } ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR1Mutator]MSP[N] }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) { MST[rv.UOI3Mutator]MSP[S]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.CRCR4Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.CRCR5Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[rv.ROR5Mutator]MSP[N] return CHARS_FF ; }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S]
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.CRCR6Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[NegateConditionalsMutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.UOI4Mutator]MSP[N]
+str = PAT_KN . matcher ( str ) . replaceFirst ( lr_3 ) ; str = PAT_K . matcher ( str ) . replaceFirst ( lr_4 ) ; str = PAT_PH_PF . matcher ( str ) . replaceFirst ( lr_5 ) ; MST[NonVoidMethodCallMutator]MSP[N]
+return CHARS_NN ; MST[NullReturnValsMutator]MSP[N] } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( str == null ) { return null ; } str = SoundexUtils . clean ( str ) ; if ( str . length () == 0 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return str ; } str = PAT_MAC . matcher ( str ) . replaceFirst ( lr_2 ) ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.ROR4Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { MST[rv.ROR3Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ; } }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.AOD1Mutator]MSP[N]
+if ( curr == 'Q' ) { MST[rv.UOI2Mutator]MSP[N] return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.AOR3Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; MST[rv.AOR3Mutator]MSP[N] } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR1Mutator]MSP[N] }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { MST[rv.ROR4Mutator]MSP[N] if ( next == 'N' ) {
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { final char last2Char = key . charAt ( key . length () - 2 ) ; MST[rv.AOR1Mutator]MSP[N]
+if ( key . length () > 1 ) { MST[rv.CRCR5Mutator]MSP[S] char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR5Mutator]MSP[N] }
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[S] final char last2Char = key . charAt ( key . length () - 2 ) ;
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[InlineConstantMutator]MSP[N] }
+return CHARS_NN ; MST[ReturnValsMutator]MSP[N] } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.CRCR5Mutator]MSP[N]
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { MST[rv.UOI2Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[rv.AOR1Mutator]MSP[N] } }
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[ArgumentPropagationMutator]MSP[N] }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; MST[InlineConstantMutator]MSP[N] } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { MST[rv.ROR3Mutator]MSP[N] return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+final StringBuilder key = new StringBuilder ( str . length () ) ; key . append ( str . charAt ( 0 ) ) ; MST[rv.CRCR1Mutator]MSP[N] final char [] chars = str . toCharArray () ; final int len = chars . length ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) { MST[rv.CRCR4Mutator]MSP[S]
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { key . deleteCharAt ( key . length () - 1 ) ; MST[InlineConstantMutator]MSP[N]
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { MST[NegateConditionalsMutator]MSP[N] return CHARS_FF ; }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { MST[rv.ABSMutator]MSP[N] return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[InlineConstantMutator]MSP[S] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] key . append ( chars [ i ] ) ; } }
+final String string = key . toString () ; return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; MST[EmptyObjectReturnValsMutator]MSP[N] }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.UOI1Mutator]MSP[N] return new char [] { prev } ;
+final String string = key . toString () ; MST[NonVoidMethodCallMutator]MSP[N] return this . isStrict () ? string . substring ( 0 , Math . min ( TRUE_LENGTH , string . length () ) ) : string ; }
+final StringBuilder key = new StringBuilder ( str . length () ) ; key . append ( str . charAt ( 0 ) ) ; MST[rv.CRCR5Mutator]MSP[N] final char [] chars = str . toCharArray () ; final int len = chars . length ;
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { key . append ( chars [ i ] ) ; MST[experimental.NakedReceiverMutator]MSP[N] } }
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { MST[rv.UOI4Mutator]MSP[N] return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; }
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ; MST[rv.ABSMutator]MSP[N]
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR5Mutator]MSP[N] }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.AOR2Mutator]MSP[N]
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.AOR4Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+lastChar = key . charAt ( key . length () - 1 ) ; } if ( key . length () > 2 ) { MST[rv.ROR4Mutator]MSP[S] final char last2Char = key . charAt ( key . length () - 2 ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[InlineConstantMutator]MSP[S] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR4Mutator]MSP[N] }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR6Mutator]MSP[N] }
+} return new char [] { curr } ; MST[rv.CRCR5Mutator]MSP[N] } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { throw new EncoderException ( lr_1 ) ; }
+} return new char [] { curr } ; MST[rv.CRCR1Mutator]MSP[N] } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { throw new EncoderException ( lr_1 ) ; }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR2Mutator]MSP[N] }
+for ( int i = 1 ; i < len ; i ++ ) { MST[rv.ABSMutator]MSP[N] final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ;
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.CRCR2Mutator]MSP[S] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.ROR4Mutator]MSP[N] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( last2Char == 'A' && lastChar == 'Y' ) { MST[rv.ROR3Mutator]MSP[N] key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+if ( curr == 'Q' ) { MST[NegateConditionalsMutator]MSP[N] return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.UOI4Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { return CHARS_AF ; } if ( isVowel ( curr ) ) { MST[rv.ROR2Mutator]MSP[N] return CHARS_A ; }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.CRCR6Mutator]MSP[S] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR1Mutator]MSP[N] }
+private static char [] transcodeRemaining ( final char prev , final char curr , final char next , final char aNext ) { if ( curr == 'E' && next == 'V' ) { MST[rv.CRCR3Mutator]MSP[S] return CHARS_AF ; } if ( isVowel ( curr ) ) { return CHARS_A ; }
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.UOI3Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { MST[rv.CRCR4Mutator]MSP[N] return new char [] { prev } ;
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { return CHARS_N ; MST[ReturnValsMutator]MSP[N] } if ( curr == 'K' ) { if ( next == 'N' ) {
+final char aNext = i < len - 2 ? chars [ i + 2 ] : SPACE ; MST[rv.AOR1Mutator]MSP[N] final char [] transcoded = transcodeRemaining ( chars [ i - 1 ] , chars [ i ] , next , aNext ) ;
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; MST[rv.AOR1Mutator]MSP[N] } } if ( lastChar == 'A' ) { key . deleteCharAt ( key . length () - 1 ) ; } }
+private static boolean isVowel ( final char c ) { return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ; MST[rv.CRCR3Mutator]MSP[N] }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.UOI3Mutator]MSP[N]
+return CHARS_NN ; } return CHARS_C ; } if ( curr == 'S' && next == 'C' && aNext == 'H' ) { return CHARS_SSS ; } if ( curr == 'P' && next == 'H' ) { return CHARS_FF ; MST[ReturnValsMutator]MSP[N] }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { MST[rv.CRCR4Mutator]MSP[N] return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+System . arraycopy ( transcoded , 0 , chars , i , transcoded . length ) ; if ( chars [ i ] != chars [ i - 1 ] ) { MST[rv.UOI2Mutator]MSP[N] key . append ( chars [ i ] ) ; } }
+if ( curr == 'Q' ) { return CHARS_G ; } else if ( curr == 'Z' ) { return CHARS_S ; } else if ( curr == 'M' ) { MST[rv.ROR2Mutator]MSP[N] return CHARS_N ; } if ( curr == 'K' ) { if ( next == 'N' ) {
+if ( key . length () > 1 ) { char lastChar = key . charAt ( key . length () - 1 ) ; if ( lastChar == 'S' ) { MST[rv.ROR2Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ;
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.AOR1Mutator]MSP[N]
+if ( last2Char == 'A' && lastChar == 'Y' ) { key . deleteCharAt ( key . length () - 2 ) ; } } if ( lastChar == 'A' ) { MST[rv.CRCR6Mutator]MSP[N] key . deleteCharAt ( key . length () - 1 ) ; } }
+} return new char [] { curr } ; } @Override public Object encode ( final Object obj ) throws EncoderException { if ( ! ( obj instanceof String ) ) { MST[NegateConditionalsMutator]MSP[N] throw new EncoderException ( lr_1 ) ; }
+for ( int i = 1 ; i < len ; i ++ ) { final char next = i < len - 1 ? chars [ i + 1 ] : SPACE ; MST[rv.AOR4Mutator]MSP[N]
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { MST[rv.ROR5Mutator]MSP[N] return new char [] { prev } ; } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;
+if ( curr == 'H' && ( ! isVowel ( prev ) || ! isVowel ( next ) ) ) { return new char [] { prev } ; MST[rv.UOI3Mutator]MSP[N] } if ( curr == 'W' && isVowel ( prev ) ) { return new char [] { prev } ;

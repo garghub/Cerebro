@@ -1,0 +1,7 @@
+public void connect () throws IOException { if ( server == null ) { server = new ServerSocket ( port ) ; } } public int getPort () { return server == null ? port : server . getLocalPort () ; } public boolean isRunning () { return running ;
+} public void start () throws IOException { if ( server == null ) { connect () ; } if ( ! running ) { running = true ; new Thread ( this ) . start () ; } } @Override public void run () {
+Socket socket = null ; while ( running ) { try { socket = server . accept () ; final DataOutputStream os = new DataOutputStream ( socket . getOutputStream () ) ;
+final int time = (int) ( ( System . currentTimeMillis () + 500 ) / 1000 + SECONDS_1900_TO_1970 ) ; os . writeInt ( time ) ; os . flush () ; } catch ( final IOException e ) { } finally { if ( socket != null ) {
+try { socket . close () ; } catch ( final IOException e ) { System . err . println ( lr_1 + e ) ; } } } } } public void stop () { running = false ; if ( server != null ) { try {
+server . close () ; } catch ( final IOException e ) { System . err . println ( lr_1 + e ) ; } server = null ; } } public static void main ( final String [] args ) { final TimeTestSimpleServer server = new TimeTestSimpleServer () ;
+try { server . start () ; } catch ( final IOException e ) { } }

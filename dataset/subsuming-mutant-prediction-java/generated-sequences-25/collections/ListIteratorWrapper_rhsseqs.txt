@@ -1,0 +1,455 @@
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[N]
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { ++ vl_4 ; MST[rv.AOR1Mutator]MSP[N]
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[N] ++ vl_4 ;
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.UOI4Mutator]MSP[N]
+iterator . remove () ; return; } int vr_4 = vl_4 ; if ( vl_4 == vl_5 ) { MST[rv.UOI2Mutator]MSP[N] -- vr_4 ; }
+public int fn_3 () { if ( iterator instanceof vl_2 ) { MST[NegateConditionalsMutator]MSP[N]
+return vl_4 > 0 ; MST[rv.ROR4Mutator]MSP[N] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+return vl_4 > 0 ; MST[ReturnValsMutator]MSP[N] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.ROR2Mutator]MSP[N]
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.UOI2Mutator]MSP[S]
+list . add ( vr_3 ) ; MST[NonVoidMethodCallMutator]MSP[N] ++ vl_4 ; ++ vl_5 ; vl_7 = true ; return vr_3 ; } @Override
+if ( vl_4 == 0 ) { MST[rv.ROR2Mutator]MSP[N] throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ;
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.CRCR6Mutator]MSP[N]
+return vl_4 > 0 ; MST[ConditionalsBoundaryMutator]MSP[N] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.AOD1Mutator]MSP[N]
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.ABSMutator]MSP[N]
+throw new fn_6 ( vr_5 . vr_6 ( vl_8 , Integer . valueOf ( vr_4 ) ) ) ; MST[NonVoidMethodCallMutator]MSP[N] } iterator . remove () ;
+vr_2 . fn_4 () ; } return; } vl_4 = 0 ; MST[InlineConstantMutator]MSP[N] }
+return vl_4 > 0 ; MST[RemoveConditionalMutator_ORDER_ELSE]MSP[S] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+throw new fn_6 ( vr_5 . vr_6 ( vl_8 , Integer . valueOf ( vr_4 ) ) ) ; } iterator . remove () ; MST[VoidMethodCallMutator]MSP[S]
+@Override public void add ( final tp_1 vr_1 ) throws vl_1 { if ( iterator instanceof vl_2 ) { MST[rv.ROR4Mutator]MSP[N] @SuppressWarnings ( lr_1 )
+} @Override public tp_1 fn_4 () throws vl_6 { if ( iterator instanceof vl_2 ) { MST[rv.ROR2Mutator]MSP[N] @SuppressWarnings ( lr_1 )
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { MST[rv.ABSMutator]MSP[N] ++ vl_4 ;
+iterator . remove () ; return; } int vr_4 = vl_4 ; if ( vl_4 == vl_5 ) { MST[rv.ABSMutator]MSP[N] -- vr_4 ; }
+public int fn_3 () { if ( iterator instanceof vl_2 ) { MST[rv.ROR5Mutator]MSP[N]
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { MST[ConditionalsBoundaryMutator]MSP[N] ++ vl_4 ;
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; return vr_2 . fn_3 () ; } return vl_4 ; MST[rv.UOI4Mutator]MSP[N]
+throw new vl_1 ( vl_3 ) ; } @Override public boolean hasNext () { if ( vl_4 == vl_5 || iterator instanceof vl_2 ) { MST[rv.UOI4Mutator]MSP[N]
+public int fn_3 () { if ( iterator instanceof vl_2 ) { MST[rv.ROR1Mutator]MSP[N]
+list . add ( vr_3 ) ; ++ vl_4 ; ++ vl_5 ; MST[rv.UOI2Mutator]MSP[N] vl_7 = true ; return vr_3 ; } @Override
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[InlineConstantMutator]MSP[N]
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; vl_7 = false ; MST[rv.CRCR6Mutator]MSP[N] } @Override
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.AOR3Mutator]MSP[N]
+list . add ( vr_3 ) ; ++ vl_4 ; ++ vl_5 ; vl_7 = true ; MST[rv.CRCR4Mutator]MSP[N] return vr_3 ; } @Override
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.ROR2Mutator]MSP[N]
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; MST[rv.CRCR5Mutator]MSP[S] vl_7 = false ; } @Override
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; vl_7 = false ; MST[InlineConstantMutator]MSP[N] } @Override
+public void fn_7 ( final tp_1 vr_1 ) throws vl_1 { if ( iterator instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] @SuppressWarnings ( lr_1 )
+return list . get ( -- vl_4 ) ; MST[rv.CRCR5Mutator]MSP[N] } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) {
+throw new vl_1 ( vl_3 ) ; } @Override public boolean hasNext () { if ( vl_4 == vl_5 || iterator instanceof vl_2 ) { MST[rv.ROR2Mutator]MSP[N]
+return list . get ( vl_4 - 1 ) ; MST[rv.ABSMutator]MSP[N] } final tp_1 vr_3 = iterator . fn_2 () ;
+throw new fn_6 ( vr_5 . vr_6 ( vl_8 , Integer . valueOf ( vr_4 ) ) ) ; MST[rv.ABSMutator]MSP[N] } iterator . remove () ;
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; while ( vr_2 . fn_5 () >= 0 ) { MST[NonVoidMethodCallMutator]MSP[N]
+list . remove ( vr_4 ) ; MST[rv.UOI1Mutator]MSP[N] vl_4 = vr_4 ; vl_5 -- ; vl_7 = false ; } @Override
+return vl_4 - 1 ; MST[rv.AOR1Mutator]MSP[N] } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) {
+list . remove ( vr_4 ) ; MST[rv.ABSMutator]MSP[N] vl_4 = vr_4 ; vl_5 -- ; vl_7 = false ; } @Override
+return vl_4 - 1 ; MST[rv.CRCR5Mutator]MSP[N] } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) {
+vr_2 . fn_4 () ; } return; } vl_4 = 0 ; MST[rv.CRCR6Mutator]MSP[N] }
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; return vr_2 . fn_3 () ; MST[NonVoidMethodCallMutator]MSP[S] } return vl_4 ;
+throw new fn_6 ( vr_5 . vr_6 ( vl_8 , Integer . valueOf ( vr_4 ) ) ) ; MST[rv.CRCR5Mutator]MSP[N] } iterator . remove () ;
+return list . get ( -- vl_4 ) ; MST[rv.AOR1Mutator]MSP[N] } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) {
+return vl_4 - 1 ; MST[ReturnValsMutator]MSP[N] } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) {
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { MST[rv.UOI2Mutator]MSP[N] ++ vl_4 ;
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; MST[rv.UOI3Mutator]MSP[N] vl_5 -- ; vl_7 = false ; } @Override
+return list . get ( vl_4 - 1 ) ; MST[rv.AOD2Mutator]MSP[N] } final tp_1 vr_3 = iterator . fn_2 () ;
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; MST[rv.AOR1Mutator]MSP[S] vl_7 = false ; } @Override
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; return vr_2 . fn_5 () ; MST[NonVoidMethodCallMutator]MSP[S] }
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; return vr_2 . fn_1 () ; MST[ReturnValsMutator]MSP[S] }
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.UOI4Mutator]MSP[N]
+iterator . remove () ; return; } int vr_4 = vl_4 ; if ( vl_4 == vl_5 ) { MST[rv.UOI2Mutator]MSP[N] -- vr_4 ; }
+throw new vl_1 ( vl_3 ) ; } @Override public void fn_8 () { if ( iterator instanceof vl_2 ) { MST[rv.ROR5Mutator]MSP[N]
+return list . get ( -- vl_4 ) ; MST[rv.AOR2Mutator]MSP[N] } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) {
+return vl_4 > 0 ; } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) { MST[NegateConditionalsMutator]MSP[N]
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.UOI1Mutator]MSP[S]
+return vl_4 > 0 ; MST[rv.CRCR1Mutator]MSP[N] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+throw new vl_1 ( vl_3 ) ; } @Override public boolean hasNext () { if ( vl_4 == vl_5 || iterator instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N]
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; while ( vr_2 . fn_5 () >= 0 ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[S]
+throw new fn_6 ( vr_5 . vr_6 ( vl_8 , Integer . valueOf ( vr_4 ) ) ) ; MST[rv.UOI1Mutator]MSP[N] } iterator . remove () ;
+vr_2 . fn_4 () ; } return; } vl_4 = 0 ; MST[experimental.MemberVariableMutator]MSP[N] }
+throw new vl_1 ( vl_3 ) ; } @Override public void fn_8 () { if ( iterator instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N]
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; MST[rv.AOR2Mutator]MSP[S] vl_7 = false ; } @Override
+throw new vl_1 ( vl_3 ) ; } @Override public boolean hasNext () { if ( vl_4 == vl_5 || iterator instanceof vl_2 ) { MST[rv.ROR3Mutator]MSP[S]
+return list . get ( -- vl_4 ) ; } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N]
+return list . get ( -- vl_4 ) ; } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) { MST[NegateConditionalsMutator]MSP[N]
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.ROR1Mutator]MSP[N]
+iterator . remove () ; return; } int vr_4 = vl_4 ; if ( vl_4 == vl_5 ) { -- vr_4 ; MST[experimental.RemoveIncrementsMutator]MSP[N] }
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[S]
+public void fn_7 ( final tp_1 vr_1 ) throws vl_1 { if ( iterator instanceof vl_2 ) { MST[NegateConditionalsMutator]MSP[S] @SuppressWarnings ( lr_1 )
+return vl_4 - 1 ; MST[rv.AOR2Mutator]MSP[N] } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) {
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.ABSMutator]MSP[S]
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; MST[rv.UOI4Mutator]MSP[S] vl_7 = false ; } @Override
+return list . get ( vl_4 - 1 ) ; MST[rv.CRCR2Mutator]MSP[N] } final tp_1 vr_3 = iterator . fn_2 () ;
+return vl_4 - 1 ; } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) { MST[rv.ROR3Mutator]MSP[N]
+return list . get ( -- vl_4 ) ; MST[rv.UOI4Mutator]MSP[N] } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) {
+throw new fn_6 ( vr_5 . vr_6 ( vl_8 , Integer . valueOf ( vr_4 ) ) ) ; MST[rv.CRCR1Mutator]MSP[N] } iterator . remove () ;
+vr_2 . fn_4 () ; } return; } vl_4 = 0 ; MST[rv.CRCR3Mutator]MSP[N] }
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { MST[rv.UOI3Mutator]MSP[N] ++ vl_4 ;
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.CRCR6Mutator]MSP[N]
+return iterator . hasNext () ; } return true ; MST[ReturnValsMutator]MSP[S] } @Override public boolean fn_1 () { if ( iterator instanceof vl_2 ) {
+return list . get ( vl_4 - 1 ) ; MST[rv.AOR3Mutator]MSP[N] } final tp_1 vr_3 = iterator . fn_2 () ;
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; while ( vr_2 . fn_5 () >= 0 ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[N]
+iterator . remove () ; return; } int vr_4 = vl_4 ; if ( vl_4 == vl_5 ) { MST[rv.ROR4Mutator]MSP[N] -- vr_4 ; }
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; MST[experimental.MemberVariableMutator]MSP[S] vl_7 = false ; } @Override
+public void fn_7 ( final tp_1 vr_1 ) throws vl_1 { if ( iterator instanceof vl_2 ) { MST[rv.ROR1Mutator]MSP[S] @SuppressWarnings ( lr_1 )
+list . add ( vr_3 ) ; ++ vl_4 ; MST[rv.CRCR4Mutator]MSP[N] ++ vl_5 ; vl_7 = true ; return vr_3 ; } @Override
+return iterator . hasNext () ; } return true ; MST[rv.CRCR5Mutator]MSP[S] } @Override public boolean fn_1 () { if ( iterator instanceof vl_2 ) {
+return vl_4 > 0 ; } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) { MST[rv.ROR4Mutator]MSP[N]
+return vl_4 > 0 ; } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) { MST[rv.ROR1Mutator]MSP[N]
+return vl_4 - 1 ; MST[rv.UOI4Mutator]MSP[N] } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) {
+return vl_4 - 1 ; } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N]
+list . add ( vr_3 ) ; ++ vl_4 ; ++ vl_5 ; vl_7 = true ; MST[rv.CRCR3Mutator]MSP[N] return vr_3 ; } @Override
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.ROR4Mutator]MSP[N]
+public int fn_3 () { if ( iterator instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N]
+return vl_4 > 0 ; MST[rv.UOI3Mutator]MSP[N] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { ++ vl_4 ; MST[rv.CRCR4Mutator]MSP[N]
+return iterator . hasNext () ; MST[NonVoidMethodCallMutator]MSP[N] } return true ; } @Override public boolean fn_1 () { if ( iterator instanceof vl_2 ) {
+return list . get ( vl_4 - 1 ) ; MST[rv.UOI3Mutator]MSP[N] } final tp_1 vr_3 = iterator . fn_2 () ;
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[InlineConstantMutator]MSP[N]
+return list . get ( -- vl_4 ) ; } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) { MST[rv.ROR1Mutator]MSP[N]
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { MST[rv.ROR3Mutator]MSP[N] ++ vl_4 ;
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.CRCR3Mutator]MSP[N]
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; while ( vr_2 . fn_5 () >= 0 ) { MST[rv.ROR4Mutator]MSP[N]
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { ++ vl_4 ; MST[MathMutator]MSP[N]
+iterator . remove () ; return; } int vr_4 = vl_4 ; MST[rv.ABSMutator]MSP[N] if ( vl_4 == vl_5 ) { -- vr_4 ; }
+iterator . remove () ; return; } int vr_4 = vl_4 ; if ( vl_4 == vl_5 ) { MST[rv.UOI1Mutator]MSP[N] -- vr_4 ; }
+if ( vl_4 == 0 ) { MST[rv.ROR3Mutator]MSP[N] throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ;
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.ROR5Mutator]MSP[N]
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[NegateConditionalsMutator]MSP[N]
+throw new vl_1 ( vl_3 ) ; MST[ConstructorCallMutator]MSP[S] } @Override public boolean hasNext () { if ( vl_4 == vl_5 || iterator instanceof vl_2 ) {
+@Override public void add ( final tp_1 vr_1 ) throws vl_1 { if ( iterator instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] @SuppressWarnings ( lr_1 )
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.UOI1Mutator]MSP[S]
+return vl_4 > 0 ; MST[rv.ROR5Mutator]MSP[N] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+return vl_4 > 0 ; MST[rv.ROR3Mutator]MSP[S] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.UOI1Mutator]MSP[N]
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[NegateConditionalsMutator]MSP[N]
+list . add ( vr_3 ) ; ++ vl_4 ; MST[rv.AOR2Mutator]MSP[N] ++ vl_5 ; vl_7 = true ; return vr_3 ; } @Override
+list . add ( vr_3 ) ; ++ vl_4 ; MST[MathMutator]MSP[N] ++ vl_5 ; vl_7 = true ; return vr_3 ; } @Override
+} @Override public tp_1 fn_4 () throws vl_6 { if ( iterator instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] @SuppressWarnings ( lr_1 )
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[experimental.MemberVariableMutator]MSP[N]
+final vl_2 < tp_1 > vr_2 = ( vl_2 < tp_1 > ) iterator ; vr_2 . fn_7 ( vr_1 ) ; MST[VoidMethodCallMutator]MSP[S] return; }
+return iterator . hasNext () ; } return true ; } @Override public boolean fn_1 () { if ( iterator instanceof vl_2 ) { MST[rv.ROR5Mutator]MSP[N]
+return iterator . hasNext () ; } return true ; } @Override public boolean fn_1 () { if ( iterator instanceof vl_2 ) { MST[rv.ROR3Mutator]MSP[N]
+return vl_4 > 0 ; MST[rv.UOI2Mutator]MSP[S] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+return iterator . hasNext () ; MST[BooleanFalseReturnValsMutator]MSP[N] } return true ; } @Override public boolean fn_1 () { if ( iterator instanceof vl_2 ) {
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.ROR1Mutator]MSP[S]
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.CRCR2Mutator]MSP[N]
+iterator . remove () ; return; } int vr_4 = vl_4 ; MST[rv.UOI4Mutator]MSP[N] if ( vl_4 == vl_5 ) { -- vr_4 ; }
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N]
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; MST[rv.UOI2Mutator]MSP[N] vl_5 -- ; vl_7 = false ; } @Override
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { ++ vl_4 ; MST[rv.UOI1Mutator]MSP[N]
+final vl_2 < tp_1 > vr_2 = ( vl_2 < tp_1 > ) iterator ; return vr_2 . fn_4 () ; MST[NullReturnValsMutator]MSP[N] }
+iterator . remove () ; return; } int vr_4 = vl_4 ; if ( vl_4 == vl_5 ) { MST[NegateConditionalsMutator]MSP[N] -- vr_4 ; }
+} @Override public tp_1 fn_4 () throws vl_6 { if ( iterator instanceof vl_2 ) { MST[NegateConditionalsMutator]MSP[N] @SuppressWarnings ( lr_1 )
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[RemoveConditionalMutator_EQUAL_IF]MSP[N]
+@Override public void add ( final tp_1 vr_1 ) throws vl_1 { if ( iterator instanceof vl_2 ) { MST[rv.ROR1Mutator]MSP[S] @SuppressWarnings ( lr_1 )
+vr_2 . fn_4 () ; } return; } vl_4 = 0 ; MST[rv.CRCR1Mutator]MSP[N] }
+if ( vl_4 == 0 ) { MST[NegateConditionalsMutator]MSP[N] throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ;
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[InlineConstantMutator]MSP[N]
+list . add ( vr_3 ) ; ++ vl_4 ; MST[rv.CRCR3Mutator]MSP[N] ++ vl_5 ; vl_7 = true ; return vr_3 ; } @Override
+return vl_4 > 0 ; } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) { MST[rv.ROR3Mutator]MSP[N]
+return vl_4 - 1 ; MST[rv.UOI1Mutator]MSP[N] } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) {
+return vl_4 > 0 ; } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N]
+list . add ( vr_3 ) ; ++ vl_4 ; ++ vl_5 ; MST[rv.UOI3Mutator]MSP[N] vl_7 = true ; return vr_3 ; } @Override
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; MST[rv.CRCR4Mutator]MSP[S] vl_7 = false ; } @Override
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.AOR4Mutator]MSP[N]
+throw new vl_1 ( vl_3 ) ; } @Override public boolean hasNext () { if ( vl_4 == vl_5 || iterator instanceof vl_2 ) { MST[rv.UOI1Mutator]MSP[N]
+throw new vl_1 ( vl_3 ) ; } @Override public boolean hasNext () { if ( vl_4 == vl_5 || iterator instanceof vl_2 ) { MST[rv.ROR2Mutator]MSP[S]
+return vl_4 > 0 ; MST[InlineConstantMutator]MSP[S] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+return list . get ( -- vl_4 ) ; MST[rv.UOI1Mutator]MSP[N] } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) {
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.CRCR3Mutator]MSP[N]
+throw new fn_6 ( vr_5 . vr_6 ( vl_8 , Integer . valueOf ( vr_4 ) ) ) ; MST[rv.CRCR6Mutator]MSP[N] } iterator . remove () ;
+return list . get ( vl_4 - 1 ) ; MST[NullReturnValsMutator]MSP[N] } final tp_1 vr_3 = iterator . fn_2 () ;
+@Override public void add ( final tp_1 vr_1 ) throws vl_1 { if ( iterator instanceof vl_2 ) { MST[rv.ROR5Mutator]MSP[S] @SuppressWarnings ( lr_1 )
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; return vr_2 . fn_5 () ; MST[PrimitiveReturnsMutator]MSP[S] }
+throw new vl_1 ( vl_3 ) ; } @Override public boolean hasNext () { if ( vl_4 == vl_5 || iterator instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[S]
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; return vr_2 . fn_3 () ; } return vl_4 ; MST[ReturnValsMutator]MSP[N]
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { MST[rv.ROR1Mutator]MSP[N] ++ vl_4 ;
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { ++ vl_4 ; MST[rv.AOR2Mutator]MSP[N]
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; MST[rv.ABSMutator]MSP[S] vl_7 = false ; } @Override
+return iterator . hasNext () ; } return true ; } @Override public boolean fn_1 () { if ( iterator instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N]
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; while ( vr_2 . fn_5 () >= 0 ) { MST[rv.ROR2Mutator]MSP[N]
+return vl_4 > 0 ; MST[rv.CRCR5Mutator]MSP[N] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.UOI4Mutator]MSP[N]
+iterator . remove () ; return; } int vr_4 = vl_4 ; if ( vl_4 == vl_5 ) { MST[rv.UOI1Mutator]MSP[N] -- vr_4 ; }
+throw new vl_1 ( vl_3 ) ; } @Override public void fn_8 () { if ( iterator instanceof vl_2 ) { MST[rv.ROR4Mutator]MSP[S]
+return vl_4 - 1 ; } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) { MST[rv.ROR2Mutator]MSP[N]
+return vl_4 - 1 ; } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) { MST[rv.ROR1Mutator]MSP[N]
+return vl_4 > 0 ; MST[rv.CRCR4Mutator]MSP[N] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+return vl_4 > 0 ; MST[rv.CRCR3Mutator]MSP[N] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+throw new fn_6 ( vr_5 . vr_6 ( vl_8 , Integer . valueOf ( vr_4 ) ) ) ; MST[rv.UOI4Mutator]MSP[N] } iterator . remove () ;
+public void fn_7 ( final tp_1 vr_1 ) throws vl_1 { if ( iterator instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] @SuppressWarnings ( lr_1 )
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.UOI1Mutator]MSP[N]
+return vl_4 > 0 ; MST[RemoveConditionalMutator_ORDER_IF]MSP[N] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+throw new vl_1 ( vl_3 ) ; } @Override public boolean hasNext () { if ( vl_4 == vl_5 || iterator instanceof vl_2 ) { MST[rv.ROR4Mutator]MSP[N]
+throw new fn_6 ( vr_5 . vr_6 ( vl_8 , Integer . valueOf ( vr_4 ) ) ) ; MST[ConstructorCallMutator]MSP[N] } iterator . remove () ;
+final vl_2 < tp_1 > vr_2 = ( vl_2 < tp_1 > ) iterator ; vr_2 . add ( vr_1 ) ; MST[VoidMethodCallMutator]MSP[N] return; }
+list . remove ( vr_4 ) ; MST[rv.UOI4Mutator]MSP[N] vl_4 = vr_4 ; vl_5 -- ; vl_7 = false ; } @Override
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { ++ vl_4 ; MST[rv.CRCR3Mutator]MSP[N]
+return list . get ( vl_4 - 1 ) ; MST[rv.CRCR6Mutator]MSP[N] } final tp_1 vr_3 = iterator . fn_2 () ;
+throw new fn_6 ( vr_5 . vr_6 ( vl_8 , Integer . valueOf ( vr_4 ) ) ) ; MST[rv.CRCR5Mutator]MSP[N] } iterator . remove () ;
+throw new fn_6 ( vr_5 . vr_6 ( vl_8 , Integer . valueOf ( vr_4 ) ) ) ; MST[rv.CRCR4Mutator]MSP[N] } iterator . remove () ;
+return list . get ( -- vl_4 ) ; MST[NonVoidMethodCallMutator]MSP[N] } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) {
+return vl_4 - 1 ; MST[rv.CRCR2Mutator]MSP[N] } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) {
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.CRCR2Mutator]MSP[N]
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; while ( vr_2 . fn_5 () >= 0 ) { MST[rv.ROR3Mutator]MSP[N]
+return list . get ( vl_4 - 1 ) ; MST[rv.AOD1Mutator]MSP[N] } final tp_1 vr_3 = iterator . fn_2 () ;
+return list . get ( -- vl_4 ) ; } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) { MST[rv.ROR2Mutator]MSP[N]
+return list . get ( vl_4 - 1 ) ; MST[rv.AOR4Mutator]MSP[S] } final tp_1 vr_3 = iterator . fn_2 () ;
+list . add ( vr_3 ) ; ++ vl_4 ; MST[experimental.MemberVariableMutator]MSP[N] ++ vl_5 ; vl_7 = true ; return vr_3 ; } @Override
+throw new vl_1 ( vl_3 ) ; } @Override public void fn_8 () { if ( iterator instanceof vl_2 ) { MST[NegateConditionalsMutator]MSP[N]
+public int fn_3 () { if ( iterator instanceof vl_2 ) { MST[rv.ROR2Mutator]MSP[N]
+if ( vl_4 == 0 ) { MST[rv.UOI1Mutator]MSP[N] throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ;
+iterator . remove () ; return; } int vr_4 = vl_4 ; if ( vl_4 == vl_5 ) { MST[rv.ROR3Mutator]MSP[N] -- vr_4 ; }
+list . add ( vr_3 ) ; ++ vl_4 ; ++ vl_5 ; MST[rv.CRCR5Mutator]MSP[N] vl_7 = true ; return vr_3 ; } @Override
+iterator . remove () ; return; } int vr_4 = vl_4 ; if ( vl_4 == vl_5 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] -- vr_4 ; }
+list . add ( vr_3 ) ; ++ vl_4 ; MST[rv.UOI1Mutator]MSP[N] ++ vl_5 ; vl_7 = true ; return vr_3 ; } @Override
+throw new vl_1 ( vl_3 ) ; } @Override public boolean hasNext () { if ( vl_4 == vl_5 || iterator instanceof vl_2 ) { MST[NegateConditionalsMutator]MSP[S]
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.ROR3Mutator]MSP[N]
+return vl_4 > 0 ; MST[NegateConditionalsMutator]MSP[N] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+list . add ( vr_3 ) ; ++ vl_4 ; ++ vl_5 ; vl_7 = true ; MST[rv.CRCR2Mutator]MSP[N] return vr_3 ; } @Override
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.ROR3Mutator]MSP[N]
+return list . get ( -- vl_4 ) ; MST[rv.CRCR2Mutator]MSP[N] } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) {
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { ++ vl_4 ; MST[experimental.MemberVariableMutator]MSP[N]
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; MST[rv.AOR3Mutator]MSP[S] vl_7 = false ; } @Override
+list . add ( vr_3 ) ; ++ vl_4 ; MST[rv.AOR1Mutator]MSP[N] ++ vl_5 ; vl_7 = true ; return vr_3 ; } @Override
+return iterator . hasNext () ; } return true ; } @Override public boolean fn_1 () { if ( iterator instanceof vl_2 ) { MST[rv.ROR4Mutator]MSP[N]
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; vl_7 = false ; MST[rv.CRCR1Mutator]MSP[N] } @Override
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.AOD2Mutator]MSP[N]
+return iterator . hasNext () ; } return true ; } @Override public boolean fn_1 () { if ( iterator instanceof vl_2 ) { MST[NegateConditionalsMutator]MSP[N]
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; MST[rv.UOI1Mutator]MSP[N] vl_5 -- ; vl_7 = false ; } @Override
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; MST[rv.UOI3Mutator]MSP[S] vl_7 = false ; } @Override
+public void fn_7 ( final tp_1 vr_1 ) throws vl_1 { if ( iterator instanceof vl_2 ) { MST[rv.ROR5Mutator]MSP[S] @SuppressWarnings ( lr_1 )
+if ( vl_4 == 0 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ;
+} @Override public tp_1 fn_4 () throws vl_6 { if ( iterator instanceof vl_2 ) { MST[rv.ROR3Mutator]MSP[N] @SuppressWarnings ( lr_1 )
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; return vr_2 . fn_3 () ; MST[PrimitiveReturnsMutator]MSP[S] } return vl_4 ;
+final vl_2 < tp_1 > vr_2 = ( vl_2 < tp_1 > ) iterator ; return vr_2 . fn_4 () ; MST[ReturnValsMutator]MSP[N] }
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { MST[rv.UOI4Mutator]MSP[N] ++ vl_4 ;
+if ( vl_4 == 0 ) { MST[rv.ROR4Mutator]MSP[S] throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ;
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.UOI4Mutator]MSP[N]
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.ROR4Mutator]MSP[N]
+return vl_4 > 0 ; MST[rv.ROR2Mutator]MSP[N] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+list . add ( vr_3 ) ; ++ vl_4 ; MST[rv.AOR3Mutator]MSP[N] ++ vl_5 ; vl_7 = true ; return vr_3 ; } @Override
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.UOI2Mutator]MSP[N]
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { ++ vl_4 ; MST[InlineConstantMutator]MSP[N]
+list . add ( vr_3 ) ; ++ vl_4 ; MST[rv.ABSMutator]MSP[N] ++ vl_5 ; vl_7 = true ; return vr_3 ; } @Override
+return iterator . hasNext () ; } return true ; MST[InlineConstantMutator]MSP[S] } @Override public boolean fn_1 () { if ( iterator instanceof vl_2 ) {
+return list . get ( vl_4 - 1 ) ; MST[rv.UOI4Mutator]MSP[N] } final tp_1 vr_3 = iterator . fn_2 () ;
+@Override public void add ( final tp_1 vr_1 ) throws vl_1 { if ( iterator instanceof vl_2 ) { MST[rv.ROR2Mutator]MSP[N] @SuppressWarnings ( lr_1 )
+} @Override public tp_1 fn_4 () throws vl_6 { if ( iterator instanceof vl_2 ) { MST[rv.ROR4Mutator]MSP[N] @SuppressWarnings ( lr_1 )
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { ++ vl_4 ; MST[rv.AOR3Mutator]MSP[N]
+list . add ( vr_3 ) ; ++ vl_4 ; MST[InlineConstantMutator]MSP[N] ++ vl_5 ; vl_7 = true ; return vr_3 ; } @Override
+return list . get ( vl_4 - 1 ) ; MST[ReturnValsMutator]MSP[N] } final tp_1 vr_3 = iterator . fn_2 () ;
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { ++ vl_4 ; MST[rv.ABSMutator]MSP[N]
+list . add ( vr_3 ) ; ++ vl_4 ; MST[rv.CRCR6Mutator]MSP[N] ++ vl_5 ; vl_7 = true ; return vr_3 ; } @Override
+iterator . remove () ; return; } int vr_4 = vl_4 ; if ( vl_4 == vl_5 ) { MST[rv.ROR2Mutator]MSP[N] -- vr_4 ; }
+list . add ( vr_3 ) ; ++ vl_4 ; MST[rv.CRCR2Mutator]MSP[N] ++ vl_5 ; vl_7 = true ; return vr_3 ; } @Override
+public void fn_7 ( final tp_1 vr_1 ) throws vl_1 { if ( iterator instanceof vl_2 ) { MST[rv.ROR3Mutator]MSP[S] @SuppressWarnings ( lr_1 )
+return iterator . hasNext () ; } return true ; MST[rv.CRCR2Mutator]MSP[S] } @Override public boolean fn_1 () { if ( iterator instanceof vl_2 ) {
+return list . get ( vl_4 - 1 ) ; MST[rv.AOR1Mutator]MSP[N] } final tp_1 vr_3 = iterator . fn_2 () ;
+return iterator . hasNext () ; } return true ; MST[rv.CRCR6Mutator]MSP[S] } @Override public boolean fn_1 () { if ( iterator instanceof vl_2 ) {
+return vl_4 > 0 ; } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) { MST[rv.ROR2Mutator]MSP[N]
+return vl_4 - 1 ; MST[rv.UOI2Mutator]MSP[N] } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) {
+list . add ( vr_3 ) ; ++ vl_4 ; MST[rv.UOI2Mutator]MSP[N] ++ vl_5 ; vl_7 = true ; return vr_3 ; } @Override
+return vl_4 > 0 ; MST[rv.UOI1Mutator]MSP[N] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+if ( vl_4 == 0 ) { MST[rv.UOI3Mutator]MSP[N] throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ;
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.ROR2Mutator]MSP[N]
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { ++ vl_4 ; MST[rv.CRCR6Mutator]MSP[N]
+return iterator . hasNext () ; } return true ; } @Override public boolean fn_1 () { if ( iterator instanceof vl_2 ) { MST[rv.ROR2Mutator]MSP[N]
+return vl_4 > 0 ; MST[InlineConstantMutator]MSP[N] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { ++ vl_4 ; MST[rv.CRCR2Mutator]MSP[N]
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.CRCR3Mutator]MSP[N]
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; MST[rv.AOD2Mutator]MSP[S] vl_7 = false ; } @Override
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; return vr_2 . fn_5 () ; MST[ReturnValsMutator]MSP[S] }
+return vl_4 - 1 ; MST[rv.AOD2Mutator]MSP[N] } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) {
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { ++ vl_4 ; MST[rv.UOI2Mutator]MSP[N]
+return list . get ( vl_4 - 1 ) ; MST[rv.CRCR5Mutator]MSP[N] } final tp_1 vr_3 = iterator . fn_2 () ;
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; return vr_2 . fn_3 () ; } return vl_4 ; MST[PrimitiveReturnsMutator]MSP[S]
+iterator . remove () ; return; } int vr_4 = vl_4 ; MST[rv.UOI3Mutator]MSP[N] if ( vl_4 == vl_5 ) { -- vr_4 ; }
+return vl_4 > 0 ; MST[BooleanTrueReturnValsMutator]MSP[N] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.CRCR5Mutator]MSP[S]
+return list . get ( -- vl_4 ) ; } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) { MST[rv.ROR3Mutator]MSP[N]
+return vl_4 > 0 ; MST[rv.CRCR6Mutator]MSP[N] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+return list . get ( -- vl_4 ) ; MST[rv.AOR4Mutator]MSP[N] } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) {
+return vl_4 - 1 ; MST[rv.ABSMutator]MSP[S] } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) {
+iterator . remove () ; return; } int vr_4 = vl_4 ; if ( vl_4 == vl_5 ) { MST[rv.UOI4Mutator]MSP[N] -- vr_4 ; }
+throw new vl_1 ( vl_3 ) ; } @Override public void fn_8 () { if ( iterator instanceof vl_2 ) { MST[rv.ROR3Mutator]MSP[N]
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.UOI3Mutator]MSP[N]
+return vl_4 > 0 ; MST[rv.CRCR3Mutator]MSP[N] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; return vr_2 . fn_1 () ; MST[BooleanTrueReturnValsMutator]MSP[S] }
+return list . get ( -- vl_4 ) ; MST[MathMutator]MSP[N] } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) {
+return vl_4 > 0 ; MST[rv.CRCR5Mutator]MSP[S] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+return vl_4 > 0 ; MST[rv.CRCR2Mutator]MSP[S] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+throw new vl_1 ( vl_3 ) ; MST[ConstructorCallMutator]MSP[S] } @Override public void fn_8 () { if ( iterator instanceof vl_2 ) {
+return list . get ( -- vl_4 ) ; MST[InlineConstantMutator]MSP[N] } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) {
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.UOI2Mutator]MSP[N]
+throw new vl_1 ( vl_3 ) ; } @Override public boolean hasNext () { if ( vl_4 == vl_5 || iterator instanceof vl_2 ) { MST[rv.ROR4Mutator]MSP[N]
+throw new vl_1 ( vl_3 ) ; } @Override public boolean hasNext () { if ( vl_4 == vl_5 || iterator instanceof vl_2 ) { MST[rv.ROR5Mutator]MSP[S]
+throw new fn_6 ( vr_5 . vr_6 ( vl_8 , Integer . valueOf ( vr_4 ) ) ) ; MST[rv.UOI3Mutator]MSP[N] } iterator . remove () ;
+throw new vl_1 ( vl_3 ) ; } @Override public void fn_8 () { if ( iterator instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S]
+return vl_4 - 1 ; } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N]
+throw new fn_6 ( vr_5 . vr_6 ( vl_8 , Integer . valueOf ( vr_4 ) ) ) ; MST[rv.CRCR6Mutator]MSP[N] } iterator . remove () ;
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; MST[MathMutator]MSP[S] vl_7 = false ; } @Override
+return vl_4 - 1 ; MST[rv.AOR4Mutator]MSP[N] } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) {
+vr_2 . fn_4 () ; } return; } vl_4 = 0 ; MST[rv.CRCR5Mutator]MSP[N] }
+return vl_4 - 1 ; } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) { MST[rv.ROR5Mutator]MSP[N]
+return list . get ( vl_4 - 1 ) ; MST[rv.CRCR4Mutator]MSP[N] } final tp_1 vr_3 = iterator . fn_2 () ;
+return vl_4 - 1 ; MST[rv.AOD1Mutator]MSP[N] } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) {
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; MST[rv.AOD1Mutator]MSP[S] vl_7 = false ; } @Override
+public void fn_7 ( final tp_1 vr_1 ) throws vl_1 { if ( iterator instanceof vl_2 ) { MST[rv.ROR4Mutator]MSP[N] @SuppressWarnings ( lr_1 )
+return vl_4 - 1 ; MST[rv.CRCR6Mutator]MSP[N] } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) {
+return list . get ( -- vl_4 ) ; MST[rv.UOI2Mutator]MSP[N] } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) {
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { MST[rv.UOI1Mutator]MSP[N] ++ vl_4 ;
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; MST[rv.AOR4Mutator]MSP[S] vl_7 = false ; } @Override
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; MST[rv.UOI2Mutator]MSP[N] vl_7 = false ; } @Override
+return list . get ( -- vl_4 ) ; } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) { MST[rv.ROR4Mutator]MSP[S]
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; while ( vr_2 . fn_5 () >= 0 ) { MST[rv.ROR1Mutator]MSP[S]
+public int fn_3 () { if ( iterator instanceof vl_2 ) { MST[rv.ROR3Mutator]MSP[N]
+if ( vl_4 == 0 ) { MST[rv.UOI2Mutator]MSP[N] throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ;
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.AOR1Mutator]MSP[N]
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; MST[rv.CRCR6Mutator]MSP[S] vl_7 = false ; } @Override
+list . add ( vr_3 ) ; ++ vl_4 ; ++ vl_5 ; vl_7 = true ; MST[InlineConstantMutator]MSP[N] return vr_3 ; } @Override
+return vl_4 - 1 ; MST[InlineConstantMutator]MSP[N] } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) {
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; MST[experimental.MemberVariableMutator]MSP[N] vl_5 -- ; vl_7 = false ; } @Override
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.ABSMutator]MSP[N]
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; MST[InlineConstantMutator]MSP[S] vl_7 = false ; } @Override
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; vl_7 = false ; MST[rv.CRCR5Mutator]MSP[N] } @Override
+list . add ( vr_3 ) ; ++ vl_4 ; ++ vl_5 ; vl_7 = true ; MST[rv.CRCR6Mutator]MSP[N] return vr_3 ; } @Override
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.ROR4Mutator]MSP[N]
+list . add ( vr_3 ) ; ++ vl_4 ; MST[rv.AOD2Mutator]MSP[N] ++ vl_5 ; vl_7 = true ; return vr_3 ; } @Override
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; MST[rv.CRCR3Mutator]MSP[S] vl_7 = false ; } @Override
+return vl_4 - 1 ; MST[MathMutator]MSP[N] } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) {
+return list . get ( -- vl_4 ) ; MST[rv.CRCR6Mutator]MSP[N] } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) {
+return list . get ( -- vl_4 ) ; MST[rv.CRCR3Mutator]MSP[N] } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) {
+public int fn_3 () { if ( iterator instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S]
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.CRCR5Mutator]MSP[N]
+list . remove ( vr_4 ) ; MST[rv.UOI3Mutator]MSP[N] vl_4 = vr_4 ; vl_5 -- ; vl_7 = false ; } @Override
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; return vr_2 . fn_3 () ; MST[ReturnValsMutator]MSP[S] } return vl_4 ;
+return vl_4 - 1 ; MST[rv.CRCR3Mutator]MSP[N] } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) {
+throw new fn_6 ( vr_5 . vr_6 ( vl_8 , Integer . valueOf ( vr_4 ) ) ) ; MST[InlineConstantMutator]MSP[N] } iterator . remove () ;
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; return vr_2 . fn_3 () ; } return vl_4 ; MST[rv.ABSMutator]MSP[S]
+list . add ( vr_3 ) ; ++ vl_4 ; ++ vl_5 ; vl_7 = true ; MST[experimental.MemberVariableMutator]MSP[N] return vr_3 ; } @Override
+iterator . remove () ; return; } int vr_4 = vl_4 ; if ( vl_4 == vl_5 ) { MST[rv.UOI4Mutator]MSP[N] -- vr_4 ; }
+throw new fn_6 ( vr_5 . vr_6 ( vl_8 , Integer . valueOf ( vr_4 ) ) ) ; MST[rv.CRCR3Mutator]MSP[N] } iterator . remove () ;
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; while ( vr_2 . fn_5 () >= 0 ) { MST[NegateConditionalsMutator]MSP[N]
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; return vr_2 . fn_3 () ; } return vl_4 ; MST[rv.UOI1Mutator]MSP[N]
+iterator . remove () ; MST[VoidMethodCallMutator]MSP[S] return; } int vr_4 = vl_4 ; if ( vl_4 == vl_5 ) { -- vr_4 ; }
+if ( vl_4 == 0 ) { MST[rv.ROR5Mutator]MSP[N] throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ;
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[S]
+if ( vl_4 == 0 ) { MST[rv.ABSMutator]MSP[N] throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ;
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.UOI3Mutator]MSP[N]
+return iterator . hasNext () ; } return true ; } @Override public boolean fn_1 () { if ( iterator instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N]
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { MST[NegateConditionalsMutator]MSP[N] ++ vl_4 ;
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.UOI3Mutator]MSP[N]
+return vl_4 > 0 ; MST[rv.ABSMutator]MSP[S] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.ROR3Mutator]MSP[N]
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; return vr_2 . fn_1 () ; MST[NonVoidMethodCallMutator]MSP[N] }
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.CRCR1Mutator]MSP[N]
+list . add ( vr_3 ) ; ++ vl_4 ; MST[rv.AOR4Mutator]MSP[N] ++ vl_5 ; vl_7 = true ; return vr_3 ; } @Override
+return vl_4 > 0 ; MST[rv.ROR1Mutator]MSP[N] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+if ( vl_4 == 0 ) { MST[rv.ROR1Mutator]MSP[N] throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ;
+final vl_2 < tp_1 > vr_2 = ( vl_2 < tp_1 > ) iterator ; return vr_2 . fn_4 () ; MST[NonVoidMethodCallMutator]MSP[N] }
+@Override public void add ( final tp_1 vr_1 ) throws vl_1 { if ( iterator instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] @SuppressWarnings ( lr_1 )
+if ( vl_4 == 0 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ;
+return iterator . hasNext () ; } return true ; } @Override public boolean fn_1 () { if ( iterator instanceof vl_2 ) { MST[rv.ROR1Mutator]MSP[N]
+return vl_4 > 0 ; MST[rv.UOI4Mutator]MSP[S] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+@Override public void add ( final tp_1 vr_1 ) throws vl_1 { if ( iterator instanceof vl_2 ) { MST[NegateConditionalsMutator]MSP[S] @SuppressWarnings ( lr_1 )
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.CRCR6Mutator]MSP[N]
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.CRCR4Mutator]MSP[N]
+throw new fn_6 ( vr_5 . vr_6 ( vl_8 , Integer . valueOf ( vr_4 ) ) ) ; MST[InlineConstantMutator]MSP[N] } iterator . remove () ;
+iterator . remove () ; return; } int vr_4 = vl_4 ; if ( vl_4 == vl_5 ) { MST[rv.UOI3Mutator]MSP[N] -- vr_4 ; }
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { ++ vl_4 ; MST[rv.UOI3Mutator]MSP[N]
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; MST[rv.UOI4Mutator]MSP[S] vl_5 -- ; vl_7 = false ; } @Override
+iterator . remove () ; return; } int vr_4 = vl_4 ; MST[rv.UOI2Mutator]MSP[N] if ( vl_4 == vl_5 ) { -- vr_4 ; }
+public int fn_3 () { if ( iterator instanceof vl_2 ) { MST[rv.ROR4Mutator]MSP[S]
+return list . get ( -- vl_4 ) ; MST[ReturnValsMutator]MSP[N] } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) {
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[MathMutator]MSP[N]
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; return vr_2 . fn_3 () ; } return vl_4 ; MST[rv.UOI3Mutator]MSP[N]
+iterator . remove () ; return; } int vr_4 = vl_4 ; if ( vl_4 == vl_5 ) { MST[rv.ROR5Mutator]MSP[N] -- vr_4 ; }
+} @Override public tp_1 fn_4 () throws vl_6 { if ( iterator instanceof vl_2 ) { MST[rv.ROR1Mutator]MSP[N] @SuppressWarnings ( lr_1 )
+return list . get ( -- vl_4 ) ; MST[rv.AOD1Mutator]MSP[N] } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) {
+public void fn_7 ( final tp_1 vr_1 ) throws vl_1 { if ( iterator instanceof vl_2 ) { MST[rv.ROR2Mutator]MSP[N] @SuppressWarnings ( lr_1 )
+return iterator . hasNext () ; } return true ; MST[rv.CRCR3Mutator]MSP[N] } @Override public boolean fn_1 () { if ( iterator instanceof vl_2 ) {
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[NegateConditionalsMutator]MSP[N]
+throw new fn_6 ( vr_5 . vr_6 ( vl_8 , Integer . valueOf ( vr_4 ) ) ) ; MST[ArgumentPropagationMutator]MSP[N] } iterator . remove () ;
+return list . get ( vl_4 - 1 ) ; MST[rv.AOR2Mutator]MSP[N] } final tp_1 vr_3 = iterator . fn_2 () ;
+list . add ( vr_3 ) ; ++ vl_4 ; ++ vl_5 ; vl_7 = true ; MST[rv.CRCR5Mutator]MSP[N] return vr_3 ; } @Override
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.ROR5Mutator]MSP[N]
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.ABSMutator]MSP[N]
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.ROR5Mutator]MSP[N]
+if ( vl_4 == 0 ) { MST[rv.UOI4Mutator]MSP[N] throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ;
+return vl_4 > 0 ; } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N]
+return list . get ( -- vl_4 ) ; MST[rv.CRCR4Mutator]MSP[N] } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) {
+return list . get ( -- vl_4 ) ; MST[rv.ABSMutator]MSP[N] } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) {
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.ROR1Mutator]MSP[N]
+return list . get ( vl_4 - 1 ) ; MST[rv.UOI1Mutator]MSP[N] } final tp_1 vr_3 = iterator . fn_2 () ;
+return vl_4 - 1 ; MST[PrimitiveReturnsMutator]MSP[N] } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) {
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; vl_7 = false ; MST[rv.CRCR3Mutator]MSP[N] } @Override
+} @Override public tp_1 fn_4 () throws vl_6 { if ( iterator instanceof vl_2 ) { MST[rv.ROR5Mutator]MSP[N] @SuppressWarnings ( lr_1 )
+iterator . remove () ; return; } int vr_4 = vl_4 ; if ( vl_4 == vl_5 ) { MST[rv.ROR1Mutator]MSP[N] -- vr_4 ; }
+iterator . remove () ; return; } int vr_4 = vl_4 ; if ( vl_4 == vl_5 ) { -- vr_4 ; MST[IncrementsMutator]MSP[N] }
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { MST[rv.ROR5Mutator]MSP[N] ++ vl_4 ;
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; MST[rv.UOI1Mutator]MSP[N] vl_7 = false ; } @Override
+return list . get ( -- vl_4 ) ; MST[rv.AOR3Mutator]MSP[N] } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) {
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.UOI3Mutator]MSP[N]
+iterator . remove () ; return; } int vr_4 = vl_4 ; if ( vl_4 == vl_5 ) { MST[rv.UOI3Mutator]MSP[N] -- vr_4 ; }
+throw new vl_1 ( vl_3 ) ; } @Override public boolean hasNext () { if ( vl_4 == vl_5 || iterator instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S]
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.UOI2Mutator]MSP[S]
+throw new vl_1 ( vl_3 ) ; } @Override public void fn_8 () { if ( iterator instanceof vl_2 ) { MST[rv.ROR2Mutator]MSP[N]
+return vl_4 > 0 ; MST[rv.CRCR6Mutator]MSP[S] } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) {
+return list . get ( -- vl_4 ) ; MST[NullReturnValsMutator]MSP[N] } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) {
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; while ( vr_2 . fn_5 () >= 0 ) { MST[ConditionalsBoundaryMutator]MSP[S]
+return list . get ( -- vl_4 ) ; } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S]
+return list . get ( vl_4 - 1 ) ; MST[NonVoidMethodCallMutator]MSP[N] } final tp_1 vr_3 = iterator . fn_2 () ;
+list . add ( vr_3 ) ; ++ vl_4 ; ++ vl_5 ; vl_7 = true ; return vr_3 ; MST[NullReturnValsMutator]MSP[N] } @Override
+throw new fn_6 ( vr_5 . vr_6 ( vl_8 , Integer . valueOf ( vr_4 ) ) ) ; MST[rv.UOI2Mutator]MSP[N] } iterator . remove () ;
+return iterator . fn_2 () ; MST[NullReturnValsMutator]MSP[N] } if ( vl_4 < vl_5 ) { ++ vl_4 ;
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; vl_7 = false ; MST[experimental.MemberVariableMutator]MSP[N] } @Override
+throw new vl_1 ( vl_3 ) ; } @Override public boolean hasNext () { if ( vl_4 == vl_5 || iterator instanceof vl_2 ) { MST[rv.ROR1Mutator]MSP[S]
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { ++ vl_4 ; MST[rv.CRCR5Mutator]MSP[N]
+return iterator . fn_2 () ; MST[ReturnValsMutator]MSP[N] } if ( vl_4 < vl_5 ) { ++ vl_4 ;
+list . add ( vr_3 ) ; ++ vl_4 ; ++ vl_5 ; vl_7 = true ; return vr_3 ; MST[ReturnValsMutator]MSP[N] } @Override
+list . remove ( vr_4 ) ; MST[rv.UOI2Mutator]MSP[N] vl_4 = vr_4 ; vl_5 -- ; vl_7 = false ; } @Override
+throw new fn_6 ( vr_5 . vr_6 ( vl_8 , Integer . valueOf ( vr_4 ) ) ) ; MST[NonVoidMethodCallMutator]MSP[N] } iterator . remove () ;
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; return vr_2 . fn_1 () ; MST[BooleanFalseReturnValsMutator]MSP[N] }
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { MST[rv.ROR4Mutator]MSP[N] ++ vl_4 ;
+throw new fn_6 ( vr_5 . vr_6 ( vl_8 , Integer . valueOf ( vr_4 ) ) ) ; MST[rv.CRCR2Mutator]MSP[N] } iterator . remove () ;
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; while ( vr_2 . fn_5 () >= 0 ) { MST[rv.ROR5Mutator]MSP[S]
+throw new fn_6 ( vr_5 . vr_6 ( vl_8 , Integer . valueOf ( vr_4 ) ) ) ; MST[rv.CRCR3Mutator]MSP[N] } iterator . remove () ;
+throw new vl_1 ( vl_3 ) ; } @Override public void fn_8 () { if ( iterator instanceof vl_2 ) { MST[rv.ROR1Mutator]MSP[N]
+return vl_4 - 1 ; MST[rv.CRCR4Mutator]MSP[N] } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) {
+final vl_2 < ? > vr_2 = ( vl_2 < ? > ) iterator ; return vr_2 . fn_3 () ; } return vl_4 ; MST[rv.UOI2Mutator]MSP[S]
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[ConditionalsBoundaryMutator]MSP[N]
+iterator . remove () ; return; } int vr_4 = vl_4 ; if ( vl_4 == vl_5 ) { MST[rv.ABSMutator]MSP[N] -- vr_4 ; }
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.CRCR4Mutator]MSP[N]
+list . remove ( vr_4 ) ; MST[NonVoidMethodCallMutator]MSP[S] vl_4 = vr_4 ; vl_5 -- ; vl_7 = false ; } @Override
+return vl_4 > 0 ; } @Override public tp_1 fn_2 () throws vl_6 { if ( iterator instanceof vl_2 ) { MST[rv.ROR5Mutator]MSP[N]
+if ( vl_4 == 0 ) { throw new vl_6 () ; MST[ConstructorCallMutator]MSP[N] } vl_7 = vl_5 == vl_4 ;
+return iterator . hasNext () ; } return true ; MST[rv.CRCR4Mutator]MSP[N] } @Override public boolean fn_1 () { if ( iterator instanceof vl_2 ) {
+list . add ( vr_3 ) ; ++ vl_4 ; ++ vl_5 ; MST[rv.UOI1Mutator]MSP[N] vl_7 = true ; return vr_3 ; } @Override
+return vl_4 - 1 ; MST[rv.UOI3Mutator]MSP[N] } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) {
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; vl_5 -- ; MST[rv.CRCR2Mutator]MSP[S] vl_7 = false ; } @Override
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N]
+list . add ( vr_3 ) ; ++ vl_4 ; MST[rv.AOD1Mutator]MSP[N] ++ vl_5 ; vl_7 = true ; return vr_3 ; } @Override
+throw new vl_1 ( vl_3 ) ; } @Override public boolean hasNext () { if ( vl_4 == vl_5 || iterator instanceof vl_2 ) { MST[rv.UOI2Mutator]MSP[N]
+if ( ! vl_7 || vl_5 - vl_4 > 1 ) { MST[rv.AOR2Mutator]MSP[N]
+throw new vl_1 ( vl_3 ) ; } @Override public boolean hasNext () { if ( vl_4 == vl_5 || iterator instanceof vl_2 ) { MST[rv.UOI3Mutator]MSP[N]
+list . add ( vr_3 ) ; ++ vl_4 ; MST[rv.UOI4Mutator]MSP[N] ++ vl_5 ; vl_7 = true ; return vr_3 ; } @Override
+return list . get ( vl_4 - 1 ) ; MST[MathMutator]MSP[N] } final tp_1 vr_3 = iterator . fn_2 () ;
+if ( vl_4 == 0 ) { throw new vl_6 () ; } vl_7 = vl_5 == vl_4 ; MST[rv.CRCR5Mutator]MSP[N]
+return vl_4 - 1 ; MST[rv.AOR3Mutator]MSP[N] } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) {
+iterator . remove () ; return; } int vr_4 = vl_4 ; if ( vl_4 == vl_5 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] -- vr_4 ; }
+return vl_4 - 1 ; } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) { MST[NegateConditionalsMutator]MSP[N]
+return list . get ( vl_4 - 1 ) ; MST[InlineConstantMutator]MSP[N] } final tp_1 vr_3 = iterator . fn_2 () ;
+return vl_4 - 1 ; } @Override public void remove () throws vl_1 { if ( iterator instanceof vl_2 ) { MST[rv.ROR4Mutator]MSP[N]
+} @Override public tp_1 fn_4 () throws vl_6 { if ( iterator instanceof vl_2 ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] @SuppressWarnings ( lr_1 )
+return list . get ( vl_4 - 1 ) ; MST[rv.CRCR3Mutator]MSP[N] } final tp_1 vr_3 = iterator . fn_2 () ;
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { ++ vl_4 ; MST[rv.AOD1Mutator]MSP[N]
+@Override public void add ( final tp_1 vr_1 ) throws vl_1 { if ( iterator instanceof vl_2 ) { MST[rv.ROR3Mutator]MSP[S] @SuppressWarnings ( lr_1 )
+return iterator . hasNext () ; } return true ; MST[BooleanFalseReturnValsMutator]MSP[S] } @Override public boolean fn_1 () { if ( iterator instanceof vl_2 ) {
+return list . get ( -- vl_4 ) ; MST[rv.UOI3Mutator]MSP[N] } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) {
+list . remove ( vr_4 ) ; vl_4 = vr_4 ; MST[rv.ABSMutator]MSP[S] vl_5 -- ; vl_7 = false ; } @Override
+iterator . remove () ; return; } int vr_4 = vl_4 ; MST[rv.UOI1Mutator]MSP[N] if ( vl_4 == vl_5 ) { -- vr_4 ; }
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { ++ vl_4 ; MST[rv.AOR4Mutator]MSP[N]
+return iterator . fn_2 () ; } if ( vl_4 < vl_5 ) { ++ vl_4 ; MST[rv.UOI4Mutator]MSP[N]
+return list . get ( -- vl_4 ) ; } @Override public int fn_5 () { if ( iterator instanceof vl_2 ) { MST[rv.ROR5Mutator]MSP[N]

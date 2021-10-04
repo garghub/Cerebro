@@ -1,0 +1,2 @@
+public static tp_1 fn_1 ( final String vr_1 ) { if ( tp_1 . vr_2 . toString () . equals ( vr_1 ) ) { return tp_1 . vr_2 ; } if ( tp_1 . vr_3 . toString () . equals ( vr_1 ) ) {
+return tp_1 . vr_3 ; } throw new IllegalArgumentException ( lr_1 + vr_1 + lr_2 + tp_1 . vr_3 + lr_3 + tp_1 . vr_2 ) ; }

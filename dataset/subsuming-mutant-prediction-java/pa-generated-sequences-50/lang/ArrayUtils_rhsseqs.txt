@@ -1,0 +1,3 @@
+public static boolean isSorted ( short [] array ) { if( array == null || array . length < 2 ) { MST[NonVoidMethodCallMutator]MSP[S] return true ; } short previous = array [ 0 ] ; final int n = array . length ;
+public static boolean isSorted ( short [] array ) { if( array == null || array . length < 2 ) { MST[PrimitiveReturnsMutator]MSP[S] return true ; } short previous = array [ 0 ] ; final int n = array . length ;
+public static boolean isSorted ( short [] array ) { if( array == null || array . length < 2 ) { MST[ReturnValsMutator]MSP[S] return true ; } short previous = array [ 0 ] ; final int n = array . length ;

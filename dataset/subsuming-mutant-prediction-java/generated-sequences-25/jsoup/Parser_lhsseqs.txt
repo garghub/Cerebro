@@ -1,0 +1,13 @@
+fn_10 vr_3 = new fn_10 () ; tp_5 vr_9 = new tp_5 ( vr_3 ) ; MST[ConstructorCallMutator]MSP[] vr_9 . vr_10 = vr_17 ;
+public tp_5 fn_5 ( tp_4 vr_3 ) { this . vr_3 = vr_3 ; vr_3 . vr_9 = this ; MST[experimental.MemberVariableMutator]MSP[] return this ; }
+return vr_3 . vr_8 ( vr_18 , vr_2 , new tp_5 ( vr_3 ) ) ; MST[ConstructorCallMutator]MSP[] }
+fn_10 vr_3 = new fn_10 () ; MST[ConstructorCallMutator]MSP[] tp_5 vr_9 = new tp_5 ( vr_3 ) ; vr_9 . vr_10 = vr_17 ;
+fn_10 vr_3 = new fn_10 () ; tp_5 vr_9 = new tp_5 ( vr_3 ) ; vr_9 . vr_10 = vr_17 ; MST[experimental.MemberVariableMutator]MSP[]
+public tp_5 fn_5 ( tp_4 vr_3 ) { this . vr_3 = vr_3 ; MST[experimental.MemberVariableMutator]MSP[] vr_3 . vr_9 = this ; return this ; }
+public static List < vt_1 > fn_11 ( String vr_18 , String vr_2 ) { tp_7 vr_3 = new tp_7 () ; MST[ConstructorCallMutator]MSP[]
+return vr_3 . vr_8 ( vr_6 , vr_7 , vr_2 , this ) ; } public tp_4 fn_4 () { return vr_3 ; MST[ReturnValsMutator]MSP[] }
+public tp_5 fn_5 ( tp_4 vr_3 ) { this . vr_3 = vr_3 ; vr_3 . vr_9 = this ; return this ; MST[NullReturnValsMutator]MSP[] }
+public tp_5 fn_5 ( tp_4 vr_3 ) { this . vr_3 = vr_3 ; vr_3 . vr_9 = this ; return this ; MST[ReturnValsMutator]MSP[] }
+return vr_3 . vr_8 ( vr_18 , vr_2 , new tp_5 ( vr_3 ) ) ; MST[NonVoidMethodCallMutator]MSP[] }
+return vr_3 . vr_8 ( vr_16 , vr_7 , vr_2 , vr_9 ) ; MST[NonVoidMethodCallMutator]MSP[] }
+return vr_3 . vr_8 ( vr_6 , vr_7 , vr_2 , this ) ; } public tp_4 fn_4 () { return vr_3 ; MST[NullReturnValsMutator]MSP[] }

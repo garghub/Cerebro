@@ -1,0 +1,8 @@
+public Integer fn_1 ( final tp_1 vr_1 , final tp_1 vr_2 ) { if ( vr_1 == null || vr_2 == null ) {
+throw new IllegalArgumentException ( lr_1 ) ; } final String vr_3 = vr_1 . toString () . fn_2 ( vl_1 ) ;
+final String vr_4 = vr_2 . toString () . fn_2 ( vl_1 ) ; int vr_5 = 0 ; int vr_6 = 0 ;
+int vr_7 = Integer . vr_8 ; for ( int vr_9 = 0 ; vr_9 < vr_4 . length () ; vr_9 ++ ) {
+final char vr_10 = vr_4 . charAt ( vr_9 ) ; boolean vr_11 = false ; for (; vr_6 < vr_3 . length ()
+&& ! vr_11 ; vr_6 ++ ) { final char vr_12 = vr_3 . charAt ( vr_6 ) ;
+if ( vr_10 == vr_12 ) { vr_5 ++ ; if ( vr_7 + 1 == vr_6 ) { vr_5 += 2 ; }
+vr_7 = vr_6 ; vr_11 = true ; } } } return vr_5 ; } public tp_2 fn_3 () { return vl_1 ; }

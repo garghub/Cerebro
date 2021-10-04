@@ -1,0 +1,15 @@
+public static String [] [] fn_1 () { return fn_1 . vr_1 () ; }
+public static String [] [] fn_2 () { return fn_2 . vr_1 () ; }
+public static String [] [] fn_3 () { return fn_3 . vr_1 () ; }
+public static String [] [] fn_4 () { return fn_4 . vr_1 () ; }
+public static String [] [] fn_5 () { return fn_5 . vr_1 () ; }
+public static String [] [] fn_6 () { return fn_6 . vr_1 () ; }
+public static String [] [] fn_7 () { return fn_7 . vr_1 () ; }
+public static String [] [] fn_8 () { return fn_8 . vr_1 () ; }
+public static String [] [] fn_9 () { return fn_9 . vr_1 () ; }
+public static String [] [] fn_10 () { return fn_10 . vr_1 () ; }
+public static String [] [] fn_11 ( final String [] [] array ) {
+final String [] [] vr_2 = new String [ array . length ] [ 2 ] ;
+for( int vr_3 = 0 ; vr_3 < array . length ; vr_3 ++ ) {
+vr_2 [ vr_3 ] [ 0 ] = array [ vr_3 ] [ 1 ] ;
+vr_2 [ vr_3 ] [ 1 ] = array [ vr_3 ] [ 0 ] ; } return vr_2 ; }

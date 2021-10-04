@@ -1,0 +1,7 @@
+@Override public int fn_1 ( final tp_1 vr_1 , final tp_1 vr_2 ) { int vr_3 = 0 ;
+for ( final vr_4 < tp_1 > vr_5 : vl_1 ) { vr_3 = vr_5 . fn_1 ( vr_1 , vr_2 ) ;
+if ( vr_3 != 0 ) { break; } } return vr_3 ; } @Override public String toString () {
+final StringBuilder builder = new StringBuilder () ; builder . append ( super . toString () ) ; builder . append ( '{' ) ;
+for ( int vr_6 = 0 ; vr_6 < vl_1 . length ; vr_6 ++ ) { if ( vr_6 > 0 ) {
+builder . append ( ',' ) ; } builder . append ( vl_1 [ vr_6 ] ) ; }
+builder . append ( '}' ) ; return builder . toString () ; }

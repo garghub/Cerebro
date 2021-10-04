@@ -1,0 +1,2 @@
+public boolean isCauseOf ( final Throwable exception ) { return TaggedIOException . isTaggedWith ( exception , tag ) ; } public void throwIfCauseOf ( final Throwable throwable ) throws IOException { TaggedIOException . throwCauseIfTaggedWith ( throwable , tag ) ; } @Override
+protected void handleIOException ( final IOException e ) throws IOException { throw new TaggedIOException ( e , tag ) ; }

@@ -1,0 +1,15 @@
+static tp_1 fn_1 ( tp_2 vr_1 ) { if ( vr_1 instanceof vl_1 ) { return ( tp_1 ) vr_1 ; }
+if ( vr_1 == null ) { return null ; } return new fn_2 ( vr_1 ) ; } tp_2 fn_3 () {
+return vr_1 ; } public int fn_4 () { return vr_1 . fn_4 () ; }
+public void fn_5 ( tp_3 vr_2 , long vr_3 , tp_4 vr_4 , int vr_5 , tp_5 vr_6 , tp_6 vr_7 ) throws IOException {
+if ( vr_2 instanceof vl_2 ) { vl_2 vr_8 = ( vl_2 ) vr_2 ;
+vr_1 . fn_5 ( vr_8 , vr_3 , vr_4 , vr_5 , vr_6 , vr_7 ) ;
+} else if ( vr_2 instanceof vl_3 ) { vl_3 out = ( vl_3 ) vr_2 ;
+vr_1 . fn_5 ( out , vr_3 , vr_4 , vr_5 , vr_6 , vr_7 ) ; } else {
+vl_2 vr_8 = new vl_2 ( fn_4 () ) ;
+vr_1 . fn_5 ( vr_8 , vr_3 , vr_4 , vr_5 , vr_6 , vr_7 ) ; vr_2 . append ( vr_8 ) ; }
+} public void fn_5 ( tp_3 vr_2 , tp_7 vr_9 , tp_6 vr_7 ) throws IOException { if ( vr_2 instanceof vl_2 ) {
+vl_2 vr_8 = ( vl_2 ) vr_2 ; vr_1 . fn_5 ( vr_8 , vr_9 , vr_7 ) ;
+} else if ( vr_2 instanceof vl_3 ) { vl_3 out = ( vl_3 ) vr_2 ;
+vr_1 . fn_5 ( out , vr_9 , vr_7 ) ; } else { vl_2 vr_8 = new vl_2 ( fn_4 () ) ;
+vr_1 . fn_5 ( vr_8 , vr_9 , vr_7 ) ; vr_2 . append ( vr_8 ) ; } }

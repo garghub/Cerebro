@@ -1,0 +1,10 @@
+@Override public FTPFile parseFTPEntry ( final String entry ) { final FTPFile file = new FTPFile () ; file . setRawListing ( entry ) ; if ( matches ( entry ) ) { final String usr = group ( 14 ) ;
+final String grp = group ( 15 ) ; final String filesize = group ( 16 ) ; final String mo = group ( 17 ) ; final String da = group ( 18 ) ; final String yr = group ( 20 ) ;
+final String hr = group ( 21 ) ; final String min = group ( 22 ) ; final String name = group ( 23 ) ; file . setType ( FTPFile . FILE_TYPE ) ; file . setUser ( usr ) ; file . setGroup ( grp ) ;
+try { file . setSize ( Long . parseLong ( filesize ) ) ; } catch ( final NumberFormatException e ) { } final Calendar cal = Calendar . getInstance () ; cal . set ( Calendar . MILLISECOND , 0 ) ;
+cal . set ( Calendar . SECOND , 0 ) ; cal . set ( Calendar . MINUTE , 0 ) ; cal . set ( Calendar . HOUR_OF_DAY , 0 ) ; final int pos = MONTHS . indexOf ( mo ) ;
+final int month = pos / 4 ; final int missingUnit ; try { if ( yr != null ) { cal . set ( Calendar . YEAR , Integer . parseInt ( yr ) ) ; missingUnit = Calendar . HOUR_OF_DAY ; } else {
+missingUnit = Calendar . SECOND ; int year = cal . get ( Calendar . YEAR ) ; if ( cal . get ( Calendar . MONTH ) < month ) { year -- ; } cal . set ( Calendar . YEAR , year ) ;
+cal . set ( Calendar . HOUR_OF_DAY , Integer . parseInt ( hr ) ) ; cal . set ( Calendar . MINUTE , Integer . parseInt ( min ) ) ; } cal . set ( Calendar . MONTH , month ) ;
+cal . set ( Calendar . DAY_OF_MONTH , Integer . parseInt ( da ) ) ; cal . clear ( missingUnit ) ; file . setTimestamp ( cal ) ; } catch ( final NumberFormatException e ) { } file . setName ( name ) ; return file ; }
+return null ; }

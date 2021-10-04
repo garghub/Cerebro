@@ -1,0 +1,357 @@
+return i + 4 ; } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) MST[NonVoidMethodCallMutator]MSP[S] + lr_3 ) ; } return 0 ; }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR2Mutator]MSP[S] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[N]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[NegateConditionalsMutator]MSP[S] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR4Mutator]MSP[S] int i = 2 ;
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.AOD2Mutator]MSP[S] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.AOD1Mutator]MSP[S] int i = 2 ;
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.CRCR1Mutator]MSP[S] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.CRCR3Mutator]MSP[S] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+return i + 4 ; MST[rv.CRCR1Mutator]MSP[N] } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; out . write ( ( char ) value ) ; MST[rv.ABSMutator]MSP[N] } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; }
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.AOD1Mutator]MSP[N] try {
+return i + 4 ; MST[rv.CRCR3Mutator]MSP[N] } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.AOR4Mutator]MSP[N] try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.UOI1Mutator]MSP[N] try {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[InlineConstantMutator]MSP[S]
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.UOI3Mutator]MSP[N] try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.ABSMutator]MSP[N] try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.AOR2Mutator]MSP[N] try {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.AOD2Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; out . write ( ( char ) value ) ; } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; MST[experimental.NakedReceiverMutator]MSP[N] }
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; out . write ( ( char ) value ) ; } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; MST[NonVoidMethodCallMutator]MSP[N] }
+return i + 4 ; } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) MST[experimental.NakedReceiverMutator]MSP[N] + lr_3 ) ; } return 0 ; }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[ConditionalsBoundaryMutator]MSP[S] int i = 2 ;
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[S] int i = 2 ;
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[NegateConditionalsMutator]MSP[N] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.ABSMutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.AOD1Mutator]MSP[N]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.UOI3Mutator]MSP[N]
+return i + 4 ; MST[rv.CRCR5Mutator]MSP[N] } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.ABSMutator]MSP[N]
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.CRCR5Mutator]MSP[N] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; MST[InlineConstantMutator]MSP[N] out . write ( ( char ) value ) ; } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[InlineConstantMutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.UOI1Mutator]MSP[N]
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[InlineConstantMutator]MSP[N] try {
+return i + 4 ; MST[rv.AOD2Mutator]MSP[N] } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR6Mutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.ROR5Mutator]MSP[S] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.AOR2Mutator]MSP[N]
+return i + 4 ; MST[rv.AOR4Mutator]MSP[N] } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+return i + 4 ; } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) MST[NonVoidMethodCallMutator]MSP[N] + lr_3 ) ; } return 0 ; }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR3Mutator]MSP[N] int i = 2 ;
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; out . write ( ( char ) value ) ; MST[rv.UOI4Mutator]MSP[N] } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; }
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.AOR4Mutator]MSP[S] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; MST[NonVoidMethodCallMutator]MSP[N] out . write ( ( char ) value ) ; } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; }
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.ROR1Mutator]MSP[S] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.AOR3Mutator]MSP[S] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.CRCR2Mutator]MSP[S]
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.AOR1Mutator]MSP[S] int i = 2 ;
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.ROR1Mutator]MSP[N] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.UOI1Mutator]MSP[N] int i = 2 ;
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[MathMutator]MSP[S] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.ROR5Mutator]MSP[N] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.ABSMutator]MSP[S] try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.ROR2Mutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.UOI3Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.UOI4Mutator]MSP[N] try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.UOI3Mutator]MSP[N] try {
+return i + 4 ; } throw new IllegalArgumentException ( lr_2 MST[rv.UOI2Mutator]MSP[N] + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[S]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.AOD2Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.AOR1Mutator]MSP[N] try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[NonVoidMethodCallMutator]MSP[N] int i = 2 ;
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.AOR3Mutator]MSP[N] try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.UOI4Mutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[NonVoidMethodCallMutator]MSP[S]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.ROR3Mutator]MSP[N]
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; MST[ArgumentPropagationMutator]MSP[N] out . write ( ( char ) value ) ; } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; }
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; MST[rv.CRCR2Mutator]MSP[N] out . write ( ( char ) value ) ; } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; }
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.UOI2Mutator]MSP[N] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[MathMutator]MSP[N] try {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.UOI1Mutator]MSP[N]
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.CRCR2Mutator]MSP[N] try {
+return i + 4 ; } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) MST[ConstructorCallMutator]MSP[S] + lr_3 ) ; } return 0 ; }
+return i + 4 ; } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; MST[InlineConstantMutator]MSP[N] }
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.ABSMutator]MSP[N]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.UOI4Mutator]MSP[N]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.UOI1Mutator]MSP[N]
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR2Mutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.AOR1Mutator]MSP[N]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.ROR2Mutator]MSP[S]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.ABSMutator]MSP[N]
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.AOD1Mutator]MSP[S] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[NonVoidMethodCallMutator]MSP[N] try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR5Mutator]MSP[N] int i = 2 ;
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.CRCR5Mutator]MSP[N] try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { int i = 2 ; MST[rv.CRCR6Mutator]MSP[N]
+return i + 4 ; MST[PrimitiveReturnsMutator]MSP[N] } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.ABSMutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.ROR5Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; MST[rv.CRCR5Mutator]MSP[N] out . write ( ( char ) value ) ; } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; }
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N]
+return i + 4 ; } throw new IllegalArgumentException ( lr_2 MST[rv.ABSMutator]MSP[S] + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.UOI1Mutator]MSP[N] try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.AOD1Mutator]MSP[N] try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[NonVoidMethodCallMutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.CRCR6Mutator]MSP[S] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.ROR4Mutator]MSP[N] int i = 2 ;
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.AOR3Mutator]MSP[N] int i = 2 ;
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.UOI3Mutator]MSP[N] try {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.ROR1Mutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.AOR4Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+return i + 4 ; } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) MST[experimental.NakedReceiverMutator]MSP[N] + lr_3 ) ; } return 0 ; }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.UOI3Mutator]MSP[N] int i = 2 ;
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; out . write ( ( char ) value ) ; } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; MST[NonVoidMethodCallMutator]MSP[N] }
+return i + 4 ; } throw new IllegalArgumentException ( lr_2 MST[rv.UOI4Mutator]MSP[N] + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+return i + 4 ; } throw new IllegalArgumentException ( lr_2 MST[experimental.NakedReceiverMutator]MSP[N] + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.AOR2Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.CRCR1Mutator]MSP[S] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.ROR4Mutator]MSP[S]
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.ABSMutator]MSP[S] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.UOI1Mutator]MSP[N] int i = 2 ;
+return i + 4 ; MST[InlineConstantMutator]MSP[N] } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[InlineConstantMutator]MSP[N] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.AOR1Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.UOI2Mutator]MSP[N] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.UOI4Mutator]MSP[N] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.ROR2Mutator]MSP[S] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.AOD2Mutator]MSP[N]
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; MST[rv.CRCR3Mutator]MSP[N] out . write ( ( char ) value ) ; } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; }
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.UOI1Mutator]MSP[N]
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR6Mutator]MSP[N] int i = 2 ;
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { int i = 2 ; MST[rv.CRCR1Mutator]MSP[N]
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR2Mutator]MSP[N] int i = 2 ;
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.CRCR3Mutator]MSP[N] try {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.UOI3Mutator]MSP[N]
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR3Mutator]MSP[N] int i = 2 ;
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR4Mutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[MathMutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.ROR1Mutator]MSP[S]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[NegateConditionalsMutator]MSP[N]
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR1Mutator]MSP[N] int i = 2 ;
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; out . write ( ( char ) value ) ; MST[rv.UOI1Mutator]MSP[N] } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR4Mutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.ROR3Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+return i + 4 ; MST[rv.AOR2Mutator]MSP[N] } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.AOR2Mutator]MSP[N] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+i ++ ; MST[experimental.RemoveIncrementsMutator]MSP[S] } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.AOD2Mutator]MSP[S] try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.AOR1Mutator]MSP[S] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.AOR4Mutator]MSP[S] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+return i + 4 ; } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; MST[rv.CRCR5Mutator]MSP[N] }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.ROR2Mutator]MSP[N] int i = 2 ;
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.ROR3Mutator]MSP[N] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.UOI1Mutator]MSP[N] try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.AOR3Mutator]MSP[S] int i = 2 ;
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[MathMutator]MSP[S] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[NegateConditionalsMutator]MSP[N] int i = 2 ;
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.ROR4Mutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[ConditionalsBoundaryMutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.UOI3Mutator]MSP[N] int i = 2 ;
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.AOR3Mutator]MSP[N] try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.UOI2Mutator]MSP[N] try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.AOR1Mutator]MSP[N] try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.AOR4Mutator]MSP[N] try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.UOI2Mutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.AOD1Mutator]MSP[S] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; MST[IncrementsMutator]MSP[S] } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; out . write ( ( char ) value ) ; } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; MST[NonVoidMethodCallMutator]MSP[N] }
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.CRCR4Mutator]MSP[S] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.ROR1Mutator]MSP[N]
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; out . write ( ( char ) value ) ; } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; MST[ConstructorCallMutator]MSP[N] }
+return i + 4 ; MST[rv.UOI2Mutator]MSP[N] } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.ROR5Mutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.CRCR5Mutator]MSP[S]
+return i + 4 ; MST[rv.CRCR6Mutator]MSP[N] } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.UOI4Mutator]MSP[N] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.AOR4Mutator]MSP[S] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[NegateConditionalsMutator]MSP[S]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[MathMutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.UOI3Mutator]MSP[N]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[NonVoidMethodCallMutator]MSP[S] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { int i = 2 ; MST[rv.CRCR4Mutator]MSP[N]
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.CRCR6Mutator]MSP[S] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.ROR4Mutator]MSP[N]
+return i + 4 ; } throw new IllegalArgumentException ( lr_2 MST[ConstructorCallMutator]MSP[S] + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.AOR3Mutator]MSP[N]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.UOI3Mutator]MSP[N]
+return i + 4 ; } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) MST[experimental.NakedReceiverMutator]MSP[N] + lr_3 ) ; } return 0 ; }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR3Mutator]MSP[S] int i = 2 ;
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.AOD1Mutator]MSP[S] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.ABSMutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[InlineConstantMutator]MSP[S] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+return i + 4 ; } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) MST[NonVoidMethodCallMutator]MSP[S] + lr_3 ) ; } return 0 ; }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR5Mutator]MSP[N] int i = 2 ;
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.AOD2Mutator]MSP[N] int i = 2 ;
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.CRCR4Mutator]MSP[S] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.CRCR2Mutator]MSP[S] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.AOD2Mutator]MSP[S] try {
+return i + 4 ; MST[rv.CRCR2Mutator]MSP[N] } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.AOR3Mutator]MSP[N] try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.ABSMutator]MSP[S] try {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.AOR1Mutator]MSP[N] try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.UOI4Mutator]MSP[N] try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.UOI2Mutator]MSP[N] try {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.AOD1Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[ConditionalsBoundaryMutator]MSP[N] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.UOI1Mutator]MSP[N] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[MathMutator]MSP[N] try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.UOI4Mutator]MSP[N] try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[NegateConditionalsMutator]MSP[N] int i = 2 ;
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.ABSMutator]MSP[N] int i = 2 ;
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.UOI3Mutator]MSP[N] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[N] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[RemoveConditionalMutator_ORDER_IF]MSP[S] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { int i = 2 ; MST[InlineConstantMutator]MSP[N]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.UOI1Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.ABSMutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.AOR3Mutator]MSP[S]
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR2Mutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[RemoveConditionalMutator_ORDER_ELSE]MSP[S] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+return i + 4 ; } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) MST[NonVoidMethodCallMutator]MSP[N] + lr_3 ) ; } return 0 ; }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.AOD2Mutator]MSP[N] int i = 2 ;
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.AOD1Mutator]MSP[N] try {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.ROR2Mutator]MSP[S] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.ABSMutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; out . write ( ( char ) value ) ; MST[rv.UOI3Mutator]MSP[N] } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; }
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.AOR2Mutator]MSP[S] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.CRCR3Mutator]MSP[S]
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.AOR1Mutator]MSP[S] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.ROR2Mutator]MSP[N] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.AOR4Mutator]MSP[S] int i = 2 ;
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; out . write ( ( char ) value ) ; } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; MST[ConstructorCallMutator]MSP[N] }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.UOI2Mutator]MSP[N] int i = 2 ;
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.ROR1Mutator]MSP[N] int i = 2 ;
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.ROR5Mutator]MSP[N] int i = 2 ;
+return i + 4 ; } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; MST[ReturnValsMutator]MSP[N] }
+return i + 4 ; } throw new IllegalArgumentException ( lr_2 MST[rv.UOI1Mutator]MSP[N] + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[NonVoidMethodCallMutator]MSP[N] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.AOR4Mutator]MSP[N] try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.UOI3Mutator]MSP[N] try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.AOR2Mutator]MSP[N] try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[S] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.CRCR2Mutator]MSP[S] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.AOR1Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.ABSMutator]MSP[S] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.UOI4Mutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.AOR2Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.ROR3Mutator]MSP[N] int i = 2 ;
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[InlineConstantMutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.AOD2Mutator]MSP[N]
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.UOI1Mutator]MSP[N] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.ROR3Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.UOI2Mutator]MSP[N]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[NonVoidMethodCallMutator]MSP[S] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+return i + 4 ; MST[rv.UOI4Mutator]MSP[N] } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { int i = 2 ; MST[rv.CRCR2Mutator]MSP[N]
+return i + 4 ; MST[rv.AOD1Mutator]MSP[N] } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] int i = 2 ;
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR5Mutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[MathMutator]MSP[N]
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR6Mutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.UOI1Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.CRCR6Mutator]MSP[N] try {
+return i + 4 ; } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) MST[NonVoidMethodCallMutator]MSP[S] + lr_3 ) ; } return 0 ; }
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[S]
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { int i = 2 ; MST[rv.CRCR5Mutator]MSP[N]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.ROR4Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.AOD2Mutator]MSP[N] try {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.UOI3Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.UOI1Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; MST[rv.CRCR6Mutator]MSP[N] out . write ( ( char ) value ) ; } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.AOR4Mutator]MSP[N] int i = 2 ;
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.ABSMutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.UOI3Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.AOR2Mutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.CRCR5Mutator]MSP[S] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.UOI4Mutator]MSP[N] try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.AOR1Mutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; out . write ( ( char ) value ) ; } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; MST[experimental.NakedReceiverMutator]MSP[N] }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.ROR2Mutator]MSP[N] int i = 2 ;
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.UOI2Mutator]MSP[N] try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.ROR5Mutator]MSP[N] int i = 2 ;
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.ROR3Mutator]MSP[S] int i = 2 ;
+return i + 4 ; } throw new IllegalArgumentException ( lr_2 MST[NonVoidMethodCallMutator]MSP[S] + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[MathMutator]MSP[N] try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[InlineConstantMutator]MSP[S] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.ROR2Mutator]MSP[N]
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[NegateConditionalsMutator]MSP[N] int i = 2 ;
+return i + 4 ; MST[rv.UOI1Mutator]MSP[N] } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.CRCR3Mutator]MSP[S] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[MathMutator]MSP[S] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.CRCR6Mutator]MSP[S]
+return i + 4 ; MST[rv.UOI3Mutator]MSP[N] } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; out . write ( ( char ) value ) ; MST[VoidMethodCallMutator]MSP[N] } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.ROR4Mutator]MSP[N] int i = 2 ;
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; MST[rv.CRCR1Mutator]MSP[N] out . write ( ( char ) value ) ; } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.UOI1Mutator]MSP[N] int i = 2 ;
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.UOI3Mutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.AOR3Mutator]MSP[S] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[RemoveConditionalMutator_EQUAL_ELSE]MSP[N] int i = 2 ;
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR1Mutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.UOI4Mutator]MSP[N]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.UOI2Mutator]MSP[N]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.UOI2Mutator]MSP[N]
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.CRCR1Mutator]MSP[N] try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { int i = 2 ; MST[rv.CRCR3Mutator]MSP[N]
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[RemoveConditionalMutator_EQUAL_IF]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.AOR2Mutator]MSP[N]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.UOI4Mutator]MSP[N]
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.AOD2Mutator]MSP[S] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[experimental.NakedReceiverMutator]MSP[N] try {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.ABSMutator]MSP[N]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.AOR4Mutator]MSP[N]
+return i + 4 ; MST[ReturnValsMutator]MSP[N] } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.ROR5Mutator]MSP[S]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.ROR3Mutator]MSP[N]
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[NonVoidMethodCallMutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.AOR1Mutator]MSP[N]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[NegateConditionalsMutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+return i + 4 ; MST[rv.AOR3Mutator]MSP[N] } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.UOI1Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[MathMutator]MSP[N]
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR5Mutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.ROR4Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.CRCR1Mutator]MSP[S]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[ConditionalsBoundaryMutator]MSP[N]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.UOI3Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.AOR3Mutator]MSP[S] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; out . write ( ( char ) value ) ; MST[rv.UOI2Mutator]MSP[N] } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.AOD1Mutator]MSP[N] int i = 2 ;
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; MST[NonVoidMethodCallMutator]MSP[N] out . write ( ( char ) value ) ; } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; }
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.ROR1Mutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.CRCR4Mutator]MSP[S]
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.AOR2Mutator]MSP[S] int i = 2 ;
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.ABSMutator]MSP[N] try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.ROR4Mutator]MSP[N] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.UOI1Mutator]MSP[N] try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.ROR3Mutator]MSP[S] int i = 2 ;
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.UOI4Mutator]MSP[N] int i = 2 ;
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.AOR2Mutator]MSP[N] try {
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.UOI2Mutator]MSP[N] try {
+return i + 4 ; } throw new IllegalArgumentException ( lr_2 MST[rv.UOI3Mutator]MSP[N] + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; }
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.AOR3Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.ROR5Mutator]MSP[N]
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.UOI2Mutator]MSP[N] int i = 2 ;
+return i + 4 ; } throw new IllegalArgumentException ( lr_2 + input . subSequence ( index , input . length () ) + lr_3 ) ; } return 0 ; MST[rv.CRCR1Mutator]MSP[N] }
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[NonVoidMethodCallMutator]MSP[S]
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[MathMutator]MSP[N] int i = 2 ;
+i ++ ; } if ( index + i + 4 <= input . length () ) { MST[rv.UOI3Mutator]MSP[N] final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+i ++ ; MST[IncrementsMutator]MSP[S] } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; try {
+final int value = Integer . parseInt ( unicode . toString () , 16 ) ; MST[rv.CRCR4Mutator]MSP[N] out . write ( ( char ) value ) ; } catch ( final NumberFormatException nfe ) { throw new IllegalArgumentException ( lr_1 + unicode , nfe ) ; }
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { MST[rv.ROR1Mutator]MSP[N] i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) {
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.UOI4Mutator]MSP[N]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.AOD1Mutator]MSP[S]
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR6Mutator]MSP[S] int i = 2 ;
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[InlineConstantMutator]MSP[N] int i = 2 ;
+i ++ ; } if ( index + i + 4 <= input . length () ) { final CharSequence unicode = input . subSequence ( index + i , index + i + 4 ) ; MST[rv.CRCR4Mutator]MSP[N] try {
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR4Mutator]MSP[N] int i = 2 ;
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.AOR4Mutator]MSP[S]
+while ( index + i < input . length () && input . charAt ( index + i ) == 'u' ) { i ++ ; } if ( index + i < input . length () && input . charAt ( index + i ) == '+' ) { MST[rv.UOI2Mutator]MSP[N]
+if ( input . charAt ( index ) == '\\' && index + 1 < input . length () && input . charAt ( index + 1 ) == 'u' ) { MST[rv.CRCR3Mutator]MSP[N] int i = 2 ;

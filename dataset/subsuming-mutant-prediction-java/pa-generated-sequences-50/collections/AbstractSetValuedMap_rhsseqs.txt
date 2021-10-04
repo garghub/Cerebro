@@ -1,0 +1,9 @@
+return wrappedCollection ( key ) ; } @Override Set < V > wrappedCollection ( final K key ) { return new WrappedSet ( key ) ; MST[ReturnValsMutator]MSP[S] } @Override public Set < V > remove ( final Object key ) {
+@Override @SuppressWarnings ( lr_1 ) protected Map < K , Set < V > > getMap () { return ( Map < K , Set < V > > ) super . getMap () ; MST[NonVoidMethodCallMutator]MSP[N] } @Override public Set < V > get ( final K key ) {
+return wrappedCollection ( key ) ; MST[NonVoidMethodCallMutator]MSP[S] } @Override Set < V > wrappedCollection ( final K key ) { return new WrappedSet ( key ) ; } @Override public Set < V > remove ( final Object key ) {
+return wrappedCollection ( key ) ; MST[EmptyObjectReturnValsMutator]MSP[N] } @Override Set < V > wrappedCollection ( final K key ) { return new WrappedSet ( key ) ; } @Override public Set < V > remove ( final Object key ) {
+@Override @SuppressWarnings ( lr_1 ) protected Map < K , Set < V > > getMap () { return ( Map < K , Set < V > > ) super . getMap () ; MST[NullReturnValsMutator]MSP[N] } @Override public Set < V > get ( final K key ) {
+return wrappedCollection ( key ) ; } @Override Set < V > wrappedCollection ( final K key ) { return new WrappedSet ( key ) ; MST[EmptyObjectReturnValsMutator]MSP[N] } @Override public Set < V > remove ( final Object key ) {
+@Override @SuppressWarnings ( lr_1 ) protected Map < K , Set < V > > getMap () { return ( Map < K , Set < V > > ) super . getMap () ; MST[ReturnValsMutator]MSP[N] } @Override public Set < V > get ( final K key ) {
+return wrappedCollection ( key ) ; MST[ReturnValsMutator]MSP[S] } @Override Set < V > wrappedCollection ( final K key ) { return new WrappedSet ( key ) ; } @Override public Set < V > remove ( final Object key ) {
+return wrappedCollection ( key ) ; } @Override Set < V > wrappedCollection ( final K key ) { return new WrappedSet ( key ) ; MST[ConstructorCallMutator]MSP[S] } @Override public Set < V > remove ( final Object key ) {
