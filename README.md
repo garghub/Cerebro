@@ -19,7 +19,7 @@ with mappings between _Sequence File Indexes_ and _Mutant IDs_, and _Sequences_ 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Tools that we require before executing the code:
+Tools/dependencies that we require before executing the code:
 
 1. Apache Maven ( available here: https://maven.apache.org/download.cgi )
 2. srcML ( available here: https://www.srcml.org/ )
@@ -79,7 +79,19 @@ values for [language], [sequence-length], and [abstraction-level] follow the sam
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Tools that we require to train/test the models:
+Where to find trained models in the repo?
+
+the trained models are available as below:
+
+dataset/subsuming-mutant-prediction-[language]/smp/smp-[language]-[sequence-length]-[fold#]/model
+
+e.g. model trained for java projects with abstracted sequences of length 100 is available below:
+
+dataset/subsuming-mutant-prediction-java/smp/smp-java-100-01/model
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Tools/dependencies that we require to train/test the models:
 
 1. seq2seq ( available here: https://google.github.io/seq2seq/getting_started/#download-setup )
 2. Tkinter (available here: https://docs.python.org/3.8/library/tkinter.html )
