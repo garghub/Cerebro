@@ -1,6 +1,10 @@
 # *Cerebro: Static Subsuming Mutant Selection*
 
-This repo contains the code, data set and trained models for the paper _Cerebro: Static Subsuming Mutant Selection_, submitted in _IEEE Transactions on Software Engineering (TSE)_.
+This repo contains the code, data set and trained models for the paper _Cerebro: Static Subsuming Mutant Selection_, published in _IEEE Transactions on Software Engineering (TSE)_. 
+
+The paper is available here: [![Paper](https://img.shields.io/badge/Paper-IEEE-blue)](https://ieeexplore.ieee.org/document/9677967)
+
+The bib entry for citing the paper is available here: [![Cite](https://img.shields.io/badge/Cite-BibTex-green.svg)](cerebro.bib)
 
 The dataset is composed of the following:
 
