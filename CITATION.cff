@@ -1,10 +1,41 @@
-@article{Garg_2022,
-    doi = {10.1109/tse.2022.3140510},
-    url = {https://doi.org/10.1109%2Ftse.2022.3140510},
-    year = {2022},
-    publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
-    pages = {1--1},
-    author = {Aayush Garg and Milos Ojdanic and Renzo Degiovanni and Thierry Titcheu Chekam and Mike Papadakis and Yves Le Traon},
-    title = {Cerebro: Static Subsuming Mutant Selection},
-    journal = {{IEEE} Transactions on Software Engineering}
-} 
+cff-version: 1.2.0
+title: Cerebro
+message: >-
+  Please cite this software using these metadata.
+type: dataset
+authors:
+- given-names: Aayush
+  family-names: Garg
+- given-names: Milos
+  family-names: Ojdanic
+- given-names: Renzo
+  family-names: Degiovanni
+- given-names: Thierry
+  family-names: Titcheu Chekam
+- given-names: Mike
+  family-names: Papadakis
+- given-names: Yves
+  family-names: Le Traon
+repository-code: 'https://github.com/garghub/Cerebro'
+preferred-citation:
+  doi: 10.1109/TSE.2022.3140510
+  status: advance-online
+  title: "Cerebro: Static Subsuming Mutant Selection"
+  year: 2022
+  volume: 1
+  number: 1
+  authors:
+  - given-names: Aayush
+    family-names: Garg
+  - given-names: Milos
+    family-names: Ojdanic
+  - given-names: Renzo
+    family-names: Degiovanni
+  - given-names: Thierry
+    family-names: Titcheu Chekam
+  - given-names: Mike
+    family-names: Papadakis
+  - given-names: Yves
+    family-names: Le Traon
+  type: conference-paper
+  url: https://doi.org/10.1109/TSE.2022.3140510
